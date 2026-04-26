@@ -1,0 +1,27 @@
+﻿[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "studyos"
+version = "0.1.0"
+description = "Local-first learning OS for exam prep and research workflows."
+readme = "README.studyos.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Open Source Contributors" }
+]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+studyos = "studyos.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+studyos = ["assets/packs/**/*.yaml", "assets/packs/**/session-templates/*.md"]

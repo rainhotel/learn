@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learn for Mastery"
+  short_description: "Build mastery roadmaps and dual-audience study notes."
+  default_prompt: "Use $learn-for-mastery to turn this topic into a mastery roadmap and organize notes for humans and AI."

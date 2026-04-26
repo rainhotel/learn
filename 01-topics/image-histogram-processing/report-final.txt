@@ -1,0 +1,82 @@
+﻿直方图处理实验报告（终稿可粘贴版）
+
+实验（实习）名称：直方图处理
+实验（实习）日期：2026.4.2
+指导教师：范春年
+学院：计算机学院
+专业：计算机科学与技术
+年级：2024
+班级：4
+姓名：李林浩
+学号：202483290054
+
+一、实验目的
+1. 了解直方图的性质和应用，理解图像二值化的原理并掌握其算法实现。
+2. 掌握直方图均衡化、规定化算法的原理及实现。
+3. 了解自适应直方图均衡化算法及其应用。
+
+二、实验内容与结果分析
+1. 利用直方图特性人工选择阈值进行二值化
+首先读取 eight.tif、rice.png 和 Fig0338(a)(blurry_moon) 三幅图像，并同屏显示原图、原图直方图和二值化结果。根据直方图分布与视觉效果，人工阈值分别选为：eight.tif 为 0.500，rice.png 为 0.350，Fig0338(a)(blurry_moon) 为 0.450。
+从结果可见，eight.tif 能较好分离硬币和背景，但硬币内部仍有少量噪点；rice.png 能分出大部分米粒，但背景噪声较多；blurry_moon 图像边缘模糊，人工阈值选择主观性较强。实验说明：人工阈值法直观易用，但对经验依赖明显，鲁棒性一般。
+
+2. graythresh 函数与 Otsu 阈值对比
+graythresh(I) 基于 Otsu 最大类间方差法，输出 [0,1] 的归一化阈值。实验得到三幅图像 Otsu 阈值为：eight.tif 为 0.649，rice.png 为 0.514，Fig0338(a)(blurry_moon) 为 0.275。
+与人工阈值比较如下：
+图像名称：eight.tif；人工阈值：0.500；Otsu阈值：0.649；结果对比：Otsu 结果更干净，硬币边界更完整。
+图像名称：rice.png；人工阈值：0.350；Otsu阈值：0.514；结果对比：Otsu 分割更准确，背景噪声更少。
+图像名称：Fig0338(a)(blurry_moon)；人工阈值：0.450；Otsu阈值：0.275；结果对比：Otsu 对月亮主体保留更稳定。
+综合来看，Otsu 法自动化程度高、稳定性好，在本实验中整体优于人工阈值法。
+
+3. Matlab 手写实现直方图均衡化（不用 histeq）
+使用 pout.tif，先统计直方图并归一化，再计算累计分布函数 CDF，最后根据映射表完成灰度变换。处理后图像对比度明显增强，人物头发、衣物褶皱和背景纹理更清晰；后直方图分布范围更宽，灰度利用更充分。
+说明手写均衡化实现正确，能够提升整体对比度。但均衡化后也可能放大局部噪声，视觉风格会发生变化。
+
+4. 直方图规定化（目标直方图为 Fig0809(a)）
+使用 histeq(I, hgram) 以 Fig0809(a) 的直方图作为目标分布，对 pout.tif 进行规定化。结果显示：规定化后图像灰度层次明显改变，风格向目标分布靠拢；后直方图总体趋势接近目标直方图，但不可能完全一致。
+这表明规定化是“按目标分布做映射”，不同于均衡化“追求更均匀分布”的目的。
+
+5. 自适应直方图均衡化（CLAHE）
+查询 Matlab 函数 adapthisteq 并进行实验。相较全局均衡化，CLAHE 能更好增强局部细节。实验中人物头发、衣服纹理、背景网格细节均更清晰；后直方图更平滑，灰度覆盖更广。由于使用限制对比度机制，噪声增强可控。
+结论：CLAHE 更适合亮度不均、局部细节不足的图像增强场景。
+
+三、关键算法代码
+1. 人工阈值与 Otsu 二值化
+I = im2double(imread('rice.png'));
+manualThreshold = 0.35;
+BW_manual = imbinarize(I, manualThreshold);
+level = graythresh(I);
+BW_otsu = imbinarize(I, level);
+
+2. 手写直方图均衡化
+function [J, map, cdfValues] = my_histeq_gray(I)
+    Iu = im2uint8(I);
+    counts = imhist(Iu, 256);
+    cdfValues = cumsum(counts) / numel(Iu);
+    map = uint8(round(255 * cdfValues));
+    J = map(double(Iu) + 1);
+end
+
+3. 直方图规定化
+sourceUint8 = im2uint8(I_pout);
+refUint8 = im2uint8(I_ref);
+targetHist = imhist(refUint8, 256);
+J_spec = histeq(sourceUint8, targetHist);
+
+4. CLAHE
+J_clahe = adapthisteq(sourceUint8, 'ClipLimit', 0.01, 'NumTiles', [8 8]);
+
+四、实验总结与体会
+通过本次实验，我系统理解了直方图在图像分割与图像增强中的作用。人工阈值法简单直观，但依赖经验；Otsu 法自动阈值稳定性更好。手写均衡化让我真正掌握了 CDF 映射原理，也认识到均衡化并非“万能增强”。规定化实验帮助我明确了“均衡化”和“规定化”的本质差异。CLAHE 实验则体现了局部增强在细节恢复方面的优势。
+总体而言，本次实验提升了我在 Matlab 环境下进行图像处理算法实现、效果分析和实验报告组织的能力。后续可进一步结合形态学处理和局部阈值分割，提升复杂场景下的分割效果。
+
+附：截图插图顺序
+图1(a)：实验1-eight.tif
+图1(b)：实验1-rice.png
+图1(c)：实验1-Fig0338(a)(blurry_moon)
+图2(a)：实验2-eight.tif
+图2(b)：实验2-rice.png
+图2(c)：实验2-Fig0338(a)(blurry_moon)
+图3：实验3-手写均衡化
+图4：实验4-直方图规定化
+图5：实验5-CLAHE

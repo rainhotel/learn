@@ -1,0 +1,11 @@
+﻿{
+  "name": "gaokao-math",
+  "kind": "exam",
+  "display_name": "高考数学",
+  "description": "面向中国高考数学的一轮与二轮复习。",
+  "default_stage": "foundation",
+  "review_cadence": "weekly",
+  "topic_taxonomy": ["函数", "数列", "解析几何", "立体几何", "概率统计"],
+  "problem_types": ["选择题", "填空题", "解答题", "压轴题"],
+  "session_modes": ["learn", "solve", "review"]
+}

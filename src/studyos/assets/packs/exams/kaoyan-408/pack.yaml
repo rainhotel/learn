@@ -1,0 +1,11 @@
+﻿{
+  "name": "kaoyan-408",
+  "kind": "exam",
+  "display_name": "考研 408",
+  "description": "面向考研 408 计算机学科专业基础综合。",
+  "default_stage": "foundation",
+  "review_cadence": "weekly",
+  "topic_taxonomy": ["数据结构", "计算机组成原理", "操作系统", "计算机网络"],
+  "problem_types": ["单选题", "综合题", "计算题"],
+  "session_modes": ["learn", "solve", "review"]
+}

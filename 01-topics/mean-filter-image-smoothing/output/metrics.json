@@ -1,0 +1,83 @@
+{
+  "task1": {
+    "size_3_sigma_1.0": {
+      "psnr_vs_orig": 18.9681,
+      "mse_vs_orig": 0.012682
+    },
+    "size_5_sigma_1.0": {
+      "psnr_vs_orig": 18.7254,
+      "mse_vs_orig": 0.013411
+    },
+    "size_7_sigma_1.0": {
+      "psnr_vs_orig": 18.6926,
+      "mse_vs_orig": 0.013513
+    },
+    "size_5_sigma_0.6": {
+      "psnr_vs_orig": 19.1493,
+      "mse_vs_orig": 0.012164
+    },
+    "size_5_sigma_1.6": {
+      "psnr_vs_orig": 18.2876,
+      "mse_vs_orig": 0.014833
+    }
+  },
+  "task2": {
+    "gaussian_psnr_vs_orig": 18.7254,
+    "bilateral_psnr_vs_orig": 19.3714
+  },
+  "task3": {
+    "variance_0.001": {
+      "noisy_psnr": 30.3104,
+      "arithmetic_psnr": 23.1258,
+      "weighted_psnr": 26.6877,
+      "gaussian_psnr": 27.1113
+    },
+    "variance_0.005": {
+      "noisy_psnr": 23.4637,
+      "arithmetic_psnr": 22.8277,
+      "weighted_psnr": 25.8775,
+      "gaussian_psnr": 26.1835
+    },
+    "variance_0.010": {
+      "noisy_psnr": 20.5761,
+      "arithmetic_psnr": 22.5166,
+      "weighted_psnr": 25.0875,
+      "gaussian_psnr": 25.2972
+    },
+    "arithmetic_size_compare": {
+      "size_3": 26.1302,
+      "size_5": 22.8405,
+      "size_7": 20.5397
+    },
+    "weighted_size_compare": {
+      "size_3": 27.3645,
+      "size_5": 25.8914,
+      "size_7": 24.6817
+    },
+    "gaussian_size_compare": {
+      "size_3": 27.0694,
+      "size_5": 26.1972,
+      "size_7": 26.0863
+    }
+  },
+  "task4": {
+    "arithmetic_psnr_vs_orig": 17.9002,
+    "geometric_psnr_vs_orig": 17.9439
+  },
+  "task5": {
+    "pepper": {
+      "Q_0.5": 22.2648,
+      "Q_1.5": 20.7082,
+      "Q_3.0": 20.1122
+    },
+    "salt": {
+      "Q_-0.5": 21.0877,
+      "Q_-1.5": 20.3278,
+      "Q_-3.0": 19.8219
+    }
+  },
+  "task6": {
+    "contra_harmonic_q": 1.5,
+    "image_note": "Fig0512(b) contains mixed noise, so contra-harmonic filtering cannot remove both salt and pepper artifacts simultaneously."
+  }
+}

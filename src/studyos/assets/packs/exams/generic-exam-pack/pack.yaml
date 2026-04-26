@@ -1,0 +1,11 @@
+﻿{
+  "name": "generic-exam-pack",
+  "kind": "exam",
+  "display_name": "Generic Exam Pack",
+  "description": "通用应试学习包，适合先验证章节、题型、错因、周计划闭环。",
+  "default_stage": "foundation",
+  "review_cadence": "weekly",
+  "topic_taxonomy": ["基础概念", "核心方法", "综合应用"],
+  "problem_types": ["概念题", "计算题", "综合题"],
+  "session_modes": ["learn", "solve", "review"]
+}

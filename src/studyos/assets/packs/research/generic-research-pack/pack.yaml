@@ -1,0 +1,11 @@
+﻿{
+  "name": "generic-research-pack",
+  "kind": "research",
+  "display_name": "Generic Research Pack",
+  "description": "适合发散型研究问题的本地研究工作流模板。",
+  "default_stage": "scoping",
+  "review_cadence": "weekly",
+  "phases": ["scoping", "reading", "synthesis", "conclusion", "followup"],
+  "evidence_dimensions": ["事实", "观点", "限制", "反例"],
+  "question_prompts": ["我到底在研究什么", "边界是什么", "证据来自哪里"]
+}
