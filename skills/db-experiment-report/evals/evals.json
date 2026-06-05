@@ -1,0 +1,46 @@
+{
+  "skill_name": "db-experiment-report",
+  "evals": [
+    {
+      "id": 1,
+      "name": "standard-experiment-report",
+      "prompt": "填写 3\\实验3.docx 并把结果存放在一个新的 docx 文件中。涉及到截图的只填写占位符。涉及到数据库内容的，使用如下连接：SQL Server，主机名为KMZ23，认证方法为Windows身份认证。只能查询，不能修改。",
+      "expected_output": "生成实验3_已完成.docx，包含12道题的SQL语句、查询结果文本、截图占位符，以及实验心得。同时生成实验3_content.md、SQLQuery1.sql~SQLQuery12.sql。",
+      "assertions": [
+        {"name": "output_docx_exists", "description": "生成的实验3_已完成.docx 文件存在且大于 10KB"},
+        {"name": "content_md_exists", "description": "实验3_content.md 提取文件存在且包含实验目的和题目"},
+        {"name": "sql_files_exist", "description": "至少生成 8 个以上 SQLQuery<N>.sql 文件"},
+        {"name": "docx_has_sql_sections", "description": "docx 中包含 'SQL查询语句' 文本"},
+        {"name": "docx_has_placeholder", "description": "docx 中包含 '[此处插入截图]' 占位符"},
+        {"name": "docx_has_summary", "description": "docx 中实验心得部分有实际内容，不仅限于标题"},
+        {"name": "readonly_enforced", "description": "所有 SQL 操作均为 SELECT，无 INSERT/UPDATE/DELETE"}
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "casual-instruction",
+      "prompt": "帮我把实验2的报告填一下，docx在 2\\202483290198周可名-实验2.docx。数据库连KMZ23，Windows认证，只能查不能改。截图我自己补，你帮我填SQL和查询结果就行。",
+      "expected_output": "识别实验2.docx的结构，连接KMZ23找到正确数据库，完成所有题目的SQL查询，生成已完成的docx。",
+      "assertions": [
+        {"name": "output_docx_exists", "description": "生成的已完成 docx 文件存在"},
+        {"name": "db_discovered", "description": "正确连接到 SQL Server 并发现了正确的数据库"},
+        {"name": "sql_files_exist", "description": "生成了 SQLQuery<N>.sql 文件"},
+        {"name": "casual_language_handled", "description": "技能正确处理了口语化指令如'帮我把'、'填一下'"}
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "should-not-trigger-non-db-experiment",
+      "prompt": "帮我完成操作系统实验报告，实验内容是进程调度。docx在 3\\os实验3.docx，把实验目的和步骤整理成markdown。",
+      "expected_output": "技能不应触发，因为这是操作系统实验而非数据库实验。应使用常规方式处理。",
+      "assertions": [
+        {"name": "skill_not_triggered", "description": "技能识别出此任务不适用于数据库实验报告场景"},
+        {"name": "no_db_connection", "description": "未尝试连接 SQL Server 数据库"},
+        {"name": "appropriate_response", "description": "给出了合理的响应（说明文件不存在或进行非数据库处理）"}
+      ],
+      "files": []
+    }
+  ]
+}
