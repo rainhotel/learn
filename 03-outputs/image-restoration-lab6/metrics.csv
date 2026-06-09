@@ -1,0 +1,10 @@
+task,variant,method,psnr,mse,cutoff,extra
+task3,turbulence,inverse,26.013398,0.002504,40,threshold=0.01
+task3,turbulence,wiener,26.434619,0.002273,60,K=0.0001
+task4,estimated,params,11.789777,0.066225,80,len=10;theta=135;K=0.001
+task4,noisiest,inverse,6.583758,0.219596,40,threshold=0.1
+task4,noisiest,wiener,5.944193,0.254437,60,K=0.003
+task4,medium,inverse,9.379854,0.115349,40,threshold=0.1
+task4,medium,wiener,8.048446,0.156731,60,K=0.003
+task4,least,inverse,11.796227,0.066127,40,threshold=0.1
+task4,least,wiener,11.798921,0.066086,60,K=0.003

@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-06-09 10:33:36",
+  "assumptions": {
+    "turbulence_k_for_restoration": 0.0025
+  },
+  "task1": {
+    "parameter_sets": [
+      [
+        0.05,
+        0.05,
+        1
+      ],
+      [
+        0.1,
+        0.1,
+        1
+      ],
+      [
+        0.15,
+        0.05,
+        1
+      ],
+      [
+        0.1,
+        0.2,
+        1.5
+      ]
+    ],
+    "image_file": "task1_motion_blur_demo.png",
+    "samples": [
+      {
+        "a": 0.05,
+        "b": 0.05,
+        "T": 1,
+        "mean_intensity": 0.54051259487499392,
+        "std_intensity": 0.31911185962335675
+      },
+      {
+        "a": 0.1,
+        "b": 0.1,
+        "T": 1,
+        "mean_intensity": 0.54051687938656279,
+        "std_intensity": 0.31910064801019883
+      },
+      {
+        "a": 0.15,
+        "b": 0.05,
+        "T": 1,
+        "mean_intensity": 0.54052271346248137,
+        "std_intensity": 0.31908806403923157
+      },
+      {
+        "a": 0.1,
+        "b": 0.2,
+        "T": 1.5,
+        "mean_intensity": 0.54052461928285311,
+        "std_intensity": 0.31906753598487492
+      }
+    ]
+  },
+  "task2": {
+    "k_values": [
+      0.0005,
+      0.0025,
+      0.005,
+      0.01,
+      0.05
+    ],
+    "image_file": "task2_turbulence_demo.png",
+    "samples": [
+      {
+        "k": 0.0005,
+        "mean_intensity": 0.39671660539215686,
+        "std_intensity": 0.12307711734191333
+      },
+      {
+        "k": 0.0025,
+        "mean_intensity": 0.39671660539215686,
+        "std_intensity": 0.10046622197914233
+      },
+      {
+        "k": 0.005,
+        "mean_intensity": 0.39671660539215686,
+        "std_intensity": 0.089860675092812731
+      },
+      {
+        "k": 0.01,
+        "mean_intensity": 0.39671660539215686,
+        "std_intensity": 0.07902954563599493
+      },
+      {
+        "k": 0.05,
+        "mean_intensity": 0.39671660539215686,
+        "std_intensity": 0.052985804552566365
+      }
+    ]
+  },
+  "task3": {
+    "k": 0.0025,
+    "image_file": "task3_turbulence_restoration.png",
+    "best_inverse": {
+      "psnr": 26.013397589159609,
+      "cutoff": 40,
+      "threshold": 0.01,
+      "mse": 0.002504149430787978
+    },
+    "best_wiener": {
+      "psnr": 26.434619386503204,
+      "cutoff": 60,
+      "K": 0.0001,
+      "mse": 0.0022726788029689892
+    }
+  },
+  "task4": {
+    "image_file": "task4_motion_noise_restoration.png",
+    "estimated_degradation": {
+      "psnr": 11.789776741430851,
+      "len": 10,
+      "theta": 135,
+      "cutoff": 80,
+      "K": 0.001,
+      "mse": 0.066225054726332444
+    },
+    "noisiest": {
+      "best_inverse": {
+        "psnr": 6.5837579016549093,
+        "cutoff": 40,
+        "threshold": 0.1,
+        "mse": 0.21959589117388592
+      },
+      "best_wiener": {
+        "psnr": 5.9441928765502823,
+        "cutoff": 60,
+        "K": 0.003,
+        "mse": 0.25443726133171485
+      }
+    },
+    "medium": {
+      "best_inverse": {
+        "psnr": 9.3798541234226054,
+        "cutoff": 40,
+        "threshold": 0.1,
+        "mse": 0.11534920021861207
+      },
+      "best_wiener": {
+        "psnr": 8.0484463869444074,
+        "cutoff": 60,
+        "K": 0.003,
+        "mse": 0.15673116483456587
+      }
+    },
+    "least": {
+      "best_inverse": {
+        "psnr": 11.796226794748545,
+        "cutoff": 40,
+        "threshold": 0.1,
+        "mse": 0.066126771624047079
+      },
+      "best_wiener": {
+        "psnr": 11.798921108807717,
+        "cutoff": 60,
+        "K": 0.003,
+        "mse": 0.066085760042472172
+      }
+    }
+  }
+}
