@@ -2,15 +2,16 @@
 
 ## Snapshot
 
-- Current phase: Lab scaffold and code preparation
-- Current level: Ready to execute
-- Last updated: 2026-04-02
+- Current phase: Real runs recorded and results archived
+- Current level: In progress
+- Last updated: 2026-06-11
 
 ## Milestones
 
 - [x] 建立实验主题目录
 - [x] 准备 Matlab 代码骨架
 - [ ] 完成三幅图像人工阈值二值化
+- [x] 完成额外 Otsu 阈值分割实例记录
 - [ ] 完成 `graythresh`/Otsu 对比分析
 - [ ] 完成手写直方图均衡化
 - [ ] 完成规定化与自适应均衡化
@@ -18,9 +19,9 @@
 
 ## Evidence Of Progress
 
-- 最近做对了什么：已经把实验拆成可直接执行的任务流
-- 最近真正理解了什么：直方图类方法本质上是在做灰度统计和映射
-- 最近能独立解释什么：人工阈值、Otsu、均衡化、规定化、CLAHE 的基本区别
+- 最近做对了什么：已经对两幅含噪七边形图像完成真实 Otsu 分割，并保存了对比图
+- 最近真正理解了什么：全局 Otsu 即使能找到主体，也会受噪声和亮度不均影响
+- 最近能独立解释什么：为什么 `Fig1040(a)` 和 `Fig1046(a)` 的误分模式不同
 
 ## Weak Spots
 
@@ -29,6 +30,6 @@
 
 ## Next Milestone
 
-- 下一个里程碑：跑通五个实验并保存截图
-- 达成标准：每个实验都有图、有结论、有一行分析
-- 最短路径：先跑 `histogram_lab.m`，再回填 `projects.md`
+- 下一个里程碑：把额外 Otsu 实验结论并入正式实验报告
+- 达成标准：报告中包含阈值数值、前后图像和误分原因分析
+- 最短路径：直接复用 `03-outputs/image-histogram-processing/report.md` 中的结果段落
