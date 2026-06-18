@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: modelmesh-gateway
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+modelmesh:
+  first-token-timeout: 2s
+  model-aliases:
+    gpt-4o-mini:
+      strategy: weighted_round_robin
+      channels:
+        - mock-a
+        - mock-b
+  channels:
+    mock-a:
+      provider: mock-openai
+      base-url: http://localhost:${server.port}/mock
+      model-name: mock-gpt-a
+      weight: 1
+      enabled: true
+    mock-b:
+      provider: mock-openai
+      base-url: http://localhost:${server.port}/mock
+      model-name: mock-gpt-b
+      weight: 1
+      enabled: true

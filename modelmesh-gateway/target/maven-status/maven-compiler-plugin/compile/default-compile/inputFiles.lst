@@ -1,0 +1,14 @@
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\api\ChatCompletionController.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\api\MockProviderController.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\config\ModelMeshProperties.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\core\ChannelSelector.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\core\GatewayException.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\core\GatewayService.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\core\ProviderClient.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\core\RoutedChannel.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\dto\ChatChoice.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\dto\ChatCompletionRequest.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\dto\ChatCompletionResponse.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\dto\ChatMessage.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\dto\Usage.java
+D:\moniC\project\learn\modelmesh-gateway\src\main\java\com\modelmesh\gateway\ModelMeshGatewayApplication.java

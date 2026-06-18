@@ -1,0 +1,16 @@
+com\modelmesh\gateway\dto\ChatCompletionResponse.class
+com\modelmesh\gateway\core\GatewayService.class
+com\modelmesh\gateway\config\ModelMeshProperties$ProviderChannel.class
+com\modelmesh\gateway\api\MockProviderController.class
+com\modelmesh\gateway\config\ModelMeshProperties.class
+com\modelmesh\gateway\core\GatewayException.class
+com\modelmesh\gateway\dto\Usage.class
+com\modelmesh\gateway\dto\ChatChoice.class
+com\modelmesh\gateway\core\ChannelSelector.class
+com\modelmesh\gateway\core\RoutedChannel.class
+com\modelmesh\gateway\ModelMeshGatewayApplication.class
+com\modelmesh\gateway\api\ChatCompletionController.class
+com\modelmesh\gateway\dto\ChatMessage.class
+com\modelmesh\gateway\dto\ChatCompletionRequest.class
+com\modelmesh\gateway\config\ModelMeshProperties$ModelAlias.class
+com\modelmesh\gateway\core\ProviderClient.class
