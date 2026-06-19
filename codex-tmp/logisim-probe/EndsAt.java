@@ -7,57 +7,36 @@ import com.cburch.logisim.file.LogisimFile;
 
 import java.io.File;
 import java.lang.reflect.Method;
-import java.util.Map;
 
-public class DumpEnds {
+public class EndsAt {
     private static String invoke(Object obj, String method) {
         try {
             Method m = obj.getClass().getMethod(method);
             m.setAccessible(true);
-            Object ret = m.invoke(obj);
-            return String.valueOf(ret);
+            return String.valueOf(m.invoke(obj));
         } catch (Exception e) {
             return "?";
         }
     }
 
-    private static boolean interesting(Component comp) {
-        String factory = String.valueOf(comp.getFactory());
-        String text = factory + " " + comp.getLocation();
-        return text.contains("硬布线控制器")
-                || text.contains("时序发生器")
-                || text.contains("Register")
-                || text.contains("ROM")
-                || text.contains("Buffer")
-                || text.contains("Pin")
-                || text.contains("Splitter")
-                || text.contains("Constant")
-                || text.contains("Tunnel");
-    }
-
     public static void main(String[] args) throws Exception {
-        if (args.length < 2) {
-            System.err.println("usage: DumpEnds file.circ circuit-name");
-            System.exit(2);
-        }
-
         Loader loader = new Loader(null);
         LogisimFile file = loader.openLogisimFile(new File(args[0]));
+        String circuitName = args[1];
+        int x = Integer.parseInt(args[2]);
+        int y = Integer.parseInt(args[3]);
         Circuit circuit = null;
         for (Circuit c : file.getCircuits()) {
-            if (c.getName().equals(args[1])) {
+            if (c.getName().equals(circuitName)) {
                 circuit = c;
                 break;
             }
         }
-        if (circuit == null) {
-            throw new IllegalArgumentException("No circuit named " + args[1]);
-        }
-
+        if (circuit == null) throw new IllegalArgumentException("No circuit " + circuitName);
+        Location target = Location.create(x, y);
         for (Component comp : circuit.getNonWires()) {
-            if (!interesting(comp)) continue;
-            Location loc = comp.getLocation();
-            System.out.println("COMP " + comp.getFactory() + " loc=" + loc);
+            if (!target.equals(comp.getLocation())) continue;
+            System.out.println("COMP " + comp.getFactory() + " loc=" + comp.getLocation());
             int index = 0;
             for (EndData end : comp.getEnds()) {
                 System.out.println("  end" + index
@@ -68,8 +47,6 @@ public class DumpEnds {
                         + " output=" + invoke(end, "isOutput"));
                 index++;
             }
-            Object attrs = comp.getAttributeSet();
-            System.out.println("  attrs=" + attrs);
         }
         System.exit(0);
     }

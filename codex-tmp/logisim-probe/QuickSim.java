@@ -59,5 +59,6 @@ public class QuickSim {
                     valueAt(state, 170, 410),
                     ramGet(state, circuit, 350, 280, 0x80));
         }
+        System.exit(0);
     }
 }

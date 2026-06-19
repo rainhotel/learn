@@ -73,6 +73,15 @@ public class SimInspect {
         return String.format("%08x", value);
     }
 
+    private static CircuitState substateNamed(CircuitState state, String namePart) {
+        for (CircuitState sub : state.getSubstates()) {
+            if (sub.getCircuit().getName().contains(namePart)) return sub;
+            CircuitState nested = substateNamed(sub, namePart);
+            if (nested != null) return nested;
+        }
+        return null;
+    }
+
     private static void printLine(int tick, CircuitState state, Circuit circuit) throws Exception {
         Integer pc = registerValue(state, circuit, 490, 140);
         Integer ir = registerValue(state, circuit, 690, 210);
@@ -83,8 +92,14 @@ public class SimInspect {
         int m80 = ramGet(state, circuit, 350, 280, 0x80);
         int m81 = ramGet(state, circuit, 350, 280, 0x81);
         int m200 = ramGet(state, circuit, 350, 280, 0x200);
+        CircuitState ctrlState = substateNamed(state, "硬布线控制器");
+        String fsmQ = ctrlState == null ? "-" : valueAt(ctrlState, 200, 410);
+        String fsmD = ctrlState == null ? "-" : valueAt(ctrlState, 170, 410);
+        String fsmClk = ctrlState == null ? "-" : valueAt(ctrlState, 180, 430);
+        String mif = ctrlState == null ? "-" : valueAt(ctrlState, 480, 360);
+        String t1 = ctrlState == null ? "-" : valueAt(ctrlState, 490, 470);
         System.out.printf(
-                "tick=%04d pc=%s ir=%s ar=%s dr=%s x=%s z=%s ramAddr=%s WE=%s OE=%s DIN=%s DOUT=%s mem80=%08x mem81=%08x mem200=%08x ctrl=%s state=%s%n",
+                "tick=%04d pc=%s ir=%s ar=%s dr=%s x=%s z=%s fsmQ=%s fsmD=%s fsmClk=%s mif=%s t1=%s ramAddr=%s WE=%s OE=%s DIN=%s DOUT=%s mem80=%08x mem81=%08x mem200=%08x ctrl=%s state=%s%n",
                 tick,
                 hex(pc),
                 hex(ir),
@@ -92,6 +107,11 @@ public class SimInspect {
                 hex(dr),
                 hex(x),
                 hex(z),
+                fsmQ,
+                fsmD,
+                fsmClk,
+                mif,
+                t1,
                 valueAt(state, 210, 280),
                 valueAt(state, 240, 320),
                 valueAt(state, 300, 320),
@@ -139,6 +159,14 @@ public class SimInspect {
                     ports.append(" p").append(i).append("=").append(inst.getPort(i).toHexString());
                 }
                 System.out.println(indent + "  timing-output ports" + ports);
+            } else if (circuit.getName().contains("硬布线控制器")
+                    && factory.contains("硬布线控制器组合逻辑单元")) {
+                var inst = state.getInstanceState(comp);
+                StringBuilder ports = new StringBuilder();
+                for (int i = 0; i < comp.getEnds().size(); i++) {
+                    ports.append(" p").append(i).append("=").append(inst.getPort(i).toHexString());
+                }
+                System.out.println(indent + "  combo ports" + ports);
             } else if ((circuit.getName().contains("时序发生器")
                     || circuit.getName().contains("硬布线控制器"))
                     && factory.contains("ROM")) {
@@ -168,9 +196,41 @@ public class SimInspect {
                     {610, 380}, {610, 390}, {610, 400}, {610, 410},
                     {610, 420}, {610, 430}, {610, 440},
                     {480, 360}, {520, 360}, {560, 360}, {630, 360}
+                    ,{490, 470}, {520, 470}, {550, 470}, {580, 470}
+                    ,{860, 430}, {900, 430}, {940, 430}, {980, 430}
+                    ,{1120, 370}, {1120, 380}, {1120, 390}, {1120, 400}, {1120, 410}
+                    ,{790, 350}, {810, 350}, {830, 290}, {830, 300}, {830, 310}, {830, 320}, {830, 330}
+                    ,{830, 340}, {830, 350}, {830, 360}, {830, 370}, {830, 380}, {830, 390}, {830, 400}, {830, 410}
             };
             for (int[] pt : points) {
                 System.out.println(indent + "  v(" + pt[0] + "," + pt[1] + ")=" + valueAt(state, pt[0], pt[1]));
+            }
+        }
+        if (circuit.getName().contains("硬布线控制器组合逻辑单元")) {
+            int[][] points = {
+                    {40, 30}, {80, 30}, {90, 20}, {90, 40}, {130, 30}, {160, 30},
+                    {40, 80}, {80, 80}, {90, 70}, {90, 90}, {130, 80}, {160, 80},
+                    {40, 130}, {80, 130}, {90, 120}, {90, 140}, {130, 130}, {160, 130},
+                    {40, 180}, {80, 180}, {90, 170}, {90, 190}, {130, 180}, {160, 180},
+                    {40, 230}, {80, 230}, {90, 220}, {90, 240}, {130, 230}, {160, 230},
+                    {40, 280}, {80, 280}, {40, 330}, {80, 330}, {40, 380}, {80, 380},
+                    {90, 320}, {90, 340}, {130, 330}, {160, 330},
+                    {40, 430}, {80, 430}, {40, 480}, {80, 480}, {40, 530}, {80, 530},
+                    {40, 580}, {80, 580}, {40, 630}, {80, 630},
+                    {150, 620}, {150, 640}, {210, 630}, {240, 630},
+                    {250, 620}, {250, 640}, {290, 630}, {320, 630},
+                    {250, 30}, {250, 40}, {250, 50}, {250, 60}, {250, 70}, {250, 80},
+                    {250, 90}, {250, 100}, {250, 110}, {250, 120}, {250, 130}, {250, 140}, {250, 150},
+                    {260, 140}, {280, 80}, {280, 90}, {280, 100}, {280, 110}, {280, 120},
+                    {280, 130}, {280, 140}, {280, 150}, {280, 160}, {280, 170}, {280, 180}, {280, 190}, {280, 200},
+                    {190, 140}, {330, 140}, {440, 240},
+                    {420, 130}, {420, 140}, {420, 150}, {420, 160}, {420, 170}, {420, 180},
+                    {420, 190}, {420, 200}, {420, 210}, {420, 220}, {420, 230}, {420, 240},
+                    {420, 250}, {420, 260}, {420, 270}, {420, 280}, {420, 290}, {420, 300},
+                    {420, 310}, {420, 320}, {420, 330}, {420, 340}
+            };
+            for (int[] pt : points) {
+                System.out.println(indent + "  combo-v(" + pt[0] + "," + pt[1] + ")=" + valueAt(state, pt[0], pt[1]));
             }
         }
         if (circuit.getName().contains("时序发生器")) {
