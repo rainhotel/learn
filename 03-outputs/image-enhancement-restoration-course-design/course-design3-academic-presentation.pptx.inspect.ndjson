@@ -1,0 +1,155 @@
+{"kind":"deck","id":"pr/r92x6p","name":"Deck"}
+{"kind":"layout","layoutId":"7d567669-461f-4e88-ab3f-ab331b06611a","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"129785f4-6e18-417a-8cdb-ed66d5e967bf","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/9haxx8","slide":1,"title":"图像增强与复原算法综合应用","textShapes":8}
+{"kind":"shape","id":"sh/ap4r65wj","slide":1,"bbox":[0,0,18,720]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":1,"text":"图像增强与复原算法综合应用","textPreview":"图像增强与复原算法综合应用","textChars":13,"textLines":1,"bbox":[96,160,940,72]}
+{"kind":"textbox","id":"sh/svu9knih","slide":1,"text":"混合噪声抑制、维纳复原与质量评价","textPreview":"混合噪声抑制、维纳复原与质量评价","textChars":16,"textLines":1,"bbox":[100,248,760,42]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":1,"text":"《数字图像处理实践》课程设计 3","textPreview":"《数字图像处理实践》课程设计 3","textChars":16,"textLines":1,"bbox":[100,328,620,30]}
+{"kind":"textbox","id":"sh/a1gvy90j","slide":1,"text":"李林浩 | 202483290054 | 学号尾数偶数","textPreview":"李林浩 | 202483290054 | 学号尾数偶数","textChars":27,"textLines":1,"bbox":[100,370,640,30]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":1,"bbox":[850,148,280,300]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":1,"text":"Enhancement","textPreview":"Enhancement","textChars":11,"textLines":1,"bbox":[895,196,190,28]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":1,"text":"MSE ↓ 90.8%","textPreview":"MSE ↓ 90.8%","textChars":11,"textLines":1,"bbox":[895,228,190,48]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":1,"text":"SNR","textPreview":"SNR","textChars":3,"textLines":1,"bbox":[895,306,190,28]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":1,"text":"+10.37 dB","textPreview":"+10.37 dB","textChars":9,"textLines":1,"bbox":[895,338,190,48]}
+{"kind":"notes","id":"nt/9haxx8","slide":1,"text":""}
+{"kind":"slide","id":"sl/99edyc","slide":2,"title":"01  Problem Definition","textShapes":8}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":2,"text":"01  Problem Definition","textPreview":"01  Problem Definition","textChars":22,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/87ed8bat","slide":2,"text":"任务要求与选图规则","textPreview":"任务要求与选图规则","textChars":9,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/xs72x4na","slide":2,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":2,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":2,"text":"李林浩 202483290054 | 2","textPreview":"李林浩 202483290054 | 2","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":2,"bbox":[82,160,510,390]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":2,"text":"课程设计要求","textPreview":"课程设计要求","textChars":6,"textLines":1,"bbox":[112,188,360,30]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":2,"text":"1. 设计空间域与频率域结合的图像增强算法\n2. 噪声类型：随机噪声 + 周期噪声\n3. 使用 MSE、SNR、SSIM 等指标评价\n4. 针对未知降质图像设计算法复原\n5. 形成完整科技报告与实验分析","textPreview":"1. 设计空间域与频率域结合的图像增强算法 | 2. 噪声类型：随机噪声 + 周期噪声 | 3. 使用 MSE、SNR、SSIM 等指标评价 | 4. 针对未知降质图像设计算法复原 | 5. 形成完整科技报告与实验分析","textChars":101,"textLines":5,"bbox":[112,238,430,230]}
+{"kind":"shape","id":"sh/fa9w3m94","slide":2,"bbox":[666,160,480,390]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":2,"text":"本次选择","textPreview":"本次选择","textChars":4,"textLines":1,"bbox":[696,188,360,30]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":2,"text":"学号：202483290054\n尾数：4，属于偶数\n\n增强任务：第二组 dog 图像\n复原任务：图 1 模糊树林图像\n\n图 2 低照度瀑布图像保留为备选结果。","textPreview":"学号：202483290054 | 尾数：4，属于偶数 |  | 增强任务：第二组 dog 图像 | 复原任务：图 1 模糊树林图像 |  | 图 2 低照度瀑布图像保留为备选结果。","textChars":79,"textLines":7,"bbox":[696,238,410,240]}
+{"kind":"notes","id":"nt/99edyc","slide":2,"text":""}
+{"kind":"slide","id":"sl/vllyj7","slide":3,"title":"02  Observation","textShapes":6}
+{"kind":"textbox","id":"sh/oj2t83it","slide":3,"text":"02  Observation","textPreview":"02  Observation","textChars":15,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":3,"text":"退化特征分析","textPreview":"退化特征分析","textChars":6,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/6dcbulwv","slide":3,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":3,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":3,"text":"李林浩 202483290054 | 3","textPreview":"李林浩 202483290054 | 3","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/61032lsz","slide":3,"bbox":[810,152,360,374]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":3,"text":"核心观察","textPreview":"核心观察","textChars":4,"textLines":1,"bbox":[840,180,240,32]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":3,"text":"退化图像中存在规则条纹，说明有周期噪声。\n\n频谱中出现远离中心的成对亮点，主峰约位于中心左右 ±71、上下 ±74 像素。\n\n随机噪声在空间域呈分散分布，需要配合中值/均值滤波。","textPreview":"退化图像中存在规则条纹，说明有周期噪声。 |  | 频谱中出现远离中心的成对亮点，主峰约位于中心左右 ±71、上下 ±74 像素。 |  | 随机噪声在空间域呈分散分布，需要配合中值/均值滤波。","textChars":89,"textLines":5,"bbox":[840,232,300,240]}
+{"kind":"image","id":"im/m58z25kb","slide":3,"name":"","alt":"增强任务原图、退化图、频谱和阶段结果","bbox":[74,152,690,374]}
+{"kind":"notes","id":"nt/vllyj7","slide":3,"text":""}
+{"kind":"slide","id":"sl/z4ondt","slide":4,"title":"03  Enhancement Method","textShapes":12}
+{"kind":"textbox","id":"sh/bq1oryts","slide":4,"text":"03  Enhancement Method","textPreview":"03  Enhancement Method","textChars":22,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":4,"text":"混合噪声图像增强算法","textPreview":"混合噪声图像增强算法","textChars":10,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/twra5gbq","slide":4,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":4,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":4,"text":"李林浩 202483290054 | 4","textPreview":"李林浩 202483290054 | 4","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/4nap4r65","slide":4,"bbox":[250,284,14,0]}
+{"kind":"shape","id":"sh/t83itgfm","slide":4,"bbox":[450,284,14,0]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":4,"bbox":[650,284,14,0]}
+{"kind":"shape","id":"sh/bat47y1k","slide":4,"bbox":[850,284,14,0]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":4,"text":"退化图像","textPreview":"退化图像","textChars":4,"textLines":1,"bbox":[92,242,150,84]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":4,"text":"频谱分析","textPreview":"频谱分析","textChars":4,"textLines":1,"bbox":[292,242,150,84]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":4,"text":"高斯陷波","textPreview":"高斯陷波","textChars":4,"textLines":1,"bbox":[492,242,150,84]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":4,"text":"空间域滤波","textPreview":"空间域滤波","textChars":5,"textLines":1,"bbox":[692,242,150,84]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":4,"text":"锐化与拉伸","textPreview":"锐化与拉伸","textChars":5,"textLines":1,"bbox":[892,242,150,84]}
+{"kind":"shape","id":"sh/ulwval87","slide":4,"bbox":[92,400,500,112]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":4,"text":"H_k(u,v) = 1 - exp(-D_k(u,v)^2 / 2D0^2)\nH(u,v) = Π H_k(u,v),  D0 = 10","textPreview":"H_k(u,v) = 1 - exp(-D_k(u,v)^2 / 2D0^2) | H(u,v) = Π H_k(u,v),  D0 = 10","textChars":69,"textLines":2,"bbox":[114,422,456,68]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":4,"bbox":[646,400,500,112]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":4,"text":"g(x,y) = f(x,y) + α · [f(x,y) - f_smooth(x,y)]\nα = 0.15","textPreview":"g(x,y) = f(x,y) + α · [f(x,y) - f_smooth(x,y)] | α = 0.15","textChars":55,"textLines":2,"bbox":[668,422,456,68]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":4,"text":"设计思想：先在频率域定点压制周期分量，再在空间域降低随机噪声；最后补偿平滑带来的细节损失。","textPreview":"设计思想：先在频率域定点压制周期分量，再在空间域降低随机噪声；最后补偿平滑带来的细节损失。","textChars":45,"textLines":1,"bbox":[92,548,1040,44]}
+{"kind":"notes","id":"nt/z4ondt","slide":4,"text":""}
+{"kind":"slide","id":"sl/fmhqes","slide":5,"title":"04  Frequency-Domain Filtering","textShapes":7}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":5,"text":"04  Frequency-Domain Filtering","textPreview":"04  Frequency-Domain Filtering","textChars":30,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/36hcrmhk","slide":5,"text":"频率域陷波滤波器设计","textPreview":"频率域陷波滤波器设计","textChars":10,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/eloj2t83","slide":5,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":5,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":5,"text":"李林浩 202483290054 | 5","textPreview":"李林浩 202483290054 | 5","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/ed8bat47","slide":5,"bbox":[830,152,330,330]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":5,"text":"参数设定","textPreview":"参数设定","textChars":4,"textLines":1,"bbox":[858,182,240,32]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":5,"text":"陷波中心：\n(0, ±71), (±74, 0)\n\n陷波半径：D0 = 10\n\n滤波类型：高斯陷波拒绝滤波\n\n优点：过渡平滑，较少产生振铃。","textPreview":"陷波中心： | (0, ±71), (±74, 0) |  | 陷波半径：D0 = 10 |  | 滤波类型：高斯陷波拒绝滤波 |  | 优点：过渡平滑，较少产生振铃。","textChars":70,"textLines":8,"bbox":[858,232,270,220]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":5,"text":"频谱处理目标不是削弱所有高频，而是仅抑制周期噪声对应的离散峰值，从而尽量保留狗图像本身的边缘和纹理。","textPreview":"频谱处理目标不是削弱所有高频，而是仅抑制周期噪声对应的离散峰值，从而尽量保留狗图像本身的边缘和纹理。","textChars":50,"textLines":1,"bbox":[88,518,1040,52]}
+{"kind":"image","id":"im/a9w3m94f","slide":5,"name":"","alt":"周期噪声频谱与陷波滤波器","bbox":[78,152,714,330]}
+{"kind":"notes","id":"nt/fmhqes","slide":5,"text":""}
+{"kind":"slide","id":"sl/micnq7","slide":6,"title":"05  Restoration Method","textShapes":10}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":6,"text":"05  Restoration Method","textPreview":"05  Restoration Method","textChars":22,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/83itgfml","slide":6,"text":"图像复原模型与维纳滤波","textPreview":"图像复原模型与维纳滤波","textChars":11,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/xobm58z2","slide":6,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":6,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":6,"text":"李林浩 202483290054 | 6","textPreview":"李林浩 202483290054 | 6","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/4fu18jqh","slide":6,"bbox":[84,152,516,380]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":6,"text":"退化模型","textPreview":"退化模型","textChars":4,"textLines":1,"bbox":[118,188,240,34]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":6,"bbox":[118,252,410,88]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":6,"text":"g(x,y) = h(x,y) * f(x,y) + n(x,y)","textPreview":"g(x,y) = h(x,y) * f(x,y) + n(x,y)","textChars":33,"textLines":1,"bbox":[140,274,366,44]}
+{"kind":"textbox","id":"sh/vixczed8","slide":6,"text":"图1主要表现为模糊，退化可近似为低通型点扩散函数导致的高频衰减。","textPreview":"图1主要表现为模糊，退化可近似为低通型点扩散函数导致的高频衰减。","textChars":32,"textLines":1,"bbox":[118,378,410,78]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":6,"bbox":[664,152,516,380]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":6,"text":"维纳复原","textPreview":"维纳复原","textChars":4,"textLines":1,"bbox":[698,188,240,34]}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":6,"bbox":[698,252,410,88]}
+{"kind":"textbox","id":"sh/val87ed8","slide":6,"text":"F̂(u,v) = H*(u,v) / (|H(u,v)|² + K) · G(u,v)","textPreview":"F̂(u,v) = H*(u,v) / (|H(u,v)|² + K) · G(u,v)","textChars":44,"textLines":1,"bbox":[720,274,366,44]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":6,"text":"参数：Gaussian PSF size = 13, σ = 1.35, K = 0.004。维纳滤波在复原高频时抑制噪声放大，比直接逆滤波更稳定。","textPreview":"参数：Gaussian PSF size = 13, σ = 1.35, K = 0.004。维纳滤波在复原高频时抑制噪声放大，比直接逆滤波更稳定。","textChars":74,"textLines":1,"bbox":[698,378,410,102]}
+{"kind":"notes","id":"nt/micnq7","slide":6,"text":""}
+{"kind":"slide","id":"sl/hviwms","slide":7,"title":"06  Restoration Result","textShapes":7}
+{"kind":"textbox","id":"sh/orytsvu9","slide":7,"text":"06  Restoration Result","textPreview":"06  Restoration Result","textChars":22,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/z61032ls","slide":7,"text":"图1模糊树林图像复原结果","textPreview":"图1模糊树林图像复原结果","textChars":12,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/al87ed8b","slide":7,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":7,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":7,"text":"李林浩 202483290054 | 7","textPreview":"李林浩 202483290054 | 7","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":7,"bbox":[834,150,332,314]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":7,"text":"现象解释","textPreview":"现象解释","textChars":4,"textLines":1,"bbox":[862,180,240,32]}
+{"kind":"textbox","id":"sh/obm58z25","slide":7,"text":"复原后树林边缘更锐利，纹理层次增强。\n\n亮度分量复原后再替换回彩色图像，避免直接对 RGB 三通道分别复原导致颜色偏移。\n\n由于没有清晰参考图，采用无参考指标评价。","textPreview":"复原后树林边缘更锐利，纹理层次增强。 |  | 亮度分量复原后再替换回彩色图像，避免直接对 RGB 三通道分别复原导致颜色偏移。 |  | 由于没有清晰参考图，采用无参考指标评价。","textChars":82,"textLines":5,"bbox":[862,228,270,196]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":7,"text":"关键提升：平均梯度 0.03489 → 0.11841；拉普拉斯方差 0.01926 → 0.12463。","textPreview":"关键提升：平均梯度 0.03489 → 0.11841；拉普拉斯方差 0.01926 → 0.12463。","textChars":53,"textLines":1,"bbox":[90,512,1020,40]}
+{"kind":"image","id":"im/idonyd0z","slide":7,"name":"","alt":"图1模糊树林复原前后和指标","bbox":[78,150,718,314]}
+{"kind":"notes","id":"nt/hviwms","slide":7,"text":""}
+{"kind":"slide","id":"sl/y8ftwr","slide":8,"title":"07  Quantitative Evaluation","textShapes":6}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":8,"text":"07  Quantitative Evaluation","textPreview":"07  Quantitative Evaluation","textChars":27,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":8,"text":"增强任务质量评价","textPreview":"增强任务质量评价","textChars":8,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/m94fu18j","slide":8,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":8,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/83itgfml","slide":8,"text":"李林浩 202483290054 | 8","textPreview":"李林浩 202483290054 | 8","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/xkf6dcbu","slide":8,"bbox":[86,362,1044,150]}
+{"kind":"textbox","id":"sh/4zidonyd","slide":8,"text":"指标解读","textPreview":"指标解读","textChars":4,"textLines":1,"bbox":[118,392,170,32]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":8,"text":"MSE 下降约 90.8%，说明像素误差显著降低；SNR 与 PSNR 均提升约 10 dB，说明噪声能量被有效抑制；SSIM 提升表明结构信息恢复明显。","textPreview":"MSE 下降约 90.8%，说明像素误差显著降低；SNR 与 PSNR 均提升约 10 dB，说明噪声能量被有效抑制；SSIM 提升表明结构信息恢复明显。","textChars":77,"textLines":1,"bbox":[300,392,760,76]}
+{"kind":"chart","id":"ch/qtcj6tov","slide":8,"name":"","chartType":"bar","bbox":[850,160,300,250]}
+{"kind":"table","id":"tb/mp0bi9s3","slide":8,"name":"","rows":3,"cols":6,"preview":"阶段 | MSE | RMSE | SNR/dB | PSNR/dB | SSIM","bbox":[82,160,720,142]}
+{"kind":"notes","id":"nt/y8ftwr","slide":8,"text":""}
+{"kind":"slide","id":"sl/nbj81v","slide":9,"title":"08  No-Reference Evaluation","textShapes":6}
+{"kind":"textbox","id":"sh/54zidony","slide":9,"text":"08  No-Reference Evaluation","textPreview":"08  No-Reference Evaluation","textChars":27,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":9,"text":"复原任务无参考评价","textPreview":"复原任务无参考评价","textChars":9,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/nyd0z610","slide":9,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/cvixczed","slide":9,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":9,"text":"李林浩 202483290054 | 9","textPreview":"李林浩 202483290054 | 9","textChars":20,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":9,"text":"为何使用无参考指标？","textPreview":"为何使用无参考指标？","textChars":10,"textLines":1,"bbox":[92,372,400,36]}
+{"kind":"textbox","id":"sh/1orytsvu","slide":9,"text":"题目未提供图1对应清晰参考图，因此不能计算 MSE/SSIM。信息熵和标准差用于评价灰度信息量与对比度；平均梯度和拉普拉斯方差用于评价边缘变化和高频细节。","textPreview":"题目未提供图1对应清晰参考图，因此不能计算 MSE/SSIM。信息熵和标准差用于评价灰度信息量与对比度；平均梯度和拉普拉斯方差用于评价边缘变化和高频细节。","textChars":77,"textLines":1,"bbox":[92,426,1020,82]}
+{"kind":"chart","id":"ch/fu18jqh0","slide":9,"name":"","chartType":"bar","bbox":[765,146,390,282]}
+{"kind":"table","id":"tb/je9cvixc","slide":9,"name":"","rows":3,"cols":5,"preview":"阶段 | 信息熵 | 标准差 | 平均梯度 | 拉普拉斯方差","bbox":[82,158,625,142]}
+{"kind":"notes","id":"nt/nbj81v","slide":9,"text":""}
+{"kind":"slide","id":"sl/qpkqd0","slide":10,"title":"09  Discussion","textShapes":8}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":10,"text":"09  Discussion","textPreview":"09  Discussion","textChars":14,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":10,"text":"讨论：方法有效性与限制","textPreview":"讨论：方法有效性与限制","textChars":11,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":10,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":10,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":10,"text":"李林浩 202483290054 | 10","textPreview":"李林浩 202483290054 | 10","textChars":21,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"shape","id":"sh/a5gbq1or","slide":10,"bbox":[92,158,480,345]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":10,"text":"有效性","textPreview":"有效性","textChars":3,"textLines":1,"bbox":[124,192,220,34]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":10,"text":"频域陷波针对周期噪声峰值，抑制条纹干扰。\n\n空间域滤波进一步降低随机噪声。\n\n高提升锐化补偿滤波造成的局部细节损失。","textPreview":"频域陷波针对周期噪声峰值，抑制条纹干扰。 |  | 空间域滤波进一步降低随机噪声。 |  | 高提升锐化补偿滤波造成的局部细节损失。","textChars":58,"textLines":5,"bbox":[124,250,400,182]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":10,"bbox":[664,158,480,345]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":10,"text":"限制","textPreview":"限制","textChars":2,"textLines":1,"bbox":[696,192,220,34]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":10,"text":"陷波中心依赖当前图像频谱，需要针对不同图像重新估计。\n\n复原任务的 PSF 是近似模型，可能存在局部过锐化。\n\n无参考指标只能间接反映视觉质量。","textPreview":"陷波中心依赖当前图像频谱，需要针对不同图像重新估计。 |  | 复原任务的 PSF 是近似模型，可能存在局部过锐化。 |  | 无参考指标只能间接反映视觉质量。","textChars":72,"textLines":5,"bbox":[696,250,400,182]}
+{"kind":"notes","id":"nt/qpkqd0","slide":10,"text":""}
+{"kind":"slide","id":"sl/88yfwy","slide":11,"title":"10  Conclusion","textShapes":12}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":11,"text":"10  Conclusion","textPreview":"10  Conclusion","textChars":14,"textLines":1,"bbox":[72,28,460,28]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":11,"text":"结论","textPreview":"结论","textChars":2,"textLines":1,"bbox":[72,60,900,48]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":11,"bbox":[72,122,1136,0]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":11,"text":"数字图像处理实践 | 图像增强与复原算法综合应用","textPreview":"数字图像处理实践 | 图像增强与复原算法综合应用","textChars":24,"textLines":1,"bbox":[72,682,600,24]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":11,"text":"李林浩 202483290054 | 11","textPreview":"李林浩 202483290054 | 11","textChars":21,"textLines":1,"bbox":[1010,682,198,24]}
+{"kind":"textbox","id":"sh/83itgfml","slide":11,"text":"本课程设计完成了空间域与频率域结合的图像增强算法，并针对图1模糊树林图像完成基于维纳滤波的复原实验。","textPreview":"本课程设计完成了空间域与频率域结合的图像增强算法，并针对图1模糊树林图像完成基于维纳滤波的复原实验。","textChars":50,"textLines":1,"bbox":[112,170,980,80]}
+{"kind":"shape","id":"sh/xobm58z2","slide":11,"bbox":[112,296,286,150]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":11,"text":"MSE","textPreview":"MSE","textChars":3,"textLines":1,"bbox":[160,326,190,28]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":11,"text":"0.071 → 0.0065","textPreview":"0.071 → 0.0065","textChars":14,"textLines":1,"bbox":[160,358,190,48]}
+{"kind":"shape","id":"sh/7adsji5s","slide":11,"bbox":[474,296,286,150]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":11,"text":"SSIM","textPreview":"SSIM","textChars":4,"textLines":1,"bbox":[522,326,190,28]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":11,"text":"0.104 → 0.656","textPreview":"0.104 → 0.656","textChars":13,"textLines":1,"bbox":[522,358,190,48]}
+{"kind":"shape","id":"sh/wval87ed","slide":11,"bbox":[836,296,286,150]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":11,"text":"Avg. Gradient","textPreview":"Avg. Gradient","textChars":13,"textLines":1,"bbox":[884,326,190,28]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":11,"text":"0.035 → 0.118","textPreview":"0.035 → 0.118","textChars":13,"textLines":1,"bbox":[884,358,190,48]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":11,"text":"后续可将频谱峰值检测自动化，并引入盲去卷积或更强的无参考质量评价方法作为对比。","textPreview":"后续可将频谱峰值检测自动化，并引入盲去卷积或更强的无参考质量评价方法作为对比。","textChars":39,"textLines":1,"bbox":[150,512,900,48]}
+{"kind":"notes","id":"nt/88yfwy","slide":11,"text":""}

@@ -7,6 +7,8 @@
 - 复原任务输出：`03-outputs/image-enhancement-restoration-course-design/restoration_fig1_restored.png`
 - 指标表：`03-outputs/image-enhancement-restoration-course-design/metrics.csv`
 - 报告草稿：`report-draft.md`
+- 正式报告 DOCX：`03-outputs/image-enhancement-restoration-course-design/course-design3-report-final.docx`
+- 学术汇报 PPT：`03-outputs/image-enhancement-restoration-course-design/course-design3-academic-presentation.pptx`
 
 ## 可选改进
 
@@ -14,3 +16,4 @@
 - 对陷波半径 `D0` 做网格搜索。
 - 对维纳滤波参数 `K` 做自动搜索。
 - 增加盲去卷积方法作为复原任务对比。
+
