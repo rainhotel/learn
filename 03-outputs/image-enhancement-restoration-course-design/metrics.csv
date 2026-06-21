@@ -1,0 +1,7 @@
+task,variant,stage,mse,rmse,snr,psnr,ssim,entropy,std,average_gradient,laplacian_variance
+enhancement,dog,before,0.07119060,0.26681566,4.66401245,11.47577358,0.10391777,,,,
+enhancement,dog,after,0.00654106,0.08087680,15.03175929,21.84352041,0.65580565,,,,
+restoration,fig1_forest,before,,,,,,7.32002535,0.17623726,0.03489453,0.01926472
+restoration,fig1_forest,after,,,,,,7.60670139,0.22809284,0.11840695,0.12462739
+restoration,fig2_waterfall,before,,,,,,6.92642128,0.16274931,0.01147677,0.00100229
+restoration,fig2_waterfall,after,,,,,,7.52526676,0.20093929,0.03442198,0.01115267

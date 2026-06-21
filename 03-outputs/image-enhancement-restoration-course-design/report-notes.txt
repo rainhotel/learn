@@ -1,0 +1,20 @@
+课程设计3：图像增强与复原算法综合应用结果摘要
+生成时间：2026-06-21 14:41:59
+
+一、图像增强任务
+算法：Gaussian notch reject filter + 5x5 median filter + 3x3 mean filter + high-boost + percentile stretch
+陷波中心偏移：(0, ±71), (±74, 0)，半径 D0=10。
+MSE: 0.071191 -> 0.006541
+SNR: 4.664 dB -> 15.032 dB
+PSNR: 11.476 dB -> 21.844 dB
+SSIM: 0.1039 -> 0.6558
+
+二、图像复原任务-图1（偶数学号默认选择）
+算法：Approximate Gaussian PSF Wiener restoration + high-boost sharpening + percentile stretch
+无参考指标：Entropy 7.320 -> 7.607；Std 0.176 -> 0.228；Average Gradient 0.03489 -> 0.11841；Laplacian Variance 0.01926 -> 0.12463。
+
+三、图像复原任务-图2（备选）
+算法：Single-scale Retinex illumination correction + gamma correction + high-boost sharpening
+无参考指标：Entropy 6.926 -> 7.525；Std 0.163 -> 0.201；Average Gradient 0.01148 -> 0.03442；Laplacian Variance 0.00100 -> 0.01115。
+
+结论：增强任务中，频域陷波有效抑制周期噪声，空间域滤波进一步降低随机噪声，MSE明显下降，SNR与SSIM明显提高。复原任务中，图1使用维纳复原提升边缘清晰度，图2使用Retinex和gamma校正改善低照度。由于复原任务没有清晰参考图，报告中采用信息熵、标准差、平均梯度和拉普拉斯方差作为无参考质量评价指标。

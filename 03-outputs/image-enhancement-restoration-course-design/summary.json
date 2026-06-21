@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-06-21 14:41:59",
+  "assumption": "默认按学号尾数为偶数：增强任务使用 dog 图组，复原任务正文选择图1；脚本同时输出图2备选结果。",
+  "enhancement": {
+    "method": "Gaussian notch reject filter + 5x5 median filter + 3x3 mean filter + high-boost + percentile stretch",
+    "notch_offsets": [
+      [
+        0,
+        -71
+      ],
+      [
+        0,
+        71
+      ],
+      [
+        -74,
+        0
+      ],
+      [
+        74,
+        0
+      ]
+    ],
+    "notch_radius": 10,
+    "metrics_before": {
+      "mse": 0.071190598195437244,
+      "rmse": 0.26681566332477041,
+      "snr": 4.6640124537038705,
+      "psnr": 11.47577357788016,
+      "ssim": 0.10391777344546731
+    },
+    "metrics_after": {
+      "mse": 0.0065410573811717785,
+      "rmse": 0.080876803727470456,
+      "snr": 15.031759286022233,
+      "psnr": 21.843520410198522,
+      "ssim": 0.6558056534955542
+    },
+    "output_final": "enhancement_04_final.png",
+    "output_comparison": "enhancement_comparison.png",
+    "output_spectrum": "enhancement_spectrum_and_notch.png"
+  },
+  "restoration_fig1": {
+    "method": "Approximate Gaussian PSF Wiener restoration + high-boost sharpening + percentile stretch",
+    "psf_size": 13,
+    "psf_sigma": 1.35,
+    "wiener_K": 0.004,
+    "metrics_before": {
+      "mean": 0.49353024842140247,
+      "std": 0.17623726167241471,
+      "entropy": 7.32002535290253,
+      "average_gradient": 0.034894526105176314,
+      "laplacian_variance": 0.019264719232305261
+    },
+    "metrics_after": {
+      "mean": 0.45615609520675915,
+      "std": 0.22809283701881994,
+      "entropy": 7.6067013933124983,
+      "average_gradient": 0.1184069470394449,
+      "laplacian_variance": 0.12462738886607651
+    },
+    "output_final": "restoration_fig1_restored.png",
+    "output_comparison": "restoration_fig1_comparison.png"
+  },
+  "restoration_fig2": {
+    "method": "Single-scale Retinex illumination correction + gamma correction + high-boost sharpening",
+    "retinex_sigma": 18,
+    "gamma": 0.62,
+    "metrics_before": {
+      "mean": 0.24330260377082913,
+      "std": 0.16274931315339358,
+      "entropy": 6.9264212774752263,
+      "average_gradient": 0.011476769882159944,
+      "laplacian_variance": 0.0010022860411121081
+    },
+    "metrics_after": {
+      "mean": 0.60791933699472744,
+      "std": 0.20093928567405445,
+      "entropy": 7.5252667598076748,
+      "average_gradient": 0.034421975928980032,
+      "laplacian_variance": 0.011152672220659795
+    },
+    "output_final": "restoration_fig2_restored.png",
+    "output_comparison": "restoration_fig2_comparison.png"
+  }
+}
