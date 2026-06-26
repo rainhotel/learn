@@ -15,6 +15,11 @@ OUTPUT = TOPIC / "raw-ppt-ocr.md"
 
 PDFS = [
     ("ch1-1", Path(r"D:\qq_setup_31980\第1章-1.pdf")),
+    ("ch1-2", Path(r"D:\qq_setup_31980\第1章-2.pdf")),
+    ("ch1-3", Path(r"D:\qq_setup_31980\第1章-3.pdf")),
+    ("ch2-1", Path(r"D:\qq_setup_31980\第2章-1.pdf")),
+    ("ch2-2", Path(r"D:\qq_setup_31980\第2章-2.pdf")),
+    ("ch2-3", Path(r"D:\qq_setup_31980\第2章-3.pdf")),
     ("ch3-1", Path(r"D:\qq_setup_31980\第3章-1.pdf")),
     ("ch3-2", Path(r"D:\qq_setup_31980\第3章-2.pdf")),
     ("ch3-3", Path(r"D:\qq_setup_31980\第3章-3.pdf")),
