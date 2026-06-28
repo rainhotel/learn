@@ -1,0 +1,24 @@
+{
+  "lessonId": "1653276272903964160",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "专题2空域图像处理（像素间联系+随机噪声估计）",
+  "lessonType": 0,
+  "start": 1774922689924,
+  "end": 1774929163304,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 53517731,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1653277320590417920"
+  ]
+}

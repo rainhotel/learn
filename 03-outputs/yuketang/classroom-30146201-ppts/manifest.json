@@ -1,0 +1,588 @@
+[
+  {
+    "title": "专题4图像分割（基于区域的分割）",
+    "lesson_id": "1710531513286044160",
+    "activity": {
+      "type": 14,
+      "id": 56076992,
+      "courseware_id": "1710531513286044160",
+      "title": "专题4图像分割（基于区域的分割）",
+      "create_time": 1781748047000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1710532283502864896"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1710532283502864896",
+        "slide_count": 107,
+        "visible_slide_count": 34,
+        "downloaded": 34,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\01-专题4图像分割（基于区域的分割）\\presentation-01-1710532283502864896"
+      }
+    ]
+  },
+  {
+    "title": "专题4图像分割（阈值分割）",
+    "lesson_id": "1705456462362323712",
+    "activity": {
+      "type": 14,
+      "id": 55896686,
+      "courseware_id": "1705456462362323712",
+      "title": "专题4图像分割（阈值分割）",
+      "create_time": 1781143053000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1705456701018479744",
+      "1705495182843321472",
+      "1705502096641762816",
+      "1705506510752197376",
+      "1705510415624314880"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1705456701018479744",
+        "slide_count": 101,
+        "visible_slide_count": 22,
+        "downloaded": 22,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-01-1705456701018479744"
+      },
+      {
+        "presentation_id": "1705495182843321472",
+        "slide_count": 7,
+        "visible_slide_count": 7,
+        "downloaded": 7,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-02-1705495182843321472"
+      },
+      {
+        "presentation_id": "1705502096641762816",
+        "slide_count": 17,
+        "visible_slide_count": 13,
+        "downloaded": 13,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-03-1705502096641762816"
+      },
+      {
+        "presentation_id": "1705506510752197376",
+        "slide_count": 5,
+        "visible_slide_count": 5,
+        "downloaded": 5,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-04-1705506510752197376"
+      },
+      {
+        "presentation_id": "1705510415624314880",
+        "slide_count": 8,
+        "visible_slide_count": 7,
+        "downloaded": 7,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-05-1705510415624314880"
+      }
+    ]
+  },
+  {
+    "title": "专题3频域图像处理（前沿案例：图像去雾）",
+    "lesson_id": "1700380076367258624",
+    "activity": {
+      "type": 14,
+      "id": 55696702,
+      "courseware_id": "1700380076367258624",
+      "title": "专题3频域图像处理（前沿案例：图像去雾）",
+      "create_time": 1780537901000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1700380941039563264",
+      "1700418835947292160"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1700380941039563264",
+        "slide_count": 186,
+        "visible_slide_count": 22,
+        "downloaded": 22,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\03-专题3频域图像处理（前沿案例：图像去雾）\\presentation-01-1700380941039563264"
+      },
+      {
+        "presentation_id": "1700418835947292160",
+        "slide_count": 96,
+        "visible_slide_count": 28,
+        "downloaded": 28,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\03-专题3频域图像处理（前沿案例：图像去雾）\\presentation-02-1700418835947292160"
+      }
+    ]
+  },
+  {
+    "title": "专题3频域图像处理（图像复原）",
+    "lesson_id": "1695313221659182720",
+    "activity": {
+      "type": 14,
+      "id": 55493389,
+      "courseware_id": "1695313221659182720",
+      "title": "专题3频域图像处理（图像复原）",
+      "create_time": 1779933885000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1695314037870863488"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1695314037870863488",
+        "slide_count": 180,
+        "visible_slide_count": 49,
+        "downloaded": 49,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\04-专题3频域图像处理（图像复原）\\presentation-01-1695314037870863488"
+      }
+    ]
+  },
+  {
+    "title": "专题3频域图像处理（高通滤波器）",
+    "lesson_id": "1690242686348564992",
+    "activity": {
+      "type": 14,
+      "id": 55275059,
+      "courseware_id": "1690242686348564992",
+      "title": "专题3频域图像处理（高通滤波器）",
+      "create_time": 1779329430000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1690243552061264768"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1690243552061264768",
+        "slide_count": 180,
+        "visible_slide_count": 38,
+        "downloaded": 38,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\05-专题3频域图像处理（高通滤波器）\\presentation-01-1690243552061264768"
+      }
+    ]
+  },
+  {
+    "title": "专题3频域图像处理（低通滤波器）",
+    "lesson_id": "1685163534385983872",
+    "activity": {
+      "type": 14,
+      "id": 55046001,
+      "courseware_id": "1685163534385983872",
+      "title": "专题3频域图像处理（低通滤波器）",
+      "create_time": 1778723948000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1685164223594008832",
+      "1685205170176521600",
+      "1685208915370970240",
+      "1685211053065152896",
+      "1685215456698655104",
+      "1685218368837476736"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1685164223594008832",
+        "slide_count": 179,
+        "visible_slide_count": 23,
+        "downloaded": 23,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-01-1685164223594008832"
+      },
+      {
+        "presentation_id": "1685205170176521600",
+        "slide_count": 5,
+        "visible_slide_count": 5,
+        "downloaded": 5,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-02-1685205170176521600"
+      },
+      {
+        "presentation_id": "1685208915370970240",
+        "slide_count": 5,
+        "visible_slide_count": 5,
+        "downloaded": 5,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-03-1685208915370970240"
+      },
+      {
+        "presentation_id": "1685211053065152896",
+        "slide_count": 8,
+        "visible_slide_count": 8,
+        "downloaded": 8,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-04-1685211053065152896"
+      },
+      {
+        "presentation_id": "1685215456698655104",
+        "slide_count": 17,
+        "visible_slide_count": 12,
+        "downloaded": 12,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-05-1685215456698655104"
+      },
+      {
+        "presentation_id": "1685218368837476736",
+        "slide_count": 14,
+        "visible_slide_count": 8,
+        "downloaded": 8,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-06-1685218368837476736"
+      }
+    ]
+  },
+  {
+    "title": "专题3频域图像处理（傅里叶变换）",
+    "lesson_id": "1680087850273644288",
+    "activity": {
+      "type": 14,
+      "id": 54770284,
+      "courseware_id": "1680087850273644288",
+      "title": "专题3频域图像处理（傅里叶变换）",
+      "create_time": 1778118879000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1680087991991040000"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1680087991991040000",
+        "slide_count": 178,
+        "visible_slide_count": 37,
+        "downloaded": 37,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\07-专题3频域图像处理（傅里叶变换）\\presentation-01-1680087991991040000"
+      }
+    ]
+  },
+  {
+    "title": "专题2空域图像处理（彩色图像处理）",
+    "lesson_id": "1675018122744171904",
+    "activity": {
+      "type": 14,
+      "id": 54660927,
+      "courseware_id": "1675018122744171904",
+      "title": "专题2空域图像处理（彩色图像处理）",
+      "create_time": 1777514521000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1675018965757575936"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1675018965757575936",
+        "slide_count": 313,
+        "visible_slide_count": 48,
+        "downloaded": 48,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\08-专题2空域图像处理（彩色图像处理）\\presentation-01-1675018965757575936"
+      }
+    ]
+  },
+  {
+    "title": "专题2空域图像处理（空域锐化）",
+    "lesson_id": "1669943074253877248",
+    "activity": {
+      "type": 14,
+      "id": 54415784,
+      "courseware_id": "1669943074253877248",
+      "title": "专题2空域图像处理（空域锐化）",
+      "create_time": 1776909528000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1669943286770870400"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1669943286770870400",
+        "slide_count": 313,
+        "visible_slide_count": 40,
+        "downloaded": 40,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\09-专题2空域图像处理（空域锐化）\\presentation-01-1669943286770870400"
+      }
+    ]
+  },
+  {
+    "title": "专题2空域图像处理（空域平滑）",
+    "lesson_id": "1664871220690374272",
+    "activity": {
+      "type": 14,
+      "id": 54160178,
+      "courseware_id": "1664871220690374272",
+      "title": "专题2空域图像处理（空域平滑）",
+      "create_time": 1776304916000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1664872292343434880"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1664872292343434880",
+        "slide_count": 313,
+        "visible_slide_count": 47,
+        "downloaded": 47,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\10-专题2空域图像处理（空域平滑）\\presentation-01-1664872292343434880"
+      }
+    ]
+  },
+  {
+    "title": "专题2空域图像处理（空域滤波）",
+    "lesson_id": "1659797980917664384",
+    "activity": {
+      "type": 14,
+      "id": 53877365,
+      "courseware_id": "1659797980917664384",
+      "title": "专题2空域图像处理（空域滤波）",
+      "create_time": 1775700138000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1659799103783176192",
+      "1659833601690273792",
+      "1659835552545259008",
+      "1659837718542562560",
+      "1659840689753963648",
+      "1659846958476561280"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1659799103783176192",
+        "slide_count": 306,
+        "visible_slide_count": 27,
+        "downloaded": 27,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-01-1659799103783176192"
+      },
+      {
+        "presentation_id": "1659833601690273792",
+        "slide_count": 5,
+        "visible_slide_count": 5,
+        "downloaded": 5,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-02-1659833601690273792"
+      },
+      {
+        "presentation_id": "1659835552545259008",
+        "slide_count": 5,
+        "visible_slide_count": 5,
+        "downloaded": 5,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-03-1659835552545259008"
+      },
+      {
+        "presentation_id": "1659837718542562560",
+        "slide_count": 5,
+        "visible_slide_count": 4,
+        "downloaded": 4,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-04-1659837718542562560"
+      },
+      {
+        "presentation_id": "1659840689753963648",
+        "slide_count": 5,
+        "visible_slide_count": 5,
+        "downloaded": 5,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-05-1659840689753963648"
+      },
+      {
+        "presentation_id": "1659846958476561280",
+        "slide_count": 77,
+        "visible_slide_count": 11,
+        "downloaded": 11,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-06-1659846958476561280"
+      }
+    ]
+  },
+  {
+    "title": "专题2空域图像处理（像素间联系+随机噪声估计）",
+    "lesson_id": "1653276272903964160",
+    "activity": {
+      "type": 14,
+      "id": 53517731,
+      "courseware_id": "1653276272903964160",
+      "title": "专题2空域图像处理（像素间联系+随机噪声估计）",
+      "create_time": 1774922690000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1653277320590417920"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1653277320590417920",
+        "slide_count": 306,
+        "visible_slide_count": 37,
+        "downloaded": 37,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\12-专题2空域图像处理（像素间联系+随机噪声估计）\\presentation-01-1653277320590417920"
+      }
+    ]
+  },
+  {
+    "title": "专题2空域图像处理（直方图处理）",
+    "lesson_id": "1649651097696312448",
+    "activity": {
+      "type": 14,
+      "id": 53352489,
+      "courseware_id": "1649651097696312448",
+      "title": "专题2空域图像处理（直方图处理）",
+      "create_time": 1774490536000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1649652227482352512"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1649652227482352512",
+        "slide_count": 304,
+        "visible_slide_count": 34,
+        "downloaded": 34,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\13-专题2空域图像处理（直方图处理）\\presentation-01-1649652227482352512"
+      }
+    ]
+  },
+  {
+    "title": "专题2空域图像处理（灰度变换）",
+    "lesson_id": "1644573647253565056",
+    "activity": {
+      "type": 14,
+      "id": 53065704,
+      "courseware_id": "1644573647253565056",
+      "title": "专题2空域图像处理（灰度变换）",
+      "create_time": 1773885256000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1644573842137873920"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1644573842137873920",
+        "slide_count": 305,
+        "visible_slide_count": 28,
+        "downloaded": 28,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\14-专题2空域图像处理（灰度变换）\\presentation-01-1644573842137873920"
+      }
+    ]
+  },
+  {
+    "title": "专题1数字图像基础",
+    "lesson_id": "1639504306900463232",
+    "activity": {
+      "type": 14,
+      "id": 52758371,
+      "courseware_id": "1639504306900463232",
+      "title": "专题1数字图像基础",
+      "create_time": 1773280944000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1639504736866669824"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1639504736866669824",
+        "slide_count": 77,
+        "visible_slide_count": 44,
+        "downloaded": 44,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\15-专题1数字图像基础\\presentation-01-1639504736866669824"
+      }
+    ]
+  },
+  {
+    "title": "Matlab 图像编程基础",
+    "lesson_id": "1634429027219801472",
+    "activity": {
+      "type": 14,
+      "id": 52486795,
+      "courseware_id": "1634429027219801472",
+      "title": "Matlab 图像编程基础",
+      "create_time": 1772675923000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1634429173038608640"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1634429173038608640",
+        "slide_count": 36,
+        "visible_slide_count": 13,
+        "downloaded": 13,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\16-Matlab 图像编程基础\\presentation-01-1634429173038608640"
+      }
+    ]
+  },
+  {
+    "title": "课程概述+Matlab图像处理基础",
+    "lesson_id": "1632980119381460992",
+    "activity": {
+      "type": 14,
+      "id": 52381594,
+      "courseware_id": "1632980119381460992",
+      "title": "课程概述+Matlab图像处理基础",
+      "create_time": 1772503200000,
+      "attend_status": true,
+      "is_finished": true
+    },
+    "presentation_ids": [
+      "1632980250680103936",
+      "1633017377232794496"
+    ],
+    "presentations": [
+      {
+        "presentation_id": "1632980250680103936",
+        "slide_count": 66,
+        "visible_slide_count": 58,
+        "downloaded": 58,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\17-课程概述+Matlab图像处理基础\\presentation-01-1632980250680103936"
+      },
+      {
+        "presentation_id": "1633017377232794496",
+        "slide_count": 35,
+        "visible_slide_count": 15,
+        "downloaded": 15,
+        "skipped_existing": 0,
+        "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\17-课程概述+Matlab图像处理基础\\presentation-02-1633017377232794496"
+      }
+    ]
+  }
+]

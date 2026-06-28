@@ -1,0 +1,26 @@
+{
+  "title": "专题2空域图像处理（空域锐化）",
+  "lesson_id": "1669943074253877248",
+  "activity": {
+    "type": 14,
+    "id": 54415784,
+    "courseware_id": "1669943074253877248",
+    "title": "专题2空域图像处理（空域锐化）",
+    "create_time": 1776909528000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1669943286770870400"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1669943286770870400",
+      "slide_count": 313,
+      "visible_slide_count": 40,
+      "downloaded": 40,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\09-专题2空域图像处理（空域锐化）\\presentation-01-1669943286770870400"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "lessonId": "1705456462362323712",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "专题4图像分割（阈值分割）",
+  "lessonType": 0,
+  "start": 1781143053238,
+  "end": 1781150150116,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 55896686,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1705456701018479744",
+    "1705495182843321472",
+    "1705502096641762816",
+    "1705506510752197376",
+    "1705510415624314880"
+  ]
+}

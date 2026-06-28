@@ -1,0 +1,26 @@
+{
+  "title": "Matlab 图像编程基础",
+  "lesson_id": "1634429027219801472",
+  "activity": {
+    "type": 14,
+    "id": 52486795,
+    "courseware_id": "1634429027219801472",
+    "title": "Matlab 图像编程基础",
+    "create_time": 1772675923000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1634429173038608640"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1634429173038608640",
+      "slide_count": 36,
+      "visible_slide_count": 13,
+      "downloaded": 13,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\16-Matlab 图像编程基础\\presentation-01-1634429173038608640"
+    }
+  ]
+}

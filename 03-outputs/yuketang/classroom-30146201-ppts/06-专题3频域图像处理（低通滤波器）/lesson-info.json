@@ -1,0 +1,29 @@
+{
+  "lessonId": "1685163534385983872",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "专题3频域图像处理（低通滤波器）",
+  "lessonType": 0,
+  "start": 1778723947711,
+  "end": 1778730659117,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 55046001,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1685164223594008832",
+    "1685205170176521600",
+    "1685208915370970240",
+    "1685211053065152896",
+    "1685215456698655104",
+    "1685218368837476736"
+  ]
+}

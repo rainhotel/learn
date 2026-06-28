@@ -1,0 +1,26 @@
+{
+  "title": "专题2空域图像处理（彩色图像处理）",
+  "lesson_id": "1675018122744171904",
+  "activity": {
+    "type": 14,
+    "id": 54660927,
+    "courseware_id": "1675018122744171904",
+    "title": "专题2空域图像处理（彩色图像处理）",
+    "create_time": 1777514521000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1675018965757575936"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1675018965757575936",
+      "slide_count": 313,
+      "visible_slide_count": 48,
+      "downloaded": 48,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\08-专题2空域图像处理（彩色图像处理）\\presentation-01-1675018965757575936"
+    }
+  ]
+}

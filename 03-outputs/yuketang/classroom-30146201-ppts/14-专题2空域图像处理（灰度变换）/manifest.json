@@ -1,0 +1,26 @@
+{
+  "title": "专题2空域图像处理（灰度变换）",
+  "lesson_id": "1644573647253565056",
+  "activity": {
+    "type": 14,
+    "id": 53065704,
+    "courseware_id": "1644573647253565056",
+    "title": "专题2空域图像处理（灰度变换）",
+    "create_time": 1773885256000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1644573842137873920"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1644573842137873920",
+      "slide_count": 305,
+      "visible_slide_count": 28,
+      "downloaded": 28,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\14-专题2空域图像处理（灰度变换）\\presentation-01-1644573842137873920"
+    }
+  ]
+}

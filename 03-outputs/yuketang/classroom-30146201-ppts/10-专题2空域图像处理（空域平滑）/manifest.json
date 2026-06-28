@@ -1,0 +1,26 @@
+{
+  "title": "专题2空域图像处理（空域平滑）",
+  "lesson_id": "1664871220690374272",
+  "activity": {
+    "type": 14,
+    "id": 54160178,
+    "courseware_id": "1664871220690374272",
+    "title": "专题2空域图像处理（空域平滑）",
+    "create_time": 1776304916000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1664872292343434880"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1664872292343434880",
+      "slide_count": 313,
+      "visible_slide_count": 47,
+      "downloaded": 47,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\10-专题2空域图像处理（空域平滑）\\presentation-01-1664872292343434880"
+    }
+  ]
+}

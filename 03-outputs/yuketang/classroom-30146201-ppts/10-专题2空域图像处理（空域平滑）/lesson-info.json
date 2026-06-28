@@ -1,0 +1,24 @@
+{
+  "lessonId": "1664871220690374272",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "专题2空域图像处理（空域平滑）",
+  "lessonType": 0,
+  "start": 1776304915412,
+  "end": 1776311526201,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 54160178,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1664872292343434880"
+  ]
+}

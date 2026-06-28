@@ -1,0 +1,26 @@
+{
+  "title": "专题3频域图像处理（高通滤波器）",
+  "lesson_id": "1690242686348564992",
+  "activity": {
+    "type": 14,
+    "id": 55275059,
+    "courseware_id": "1690242686348564992",
+    "title": "专题3频域图像处理（高通滤波器）",
+    "create_time": 1779329430000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1690243552061264768"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1690243552061264768",
+      "slide_count": 180,
+      "visible_slide_count": 38,
+      "downloaded": 38,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\05-专题3频域图像处理（高通滤波器）\\presentation-01-1690243552061264768"
+    }
+  ]
+}

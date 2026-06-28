@@ -23,13 +23,12 @@
 
 ## Status
 
-- 阶段：报告与汇报 PPT 已生成
-- 最近一次更新：2026-06-21
+- 阶段：正式报告已按模板整理完成
+- 最近一次更新：2026-06-27
 - 当前学习模式：Course design execution
 
 ## Next 3 Actions
 
-1. 打开正式报告和 PPT，检查姓名、学号、班级、图号是否符合老师模板。
-2. 如需学校固定封面，将 `course-design3-report-final.docx` 内容迁移到模板。
+1. 如需进一步严校版式，可在有 LibreOffice 的环境里补做 PNG 渲染检查。
+2. 如老师要求严格对应模板页眉页脚格式，可继续做细调。
 3. 上台前按 `course-design3-academic-presentation.pptx` 演练 5-8 分钟讲解。
-

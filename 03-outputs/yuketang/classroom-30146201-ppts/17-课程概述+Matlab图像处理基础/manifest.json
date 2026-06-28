@@ -1,0 +1,35 @@
+{
+  "title": "课程概述+Matlab图像处理基础",
+  "lesson_id": "1632980119381460992",
+  "activity": {
+    "type": 14,
+    "id": 52381594,
+    "courseware_id": "1632980119381460992",
+    "title": "课程概述+Matlab图像处理基础",
+    "create_time": 1772503200000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1632980250680103936",
+    "1633017377232794496"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1632980250680103936",
+      "slide_count": 66,
+      "visible_slide_count": 58,
+      "downloaded": 58,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\17-课程概述+Matlab图像处理基础\\presentation-01-1632980250680103936"
+    },
+    {
+      "presentation_id": "1633017377232794496",
+      "slide_count": 35,
+      "visible_slide_count": 15,
+      "downloaded": 15,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\17-课程概述+Matlab图像处理基础\\presentation-02-1633017377232794496"
+    }
+  ]
+}

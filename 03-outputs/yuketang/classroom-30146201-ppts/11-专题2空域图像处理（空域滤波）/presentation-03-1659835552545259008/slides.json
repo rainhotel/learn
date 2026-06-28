@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1659835552562036224",
+    "cover": "https://rain-private-qn.yuketang.cn/slide/4505185/cover260_20260409111654.jpg?e=1782567006&token=IAM-gs8ue1pDIGwtR1CR0Zjdagg7Q2tn5G_1BqTmhmqa:N7-oTnFhHyrlIQMbo6Rq7d6jxN8=",
+    "presentationId": "1659835552545259008",
+    "index": 1,
+    "firstTime": 1775704620122,
+    "duration": 15191,
+    "visible": true,
+    "doubtTagCount": 0,
+    "collectTagCount": 0,
+    "doubt": false,
+    "collect": false,
+    "hasProblem": false,
+    "sendProblem": false,
+    "problem": null,
+    "emojiCount": {
+      "0": 0
+    },
+    "hasEmoji": {}
+  },
+  {
+    "id": "1659835552578813440",
+    "cover": "https://rain-private-qn.yuketang.cn/slide/4505185/cover256_20260409111655.jpg?e=1782567006&token=IAM-gs8ue1pDIGwtR1CR0Zjdagg7Q2tn5G_1BqTmhmqa:xkq81GBuaITz13itZytgobgnTg0=",
+    "presentationId": "1659835552545259008",
+    "index": 2,
+    "firstTime": 1775704635313,
+    "duration": 12544,
+    "visible": true,
+    "doubtTagCount": 0,
+    "collectTagCount": 0,
+    "doubt": false,
+    "collect": false,
+    "hasProblem": false,
+    "sendProblem": false,
+    "problem": null,
+    "emojiCount": {
+      "0": 0
+    },
+    "hasEmoji": {}
+  },
+  {
+    "id": "1659835552595590656",
+    "cover": "https://rain-private-qn.yuketang.cn/slide/4505185/cover257_20260409111655.jpg?e=1782567006&token=IAM-gs8ue1pDIGwtR1CR0Zjdagg7Q2tn5G_1BqTmhmqa:2Y-bUhQ2_FmJsC7PiR_HqWMG2ac=",
+    "presentationId": "1659835552545259008",
+    "index": 3,
+    "firstTime": 1775704647857,
+    "duration": 93818,
+    "visible": true,
+    "doubtTagCount": 0,
+    "collectTagCount": 0,
+    "doubt": false,
+    "collect": false,
+    "hasProblem": false,
+    "sendProblem": false,
+    "problem": null,
+    "emojiCount": {
+      "0": 0
+    },
+    "hasEmoji": {}
+  },
+  {
+    "id": "1659835552603979264",
+    "cover": "https://rain-private-qn.yuketang.cn/slide/4505185/cover258_20260409111656.jpg?e=1782567006&token=IAM-gs8ue1pDIGwtR1CR0Zjdagg7Q2tn5G_1BqTmhmqa:q6p55FqPjDr4dsUCqW4ge6TKBbo=",
+    "presentationId": "1659835552545259008",
+    "index": 4,
+    "firstTime": 1775704658100,
+    "duration": 68453,
+    "visible": true,
+    "doubtTagCount": 0,
+    "collectTagCount": 0,
+    "doubt": false,
+    "collect": false,
+    "hasProblem": false,
+    "sendProblem": false,
+    "problem": null,
+    "emojiCount": {
+      "0": 0
+    },
+    "hasEmoji": {}
+  },
+  {
+    "id": "1659835552620756480",
+    "cover": "https://rain-private-qn.yuketang.cn/slide/4505185/cover259_20260409111656.jpg?e=1782567006&token=IAM-gs8ue1pDIGwtR1CR0Zjdagg7Q2tn5G_1BqTmhmqa:RuhPATPdDUSXwj9y0nuTOTMv0_k=",
+    "presentationId": "1659835552545259008",
+    "index": 5,
+    "firstTime": 1775704662150,
+    "duration": 51771,
+    "visible": true,
+    "doubtTagCount": 0,
+    "collectTagCount": 0,
+    "doubt": false,
+    "collect": false,
+    "hasProblem": false,
+    "sendProblem": false,
+    "problem": null,
+    "emojiCount": {
+      "0": 0
+    },
+    "hasEmoji": {}
+  }
+]

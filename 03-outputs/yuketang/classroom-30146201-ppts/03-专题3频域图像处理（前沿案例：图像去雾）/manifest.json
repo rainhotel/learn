@@ -1,0 +1,35 @@
+{
+  "title": "专题3频域图像处理（前沿案例：图像去雾）",
+  "lesson_id": "1700380076367258624",
+  "activity": {
+    "type": 14,
+    "id": 55696702,
+    "courseware_id": "1700380076367258624",
+    "title": "专题3频域图像处理（前沿案例：图像去雾）",
+    "create_time": 1780537901000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1700380941039563264",
+    "1700418835947292160"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1700380941039563264",
+      "slide_count": 186,
+      "visible_slide_count": 22,
+      "downloaded": 22,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\03-专题3频域图像处理（前沿案例：图像去雾）\\presentation-01-1700380941039563264"
+    },
+    {
+      "presentation_id": "1700418835947292160",
+      "slide_count": 96,
+      "visible_slide_count": 28,
+      "downloaded": 28,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\03-专题3频域图像处理（前沿案例：图像去雾）\\presentation-02-1700418835947292160"
+    }
+  ]
+}

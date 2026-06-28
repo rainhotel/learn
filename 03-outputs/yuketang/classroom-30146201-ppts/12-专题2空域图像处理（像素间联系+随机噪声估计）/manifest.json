@@ -1,0 +1,26 @@
+{
+  "title": "专题2空域图像处理（像素间联系+随机噪声估计）",
+  "lesson_id": "1653276272903964160",
+  "activity": {
+    "type": 14,
+    "id": 53517731,
+    "courseware_id": "1653276272903964160",
+    "title": "专题2空域图像处理（像素间联系+随机噪声估计）",
+    "create_time": 1774922690000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1653277320590417920"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1653277320590417920",
+      "slide_count": 306,
+      "visible_slide_count": 37,
+      "downloaded": 37,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\12-专题2空域图像处理（像素间联系+随机噪声估计）\\presentation-01-1653277320590417920"
+    }
+  ]
+}

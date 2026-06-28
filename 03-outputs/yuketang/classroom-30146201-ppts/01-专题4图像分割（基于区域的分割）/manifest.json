@@ -1,0 +1,26 @@
+{
+  "title": "专题4图像分割（基于区域的分割）",
+  "lesson_id": "1710531513286044160",
+  "activity": {
+    "type": 14,
+    "id": 56076992,
+    "courseware_id": "1710531513286044160",
+    "title": "专题4图像分割（基于区域的分割）",
+    "create_time": 1781748047000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1710532283502864896"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1710532283502864896",
+      "slide_count": 107,
+      "visible_slide_count": 34,
+      "downloaded": 34,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\01-专题4图像分割（基于区域的分割）\\presentation-01-1710532283502864896"
+    }
+  ]
+}

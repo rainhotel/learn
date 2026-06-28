@@ -1,0 +1,24 @@
+{
+  "lessonId": "1675018122744171904",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "专题2空域图像处理（彩色图像处理）",
+  "lessonType": 0,
+  "start": 1777514520397,
+  "end": 1777521182414,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 54660927,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1675018965757575936"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "title": "专题2空域图像处理（空域滤波）",
+  "lesson_id": "1659797980917664384",
+  "activity": {
+    "type": 14,
+    "id": 53877365,
+    "courseware_id": "1659797980917664384",
+    "title": "专题2空域图像处理（空域滤波）",
+    "create_time": 1775700138000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1659799103783176192",
+    "1659833601690273792",
+    "1659835552545259008",
+    "1659837718542562560",
+    "1659840689753963648",
+    "1659846958476561280"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1659799103783176192",
+      "slide_count": 306,
+      "visible_slide_count": 27,
+      "downloaded": 27,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-01-1659799103783176192"
+    },
+    {
+      "presentation_id": "1659833601690273792",
+      "slide_count": 5,
+      "visible_slide_count": 5,
+      "downloaded": 5,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-02-1659833601690273792"
+    },
+    {
+      "presentation_id": "1659835552545259008",
+      "slide_count": 5,
+      "visible_slide_count": 5,
+      "downloaded": 5,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-03-1659835552545259008"
+    },
+    {
+      "presentation_id": "1659837718542562560",
+      "slide_count": 5,
+      "visible_slide_count": 4,
+      "downloaded": 4,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-04-1659837718542562560"
+    },
+    {
+      "presentation_id": "1659840689753963648",
+      "slide_count": 5,
+      "visible_slide_count": 5,
+      "downloaded": 5,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-05-1659840689753963648"
+    },
+    {
+      "presentation_id": "1659846958476561280",
+      "slide_count": 77,
+      "visible_slide_count": 11,
+      "downloaded": 11,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\11-专题2空域图像处理（空域滤波）\\presentation-06-1659846958476561280"
+    }
+  ]
+}

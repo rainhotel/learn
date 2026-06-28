@@ -1,0 +1,26 @@
+{
+  "title": "专题1数字图像基础",
+  "lesson_id": "1639504306900463232",
+  "activity": {
+    "type": 14,
+    "id": 52758371,
+    "courseware_id": "1639504306900463232",
+    "title": "专题1数字图像基础",
+    "create_time": 1773280944000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1639504736866669824"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1639504736866669824",
+      "slide_count": 77,
+      "visible_slide_count": 44,
+      "downloaded": 44,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\15-专题1数字图像基础\\presentation-01-1639504736866669824"
+    }
+  ]
+}

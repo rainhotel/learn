@@ -1,468 +1,341 @@
 from pathlib import Path
 
+from PIL import Image, ImageDraw, ImageFont
 from docx import Document
-from docx.enum.section import WD_SECTION
-from docx.enum.table import WD_CELL_VERTICAL_ALIGNMENT, WD_TABLE_ALIGNMENT
+from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 
 TOPIC_DIR = Path(__file__).resolve().parent
 ROOT_DIR = TOPIC_DIR.parents[1]
+TEMPLATE_PATH = Path(r"D:\qq_setup_31980\报告模板-课设3图像增强与复原算法综合应用（2024版）.docx")
 OUTPUT_DIR = ROOT_DIR / "03-outputs" / "image-enhancement-restoration-course-design"
 DOCX_PATH = OUTPUT_DIR / "course-design3-report-final.docx"
 
+STUDENT_NAME = "李林浩"
+STUDENT_ID = "202483290054"
+DEPARTMENT = "计算机学院"
+MAJOR = "计算机科学与技术"
+TEACHER = "范春年"
 
-BLUE = "2E74B5"
-DARK_BLUE = "1F4D78"
-INK_BLUE = "0B2545"
-LIGHT_GRAY = "F2F4F7"
-BORDER_GRAY = "A6A6A6"
 
-
-def set_run_font(run, name="Calibri", east_asia="SimSun", size=None, bold=None, color=None):
-    run.font.name = name
-    r_fonts = run._element.get_or_add_rPr().get_or_add_rFonts()
-    r_fonts.set(qn("w:ascii"), name)
-    r_fonts.set(qn("w:hAnsi"), name)
-    r_fonts.set(qn("w:eastAsia"), east_asia)
-    if size is not None:
-        run.font.size = Pt(size)
-    if bold is not None:
-        run.bold = bold
+def set_run_font(run, source_run=None, color=None):
+    if source_run is not None:
+        if source_run.font.name:
+            run.font.name = source_run.font.name
+        if source_run.font.size:
+            run.font.size = source_run.font.size
+        run.bold = source_run.bold
+        run.italic = source_run.italic
+        run.underline = source_run.underline
+        r_color = source_run.font.color.rgb if source_run.font.color else None
+        if color is None and r_color:
+            color = str(r_color)
     if color is not None:
         run.font.color.rgb = RGBColor.from_string(color)
+    if run.font.name:
+        r_fonts = run._element.get_or_add_rPr().get_or_add_rFonts()
+        r_fonts.set(qn("w:ascii"), run.font.name)
+        r_fonts.set(qn("w:hAnsi"), run.font.name)
+        r_fonts.set(qn("w:eastAsia"), run.font.name)
 
 
-def configure_styles(doc):
-    section = doc.sections[0]
-    section.page_width = Inches(8.5)
-    section.page_height = Inches(11)
-    section.top_margin = Inches(1)
-    section.bottom_margin = Inches(1)
-    section.left_margin = Inches(1)
-    section.right_margin = Inches(1)
-    section.header_distance = Inches(0.492)
-    section.footer_distance = Inches(0.492)
-
-    styles = doc.styles
-    normal = styles["Normal"]
-    normal.font.name = "Calibri"
-    normal.font.size = Pt(11)
-    normal._element.rPr.rFonts.set(qn("w:ascii"), "Calibri")
-    normal._element.rPr.rFonts.set(qn("w:hAnsi"), "Calibri")
-    normal._element.rPr.rFonts.set(qn("w:eastAsia"), "SimSun")
-    normal.paragraph_format.space_before = Pt(0)
-    normal.paragraph_format.space_after = Pt(6)
-    normal.paragraph_format.line_spacing = 1.10
-
-    h1 = styles["Heading 1"]
-    h1.font.name = "Calibri"
-    h1.font.size = Pt(16)
-    h1.font.color.rgb = RGBColor.from_string(BLUE)
-    h1._element.rPr.rFonts.set(qn("w:ascii"), "Calibri")
-    h1._element.rPr.rFonts.set(qn("w:hAnsi"), "Calibri")
-    h1._element.rPr.rFonts.set(qn("w:eastAsia"), "SimHei")
-    h1.paragraph_format.space_before = Pt(16)
-    h1.paragraph_format.space_after = Pt(8)
-    h1.paragraph_format.line_spacing = 1.10
-
-    h2 = styles["Heading 2"]
-    h2.font.name = "Calibri"
-    h2.font.size = Pt(13)
-    h2.font.color.rgb = RGBColor.from_string(BLUE)
-    h2._element.rPr.rFonts.set(qn("w:ascii"), "Calibri")
-    h2._element.rPr.rFonts.set(qn("w:hAnsi"), "Calibri")
-    h2._element.rPr.rFonts.set(qn("w:eastAsia"), "SimHei")
-    h2.paragraph_format.space_before = Pt(12)
-    h2.paragraph_format.space_after = Pt(6)
-    h2.paragraph_format.line_spacing = 1.10
-
-    h3 = styles["Heading 3"]
-    h3.font.name = "Calibri"
-    h3.font.size = Pt(12)
-    h3.font.color.rgb = RGBColor.from_string(DARK_BLUE)
-    h3._element.rPr.rFonts.set(qn("w:ascii"), "Calibri")
-    h3._element.rPr.rFonts.set(qn("w:hAnsi"), "Calibri")
-    h3._element.rPr.rFonts.set(qn("w:eastAsia"), "SimHei")
-    h3.paragraph_format.space_before = Pt(8)
-    h3.paragraph_format.space_after = Pt(4)
-    h3.paragraph_format.line_spacing = 1.10
+def replace_paragraph_text(paragraph, text, color="000000"):
+    source_run = paragraph.runs[0] if paragraph.runs else None
+    paragraph.clear()
+    run = paragraph.add_run(text)
+    set_run_font(run, source_run=source_run, color=color)
 
 
-def add_header_footer(doc):
-    section = doc.sections[0]
-    header_p = section.header.paragraphs[0]
-    header_p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    run = header_p.add_run("图像增强与复原算法综合应用课程设计")
-    set_run_font(run, size=9, color="666666")
-    add_paragraph_bottom_border(header_p, "D9E2F3")
+def replace_paragraph_lines(
+    paragraph,
+    lines,
+    color="000000",
+    font_name=None,
+    font_size_pt=None,
+    align=None,
+):
+    source_run = paragraph.runs[0] if paragraph.runs else None
+    paragraph.clear()
+    if align is not None:
+        paragraph.alignment = align
 
-    footer_p = section.footer.paragraphs[0]
-    footer_p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    run = footer_p.add_run("第 ")
-    set_run_font(run, size=9, color="666666")
-    add_page_field(footer_p)
-    run = footer_p.add_run(" 页")
-    set_run_font(run, size=9, color="666666")
-
-
-def add_paragraph_bottom_border(paragraph, color):
-    p_pr = paragraph._p.get_or_add_pPr()
-    p_bdr = p_pr.find(qn("w:pBdr"))
-    if p_bdr is None:
-        p_bdr = OxmlElement("w:pBdr")
-        p_pr.append(p_bdr)
-    bottom = OxmlElement("w:bottom")
-    bottom.set(qn("w:val"), "single")
-    bottom.set(qn("w:sz"), "4")
-    bottom.set(qn("w:space"), "1")
-    bottom.set(qn("w:color"), color)
-    p_bdr.append(bottom)
+    for idx, line in enumerate(lines):
+        run = paragraph.add_run(line)
+        set_run_font(run, source_run=source_run, color=color)
+        if font_name:
+            run.font.name = font_name
+            r_fonts = run._element.get_or_add_rPr().get_or_add_rFonts()
+            r_fonts.set(qn("w:ascii"), font_name)
+            r_fonts.set(qn("w:hAnsi"), font_name)
+            r_fonts.set(qn("w:eastAsia"), font_name)
+        if font_size_pt:
+            run.font.size = Pt(font_size_pt)
+        if idx < len(lines) - 1:
+            run.add_break()
 
 
-def add_page_field(paragraph):
+def clear_paragraph_and_add_picture(paragraph, image_path, width_inches):
+    paragraph.clear()
+    paragraph.alignment = WD_ALIGN_PARAGRAPH.CENTER
     run = paragraph.add_run()
-    fld_char1 = OxmlElement("w:fldChar")
-    fld_char1.set(qn("w:fldCharType"), "begin")
-    instr = OxmlElement("w:instrText")
-    instr.set(qn("xml:space"), "preserve")
-    instr.text = "PAGE"
-    fld_char2 = OxmlElement("w:fldChar")
-    fld_char2.set(qn("w:fldCharType"), "end")
-    run._r.append(fld_char1)
-    run._r.append(instr)
-    run._r.append(fld_char2)
-    set_run_font(run, size=9, color="666666")
+    run.add_picture(str(image_path), width=Inches(width_inches))
 
 
-def add_title(doc):
-    p = doc.add_paragraph()
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p.paragraph_format.space_after = Pt(12)
-    run = p.add_run("图像增强与复原算法综合应用课程设计报告")
-    set_run_font(run, size=20, bold=True, color=INK_BLUE, east_asia="SimHei")
-
-    meta = doc.add_paragraph()
-    meta.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    meta.paragraph_format.space_after = Pt(14)
-    run = meta.add_run("课程：数字图像处理实践    指导教师：范春年    姓名：李林浩    学号：202483290054    班级：2024级4班")
-    set_run_font(run, size=10.5, color="666666")
-
-
-def add_heading(doc, text, level=1):
-    doc.add_heading(text, level=level)
-
-
-def add_body(doc, text):
-    p = doc.add_paragraph()
-    p.paragraph_format.space_after = Pt(6)
-    p.paragraph_format.line_spacing = 1.10
-    run = p.add_run(text)
-    set_run_font(run, size=11)
-    return p
-
-
-def add_caption(doc, text):
-    p = doc.add_paragraph()
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    p.paragraph_format.space_before = Pt(2)
-    p.paragraph_format.space_after = Pt(8)
-    run = p.add_run(text)
-    set_run_font(run, size=9, color="666666")
-
-
-def add_figure(doc, image_name, caption):
-    image_path = OUTPUT_DIR / image_name
-    if not image_path.exists():
-        return
-    p = doc.add_paragraph()
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run()
-    run.add_picture(str(image_path), width=Inches(6.3))
-    add_caption(doc, caption)
-
-
-def set_cell_shading(cell, fill):
-    tc_pr = cell._tc.get_or_add_tcPr()
-    shd = tc_pr.find(qn("w:shd"))
-    if shd is None:
-        shd = OxmlElement("w:shd")
-        tc_pr.append(shd)
-    shd.set(qn("w:fill"), fill)
-
-
-def set_cell_width(cell, width_dxa):
-    tc_pr = cell._tc.get_or_add_tcPr()
-    tc_w = tc_pr.find(qn("w:tcW"))
-    if tc_w is None:
-        tc_w = OxmlElement("w:tcW")
-        tc_pr.append(tc_w)
-    tc_w.set(qn("w:w"), str(width_dxa))
-    tc_w.set(qn("w:type"), "dxa")
-
-
-def set_table_geometry(table, widths_dxa):
-    table.alignment = WD_TABLE_ALIGNMENT.LEFT
+def insert_table_after(paragraph, headers, rows, widths_inches):
+    doc = paragraph.part.document
+    table = doc.add_table(rows=1 + len(rows), cols=len(headers))
+    table.alignment = WD_TABLE_ALIGNMENT.CENTER
     table.autofit = False
 
-    tbl = table._tbl
-    tbl_pr = tbl.tblPr
-    tbl_w = tbl_pr.find(qn("w:tblW"))
-    if tbl_w is None:
-        tbl_w = OxmlElement("w:tblW")
-        tbl_pr.append(tbl_w)
-    tbl_w.set(qn("w:w"), str(sum(widths_dxa)))
-    tbl_w.set(qn("w:type"), "dxa")
-
-    tbl_ind = tbl_pr.find(qn("w:tblInd"))
-    if tbl_ind is None:
-        tbl_ind = OxmlElement("w:tblInd")
-        tbl_pr.append(tbl_ind)
-    tbl_ind.set(qn("w:w"), "120")
-    tbl_ind.set(qn("w:type"), "dxa")
-
-    layout = tbl_pr.find(qn("w:tblLayout"))
-    if layout is None:
-        layout = OxmlElement("w:tblLayout")
-        tbl_pr.append(layout)
-    layout.set(qn("w:type"), "fixed")
-
-    tbl_grid = tbl.find(qn("w:tblGrid"))
-    if tbl_grid is not None:
-        tbl.remove(tbl_grid)
-    tbl_grid = OxmlElement("w:tblGrid")
-    for width in widths_dxa:
-        col = OxmlElement("w:gridCol")
-        col.set(qn("w:w"), str(width))
-        tbl_grid.append(col)
-    tbl.insert(1, tbl_grid)
-
-    for row in table.rows:
-        for idx, cell in enumerate(row.cells):
-            set_cell_width(cell, widths_dxa[idx])
-            cell.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
-
-
-def set_table_borders(table):
-    tbl_pr = table._tbl.tblPr
-    borders = tbl_pr.find(qn("w:tblBorders"))
-    if borders is None:
-        borders = OxmlElement("w:tblBorders")
-        tbl_pr.append(borders)
-    for edge in ["top", "left", "bottom", "right", "insideH", "insideV"]:
-        tag = "w:" + edge
-        element = borders.find(qn(tag))
-        if element is None:
-            element = OxmlElement(tag)
-            borders.append(element)
-        element.set(qn("w:val"), "single")
-        element.set(qn("w:sz"), "4")
-        element.set(qn("w:space"), "0")
-        element.set(qn("w:color"), BORDER_GRAY)
-
-
-def add_metrics_table(doc, headers, rows, widths_dxa):
-    table = doc.add_table(rows=1, cols=len(headers))
-    set_table_geometry(table, widths_dxa)
-    set_table_borders(table)
-
-    header_cells = table.rows[0].cells
-    for idx, text in enumerate(headers):
-        cell = header_cells[idx]
+    for idx, header in enumerate(headers):
+        cell = table.rows[0].cells[idx]
         cell.text = ""
         p = cell.paragraphs[0]
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-        run = p.add_run(text)
-        set_run_font(run, size=9.5, bold=True)
-        set_cell_shading(cell, LIGHT_GRAY)
+        run = p.add_run(header)
+        run.bold = True
+        set_run_font(run, color="000000")
+        cell.width = Inches(widths_inches[idx])
 
-    for row in rows:
-        cells = table.add_row().cells
-        for idx, value in enumerate(row):
-            cells[idx].text = ""
-            p = cells[idx].paragraphs[0]
-            p.alignment = WD_ALIGN_PARAGRAPH.CENTER if idx > 0 else WD_ALIGN_PARAGRAPH.LEFT
+    for r_idx, row in enumerate(rows, start=1):
+        for c_idx, value in enumerate(row):
+            cell = table.rows[r_idx].cells[c_idx]
+            cell.text = ""
+            p = cell.paragraphs[0]
+            p.alignment = WD_ALIGN_PARAGRAPH.LEFT if c_idx == 0 else WD_ALIGN_PARAGRAPH.CENTER
             run = p.add_run(value)
-            set_run_font(run, size=9.5)
-            set_cell_width(cells[idx], widths_dxa[idx])
+            set_run_font(run, color="000000")
+            cell.width = Inches(widths_inches[c_idx])
 
-    doc.add_paragraph()
+    paragraph._p.addnext(table._tbl)
     return table
 
 
-def add_code_block(doc, code):
-    for line in code.strip("\n").splitlines():
-        p = doc.add_paragraph()
-        p.paragraph_format.space_after = Pt(0)
-        run = p.add_run(line)
-        set_run_font(run, name="Courier New", east_asia="SimSun", size=9.5)
-    doc.add_paragraph()
+def font_path():
+    candidates = [
+        r"C:\Windows\Fonts\simhei.ttf",
+        r"C:\Windows\Fonts\simsun.ttc",
+        r"C:\Windows\Fonts\msyh.ttc",
+        r"C:\Windows\Fonts\simfang.ttf",
+    ]
+    for path in candidates:
+        if Path(path).exists():
+            return path
+    return None
 
 
-def build_docx():
+def get_font(size):
+    path = font_path()
+    if path:
+        return ImageFont.truetype(path, size=size, index=0)
+    return ImageFont.load_default()
+
+
+def draw_flowchart(output_path, title, labels):
+    image = Image.new("RGB", (1600, 360), "white")
+    draw = ImageDraw.Draw(image)
+    title_font = get_font(28)
+    box_font = get_font(20)
+
+    draw.text((800, 28), title, fill="black", font=title_font, anchor="ma")
+
+    box_w = 180
+    box_h = 92
+    gap = 24
+    total = len(labels) * box_w + (len(labels) - 1) * gap
+    x = (1600 - total) // 2
+    y = 145
+
+    for i, label in enumerate(labels):
+        x1 = x + i * (box_w + gap)
+        y1 = y
+        x2 = x1 + box_w
+        y2 = y1 + box_h
+        draw.rounded_rectangle([x1, y1, x2, y2], radius=14, outline="black", width=3, fill="white")
+        bbox = draw.multiline_textbbox((0, 0), label, font=box_font, align="center", spacing=4)
+        tw = bbox[2] - bbox[0]
+        th = bbox[3] - bbox[1]
+        tx = x1 + (box_w - tw) / 2
+        ty = y1 + (box_h - th) / 2 - 2
+        draw.multiline_text((tx, ty), label, fill="black", font=box_font, align="center", spacing=4)
+        if i < len(labels) - 1:
+            ax1 = x2 + 6
+            ax2 = x1 + box_w + gap - 10
+            ay = y1 + box_h / 2
+            draw.line((ax1, ay, ax2, ay), fill="black", width=3)
+            draw.polygon([(ax2, ay), (ax2 - 12, ay - 8), (ax2 - 12, ay + 8)], fill="black")
+
+    image.save(output_path)
+
+
+def build_supporting_images():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    doc = Document()
-    configure_styles(doc)
-    add_header_footer(doc)
-    add_title(doc)
-
-    add_heading(doc, "摘要", 1)
-    add_body(
-        doc,
-        "本课程设计围绕混合噪声图像增强和未知降质图像复原两个任务展开。图像增强任务中，"
-        "先通过傅里叶频谱分析定位周期噪声峰值，再设计高斯陷波滤波器在频率域抑制周期噪声，"
-        "随后使用中值滤波、均值滤波、高提升锐化和百分位灰度拉伸在空间域进一步降低随机噪声。"
-        "图像复原任务中，学号 202483290054 尾数为偶数，选择图1模糊树林图像，采用近似高斯点扩散函数的维纳复原方法，"
-        "并结合高提升锐化和灰度拉伸恢复边缘细节。"
+    draw_flowchart(
+        OUTPUT_DIR / "enhancement_flowchart.png",
+        "图像增强算法流程",
+        [
+            "读入图像\n归一化",
+            "FFT\n频谱分析",
+            "高斯陷波\n抑制周期噪声",
+            "5x5中值\n滤波",
+            "3x3均值\n滤波",
+            "高提升\n锐化",
+            "百分位\n拉伸",
+        ],
     )
-    add_body(
-        doc,
-        "实验结果表明，增强任务的 MSE 由 0.071191 降至 0.006541，SNR 由 4.664 dB 提升至 15.032 dB，"
-        "PSNR 由 11.476 dB 提升至 21.844 dB，SSIM 由 0.1039 提升至 0.6558。图1复原后平均梯度由 "
-        "0.03489 提升至 0.11841，拉普拉斯方差由 0.01926 提升至 0.12463，说明图像细节和边缘清晰度明显增强。"
-    )
-    add_body(doc, "关键词：图像增强；周期噪声；陷波滤波；中值滤波；维纳滤波；图像复原")
-
-    add_heading(doc, "1. 任务描述", 1)
-    add_body(
-        doc,
-        "课程设计包含图像增强和图像复原两部分。增强任务要求对含随机噪声和周期噪声的图像进行处理，"
-        "清晰图像仅用于算法评估。复原任务要求在两幅未知降质图像中按学号尾数选择一幅进行复原。"
-        "本文默认按偶数学号选择图1模糊树林图像；脚本同时生成图2低照度瀑布图像的备选结果。"
+    draw_flowchart(
+        OUTPUT_DIR / "restoration_flowchart.png",
+        "图像复原算法流程",
+        [
+            "读入降质\n图像",
+            "PSF\n近似建模",
+            "Wiener\n复原",
+            "细节\n补偿",
+            "百分位\n拉伸",
+            "输出复原\n结果",
+        ],
     )
 
-    add_heading(doc, "2. 问题分析", 1)
-    add_heading(doc, "2.1 混合噪声图像增强", 2)
-    add_body(
-        doc,
-        "退化图像中存在明显规则条纹，并叠加随机噪声。周期噪声在空间域中表现为规则明暗变化，"
-        "在频率域中表现为远离中心的成对亮点。因此，单纯使用空间域滤波难以彻底去除周期条纹，"
-        "而单纯使用频域滤波又不能充分处理随机噪声。本文采用频率域陷波和空间域滤波相结合的方案。"
-    )
-    add_heading(doc, "2.2 模糊图像复原", 2)
-    add_body(
-        doc,
-        "图1模糊树林图像主要表现为边缘不清晰、纹理细节弱。该退化过程可近似为清晰图像经过低通型点扩散函数模糊后再叠加少量噪声。"
-        "由于真实退化函数未知，本文使用高斯点扩散函数近似退化模型，并采用维纳滤波抑制逆滤波可能导致的噪声放大。"
-    )
 
-    add_heading(doc, "3. 算法设计", 1)
-    add_heading(doc, "3.1 图像增强算法", 2)
-    add_body(
-        doc,
-        "增强算法流程为：读入图像并归一化，进行傅里叶变换，按频谱峰值构造高斯陷波滤波器，"
-        "再依次使用 5 x 5 中值滤波、3 x 3 均值滤波、高提升锐化和百分位灰度拉伸。"
-        "主陷波中心设为 (0, ±71) 和 (±74, 0)，陷波半径 D0 取 10。"
-    )
-    add_body(doc, "高斯陷波滤波器定义为 H_k(u,v)=1-exp(-D_k(u,v)^2/(2D0^2))，总滤波器为各陷波器的乘积。")
-    add_heading(doc, "3.2 图像复原算法", 2)
-    add_body(
-        doc,
-        "复原算法使用退化模型 g(x,y)=h(x,y)*f(x,y)+n(x,y)。图1中取高斯 PSF 近似 h(x,y)，"
-        "参数为 psf_size=13、psf_sigma=1.35，并使用维纳滤波公式 F_hat=H*/(|H|^2+K)G，K=0.004。"
-        "复原后的亮度分量再经高提升锐化和百分位拉伸后替换回彩色图像。"
-    )
+def fill_template():
+    build_supporting_images()
+    doc = Document(str(TEMPLATE_PATH))
 
-    add_heading(doc, "4. 实验结果与分析", 1)
-    add_heading(doc, "4.1 增强任务结果", 2)
-    add_metrics_table(
-        doc,
+    # Title page
+    replace_paragraph_text(doc.paragraphs[13], f"学生姓名                             {STUDENT_NAME}")
+    replace_paragraph_text(doc.paragraphs[15], f"学    号                             {STUDENT_ID}")
+    replace_paragraph_text(doc.paragraphs[17], f"院    系        {DEPARTMENT}          ")
+    replace_paragraph_text(doc.paragraphs[19], f"专    业     {MAJOR}        ")
+    replace_paragraph_text(doc.paragraphs[21], f"任课教师        {TEACHER}        ")
+
+    # Task 1
+    replace_paragraph_text(doc.paragraphs[31], "本节针对题目给出的第二组带噪图像开展增强实验，研究目标是在保留目标轮廓与纹理细节的前提下，尽可能抑制混合噪声对图像质量的影响。")
+    replace_paragraph_text(doc.paragraphs[32], "已知待处理图像同时受到随机噪声与周期噪声的共同干扰。随机噪声主要表现为局部灰度抖动与颗粒感，周期噪声则表现为具有固定方向和周期的规则条纹。")
+    replace_paragraph_text(doc.paragraphs[33], "由于两类噪声在形成机理和空间表现上存在明显差异，若仅采用单一空间域平滑方法，往往难以同时获得较好的去噪效果和细节保持能力。")
+    replace_paragraph_text(doc.paragraphs[34], "因此，本文采用频率域与空间域相结合的技术路线，首先在频率域抑制周期噪声分量，再在空间域进一步削弱随机噪声，并辅以细节补偿与对比度增强。")
+    replace_paragraph_text(doc.paragraphs[35], "题目提供了对应的清晰参考图像，因此增强结果可以采用均方误差、信噪比、峰值信噪比和结构相似度等有参考指标进行客观评价。")
+    replace_paragraph_text(doc.paragraphs[36], "根据学号尾数为偶数的要求，本文选取第二组 dog 图像作为实验对象。实验过程中同时保存中间处理结果，以便对各阶段的作用进行分析。")
+    replace_paragraph_text(doc.paragraphs[37], "原始参考图像与待增强图像如图1所示。")
+    clear_paragraph_and_add_picture(doc.paragraphs[39], OUTPUT_DIR / "enhancement_comparison.png", 5.8)
+    replace_paragraph_text(doc.paragraphs[40], "图1  第二组带噪图像增强结果对比")
+    replace_paragraph_text(doc.paragraphs[42], "空间域观察表明，待处理图像在整体上叠加了较明显的规则条纹，同时伴随细小颗粒状干扰，说明该图像属于典型的混合噪声退化情形。")
+    replace_paragraph_text(doc.paragraphs[43], "对待处理图像进行二维傅里叶变换后，可以在频谱中心附近观察到四个关于原点对称的亮点。根据频谱峰值位置估计，其主要偏移约为 (0, ±71) 和 (±74, 0)，说明周期噪声具有较稳定的频率成分。")
+    replace_paragraph_text(doc.paragraphs[44], "对于随机噪声部分，其主要表现为局部异常像素和小尺度灰度扰动。中值滤波对脉冲性干扰更为敏感，均值滤波则有利于降低残余高频波动，但单独使用均值滤波会造成边缘模糊。")
+    replace_paragraph_text(doc.paragraphs[45], "据此，本文确定“频率域抑制周期噪声、空间域削弱随机噪声、后续锐化补偿细节”的总体设计思想，以兼顾去噪性能与图像清晰度。")
+    replace_paragraph_text(doc.paragraphs[47], "算法设计流程如下：首先对退化图像进行频谱分析，并依据离散峰值位置构造高斯陷波滤波器；随后对频域滤波结果进行 5×5 中值滤波和 3×3 均值滤波；最后采用高提升锐化和百分位灰度拉伸恢复边缘细节与整体对比度。")
+    clear_paragraph_and_add_picture(doc.paragraphs[48], OUTPUT_DIR / "enhancement_flowchart.png", 5.8)
+    replace_paragraph_text(doc.paragraphs[49], "图2  图像增强算法框图")
+    replace_paragraph_text(doc.paragraphs[50], "在参数设置方面，陷波中心取 (0, ±71) 和 (±74, 0)，陷波半径 D0 取 10；中值滤波窗口为 5×5，均值滤波窗口为 3×3；高提升锐化系数取 0.15；百分位拉伸区间取 0.5% 至 99.5%。")
+    replace_paragraph_text(doc.paragraphs[51], "上述参数是在多次试验基础上确定的折中结果，其目的在于既保证周期条纹得到有效抑制，又避免对主体轮廓和纹理细节造成过度损伤。")
+    replace_paragraph_text(doc.paragraphs[53], "依据上述算法框图，增强任务的关键 MATLAB 代码如下所示。")
+    replace_paragraph_lines(
+        doc.paragraphs[54],
+        [
+            "[freqFiltered, notchFilter] = gaussian_notch_reject(noisy, notchOffsets, notchRadius);",
+            "medianFiltered = median_filter2(freqFiltered, 5);",
+            "meanFiltered = mean_filter2(medianFiltered, 3);",
+            "sharpened = high_boost(meanFiltered, 0.15);",
+            "enhanced = percentile_stretch(sharpened, 0.5, 99.5);",
+        ],
+        font_name="Courier New",
+        font_size_pt=8.5,
+        align=WD_ALIGN_PARAGRAPH.LEFT,
+    )
+    replace_paragraph_lines(
+        doc.paragraphs[55],
+        [
+            "notchOffsets = [0,-71; 0,71; -74,0; 74,0];",
+            "d2 = (y - (cy + dy)).^2 + (x - (cx + dx)).^2;",
+            "H = H .* (1 - exp(-d2 / (2 * D0^2)));",
+            "G = F .* H;",
+            "out = real(ifft2(ifftshift(G)));",
+        ],
+        font_name="Courier New",
+        font_size_pt=8.5,
+        align=WD_ALIGN_PARAGRAPH.LEFT,
+    )
+    replace_paragraph_text(doc.paragraphs[56], "程序运行后，脚本将输出频域陷波结果、空间域滤波结果、最终增强结果及频谱分析图，并进一步依据参考图像计算客观评价指标。")
+    replace_paragraph_text(doc.paragraphs[57], "表1  图像增强结果客观评价指标对比")
+    insert_table_after(
+        doc.paragraphs[57],
         ["阶段", "MSE", "RMSE", "SNR/dB", "PSNR/dB", "SSIM"],
         [
             ["处理前", "0.071191", "0.266816", "4.664", "11.476", "0.1039"],
             ["处理后", "0.006541", "0.080877", "15.032", "21.844", "0.6558"],
         ],
-        [1560, 1560, 1560, 1560, 1560, 1560],
+        [1.0, 0.9, 0.95, 0.95, 1.0, 0.8],
     )
-    add_body(
-        doc,
-        "处理后 MSE 明显下降，SNR 和 PSNR 均提升约 10 dB，SSIM 从 0.1039 提升到 0.6558，"
-        "说明周期噪声和随机噪声均得到有效抑制，图像结构信息恢复明显。"
-    )
-    add_figure(doc, "enhancement_comparison.png", "图1 图像增强处理流程与结果对比")
-    add_figure(doc, "enhancement_spectrum_and_notch.png", "图2 周期噪声频谱峰值与高斯陷波滤波器")
-    add_figure(doc, "enhancement_error_comparison.png", "图3 增强前后误差对比")
+    replace_paragraph_text(doc.paragraphs[58], "由表1可知，处理后 MSE 由 0.071191 降至 0.006541，RMSE 由 0.266816 降至 0.080877，表明增强结果与参考图像之间的像素误差显著减小。与此同时，SNR 由 4.664 dB 提升至 15.032 dB，PSNR 由 11.476 dB 提升至 21.844 dB，说明噪声能量得到有效抑制。")
+    replace_paragraph_text(doc.paragraphs[59], "SSIM 由 0.1039 提升至 0.6558，说明所设计算法不仅改善了灰度误差，而且在较大程度上保持并恢复了图像结构信息。该方法的优点是针对混合噪声具有较好的适应性；不足之处在于陷波中心仍需依据频谱人工估计，自动化程度有待提高。")
 
-    add_heading(doc, "4.2 复原任务结果", 2)
-    add_metrics_table(
-        doc,
+    # Task 2
+    replace_paragraph_text(doc.paragraphs[62], "本节针对降质图像复原任务开展研究。依据学号尾数为偶数的要求，本文选择图1模糊树林图像作为实验对象。与增强任务不同，本任务未提供清晰参考图像。")
+    replace_paragraph_text(doc.paragraphs[63], "因此，算法设计需要首先根据图像的视觉退化特征对退化机理进行估计，再选择适当的复原模型进行处理。")
+    replace_paragraph_text(doc.paragraphs[64], "在客观评价方面，本文采用信息熵、标准差、平均梯度和拉普拉斯方差等无参考指标，从灰度层次、对比度和清晰度三个层面分析复原效果。")
+    replace_paragraph_text(doc.paragraphs[66], "图3  模糊树林图像复原结果对比")
+    clear_paragraph_and_add_picture(doc.paragraphs[65], OUTPUT_DIR / "restoration_fig1_comparison.png", 5.8)
+    replace_paragraph_text(doc.paragraphs[67], "复原结果如图3所示。")
+    replace_paragraph_text(doc.paragraphs[70], "从空间域观察可知，该图像的主要问题表现为整体边缘模糊、树木轮廓发软以及纹理细节被削弱，说明退化形式以模糊为主，而不是明显的脉冲噪声或周期干扰。")
+    replace_paragraph_text(doc.paragraphs[71], "若将该退化过程表示为 g(x, y) = h(x, y) * f(x, y) + n(x, y)，其中 h(x, y) 为未知退化函数，则当前任务的关键在于对 h(x, y) 作合理近似。")
+    replace_paragraph_text(doc.paragraphs[72], "结合图像视觉表现，可以将退化函数近似为高斯型点扩散函数。该模型能够较好描述成像系统失焦或轻微运动引起的低通模糊效应。")
+    replace_paragraph_text(doc.paragraphs[73], "由于直接逆滤波容易在退化函数幅值较小时放大噪声，本文选择稳定性更好的维纳滤波作为基础复原方法，并在后续增加轻量细节补偿。")
+    replace_paragraph_text(doc.paragraphs[75], "复原算法首先提取彩色图像的亮度分量，并利用高斯点扩散函数构造模糊模型；随后在频率域对亮度分量实施维纳复原；最后对复原结果进行亮度融合、细节补偿和百分位拉伸，以改善视觉清晰度与层次感。")
+    clear_paragraph_and_add_picture(doc.paragraphs[76], OUTPUT_DIR / "restoration_flowchart.png", 5.8)
+    replace_paragraph_text(doc.paragraphs[77], "图4  图像复原算法框图")
+    replace_paragraph_text(doc.paragraphs[78], "参数设置如下：高斯 PSF 尺寸取 13×13，标准差取 1.35；维纳滤波参数 K 取 0.004；亮度融合权重设置为 0.72 与 0.28；细节补偿项权重取 0.28；百分位拉伸区间取 1.0% 至 99.0%。")
+    replace_paragraph_text(doc.paragraphs[79], "上述参数的设置依据是，在控制噪声放大和振铃现象的同时，尽可能恢复树林边缘与枝叶纹理，使复原结果保持自然。")
+    replace_paragraph_text(doc.paragraphs[81], "依据算法设计，复原任务的关键 MATLAB 代码如下所示。")
+    replace_paragraph_lines(
+        doc.paragraphs[82],
+        [
+            "psf = gaussian_kernel2(13, 1.35);",
+            "deconvY = wiener_deconvolution(y, psf, 0.004);",
+            "deconvY = clamp01(0.72 * deconvY + 0.28 * y);",
+            "detail = deconvY - gaussian_blur2(deconvY, 1.0);",
+            "restoredY = percentile_stretch(clamp01(deconvY + 0.28 * detail), 1.0, 99.0);",
+        ],
+        font_name="Courier New",
+        font_size_pt=8.5,
+        align=WD_ALIGN_PARAGRAPH.LEFT,
+    )
+    replace_paragraph_lines(
+        doc.paragraphs[83],
+        [
+            "H = psf2otf_custom(psf, size(img));",
+            "G = fft2(img);",
+            "W = conj(H) ./ (abs(H).^2 + K);",
+            "out = real(ifft2(G .* W));",
+            "out = clamp01(out);",
+        ],
+        font_name="Courier New",
+        font_size_pt=8.5,
+        align=WD_ALIGN_PARAGRAPH.LEFT,
+    )
+    replace_paragraph_text(doc.paragraphs[84], "程序运行后，脚本输出原始降质图像、复原图像及其无参考指标对比结果，并据此对算法性能进行分析。")
+    replace_paragraph_text(doc.paragraphs[85], "表2  图像复原结果无参考指标对比")
+    insert_table_after(
+        doc.paragraphs[85],
         ["阶段", "信息熵", "标准差", "平均梯度", "拉普拉斯方差"],
         [
             ["复原前", "7.320", "0.176", "0.03489", "0.01926"],
             ["复原后", "7.607", "0.228", "0.11841", "0.12463"],
         ],
-        [1872, 1872, 1872, 1872, 1872],
+        [1.0, 0.95, 0.95, 1.1, 1.2],
     )
-    add_body(
-        doc,
-        "图1复原后信息熵和标准差均有所提升，说明灰度层次和整体对比度增强。平均梯度和拉普拉斯方差大幅提升，"
-        "说明边缘变化和高频细节明显增强，树林纹理和轮廓比复原前更清晰。"
-    )
-    add_figure(doc, "restoration_fig1_comparison.png", "图4 图1模糊树林图像复原结果")
+    replace_paragraph_text(doc.paragraphs[86], "由表2可知，复原后图像的信息熵由 7.320 提升至 7.607，标准差由 0.176 提升至 0.228，说明图像灰度层次与整体对比度均得到改善；平均梯度由 0.03489 提升至 0.11841，拉普拉斯方差由 0.01926 提升至 0.12463，表明边缘过渡更加明显，纹理细节恢复较为充分。")
+    replace_paragraph_text(doc.paragraphs[87], "综合视觉效果与无参考指标可以认为，所设计算法能够较好地恢复模糊树林图像的主体结构与局部细节。但由于退化函数采用的是近似模型，局部区域仍可能存在轻微过锐化现象，后续可结合盲去卷积方法进一步提高复原精度。")
 
-    add_heading(doc, "4.3 图2备选结果", 2)
-    add_metrics_table(
-        doc,
-        ["阶段", "信息熵", "标准差", "平均梯度", "拉普拉斯方差"],
-        [
-            ["复原前", "6.926", "0.163", "0.01148", "0.00100"],
-            ["复原后", "7.525", "0.201", "0.03442", "0.01115"],
-        ],
-        [1872, 1872, 1872, 1872, 1872],
-    )
-    add_body(
-        doc,
-        "若学号尾数为奇数，可选择图2低照度瀑布图像。脚本对图2使用 Retinex 光照校正、gamma 变换和高提升锐化。"
-        "从无参考指标看，处理后亮度层次、对比度和细节清晰度均有提升。"
-    )
-    add_figure(doc, "restoration_fig2_comparison.png", "图5 图2低照度瀑布图像备选复原结果")
-
-    add_heading(doc, "5. 关键 MATLAB 实现", 1)
-    add_body(doc, "完整程序见 01-topics/image-enhancement-restoration-course-design/matlab/run_course_design3.m。核心流程如下。")
-    add_code_block(
-        doc,
-        """
-[freqFiltered, notchFilter] = gaussian_notch_reject(noisy, notchOffsets, notchRadius);
-medianFiltered = median_filter2(freqFiltered, 5);
-meanFiltered = mean_filter2(medianFiltered, 3);
-sharpened = high_boost(meanFiltered, 0.15);
-enhanced = percentile_stretch(sharpened, 0.5, 99.5);
-
-psf = gaussian_kernel2(13, 1.35);
-deconvY = wiener_deconvolution(y, psf, 0.004);
-detail = deconvY - gaussian_blur2(deconvY, 1.0);
-restoredY = clamp01(deconvY + 0.28 * detail);
-restoredY = percentile_stretch(restoredY, 1.0, 99.0);
-""",
-    )
-
-    add_heading(doc, "6. 结论", 1)
-    add_body(
-        doc,
-        "本文完成了混合噪声图像增强和未知降质图像复原两个任务。增强任务中，频域高斯陷波能够有效抑制周期条纹，"
-        "空间域中值滤波和均值滤波进一步降低随机噪声，高提升锐化和灰度拉伸改善了细节与对比度。"
-        "从 MSE、SNR、PSNR 和 SSIM 指标看，处理结果明显优于退化图像。"
-    )
-    add_body(
-        doc,
-        "复原任务中，本文针对图1模糊树林图像建立近似高斯模糊模型，并使用维纳滤波进行复原。"
-        "由于没有清晰参考图，本文采用信息熵、标准差、平均梯度和拉普拉斯方差作为无参考评价指标。"
-        "实验结果表明，复原后图像细节和边缘清晰度均得到改善。"
-    )
-    add_body(
-        doc,
-        "本实验仍存在一定限制：增强任务中的陷波中心依赖当前图像频谱分析，复原任务中的退化函数为近似模型。"
-        "后续可进一步研究自适应频谱峰检测、盲去卷积和更稳定的无参考图像质量评价方法。"
-    )
-
-    doc.save(DOCX_PATH)
-    return DOCX_PATH
+    try:
+        doc.save(str(DOCX_PATH))
+        return DOCX_PATH
+    except PermissionError:
+        fallback_path = OUTPUT_DIR / "course-design3-report-final-v2.docx"
+        doc.save(str(fallback_path))
+        return fallback_path
 
 
 if __name__ == "__main__":
-    path = build_docx()
-    print(path)
-
+    print(fill_template())

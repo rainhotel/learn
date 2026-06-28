@@ -1,0 +1,169 @@
+[
+  {
+    "type": 14,
+    "id": 56076992,
+    "courseware_id": "1710531513286044160",
+    "title": "专题4图像分割（基于区域的分割）",
+    "create_time": 1781748047000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 55896686,
+    "courseware_id": "1705456462362323712",
+    "title": "专题4图像分割（阈值分割）",
+    "create_time": 1781143053000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 55696702,
+    "courseware_id": "1700380076367258624",
+    "title": "专题3频域图像处理（前沿案例：图像去雾）",
+    "create_time": 1780537901000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 55493389,
+    "courseware_id": "1695313221659182720",
+    "title": "专题3频域图像处理（图像复原）",
+    "create_time": 1779933885000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 55275059,
+    "courseware_id": "1690242686348564992",
+    "title": "专题3频域图像处理（高通滤波器）",
+    "create_time": 1779329430000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 55046001,
+    "courseware_id": "1685163534385983872",
+    "title": "专题3频域图像处理（低通滤波器）",
+    "create_time": 1778723948000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 2,
+    "id": 54963198,
+    "courseware_id": "6949796",
+    "title": "课前预习-傅里叶变换的性质",
+    "create_time": 1778556538000,
+    "end": 1778724600000,
+    "count": 25,
+    "view": {
+      "depth": 8,
+      "done": false
+    },
+    "has_mooc": false
+  },
+  {
+    "type": 14,
+    "id": 54770284,
+    "courseware_id": "1680087850273644288",
+    "title": "专题3频域图像处理（傅里叶变换）",
+    "create_time": 1778118879000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 54660927,
+    "courseware_id": "1675018122744171904",
+    "title": "专题2空域图像处理（彩色图像处理）",
+    "create_time": 1777514521000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 54415784,
+    "courseware_id": "1669943074253877248",
+    "title": "专题2空域图像处理（空域锐化）",
+    "create_time": 1776909528000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 54160178,
+    "courseware_id": "1664871220690374272",
+    "title": "专题2空域图像处理（空域平滑）",
+    "create_time": 1776304916000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 53877365,
+    "courseware_id": "1659797980917664384",
+    "title": "专题2空域图像处理（空域滤波）",
+    "create_time": 1775700138000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 53517731,
+    "courseware_id": "1653276272903964160",
+    "title": "专题2空域图像处理（像素间联系+随机噪声估计）",
+    "create_time": 1774922690000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 53352489,
+    "courseware_id": "1649651097696312448",
+    "title": "专题2空域图像处理（直方图处理）",
+    "create_time": 1774490536000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 53065704,
+    "courseware_id": "1644573647253565056",
+    "title": "专题2空域图像处理（灰度变换）",
+    "create_time": 1773885256000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 52758371,
+    "courseware_id": "1639504306900463232",
+    "title": "专题1数字图像基础",
+    "create_time": 1773280944000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 52486795,
+    "courseware_id": "1634429027219801472",
+    "title": "Matlab 图像编程基础",
+    "create_time": 1772675923000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  {
+    "type": 14,
+    "id": 52381594,
+    "courseware_id": "1632980119381460992",
+    "title": "课程概述+Matlab图像处理基础",
+    "create_time": 1772503200000,
+    "attend_status": true,
+    "is_finished": true
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "title": "专题3频域图像处理（图像复原）",
+  "lesson_id": "1695313221659182720",
+  "activity": {
+    "type": 14,
+    "id": 55493389,
+    "courseware_id": "1695313221659182720",
+    "title": "专题3频域图像处理（图像复原）",
+    "create_time": 1779933885000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1695314037870863488"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1695314037870863488",
+      "slide_count": 180,
+      "visible_slide_count": 49,
+      "downloaded": 49,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\04-专题3频域图像处理（图像复原）\\presentation-01-1695314037870863488"
+    }
+  ]
+}

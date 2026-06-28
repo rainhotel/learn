@@ -1,0 +1,25 @@
+{
+  "lessonId": "1632980119381460992",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "课程概述+Matlab图像处理基础",
+  "lessonType": 0,
+  "start": 1772503199882,
+  "end": 1772510149524,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 52381594,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1632980250680103936",
+    "1633017377232794496"
+  ]
+}

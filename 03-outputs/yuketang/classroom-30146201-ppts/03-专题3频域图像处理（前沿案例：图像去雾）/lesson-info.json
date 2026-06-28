@@ -1,0 +1,25 @@
+{
+  "lessonId": "1700380076367258624",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "专题3频域图像处理（前沿案例：图像去雾）",
+  "lessonType": 0,
+  "start": 1780537900870,
+  "end": 1780545517065,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 55696702,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1700380941039563264",
+    "1700418835947292160"
+  ]
+}

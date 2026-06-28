@@ -32,6 +32,7 @@
 - 资源 1：本主题 `human-guide.md`
 - 资源 2：本主题 `formula-sheet.md`
 - 资源 3：本主题 `solved-problems.md`
+- 资源 4：本主题 `classic-problems.md`
 
 ## Next 3 Actions
 
@@ -44,4 +45,5 @@
 - 给人看：`human-guide.md`
 - 给 AI 看：`ai-context.md`
 - 解题归档：`solved-problems.md`
+- 经典题单：`classic-problems.md`
 - 进度跟踪：`progress.md`

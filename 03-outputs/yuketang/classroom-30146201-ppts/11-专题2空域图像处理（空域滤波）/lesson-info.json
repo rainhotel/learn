@@ -1,0 +1,29 @@
+{
+  "lessonId": "1659797980917664384",
+  "teacherIdentityId": 4505185,
+  "teacherName": "范春年",
+  "lessonName": "专题2空域图像处理（空域滤波）",
+  "lessonType": 0,
+  "start": 1775700138103,
+  "end": 1775706798340,
+  "classroomId": 30146201,
+  "courseId": 2429492,
+  "classroomName": "2024计科3/4班",
+  "courseName": "数字图像处理",
+  "activityId": 53877365,
+  "skuId": 15233045,
+  "hasLive": false,
+  "hasFakeLive": false,
+  "isScore": true,
+  "identityId": 88600631,
+  "uvid": 0,
+  "oldVersion": false,
+  "presentationIds": [
+    "1659799103783176192",
+    "1659833601690273792",
+    "1659835552545259008",
+    "1659837718542562560",
+    "1659840689753963648",
+    "1659846958476561280"
+  ]
+}

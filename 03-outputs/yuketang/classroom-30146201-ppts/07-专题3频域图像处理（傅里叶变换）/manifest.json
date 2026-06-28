@@ -1,0 +1,26 @@
+{
+  "title": "专题3频域图像处理（傅里叶变换）",
+  "lesson_id": "1680087850273644288",
+  "activity": {
+    "type": 14,
+    "id": 54770284,
+    "courseware_id": "1680087850273644288",
+    "title": "专题3频域图像处理（傅里叶变换）",
+    "create_time": 1778118879000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1680087991991040000"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1680087991991040000",
+      "slide_count": 178,
+      "visible_slide_count": 37,
+      "downloaded": 37,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\07-专题3频域图像处理（傅里叶变换）\\presentation-01-1680087991991040000"
+    }
+  ]
+}

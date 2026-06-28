@@ -1,0 +1,26 @@
+{
+  "title": "专题2空域图像处理（直方图处理）",
+  "lesson_id": "1649651097696312448",
+  "activity": {
+    "type": 14,
+    "id": 53352489,
+    "courseware_id": "1649651097696312448",
+    "title": "专题2空域图像处理（直方图处理）",
+    "create_time": 1774490536000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1649652227482352512"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1649652227482352512",
+      "slide_count": 304,
+      "visible_slide_count": 34,
+      "downloaded": 34,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\13-专题2空域图像处理（直方图处理）\\presentation-01-1649652227482352512"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "专题4图像分割（阈值分割）",
+  "lesson_id": "1705456462362323712",
+  "activity": {
+    "type": 14,
+    "id": 55896686,
+    "courseware_id": "1705456462362323712",
+    "title": "专题4图像分割（阈值分割）",
+    "create_time": 1781143053000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1705456701018479744",
+    "1705495182843321472",
+    "1705502096641762816",
+    "1705506510752197376",
+    "1705510415624314880"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1705456701018479744",
+      "slide_count": 101,
+      "visible_slide_count": 22,
+      "downloaded": 22,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-01-1705456701018479744"
+    },
+    {
+      "presentation_id": "1705495182843321472",
+      "slide_count": 7,
+      "visible_slide_count": 7,
+      "downloaded": 7,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-02-1705495182843321472"
+    },
+    {
+      "presentation_id": "1705502096641762816",
+      "slide_count": 17,
+      "visible_slide_count": 13,
+      "downloaded": 13,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-03-1705502096641762816"
+    },
+    {
+      "presentation_id": "1705506510752197376",
+      "slide_count": 5,
+      "visible_slide_count": 5,
+      "downloaded": 5,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-04-1705506510752197376"
+    },
+    {
+      "presentation_id": "1705510415624314880",
+      "slide_count": 8,
+      "visible_slide_count": 7,
+      "downloaded": 7,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\02-专题4图像分割（阈值分割）\\presentation-05-1705510415624314880"
+    }
+  ]
+}

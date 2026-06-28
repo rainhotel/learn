@@ -1,0 +1,71 @@
+{
+  "title": "专题3频域图像处理（低通滤波器）",
+  "lesson_id": "1685163534385983872",
+  "activity": {
+    "type": 14,
+    "id": 55046001,
+    "courseware_id": "1685163534385983872",
+    "title": "专题3频域图像处理（低通滤波器）",
+    "create_time": 1778723948000,
+    "attend_status": true,
+    "is_finished": true
+  },
+  "presentation_ids": [
+    "1685164223594008832",
+    "1685205170176521600",
+    "1685208915370970240",
+    "1685211053065152896",
+    "1685215456698655104",
+    "1685218368837476736"
+  ],
+  "presentations": [
+    {
+      "presentation_id": "1685164223594008832",
+      "slide_count": 179,
+      "visible_slide_count": 23,
+      "downloaded": 23,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-01-1685164223594008832"
+    },
+    {
+      "presentation_id": "1685205170176521600",
+      "slide_count": 5,
+      "visible_slide_count": 5,
+      "downloaded": 5,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-02-1685205170176521600"
+    },
+    {
+      "presentation_id": "1685208915370970240",
+      "slide_count": 5,
+      "visible_slide_count": 5,
+      "downloaded": 5,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-03-1685208915370970240"
+    },
+    {
+      "presentation_id": "1685211053065152896",
+      "slide_count": 8,
+      "visible_slide_count": 8,
+      "downloaded": 8,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-04-1685211053065152896"
+    },
+    {
+      "presentation_id": "1685215456698655104",
+      "slide_count": 17,
+      "visible_slide_count": 12,
+      "downloaded": 12,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-05-1685215456698655104"
+    },
+    {
+      "presentation_id": "1685218368837476736",
+      "slide_count": 14,
+      "visible_slide_count": 8,
+      "downloaded": 8,
+      "skipped_existing": 0,
+      "directory": "03-outputs\\yuketang\\classroom-30146201-ppts\\06-专题3频域图像处理（低通滤波器）\\presentation-06-1685218368837476736"
+    }
+  ]
+}
