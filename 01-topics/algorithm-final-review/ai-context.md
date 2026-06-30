@@ -14,17 +14,24 @@
   - 贪心
   - 动态规划：最大子段和、最长不降子序列、背包、最长公共子序列
   - 图论：`Floyd`、最小生成树
+- 用户 2026-06-30 追加要求：
+  - 汇总 `STL` 常用语法、`pair/make_pair`
+  - `DFS/BFS` 需要非 `vector` 板子
+  - 增加贪心策略表、常见 DP 状态转移、`0/1` 背包、完全背包
+  - 增加 `Dijkstra`、`Prim`
+  - 增加 `lower_bound/upper_bound`、普通二分、二分答案
 
 ## Constraints
 
 - 用户明确要求 `C++98` 标准。
 - 因此不默认使用 `bits/stdc++.h`、范围 `for`、`auto`、`unordered_map`、`lambda` 等写法。
 - 板子优先选“短、稳、好默写”的版本，而不是最现代或最极致优化的版本。
+- 目前主要速查文件是 `cpp98-exam-template-sheet.md`。
 
 ## Gaps
 
-- 图片最下方还有一条零散手写备注，语义不够清晰，暂未纳入主复习范围。
-- 贪心题没有被老师细分，需要用最常见的“排序 + 局部最优”题型来承接。
+- 还未把新增板子逐题配套到 `solved-problems.md`。
+- `Dijkstra` 和 `Prim` 采用邻接矩阵版，优先可读性；若题目数据很大，再补链式前向星 + 堆优化版本。
 
 ## Next Extraction Targets
 

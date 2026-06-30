@@ -3,8 +3,8 @@
 ## Start Here
 
 - 这个主题现在是期末冲刺版，不是从零入门版。
-- 今天如果只有 30 到 60 分钟，最值得做的是先背 `formula-sheet.md`，再做 `solved-problems.md` 里的迷宫最短路、`0/1` 背包、`Floyd`。
-- 下次打开时优先看这 3 个文件：`formula-sheet.md`、`qa.md`、`solved-problems.md`。
+- 今天如果只有 30 到 60 分钟，最值得做的是先看 `cpp98-exam-template-guide.docx` 里的核心循环解释，再背 `cpp98-exam-template-sheet.md`，最后做 `solved-problems.md` 里的迷宫最短路、`0/1` 背包、图论题。
+- 下次打开时优先看这 3 个文件：`cpp98-exam-template-sheet.md`、`qa.md`、`solved-problems.md`。
 
 ## Why This Matters
 
@@ -38,6 +38,6 @@
 
 ## Resume Fast
 
-- 下次开始先读：`formula-sheet.md` 里的“考试统一写法”和各类模板
+- 下次开始先读：`cpp98-exam-template-sheet.md` 里的 `STL`、搜索、背包、图论、二分答案板子
 - 下次开始先做：`solved-problems.md` 里的第 1、2、5、8 题
 - 下次别再重复踩的坑：数组下标从 `0` 还是 `1` 没想清楚、`visited` 忘记打、`INF` 太小、背包循环方向写反
