@@ -232,3 +232,34 @@ I would like to work on this issue as my first contribution.
 I will first verify the current docs/behavior and then submit a small PR with the proposed clarification.
 ```
 
+### 实际执行状态
+
+已在本地临时工作副本完成 `milvus-io/milvus-docs#3481` 的文档修改。
+
+- 工作副本：`codex-tmp/milvus-docs-3481`
+- 分支：`codex/clarify-list-vs-has-collection`
+- 修改文件：`site/en/userGuide/collections/view-collections.md`
+- 改动：在 `List Collections` 示例结果后增加 note，说明 `list_collections()` 用于返回所有 collection 名称，单个 collection 存在性检查应使用 `has_collection()`。
+- 检查：`git diff --check` 通过。
+
+建议 PR 标题：
+
+```text
+docs: clarify collection existence checks
+```
+
+建议 PR 描述：
+
+```text
+## What
+
+Clarifies that `list_collections()` is intended to retrieve all collection names, and that `has_collection()` should be used when checking whether a specific collection exists.
+
+## Why
+
+This addresses #3481 and helps users avoid scanning the full collection list for a single existence check.
+
+## Test
+
+- Ran `git diff --check`.
+```
