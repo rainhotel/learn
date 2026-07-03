@@ -1,0 +1,856 @@
+{"kind":"deck","id":"pr/pmt927","name":"Deck"}
+{"kind":"layout","layoutId":"64c7ac31-0f64-406b-bc07-aa9b3853f5a9","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"147a5c19-0336-46d0-b30e-accb155eabde","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/bg77o2","slide":1,"title":"数据库系统","textShapes":10}
+{"kind":"textbox","id":"sh/ex0nuxc3","slide":1,"name":"eyebrow","text":"数据库系统","textPreview":"数据库系统","textChars":5,"textLines":1,"bbox":[88,88,360,36]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":1,"name":"title","text":"课件例题原图习题册","textPreview":"课件例题原图习题册","textChars":9,"textLines":1,"bbox":[88,190,900,84]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":1,"name":"subtitle","text":"按章节整理 133 页例题与课堂练习，保留源 PPT 页面的原图。","textPreview":"按章节整理 133 页例题与课堂练习，保留源 PPT 页面的原图。","textChars":33,"textLines":1,"bbox":[92,310,930,44]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":1,"name":"chapter-count-460","text":"第 1 章 数据库概览：5 页","textPreview":"第 1 章 数据库概览：5 页","textChars":15,"textLines":1,"bbox":[96,460,540,28]}
+{"kind":"textbox","id":"sh/e9cvixcz","slide":1,"name":"chapter-count-502","text":"第 2 章 关系数据模型：23 页","textPreview":"第 2 章 关系数据模型：23 页","textChars":17,"textLines":1,"bbox":[96,502,540,28]}
+{"kind":"textbox","id":"sh/lwval87e","slide":1,"name":"chapter-count-544","text":"第 3 章 关系数据库语言 SQL：58 页","textPreview":"第 3 章 关系数据库语言 SQL：58 页","textChars":22,"textLines":1,"bbox":[96,544,540,28]}
+{"kind":"textbox","id":"sh/wb2hwfyx","slide":1,"name":"chapter-count-586","text":"第 4 章 数据库设计：13 页","textPreview":"第 4 章 数据库设计：13 页","textChars":16,"textLines":1,"bbox":[96,586,540,28]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":1,"name":"chapter-count-628","text":"第 5 章 关系规范化理论：29 页","textPreview":"第 5 章 关系规范化理论：29 页","textChars":18,"textLines":1,"bbox":[96,628,540,28]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":1,"name":"chapter-count-670","text":"第 7 章 数据库保护：5 页","textPreview":"第 7 章 数据库保护：5 页","textChars":15,"textLines":1,"bbox":[96,670,540,28]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":1,"name":"source","text":"来源：D:/qq_setup_31980 中的数据库课件 PDF","textPreview":"来源：D:/qq_setup_31980 中的数据库课件 PDF","textChars":32,"textLines":1,"bbox":[88,858,760,28]}
+{"kind":"notes","id":"nt/bg77o2","slide":1,"text":""}
+{"kind":"slide","id":"sl/4q0pdc","slide":2,"title":"章节","textShapes":3}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":2,"name":"section-label","text":"章节","textPreview":"章节","textChars":2,"textLines":1,"bbox":[92,108,160,32]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":2,"name":"chapter-title","text":"第 1 章 数据库概览","textPreview":"第 1 章 数据库概览","textChars":11,"textLines":1,"bbox":[88,220,900,72]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":2,"name":"chapter-meta","text":"本章收录 5 页原题页，从第 001 题开始。","textPreview":"本章收录 5 页原题页，从第 001 题开始。","textChars":23,"textLines":1,"bbox":[92,332,780,40]}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":2,"name":"section-rule","bbox":[92,438,720,6]}
+{"kind":"notes","id":"nt/4q0pdc","slide":2,"text":""}
+{"kind":"slide","id":"sl/az4jz5","slide":3,"title":"001 | 第 1 章 数据库概览 | 例题 | 第1章-1.pdf 第 7 页","textShapes":2}
+{"kind":"shape","id":"sh/9s36hcrm","slide":3,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/g7adsji5","slide":3,"name":"source-footer","text":"001 | 第 1 章 数据库概览 | 例题 | 第1章-1.pdf 第 7 页","textPreview":"001 | 第 1 章 数据库概览 | 例题 | 第1章-1.pdf 第 7 页","textChars":40,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/rytsvu9k","slide":3,"name":"deck-page","text":"1/133","textPreview":"1/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/val87ed8","slide":3,"name":"","alt":"001 a 例 1: 93 是一个数据","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/az4jz5","slide":3,"text":""}
+{"kind":"slide","id":"sl/u6vnw9","slide":4,"title":"002 | 第 1 章 数据库概览 | 例题 | 第1章-1.pdf 第 8 页","textShapes":2}
+{"kind":"shape","id":"sh/kzupwb2h","slide":4,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/9knih4by","slide":4,"name":"source-footer","text":"002 | 第 1 章 数据库概览 | 例题 | 第1章-1.pdf 第 8 页","textPreview":"002 | 第 1 章 数据库概览 | 例题 | 第1章-1.pdf 第 8 页","textChars":40,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":4,"name":"deck-page","text":"2/133","textPreview":"2/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ex0nuxc3","slide":4,"name":"","alt":"002 sa 例 2: 学生档案中的学生记录","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/u6vnw9","slide":4,"text":""}
+{"kind":"slide","id":"sl/6qty6z","slide":5,"title":"003 | 第 1 章 数据库概览 | 例题 | 第1章-3.pdf 第 14 页","textShapes":2}
+{"kind":"shape","id":"sh/36hcrmhk","slide":5,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/eloj2t83","slide":5,"name":"source-footer","text":"003 | 第 1 章 数据库概览 | 例题 | 第1章-3.pdf 第 14 页","textPreview":"003 | 第 1 章 数据库概览 | 例题 | 第1章-3.pdf 第 14 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/l0rqd4vm","slide":5,"name":"deck-page","text":"3/133","textPreview":"3/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/tsvu9kni","slide":5,"name":"","alt":"003 = 例: 课程与学生之间的联系:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/6qty6z","slide":5,"text":""}
+{"kind":"slide","id":"sl/o3n5zd","slide":6,"title":"004 | 第 1 章 数据库概览 | 课堂练习 | 第1章-3.pdf 第 15 页","textShapes":2}
+{"kind":"shape","id":"sh/2t83itgf","slide":6,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":6,"name":"source-footer","text":"004 | 第 1 章 数据库概览 | 课堂练习 | 第1章-3.pdf 第 15 页","textPreview":"004 | 第 1 章 数据库概览 | 课堂练习 | 第1章-3.pdf 第 15 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":6,"name":"deck-page","text":"4/133","textPreview":"4/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/kf6dcbul","slide":6,"name":"","alt":"004 课堂练习: 判断下列实体间的联系类型","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/o3n5zd","slide":6,"text":""}
+{"kind":"slide","id":"sl/i0e012","slide":7,"title":"005 | 第 1 章 数据库概览 | 例题 | 第1章-3.pdf 第 24 页","textShapes":2}
+{"kind":"shape","id":"sh/crmhk3q5","slide":7,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":7,"name":"source-footer","text":"005 | 第 1 章 数据库概览 | 例题 | 第1章-3.pdf 第 24 页","textPreview":"005 | 第 1 章 数据库概览 | 例题 | 第1章-3.pdf 第 24 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":7,"name":"deck-page","text":"5/133","textPreview":"5/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/al87ed8b","slide":7,"name":"","alt":"005 【例】用E-R图表示某商业集团的仓库管理系统的","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/i0e012","slide":7,"text":""}
+{"kind":"slide","id":"sl/tyk00b","slide":8,"title":"章节","textShapes":3}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":8,"name":"section-label","text":"章节","textPreview":"章节","textChars":2,"textLines":1,"bbox":[92,108,160,32]}
+{"kind":"textbox","id":"sh/judg7ads","slide":8,"name":"chapter-title","text":"第 2 章 关系数据模型","textPreview":"第 2 章 关系数据模型","textChars":12,"textLines":1,"bbox":[88,220,900,72]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":8,"name":"chapter-meta","text":"本章收录 23 页原题页，从第 006 题开始。","textPreview":"本章收录 23 页原题页，从第 006 题开始。","textChars":24,"textLines":1,"bbox":[92,332,780,40]}
+{"kind":"shape","id":"sh/1orytsvu","slide":8,"name":"section-rule","bbox":[92,438,720,6]}
+{"kind":"notes","id":"nt/tyk00b","slide":8,"text":""}
+{"kind":"slide","id":"sl/mo5cmp","slide":9,"title":"006 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-1.pdf 第 15 页","textShapes":2}
+{"kind":"shape","id":"sh/at47y1kr","slide":9,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":9,"name":"source-footer","text":"006 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-1.pdf 第 15 页","textPreview":"006 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-1.pdf 第 15 页","textChars":44,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/sneloj2t","slide":9,"name":"deck-page","text":"6/133","textPreview":"6/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/8z25kb6x","slide":9,"name":"","alt":"006 课堂练习 :","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/mo5cmp","slide":9,"text":""}
+{"kind":"slide","id":"sl/di7gj1","slide":10,"title":"007 | 第 2 章 关系数据模型 | 例题 | 第2章-1.pdf 第 17 页","textShapes":2}
+{"kind":"shape","id":"sh/t83itgfm","slide":10,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":10,"name":"source-footer","text":"007 | 第 2 章 关系数据模型 | 例题 | 第2章-1.pdf 第 17 页","textPreview":"007 | 第 2 章 关系数据模型 | 例题 | 第2章-1.pdf 第 17 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":10,"name":"deck-page","text":"7/133","textPreview":"7/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/neloj2t8","slide":10,"name":"","alt":"007 例:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/di7gj1","slide":10,"text":""}
+{"kind":"slide","id":"sl/esd4x9","slide":11,"title":"008 | 第 2 章 关系数据模型 | 例题 | 第2章-1.pdf 第 27 页","textShapes":2}
+{"kind":"shape","id":"sh/8jqh0fep","slide":11,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":11,"name":"source-footer","text":"008 | 第 2 章 关系数据模型 | 例题 | 第2章-1.pdf 第 27 页","textPreview":"008 | 第 2 章 关系数据模型 | 例题 | 第2章-1.pdf 第 27 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/qpg3ex0n","slide":11,"name":"deck-page","text":"8/133","textPreview":"8/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/65wjudg7","slide":11,"name":"","alt":"008 例: 在上表笛卡尔积中取出有实际意义的元组来构造关系:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/esd4x9","slide":11,"text":""}
+{"kind":"slide","id":"sl/nbcwc3","slide":12,"title":"009 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 2 页","textShapes":2}
+{"kind":"shape","id":"sh/1w7mp0bi","slide":12,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":12,"name":"source-footer","text":"009 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 2 页","textPreview":"009 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 2 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":12,"name":"deck-page","text":"9/133","textPreview":"9/133","textChars":5,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ji5snelo","slide":12,"name":"","alt":"009 例: 教师授课 (教师号，课号，党号) ，一个教","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/nbcwc3","slide":12,"text":""}
+{"kind":"slide","id":"sl/72haxa","slide":13,"title":"010 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 5 页","textShapes":2}
+{"kind":"shape","id":"sh/udg7adsj","slide":13,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":13,"name":"source-footer","text":"010 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 5 页","textPreview":"010 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 5 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/cvixczed","slide":13,"name":"deck-page","text":"10/133","textPreview":"10/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/svu9knih","slide":13,"name":"","alt":"010 课堂练习 :","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/72haxa","slide":13,"text":""}
+{"kind":"slide","id":"sl/i4ygi4","slide":14,"title":"011 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 9 页","textShapes":2}
+{"kind":"shape","id":"sh/18jqh0fe","slide":14,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":14,"name":"source-footer","text":"011 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 9 页","textPreview":"011 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 9 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":14,"name":"deck-page","text":"11/133","textPreview":"11/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/re1w7mp0","slide":14,"name":"","alt":"011 【例2】学生实体、专业实体以及专业与学生间的","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/i4ygi4","slide":14,"text":""}
+{"kind":"slide","id":"sl/lnonhx","slide":15,"title":"012 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 11 页","textShapes":2}
+{"kind":"shape","id":"sh/s72x4nap","slide":15,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":15,"name":"source-footer","text":"012 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 11 页","textPreview":"012 | 第 2 章 关系数据模型 | 例题 | 第2章-2.pdf 第 11 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":15,"name":"deck-page","text":"12/133","textPreview":"12/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/idonyd0z","slide":15,"name":"","alt":"012 例3】学生、课程、学生与课程之间的多对多联系","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/lnonhx","slide":15,"text":""}
+{"kind":"slide","id":"sl/2jkbny","slide":16,"title":"013 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 13 页","textShapes":2}
+{"kind":"shape","id":"sh/d8v6psfi","slide":16,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":16,"name":"source-footer","text":"013 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 13 页","textPreview":"013 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 13 页","textChars":44,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":16,"name":"deck-page","text":"13/133","textPreview":"13/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/7qpg3ex0","slide":16,"name":"","alt":"013 课堂练习 :","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/2jkbny","slide":16,"text":""}
+{"kind":"slide","id":"sl/4tjqd9","slide":17,"title":"014 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 14 页","textShapes":2}
+{"kind":"shape","id":"sh/r65wjudg","slide":17,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":17,"name":"source-footer","text":"014 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 14 页","textPreview":"014 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-2.pdf 第 14 页","textChars":44,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":17,"name":"deck-page","text":"14/133","textPreview":"14/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/hwfyxobm","slide":17,"name":"","alt":"014 课堂练习 :","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/4tjqd9","slide":17,"text":""}
+{"kind":"slide","id":"sl/mz84h4","slide":18,"title":"015 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 7 页","textShapes":2}
+{"kind":"shape","id":"sh/wval87ed","slide":18,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":18,"name":"source-footer","text":"015 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 7 页","textPreview":"015 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 7 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":18,"name":"deck-page","text":"15/133","textPreview":"15/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/m94fu18j","slide":18,"name":"","alt":"015 【例】 查询江苏南京的所有客户。 )","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/mz84h4","slide":18,"text":""}
+{"kind":"slide","id":"sl/21jamv","slide":19,"title":"016 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 11 页","textShapes":2}
+{"kind":"shape","id":"sh/sneloj2t","slide":19,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/l87ed8ba","slide":19,"name":"source-footer","text":"016 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 11 页","textPreview":"016 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 11 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":19,"name":"deck-page","text":"16/133","textPreview":"16/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/6tovahoz","slide":19,"name":"","alt":"016 【例】 查询学生的姓名和所在系。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/21jamv","slide":19,"text":""}
+{"kind":"slide","id":"sl/ruv1ce","slide":20,"title":"017 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 12 页","textShapes":2}
+{"kind":"shape","id":"sh/loj2t83i","slide":20,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":20,"name":"source-footer","text":"017 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 12 页","textPreview":"017 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 12 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":20,"name":"deck-page","text":"17/133","textPreview":"17/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/nyd0z610","slide":20,"name":"","alt":"017 【例 】查询学生关系Student中都有哪些系","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/ruv1ce","slide":20,"text":""}
+{"kind":"slide","id":"sl/5l9s35","slide":21,"title":"018 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 14 页","textShapes":2}
+{"kind":"shape","id":"sh/6dcbulwv","slide":21,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":21,"name":"source-footer","text":"018 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 14 页","textPreview":"018 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 14 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":21,"name":"deck-page","text":"18/133","textPreview":"18/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/k3q5o7qp","slide":21,"name":"","alt":"018 【例】 一般连接，尺交","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/5l9s35","slide":21,"text":""}
+{"kind":"slide","id":"sl/qz7avq","slide":22,"title":"019 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 16 页","textShapes":2}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":22,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":22,"name":"source-footer","text":"019 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 16 页","textPreview":"019 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 16 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":22,"name":"deck-page","text":"19/133","textPreview":"19/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/xobm58z2","slide":22,"name":"","alt":"019 【了例】 等值连接，玉 贡 $","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/qz7avq","slide":22,"text":""}
+{"kind":"slide","id":"sl/4ipgo3","slide":23,"title":"020 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 19 页","textShapes":2}
+{"kind":"shape","id":"sh/dcbulwva","slide":23,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":23,"name":"source-footer","text":"020 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 19 页","textPreview":"020 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 19 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/vixczed8","slide":23,"name":"deck-page","text":"20/133","textPreview":"20/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/fil0rqd4","slide":23,"name":"","alt":"020 【了例】 ”自然连接，尽X S","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/4ipgo3","slide":23,"text":""}
+{"kind":"slide","id":"sl/inipge","slide":24,"title":"021 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 36 页","textShapes":2}
+{"kind":"shape","id":"sh/7ed8bat4","slide":24,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":24,"name":"source-footer","text":"021 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 36 页","textPreview":"021 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 36 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/p8nqxs72","slide":24,"name":"deck-page","text":"21/133","textPreview":"21/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/d4vmtwra","slide":24,"name":"","alt":"021 【例】查询至少选修1号课程和3号课程的学生学号","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/inipge","slide":24,"text":""}
+{"kind":"slide","id":"sl/3mpf6m","slide":25,"title":"022 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 37 页","textShapes":2}
+{"kind":"shape","id":"sh/4r65wjud","slide":25,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":25,"name":"source-footer","text":"022 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 37 页","textPreview":"022 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 37 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":25,"name":"deck-page","text":"22/133","textPreview":"22/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/mhk3q5o7","slide":25,"name":"","alt":"022 【例 】续 rsvocnoe(SC) Sno Cno","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/3mpf6m","slide":25,"text":""}
+{"kind":"slide","id":"sl/sgsa8k","slide":26,"title":"023 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 38 页","textShapes":2}
+{"kind":"shape","id":"sh/knih4byh","slide":26,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":26,"name":"source-footer","text":"023 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 38 页","textPreview":"023 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 38 页","textChars":44,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":26,"name":"deck-page","text":"23/133","textPreview":"23/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/2lszqtcj","slide":26,"name":"","alt":"023 课堂练习:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/sgsa8k","slide":26,"text":""}
+{"kind":"slide","id":"sl/5tv736","slide":27,"title":"024 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 39 页","textShapes":2}
+{"kind":"shape","id":"sh/obm58z25","slide":27,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":27,"name":"source-footer","text":"024 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 39 页","textPreview":"024 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 39 页","textChars":44,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":27,"name":"deck-page","text":"24/133","textPreview":"24/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/yhgn29gr","slide":27,"name":"","alt":"024 课堂练习:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/5tv736","slide":27,"text":""}
+{"kind":"slide","id":"sl/t6i314","slide":28,"title":"025 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 40 页","textShapes":2}
+{"kind":"shape","id":"sh/g7adsji5","slide":28,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":28,"name":"source-footer","text":"025 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 40 页","textPreview":"025 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 40 页","textChars":44,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":28,"name":"deck-page","text":"25/133","textPreview":"25/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/6hcrmhk3","slide":28,"name":"","alt":"025 课堂练习 :","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/t6i314","slide":28,"text":""}
+{"kind":"slide","id":"sl/3a2f4u","slide":29,"title":"026 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 41 页","textShapes":2}
+{"kind":"shape","id":"sh/gfmlkjm1","slide":29,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/90je9cvi","slide":29,"name":"source-footer","text":"026 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 41 页","textPreview":"026 | 第 2 章 关系数据模型 | 课堂练习 | 第2章-3.pdf 第 41 页","textChars":44,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/y1kre1w7","slide":29,"name":"deck-page","text":"26/133","textPreview":"26/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ahoza1gv","slide":29,"name":"","alt":"026 课堂练习:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/3a2f4u","slide":29,"text":""}
+{"kind":"slide","id":"sl/tf65v1","slide":30,"title":"027 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 46 页","textShapes":2}
+{"kind":"shape","id":"sh/nyd0z610","slide":30,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":30,"name":"source-footer","text":"027 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 46 页","textPreview":"027 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 46 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":30,"name":"deck-page","text":"27/133","textPreview":"27/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/dcbulwva","slide":30,"name":"","alt":"027 【例】选修〈学号，课程号，成绩)","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/tf65v1","slide":30,"text":""}
+{"kind":"slide","id":"sl/a78uau","slide":31,"title":"028 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 54 页","textShapes":2}
+{"kind":"shape","id":"sh/u54zidon","slide":31,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":31,"name":"source-footer","text":"028 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 54 页","textPreview":"028 | 第 2 章 关系数据模型 | 例题 | 第2章-3.pdf 第 54 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":31,"name":"deck-page","text":"28/133","textPreview":"28/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/k3q5o7qp","slide":31,"name":"","alt":"028 例:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/a78uau","slide":31,"text":""}
+{"kind":"slide","id":"sl/cjeokl","slide":32,"title":"章节","textShapes":3}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":32,"name":"section-label","text":"章节","textPreview":"章节","textChars":2,"textLines":1,"bbox":[92,108,160,32]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":32,"name":"chapter-title","text":"第 3 章 关系数据库语言 SQL","textPreview":"第 3 章 关系数据库语言 SQL","textChars":17,"textLines":1,"bbox":[88,220,900,72]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":32,"name":"chapter-meta","text":"本章收录 58 页原题页，从第 029 题开始。","textPreview":"本章收录 58 页原题页，从第 029 题开始。","textChars":24,"textLines":1,"bbox":[92,332,780,40]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":32,"name":"section-rule","bbox":[92,438,720,6]}
+{"kind":"notes","id":"nt/cjeokl","slide":32,"text":""}
+{"kind":"slide","id":"sl/h23qjm","slide":33,"title":"029 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 5 页","textShapes":2}
+{"kind":"shape","id":"sh/gr2p8nqx","slide":33,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":33,"name":"source-footer","text":"029 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 5 页","textPreview":"029 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 5 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":33,"name":"deck-page","text":"29/133","textPreview":"29/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/a1gvy90j","slide":33,"name":"","alt":"029 【例】定义GoodsOrder 数据库的三个基本表。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/h23qjm","slide":33,"text":""}
+{"kind":"slide","id":"sl/1cz5qy","slide":34,"title":"030 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 9 页","textShapes":2}
+{"kind":"shape","id":"sh/oj2t83it","slide":34,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":34,"name":"source-footer","text":"030 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 9 页","textPreview":"030 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 9 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/61032lsz","slide":34,"name":"deck-page","text":"30/133","textPreview":"30/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/61032lsz","slide":34,"name":"","alt":"030 【例】 在表 GoodsInfo 中增加1个新列一 商品图片。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/1cz5qy","slide":34,"text":""}
+{"kind":"slide","id":"sl/xlzbt8","slide":35,"title":"031 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 10 页","textShapes":2}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":35,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":35,"name":"source-footer","text":"031 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 10 页","textPreview":"031 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 10 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":35,"name":"deck-page","text":"31/133","textPreview":"31/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/72x4nap4","slide":35,"name":"","alt":"031 【例】删除表 GoodsInfo 的SQL语句为:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/xlzbt8","slide":35,"text":""}
+{"kind":"slide","id":"sl/amfh2e","slide":36,"title":"032 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 20 页","textShapes":2}
+{"kind":"shape","id":"sh/61032lsz","slide":36,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/vmtwra5g","slide":36,"name":"source-footer","text":"032 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 20 页","textPreview":"032 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 20 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":36,"name":"deck-page","text":"32/133","textPreview":"32/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/wra5gbq1","slide":36,"name":"","alt":"032 【例】查询全体学生的学号与姓名","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/amfh2e","slide":36,"text":""}
+{"kind":"slide","id":"sl/2pr4ln","slide":37,"title":"033 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 21 页","textShapes":2}
+{"kind":"shape","id":"sh/zqtcj6to","slide":37,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":37,"name":"source-footer","text":"033 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 21 页","textPreview":"033 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 21 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":37,"name":"deck-page","text":"33/133","textPreview":"33/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/tsvu9kni","slide":37,"name":"","alt":"033 【例】查询全体学生的详细记录","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/2pr4ln","slide":37,"text":""}
+{"kind":"slide","id":"sl/70f8um","slide":38,"title":"034 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 22 页","textShapes":2}
+{"kind":"shape","id":"sh/87ed8bat","slide":38,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":38,"name":"source-footer","text":"034 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 22 页","textPreview":"034 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 22 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":38,"name":"deck-page","text":"34/133","textPreview":"34/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/yhgn29gr","slide":38,"name":"","alt":"034 【例】查询全体学生的姓名及其出生年份","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/70f8um","slide":38,"text":""}
+{"kind":"slide","id":"sl/hov65m","slide":39,"title":"035 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 23 页","textShapes":2}
+{"kind":"shape","id":"sh/oza1gvy9","slide":39,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":39,"name":"source-footer","text":"035 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 23 页","textPreview":"035 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 23 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":39,"name":"deck-page","text":"35/133","textPreview":"35/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ap4r65wj","slide":39,"name":"","alt":"035 【例】查询全体学生的姓名及其出生年份，出生年","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/hov65m","slide":39,"text":""}
+{"kind":"slide","id":"sl/xcpbhn","slide":40,"title":"036 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 28 页","textShapes":2}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":40,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":40,"name":"source-footer","text":"036 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 28 页","textPreview":"036 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 28 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":40,"name":"deck-page","text":"36/133","textPreview":"36/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/oza1gvy9","slide":40,"name":"","alt":"036 【例】查询选修课程的各种成绩","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/xcpbhn","slide":40,"text":""}
+{"kind":"slide","id":"sl/7hpiz0","slide":41,"title":"037 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 29 页","textShapes":2}
+{"kind":"shape","id":"sh/r65wjudg","slide":41,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":41,"name":"source-footer","text":"037 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 29 页","textPreview":"037 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 29 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":41,"name":"deck-page","text":"37/133","textPreview":"37/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/lc7u54zi","slide":41,"name":"","alt":"037 【例】 查询选修了课程的学生学号。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/7hpiz0","slide":41,"text":""}
+{"kind":"slide","id":"sl/3pl805","slide":42,"title":"038 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 33 页","textShapes":2}
+{"kind":"shape","id":"sh/94fu18jq","slide":42,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":42,"name":"source-footer","text":"038 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 33 页","textPreview":"038 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 33 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":42,"name":"deck-page","text":"38/133","textPreview":"38/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/3itgfmlk","slide":42,"name":"","alt":"038 【例 】查询所有年龄在20岁以下的学生姓名及其年龄。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/3pl805","slide":42,"text":""}
+{"kind":"slide","id":"sl/8nl0ef","slide":43,"title":"039 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 34 页","textShapes":2}
+{"kind":"shape","id":"sh/udg7adsj","slide":43,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":43,"name":"source-footer","text":"039 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 34 页","textPreview":"039 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 34 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/cvixczed","slide":43,"name":"deck-page","text":"39/133","textPreview":"39/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/gn29gr2p","slide":43,"name":"","alt":"039 【例】 查询年龄在20~23岁 (包括20岁和23岁) 之间的","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/8nl0ef","slide":43,"text":""}
+{"kind":"slide","id":"sl/ind88d","slide":44,"title":"040 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 35 页","textShapes":2}
+{"kind":"shape","id":"sh/wval87ed","slide":44,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":44,"name":"source-footer","text":"040 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 35 页","textPreview":"040 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 35 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":44,"name":"deck-page","text":"40/133","textPreview":"40/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/6dcbulwv","slide":44,"name":"","alt":"040 【例】 查询年龄不在20~23岁之间的学生姓名、系别","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/ind88d","slide":44,"text":""}
+{"kind":"slide","id":"sl/hpxm8c","slide":45,"title":"041 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 36 页","textShapes":2}
+{"kind":"shape","id":"sh/fepkzupw","slide":45,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":45,"name":"source-footer","text":"041 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 36 页","textPreview":"041 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 36 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/xc3ylc7u","slide":45,"name":"deck-page","text":"41/133","textPreview":"41/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/9gr2p8nq","slide":45,"name":"","alt":"041 【例 】查询信息系 〈IS) 、数学系 〈MA ) 和计算机","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/hpxm8c","slide":45,"text":""}
+{"kind":"slide","id":"sl/c93x0a","slide":46,"title":"042 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 37 页","textShapes":2}
+{"kind":"shape","id":"sh/9knih4by","slide":46,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":46,"name":"source-footer","text":"042 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 37 页","textPreview":"042 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 37 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":46,"name":"deck-page","text":"42/133","textPreview":"42/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/7u54zido","slide":46,"name":"","alt":"042 【例】查询既不是信息系、数学系，也不是计算机科","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/c93x0a","slide":46,"text":""}
+{"kind":"slide","id":"sl/73sa0i","slide":47,"title":"043 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 39 页","textShapes":2}
+{"kind":"shape","id":"sh/ed8v6psf","slide":47,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":47,"name":"source-footer","text":"043 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 39 页","textPreview":"043 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 39 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":47,"name":"deck-page","text":"43/133","textPreview":"43/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/g3ex0nux","slide":47,"name":"","alt":"043 * 例: a%b表示以a开头，以b结尾的任意长度的字符","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/73sa0i","slide":47,"text":""}
+{"kind":"slide","id":"sl/sgacpm","slide":48,"title":"044 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 40 页","textShapes":2}
+{"kind":"shape","id":"sh/ixczed8v","slide":48,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":48,"name":"source-footer","text":"044 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 40 页","textPreview":"044 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 40 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":48,"name":"deck-page","text":"44/133","textPreview":"44/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/4zidonyd","slide":48,"name":"","alt":"044 【例】 查询学号为 95001的学生的详细情况。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/sgacpm","slide":48,"text":""}
+{"kind":"slide","id":"sl/u34g5a","slide":49,"title":"045 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 41 页","textShapes":2}
+{"kind":"shape","id":"sh/wjudg7ad","slide":49,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/p4r65wju","slide":49,"name":"source-footer","text":"045 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 41 页","textPreview":"045 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 41 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/i5sneloj","slide":49,"name":"deck-page","text":"45/133","textPreview":"45/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/6dcbulwv","slide":49,"name":"","alt":"045 【例1】 查询所有姓刘学生的姓名、学号和性别。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/u34g5a","slide":49,"text":""}
+{"kind":"slide","id":"sl/qcvyxi","slide":50,"title":"046 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 42 页","textShapes":2}
+{"kind":"shape","id":"sh/fil0rqd4","slide":50,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":50,"name":"source-footer","text":"046 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 42 页","textPreview":"046 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-2.pdf 第 42 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":50,"name":"deck-page","text":"46/133","textPreview":"46/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/hk3q5o7q","slide":50,"name":"","alt":"046 【例3】查询名字中第2个字为\"阳\"字的学生的姓名和学号。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/qcvyxi","slide":50,"text":""}
+{"kind":"slide","id":"sl/g1dm3z","slide":51,"title":"047 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 2 页","textShapes":2}
+{"kind":"shape","id":"sh/nih4byhg","slide":51,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/yxobm58z","slide":51,"name":"source-footer","text":"047 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 2 页","textPreview":"047 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 2 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/9cvixcze","slide":51,"name":"deck-page","text":"47/133","textPreview":"47/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/18jqh0fe","slide":51,"name":"","alt":"047 【例 】查询 DB_Design 课程的课程号和学分。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/g1dm3z","slide":51,"text":""}
+{"kind":"slide","id":"sl/x3t5k8","slide":52,"title":"048 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 3 页","textShapes":2}
+{"kind":"shape","id":"sh/a5gbq1or","slide":52,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":52,"name":"source-footer","text":"048 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 3 页","textPreview":"048 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 3 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/sji5snel","slide":52,"name":"deck-page","text":"48/133","textPreview":"48/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/83itgfml","slide":52,"name":"","alt":"048 【例】查询以 \"DB_'\" 开头，且倒数第3个字符为i 的","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/x3t5k8","slide":52,"text":""}
+{"kind":"slide","id":"sl/juha8z","slide":53,"title":"049 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 4 页","textShapes":2}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":53,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":53,"name":"source-footer","text":"049 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 4 页","textPreview":"049 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 4 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":53,"name":"deck-page","text":"49/133","textPreview":"49/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ji5snelo","slide":53,"name":"","alt":"049 【例】 某些学生选修课程后没有参加考试，所以有选","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/juha8z","slide":53,"text":""}
+{"kind":"slide","id":"sl/bhj245","slide":54,"title":"050 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 5 页","textShapes":2}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":54,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":54,"name":"source-footer","text":"050 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 5 页","textPreview":"050 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 5 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":54,"name":"deck-page","text":"50/133","textPreview":"50/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/c3ylc7u5","slide":54,"name":"","alt":"050 【例 】查询所有有成绩的学生学号和课程号。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/bhj245","slide":54,"text":""}
+{"kind":"slide","id":"sl/0dokb7","slide":55,"title":"051 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 12 页","textShapes":2}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":55,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":55,"name":"source-footer","text":"051 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 12 页","textPreview":"051 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 12 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":55,"name":"deck-page","text":"51/133","textPreview":"51/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/gr2p8nqx","slide":55,"name":"","alt":"051 【例】 将CustomerInfo表中的所有客户按姓名的汉语","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/0dokb7","slide":55,"text":""}
+{"kind":"slide","id":"sl/4ljo8p","slide":56,"title":"052 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 15 页","textShapes":2}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":56,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":56,"name":"source-footer","text":"052 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 15 页","textPreview":"052 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 15 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":56,"name":"deck-page","text":"52/133","textPreview":"52/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/u18jqh0f","slide":56,"name":"","alt":"052 【例 】查询GoodsInfo表中所有商品的平均单价。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/4ljo8p","slide":56,"text":""}
+{"kind":"slide","id":"sl/qgt66h","slide":57,"title":"053 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 16 页","textShapes":2}
+{"kind":"shape","id":"sh/tcj6tova","slide":57,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":57,"name":"source-footer","text":"053 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 16 页","textPreview":"053 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 16 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":57,"name":"deck-page","text":"53/133","textPreview":"53/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/bulwval8","slide":57,"name":"","alt":"053 【例 】查询GoodsInfo表中最高和最低单价","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/qgt66h","slide":57,"text":""}
+{"kind":"slide","id":"sl/uy3or1","slide":58,"title":"054 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 19 页","textShapes":2}
+{"kind":"shape","id":"sh/6dcbulwv","slide":58,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":58,"name":"source-footer","text":"054 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 19 页","textPreview":"054 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 19 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":58,"name":"deck-page","text":"54/133","textPreview":"54/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/knih4byh","slide":58,"name":"","alt":"054 例】查询客户总数。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/uy3or1","slide":58,"text":""}
+{"kind":"slide","id":"sl/jpf1wv","slide":59,"title":"055 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 25 页","textShapes":2}
+{"kind":"shape","id":"sh/bulwval8","slide":59,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":59,"name":"source-footer","text":"055 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 25 页","textPreview":"055 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 25 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/tovahoza","slide":59,"name":"deck-page","text":"55/133","textPreview":"55/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/18jqh0fe","slide":59,"name":"","alt":"055 【例】查询平均成绩为 90 分及以上的各课程的课程号","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/jpf1wv","slide":59,"text":""}
+{"kind":"slide","id":"sl/kt4qmv","slide":60,"title":"056 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 27 页","textShapes":2}
+{"kind":"shape","id":"sh/g3ex0nux","slide":60,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/5o7qpg3e","slide":60,"name":"source-footer","text":"056 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 27 页","textPreview":"056 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 27 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/ylc7u54z","slide":60,"name":"deck-page","text":"56/133","textPreview":"56/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/2t83itgf","slide":60,"name":"","alt":"056 【例 】查询课程号不为1，并且平均成绩为 90 分及","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/kt4qmv","slide":60,"text":""}
+{"kind":"slide","id":"sl/ggzr1d","slide":61,"title":"057 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 28 页","textShapes":2}
+{"kind":"shape","id":"sh/83itgfml","slide":61,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":61,"name":"source-footer","text":"057 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 28 页","textPreview":"057 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 28 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":61,"name":"deck-page","text":"57/133","textPreview":"57/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/a9w3m94f","slide":61,"name":"","alt":"057 【例】 查找同一省市且在197s年以后出生、客户数不少","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/ggzr1d","slide":61,"text":""}
+{"kind":"slide","id":"sl/baibv8","slide":62,"title":"058 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 32 页","textShapes":2}
+{"kind":"shape","id":"sh/t83itgfm","slide":62,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":62,"name":"source-footer","text":"058 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 32 页","textPreview":"058 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 32 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":62,"name":"deck-page","text":"58/133","textPreview":"58/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/nuxc3ylc","slide":62,"name":"","alt":"058 例: 查询每个学生及其选修课程情况。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/baibv8","slide":62,"text":""}
+{"kind":"slide","id":"sl/rnblfk","slide":63,"title":"059 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 33 页","textShapes":2}
+{"kind":"shape","id":"sh/qh0fepkz","slide":63,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":63,"name":"source-footer","text":"059 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 33 页","textPreview":"059 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 33 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/8bat47y1","slide":63,"name":"deck-page","text":"59/133","textPreview":"59/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/8bat47y1","slide":63,"name":"","alt":"059 例: 查询每个学生及其选修课程情况，去除重复的列。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/rnblfk","slide":63,"text":""}
+{"kind":"slide","id":"sl/eez04e","slide":64,"title":"060 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 34 页","textShapes":2}
+{"kind":"shape","id":"sh/kre1w7mp","slide":64,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/dcbulwva","slide":64,"name":"source-footer","text":"060 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 34 页","textPreview":"060 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 34 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":64,"name":"deck-page","text":"60/133","textPreview":"60/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/y1kre1w7","slide":64,"name":"","alt":"060 【例】查找商品订购数据库每个订购了商品的客户及其订","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/eez04e","slide":64,"text":""}
+{"kind":"slide","id":"sl/pp25uy","slide":65,"title":"061 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 36 页","textShapes":2}
+{"kind":"shape","id":"sh/oza1gvy9","slide":65,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":65,"name":"source-footer","text":"061 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 36 页","textPreview":"061 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 36 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":65,"name":"deck-page","text":"61/133","textPreview":"61/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/u18jqh0f","slide":65,"name":"","alt":"061 例】查找商品订购数据库订购了编号为“10010001”商品的","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/pp25uy","slide":65,"text":""}
+{"kind":"slide","id":"sl/9lmy9b","slide":66,"title":"062 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 37 页","textShapes":2}
+{"kind":"shape","id":"sh/tcj6tova","slide":66,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/0rqd4vmt","slide":66,"name":"source-footer","text":"062 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 37 页","textPreview":"062 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 37 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/byhgn29g","slide":66,"name":"deck-page","text":"62/133","textPreview":"62/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/7u54zido","slide":66,"name":"","alt":"062 【例】在CustomerInfo表中查询具有相同姓名的客","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/9lmy9b","slide":66,"text":""}
+{"kind":"slide","id":"sl/50lhcs","slide":67,"title":"063 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 39 页","textShapes":2}
+{"kind":"shape","id":"sh/gbq1oryt","slide":67,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":67,"name":"source-footer","text":"063 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 39 页","textPreview":"063 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 39 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":67,"name":"deck-page","text":"63/133","textPreview":"63/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/25kb6xkf","slide":67,"name":"","alt":"063 【例】查找商品订购数据库每个订购了商品的客户及其","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/50lhcs","slide":67,"text":""}
+{"kind":"slide","id":"sl/yrt222","slide":68,"title":"064 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 40 页","textShapes":2}
+{"kind":"shape","id":"sh/a5gbq1or","slide":68,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":68,"name":"source-footer","text":"064 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 40 页","textPreview":"064 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-3.pdf 第 40 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/sji5snel","slide":68,"name":"deck-page","text":"64/133","textPreview":"64/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/onyd0z61","slide":68,"name":"","alt":"064 例】用FROM的JOIN关键字表达下列查询: 查询订购了商","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/yrt222","slide":68,"text":""}
+{"kind":"slide","id":"sl/pqkjoo","slide":69,"title":"065 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 3 页","textShapes":2}
+{"kind":"shape","id":"sh/p0bi9s36","slide":69,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":69,"name":"source-footer","text":"065 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 3 页","textPreview":"065 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 3 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":69,"name":"deck-page","text":"65/133","textPreview":"65/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/z61032ls","slide":69,"name":"","alt":"065 【例 】查找所有学生以及他们选课的详细信息。者学生","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/pqkjoo","slide":69,"text":""}
+{"kind":"slide","id":"sl/wccov9","slide":70,"title":"066 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 5 页","textShapes":2}
+{"kind":"shape","id":"sh/a9w3m94f","slide":70,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":70,"name":"source-footer","text":"066 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 5 页","textPreview":"066 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 5 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":70,"name":"deck-page","text":"66/133","textPreview":"66/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/orytsvu9","slide":70,"name":"","alt":"066 【例】用右外连接实现上例的查询。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/wccov9","slide":70,"text":""}
+{"kind":"slide","id":"sl/1p2n7b","slide":71,"title":"067 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 41 页","textShapes":2}
+{"kind":"shape","id":"sh/58z25kb6","slide":71,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":71,"name":"source-footer","text":"067 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 41 页","textPreview":"067 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 41 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":71,"name":"deck-page","text":"67/133","textPreview":"67/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/7y1kre1w","slide":71,"name":"","alt":"067 【例】查询计算机科学系的学生及年龄不大于19岁的学生。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/1p2n7b","slide":71,"text":""}
+{"kind":"slide","id":"sl/06aydy","slide":72,"title":"068 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 42 页","textShapes":2}
+{"kind":"shape","id":"sh/0je9cvix","slide":72,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":72,"name":"source-footer","text":"068 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 42 页","textPreview":"068 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 42 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":72,"name":"deck-page","text":"68/133","textPreview":"68/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/e9cvixcz","slide":72,"name":"","alt":"068 【例】 查询选修了课程 1 或者选修了课程 2 的学生。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/06aydy","slide":72,"text":""}
+{"kind":"slide","id":"sl/yr0mvo","slide":73,"title":"069 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 43 页","textShapes":2}
+{"kind":"shape","id":"sh/0fepkzup","slide":73,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":73,"name":"source-footer","text":"069 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 43 页","textPreview":"069 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 43 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":73,"name":"deck-page","text":"69/133","textPreview":"69/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/e1w7mp0b","slide":73,"name":"","alt":"069 【例】设数据库中有一教师表Teacher(Tno, Tname,…) 。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/yr0mvo","slide":73,"text":""}
+{"kind":"slide","id":"sl/bixqit","slide":74,"title":"070 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 45 页","textShapes":2}
+{"kind":"shape","id":"sh/crmhk3q5","slide":74,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":74,"name":"source-footer","text":"070 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 45 页","textPreview":"070 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 45 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":74,"name":"deck-page","text":"70/133","textPreview":"70/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ap4r65wj","slide":74,"name":"","alt":"070 【例】查询单价小于S$0的商品与库存量大于20的商品的交集。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/bixqit","slide":74,"text":""}
+{"kind":"slide","id":"sl/m3dbi0","slide":75,"title":"071 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 47 页","textShapes":2}
+{"kind":"shape","id":"sh/s72x4nap","slide":75,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":75,"name":"source-footer","text":"071 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 47 页","textPreview":"071 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 47 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":75,"name":"deck-page","text":"71/133","textPreview":"71/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ulwval87","slide":75,"name":"","alt":"071 【例】查询单价小于$0的商品与库存量大于20的商品的差集。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/m3dbi0","slide":75,"text":""}
+{"kind":"slide","id":"sl/3zfnos","slide":76,"title":"072 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 49 页","textShapes":2}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":76,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":76,"name":"source-footer","text":"072 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 49 页","textPreview":"072 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-4.pdf 第 49 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/ulwval87","slide":76,"name":"deck-page","text":"72/133","textPreview":"72/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ap4r65wj","slide":76,"name":"","alt":"072 【例】错误写法 正确写法","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/3zfnos","slide":76,"text":""}
+{"kind":"slide","id":"sl/3vd18d","slide":77,"title":"073 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 5 页","textShapes":2}
+{"kind":"shape","id":"sh/rytsvu9k","slide":77,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/yd0z6103","slide":77,"name":"source-footer","text":"073 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 5 页","textPreview":"073 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 5 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/9s36hcrm","slide":77,"name":"deck-page","text":"73/133","textPreview":"73/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/9gr2p8nq","slide":77,"name":"","alt":"073 【例】 插入一条选课记录( \"9S020'，'1 7)。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/3vd18d","slide":77,"text":""}
+{"kind":"slide","id":"sl/330kfo","slide":78,"title":"074 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 6 页","textShapes":2}
+{"kind":"shape","id":"sh/9cvixcze","slide":78,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/gr2p8nqx","slide":78,"name":"source-footer","text":"074 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 6 页","textPreview":"074 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 6 页","textChars":46,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/nih4byhg","slide":78,"name":"deck-page","text":"74/133","textPreview":"74/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/nap4r65w","slide":78,"name":"","alt":"074 例】向商品订购数据库的CustomerInfo表中揪入如下的新","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/330kfo","slide":78,"text":""}
+{"kind":"slide","id":"sl/49t6e1","slide":79,"title":"075 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 15 页","textShapes":2}
+{"kind":"shape","id":"sh/8v6psfil","slide":79,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":79,"name":"source-footer","text":"075 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 15 页","textPreview":"075 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 15 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":79,"name":"deck-page","text":"75/133","textPreview":"75/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ahoza1gv","slide":79,"name":"","alt":"075 【例】 将学生9S001的年龄改为22岁。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/49t6e1","slide":79,"text":""}
+{"kind":"slide","id":"sl/1vg53v","slide":80,"title":"076 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 17 页","textShapes":2}
+{"kind":"shape","id":"sh/bq1oryts","slide":80,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":80,"name":"source-footer","text":"076 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 17 页","textPreview":"076 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 17 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":80,"name":"deck-page","text":"76/133","textPreview":"76/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/xs72x4na","slide":80,"name":"","alt":"076 【例】将编号为“10010001”的客户的所在省市改为江苏常州，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/1vg53v","slide":80,"text":""}
+{"kind":"slide","id":"sl/h83yc4","slide":81,"title":"077 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 19 页","textShapes":2}
+{"kind":"shape","id":"sh/0je9cvix","slide":81,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":81,"name":"source-footer","text":"077 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 19 页","textPreview":"077 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 19 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":81,"name":"deck-page","text":"77/133","textPreview":"77/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ed8bat47","slide":81,"name":"","alt":"077 【例】删除所有客户记录 。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/h83yc4","slide":81,"text":""}
+{"kind":"slide","id":"sl/0uhz9a","slide":82,"title":"078 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 26 页","textShapes":2}
+{"kind":"shape","id":"sh/s72x4nap","slide":82,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":82,"name":"source-footer","text":"078 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 26 页","textPreview":"078 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 26 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":82,"name":"deck-page","text":"78/133","textPreview":"78/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/yxobm58z","slide":82,"name":"","alt":"078 【例】 创建视图OrderList NJview，其内容为“江苏南","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/0uhz9a","slide":82,"text":""}
+{"kind":"slide","id":"sl/ncseoz","slide":83,"title":"079 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 27 页","textShapes":2}
+{"kind":"shape","id":"sh/nyd0z610","slide":83,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":83,"name":"source-footer","text":"079 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 27 页","textPreview":"079 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 27 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":83,"name":"deck-page","text":"79/133","textPreview":"79/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/tcj6tova","slide":83,"name":"","alt":"079 【例】 创建“江苏南京”订购了编号为“10010001”商品","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/ncseoz","slide":83,"text":""}
+{"kind":"slide","id":"sl/tg7bms","slide":84,"title":"080 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 43 页","textShapes":2}
+{"kind":"shape","id":"sh/tsvu9kni","slide":84,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":84,"name":"source-footer","text":"080 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 43 页","textPreview":"080 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 43 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":84,"name":"deck-page","text":"80/133","textPreview":"80/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/bq1oryts","slide":84,"name":"","alt":"080 【例】向 GoodsOrder数据库的视图CInfo_ JS 中播入一个新","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/tg7bms","slide":84,"text":""}
+{"kind":"slide","id":"sl/89op9i","slide":85,"title":"081 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 45 页","textShapes":2}
+{"kind":"shape","id":"sh/nap4r65w","slide":85,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":85,"name":"source-footer","text":"081 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 45 页","textPreview":"081 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 45 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/54zidony","slide":85,"name":"deck-page","text":"81/133","textPreview":"81/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/dcbulwva","slide":85,"name":"","alt":"081 【例】向信息系学生视图 IS_Student 中插入一个新的学生","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/89op9i","slide":85,"text":""}
+{"kind":"slide","id":"sl/dmst00","slide":86,"title":"082 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 46 页","textShapes":2}
+{"kind":"shape","id":"sh/donyd0z6","slide":86,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":86,"name":"source-footer","text":"082 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 46 页","textPreview":"082 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 46 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/val87ed8","slide":86,"name":"deck-page","text":"82/133","textPreview":"82/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/7mp0bi9s","slide":86,"name":"","alt":"082 【例】向 GoodsOrder数据库的视图OrderList NJview 中","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/dmst00","slide":86,"text":""}
+{"kind":"slide","id":"sl/ufo983","slide":87,"title":"083 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 47 页","textShapes":2}
+{"kind":"shape","id":"sh/b6xkf6dc","slide":87,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":87,"name":"source-footer","text":"083 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 47 页","textPreview":"083 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 47 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/t47y1kre","slide":87,"name":"deck-page","text":"83/133","textPreview":"83/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/xobm58z2","slide":87,"name":"","alt":"083 【例】将视图CInfo_ JS中客户编号为“100008”的客户","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/ufo983","slide":87,"text":""}
+{"kind":"slide","id":"sl/wcol0q","slide":88,"title":"084 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 49 页","textShapes":2}
+{"kind":"shape","id":"sh/byhgn29g","slide":88,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/idonyd0z","slide":88,"name":"source-footer","text":"084 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 49 页","textPreview":"084 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 49 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/tcj6tova","slide":88,"name":"deck-page","text":"84/133","textPreview":"84/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/t47y1kre","slide":88,"name":"","alt":"084 【例】删除视图Cinfo_ JS中客户编号为“100008”的记","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/wcol0q","slide":88,"text":""}
+{"kind":"slide","id":"sl/idg6af","slide":89,"title":"085 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 65 页","textShapes":2}
+{"kind":"shape","id":"sh/8bat47y1","slide":89,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":89,"name":"source-footer","text":"085 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 65 页","textPreview":"085 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 65 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":89,"name":"deck-page","text":"85/133","textPreview":"85/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ap4r65wj","slide":89,"name":"","alt":"085 【例】企CustomerInfo表的“客户编号”列上建立一个非聚簇索引","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/idg6af","slide":89,"text":""}
+{"kind":"slide","id":"sl/v2aoq5","slide":90,"title":"086 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 66 页","textShapes":2}
+{"kind":"shape","id":"sh/fyxobm58","slide":90,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":90,"name":"source-footer","text":"086 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 66 页","textPreview":"086 | 第 3 章 关系数据库语言 SQL | 例题 | 第3章-5.pdf 第 66 页","textChars":47,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":90,"name":"deck-page","text":"86/133","textPreview":"86/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/tsvu9kni","slide":90,"name":"","alt":"086 【例】删除CustomerInfo表“客户编号”列的索引","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/v2aoq5","slide":90,"text":""}
+{"kind":"slide","id":"sl/g752o6","slide":91,"title":"章节","textShapes":3}
+{"kind":"textbox","id":"sh/eloj2t83","slide":91,"name":"section-label","text":"章节","textPreview":"章节","textChars":2,"textLines":1,"bbox":[92,108,160,32]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":91,"name":"chapter-title","text":"第 4 章 数据库设计","textPreview":"第 4 章 数据库设计","textChars":11,"textLines":1,"bbox":[88,220,900,72]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":91,"name":"chapter-meta","text":"本章收录 13 页原题页，从第 087 题开始。","textPreview":"本章收录 13 页原题页，从第 087 题开始。","textChars":24,"textLines":1,"bbox":[92,332,780,40]}
+{"kind":"shape","id":"sh/7u54zido","slide":91,"name":"section-rule","bbox":[92,438,720,6]}
+{"kind":"notes","id":"nt/g752o6","slide":91,"text":""}
+{"kind":"slide","id":"sl/376mzd","slide":92,"title":"087 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 44 页","textShapes":2}
+{"kind":"shape","id":"sh/ulwval87","slide":92,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":92,"name":"source-footer","text":"087 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 44 页","textPreview":"087 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 44 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":92,"name":"deck-page","text":"87/133","textPreview":"87/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/svu9knih","slide":92,"name":"","alt":"087 n 数据项，以“学号”为例:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/376mzd","slide":92,"text":""}
+{"kind":"slide","id":"sl/awwkia","slide":93,"title":"088 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 46 页","textShapes":2}
+{"kind":"shape","id":"sh/tsvu9kni","slide":93,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":93,"name":"source-footer","text":"088 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 46 页","textPreview":"088 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 46 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":93,"name":"deck-page","text":"88/133","textPreview":"88/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/fepkzupw","slide":93,"name":"","alt":"088 o 数据流，以“体检结果” 为例:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/awwkia","slide":93,"text":""}
+{"kind":"slide","id":"sl/7wdcn3","slide":94,"title":"089 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 47 页","textShapes":2}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":94,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":94,"name":"source-footer","text":"089 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 47 页","textPreview":"089 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 47 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":94,"name":"deck-page","text":"89/133","textPreview":"89/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/3ylc7u54","slide":94,"name":"","alt":"089 n 数据存储，以 “学生登记表” 为例:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/7wdcn3","slide":94,"text":""}
+{"kind":"slide","id":"sl/r7v5n8","slide":95,"title":"090 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 48 页","textShapes":2}
+{"kind":"shape","id":"sh/5wjudg7a","slide":95,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":95,"name":"source-footer","text":"090 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 48 页","textPreview":"090 | 第 4 章 数据库设计 | 例题 | 第4章-1.pdf 第 48 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":95,"name":"deck-page","text":"90/133","textPreview":"90/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/vy90je9c","slide":95,"name":"","alt":"090 o 加工逻辑，以“分配宿舍” 为例:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/r7v5n8","slide":95,"text":""}
+{"kind":"slide","id":"sl/u92ufl","slide":96,"title":"091 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 4 页","textShapes":2}
+{"kind":"shape","id":"sh/y90je9cv","slide":96,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":96,"name":"source-footer","text":"091 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 4 页","textPreview":"091 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 4 页","textChars":40,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":96,"name":"deck-page","text":"91/133","textPreview":"91/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/g3ex0nux","slide":96,"name":"","alt":"091 例1: 如 性别一在某个分 ER 模型中为字符型","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/u92ufl","slide":96,"text":""}
+{"kind":"slide","id":"sl/2qqslh","slide":97,"title":"092 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 5 页","textShapes":2}
+{"kind":"shape","id":"sh/u9knih4b","slide":97,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/judg7ads","slide":97,"name":"source-footer","text":"092 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 5 页","textPreview":"092 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 5 页","textChars":40,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":97,"name":"deck-page","text":"92/133","textPreview":"92/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/kb6xkf6d","slide":97,"name":"","alt":"092 -一例: 局部应用A中将教室称为“房间”;， 局部应","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/2qqslh","slide":97,"text":""}
+{"kind":"slide","id":"sl/h4k728","slide":98,"title":"093 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 10 页","textShapes":2}
+{"kind":"shape","id":"sh/9w3m94fu","slide":98,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":98,"name":"source-footer","text":"093 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 10 页","textPreview":"093 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 10 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":98,"name":"deck-page","text":"93/133","textPreview":"93/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/zed8v6ps","slide":98,"name":"","alt":"093 例1: 实体El 与 E2 在局部应用 A 中是多对多","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/h4k728","slide":98,"text":""}
+{"kind":"slide","id":"sl/1wvyjv","slide":99,"title":"094 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 40 页","textShapes":2}
+{"kind":"shape","id":"sh/ed8v6psf","slide":99,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":99,"name":"source-footer","text":"094 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 40 页","textPreview":"094 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 40 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":99,"name":"deck-page","text":"94/133","textPreview":"94/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/83itgfml","slide":99,"name":"","alt":"094 【例】下图为某国内旅游管理信息系统数据库中涉及的旅游团和","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/1wvyjv","slide":99,"text":""}
+{"kind":"slide","id":"sl/6bck0r","slide":100,"title":"095 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 42 页","textShapes":2}
+{"kind":"shape","id":"sh/h0fepkzu","slide":100,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":100,"name":"source-footer","text":"095 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 42 页","textPreview":"095 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 42 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/z61032ls","slide":100,"name":"deck-page","text":"95/133","textPreview":"95/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ji5snelo","slide":100,"name":"","alt":"095 【例】下图给出了国内旅游管理信息系统数据库中涉及的旅游","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/6bck0r","slide":100,"text":""}
+{"kind":"slide","id":"sl/2gis7z","slide":101,"title":"096 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 43 页","textShapes":2}
+{"kind":"shape","id":"sh/z25kb6xk","slide":101,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":101,"name":"source-footer","text":"096 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 43 页","textPreview":"096 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 43 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":101,"name":"deck-page","text":"96/133","textPreview":"96/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/l87ed8ba","slide":101,"name":"","alt":"096 【例】下图是同一实体集内部的一对多联系，将其转换为关系模","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/2gis7z","slide":101,"text":""}
+{"kind":"slide","id":"sl/nmxdto","slide":102,"title":"097 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 45 页","textShapes":2}
+{"kind":"shape","id":"sh/d0z61032","slide":102,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":102,"name":"source-footer","text":"097 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 45 页","textPreview":"097 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 45 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":102,"name":"deck-page","text":"97/133","textPreview":"97/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/3q5o7qpg","slide":102,"name":"","alt":"097 【例】下图给出了高校学生选课系统数据库所涉及的学生和课","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/nmxdto","slide":102,"text":""}
+{"kind":"slide","id":"sl/331ayv","slide":103,"title":"098 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 46 页","textShapes":2}
+{"kind":"shape","id":"sh/cvixczed","slide":103,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":103,"name":"source-footer","text":"098 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 46 页","textPreview":"098 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 46 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":103,"name":"deck-page","text":"98/133","textPreview":"98/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/yhgn29gr","slide":103,"name":"","alt":"098 - 例: “进货”联系为三元联系，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/331ayv","slide":103,"text":""}
+{"kind":"slide","id":"sl/c6wwaf","slide":104,"title":"099 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 49 页","textShapes":2}
+{"kind":"shape","id":"sh/54zidony","slide":104,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":104,"name":"source-footer","text":"099 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 49 页","textPreview":"099 | 第 4 章 数据库设计 | 例题 | 第4章-2.pdf 第 49 页","textChars":41,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":104,"name":"deck-page","text":"99/133","textPreview":"99/133","textChars":6,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/7mp0bi9s","slide":104,"name":"","alt":"099 sa 例: 员工实体的多值属性“亲属”可表示为模式","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/c6wwaf","slide":104,"text":""}
+{"kind":"slide","id":"sl/egq833","slide":105,"title":"章节","textShapes":3}
+{"kind":"textbox","id":"sh/vu9knih4","slide":105,"name":"section-label","text":"章节","textPreview":"章节","textChars":2,"textLines":1,"bbox":[92,108,160,32]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":105,"name":"chapter-title","text":"第 5 章 关系规范化理论","textPreview":"第 5 章 关系规范化理论","textChars":13,"textLines":1,"bbox":[88,220,900,72]}
+{"kind":"textbox","id":"sh/d0z61032","slide":105,"name":"chapter-meta","text":"本章收录 29 页原题页，从第 100 题开始。","textPreview":"本章收录 29 页原题页，从第 100 题开始。","textChars":24,"textLines":1,"bbox":[92,332,780,40]}
+{"kind":"shape","id":"sh/2lszqtcj","slide":105,"name":"section-rule","bbox":[92,438,720,6]}
+{"kind":"notes","id":"nt/egq833","slide":105,"text":""}
+{"kind":"slide","id":"sl/ggigoi","slide":106,"title":"100 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 7 页","textShapes":2}
+{"kind":"shape","id":"sh/j6tovaho","slide":106,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/ulwval87","slide":106,"name":"source-footer","text":"100 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 7 页","textPreview":"100 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 7 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":106,"name":"deck-page","text":"100/133","textPreview":"100/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/psfil0rq","slide":106,"name":"","alt":"100 。例: 如果某位客户尚未订购任何商品，则他的","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/ggigoi","slide":106,"text":""}
+{"kind":"slide","id":"sl/jr7ajn","slide":107,"title":"101 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 9 页","textShapes":2}
+{"kind":"shape","id":"sh/d8v6psfi","slide":107,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":107,"name":"source-footer","text":"101 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 9 页","textPreview":"101 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 9 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":107,"name":"deck-page","text":"101/133","textPreview":"101/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/7qpg3ex0","slide":107,"name":"","alt":"101 . 例: 若某客户的联系电话改换了，则要修改多","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/jr7ajn","slide":107,"text":""}
+{"kind":"slide","id":"sl/ructgz","slide":108,"title":"102 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 21 页","textShapes":2}
+{"kind":"shape","id":"sh/sji5snel","slide":108,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":108,"name":"source-footer","text":"102 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 21 页","textPreview":"102 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 21 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":108,"name":"deck-page","text":"102/133","textPreview":"102/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/udg7adsj","slide":108,"name":"","alt":"102 【例】 Student(Sno, Sname, Ssex, Sage, Sdepb","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/ructgz","slide":108,"text":""}
+{"kind":"slide","id":"sl/y6achp","slide":109,"title":"103 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 25 页","textShapes":2}
+{"kind":"shape","id":"sh/4nap4r65","slide":109,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":109,"name":"source-footer","text":"103 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 25 页","textPreview":"103 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 25 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":109,"name":"deck-page","text":"103/133","textPreview":"103/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/upwb2hwf","slide":109,"name":"","alt":"103 【例 】在关系SC(Sno, Cno, Grade)中，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/y6achp","slide":109,"text":""}
+{"kind":"slide","id":"sl/3cdfjw","slide":110,"title":"104 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 27 页","textShapes":2}
+{"kind":"shape","id":"sh/4nap4r65","slide":110,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":110,"name":"source-footer","text":"104 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 27 页","textPreview":"104 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 27 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":110,"name":"deck-page","text":"104/133","textPreview":"104/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/a9w3m94f","slide":110,"name":"","alt":"104 【例】 在关系SC(Sno, Cno, Grade)中，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/3cdfjw","slide":110,"text":""}
+{"kind":"slide","id":"sl/jbyf1j","slide":111,"title":"105 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 29 页","textShapes":2}
+{"kind":"shape","id":"sh/18jqh0fe","slide":111,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/8nqxs72x","slide":111,"name":"source-footer","text":"105 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 29 页","textPreview":"105 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 29 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":111,"name":"deck-page","text":"105/133","textPreview":"105/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/val87ed8","slide":111,"name":"","alt":"105 【例】在关系 Std(Sno, Sdept Mname) 中，有:;","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/jbyf1j","slide":111,"text":""}
+{"kind":"slide","id":"sl/nl0ejd","slide":112,"title":"106 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 32 页","textShapes":2}
+{"kind":"shape","id":"sh/032lszqt","slide":112,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/tovahoza","slide":112,"name":"source-footer","text":"106 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 32 页","textPreview":"106 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 32 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":112,"name":"deck-page","text":"106/133","textPreview":"106/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/y90je9cv","slide":112,"name":"","alt":"106 例】 设有关系模式R(LD， | 仿兽","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/nl0ejd","slide":112,"text":""}
+{"kind":"slide","id":"sl/qv9qr8","slide":113,"title":"107 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 38 页","textShapes":2}
+{"kind":"shape","id":"sh/8nqxs72x","slide":113,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/18jqh0fe","slide":113,"name":"source-footer","text":"107 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 38 页","textPreview":"107 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 38 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":113,"name":"deck-page","text":"107/133","textPreview":"107/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ex0nuxc3","slide":113,"name":"","alt":"107 【例】有关系模式: 学生成绩〈学生号，课程号，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/qv9qr8","slide":113,"text":""}
+{"kind":"slide","id":"sl/mc65ee","slide":114,"title":"108 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 39 页","textShapes":2}
+{"kind":"shape","id":"sh/knih4byh","slide":114,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/d8bat47y","slide":114,"name":"source-footer","text":"108 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 39 页","textPreview":"108 | 第 5 章 关系规范化理论 | 例题 | 第5章-1.pdf 第 39 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/29gr2p8n","slide":114,"name":"deck-page","text":"108/133","textPreview":"108/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ulwval87","slide":114,"name":"","alt":"108 【例】有关系模式:学生成绩〈学生号，课程号，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/mc65ee","slide":114,"text":""}
+{"kind":"slide","id":"sl/4apmxi","slide":115,"title":"109 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 2 页","textShapes":2}
+{"kind":"shape","id":"sh/k3q5o7qp","slide":115,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":115,"name":"source-footer","text":"109 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 2 页","textPreview":"109 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 2 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":115,"name":"deck-page","text":"109/133","textPreview":"109/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/upwb2hwf","slide":115,"name":"","alt":"109 例】设有关系模式R (A，B，C，D，E) ，F是","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/4apmxi","slide":115,"text":""}
+{"kind":"slide","id":"sl/6dizyh","slide":116,"title":"110 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 4 页","textShapes":2}
+{"kind":"shape","id":"sh/d0z61032","slide":116,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":116,"name":"source-footer","text":"110 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 4 页","textPreview":"110 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 4 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/v6psfil0","slide":116,"name":"deck-page","text":"110/133","textPreview":"110/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/fepkzupw","slide":116,"name":"","alt":"110 【例】 设有关系模式RD，其中心为属性集{客户编号，客","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/6dizyh","slide":116,"text":""}
+{"kind":"slide","id":"sl/p55vgd","slide":117,"title":"111 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 5 页","textShapes":2}
+{"kind":"shape","id":"sh/oj2t83it","slide":117,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":117,"name":"source-footer","text":"111 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 5 页","textPreview":"111 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 5 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/61032lsz","slide":117,"name":"deck-page","text":"111/133","textPreview":"111/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ulwval87","slide":117,"name":"","alt":"111 【例】 设有关系模式R(OJ)，其中为属性集{客户编号，客","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/p55vgd","slide":117,"text":""}
+{"kind":"slide","id":"sl/dms6bx","slide":118,"title":"112 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 6 页","textShapes":2}
+{"kind":"shape","id":"sh/dsji5sne","slide":118,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":118,"name":"source-footer","text":"112 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 6 页","textPreview":"112 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 6 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":118,"name":"deck-page","text":"112/133","textPreview":"112/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/b2hwfyxo","slide":118,"name":"","alt":"112 【例】 设有关系模式RD，其中心为属性集和客户编号，客","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/dms6bx","slide":118,"text":""}
+{"kind":"slide","id":"sl/gtls3v","slide":119,"title":"113 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 23 页","textShapes":2}
+{"kind":"shape","id":"sh/8bat47y1","slide":119,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":119,"name":"source-footer","text":"113 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 23 页","textPreview":"113 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 23 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":119,"name":"deck-page","text":"113/133","textPreview":"113/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ulwval87","slide":119,"name":"","alt":"113 人续【例】关系模式SCT的候选码为(S# C可，(S$坊 TName)。","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/gtls3v","slide":119,"text":""}
+{"kind":"slide","id":"sl/1jkhs9","slide":120,"title":"114 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 27 页","textShapes":2}
+{"kind":"shape","id":"sh/loj2t83i","slide":120,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":120,"name":"source-footer","text":"114 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 27 页","textPreview":"114 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 27 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/3q5o7qpg","slide":120,"name":"deck-page","text":"114/133","textPreview":"114/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/fmlkjm1c","slide":120,"name":"","alt":"114 【例2】R(A,B,C)，F=(AB一C, C一人)","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/1jkhs9","slide":120,"text":""}
+{"kind":"slide","id":"sl/c5iqjb","slide":121,"title":"115 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 29 页","textShapes":2}
+{"kind":"shape","id":"sh/32lszqtc","slide":121,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":121,"name":"source-footer","text":"115 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 29 页","textPreview":"115 | 第 5 章 关系规范化理论 | 例题 | 第5章-2.pdf 第 29 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":121,"name":"deck-page","text":"115/133","textPreview":"115/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/twra5gbq","slide":121,"name":"","alt":"115 长例】假设一个关系为 R(A,B,C,D,E)，它的最小函数依赖","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/c5iqjb","slide":121,"text":""}
+{"kind":"slide","id":"sl/svq3k5","slide":122,"title":"116 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 12 页","textShapes":2}
+{"kind":"shape","id":"sh/ed8bat47","slide":122,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/7u54zido","slide":122,"name":"source-footer","text":"116 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 12 页","textPreview":"116 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 12 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":122,"name":"deck-page","text":"116/133","textPreview":"116/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/8v6psfil","slide":122,"name":"","alt":"116 例: 已知关系模式RCX Y ZD)，天区?>YVY2?>Z，求普.","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/svq3k5","slide":122,"text":""}
+{"kind":"slide","id":"sl/2e2vgz","slide":123,"title":"117 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 16 页","textShapes":2}
+{"kind":"shape","id":"sh/tsvu9kni","slide":123,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":123,"name":"source-footer","text":"117 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 16 页","textPreview":"117 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 16 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":123,"name":"deck-page","text":"117/133","textPreview":"117/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/v6psfil0","slide":123,"name":"","alt":"117 例】已知关系模式R<Dw，有天，其中[FId，B，C，D);","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/2e2vgz","slide":123,"text":""}
+{"kind":"slide","id":"sl/e4rn1t","slide":124,"title":"118 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 17 页","textShapes":2}
+{"kind":"shape","id":"sh/lszqtcj6","slide":124,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":124,"name":"source-footer","text":"118 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 17 页","textPreview":"118 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 17 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":124,"name":"deck-page","text":"118/133","textPreview":"118/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/nqxs72x4","slide":124,"name":"","alt":"118 例】已知关系模式R<Dw，有天，其中[FId，B，C，D);","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/e4rn1t","slide":124,"text":""}
+{"kind":"slide","id":"sl/4xmwoj","slide":125,"title":"119 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 18 页","textShapes":2}
+{"kind":"shape","id":"sh/u54zidon","slide":125,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":125,"name":"source-footer","text":"119 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 18 页","textPreview":"119 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 18 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":125,"name":"deck-page","text":"119/133","textPreview":"119/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/oza1gvy9","slide":125,"name":"","alt":"119 例】已知关系模式R<Dw，有天，其中[FId，B，C，D);","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/4xmwoj","slide":125,"text":""}
+{"kind":"slide","id":"sl/681mid","slide":126,"title":"120 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 19 页","textShapes":2}
+{"kind":"shape","id":"sh/6hcrmhk3","slide":126,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/z25kb6xk","slide":126,"name":"source-footer","text":"120 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 19 页","textPreview":"120 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 19 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":126,"name":"deck-page","text":"120/133","textPreview":"120/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/4zidonyd","slide":126,"name":"","alt":"120 【例S$.11】设有关系模式R<D，天，LF14 及 CD万","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/681mid","slide":126,"text":""}
+{"kind":"slide","id":"sl/hqarm1","slide":127,"title":"121 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 25 页","textShapes":2}
+{"kind":"shape","id":"sh/bi9s36hc","slide":127,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":127,"name":"source-footer","text":"121 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 25 页","textPreview":"121 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 25 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":127,"name":"deck-page","text":"121/133","textPreview":"121/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/loj2t83i","slide":127,"name":"","alt":"121 例】设有关系模式RU ，B8，C，D)，其函数依赖集","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/hqarm1","slide":127,"text":""}
+{"kind":"slide","id":"sl/5bcauf","slide":128,"title":"122 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 26 页","textShapes":2}
+{"kind":"shape","id":"sh/dcbulwva","slide":128,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":128,"name":"source-footer","text":"122 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 26 页","textPreview":"122 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 26 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/vixczed8","slide":128,"name":"deck-page","text":"122/133","textPreview":"122/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/vu9knih4","slide":128,"name":"","alt":"122 例】设有关系模式R<D，天，其中 C=14 B, CD万1，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/5bcauf","slide":128,"text":""}
+{"kind":"slide","id":"sl/mymmo9","slide":129,"title":"123 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 28 页","textShapes":2}
+{"kind":"shape","id":"sh/donyd0z6","slide":129,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":129,"name":"source-footer","text":"123 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 28 页","textPreview":"123 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 28 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/val87ed8","slide":129,"name":"deck-page","text":"123/133","textPreview":"123/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/b6xkf6dc","slide":129,"name":"","alt":"123 【例】关系模式R(A，B，C)，属性的函数依赖集;","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/mymmo9","slide":129,"text":""}
+{"kind":"slide","id":"sl/83jlpy","slide":130,"title":"124 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 29 页","textShapes":2}
+{"kind":"shape","id":"sh/5o7qpg3e","slide":130,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/g3ex0nux","slide":130,"name":"source-footer","text":"124 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 29 页","textPreview":"124 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 29 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/r65wjudg","slide":130,"name":"deck-page","text":"124/133","textPreview":"124/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/za1gvy90","slide":130,"name":"","alt":"124 【例】设有关系模式Rd,， B，C, D, B) ，尽 的函数依赖集","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/83jlpy","slide":130,"text":""}
+{"kind":"slide","id":"sl/4s4ydm","slide":131,"title":"125 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 36 页","textShapes":2}
+{"kind":"shape","id":"sh/6tovahoz","slide":131,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/vahoza1g","slide":131,"name":"source-footer","text":"125 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 36 页","textPreview":"125 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 36 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":131,"name":"deck-page","text":"125/133","textPreview":"125/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/ovahoza1","slide":131,"name":"","alt":"125 【例S$.13】 设有关系模式R<忆 到，U = dd B, CD,忆SG 厅，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/4s4ydm","slide":131,"text":""}
+{"kind":"slide","id":"sl/stzbs8","slide":132,"title":"126 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 38 页","textShapes":2}
+{"kind":"shape","id":"sh/lkjm1cfa","slide":132,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/szqtcj6t","slide":132,"name":"source-footer","text":"126 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 38 页","textPreview":"126 | 第 5 章 关系规范化理论 | 例题 | 第5章-3.pdf 第 38 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":132,"name":"deck-page","text":"126/133","textPreview":"126/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/neloj2t8","slide":132,"name":"","alt":"126 例】 设函数依赖集F = 1A一B，B一全，B一C，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/stzbs8","slide":132,"text":""}
+{"kind":"slide","id":"sl/2arw00","slide":133,"title":"127 | 第 5 章 关系规范化理论 | 例题 | 第5章-4.pdf 第 8 页","textShapes":2}
+{"kind":"shape","id":"sh/bq1oryts","slide":133,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":133,"name":"source-footer","text":"127 | 第 5 章 关系规范化理论 | 例题 | 第5章-4.pdf 第 8 页","textPreview":"127 | 第 5 章 关系规范化理论 | 例题 | 第5章-4.pdf 第 8 页","textChars":42,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":133,"name":"deck-page","text":"127/133","textPreview":"127/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/5kb6xkf6","slide":133,"name":"","alt":"127 例】 SL (Sno， Sdept， Sloc)","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/2arw00","slide":133,"text":""}
+{"kind":"slide","id":"sl/piatmh","slide":134,"title":"128 | 第 5 章 关系规范化理论 | 例题 | 第5章-4.pdf 第 29 页","textShapes":2}
+{"kind":"shape","id":"sh/obm58z25","slide":134,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":134,"name":"source-footer","text":"128 | 第 5 章 关系规范化理论 | 例题 | 第5章-4.pdf 第 29 页","textPreview":"128 | 第 5 章 关系规范化理论 | 例题 | 第5章-4.pdf 第 29 页","textChars":43,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":134,"name":"deck-page","text":"128/133","textPreview":"128/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/uxc3ylc7","slide":134,"name":"","alt":"128 【例】设Rd B, CD有，天L4>C, CD, BF_>C，","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/piatmh","slide":134,"text":""}
+{"kind":"slide","id":"sl/ux4rjg","slide":135,"title":"章节","textShapes":3}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":135,"name":"section-label","text":"章节","textPreview":"章节","textChars":2,"textLines":1,"bbox":[92,108,160,32]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":135,"name":"chapter-title","text":"第 7 章 数据库保护","textPreview":"第 7 章 数据库保护","textChars":11,"textLines":1,"bbox":[88,220,900,72]}
+{"kind":"textbox","id":"sh/47y1kre1","slide":135,"name":"chapter-meta","text":"本章收录 5 页原题页，从第 129 题开始。","textPreview":"本章收录 5 页原题页，从第 129 题开始。","textChars":23,"textLines":1,"bbox":[92,332,780,40]}
+{"kind":"shape","id":"sh/bat47y1k","slide":135,"name":"section-rule","bbox":[92,438,720,6]}
+{"kind":"notes","id":"nt/ux4rjg","slide":135,"text":""}
+{"kind":"slide","id":"sl/nfkt3t","slide":136,"title":"129 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 4 页","textShapes":2}
+{"kind":"shape","id":"sh/9w3m94fu","slide":136,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":136,"name":"source-footer","text":"129 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 4 页","textPreview":"129 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 4 页","textChars":38,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":136,"name":"deck-page","text":"129/133","textPreview":"129/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/fyxobm58","slide":136,"name":"","alt":"129 【例】飞机订票系统中的一个活动序列","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/nfkt3t","slide":136,"text":""}
+{"kind":"slide","id":"sl/i6zfd6","slide":137,"title":"130 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 12 页","textShapes":2}
+{"kind":"shape","id":"sh/ed8v6psf","slide":137,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/7y1kre1w","slide":137,"name":"source-footer","text":"130 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 12 页","textPreview":"130 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 12 页","textChars":39,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/0bi9s36h","slide":137,"name":"deck-page","text":"130/133","textPreview":"130/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/wjudg7ad","slide":137,"name":"","alt":"130 例】隔离性","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/i6zfd6","slide":137,"text":""}
+{"kind":"slide","id":"sl/wzi6ns","slide":138,"title":"131 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 36 页","textShapes":2}
+{"kind":"shape","id":"sh/e1w7mp0b","slide":138,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":138,"name":"source-footer","text":"131 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 36 页","textPreview":"131 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 36 页","textChars":39,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/wval87ed","slide":138,"name":"deck-page","text":"131/133","textPreview":"131/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/cvixczed","slide":138,"name":"","alt":"131 例:| TI ， T TI1 1 T","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/wzi6ns","slide":138,"text":""}
+{"kind":"slide","id":"sl/9wnn1y","slide":139,"title":"132 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 42 页","textShapes":2}
+{"kind":"shape","id":"sh/bi9s36hc","slide":139,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":139,"name":"source-footer","text":"132 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 42 页","textPreview":"132 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 42 页","textChars":39,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/p0bi9s36","slide":139,"name":"deck-page","text":"132/133","textPreview":"132/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/h4byhgn2","slide":139,"name":"","alt":"132 例: TI1 1 T2 TI 1 T2","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/9wnn1y","slide":139,"text":""}
+{"kind":"slide","id":"sl/554svc","slide":140,"title":"133 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 48 页","textShapes":2}
+{"kind":"shape","id":"sh/hk3q5o7q","slide":140,"name":"source-footer-bg","bbox":[0,918,1280,42]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":140,"name":"source-footer","text":"133 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 48 页","textPreview":"133 | 第 7 章 数据库保护 | 例题 | 第7章.pdf 第 48 页","textChars":39,"textLines":1,"bbox":[28,927,1040,24]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":140,"name":"deck-page","text":"133/133","textPreview":"133/133","textChars":7,"textLines":1,"bbox":[1130,927,120,24]}
+{"kind":"image","id":"im/vu9knih4","slide":140,"name":"","alt":"133 例:","bbox":[0,0,1280,960]}
+{"kind":"notes","id":"nt/554svc","slide":140,"text":""}
+{"kind":"slide","id":"sl/81pqez","slide":141,"title":"复核提示","textShapes":5}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":141,"name":"title","text":"复核提示","textPreview":"复核提示","textChars":4,"textLines":1,"bbox":[88,110,760,72]}
+{"kind":"textbox","id":"sh/oza1gvy9","slide":141,"name":"note-270","text":"关系代数表格、E-R 图和函数依赖符号建议回到源 PDF 对照。","textPreview":"关系代数表格、E-R 图和函数依赖符号建议回到源 PDF 对照。","textChars":32,"textLines":1,"bbox":[120,270,980,44]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":141,"name":"note-356","text":"每页底部保留题号、章节、来源文件和页码，方便查原课件。","textPreview":"每页底部保留题号、章节、来源文件和页码，方便查原课件。","textChars":27,"textLines":1,"bbox":[120,356,980,44]}
+{"kind":"textbox","id":"sh/65wjudg7","slide":141,"name":"note-442","text":"PNG 原图已保存在同一输出目录的 assets 文件夹。","textPreview":"PNG 原图已保存在同一输出目录的 assets 文件夹。","textChars":29,"textLines":1,"bbox":[120,442,980,44]}
+{"kind":"textbox","id":"sh/zqtcj6to","slide":141,"name":"total","text":"总计 133 页例题/课堂练习原图。","textPreview":"总计 133 页例题/课堂练习原图。","textChars":18,"textLines":1,"bbox":[88,800,760,36]}
+{"kind":"notes","id":"nt/81pqez","slide":141,"text":""}
