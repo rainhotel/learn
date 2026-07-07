@@ -41,6 +41,52 @@
 - 问某个功能属于哪一层。
 - 问协议、服务、接口谁是水平关系，谁是垂直关系。
 
+### 2.1 OSI 七层代表协议、缩写与高频考点
+
+说明：
+
+- 408 主体仍以五层模型出题，但选择题经常借 OSI 七层来考“分层职责 + 协议归属 + 典型设备/功能”。
+- 下表按“408 高频代表协议/标准”整理，不追求穷举。
+- 表示层、会话层在真实互联网协议栈里常并入应用层，因此 408 更常考功能，较少单独深挖协议细节。
+
+| OSI 层 | 核心职责 | 代表协议/标准 | 英文全称 | 中文全称 | 408 可能考点 |
+| --- | --- | --- | --- | --- | --- |
+| 7 应用层 | 直接为用户进程提供网络服务 | HTTP | HyperText Transfer Protocol | 超文本传输协议 | 默认基于 TCP；默认端口 80；无状态；持久连接与非持久连接 RTT 题 |
+| 7 应用层 | 直接为用户进程提供网络服务 | HTTPS | HyperText Transfer Protocol Secure | 安全超文本传输协议 | 默认端口 443；本质可理解为 HTTP + TLS；常与 HTTP 对比 |
+| 7 应用层 | 文件传输 | FTP | File Transfer Protocol | 文件传输协议 | 控制连接与数据连接分离；控制端口 21；数据端口 20 或临时端口 |
+| 7 应用层 | 邮件发送 | SMTP | Simple Mail Transfer Protocol | 简单邮件传输协议 | 基于 TCP；默认端口 25；负责发信和服务器间转发 |
+| 7 应用层 | 邮件接收 | POP3 | Post Office Protocol Version 3 | 第三版邮局协议 | 基于 TCP；默认端口 110；偏下载式收信 |
+| 7 应用层 | 邮件管理 | IMAP | Internet Message Access Protocol | 互联网邮件访问协议 | 基于 TCP；默认端口 143；支持服务器端管理邮件 |
+| 7 应用层 | 域名解析 | DNS | Domain Name System | 域名系统 | 常用 UDP 53，也可用 TCP 53；递归查询与迭代查询常考 |
+| 7 应用层 | 自动分配地址 | DHCP | Dynamic Host Configuration Protocol | 动态主机配置协议 | 基于 UDP 67/68；DORA 流程高频：Discover、Offer、Request、ACK |
+| 7 应用层 | 网络管理 | SNMP | Simple Network Management Protocol | 简单网络管理协议 | 知道属于应用层即可，常作为层次归属辨析项 |
+| 6 表示层 | 数据表示、加密、压缩 | TLS | Transport Layer Security | 传输层安全协议 | 常与 HTTPS 关联；表示层更重“加密/格式转换”功能理解 |
+| 6 表示层 | 数据表示、加密、压缩 | SSL | Secure Sockets Layer | 安全套接层 | 常与 TLS 对比，知道是较早安全机制即可 |
+| 5 会话层 | 建立、管理、终止会话 | NetBIOS | Network Basic Input/Output System | 网络基本输入输出系统 | 408 更常考会话控制、同步点、全双工/半双工，会话层协议名记代表项即可 |
+| 5 会话层 | 建立、管理、终止会话 | RPC | Remote Procedure Call | 远程过程调用 | 知道其体现“会话/调用管理”思想即可，考试更重功能不重细节 |
+| 4 运输层 | 进程到进程通信、可靠传输、复用分用 | TCP | Transmission Control Protocol | 传输控制协议 | 三次握手、四次挥手、序号/确认号、流量控制、拥塞控制是绝对重点 |
+| 4 运输层 | 进程到进程通信、无连接传输 | UDP | User Datagram Protocol | 用户数据报协议 | 无连接、首部 8B、尽最大努力；常和 TCP 比较 |
+| 3 网络层 | 主机到主机路由与转发 | IP | Internet Protocol | 网际协议 | IPv4 首部、TTL、分片、子网划分、CIDR、最长前缀匹配 |
+| 3 网络层 | 差错报告与网络诊断 | ICMP | Internet Control Message Protocol | 网际控制报文协议 | ping、差错报告；常考用途与报文类型归属 |
+| 3 网络层 | 组播管理 | IGMP | Internet Group Management Protocol | 网际组管理协议 | 常作为“属于哪层”的选择项 |
+| 3 网络层 | 地址解析 | ARP | Address Resolution Protocol | 地址解析协议 | IP 到 MAC；408 中通常按网络层考，但工程上常视为跨链路层/网络层 |
+| 3 网络层 | 反向地址解析 | RARP | Reverse Address Resolution Protocol | 反向地址解析协议 | 了解即可，常和 ARP 对比 |
+| 3 网络层 | 内部网关路由 | RIP | Routing Information Protocol | 路由信息协议 | 距离向量；按跳数计量；最大 15 跳 |
+| 3 网络层 | 内部网关路由 | OSPF | Open Shortest Path First | 开放最短路径优先协议 | 链路状态；常与 RIP 做机制对比 |
+| 3 网络层 | 外部网关路由 | BGP | Border Gateway Protocol | 边界网关协议 | 自治系统之间；策略性强；知道层次和适用场景即可 |
+| 2 数据链路层 | 成帧、差错检测、介质访问控制 | Ethernet | Ethernet | 以太网 | 常结合 IEEE 802.3；MAC 地址、交换机转发、CSMA/CD 高频 |
+| 2 数据链路层 | 点到点链路封装 | PPP | Point-to-Point Protocol | 点对点协议 | 面向点到点链路；常与 HDLC、以太网比较 |
+| 2 数据链路层 | 面向比特的数据链路控制 | HDLC | High-Level Data Link Control | 高级数据链路控制 | 零比特填充、帧边界、链路控制思想常考 |
+| 1 物理层 | 比特传输、接口与电气特性 | RS-232 | Recommended Standard 232 | 232 推荐标准（串行通信接口标准） | 物理层在 408 更常考传输介质、编码、复用、奈奎斯特和香农，协议名不是重点 |
+| 1 物理层 | 比特传输、接口与电气特性 | 10BASE-T | 10BASE-T | 10 兆基带双绞线以太网标准 | 知道属于物理层相关标准即可，常与传输介质、带宽概念结合 |
+
+这一段最容易出的辨析题：
+
+- OSI 七层里，应用层、表示层、会话层在 TCP/IP 五层模型中通常合并为应用层。
+- ARP 在很多教材或工程实现里带有链路层色彩，但 408 题目里通常放到网络层来记。
+- HTTP、FTP、SMTP、DNS、DHCP 都是应用层协议；不要因为名字里有“传输”或“控制”就误判层次。
+- TCP/UDP 属于运输层；IP、ICMP、ARP、RIP、OSPF、BGP 属于网络层。
+- 交换机主要对应数据链路层；路由器主要对应网络层；集线器/中继器主要对应物理层。
 ### 3. 物理层
 
 必会知识：
@@ -956,4 +1002,6 @@ DNS 解析得到的是：
 ### 拓扑题注意点
 - 物理层收到信号，不等于链路层真正接收该帧。
 - 连在 Hub 上的其他主机，常常会在物理层“听到”信号，但链路层会因为目的 MAC 不匹配而丢弃。
+
+
 
