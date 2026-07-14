@@ -1,0 +1,506 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Framework
+            - generic [ref=e34]: 7.0.8
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../overview.html
+                - listitem [ref=e51]:
+                  - button [ref=e52] [cursor=pointer]
+                  - link "Core Technologies" [ref=e53] [cursor=pointer]:
+                    - /url: ../../core.html
+                  - list [ref=e54]:
+                    - listitem [ref=e55]:
+                      - button [ref=e56] [cursor=pointer]
+                      - link "The IoC Container" [ref=e57] [cursor=pointer]:
+                        - /url: ../beans.html
+                    - listitem [ref=e58]:
+                      - link "Resources" [ref=e59] [cursor=pointer]:
+                        - /url: ../resources.html
+                    - listitem [ref=e60]:
+                      - button [ref=e61] [cursor=pointer]
+                      - link "Validation, Data Binding, and Type Conversion" [ref=e62] [cursor=pointer]:
+                        - /url: ../validation.html
+                    - listitem [ref=e63]:
+                      - button [ref=e64] [cursor=pointer]
+                      - link "Spring Expression Language (SpEL)" [ref=e65] [cursor=pointer]:
+                        - /url: ../expressions.html
+                    - listitem [ref=e66]:
+                      - button [ref=e67] [cursor=pointer]
+                      - link "Aspect Oriented Programming with Spring" [ref=e68] [cursor=pointer]:
+                        - /url: ../aop.html
+                      - list [ref=e69]:
+                        - listitem [ref=e70]:
+                          - link "AOP Concepts" [ref=e71] [cursor=pointer]:
+                            - /url: introduction-defn.html
+                        - listitem [ref=e72]:
+                          - link "Spring AOP Capabilities and Goals" [ref=e73] [cursor=pointer]:
+                            - /url: introduction-spring-defn.html
+                        - listitem [ref=e74]:
+                          - link "AOP Proxies" [ref=e75] [cursor=pointer]:
+                            - /url: introduction-proxies.html
+                        - listitem [ref=e76]:
+                          - button [ref=e77] [cursor=pointer]
+                          - link "@AspectJ support" [ref=e78] [cursor=pointer]:
+                            - /url: ataspectj.html
+                        - listitem [ref=e79]:
+                          - link "Schema-based AOP Support" [ref=e80] [cursor=pointer]:
+                            - /url: schema.html
+                        - listitem [ref=e81]:
+                          - link "Choosing which AOP Declaration Style to Use" [ref=e82] [cursor=pointer]:
+                            - /url: choosing.html
+                        - listitem [ref=e83]:
+                          - link "Mixing Aspect Types" [ref=e84] [cursor=pointer]:
+                            - /url: mixing-styles.html
+                        - listitem [ref=e85]:
+                          - link "Proxying Mechanisms" [ref=e86] [cursor=pointer]:
+                            - /url: proxying.html
+                        - listitem [ref=e87]:
+                          - link "Programmatic Creation of @AspectJ Proxies" [ref=e88] [cursor=pointer]:
+                            - /url: aspectj-programmatic.html
+                        - listitem [ref=e89]:
+                          - link "Using AspectJ with Spring Applications" [ref=e90] [cursor=pointer]:
+                            - /url: using-aspectj.html
+                        - listitem [ref=e91]:
+                          - link "Further Resources" [ref=e92] [cursor=pointer]:
+                            - /url: resources.html
+                    - listitem [ref=e93]:
+                      - button [ref=e94] [cursor=pointer]
+                      - link "Spring AOP APIs" [ref=e95] [cursor=pointer]:
+                        - /url: ../aop-api.html
+                    - listitem [ref=e96]:
+                      - link "Resilience Features" [ref=e97] [cursor=pointer]:
+                        - /url: ../resilience.html
+                    - listitem [ref=e98]:
+                      - link "Null-safety" [ref=e99] [cursor=pointer]:
+                        - /url: ../null-safety.html
+                    - listitem [ref=e100]:
+                      - link "Data Buffers and Codecs" [ref=e101] [cursor=pointer]:
+                        - /url: ../databuffer-codec.html
+                    - listitem [ref=e102]:
+                      - link "Ahead of Time Optimizations" [ref=e103] [cursor=pointer]:
+                        - /url: ../aot.html
+                    - listitem [ref=e104]:
+                      - button [ref=e105] [cursor=pointer]
+                      - link "Appendix" [ref=e106] [cursor=pointer]:
+                        - /url: ../appendix.html
+                - listitem [ref=e107]:
+                  - button [ref=e108] [cursor=pointer]
+                  - link "Data Access" [ref=e109] [cursor=pointer]:
+                    - /url: ../../data-access.html
+                - listitem [ref=e110]:
+                  - button [ref=e111] [cursor=pointer]
+                  - link "Web on Servlet Stack" [ref=e112] [cursor=pointer]:
+                    - /url: ../../web.html
+                - listitem [ref=e113]:
+                  - button [ref=e114] [cursor=pointer]
+                  - link "Web on Reactive Stack" [ref=e115] [cursor=pointer]:
+                    - /url: ../../web-reactive.html
+                - listitem [ref=e116]:
+                  - button [ref=e117] [cursor=pointer]
+                  - link "Testing" [ref=e118] [cursor=pointer]:
+                    - /url: ../../testing.html
+                - listitem [ref=e119]:
+                  - button [ref=e120] [cursor=pointer]
+                  - link "Integration" [ref=e121] [cursor=pointer]:
+                    - /url: ../../integration.html
+                - listitem [ref=e122]:
+                  - button [ref=e123] [cursor=pointer]
+                  - link "Language Support" [ref=e124] [cursor=pointer]:
+                    - /url: ../../languages.html
+                - listitem [ref=e125]:
+                  - link "Appendix" [ref=e126] [cursor=pointer]:
+                    - /url: ../../appendix.html
+                - listitem [ref=e127]:
+                  - link "Java API" [ref=e128] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/
+                - listitem [ref=e129]:
+                  - link "Kotlin API" [ref=e130] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/kdoc-api/
+                - listitem [ref=e131]:
+                  - link "Wiki" [ref=e132] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-framework/wiki
+        - button [ref=e134] [cursor=pointer]
+    - main [ref=e137]:
+      - generic [ref=e138]:
+        - complementary [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e142]:
+              - heading "Proxying Mechanisms" [level=3] [ref=e143]
+              - list [ref=e144]:
+                - listitem [ref=e145]:
+                  - link "Forcing Specific AOP Proxy Types" [ref=e146] [cursor=pointer]:
+                    - /url: "#aop-forcing-proxy-types"
+                - listitem [ref=e147]:
+                  - link "Understanding AOP Proxies" [ref=e148] [cursor=pointer]:
+                    - /url: "#aop-understanding-aop-proxies"
+            - generic [ref=e149]:
+              - link "Edit this Page" [ref=e150] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-framework/blob/v7.0.8/framework-docs/modules/ROOT/pages/core/aop/proxying.adoc
+              - link "GitHub Project" [ref=e153] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-framework
+              - link "Stack Overflow" [ref=e157] [cursor=pointer]:
+                - /url: https://stackoverflow.com/questions/tagged/spring
+        - article [ref=e160]:
+          - navigation "breadcrumbs" [ref=e162]:
+            - list [ref=e163]:
+              - listitem "Copy versioned URL" [ref=e164]
+              - listitem [ref=e165]:
+                - link "Spring Framework" [ref=e166] [cursor=pointer]:
+                  - /url: ../../index.html
+                - text: /
+              - listitem [ref=e167]:
+                - link "Core Technologies" [ref=e168] [cursor=pointer]:
+                  - /url: ../../core.html
+                - text: /
+              - listitem [ref=e169]:
+                - link "Aspect Oriented Programming with Spring" [ref=e170] [cursor=pointer]:
+                  - /url: ../aop.html
+                - text: /
+              - listitem [ref=e171]:
+                - link "Proxying Mechanisms" [ref=e172] [cursor=pointer]:
+                  - /url: proxying.html
+          - heading "Proxying Mechanisms" [level=1] [ref=e173]
+          - generic [ref=e175]:
+            - paragraph [ref=e177]:
+              - text: Spring AOP uses either JDK dynamic proxies or CGLIB to create the proxy for a given target object. JDK dynamic proxies are built into the JDK, whereas CGLIB is a common open-source class definition library (repackaged into
+              - code [ref=e178]: spring-core
+              - text: ).
+            - paragraph [ref=e180]: If the target object to be proxied implements at least one interface, a JDK dynamic proxy is used, and all of the interfaces implemented by the target type are proxied. If the target object does not implement any interfaces, a CGLIB proxy is created which is a runtime-generated subclass of the target type.
+            - paragraph [ref=e182]: "If you want to force the use of CGLIB proxying (for example, to proxy every method defined for the target object, not only those implemented by its interfaces), you can do so. However, you should consider the following issues:"
+            - list [ref=e184]:
+              - listitem [ref=e185]:
+                - paragraph [ref=e186]:
+                  - code [ref=e187]: final
+                  - text: classes cannot be proxied, because they cannot be extended.
+              - listitem [ref=e188]:
+                - paragraph [ref=e189]:
+                  - code [ref=e190]: final
+                  - text: methods cannot be advised, because they cannot be overridden.
+              - listitem [ref=e191]:
+                - paragraph [ref=e192]:
+                  - code [ref=e193]: private
+                  - text: methods cannot be advised, because they cannot be overridden.
+              - listitem [ref=e194]:
+                - paragraph [ref=e195]: Methods that are not visible – for example, package-private methods in a parent class from a different package – cannot be advised because they are effectively private.
+              - listitem [ref=e196]:
+                - paragraph [ref=e197]: The constructor of your proxied object will not be called twice, since the CGLIB proxy instance is created through Objenesis. However, if your JVM does not allow for constructor bypassing, you might see double invocations and corresponding debug log entries from Spring’s AOP support.
+              - listitem [ref=e198]:
+                - paragraph [ref=e199]:
+                  - text: Your CGLIB proxy usage may face limitations with the Java Module System. As a typical case, you cannot create a CGLIB proxy for a class from the
+                  - code [ref=e200]: java.lang
+                  - text: package when deploying on the module path. Such cases require a JVM bootstrap flag
+                  - code [ref=e201]: "--add-opens=java.base/java.lang=ALL-UNNAMED"
+                  - text: which is not available for modules.
+          - generic [ref=e202]:
+            - heading "Forcing Specific AOP Proxy Types" [level=2] [ref=e203]
+            - generic [ref=e204]:
+              - paragraph [ref=e206]:
+                - text: To force the use of CGLIB proxies, set the value of the
+                - code [ref=e207]: proxy-target-class
+                - text: attribute of the
+                - code [ref=e208]: <aop:config>
+                - text: "element to true, as follows:"
+              - generic [ref=e211]:
+                - code [ref=e212]:
+                  - text: xml
+                  - generic [ref=e213]: <aop:config proxy-target-class="true">
+                  - text: <!-- other beans defined here... -->
+                  - generic [ref=e214]: </aop:config>
+                - button "Copied!" [ref=e216] [cursor=pointer]
+              - paragraph [ref=e219]:
+                - text: To force CGLIB proxying when you use the @AspectJ auto-proxy support, set the
+                - code [ref=e220]: proxy-target-class
+                - text: attribute of the
+                - code [ref=e221]: <aop:aspectj-autoproxy>
+                - text: element to
+                - code [ref=e222]: "true"
+                - text: ", as follows:"
+              - generic [ref=e225]:
+                - code [ref=e226]:
+                  - text: xml
+                  - generic [ref=e227]: <aop:aspectj-autoproxy proxy-target-class="true"/>
+                - button "Copied!" [ref=e229] [cursor=pointer]
+              - table [ref=e232]:
+                - rowgroup [ref=e233]:
+                  - row [ref=e234]:
+                    - cell "Note" [ref=e235]
+                    - cell [ref=e237]:
+                      - paragraph [ref=e239]:
+                        - text: Multiple
+                        - code [ref=e240]: <aop:config/>
+                        - text: sections are collapsed into a single unified auto-proxy creator at runtime, which applies the
+                        - emphasis [ref=e241]: strongest
+                        - text: proxy settings that any of the
+                        - code [ref=e242]: <aop:config/>
+                        - text: sections (typically from different XML bean definition files) specified. This also applies to the
+                        - code [ref=e243]: <tx:annotation-driven/>
+                        - text: and
+                        - code [ref=e244]: <aop:aspectj-autoproxy/>
+                        - text: elements.
+                      - paragraph [ref=e246]:
+                        - text: To be clear, using
+                        - code [ref=e247]: proxy-target-class="true"
+                        - text: "on"
+                        - code [ref=e248]: <tx:annotation-driven/>
+                        - text: ","
+                        - code [ref=e249]: <aop:aspectj-autoproxy/>
+                        - text: ", or"
+                        - code [ref=e250]: <aop:config/>
+                        - text: elements forces the use of CGLIB proxies
+                        - emphasis [ref=e251]: for all three of them
+                        - text: .
+              - paragraph [ref=e253]:
+                - code [ref=e254]: "@EnableAspectJAutoProxy"
+                - text: ","
+                - code [ref=e255]: "@EnableTransactionManagement"
+                - text: and related configuration annotations offer a corresponding
+                - code [ref=e256]: proxyTargetClass
+                - text: attribute. These are collapsed into a single unified auto-proxy creator too, effectively applying the
+                - emphasis [ref=e257]: strongest
+                - text: proxy settings at runtime. As of 7.0, this applies to individual proxy processors as well, for example
+                - code [ref=e258]: "@EnableAsync"
+                - text: ", consistently participating in unified global default settings for all auto-proxying attempts in a given application."
+              - paragraph [ref=e260]: The global default proxy type may differ between setups. While the core framework suggests interface-based proxies by default, Spring Boot may - depending on configuration properties - enable class-based proxies by default.
+              - paragraph [ref=e262]:
+                - text: As of 7.0, forcing a specific proxy type for individual beans is possible through the
+                - code [ref=e263]: "@Proxyable"
+                - text: annotation on a given
+                - code [ref=e264]: "@Bean"
+                - text: method or
+                - code [ref=e265]: "@Component"
+                - text: class, with
+                - code [ref=e266]: "@Proxyable(INTERFACES)"
+                - text: or
+                - code [ref=e267]: "@Proxyable(TARGET_CLASS)"
+                - text: overriding any globally configured default. For very specific purposes, you may even specify the proxy interface(s) to use through
+                - code [ref=e268]: "@Proxyable(interfaces=…)"
+                - text: ", limiting the exposure to selected interfaces rather than all interfaces that the target bean implements."
+          - generic [ref=e269]:
+            - heading "Understanding AOP Proxies" [level=2] [ref=e270]
+            - generic [ref=e271]:
+              - paragraph [ref=e273]: Spring AOP is proxy-based. It is vitally important that you grasp the semantics of what that last statement actually means before you write your own aspects or use any of the Spring AOP-based aspects supplied with the Spring Framework.
+              - paragraph [ref=e275]: "Consider first the scenario where you have a plain-vanilla, un-proxied object reference, as the following code snippet shows:"
+              - generic [ref=e277]:
+                - tablist [ref=e279]:
+                  - tab [selected] [ref=e280] [cursor=pointer]:
+                    - paragraph [ref=e281]: Java
+                  - tab [ref=e282] [cursor=pointer]:
+                    - paragraph [ref=e283]: Kotlin
+                - tabpanel "Java" [ref=e284]:
+                  - generic [ref=e287]:
+                    - code [ref=e288]:
+                      - text: java public
+                      - generic [ref=e289]: class SimplePojo implements Pojo
+                      - text: "{"
+                      - generic [ref=e290]: public void foo()
+                      - text: "{ // this next method invocation is a direct call on the 'this' reference this.bar(); }"
+                      - generic [ref=e291]: public void bar()
+                      - text: "{ // some logic... } }"
+                    - button "Copied!" [ref=e293] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e296]: "If you invoke a method on an object reference, the method is invoked directly on that object reference, as the following image and listing show:"
+              - img "aop proxy plain pojo call" [ref=e299]
+              - generic [ref=e301]:
+                - tablist [ref=e303]:
+                  - tab [selected] [ref=e304] [cursor=pointer]:
+                    - paragraph [ref=e305]: Java
+                  - tab [ref=e306] [cursor=pointer]:
+                    - paragraph [ref=e307]: Kotlin
+                - tabpanel "Java" [ref=e308]:
+                  - generic [ref=e311]:
+                    - code [ref=e312]:
+                      - text: java public
+                      - generic [ref=e313]: class Main
+                      - text: "{"
+                      - generic [ref=e314]: public static void main(String[] args)
+                      - text: "{ Pojo pojo = new SimplePojo(); // this is a direct method call on the 'pojo' reference pojo.foo(); } }"
+                    - button "Copied!" [ref=e316] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e319]: "Things change slightly when the reference that client code has is a proxy. Consider the following diagram and code snippet:"
+              - img "aop proxy call" [ref=e322]
+              - generic [ref=e324]:
+                - tablist [ref=e326]:
+                  - tab [selected] [ref=e327] [cursor=pointer]:
+                    - paragraph [ref=e328]: Java
+                  - tab [ref=e329] [cursor=pointer]:
+                    - paragraph [ref=e330]: Kotlin
+                - tabpanel "Java" [ref=e331]:
+                  - generic [ref=e334]:
+                    - code [ref=e335]:
+                      - text: java public
+                      - generic [ref=e336]: class Main
+                      - text: "{"
+                      - generic [ref=e337]: public static void main(String[] args)
+                      - text: "{ ProxyFactory factory = new ProxyFactory(new SimplePojo()); factory.addInterface(Pojo"
+                      - generic [ref=e338]: .class)
+                      - text: "; factory.addAdvice(new RetryAdvice()); Pojo pojo = (Pojo) factory.getProxy(); // this is a method call on the proxy! pojo.foo(); } }"
+                    - button "Copied!" [ref=e340] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e343]:
+                - text: The key thing to understand here is that the client code inside the
+                - code [ref=e344]: main(..)
+                - text: method of the
+                - code [ref=e345]: Main
+                - text: class has a reference to the proxy. This means that method calls on that object reference are calls on the proxy. As a result, the proxy can delegate to all of the interceptors (advice) that are relevant to that particular method call. However, once the call has finally reached the target object (the
+                - code [ref=e346]: SimplePojo
+                - text: reference in this case), any method calls that it may make on itself, such as
+                - code [ref=e347]: this.bar()
+                - text: or
+                - code [ref=e348]: this.foo()
+                - text: ", are going to be invoked against the"
+                - code [ref=e349]: this
+                - text: reference, and not the proxy. This has important implications. It means that self invocation is not going to result in the advice associated with a method invocation getting a chance to run. In other words, self invocation via an explicit or implicit
+                - code [ref=e350]: this
+                - text: reference will bypass the advice.
+              - paragraph [ref=e352]: To address that, you have the following options.
+              - generic [ref=e354]:
+                - term [ref=e355]: Avoid self invocation
+                - definition [ref=e356]:
+                  - paragraph [ref=e357]: The best approach (the term "best" is used loosely here) is to refactor your code such that the self invocation does not happen. This does entail some work on your part, but it is the best, least-invasive approach.
+                - term [ref=e358]: Inject a self reference
+                - definition [ref=e359]:
+                  - paragraph [ref=e360]:
+                    - text: An alternative approach is to make use of
+                    - link "self injection" [ref=e361] [cursor=pointer]:
+                      - /url: ../beans/annotation-config/autowired.html#beans-autowired-annotation-self-injection
+                    - text: ", and invoke methods on the proxy via the self reference instead of via"
+                    - code [ref=e362]: this
+                    - text: .
+                - term [ref=e363]:
+                  - text: Use
+                  - code [ref=e364]: AopContext.currentProxy()
+                - definition [ref=e365]:
+                  - paragraph [ref=e366]: This last approach is highly discouraged, and we hesitate to point it out, in favor of the previous options. However, as a last resort you can choose to tie the logic within your class to Spring AOP, as the following example shows.
+              - generic [ref=e368]:
+                - tablist [ref=e370]:
+                  - tab [selected] [ref=e371] [cursor=pointer]:
+                    - paragraph [ref=e372]: Java
+                  - tab [ref=e373] [cursor=pointer]:
+                    - paragraph [ref=e374]: Kotlin
+                - tabpanel "Java" [ref=e375]:
+                  - generic [ref=e378]:
+                    - code [ref=e379]:
+                      - text: java public
+                      - generic [ref=e380]: class SimplePojo implements Pojo
+                      - text: "{"
+                      - generic [ref=e381]: public void foo()
+                      - text: "{ // This works, but it should be avoided if possible. ((Pojo) AopContext.currentProxy()).bar(); }"
+                      - generic [ref=e382]: public void bar()
+                      - text: "{ // some logic... } }"
+                    - button "Copied!" [ref=e384] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e387]:
+                - text: The use of
+                - code [ref=e388]: AopContext.currentProxy()
+                - text: totally couples your code to Spring AOP, and it makes the class itself aware of the fact that it is being used in an AOP context, which reduces some of the benefits of AOP. It also requires that the
+                - code [ref=e389]: ProxyFactory
+                - text: "is configured to expose the proxy, as the following example shows:"
+              - generic [ref=e391]:
+                - tablist [ref=e393]:
+                  - tab [selected] [ref=e394] [cursor=pointer]:
+                    - paragraph [ref=e395]: Java
+                  - tab [ref=e396] [cursor=pointer]:
+                    - paragraph [ref=e397]: Kotlin
+                - tabpanel "Java" [ref=e398]:
+                  - generic [ref=e401]:
+                    - code [ref=e402]:
+                      - text: java public
+                      - generic [ref=e403]: class Main
+                      - text: "{"
+                      - generic [ref=e404]: public static void main(String[] args)
+                      - text: "{ ProxyFactory factory = new ProxyFactory(new SimplePojo()); factory.addInterface(Pojo"
+                      - generic [ref=e405]: .class)
+                      - text: "; factory.addAdvice(new RetryAdvice()); factory.setExposeProxy(true); Pojo pojo = (Pojo) factory.getProxy(); // this is a method call on the proxy! pojo.foo(); } }"
+                    - button "Copied!" [ref=e407] [cursor=pointer]
+                - text: kotlin
+              - table [ref=e410]:
+                - rowgroup [ref=e411]:
+                  - row [ref=e412]:
+                    - cell "Note" [ref=e413]
+                    - cell "AspectJ compile-time weaving and load-time weaving do not have this self-invocation issue because they apply advice within the bytecode instead of via a proxy." [ref=e415]
+          - navigation [ref=e416]:
+            - generic [ref=e417]:
+              - text: Prev
+              - link "‹ Mixing Aspect Types" [ref=e418] [cursor=pointer]:
+                - /url: mixing-styles.html
+            - generic [ref=e419]:
+              - text: Next
+              - link "Programmatic Creation of @AspectJ Proxies ›" [ref=e420] [cursor=pointer]:
+                - /url: aspectj-programmatic.html
+    - text:   
+  - contentinfo [ref=e421]:
+    - generic [ref=e422]:
+      - img "Spring" [ref=e423]
+      - paragraph [ref=e424]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e425] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e426] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e427] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e428]:
+          - text: •
+          - link "Thank you" [ref=e429] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e430] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e431]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e432]:
+      - link "Youtube" [ref=e433] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e437] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e441] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e446]:
+      - generic [ref=e447]:
+        - button "Close" [ref=e449] [cursor=pointer]
+        - generic [ref=e450]:
+          - generic [ref=e452]:
+            - heading "Cookies" [level=2] [ref=e453]
+            - generic [ref=e454]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e455] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e459] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

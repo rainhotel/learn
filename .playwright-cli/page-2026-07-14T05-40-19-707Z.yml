@@ -1,0 +1,418 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - link "My Site Logo Apache RocketMQ" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "My Site Logo" [ref=e9]
+        - generic [ref=e10]: Apache RocketMQ
+      - generic [ref=e11]:
+        - link "GitHub" [ref=e12] [cursor=pointer]:
+          - /url: https://github.com/apache/rocketmq
+        - button "English" [ref=e16] [cursor=pointer]
+        - button "Docs" [ref=e20] [cursor=pointer]
+        - link "Download" [ref=e21] [cursor=pointer]:
+          - /url: /download
+        - button "Blog" [ref=e23] [cursor=pointer]
+        - button "Community" [ref=e25] [cursor=pointer]
+        - button "Switch between dark and light mode (currently light mode)" [ref=e27] [cursor=pointer]
+        - button "Search (Ctrl+K)" [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]: Search
+          - generic [ref=e36]: K
+  - generic [ref=e42]:
+    - complementary [ref=e43]:
+      - navigation "Docs sidebar" [ref=e46]:
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - link "Introduction" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e51]:
+            - link "Quick Start" [ref=e53] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e54]:
+            - link "Domain Model" [ref=e56] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e57]:
+            - link "Feature Behavior" [expanded] [ref=e59] [cursor=pointer]:
+              - /url: "#"
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - link "Normal Message" [ref=e62] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/01normalmessage
+              - listitem [ref=e63]:
+                - link "Delay Message" [ref=e64] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/02delaymessage
+              - listitem [ref=e65]:
+                - link "Ordered Message" [ref=e66] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/03fifomessage
+              - listitem [ref=e67]:
+                - link "Transaction Message" [ref=e68] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/04transactionmessage
+              - listitem [ref=e69]:
+                - link "Sending Retry and Throttling Policy" [ref=e70] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/05sendretrypolicy
+              - listitem [ref=e71]:
+                - link "Consumer Types" [ref=e72] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/06consumertype
+              - listitem [ref=e73]:
+                - link "Message Filtering" [ref=e74] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/07messagefilter
+              - listitem [ref=e75]:
+                - link "Consumer Load Balancing" [ref=e76] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/08consumerloadbalance
+              - listitem [ref=e77]:
+                - link "Consumer Progress Management" [ref=e78] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/09consumerprogress
+              - listitem [ref=e79]:
+                - link "Consumption Retry" [ref=e80] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/10consumerretrypolicy
+              - listitem [ref=e81]:
+                - link "Message Storage and Cleanup" [ref=e82] [cursor=pointer]:
+                  - /url: /docs/featureBehavior/11messagestorepolicy
+          - listitem [ref=e83]:
+            - link "Deployment & Operations" [ref=e85] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e86]:
+            - link "Observability" [ref=e88] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e89]:
+            - link "Client SDK" [ref=e91] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e92]:
+            - link "Best Practice" [ref=e94] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e95]:
+            - link "RocketMQ EventBridge" [ref=e97] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e98]:
+            - link "RocketMQ MQTT" [ref=e100] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e101]:
+            - link "RocketMQ Connect" [ref=e103] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e104]:
+            - link "RocketMQ Streams" [ref=e106] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e107]:
+            - link "Contribution Guide" [ref=e109] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e110]:
+            - link "Security" [ref=e112] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e113]:
+            - link "FAQs" [ref=e114] [cursor=pointer]:
+              - /url: /docs/faq/
+    - main [ref=e115]:
+      - generic [ref=e117]:
+        - generic [ref=e119]:
+          - article [ref=e120]:
+            - navigation "Breadcrumbs" [ref=e121]:
+              - list [ref=e122]:
+                - listitem [ref=e123]:
+                  - link "Home page" [ref=e124] [cursor=pointer]:
+                    - /url: /
+                - listitem [ref=e127]:
+                  - generic [ref=e128]: Feature Behavior
+                - listitem [ref=e129]:
+                  - generic [ref=e130]: Delay Message
+            - generic [ref=e131]: "Version: 5.0"
+            - generic [ref=e132]:
+              - heading "Delay Message" [level=1] [ref=e133]
+              - paragraph [ref=e134]: Delay messages are messages with advanced features in Apache RocketMQ. This topic describes the scenarios, working mechanism, limits, usage examples, and usage notes of delay messages and delayed messages.
+              - generic [ref=e135]:
+                - generic [ref=e136]: note
+                - paragraph [ref=e141]: Scheduled message and delay message are essentially the same. Both of them deliver messages to consumers at a fixed time according to the timing time set by the message. Therefore, delay messages are used in the following sections.
+              - heading [level=2] [ref=e142]:
+                - text: Scenarios
+                - link "Direct link to heading" [ref=e143] [cursor=pointer]:
+                  - /url: "#scenarios"
+                  - text: "#"
+              - paragraph [ref=e144]: Accurate and reliable time-based event triggers are required in scenarios such as distributed timed scheduling and task timeout processing. Apache RocketMQ provides delay messages to help you simplify the development of timed scheduling tasks and implement high-performance, scalable, and reliable timed triggering.
+              - paragraph [ref=e145]:
+                - strong [ref=e146]: "Scenario 1: Distributed timed scheduling"
+                - img "定时消息" [ref=e147]
+              - paragraph [ref=e148]: A distributed timed scheduling scenario involves tasks that require various time granularity levels, for example, a task to execute file cleanup at 5 o'clock every day or a task to trigger push messages every 2 minutes. Traditional dataset-based timed scheduling solutions are complex and inefficient in distributed scenarios. In comparison, delay messages in Apache RocketMQ allow you to encapsulate multiple types of time triggers.
+              - paragraph [ref=e149]:
+                - strong [ref=e150]: "Scenario 2: Task timeout processing"
+                - img "超时任务处理" [ref=e151]
+              - paragraph [ref=e152]: A typical scenario that involves task timeout processing is e-commerce payment, where an unpaid order is canceled after it remains unpaid for a specific time period instead of being canceled immediately. In this case, you can use delay messages in Apache RocketMQ to check and trigger timeout tasks.
+              - paragraph [ref=e153]: "Task timeout processing based on delay messages provides the following benefits:"
+              - list [ref=e154]:
+                - listitem [ref=e155]:
+                  - paragraph [ref=e156]: "Various time granularity levels and simplified development: Scheduled messaging in Apache RocketMQ does not have the limit of fixed time increments. You can trigger tasks at any time granularity level and without deduplication."
+                - listitem [ref=e157]:
+                  - paragraph [ref=e158]: "High performance and scalability: delay messages in Apache RocketMQ offer high concurrency and scalability. This outperforms traditional database scanning methods, which are complex to implement and can cause performance bottlenecks due to frequent API calls for scanning."
+              - heading [level=2] [ref=e159]:
+                - text: Working mechanism
+                - link "Direct link to heading" [ref=e160] [cursor=pointer]:
+                  - /url: "#working-mechanism"
+                  - text: "#"
+              - paragraph [ref=e161]:
+                - strong [ref=e162]: Definition of delay messages
+              - paragraph [ref=e163]: delay messages are messages with advanced features in Apache RocketMQ. delay messages allow consumers to consume messages that are sent to the server only after a specified period of time or at a specified time. You can use delay messages to implement delayed scheduling and triggering in distributed scenarios.
+              - paragraph [ref=e164]:
+                - strong [ref=e165]: Time setting rules
+              - list [ref=e166]:
+                - listitem [ref=e167]:
+                  - paragraph [ref=e168]: The scheduled or delayed time for delay messages in Apache RocketMQ is represented as a timestamp, not a time period.
+                - listitem [ref=e169]:
+                  - paragraph [ref=e170]:
+                    - text: The scheduled time is in the format of a millisecond-level Unix timestamp. You must convert the scheduled time of message delivery to a millisecond-level Unix timestamp. You can use the
+                    - link "Unix timestamp converter" [ref=e171] [cursor=pointer]:
+                      - /url: https://www.unixtimestamp.com/
+                    - text: to convert a time to a millisecond-level Unix timestamp.
+                - listitem [ref=e172]:
+                  - paragraph [ref=e173]: The scheduled time must be within the allowed time range. If the scheduled time exceeds the range, the scheduled time does not take effect and the messages are immediately delivered from the server side.
+                - listitem [ref=e174]:
+                  - paragraph [ref=e175]:
+                    - text: By default, the maximum time range for delay messages is 24 hours. You cannot change the default value. For more information, see
+                    - link "Parameter limits" [ref=e176] [cursor=pointer]:
+                      - /url: /docs/introduction/03limits
+                    - text: .
+                - listitem [ref=e177]:
+                  - paragraph [ref=e178]: The scheduled time must be later than the current time. If the scheduled time is set to a time earlier than the current time, the scheduled time does not take effect and the messages are immediately delivered from the server side.
+              - paragraph [ref=e179]:
+                - strong [ref=e180]: "The following section provides two time setting examples:"
+              - list [ref=e181]:
+                - listitem [ref=e182]:
+                  - paragraph [ref=e183]: "delay messages: If the current time is 2022-06-09 17:30:00 and you want to deliver messages at 2022-06-09 19:20:00, the millisecond-level Unix timestamp of the scheduled time is 1654773600000."
+                - listitem [ref=e184]:
+                  - paragraph [ref=e185]: "Delayed messages: If the current time is 2022-06-09 17:30:00 and you want to deliver messages after 1 hour, the message delivery time is 2022-06-09 18:30:00 and the millisecond-level Unix timestamp is 1654770600000."
+              - paragraph [ref=e186]:
+                - strong [ref=e187]: Lifecycle of a scheduled message
+              - paragraph [ref=e188]:
+                - img "定时消息生命周期" [ref=e189]
+              - list [ref=e190]:
+                - listitem [ref=e191]:
+                  - paragraph [ref=e192]: "Initialized: The message is built and initialized by the producer and is ready to be sent to the server."
+                - listitem [ref=e193]:
+                  - paragraph [ref=e194]: "Timing: The message is sent to the server side, where the message is stored in a time-based storage system until the specified delivery time. An index is not immediately created for the message."
+                - listitem [ref=e195]:
+                  - paragraph [ref=e196]: "Ready: At the specified time, the message is written into a regular storage engine, where the message is visible for consumers and waits for consumption by consumers."
+              - list [ref=e197]:
+                - listitem [ref=e198]:
+                  - paragraph [ref=e199]: "Inflight: The message is obtained by the consumer and processed based on the local business logic of the consumer."
+                  - paragraph [ref=e200]:
+                    - text: In this process, the broker waits for the consumer to complete the consumption and submit the consumption result. If no response is received from the consumer in a certain period of time, Apache RocketMQ retries the message. For more information, see
+                    - link "Consumption retry" [ref=e201] [cursor=pointer]:
+                      - /url: /docs/featureBehavior/10consumerretrypolicy
+                    - text: .
+              - list [ref=e202]:
+                - listitem [ref=e203]:
+                  - paragraph [ref=e204]: "Acked: The consumer completes consumption and submits the consumption result to the broker. The broker marks whether the current message is successfully consumed."
+                  - paragraph [ref=e205]: By default, Apache RocketMQ retains all messages. When the consumption result is submitted, the message data is logically marked as consumed instead of being deleted immediately. Therefore, the consumer can backtrack the message for re-consumption before it is deleted due to the expiration of the retention period or insufficient storage space.
+              - list [ref=e206]:
+                - listitem [ref=e207]:
+                  - text: "Deleted: When the retention period of the message expires or the storage space is insufficient, Apache RocketMQ deletes the earliest saved message from the physical file in a rolling manner. For more information, see"
+                  - link "Message storage and cleanup" [ref=e208] [cursor=pointer]:
+                    - /url: /docs/featureBehavior/11messagestorepolicy
+                  - text: .
+              - heading [level=2] [ref=e209]:
+                - text: Usage limits
+                - link "Direct link to heading" [ref=e210] [cursor=pointer]:
+                  - /url: "#usage-limits"
+                  - text: "#"
+              - paragraph [ref=e211]:
+                - strong [ref=e212]: Message type consistency
+              - paragraph [ref=e213]: delay messages can be sent only to topics whose MessageType is Delay.
+              - paragraph [ref=e214]:
+                - strong [ref=e215]: Time granularity
+              - paragraph [ref=e216]: The time granularity for delay messages in Apache RocketMQ is down to milliseconds. The default granularity value is 1000 ms.
+              - paragraph [ref=e217]: The status of delay messages in Apache RocketMQ can be persistently stored. If the messaging system experiences a failure and is restarted, messages are still delivered based on the specified delivery time. However, if the storage system experiences an exception or is restarted, latency may occur in delivering delay messages.
+              - heading [level=2] [ref=e218]:
+                - text: Example
+                - link "Direct link to heading" [ref=e219] [cursor=pointer]:
+                  - /url: "#example"
+                  - text: "#"
+              - paragraph [ref=e220]:
+                - strong [ref=e221]: Create topic
+              - paragraph [ref=e222]: "For creating topics in Apache RocketMQ 5.0, it is recommended to use the mqadmin tool. However, it is worth noting that message type needs to be added as a property parameter. Here is an example:"
+              - generic [ref=e224]:
+                - code [ref=e226]:
+                  - generic [ref=e227]: sh mqadmin updateTopic -n <nameserver_address> -t <topic_name> -c <cluster_name> -a +message.type=DELAY
+                - generic [ref=e228]:
+                  - button "Toggle word wrap" [ref=e229] [cursor=pointer]
+                  - button "Copy code to clipboard" [ref=e232] [cursor=pointer]
+              - paragraph [ref=e238]:
+                - strong [ref=e239]: Send messages
+              - paragraph [ref=e240]: Unlike normal messages, delay messages must have a delivery timestamp specified for them.
+              - paragraph [ref=e241]:
+                - strong [ref=e242]: Create DELAY Topic
+              - generic [ref=e244]:
+                - code [ref=e246]:
+                  - generic [ref=e247]: /bin/mqadmin updateTopic -c DefaultCluster -t DelayTopic -n 127.0.0.1:9876 -a +message.type=DELAY
+                - generic [ref=e248]:
+                  - button "Toggle word wrap" [ref=e249] [cursor=pointer]
+                  - button "Copy code to clipboard" [ref=e252] [cursor=pointer]
+              - list [ref=e258]:
+                - listitem [ref=e259]: "-c the cluster name"
+                - listitem [ref=e260]: "-t the topic name"
+                - listitem [ref=e261]: "-n the address of the nameserver"
+                - listitem [ref=e262]:
+                  - strong [ref=e263]:
+                    - text: "-a extra attributes，we add an"
+                    - code [ref=e264]: message.type
+                    - text: attribute with value
+                    - code [ref=e265]: DELAY
+                    - text: to support delivery DELAY message.
+              - paragraph [ref=e266]: "The following code provides Java examples of delivery and consumption of delay messages:"
+              - generic [ref=e268]:
+                - code [ref=e270]:
+                  - generic [ref=e271]: // Send delay messages.
+                  - generic [ref=e272]: MessageBuilder messageBuilder = null;
+                  - generic [ref=e273]: // Specify a millisecond-level Unix timestamp. In this example, the specified timestamp indicates that the message will be delivered in 10 minutes from the current time.
+                  - generic [ref=e274]: Long deliverTimeStamp = System.currentTimeMillis() + 10L * 60 * 1000;
+                  - generic [ref=e275]: Message message = messageBuilder.setTopic("topic")
+                  - generic [ref=e276]: // Specify the message index key. The system uses the key to locate the message.
+                  - generic [ref=e277]: .setKeys("messageKey")
+                  - generic [ref=e278]: // Specify the message tag. The consumer can use the tag to filter messages.
+                  - generic [ref=e279]: .setTag("messageTag")
+                  - generic [ref=e280]: .setDeliveryTimestamp(deliverTimeStamp)
+                  - generic [ref=e281]: // Configure the message body.
+                  - generic [ref=e282]: .setBody("messageBody".getBytes())
+                  - generic [ref=e283]: .build();
+                  - generic [ref=e284]: "try {"
+                  - generic [ref=e285]: // Send the messages. Focus on the result of message sending and exceptions such as failures.
+                  - generic [ref=e286]: SendReceipt sendReceipt = producer.send(message);
+                  - generic [ref=e287]: System.out.println(sendReceipt.getMessageId());
+                  - generic [ref=e288]: "} catch (ClientException e) {"
+                  - generic [ref=e289]: e.printStackTrace();
+                  - generic [ref=e290]: "}"
+                  - generic [ref=e291]: "// Consumption example 1: If a scheduled message is consumed by a push consumer, the consumer needs to process the message only in the message listener."
+                  - generic [ref=e292]: "MessageListener messageListener = new MessageListener() {"
+                  - generic [ref=e293]: "@Override"
+                  - generic [ref=e294]: "public ConsumeResult consume(MessageView messageView) {"
+                  - generic [ref=e295]: System.out.println(messageView.getDeliveryTimestamp());
+                  - generic [ref=e296]: // Return the status based on the consumption result.
+                  - generic [ref=e297]: return ConsumeResult.SUCCESS;
+                  - generic [ref=e298]: "}"
+                  - generic [ref=e299]: "};"
+                  - generic [ref=e300]: "// Consumption example 2: If a scheduled message is consumed by a simple consumer, the consumer must obtain the message for consumption and submit the consumption result."
+                  - generic [ref=e301]: List<MessageView> messageViewList = null;
+                  - generic [ref=e302]: "try {"
+                  - generic [ref=e303]: messageViewList = simpleConsumer.receive(10, Duration.ofSeconds(30));
+                  - generic [ref=e304]: "messageViewList.forEach(messageView -> {"
+                  - generic [ref=e305]: System.out.println(messageView);
+                  - generic [ref=e306]: // After consumption is complete, the consumer must invoke ACK to submit the consumption result.
+                  - generic [ref=e307]: "try {"
+                  - generic [ref=e308]: simpleConsumer.ack(messageView);
+                  - generic [ref=e309]: "} catch (ClientException e) {"
+                  - generic [ref=e310]: e.printStackTrace();
+                  - generic [ref=e311]: "}"
+                  - generic [ref=e312]: "});"
+                  - generic [ref=e313]: "} catch (ClientException e) {"
+                  - generic [ref=e314]: // If the pull fails due to system traffic throttling or other reasons, you must re-initiate the request to obtain the message.
+                  - generic [ref=e315]: e.printStackTrace();
+                  - generic [ref=e316]: "}"
+                  - generic [ref=e317]: "}"
+                - generic [ref=e318]:
+                  - button "Toggle word wrap" [ref=e319] [cursor=pointer]
+                  - button "Copy code to clipboard" [ref=e322] [cursor=pointer]
+              - heading [level=2] [ref=e328]:
+                - text: Usage notes
+                - link "Direct link to heading" [ref=e329] [cursor=pointer]:
+                  - /url: "#usage-notes"
+                  - text: "#"
+              - paragraph [ref=e330]:
+                - strong [ref=e331]: We recommend that you do not schedule the same delivery time for a large number of messages.
+              - paragraph [ref=e332]: delay messages are stored in a time-based storage system before they are delivered to consumers at the specified delivery time. If you specify the same delivery time for a large number of delay messages, the system has to simultaneously process the messages at the delivery time. This puts the system under heavy load and results in delays in message delivery.
+            - link "Edit this page" [ref=e336] [cursor=pointer]:
+              - /url: https://github.com/apache/rocketmq-site/tree/new-official-website/versioned_docs/version-5.0/04-featureBehavior/02delaymessage.md
+          - navigation "Docs pages navigation" [ref=e341]:
+            - link "Previous « Normal Message" [ref=e342] [cursor=pointer]:
+              - /url: /docs/featureBehavior/01normalmessage
+              - generic [ref=e343]: Previous
+              - generic [ref=e344]: « Normal Message
+            - link "Next Ordered Message »" [ref=e345] [cursor=pointer]:
+              - /url: /docs/featureBehavior/03fifomessage
+              - generic [ref=e346]: Next
+              - generic [ref=e347]: Ordered Message »
+        - list [ref=e350]:
+          - listitem [ref=e351]:
+            - link "Scenarios" [ref=e352] [cursor=pointer]:
+              - /url: "#scenarios"
+          - listitem [ref=e353]:
+            - link "Working mechanism" [ref=e354] [cursor=pointer]:
+              - /url: "#working-mechanism"
+          - listitem [ref=e355]:
+            - link "Usage limits" [ref=e356] [cursor=pointer]:
+              - /url: "#usage-limits"
+          - listitem [ref=e357]:
+            - link "Example" [ref=e358] [cursor=pointer]:
+              - /url: "#example"
+          - listitem [ref=e359]:
+            - link "Usage notes" [ref=e360] [cursor=pointer]:
+              - /url: "#usage-notes"
+  - contentinfo [ref=e361]:
+    - generic [ref=e362]:
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - generic [ref=e365]: Learn
+          - list [ref=e366]:
+            - listitem [ref=e367]:
+              - link "Introduction" [ref=e368] [cursor=pointer]:
+                - /url: /docs/domainModel/01main
+            - listitem [ref=e369]:
+              - link "Installation" [ref=e370] [cursor=pointer]:
+                - /url: /docs/quickStart/01quickstart
+            - listitem [ref=e371]:
+              - link "Migration from 4.x to 5.0" [ref=e372] [cursor=pointer]:
+                - /url: /version
+        - generic [ref=e373]:
+          - generic [ref=e374]: Community
+          - list [ref=e375]:
+            - listitem [ref=e376]:
+              - link "Twitter" [ref=e377] [cursor=pointer]:
+                - /url: https://twitter.com/ApacheRocketMQ
+            - listitem [ref=e380]:
+              - link "Github" [ref=e381] [cursor=pointer]:
+                - /url: https://github.com/apache/rocketmq
+            - listitem [ref=e382]:
+              - link "Help" [ref=e383] [cursor=pointer]:
+                - /url: https://github.com/apache/rocketmq
+        - generic [ref=e384]:
+          - generic [ref=e385]: More
+          - list [ref=e386]:
+            - listitem [ref=e387]:
+              - link "Blog" [ref=e388] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e389]:
+              - link "Changelog" [ref=e390] [cursor=pointer]:
+                - /url: /release-notes
+            - listitem [ref=e391]:
+              - link "GitHub" [ref=e392] [cursor=pointer]:
+                - /url: https://github.com/apache/rocketmq
+            - listitem [ref=e395]:
+              - link "Twitter" [ref=e396] [cursor=pointer]:
+                - /url: https://twitter.com/docusaurus
+        - generic [ref=e399]:
+          - generic [ref=e400]: Legal
+          - list [ref=e401]:
+            - listitem [ref=e402]:
+              - link "Licenses" [ref=e403] [cursor=pointer]:
+                - /url: https://www.apache.org/licenses/
+            - listitem [ref=e406]:
+              - link "Security" [ref=e407] [cursor=pointer]:
+                - /url: /docs/security/01security
+            - listitem [ref=e408]:
+              - link "Thanks" [ref=e409] [cursor=pointer]:
+                - /url: https://www.apache.org/foundation/thanks.html
+            - listitem [ref=e412]:
+              - link "Sponsorship" [ref=e413] [cursor=pointer]:
+                - /url: https://www.apache.org/foundation/sponsorship.html
+            - listitem [ref=e416]:
+              - link "Privacy" [ref=e417] [cursor=pointer]:
+                - /url: https://privacy.apache.org/policies/privacy-policy-public.html
+            - listitem [ref=e420]:
+              - link "Events" [ref=e421] [cursor=pointer]:
+                - /url: https://www.apache.org/events/current-event.html
+            - listitem [ref=e424]:
+              - link "Foundation" [ref=e425] [cursor=pointer]:
+                - /url: https://www.apache.org/
+      - generic [ref=e428]:
+        - link [ref=e430] [cursor=pointer]:
+          - /url: https://rocketmq.apache.org/
+          - img "Meta Open Source Logo" [ref=e431]
+        - generic [ref=e432]: Copyright © 2022 The Apache Software Foundation. Licensed under the Apache License, Version 2.0.

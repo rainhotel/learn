@@ -1,0 +1,628 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring for Apache Kafka
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../index.html
+                - listitem [ref=e51]:
+                  - link "What’s new?" [ref=e52] [cursor=pointer]:
+                    - /url: ../whats-new.html
+                - listitem [ref=e53]:
+                  - button [ref=e54] [cursor=pointer]
+                  - link "Introduction" [ref=e55] [cursor=pointer]:
+                    - /url: ../introduction.html
+                - listitem [ref=e56]:
+                  - button [ref=e57] [cursor=pointer]
+                  - link "Reference" [ref=e58] [cursor=pointer]:
+                    - /url: ../reference.html
+                  - list [ref=e59]:
+                    - listitem [ref=e60]:
+                      - button [ref=e61] [cursor=pointer]
+                      - link "Using Spring for Apache Kafka" [ref=e62] [cursor=pointer]:
+                        - /url: ../kafka.html
+                      - list [ref=e63]:
+                        - listitem [ref=e64]:
+                          - link "Connecting to Kafka" [ref=e65] [cursor=pointer]:
+                            - /url: connecting.html
+                        - listitem [ref=e66]:
+                          - link "Configuring Topics" [ref=e67] [cursor=pointer]:
+                            - /url: configuring-topics.html
+                        - listitem [ref=e68]:
+                          - link "Sending Messages" [ref=e69] [cursor=pointer]:
+                            - /url: sending-messages.html
+                        - listitem [ref=e70]:
+                          - button [ref=e71] [cursor=pointer]
+                          - link "Receiving Messages" [ref=e72] [cursor=pointer]:
+                            - /url: receiving-messages.html
+                        - listitem [ref=e73]:
+                          - link "Listener Container Properties" [ref=e74] [cursor=pointer]:
+                            - /url: container-props.html
+                        - listitem [ref=e75]:
+                          - link "Dynamically Creating Containers" [ref=e76] [cursor=pointer]:
+                            - /url: dynamic-containers.html
+                        - listitem [ref=e77]:
+                          - link "Application Events" [ref=e78] [cursor=pointer]:
+                            - /url: events.html
+                        - listitem [ref=e79]:
+                          - link "Topic/Partition Initial Offset" [ref=e80] [cursor=pointer]:
+                            - /url: topic/partition-initial-offset.html
+                        - listitem [ref=e81]:
+                          - link "Seeking to a Specific Offset" [ref=e82] [cursor=pointer]:
+                            - /url: seek.html
+                        - listitem [ref=e83]:
+                          - link "Container factory" [ref=e84] [cursor=pointer]:
+                            - /url: container-factory.html
+                        - listitem [ref=e85]:
+                          - link "Thread Safety" [ref=e86] [cursor=pointer]:
+                            - /url: thread-safety.html
+                        - listitem [ref=e87]:
+                          - link "Monitoring" [ref=e88] [cursor=pointer]:
+                            - /url: micrometer.html
+                        - listitem [ref=e89]:
+                          - link "Transactions" [ref=e90] [cursor=pointer]:
+                            - /url: transactions.html
+                        - listitem [ref=e91]:
+                          - link "Exactly Once Semantics" [ref=e92] [cursor=pointer]:
+                            - /url: exactly-once.html
+                        - listitem [ref=e93]:
+                          - link "Wiring Spring Beans into Producer/Consumer Interceptors" [ref=e94] [cursor=pointer]:
+                            - /url: interceptors.html
+                        - listitem [ref=e95]:
+                          - link "Producer Interceptor Managed in Spring" [ref=e96] [cursor=pointer]:
+                            - /url: producer-interceptor-managed-in-spring.html
+                        - listitem [ref=e97]:
+                          - link "Pausing and Resuming Listener Containers" [ref=e98] [cursor=pointer]:
+                            - /url: pause-resume.html
+                        - listitem [ref=e99]:
+                          - link "Pausing and Resuming Partitions on Listener Containers" [ref=e100] [cursor=pointer]:
+                            - /url: pause-resume-partitions.html
+                        - listitem [ref=e101]:
+                          - link "Serialization, Deserialization, and Message Conversion" [ref=e102] [cursor=pointer]:
+                            - /url: serdes.html
+                        - listitem [ref=e103]:
+                          - link "Message Headers" [ref=e104] [cursor=pointer]:
+                            - /url: headers.html
+                        - listitem [ref=e105]:
+                          - link "Null Payloads and Log Compaction of 'Tombstone' Records" [ref=e106] [cursor=pointer]:
+                            - /url: tombstones.html
+                        - listitem [ref=e107]:
+                          - link "Handling Exceptions" [ref=e108] [cursor=pointer]:
+                            - /url: annotation-error-handling.html
+                        - listitem [ref=e109]:
+                          - link "JAAS and Kerberos" [ref=e110] [cursor=pointer]:
+                            - /url: kerberos.html
+                        - listitem [ref=e111]:
+                          - link "Kafka Queues (Share Consumer)" [ref=e112] [cursor=pointer]:
+                            - /url: kafka-queues.html
+                    - listitem [ref=e113]:
+                      - button [ref=e114] [cursor=pointer]
+                      - link "Non-Blocking Retries" [ref=e115] [cursor=pointer]:
+                        - /url: ../retrytopic.html
+                    - listitem [ref=e116]:
+                      - link "Apache Kafka Streams Support" [ref=e117] [cursor=pointer]:
+                        - /url: ../streams.html
+                    - listitem [ref=e118]:
+                      - link "Testing Applications" [ref=e119] [cursor=pointer]:
+                        - /url: ../testing.html
+                - listitem [ref=e120]:
+                  - link "Tips, Tricks and Examples" [ref=e121] [cursor=pointer]:
+                    - /url: ../tips.html
+                - listitem [ref=e122]:
+                  - link "Other Resources" [ref=e123] [cursor=pointer]:
+                    - /url: ../other-resources.html
+                - listitem [ref=e124]:
+                  - link "Override Spring Boot Dependencies" [ref=e125] [cursor=pointer]:
+                    - /url: ../appendix/override-boot-dependencies.html
+                - listitem [ref=e126]:
+                  - link "Micrometer Observation Documentation" [ref=e127] [cursor=pointer]:
+                    - /url: ../appendix/micrometer.html
+                - listitem [ref=e128]:
+                  - link "Native Images" [ref=e129] [cursor=pointer]:
+                    - /url: ../appendix/native-images.html
+                - listitem [ref=e130]:
+                  - link "Change History" [ref=e131] [cursor=pointer]:
+                    - /url: ../appendix/change-history.html
+        - button [ref=e133] [cursor=pointer]
+    - main [ref=e136]:
+      - generic [ref=e137]:
+        - complementary [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e141]:
+              - heading "Transactions" [level=3] [ref=e142]
+              - list [ref=e143]:
+                - listitem [ref=e144]:
+                  - link "Overview" [ref=e145] [cursor=pointer]:
+                    - /url: "#overview"
+                - listitem [ref=e146]:
+                  - link "Using KafkaTransactionManager" [ref=e147] [cursor=pointer]:
+                    - /url: "#using-kafkatransactionmanager"
+                - listitem [ref=e148]:
+                  - link "Transaction Synchronization" [ref=e149] [cursor=pointer]:
+                    - /url: "#transaction-synchronization"
+                - listitem [ref=e150]:
+                  - link "Using Consumer-Initiated Transactions" [ref=e151] [cursor=pointer]:
+                    - /url: "#container-transaction-manager"
+                - listitem [ref=e152]:
+                  - link "KafkaTemplate Local Transactions" [ref=e153] [cursor=pointer]:
+                    - /url: "#kafkatemplate-local-transactions"
+                - listitem [ref=e154]:
+                  - link "TransactionIdPrefix" [ref=e155] [cursor=pointer]:
+                    - /url: "#transaction-id-prefix"
+                - listitem [ref=e156]:
+                  - link "TransactionIdSuffix Fixed" [ref=e157] [cursor=pointer]:
+                    - /url: "#transaction-id-suffix-fixed"
+                - listitem [ref=e158]:
+                  - link "KafkaTemplate Transactional and non-Transactional Publishing" [ref=e159] [cursor=pointer]:
+                    - /url: "#tx-template-mixed"
+                - listitem [ref=e160]:
+                  - link "Transactions with Batch Listeners" [ref=e161] [cursor=pointer]:
+                    - /url: "#transactions-batch"
+            - generic [ref=e162]:
+              - link "Edit this Page" [ref=e163] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-kafka/blob/v4.1.0/spring-kafka-docs/src/main/antora/modules/ROOT/pages/kafka/transactions.adoc
+              - link "GitHub Project" [ref=e166] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-kafka
+              - link "Stack Overflow" [ref=e170] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/spring-kafka
+        - article [ref=e173]:
+          - navigation "breadcrumbs" [ref=e175]:
+            - list [ref=e176]:
+              - listitem "Copy versioned URL" [ref=e177]
+              - listitem [ref=e178]:
+                - link "Spring for Apache Kafka" [ref=e179] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e180]:
+                - link "Reference" [ref=e181] [cursor=pointer]:
+                  - /url: ../reference.html
+                - text: /
+              - listitem [ref=e182]:
+                - link "Using Spring for Apache Kafka" [ref=e183] [cursor=pointer]:
+                  - /url: ../kafka.html
+                - text: /
+              - listitem [ref=e184]:
+                - link "Transactions" [ref=e185] [cursor=pointer]:
+                  - /url: transactions.html
+          - heading "Transactions" [level=1] [ref=e186]
+          - paragraph [ref=e190]: This section describes how Spring for Apache Kafka supports transactions.
+          - generic [ref=e191]:
+            - heading "Overview" [level=2] [ref=e192]
+            - generic [ref=e193]:
+              - paragraph [ref=e195]: "The 0.11.0.0 client library added support for transactions. Spring for Apache Kafka adds support in the following ways:"
+              - list [ref=e197]:
+                - listitem [ref=e198]:
+                  - paragraph [ref=e199]:
+                    - code [ref=e200]: KafkaTransactionManager
+                    - text: ": Used with normal Spring transaction support ("
+                    - code [ref=e201]: "@Transactional"
+                    - text: ","
+                    - code [ref=e202]: TransactionTemplate
+                    - text: ", etc.)"
+                - listitem [ref=e203]:
+                  - paragraph [ref=e204]:
+                    - text: Transactional
+                    - code [ref=e205]: KafkaMessageListenerContainer
+                - listitem [ref=e206]:
+                  - paragraph [ref=e207]:
+                    - text: Local transactions with
+                    - code [ref=e208]: KafkaTemplate
+                - listitem [ref=e209]:
+                  - paragraph [ref=e210]: Transaction synchronization with other transaction managers
+              - paragraph [ref=e212]:
+                - text: Transactions are enabled by providing the
+                - code [ref=e213]: DefaultKafkaProducerFactory
+                - text: with a
+                - code [ref=e214]: transactionIdPrefix
+                - text: . In that case, instead of managing a single shared
+                - code [ref=e215]: Producer
+                - text: ", the factory maintains a cache of transactional producers. When the user calls"
+                - code [ref=e216]: close()
+                - text: on a producer, it is returned to the cache for reuse instead of actually being closed. The
+                - code [ref=e217]: transactional.id
+                - text: property of each producer is
+                - code [ref=e218]: transactionIdPrefix
+                - text: +
+                - code [ref=e219]: "n"
+                - text: ", where"
+                - code [ref=e220]: "n"
+                - text: starts with
+                - code [ref=e221]: "0"
+                - text: and is incremented for each new producer. In previous versions of Spring for Apache Kafka, the
+                - code [ref=e222]: transactional.id
+                - text: was generated differently for transactions started by a listener container with a record-based listener, to support fencing zombies, which is not necessary anymore, with
+                - code [ref=e223]: EOSMode.V2
+                - text: being the only option starting with 3.0. For applications running with multiple instances, the
+                - code [ref=e224]: transactionIdPrefix
+                - text: must be unique per instance.
+              - paragraph [ref=e226]:
+                - text: Also see
+                - link "Exactly Once Semantics" [ref=e227] [cursor=pointer]:
+                  - /url: exactly-once.html
+                - text: .
+              - paragraph [ref=e229]:
+                - text: Also see
+                - link [ref=e230] [cursor=pointer]:
+                  - /url: "#transaction-id-prefix"
+                  - code [ref=e231]: transactionIdPrefix
+                - text: .
+              - paragraph [ref=e233]:
+                - text: With Spring Boot, it is only necessary to set the
+                - code [ref=e234]: spring.kafka.producer.transaction-id-prefix
+                - text: property - Spring Boot will automatically configure a
+                - code [ref=e235]: KafkaTransactionManager
+                - text: bean and wire it into the listener container.
+              - table [ref=e237]:
+                - rowgroup [ref=e238]:
+                  - row [ref=e239]:
+                    - cell "Important" [ref=e240]
+                    - cell [ref=e242]:
+                      - text: Starting with version 2.5.8, you can now configure the
+                      - code [ref=e243]: maxAge
+                      - text: property on the producer factory. This is useful when using transactional producers that might lay idle for the broker’s
+                      - code [ref=e244]: transactional.id.expiration.ms
+                      - text: . With current
+                      - code [ref=e245]: kafka-clients
+                      - text: ", this can cause a"
+                      - code [ref=e246]: ProducerFencedException
+                      - text: without a rebalance. By setting the
+                      - code [ref=e247]: maxAge
+                      - text: to less than
+                      - code [ref=e248]: transactional.id.expiration.ms
+                      - text: ", the factory will refresh the producer if it is past its max age."
+          - generic [ref=e249]:
+            - heading [level=2] [ref=e250]:
+              - text: Using
+              - code [ref=e251]: KafkaTransactionManager
+            - generic [ref=e252]:
+              - paragraph [ref=e254]:
+                - text: The
+                - code [ref=e255]: KafkaTransactionManager
+                - text: is an implementation of Spring Framework’s
+                - code [ref=e256]: PlatformTransactionManager
+                - text: . It is provided with a reference to the producer factory in its constructor. If you provide a custom producer factory, it must support transactions. See
+                - code [ref=e257]: ProducerFactory.transactionCapable()
+                - text: .
+              - paragraph [ref=e259]:
+                - text: You can use the
+                - code [ref=e260]: KafkaTransactionManager
+                - text: with normal Spring transaction support (
+                - code [ref=e261]: "@Transactional"
+                - text: ","
+                - code [ref=e262]: TransactionTemplate
+                - text: ", and others). If a transaction is active, any"
+                - code [ref=e263]: KafkaTemplate
+                - text: operations performed within the scope of the transaction use the transaction’s
+                - code [ref=e264]: Producer
+                - text: . The manager commits or rolls back the transaction, depending on success or failure. You must configure the
+                - code [ref=e265]: KafkaTemplate
+                - text: to use the same
+                - code [ref=e266]: ProducerFactory
+                - text: as the transaction manager.
+          - generic [ref=e267]:
+            - heading "Transaction Synchronization" [level=2] [ref=e268]
+            - generic [ref=e269]:
+              - paragraph [ref=e271]:
+                - text: This section refers to producer-only transactions (those not started by a listener container); see
+                - link "Using Consumer-Initiated Transactions" [ref=e272] [cursor=pointer]:
+                  - /url: "#container-transaction-manager"
+                - text: for information about chaining transactions when the container starts the transaction.
+              - paragraph [ref=e274]:
+                - text: If you want to send records to kafka and perform some database updates, you can use normal Spring transaction management with, say, a
+                - code [ref=e275]: DataSourceTransactionManager
+                - text: .
+              - generic [ref=e278]:
+                - code [ref=e279]:
+                  - text: java @Transactional
+                  - generic [ref=e280]: public void process(List<Thing> things)
+                  - text: "{ things.forEach(thing -> this.kafkaTemplate.send(\"topic\", thing)); updateDb(things); }"
+                - button "Copied!" [ref=e282] [cursor=pointer]
+              - paragraph [ref=e285]:
+                - text: The interceptor for the
+                - code [ref=e286]: "@Transactional"
+                - text: annotation starts the transaction and the
+                - code [ref=e287]: KafkaTemplate
+                - text: will synchronize a transaction with that transaction manager; each send will participate in that transaction. When the method exits, the database transaction will commit followed by the Kafka transaction. If you wish the commits to be performed in the reverse order (Kafka first), use nested
+                - code [ref=e288]: "@Transactional"
+                - text: methods, with the outer method configured to use the
+                - code [ref=e289]: DataSourceTransactionManager
+                - text: ", and the inner method configured to use the"
+                - code [ref=e290]: KafkaTransactionManager
+                - text: .
+              - paragraph [ref=e292]:
+                - text: See
+                - link "Examples of Kafka Transactions with Other Transaction Managers" [ref=e293] [cursor=pointer]:
+                  - /url: ../tips.html#ex-jdbc-sync
+                - text: for examples of an application that synchronizes JDBC and Kafka transactions in Kafka-first or DB-first configurations.
+              - table [ref=e295]:
+                - rowgroup [ref=e296]:
+                  - row [ref=e297]:
+                    - cell "Note" [ref=e298]
+                    - cell "Starting with versions 2.5.17, 2.6.12, 2.7.9 and 2.8.0, if the commit fails on the synchronized transaction (after the primary transaction has committed), the exception will be thrown to the caller. Previously, this was silently ignored (logged at debug level). Applications should take remedial action, if necessary, to compensate for the committed primary transaction." [ref=e300]
+          - generic [ref=e301]:
+            - heading "Using Consumer-Initiated Transactions" [level=2] [ref=e302]
+            - generic [ref=e303]:
+              - paragraph [ref=e305]:
+                - text: The
+                - code [ref=e306]: ChainedKafkaTransactionManager
+                - text: is now deprecated, since version 2.7; see the JavaDocs for its super class
+                - code [ref=e307]: ChainedTransactionManager
+                - text: for more information. Instead, use a
+                - code [ref=e308]: KafkaTransactionManager
+                - text: in the container to start the Kafka transaction and annotate the listener method with
+                - code [ref=e309]: "@Transactional"
+                - text: to start the other transaction.
+              - paragraph [ref=e311]:
+                - text: See
+                - link "Examples of Kafka Transactions with Other Transaction Managers" [ref=e312] [cursor=pointer]:
+                  - /url: ../tips.html#ex-jdbc-sync
+                - text: for an example application that chains JDBC and Kafka transactions.
+              - table [ref=e314]:
+                - rowgroup [ref=e315]:
+                  - row [ref=e316]:
+                    - cell "Important" [ref=e317]
+                    - cell [ref=e319]:
+                      - link "Non-Blocking Retries" [ref=e320] [cursor=pointer]:
+                        - /url: ../retrytopic.html
+                      - text: cannot combine with
+                      - link "Container Transactions" [ref=e321] [cursor=pointer]:
+                        - /url: "#container-transaction-manager"
+                      - text: . When the listener code throws an exception, the container transaction commit succeeds, and the record is sent to the retryable topic.
+          - generic [ref=e322]:
+            - heading [level=2] [ref=e323]:
+              - code [ref=e324]: KafkaTemplate
+              - text: Local Transactions
+            - generic [ref=e325]:
+              - paragraph [ref=e327]:
+                - text: You can use the
+                - code [ref=e328]: KafkaTemplate
+                - text: "to execute a series of operations within a local transaction. The following example shows how to do so:"
+              - generic [ref=e331]:
+                - code [ref=e332]: "java boolean result = template.executeInTransaction(t -> { t.sendDefault(\"thing1\", \"thing2\"); t.sendDefault(\"cat\", \"hat\"); return true; });"
+                - button "Copied!" [ref=e334] [cursor=pointer]
+              - paragraph [ref=e337]:
+                - text: The argument in the callback is the template itself (
+                - code [ref=e338]: this
+                - text: ). If the callback exits normally, the transaction is committed. If an exception is thrown, the transaction is rolled back.
+              - table [ref=e340]:
+                - rowgroup [ref=e341]:
+                  - row [ref=e342]:
+                    - cell "Note" [ref=e343]
+                    - cell [ref=e345]:
+                      - text: If there is a
+                      - code [ref=e346]: KafkaTransactionManager
+                      - text: (or synchronized) transaction in process, it is not used. Instead, a new "nested" transaction is used.
+          - generic [ref=e347]:
+            - heading [level=2] [ref=e348]:
+              - code [ref=e349]: TransactionIdPrefix
+            - paragraph [ref=e352]:
+              - text: With
+              - code [ref=e353]: EOSMode.V2
+              - text: (aka
+              - code [ref=e354]: BETA
+              - text: ), the only supported mode, it is no longer necessary to use the same
+              - code [ref=e355]: transactional.id
+              - text: ", even for consumer-initiated transactions; in fact, it must be unique on each instance the same as for producer-initiated transactions. This property must have a different value on each application instance."
+          - generic [ref=e356]:
+            - heading [level=2] [ref=e357]:
+              - code [ref=e358]: TransactionIdSuffix
+              - text: Fixed
+            - generic [ref=e359]:
+              - paragraph [ref=e361]:
+                - text: Since 3.2, a new
+                - code [ref=e362]: TransactionIdSuffixStrategy
+                - text: interface was introduced to manage
+                - code [ref=e363]: transactional.id
+                - text: suffix. The default implementation is
+                - code [ref=e364]: DefaultTransactionIdSuffixStrategy
+                - text: when setting
+                - code [ref=e365]: maxCache
+                - text: greater than zero can reuse
+                - code [ref=e366]: transactional.id
+                - text: within a specific range, otherwise suffixes will be generated on the fly by incrementing a counter. When a transaction producer is requested and
+                - code [ref=e367]: transactional.id
+                - text: all in use, throw a
+                - code [ref=e368]: NoProducerAvailableException
+                - text: . User can then use a
+                - code [ref=e369]: RetryTemplate
+                - text: configured to retry that exception, with a suitably configured back off.
+              - generic [ref=e372]:
+                - code [ref=e373]:
+                  - text: java public static
+                  - generic [ref=e374]: class Config
+                  - text: "{ @Bean"
+                  - generic [ref=e375]: public ProducerFactory<String, String> myProducerFactory()
+                  - text: "{ Map<String, Object> configs = producerConfigs(); configs.put(ProducerConfig.CLIENT_ID_CONFIG, \"myClientId\"); ... DefaultKafkaProducerFactory<String, String> pf = new DefaultKafkaProducerFactory<>(configs); ... TransactionIdSuffixStrategy ss = new DefaultTransactionIdSuffixStrategy(5); pf.setTransactionIdSuffixStrategy(ss); return pf; } }"
+                - button "Copied!" [ref=e377] [cursor=pointer]
+              - paragraph [ref=e380]:
+                - text: When setting
+                - code [ref=e381]: maxCache
+                - text: to 5,
+                - code [ref=e382]: transactional.id
+                - text: is
+                - code [ref=e383]: my.txid.
+                - text: +
+                - code [ref=e384]: "{0-4}"
+                - text: .
+              - table [ref=e386]:
+                - rowgroup [ref=e387]:
+                  - row [ref=e388]:
+                    - cell "Important" [ref=e389]
+                    - cell [ref=e391]:
+                      - text: When using
+                      - code [ref=e392]: KafkaTransactionManager
+                      - text: with the
+                      - code [ref=e393]: ConcurrentMessageListenerContainer
+                      - text: and enabling
+                      - code [ref=e394]: maxCache
+                      - text: ", it is necessary to set"
+                      - code [ref=e395]: maxCache
+                      - text: to a value greater than or equal to
+                      - code [ref=e396]: concurrency
+                      - text: . If a
+                      - code [ref=e397]: MessageListenerContainer
+                      - text: is unable to acquire a
+                      - code [ref=e398]: transactional.id
+                      - text: suffix, it will throw a
+                      - code [ref=e399]: NoProducerAvailableException
+                      - text: . When using nested transactions in the
+                      - code [ref=e400]: ConcurrentMessageListenerContainer
+                      - text: ", it is necessary to adjust the maxCache setting to handle the increased number of nested transactions."
+          - generic [ref=e401]:
+            - heading [level=2] [ref=e402]:
+              - code [ref=e403]: KafkaTemplate
+              - text: Transactional and non-Transactional Publishing
+            - paragraph [ref=e406]:
+              - text: Normally, when a
+              - code [ref=e407]: KafkaTemplate
+              - text: is transactional (configured with a transaction-capable producer factory), transactions are required. The transaction can be started by a
+              - code [ref=e408]: TransactionTemplate
+              - text: ", a"
+              - code [ref=e409]: "@Transactional"
+              - text: method, calling
+              - code [ref=e410]: executeInTransaction
+              - text: ", or by a listener container, when configured with a"
+              - code [ref=e411]: KafkaTransactionManager
+              - text: . Any attempt to use the template outside the scope of a transaction results in the template throwing an
+              - code [ref=e412]: IllegalStateException
+              - text: . Starting with version 2.4.3, you can set the template’s
+              - code [ref=e413]: allowNonTransactional
+              - text: property to
+              - code [ref=e414]: "true"
+              - text: . In that case, the template will allow the operation to run without a transaction, by calling the
+              - code [ref=e415]: ProducerFactory
+              - text: "'s"
+              - code [ref=e416]: createNonTransactionalProducer()
+              - text: method; the producer will be cached, or thread-bound, as normal for reuse. See
+              - link [ref=e417] [cursor=pointer]:
+                - /url: sending-messages.html#producer-factory
+                - text: Using
+                - code [ref=e418]: DefaultKafkaProducerFactory
+              - text: .
+          - generic [ref=e419]:
+            - heading "Transactions with Batch Listeners" [level=2] [ref=e420]
+            - generic [ref=e421]:
+              - paragraph [ref=e423]:
+                - text: When a listener fails while transactions are being used, the
+                - code [ref=e424]: AfterRollbackProcessor
+                - text: is invoked to take some action after the rollback occurs. When using the default
+                - code [ref=e425]: AfterRollbackProcessor
+                - text: with a record listener, seeks are performed so that the failed record will be redelivered. With a batch listener, however, the whole batch will be redelivered because the framework doesn’t know which record in the batch failed. See the
+                - link "After-rollback Processor" [ref=e426] [cursor=pointer]:
+                  - /url: annotation-error-handling.html#after-rollback
+                - text: for more information.
+              - paragraph [ref=e428]:
+                - text: "When using a batch listener, version 2.4.2 introduced an alternative mechanism to deal with failures while processing a batch:"
+                - code [ref=e429]: BatchToRecordAdapter
+                - text: . When a container factory with
+                - code [ref=e430]: batchListener
+                - text: set to true is configured with a
+                - code [ref=e431]: BatchToRecordAdapter
+                - text: ", the listener is invoked with one record at a time. This enables error handling within the batch, while still making it possible to stop processing the entire batch, depending on the exception type. A default"
+                - code [ref=e432]: BatchToRecordAdapter
+                - text: is provided, that can be configured with a standard
+                - code [ref=e433]: ConsumerRecordRecoverer
+                - text: such as the
+                - code [ref=e434]: DeadLetterPublishingRecoverer
+                - text: ". The following test case configuration snippet illustrates how to use this feature:"
+              - generic [ref=e437]:
+                - code [ref=e438]:
+                  - text: java public static
+                  - generic [ref=e439]: class TestListener
+                  - text: "{ final List<String> values = new ArrayList<>(); @KafkaListener(id = \"batchRecordAdapter\", topics = \"test\")"
+                  - generic [ref=e440]: public void listen(String data)
+                  - text: "{ values.add(data); if (\"bar\".equals(data)) { throw new RuntimeException(\"reject partial\"); } } } @Configuration @EnableKafka public static"
+                  - generic [ref=e441]: class Config
+                  - text: "{ ConsumerRecord<?, ?> failed; @Bean"
+                  - generic [ref=e442]: public TestListener test()
+                  - text: "{ return new TestListener(); } @Bean public ConsumerFactory<?, ?> consumerFactory() { return mock(ConsumerFactory"
+                  - generic [ref=e443]: .class)
+                  - text: "; } @Bean"
+                  - generic [ref=e444]: public ConcurrentKafkaListenerContainerFactory<String, String> kafkaListenerContainerFactory()
+                  - text: "{ ConcurrentKafkaListenerContainerFactory factory = new ConcurrentKafkaListenerContainerFactory(); factory.setConsumerFactory(consumerFactory()); factory.setBatchListener(true); factory.setBatchToRecordAdapter(new DefaultBatchToRecordAdapter<>((record, ex) -> { this.failed = record; })); return factory; } }"
+                - button "Copied!" [ref=e446] [cursor=pointer]
+          - navigation [ref=e448]:
+            - generic [ref=e449]:
+              - text: Prev
+              - link "‹ Monitoring" [ref=e450] [cursor=pointer]:
+                - /url: micrometer.html
+            - generic [ref=e451]:
+              - text: Next
+              - link "Exactly Once Semantics ›" [ref=e452] [cursor=pointer]:
+                - /url: exactly-once.html
+    - text:   
+  - contentinfo [ref=e453]:
+    - generic [ref=e454]:
+      - img "Spring" [ref=e455]
+      - paragraph [ref=e456]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e457] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e458] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e459] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e460]:
+          - text: •
+          - link "Thank you" [ref=e461] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e462] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e463]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e464]:
+      - link "Youtube" [ref=e465] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e469] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e473] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e478]:
+      - generic [ref=e479]:
+        - button "Close" [ref=e481] [cursor=pointer]
+        - generic [ref=e482]:
+          - generic [ref=e484]:
+            - heading "Cookies" [level=2] [ref=e485]
+            - generic [ref=e486]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e487] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e491] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

@@ -1,0 +1,143 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring for Apache Kafka
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: index.html
+                - listitem [ref=e51]:
+                  - link "What’s new?" [ref=e52] [cursor=pointer]:
+                    - /url: whats-new.html
+                - listitem [ref=e53]:
+                  - button [ref=e54] [cursor=pointer]
+                  - link "Introduction" [ref=e55] [cursor=pointer]:
+                    - /url: introduction.html
+                - listitem [ref=e56]:
+                  - button [ref=e57] [cursor=pointer]
+                  - link "Reference" [ref=e58] [cursor=pointer]:
+                    - /url: reference.html
+                - listitem [ref=e59]:
+                  - link "Tips, Tricks and Examples" [ref=e60] [cursor=pointer]:
+                    - /url: tips.html
+                - listitem [ref=e61]:
+                  - link "Other Resources" [ref=e62] [cursor=pointer]:
+                    - /url: other-resources.html
+                - listitem [ref=e63]:
+                  - link "Override Spring Boot Dependencies" [ref=e64] [cursor=pointer]:
+                    - /url: appendix/override-boot-dependencies.html
+                - listitem [ref=e65]:
+                  - link "Micrometer Observation Documentation" [ref=e66] [cursor=pointer]:
+                    - /url: appendix/micrometer.html
+                - listitem [ref=e67]:
+                  - link "Native Images" [ref=e68] [cursor=pointer]:
+                    - /url: appendix/native-images.html
+                - listitem [ref=e69]:
+                  - link "Change History" [ref=e70] [cursor=pointer]:
+                    - /url: appendix/change-history.html
+        - button [ref=e72] [cursor=pointer]
+    - main [ref=e75]:
+      - generic [ref=e76]:
+        - complementary [ref=e77]:
+          - generic [ref=e79]:
+            - link "Edit this Page" [ref=e80] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-kafka/blob/v4.1.0/spring-kafka-docs/src/main/antora/modules/ROOT/pages/index.adoc
+            - link "GitHub Project" [ref=e83] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-kafka
+            - link "Stack Overflow" [ref=e87] [cursor=pointer]:
+              - /url: https://stackoverflow.com/tags/spring-kafka
+        - article [ref=e90]:
+          - navigation "breadcrumbs" [ref=e92]:
+            - list [ref=e93]:
+              - listitem "Copy versioned URL" [ref=e94]
+              - listitem [ref=e95]:
+                - link "Spring for Apache Kafka" [ref=e96] [cursor=pointer]:
+                  - /url: index.html
+                - text: /
+              - listitem [ref=e97]:
+                - link "Overview" [ref=e98] [cursor=pointer]:
+                  - /url: index.html
+          - heading "Overview" [level=1] [ref=e99]
+          - paragraph [ref=e101]:
+            - strong [ref=e102]: 4.1.0
+          - paragraph [ref=e104]: The Spring for Apache Kafka project applies core Spring concepts to the development of Kafka-based messaging solutions. We provide a “template” as a high-level abstraction for sending messages. We also provide support for Message-driven POJOs.
+          - navigation [ref=e105]:
+            - generic [ref=e106]:
+              - text: Next
+              - link "What’s new? ›" [ref=e107] [cursor=pointer]:
+                - /url: whats-new.html
+    - text:   
+  - contentinfo [ref=e108]:
+    - generic [ref=e109]:
+      - img "Spring" [ref=e110]
+      - paragraph [ref=e111]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e112] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e113] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e114] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e115]:
+          - text: •
+          - link "Thank you" [ref=e116] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e117] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e118]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e119]:
+      - link "Youtube" [ref=e120] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e124] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e128] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e133]:
+      - generic [ref=e134]:
+        - button "Close" [ref=e136] [cursor=pointer]
+        - generic [ref=e137]:
+          - generic [ref=e139]:
+            - heading "Cookies" [level=2] [ref=e140]
+            - generic [ref=e141]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e142] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e146] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

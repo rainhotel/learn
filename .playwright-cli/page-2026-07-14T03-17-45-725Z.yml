@@ -1,0 +1,1790 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - link "Libraries and tools" [ref=e48] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e49] [cursor=pointer]:
+          - /url: /docs/latest/operate
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Redis Software" [ref=e52] [cursor=pointer]:
+              - /url: /docs/latest/operate/rs/
+          - listitem [ref=e54]:
+            - link "Redis Cloud" [ref=e55] [cursor=pointer]:
+              - /url: /docs/latest/operate/rc/
+          - listitem [ref=e57]:
+            - link "Redis for Kubernetes" [ref=e58] [cursor=pointer]:
+              - /url: /docs/latest/operate/kubernetes/
+          - listitem [ref=e60]:
+            - link "Redis Open Source" [ref=e61] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/
+            - list [ref=e63]:
+              - listitem [ref=e64]:
+                - link "Install and upgrade" [ref=e65] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/install/
+              - listitem [ref=e67]:
+                - link "Manage Redis" [ref=e68] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/management/
+              - listitem [ref=e70]:
+                - link "Redis Open Source and Redis Software" [ref=e71] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/stack-with-enterprise/
+              - listitem [ref=e73]:
+                - link "Reference" [ref=e74] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/reference/
+                - list [ref=e76]:
+                  - listitem [ref=e77]:
+                    - link "Signal handling" [ref=e78] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/reference/signals/
+                  - listitem [ref=e80]:
+                    - link "Cluster spec":
+                      - /url: /docs/latest/operate/oss_and_stack/reference/cluster-spec/
+                  - listitem [ref=e81]:
+                    - link "ARM support" [ref=e82] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/reference/arm/
+                  - listitem [ref=e84]:
+                    - link "Internals" [ref=e85] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/reference/internals/
+          - listitem [ref=e87]:
+            - link "Redis Feature Form" [ref=e88] [cursor=pointer]:
+              - /url: /docs/latest/operate/featureform/
+          - listitem [ref=e90]:
+            - link "Redis Insight" [ref=e91] [cursor=pointer]:
+              - /url: /docs/latest/operate/redisinsight/
+          - listitem [ref=e93]:
+            - link "Redis Data Integration (RDI)" [ref=e94] [cursor=pointer]:
+              - /url: /docs/latest/operate/rdi/
+      - link "Commands" [ref=e97] [cursor=pointer]:
+        - /url: /docs/latest/commands
+    - generic [ref=e98]:
+      - navigation "Breadcrumb" [ref=e99]:
+        - list [ref=e100]:
+          - listitem [ref=e101]:
+            - link "Docs Docs" [ref=e102] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e103]: Docs
+          - listitem [ref=e104]:
+            - generic [ref=e105]: →
+            - link "Redis products" [ref=e106] [cursor=pointer]:
+              - /url: /docs/latest/operate/
+          - listitem [ref=e107]:
+            - generic [ref=e108]: →
+            - link "Redis Open Source" [ref=e109] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/
+          - listitem [ref=e110]:
+            - generic [ref=e111]: →
+            - link "Reference" [ref=e112] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/reference/
+          - listitem:
+            - generic: →
+            - link "Redis cluster specification":
+              - /url: /docs/latest/operate/oss_and_stack/reference/cluster-spec/
+      - generic [ref=e113]:
+        - heading "Redis cluster specification" [level=1] [ref=e114]
+        - paragraph [ref=e115]: Detailed specification for Redis cluster
+        - table [ref=e117]:
+          - rowgroup [ref=e118]:
+            - row "Redis Open Source" [ref=e119]
+          - rowgroup
+        - paragraph [ref=e121]:
+          - text: Welcome to the
+          - strong [ref=e122]: Redis Cluster Specification
+          - text: . Here you'll find information about the algorithms and design rationales of Redis Cluster. This document is a work in progress as it is continuously synchronized with the actual implementation of Redis.
+        - heading [level=2] [ref=e123]:
+          - text: Main properties and rationales of the design
+          - link "Link to this section" [ref=e124] [cursor=pointer]:
+            - /url: "#main-properties-and-rationales-of-the-design"
+        - heading [level=3] [ref=e127]:
+          - text: Redis Cluster goals
+          - link "Link to this section" [ref=e128] [cursor=pointer]:
+            - /url: "#redis-cluster-goals"
+        - paragraph [ref=e131]: "Redis Cluster is a distributed implementation of Redis with the following goals in order of importance in the design:"
+        - list [ref=e132]:
+          - listitem [ref=e133]: High performance and linear scalability up to 1000 nodes. There are no proxies, asynchronous replication is used, and no merge operations are performed on values.
+          - listitem [ref=e134]: "Acceptable degree of write safety: the system tries (in a best-effort way) to retain all the writes originating from clients connected with the majority of the master nodes. Usually there are small windows where acknowledged writes can be lost. Windows to lose acknowledged writes are larger when clients are in a minority partition."
+          - listitem [ref=e135]:
+            - text: "Availability: Redis Cluster is able to survive partitions where the majority of the master nodes are reachable and there is at least one reachable replica for every master node that is no longer reachable. Moreover using"
+            - emphasis [ref=e136]: replicas migration
+            - text: ", masters no longer replicated by any replica will receive one from a master which is covered by multiple replicas."
+        - paragraph [ref=e137]: What is described in this document is implemented in Redis 3.0 or greater.
+        - heading [level=3] [ref=e138]:
+          - text: Implemented subset
+          - link "Link to this section" [ref=e139] [cursor=pointer]:
+            - /url: "#implemented-subset"
+        - paragraph [ref=e142]: Redis Cluster implements all the single key commands available in the non-distributed version of Redis. Commands performing complex multi-key operations like set unions and intersections are implemented for cases where all of the keys involved in the operation hash to the same slot.
+        - paragraph [ref=e143]:
+          - text: Redis Cluster implements a concept called
+          - strong [ref=e144]: hash tags
+          - text: that can be used to force certain keys to be stored in the same hash slot. However, during manual resharding, multi-key operations may become unavailable for some time while single-key operations are always available.
+        - paragraph [ref=e145]:
+          - text: Redis Cluster does not support multiple databases like the standalone version of Redis. We only support database
+          - code [ref=e146]: "0"
+          - text: ; the
+          - link [ref=e147] [cursor=pointer]:
+            - /url: /commands/select
+            - code [ref=e148]: SELECT
+          - text: command is not allowed.
+        - heading [level=2] [ref=e149]:
+          - text: Client and Server roles in the Redis cluster protocol
+          - link "Link to this section" [ref=e150] [cursor=pointer]:
+            - /url: "#client-and-server-roles-in-the-redis-cluster-protocol"
+        - paragraph [ref=e153]: In Redis Cluster, nodes are responsible for holding the data, and taking the state of the cluster, including mapping keys to the right nodes. Cluster nodes are also able to auto-discover other nodes, detect non-working nodes, and promote replica nodes to master when needed in order to continue to operate when a failure occurs.
+        - paragraph [ref=e154]:
+          - text: To perform their tasks all the cluster nodes are connected using a TCP bus and a binary protocol, called the
+          - strong [ref=e155]: Redis Cluster Bus
+          - text: . Every node is connected to every other node in the cluster using the cluster bus. Nodes use a gossip protocol to propagate information about the cluster in order to discover new nodes, to send ping packets to make sure all the other nodes are working properly, and to send cluster messages needed to signal specific conditions. The cluster bus is also used in order to propagate Pub/Sub messages across the cluster and to orchestrate manual failovers when requested by users (manual failovers are failovers which are not initiated by the Redis Cluster failure detector, but by the system administrator directly).
+        - paragraph [ref=e156]:
+          - text: Since cluster nodes are not able to proxy requests, clients may be redirected to other nodes using redirection errors
+          - code [ref=e157]: "-MOVED"
+          - text: and
+          - code [ref=e158]: "-ASK"
+          - text: . The client is in theory free to send requests to all the nodes in the cluster, getting redirected if needed, so the client is not required to hold the state of the cluster. However clients that are able to cache the map between keys and nodes can improve the performance in a sensible way.
+        - heading [level=3] [ref=e159]:
+          - text: Write safety
+          - link "Link to this section" [ref=e160] [cursor=pointer]:
+            - /url: "#write-safety"
+        - paragraph [ref=e163]:
+          - text: Redis Cluster uses asynchronous replication between nodes, and
+          - strong [ref=e164]: last failover wins
+          - text: implicit merge function. This means that the last elected master dataset eventually replaces all the other replicas. There is always a window of time when it is possible to lose writes during partitions. However these windows are very different in the case of a client that is connected to the majority of masters, and a client that is connected to the minority of masters.
+        - paragraph [ref=e165]: "Redis Cluster tries harder to retain writes that are performed by clients connected to the majority of masters, compared to writes performed in the minority side. The following are examples of scenarios that lead to loss of acknowledged writes received in the majority partitions during failures:"
+        - list [ref=e166]:
+          - listitem [ref=e167]:
+            - paragraph [ref=e168]: A write may reach a master, but while the master may be able to reply to the client, the write may not be propagated to replicas via the asynchronous replication used between master and replica nodes. If the master dies without the write reaching the replicas, the write is lost forever if the master is unreachable for a long enough period that one of its replicas is promoted. This is usually hard to observe in the case of a total, sudden failure of a master node since masters try to reply to clients (with the acknowledge of the write) and replicas (propagating the write) at about the same time. However it is a real world failure mode.
+          - listitem [ref=e169]:
+            - paragraph [ref=e170]: "Another theoretically possible failure mode where writes are lost is the following:"
+        - list [ref=e171]:
+          - listitem [ref=e172]: A master is unreachable because of a partition.
+          - listitem [ref=e173]: It gets failed over by one of its replicas.
+          - listitem [ref=e174]: After some time it may be reachable again.
+          - listitem [ref=e175]: A client with an out-of-date routing table may write to the old master before it is converted into a replica (of the new master) by the cluster.
+        - paragraph [ref=e176]: The second failure mode is unlikely to happen because master nodes unable to communicate with the majority of the other masters for enough time to be failed over will no longer accept writes, and when the partition is fixed writes are still refused for a small amount of time to allow other nodes to inform about configuration changes. This failure mode also requires that the client's routing table has not yet been updated.
+        - paragraph [ref=e177]: Writes targeting the minority side of a partition have a larger window in which to get lost. For example, Redis Cluster loses a non-trivial number of writes on partitions where there is a minority of masters and at least one or more clients, since all the writes sent to the masters may potentially get lost if the masters are failed over in the majority side.
+        - paragraph [ref=e178]:
+          - text: Specifically, for a master to be failed over it must be unreachable by the majority of masters for at least
+          - code [ref=e179]: NODE_TIMEOUT
+          - text: ", so if the partition is fixed before that time, no writes are lost. When the partition lasts for more than"
+          - code [ref=e180]: NODE_TIMEOUT
+          - text: ", all the writes performed in the minority side up to that point may be lost. However the minority side of a Redis Cluster will start refusing writes as soon as"
+          - code [ref=e181]: NODE_TIMEOUT
+          - text: time has elapsed without contact with the majority, so there is a maximum window after which the minority becomes no longer available. Hence, no writes are accepted or lost after that time.
+        - heading [level=3] [ref=e182]:
+          - text: Availability
+          - link "Link to this section" [ref=e183] [cursor=pointer]:
+            - /url: "#availability"
+        - paragraph [ref=e186]:
+          - text: Redis Cluster is not available in the minority side of the partition. In the majority side of the partition assuming that there are at least the majority of masters and a replica for every unreachable master, the cluster becomes available again after
+          - code [ref=e187]: NODE_TIMEOUT
+          - text: time plus a few more seconds required for a replica to get elected and failover its master (failovers are usually executed in a matter of 1 or 2 seconds).
+        - paragraph [ref=e188]: This means that Redis Cluster is designed to survive failures of a few nodes in the cluster, but it is not a suitable solution for applications that require availability in the event of large net splits.
+        - paragraph [ref=e189]:
+          - text: In the example of a cluster composed of N master nodes where every node has a single replica, the majority side of the cluster will remain available as long as a single node is partitioned away, and will remain available with a probability of
+          - code [ref=e190]: 1-(1/(N*2-1))
+          - text: when two nodes are partitioned away (after the first node fails we are left with
+          - code [ref=e191]: N*2-1
+          - text: nodes in total, and the probability of the only master without a replica to fail is
+          - code [ref=e192]: 1/(N*2-1))
+          - text: .
+        - paragraph [ref=e193]:
+          - text: For example, in a cluster with 5 nodes and a single replica per node, there is a
+          - code [ref=e194]: 1/(5*2-1) = 11.11%
+          - text: probability that after two nodes are partitioned away from the majority, the cluster will no longer be available.
+        - paragraph [ref=e195]:
+          - text: Thanks to a Redis Cluster feature called
+          - strong [ref=e196]: replicas migration
+          - text: the Cluster availability is improved in many real world scenarios by the fact that replicas migrate to orphaned masters (masters no longer having replicas). So at every successful failure event, the cluster may reconfigure the replicas layout in order to better resist the next failure.
+        - heading [level=3] [ref=e197]:
+          - text: Performance
+          - link "Link to this section" [ref=e198] [cursor=pointer]:
+            - /url: "#performance"
+        - paragraph [ref=e201]: In Redis Cluster nodes don't proxy commands to the right node in charge for a given key, but instead they redirect clients to the right nodes serving a given portion of the key space.
+        - paragraph [ref=e202]: Eventually clients obtain an up-to-date representation of the cluster and which node serves which subset of keys, so during normal operations clients directly contact the right nodes in order to send a given command.
+        - paragraph [ref=e203]:
+          - text: Because of the use of asynchronous replication, nodes do not wait for other nodes' acknowledgment of writes (if not explicitly requested using the
+          - link [ref=e204] [cursor=pointer]:
+            - /url: /commands/wait
+            - code [ref=e205]: WAIT
+          - text: command).
+        - paragraph [ref=e206]:
+          - text: Also, because multi-key commands are only limited to
+          - emphasis [ref=e207]: near
+          - text: keys, data is never moved between nodes except when resharding.
+        - paragraph [ref=e208]: Normal operations are handled exactly as in the case of a single Redis instance. This means that in a Redis Cluster with N master nodes you can expect the same performance as a single Redis instance multiplied by N as the design scales linearly. At the same time the query is usually performed in a single round trip, since clients usually retain persistent connections with the nodes, so latency figures are also the same as the single standalone Redis node case.
+        - paragraph [ref=e209]: Very high performance and scalability while preserving weak but reasonable forms of data safety and availability is the main goal of Redis Cluster.
+        - heading [level=3] [ref=e210]:
+          - text: Why merge operations are avoided
+          - link "Link to this section" [ref=e211] [cursor=pointer]:
+            - /url: "#why-merge-operations-are-avoided"
+        - paragraph [ref=e214]: The Redis Cluster design avoids conflicting versions of the same key-value pair in multiple nodes as in the case of the Redis data model this is not always desirable. Values in Redis are often very large; it is common to see lists or sorted sets with millions of elements. Also data types are semantically complex. Transferring and merging these kind of values can be a major bottleneck and/or may require the non-trivial involvement of application-side logic, additional memory to store meta-data, and so forth.
+        - paragraph [ref=e215]: There are no strict technological limits here. CRDTs or synchronously replicated state machines can model complex data types similar to Redis. However, the actual run time behavior of such systems would not be similar to Redis Cluster. Redis Cluster was designed in order to cover the exact use cases of the non-clustered Redis version.
+        - heading [level=2] [ref=e216]:
+          - text: Overview of Redis Cluster main components
+          - link "Link to this section" [ref=e217] [cursor=pointer]:
+            - /url: "#overview-of-redis-cluster-main-components"
+        - heading [level=3] [ref=e220]:
+          - text: Key distribution model
+          - link "Link to this section" [ref=e221] [cursor=pointer]:
+            - /url: "#key-distribution-model"
+        - paragraph [ref=e224]: The cluster's key space is split into 16384 slots, effectively setting an upper limit for the cluster size of 16384 master nodes (however, the suggested max size of nodes is on the order of ~ 1000 nodes).
+        - paragraph [ref=e225]:
+          - text: Each master node in a cluster handles a subset of the 16384 hash slots. The cluster is
+          - strong [ref=e226]: stable
+          - text: when there is no cluster reconfiguration in progress (i.e. where hash slots are being moved from one node to another). When the cluster is stable, a single hash slot will be served by a single node (however the serving node can have one or more replicas that will replace it in the case of net splits or failures, and that can be used in order to scale read operations where reading stale data is acceptable).
+        - paragraph [ref=e227]: "The base algorithm used to map keys to hash slots is the following (read the next paragraph for the hash tag exception to this rule):"
+        - code [ref=e229]: HASH_SLOT = CRC16(key) mod 16384
+        - paragraph [ref=e230]: "The CRC16 is specified as follows:"
+        - list [ref=e231]:
+          - listitem [ref=e232]: "Name: XMODEM (also known as ZMODEM or CRC-16/ACORN)"
+          - listitem [ref=e233]: "Width: 16 bit"
+          - listitem [ref=e234]: "Poly: 1021 (That is actually x^16 + x^12 + x^5 + 1)"
+          - listitem [ref=e235]: "Initialization: 0000"
+          - listitem [ref=e236]: "Reflect Input byte: False"
+          - listitem [ref=e237]: "Reflect Output CRC: False"
+          - listitem [ref=e238]: "Xor constant to output CRC: 0000"
+          - listitem [ref=e239]: "Output for \"123456789\": 31C3"
+        - paragraph [ref=e240]: 14 out of 16 CRC16 output bits are used (this is why there is a modulo 16384 operation in the formula above).
+        - paragraph [ref=e241]: In our tests CRC16 behaved remarkably well in distributing different kinds of keys evenly across the 16384 slots.
+        - paragraph [ref=e242]:
+          - strong [ref=e243]: Note
+          - text: ": A reference implementation of the CRC16 algorithm used is available in the Appendix A of this document."
+        - heading [level=3] [ref=e244]:
+          - text: Hash tags
+          - link "Link to this section" [ref=e245] [cursor=pointer]:
+            - /url: "#hash-tags"
+        - paragraph [ref=e248]:
+          - text: There is an exception for the computation of the hash slot that is used in order to implement
+          - strong [ref=e249]: hash tags
+          - text: . Hash tags are a way to ensure that multiple keys are allocated in the same hash slot. This is used in order to implement multi-key operations in Redis Cluster.
+        - paragraph [ref=e250]:
+          - text: "To implement hash tags, the hash slot for a key is computed in a slightly different way in certain conditions. If the key contains a \"{...}\" pattern only the substring between"
+          - code [ref=e251]: "{"
+          - text: and
+          - code [ref=e252]: "}"
+          - text: is hashed in order to obtain the hash slot. However since it is possible that there are multiple occurrences of
+          - code [ref=e253]: "{"
+          - text: or
+          - code [ref=e254]: "}"
+          - text: "the algorithm is well specified by the following rules:"
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - text: IF the key contains a
+            - code [ref=e257]: "{"
+            - text: character.
+          - listitem [ref=e258]:
+            - text: AND IF there is a
+            - code [ref=e259]: "}"
+            - text: character to the right of
+            - code [ref=e260]: "{"
+            - text: .
+          - listitem [ref=e261]:
+            - text: AND IF there are one or more characters between the first occurrence of
+            - code [ref=e262]: "{"
+            - text: and the first occurrence of
+            - code [ref=e263]: "}"
+            - text: .
+        - paragraph [ref=e264]:
+          - text: Then instead of hashing the key, only what is between the first occurrence of
+          - code [ref=e265]: "{"
+          - text: and the following first occurrence of
+          - code [ref=e266]: "}"
+          - text: is hashed.
+        - paragraph [ref=e267]: "Examples:"
+        - list [ref=e268]:
+          - listitem [ref=e269]:
+            - text: The two keys
+            - code [ref=e270]: "{user1000}.following"
+            - text: and
+            - code [ref=e271]: "{user1000}.followers"
+            - text: will hash to the same hash slot since only the substring
+            - code [ref=e272]: user1000
+            - text: will be hashed in order to compute the hash slot.
+          - listitem [ref=e273]:
+            - text: For the key
+            - code [ref=e274]: "foo{}{bar}"
+            - text: the whole key will be hashed as usual since the first occurrence of
+            - code [ref=e275]: "{"
+            - text: is followed by
+            - code [ref=e276]: "}"
+            - text: on the right without characters in the middle.
+          - listitem [ref=e277]:
+            - text: For the key
+            - code [ref=e278]: "foo{{bar}}zap"
+            - text: the substring
+            - code [ref=e279]: "{bar"
+            - text: will be hashed, because it is the substring between the first occurrence of
+            - code [ref=e280]: "{"
+            - text: and the first occurrence of
+            - code [ref=e281]: "}"
+            - text: on its right.
+          - listitem [ref=e282]:
+            - text: For the key
+            - code [ref=e283]: "foo{bar}{zap}"
+            - text: the substring
+            - code [ref=e284]: bar
+            - text: will be hashed, since the algorithm stops at the first valid or invalid (without bytes inside) match of
+            - code [ref=e285]: "{"
+            - text: and
+            - code [ref=e286]: "}"
+            - text: .
+          - listitem [ref=e287]:
+            - text: What follows from the algorithm is that if the key starts with
+            - code [ref=e288]: "{}"
+            - text: ", it is guaranteed to be hashed as a whole. This is useful when using binary data as key names."
+        - heading [level=4] [ref=e289]:
+          - text: Glob-style patterns
+          - link "Link to this section" [ref=e290] [cursor=pointer]:
+            - /url: "#glob-style-patterns"
+        - paragraph [ref=e293]:
+          - text: Commands accepting a glob-style pattern, including
+          - link [ref=e294] [cursor=pointer]:
+            - /url: /commands/keys
+            - code [ref=e295]: KEYS
+          - text: ","
+          - link [ref=e296] [cursor=pointer]:
+            - /url: /commands/scan
+            - code [ref=e297]: SCAN
+          - text: and
+          - link [ref=e298] [cursor=pointer]:
+            - /url: /commands/sort
+            - code [ref=e299]: SORT
+          - text: ", are optimized for patterns that imply a single slot. This means that if all keys that can match a pattern must belong to a specific slot, only this slot is searched for keys matching the pattern. The pattern slot optimization is introduced in Redis 8.0."
+        - paragraph [ref=e300]: "The optimization kicks in when the pattern meets the following conditions:"
+        - list [ref=e301]:
+          - listitem [ref=e302]: the pattern contains a hashtag,
+          - listitem [ref=e303]: there are no wildcards or escape characters before the hashtag, and
+          - listitem [ref=e304]: the hashtag within curly braces doesn't contain any wildcards or escape characters.
+        - paragraph [ref=e305]:
+          - text: For example,
+          - code [ref=e306]: "SCAN 0 MATCH {abc}*"
+          - text: can successfully recognize the hashtag and scans only the slot corresponding to
+          - code [ref=e307]: abc
+          - text: . However, the patterns
+          - code [ref=e308]: "*{abc}"
+          - text: ","
+          - code [ref=e309]: "{a*c}"
+          - text: ", or"
+          - code [ref=e310]: "{a\\*bc}"
+          - text: cannot recognize the hashtag, so all slots need to be scanned.
+        - heading [level=4] [ref=e311]:
+          - text: Hash slot example code
+          - link "Link to this section" [ref=e312] [cursor=pointer]:
+            - /url: "#hash-slot-example-code"
+        - paragraph [ref=e315]:
+          - text: Adding the hash tags exception, the following is an implementation of the
+          - code [ref=e316]: HASH_SLOT
+          - text: function in Ruby and C language.
+        - paragraph [ref=e317]: "Ruby example code:"
+        - code [ref=e319]: "def HASH_SLOT(key) s = key.index \"{\" if s e = key.index \"}\",s+1 if e && e != s+1 key = key[s+1..e-1] end end crc16(key) % 16384 end"
+        - paragraph [ref=e320]: "C example code:"
+        - code [ref=e322]: "unsigned int HASH_SLOT(char *key, int keylen) { int s, e; /* start-end indexes of { and } */ /* Search the first occurrence of '{'. */ for (s = 0; s < keylen; s++) if (key[s] == '{') break; /* No '{' ? Hash the whole key. This is the base case. */ if (s == keylen) return crc16(key,keylen) & 16383; /* '{' found? Check if we have the corresponding '}'. */ for (e = s+1; e < keylen; e++) if (key[e] == '}') break; /* No '}' or nothing between {} ? Hash the whole key. */ if (e == keylen || e == s+1) return crc16(key,keylen) & 16383; /* If we are here there is both a { and a } on its right. Hash * what is in the middle between { and }. */ return crc16(key+s+1,e-s-1) & 16383; }"
+        - heading [level=3] [ref=e323]:
+          - text: Cluster node attributes
+          - link "Link to this section" [ref=e324] [cursor=pointer]:
+            - /url: "#cluster-node-attributes"
+        - paragraph [ref=e327]:
+          - text: Every node has a unique name in the cluster. The node name is the hex representation of a 160 bit random number, obtained the first time a node is started (usually using /dev/urandom). The node will save its ID in the node configuration file, and will use the same ID forever, or at least as long as the node configuration file is not deleted by the system administrator, or a
+          - emphasis [ref=e328]: hard reset
+          - text: is requested via the
+          - link [ref=e329] [cursor=pointer]:
+            - /url: /commands/cluster-reset
+            - code [ref=e330]: CLUSTER RESET
+          - text: command.
+        - paragraph [ref=e331]: The node ID is used to identify every node across the whole cluster. It is possible for a given node to change its IP address without any need to also change the node ID. The cluster is also able to detect the change in IP/port and reconfigure using the gossip protocol running over the cluster bus.
+        - paragraph [ref=e332]: The node ID is not the only information associated with each node, but is the only one that is always globally consistent. Every node has also the following set of information associated. Some information is about the cluster configuration detail of this specific node, and is eventually consistent across the cluster. Some other information, like the last time a node was pinged, is instead local to each node.
+        - paragraph [ref=e333]:
+          - text: "Every node maintains the following information about other nodes that it is aware of in the cluster: The node ID, IP and port of the node, a set of flags, what is the master of the node if it is flagged as"
+          - code [ref=e334]: replica
+          - text: ", last time the node was pinged and the last time the pong was received, the current"
+          - emphasis [ref=e335]: configuration epoch
+          - text: of the node (explained later in this specification), the link state and finally the set of hash slots served.
+        - paragraph [ref=e336]:
+          - text: A detailed
+          - link "explanation of all the node fields" [ref=e337] [cursor=pointer]:
+            - /url: /docs/latest/commands/cluster-nodes/
+          - text: is described in the
+          - link [ref=e338] [cursor=pointer]:
+            - /url: /commands/cluster-nodes
+            - code [ref=e339]: CLUSTER NODES
+          - text: documentation.
+        - paragraph [ref=e340]:
+          - text: The
+          - link [ref=e341] [cursor=pointer]:
+            - /url: /commands/cluster-nodes
+            - code [ref=e342]: CLUSTER NODES
+          - text: command can be sent to any node in the cluster and provides the state of the cluster and the information for each node according to the local view the queried node has of the cluster.
+        - paragraph [ref=e343]:
+          - text: The following is sample output of the
+          - link [ref=e344] [cursor=pointer]:
+            - /url: /commands/cluster-nodes
+            - code [ref=e345]: CLUSTER NODES
+          - text: command sent to a master node in a small cluster of three nodes.
+        - code [ref=e347]: $ redis-cli cluster nodes d1861060fe6a534d42d8a19aeb36600e18785e04 127.0.0.1:6379 myself - 0 1318428930 1 connected 0-1364 3886e65cc906bfd9b1f7e7bde468726a052d1dae 127.0.0.1:6380 master - 1318428930 1318428931 2 connected 1365-2729 d289c575dcbc4bdd2931585fd4339089e461a27d 127.0.0.1:6381 master - 1318428931 1318428931 3 connected 2730-4095
+        - paragraph [ref=e348]: "In the above listing the different fields are in order: node id, address:port, flags, last ping sent, last pong received, configuration epoch, link state, slots. Details about the above fields will be covered as soon as we talk of specific parts of Redis Cluster."
+        - heading [level=3] [ref=e349]:
+          - text: The cluster bus
+          - link "Link to this section" [ref=e350] [cursor=pointer]:
+            - /url: "#the-cluster-bus"
+        - paragraph [ref=e353]: Every Redis Cluster node has an additional TCP port for receiving incoming connections from other Redis Cluster nodes. This port will be derived by adding 10000 to the data port or it can be specified with the cluster-port config.
+        - paragraph [ref=e354]: "Example 1:"
+        - paragraph [ref=e355]: If a Redis node is listening for client connections on port 6379, and you do not add cluster-port parameter in redis.conf, the Cluster bus port 16379 will be opened.
+        - paragraph [ref=e356]: "Example 2:"
+        - paragraph [ref=e357]: If a Redis node is listening for client connections on port 6379, and you set cluster-port 20000 in redis.conf, the Cluster bus port 20000 will be opened.
+        - paragraph [ref=e358]:
+          - text: "Node-to-node communication happens exclusively using the Cluster bus and the Cluster bus protocol: a binary protocol composed of frames of different types and sizes. The Cluster bus binary protocol is not publicly documented since it is not intended for external software devices to talk with Redis Cluster nodes using this protocol. However you can obtain more details about the Cluster bus protocol by reading the"
+          - code [ref=e359]: cluster.h
+          - text: and
+          - code [ref=e360]: cluster.c
+          - text: files in the Redis Cluster source code.
+        - heading [level=3] [ref=e361]:
+          - text: Cluster topology
+          - link "Link to this section" [ref=e362] [cursor=pointer]:
+            - /url: "#cluster-topology"
+        - paragraph [ref=e365]: Redis Cluster is a full mesh where every node is connected with every other node using a TCP connection.
+        - paragraph [ref=e366]: In a cluster of N nodes, every node has N-1 outgoing TCP connections, and N-1 incoming connections.
+        - paragraph [ref=e367]: These TCP connections are kept alive all the time and are not created on demand. When a node expects a pong reply in response to a ping in the cluster bus, before waiting long enough to mark the node as unreachable, it will try to refresh the connection with the node by reconnecting from scratch.
+        - paragraph [ref=e368]:
+          - text: While Redis Cluster nodes form a full mesh,
+          - strong [ref=e369]: nodes use a gossip protocol and a configuration update mechanism in order to avoid exchanging too many messages between nodes during normal conditions
+          - text: ", so the number of messages exchanged is not exponential."
+        - heading [level=3] [ref=e370]:
+          - text: Node handshake
+          - link "Link to this section" [ref=e371] [cursor=pointer]:
+            - /url: "#node-handshake"
+        - paragraph [ref=e374]: Nodes always accept connections on the cluster bus port, and even reply to pings when received, even if the pinging node is not trusted. However, all other packets will be discarded by the receiving node if the sending node is not considered part of the cluster.
+        - paragraph [ref=e375]: "A node will accept another node as part of the cluster only in two ways:"
+        - list [ref=e376]:
+          - listitem [ref=e377]:
+            - paragraph [ref=e378]:
+              - text: If a node presents itself with a
+              - code [ref=e379]: MEET
+              - text: message (
+              - link [ref=e380] [cursor=pointer]:
+                - /url: /commands/cluster-meet
+                - code [ref=e381]: CLUSTER MEET
+              - text: command). A meet message is exactly like a
+              - link [ref=e382] [cursor=pointer]:
+                - /url: /commands/ping
+                - code [ref=e383]: PING
+              - text: message, but forces the receiver to accept the node as part of the cluster. Nodes will send
+              - code [ref=e384]: MEET
+              - text: messages to other nodes
+              - strong [ref=e385]: only if
+              - text: "the system administrator requests this via the following command:"
+            - paragraph [ref=e386]: CLUSTER MEET ip port
+          - listitem [ref=e387]:
+            - paragraph [ref=e388]: A node will also register another node as part of the cluster if a node that is already trusted will gossip about this other node. So if A knows B, and B knows C, eventually B will send gossip messages to A about C. When this happens, A will register C as part of the network, and will try to connect with C.
+        - paragraph [ref=e389]: This means that as long as we join nodes in any connected graph, they'll eventually form a fully connected graph automatically. This means that the cluster is able to auto-discover other nodes, but only if there is a trusted relationship that was forced by the system administrator.
+        - paragraph [ref=e390]: This mechanism makes the cluster more robust but prevents different Redis clusters from accidentally mixing after change of IP addresses or other network related events.
+        - heading [level=2] [ref=e391]:
+          - text: Redirection and resharding
+          - link "Link to this section" [ref=e392] [cursor=pointer]:
+            - /url: "#redirection-and-resharding"
+        - heading [level=3] [ref=e395]:
+          - text: MOVED Redirection
+          - link "Link to this section" [ref=e396] [cursor=pointer]:
+            - /url: "#moved-redirection"
+        - paragraph [ref=e399]: A Redis client is free to send queries to every node in the cluster, including replica nodes. The node will analyze the query, and if it is acceptable (that is, only a single key is mentioned in the query, or the multiple keys mentioned are all to the same hash slot) it will lookup what node is responsible for the hash slot where the key or keys belong.
+        - paragraph [ref=e400]: "If the hash slot is served by the node, the query is simply processed, otherwise the node will check its internal hash slot to node map, and will reply to the client with a MOVED error, like in the following example:"
+        - code [ref=e402]: GET x -MOVED 3999 127.0.0.1:6381
+        - paragraph [ref=e403]:
+          - text: The error includes the hash slot of the key (3999) and the endpoint:port of the instance that can serve the query. The client needs to reissue the query to the specified node's endpoint address and port. The endpoint can be either an IP address, a hostname, or it can be empty (e.g.
+          - code [ref=e404]: "-MOVED 3999 :6380"
+          - text: ). An empty endpoint indicates that the server node has an unknown endpoint, and the client should send the next request to the same endpoint as the current request but with the provided port.
+        - paragraph [ref=e405]: Note that even if the client waits a long time before reissuing the query, and in the meantime the cluster configuration changed, the destination node will reply again with a MOVED error if the hash slot 3999 is now served by another node. The same happens if the contacted node had no updated information.
+        - paragraph [ref=e406]: So while from the point of view of the cluster nodes are identified by IDs we try to simplify our interface with the client just exposing a map between hash slots and Redis nodes identified by endpoint:port pairs.
+        - paragraph [ref=e407]: The client is not required to, but should try to memorize that hash slot 3999 is served by 127.0.0.1:6381. This way once a new command needs to be issued it can compute the hash slot of the target key and have a greater chance of choosing the right node.
+        - paragraph [ref=e408]:
+          - text: An alternative is to just refresh the whole client-side cluster layout using the
+          - link [ref=e409] [cursor=pointer]:
+            - /url: /commands/cluster-shards
+            - code [ref=e410]: CLUSTER SHARDS
+          - text: ", or the deprecated"
+          - link [ref=e411] [cursor=pointer]:
+            - /url: /commands/cluster-slots
+            - code [ref=e412]: CLUSTER SLOTS
+          - text: ", command when a MOVED redirection is received. When a redirection is encountered, it is likely multiple slots were reconfigured rather than just one, so updating the client configuration as soon as possible is often the best strategy."
+        - paragraph [ref=e413]: Note that when the Cluster is stable (no ongoing changes in the configuration), eventually all the clients will obtain a map of hash slots -> nodes, making the cluster efficient, with clients directly addressing the right nodes without redirections, proxies or other single point of failure entities.
+        - paragraph [ref=e414]:
+          - text: A client
+          - strong [ref=e415]: must be also able to handle -ASK redirections
+          - text: that are described later in this document, otherwise it is not a complete Redis Cluster client.
+        - heading [level=3] [ref=e416]:
+          - text: Live reconfiguration
+          - link "Link to this section" [ref=e417] [cursor=pointer]:
+            - /url: "#live-reconfiguration"
+        - paragraph [ref=e420]: "Redis Cluster supports the ability to add and remove nodes while the cluster is running. Adding or removing a node is abstracted into the same operation: moving a hash slot from one node to another. This means that the same basic mechanism can be used in order to rebalance the cluster, add or remove nodes, and so forth."
+        - list [ref=e421]:
+          - listitem [ref=e422]: To add a new node to the cluster an empty node is added to the cluster and some set of hash slots are moved from existing nodes to the new node.
+          - listitem [ref=e423]: To remove a node from the cluster the hash slots assigned to that node are moved to other existing nodes.
+          - listitem [ref=e424]: To rebalance the cluster a given set of hash slots are moved between nodes.
+        - paragraph [ref=e425]:
+          - text: The core of the implementation is the ability to move hash slots around. From a practical point of view a hash slot is just a set of keys, so what Redis Cluster really does during
+          - emphasis [ref=e426]: resharding
+          - text: is to move keys from an instance to another instance. Moving a hash slot means moving all the keys that happen to hash into this hash slot.
+        - paragraph [ref=e427]:
+          - text: To understand how this works we need to show the
+          - link [ref=e428] [cursor=pointer]:
+            - /url: /commands/cluster
+            - code [ref=e429]: CLUSTER
+          - text: subcommands that are used to manipulate the slots translation table in a Redis Cluster node.
+        - paragraph [ref=e430]: "The following subcommands are available (among others not useful in this case):"
+        - list [ref=e431]:
+          - listitem [ref=e432]:
+            - link [ref=e433] [cursor=pointer]:
+              - /url: /commands/cluster-addslots
+              - code [ref=e434]: CLUSTER ADDSLOTS
+            - text: slot1 [slot2] ... [slotN]
+          - listitem [ref=e435]:
+            - link [ref=e436] [cursor=pointer]:
+              - /url: /commands/cluster-delslots
+              - code [ref=e437]: CLUSTER DELSLOTS
+            - text: slot1 [slot2] ... [slotN]
+          - listitem [ref=e438]:
+            - link [ref=e439] [cursor=pointer]:
+              - /url: /commands/cluster-addslotsrange
+              - code [ref=e440]: CLUSTER ADDSLOTSRANGE
+            - text: start-slot1 end-slot1 [start-slot2 end-slot2] ... [start-slotN end-slotN]
+          - listitem [ref=e441]:
+            - link [ref=e442] [cursor=pointer]:
+              - /url: /commands/cluster-delslotsrange
+              - code [ref=e443]: CLUSTER DELSLOTSRANGE
+            - text: start-slot1 end-slot1 [start-slot2 end-slot2] ... [start-slotN end-slotN]
+          - listitem [ref=e444]:
+            - link [ref=e445] [cursor=pointer]:
+              - /url: /commands/cluster-setslot
+              - code [ref=e446]: CLUSTER SETSLOT
+            - text: slot NODE node
+          - listitem [ref=e447]:
+            - link [ref=e448] [cursor=pointer]:
+              - /url: /commands/cluster-setslot
+              - code [ref=e449]: CLUSTER SETSLOT
+            - text: slot MIGRATING node
+          - listitem [ref=e450]:
+            - link [ref=e451] [cursor=pointer]:
+              - /url: /commands/cluster-setslot
+              - code [ref=e452]: CLUSTER SETSLOT
+            - text: slot IMPORTING node
+        - paragraph [ref=e453]:
+          - text: The first four commands,
+          - code [ref=e454]: ADDSLOTS
+          - text: ","
+          - code [ref=e455]: DELSLOTS
+          - text: ","
+          - code [ref=e456]: ADDSLOTSRANGE
+          - text: and
+          - code [ref=e457]: DELSLOTSRANGE
+          - text: ", are simply used to assign (or remove) slots to a Redis node. Assigning a slot means to tell a given master node that it will be in charge of storing and serving content for the specified hash slot."
+        - paragraph [ref=e458]:
+          - text: After the hash slots are assigned they will propagate across the cluster using the gossip protocol, as specified later in the
+          - emphasis [ref=e459]: configuration propagation
+          - text: section.
+        - paragraph [ref=e460]:
+          - text: The
+          - code [ref=e461]: ADDSLOTS
+          - text: and
+          - code [ref=e462]: ADDSLOTSRANGE
+          - text: commands are usually used when a new cluster is created from scratch to assign each master node a subset of all the 16384 hash slots available.
+        - paragraph [ref=e463]:
+          - text: The
+          - code [ref=e464]: DELSLOTS
+          - text: and
+          - code [ref=e465]: DELSLOTSRANGE
+          - text: "are mainly used for manual modification of a cluster configuration or for debugging tasks: in practice it is rarely used."
+        - paragraph [ref=e466]:
+          - text: The
+          - code [ref=e467]: SETSLOT
+          - text: subcommand is used to assign a slot to a specific node ID if the
+          - code [ref=e468]: SETSLOT <slot> NODE
+          - text: form is used. Otherwise the slot can be set in the two special states
+          - code [ref=e469]: MIGRATING
+          - text: and
+          - code [ref=e470]: IMPORTING
+          - text: . Those two special states are used in order to migrate a hash slot from one node to another.
+        - list [ref=e471]:
+          - listitem [ref=e472]:
+            - text: When a slot is set as MIGRATING, the node will accept all queries that are about this hash slot, but only if the key in question exists, otherwise the query is forwarded using a
+            - code [ref=e473]: "-ASK"
+            - text: redirection to the node that is target of the migration.
+          - listitem [ref=e474]:
+            - text: When a slot is set as IMPORTING, the node will accept all queries that are about this hash slot, but only if the request is preceded by an
+            - link [ref=e475] [cursor=pointer]:
+              - /url: /commands/asking
+              - code [ref=e476]: ASKING
+            - text: command. If the
+            - link [ref=e477] [cursor=pointer]:
+              - /url: /commands/asking
+              - code [ref=e478]: ASKING
+            - text: command was not given by the client, the query is redirected to the real hash slot owner via a
+            - code [ref=e479]: "-MOVED"
+            - text: redirection error, as would happen normally.
+        - paragraph [ref=e480]: "Let's make this clearer with an example of hash slot migration. Assume that we have two Redis master nodes, called A and B. We want to move hash slot 8 from A to B, so we issue commands like this:"
+        - list [ref=e481]:
+          - listitem [ref=e482]: "We send B: CLUSTER SETSLOT 8 IMPORTING A"
+          - listitem [ref=e483]: "We send A: CLUSTER SETSLOT 8 MIGRATING B"
+        - paragraph [ref=e484]: "All the other nodes will continue to point clients to node \"A\" every time they are queried with a key that belongs to hash slot 8, so what happens is that:"
+        - list [ref=e485]:
+          - listitem [ref=e486]: All queries about existing keys are processed by "A".
+          - listitem [ref=e487]: All queries about non-existing keys in A are processed by "B", because "A" will redirect clients to "B".
+        - paragraph [ref=e488]:
+          - text: This way we no longer create new keys in "A". In the meantime,
+          - code [ref=e489]: redis-cli
+          - text: "used during reshardings and Redis Cluster configuration will migrate existing keys in hash slot 8 from A to B. This is performed using the following command:"
+        - code [ref=e491]: CLUSTER GETKEYSINSLOT slot count
+        - paragraph [ref=e492]:
+          - text: The above command will return
+          - code [ref=e493]: count
+          - text: keys in the specified hash slot. For keys returned,
+          - code [ref=e494]: redis-cli
+          - text: sends node "A" a
+          - link [ref=e495] [cursor=pointer]:
+            - /url: /commands/migrate
+            - code [ref=e496]: MIGRATE
+          - text: command, that will migrate the specified keys from A to B in an atomic way (both instances are locked for the time (usually very small time) needed to migrate keys so there are no race conditions). This is how
+          - link [ref=e497] [cursor=pointer]:
+            - /url: /commands/migrate
+            - code [ref=e498]: MIGRATE
+          - text: "works:"
+        - code [ref=e500]: MIGRATE target_host target_port "" target_database id timeout KEYS key1 key2 ...
+        - paragraph [ref=e501]:
+          - link [ref=e502] [cursor=pointer]:
+            - /url: /commands/migrate
+            - code [ref=e503]: MIGRATE
+          - text: will connect to the target instance, send a serialized version of the key, and once an OK code is received, the old key from its own dataset will be deleted. From the point of view of an external client a key exists either in A or B at any given time.
+        - paragraph [ref=e504]:
+          - text: In Redis Cluster there is no need to specify a database other than 0, but
+          - link [ref=e505] [cursor=pointer]:
+            - /url: /commands/migrate
+            - code [ref=e506]: MIGRATE
+          - text: is a general command that can be used for other tasks not involving Redis Cluster.
+          - link [ref=e507] [cursor=pointer]:
+            - /url: /commands/migrate
+            - code [ref=e508]: MIGRATE
+          - text: is optimized to be as fast as possible even when moving complex keys such as long lists, but in Redis Cluster reconfiguring the cluster where big keys are present is not considered a wise procedure if there are latency constraints in the application using the database.
+        - paragraph [ref=e509]:
+          - text: When the migration process is finally finished, the
+          - code [ref=e510]: SETSLOT <slot> NODE <node-id>
+          - text: command is sent to the two nodes involved in the migration in order to set the slots to their normal state again. The same command is usually sent to all other nodes to avoid waiting for the natural propagation of the new configuration across the cluster.
+        - heading [level=3] [ref=e511]:
+          - text: ASK redirection
+          - link "Link to this section" [ref=e512] [cursor=pointer]:
+            - /url: "#ask-redirection"
+        - paragraph [ref=e515]: In the previous section, we briefly talked about ASK redirection. Why can't we simply use MOVED redirection? Because while MOVED means that we think the hash slot is permanently served by a different node and the next queries should be tried against the specified node. ASK means to send only the next query to the specified node.
+        - paragraph [ref=e516]: This is needed because the next query about hash slot 8 can be about a key that is still in A, so we always want the client to try A and then B if needed. Since this happens only for one hash slot out of 16384 available, the performance hit on the cluster is acceptable.
+        - paragraph [ref=e517]: We need to force that client behavior, so to make sure that clients will only try node B after A was tried, node B will only accept queries of a slot that is set as IMPORTING if the client sends the ASKING command before sending the query.
+        - paragraph [ref=e518]: Basically the ASKING command sets a one-time flag on the client that forces a node to serve a query about an IMPORTING slot.
+        - paragraph [ref=e519]: "The full semantics of ASK redirection from the point of view of the client is as follows:"
+        - list [ref=e520]:
+          - listitem [ref=e521]: If ASK redirection is received, send only the query that was redirected to the specified node but continue sending subsequent queries to the old node.
+          - listitem [ref=e522]: Start the redirected query with the ASKING command.
+          - listitem [ref=e523]: Don't yet update local client tables to map hash slot 8 to B.
+        - paragraph [ref=e524]: Once hash slot 8 migration is completed, A will send a MOVED message and the client may permanently map hash slot 8 to the new endpoint and port pair. Note that if a buggy client performs the map earlier this is not a problem since it will not send the ASKING command before issuing the query, so B will redirect the client to A using a MOVED redirection error.
+        - paragraph [ref=e525]:
+          - text: Slots migration is explained in similar terms but with different wording (for the sake of redundancy in the documentation) in the
+          - link [ref=e526] [cursor=pointer]:
+            - /url: /commands/cluster-setslot
+            - code [ref=e527]: CLUSTER SETSLOT
+          - text: command documentation.
+        - heading [level=3] [ref=e528]:
+          - text: Client connections and redirection handling
+          - link "Link to this section" [ref=e529] [cursor=pointer]:
+            - /url: "#client-connections-and-redirection-handling"
+        - paragraph [ref=e532]:
+          - text: To be efficient, Redis Cluster clients maintain a map of the current slot configuration. However, this configuration is not
+          - emphasis [ref=e533]: required
+          - text: to be up to date. When contacting the wrong node results in a redirection, the client can update its internal slot map accordingly.
+        - paragraph [ref=e534]: "Clients usually need to fetch a complete list of slots and mapped node addresses in two different situations:"
+        - list [ref=e535]:
+          - listitem [ref=e536]: At startup, to populate the initial slots configuration
+          - listitem [ref=e537]:
+            - text: When the client receives a
+            - code [ref=e538]: MOVED
+            - text: redirection
+        - paragraph [ref=e539]:
+          - text: Note that a client may handle the
+          - code [ref=e540]: MOVED
+          - text: redirection by updating just the moved slot in its table; however this is usually not efficient because often the configuration of multiple slots will be modified at once. For example, if a replica is promoted to master, all of the slots served by the old master will be remapped). It is much simpler to react to a
+          - code [ref=e541]: MOVED
+          - text: redirection by fetching the full map of slots to nodes from scratch.
+        - paragraph [ref=e542]:
+          - text: Client can issue a
+          - link [ref=e543] [cursor=pointer]:
+            - /url: /commands/cluster-slots
+            - code [ref=e544]: CLUSTER SLOTS
+          - text: command to retrieve an array of slot ranges and the associated master and replica nodes serving the specified ranges.
+        - paragraph [ref=e545]:
+          - text: The following is an example of output of
+          - link [ref=e546] [cursor=pointer]:
+            - /url: /commands/cluster-slots
+            - code [ref=e547]: CLUSTER SLOTS
+          - text: ":"
+        - code [ref=e549]: 127.0.0.1:7000> cluster slots 1) 1) (integer) 5461 2) (integer) 10922 3) 1) "127.0.0.1" 2) (integer) 7001 4) 1) "127.0.0.1" 2) (integer) 7004 2) 1) (integer) 0 2) (integer) 5460 3) 1) "127.0.0.1" 2) (integer) 7000 4) 1) "127.0.0.1" 2) (integer) 7003 3) 1) (integer) 10923 2) (integer) 16383 3) 1) "127.0.0.1" 2) (integer) 7002 4) 1) "127.0.0.1" 2) (integer) 7005
+        - paragraph [ref=e550]: The first two sub-elements of every element of the returned array are the start and end slots of the range. The additional elements represent address-port pairs. The first address-port pair is the master serving the slot, and the additional address-port pairs are the replicas serving the same slot. Replicas will be listed only when not in an error condition (i.e., when their FAIL flag is not set).
+        - paragraph [ref=e551]: The first element in the output above says that slots from 5461 to 10922 (start and end included) are served by 127.0.0.1:7001, and it is possible to scale read-only load contacting the replica at 127.0.0.1:7004.
+        - paragraph [ref=e552]:
+          - link [ref=e553] [cursor=pointer]:
+            - /url: /commands/cluster-slots
+            - code [ref=e554]: CLUSTER SLOTS
+          - text: is not guaranteed to return ranges that cover the full 16384 slots if the cluster is misconfigured, so clients should initialize the slots configuration map filling the target nodes with NULL objects, and report an error if the user tries to execute commands about keys that belong to unassigned slots.
+        - paragraph [ref=e555]: Before returning an error to the caller when a slot is found to be unassigned, the client should try to fetch the slots configuration again to check if the cluster is now configured properly.
+        - heading [level=3] [ref=e556]:
+          - text: Multi-keys operations
+          - link "Link to this section" [ref=e557] [cursor=pointer]:
+            - /url: "#multi-keys-operations"
+        - paragraph [ref=e560]: "Using hash tags, clients are free to use multi-key operations. For example the following operation is valid:"
+        - code [ref=e562]: "MSET {user:1000}.name Angela {user:1000}.surname White"
+        - paragraph [ref=e563]: Multi-key operations may become unavailable when a resharding of the hash slot the keys belong to is in progress.
+        - paragraph [ref=e564]: More specifically, even during a resharding the multi-key operations targeting keys that all exist and all still hash to the same slot (either the source or destination node) are still available.
+        - paragraph [ref=e565]:
+          - text: Operations on keys that don't exist or are - during the resharding - split between the source and destination nodes, will generate a
+          - code [ref=e566]: "-TRYAGAIN"
+          - text: error. The client can try the operation after some time, or report back the error.
+        - paragraph [ref=e567]: As soon as migration of the specified hash slot has terminated, all multi-key operations are available again for that hash slot.
+        - heading [level=3] [ref=e568]:
+          - text: Scaling reads using replica nodes
+          - link "Link to this section" [ref=e569] [cursor=pointer]:
+            - /url: "#scaling-reads-using-replica-nodes"
+        - paragraph [ref=e572]:
+          - text: Normally replica nodes will redirect clients to the authoritative master for the hash slot involved in a given command, however clients can use replicas in order to scale reads using the
+          - link [ref=e573] [cursor=pointer]:
+            - /url: /commands/readonly
+            - code [ref=e574]: READONLY
+          - text: command.
+        - paragraph [ref=e575]:
+          - link [ref=e576] [cursor=pointer]:
+            - /url: /commands/readonly
+            - code [ref=e577]: READONLY
+          - text: tells a Redis Cluster replica node that the client is ok reading possibly stale data and is not interested in running write queries.
+        - paragraph [ref=e578]: "When the connection is in readonly mode, the cluster will send a redirection to the client only if the operation involves keys not served by the replica's master node. This may happen because:"
+        - list [ref=e579]:
+          - listitem [ref=e580]: The client sent a command about hash slots never served by the master of this replica.
+          - listitem [ref=e581]: The cluster was reconfigured (for example resharded) and the replica is no longer able to serve commands for a given hash slot.
+        - paragraph [ref=e582]: When this happens the client should update its hash slot map as explained in the previous sections.
+        - paragraph [ref=e583]:
+          - text: The readonly state of the connection can be cleared using the
+          - link [ref=e584] [cursor=pointer]:
+            - /url: /commands/readwrite
+            - code [ref=e585]: READWRITE
+          - text: command.
+        - heading [level=2] [ref=e586]:
+          - text: Fault Tolerance
+          - link "Link to this section" [ref=e587] [cursor=pointer]:
+            - /url: "#fault-tolerance"
+        - heading [level=3] [ref=e590]:
+          - text: Heartbeat and gossip messages
+          - link "Link to this section" [ref=e591] [cursor=pointer]:
+            - /url: "#heartbeat-and-gossip-messages"
+        - paragraph [ref=e594]:
+          - text: Redis Cluster nodes continuously exchange ping and pong packets. Those two kinds of packets have the same structure, and both carry important configuration information. The only actual difference is the message type field. We'll refer to the sum of ping and pong packets as
+          - emphasis [ref=e595]: heartbeat packets
+          - text: .
+        - paragraph [ref=e596]: Usually nodes send ping packets that will trigger the receivers to reply with pong packets. However this is not necessarily true. It is possible for nodes to just send pong packets to send information to other nodes about their configuration, without triggering a reply. This is useful, for example, in order to broadcast a new configuration as soon as possible.
+        - paragraph [ref=e597]: Usually a node will ping a few random nodes every second so that the total number of ping packets sent (and pong packets received) by each node is a constant amount regardless of the number of nodes in the cluster.
+        - paragraph [ref=e598]:
+          - text: However every node makes sure to ping every other node that hasn't sent a ping or received a pong for longer than half the
+          - code [ref=e599]: NODE_TIMEOUT
+          - text: time. Before
+          - code [ref=e600]: NODE_TIMEOUT
+          - text: has elapsed, nodes also try to reconnect the TCP link with another node to make sure nodes are not believed to be unreachable only because there is a problem in the current TCP connection.
+        - paragraph [ref=e601]:
+          - text: The number of messages globally exchanged can be sizable if
+          - code [ref=e602]: NODE_TIMEOUT
+          - text: is set to a small figure and the number of nodes (N) is very large, since every node will try to ping every other node for which they don't have fresh information every half the
+          - code [ref=e603]: NODE_TIMEOUT
+          - text: time.
+        - paragraph [ref=e604]: For example in a 100 node cluster with a node timeout set to 60 seconds, every node will try to send 99 pings every 30 seconds, with a total amount of pings of 3.3 per second. Multiplied by 100 nodes, this is 330 pings per second in the total cluster.
+        - paragraph [ref=e605]: There are ways to lower the number of messages, however there have been no reported issues with the bandwidth currently used by Redis Cluster failure detection, so for now the obvious and direct design is used. Note that even in the above example, the 330 packets per second exchanged are evenly divided among 100 different nodes, so the traffic each node receives is acceptable.
+        - heading [level=3] [ref=e606]:
+          - text: Heartbeat packet content
+          - link "Link to this section" [ref=e607] [cursor=pointer]:
+            - /url: "#heartbeat-packet-content"
+        - paragraph [ref=e610]: Ping and pong packets contain a header that is common to all types of packets (for instance packets to request a failover vote), and a special gossip section that is specific to Ping and Pong packets.
+        - paragraph [ref=e611]: "The common header has the following information:"
+        - list [ref=e612]:
+          - listitem [ref=e613]: Node ID, a 160 bit pseudorandom string that is assigned the first time a node is created and remains the same for all the life of a Redis Cluster node.
+          - listitem [ref=e614]:
+            - text: The
+            - code [ref=e615]: currentEpoch
+            - text: and
+            - code [ref=e616]: configEpoch
+            - text: fields of the sending node that are used to mount the distributed algorithms used by Redis Cluster (this is explained in detail in the next sections). If the node is a replica the
+            - code [ref=e617]: configEpoch
+            - text: is the last known
+            - code [ref=e618]: configEpoch
+            - text: of its master.
+          - listitem [ref=e619]: The node flags, indicating if the node is a replica, a master, and other single-bit node information.
+          - listitem [ref=e620]: A bitmap of the hash slots served by the sending node, or if the node is a replica, a bitmap of the slots served by its master.
+          - listitem [ref=e621]: The sender TCP base port that is the port used by Redis to accept client commands.
+          - listitem [ref=e622]: The cluster port that is the port used by Redis for node-to-node communication.
+          - listitem [ref=e623]: The state of the cluster from the point of view of the sender (down or ok).
+          - listitem [ref=e624]: The master node ID of the sending node, if it is a replica.
+        - paragraph [ref=e625]: Ping and pong packets also contain a gossip section. This section offers to the receiver a view of what the sender node thinks about other nodes in the cluster. The gossip section only contains information about a few random nodes among the set of nodes known to the sender. The number of nodes mentioned in a gossip section is proportional to the cluster size.
+        - paragraph [ref=e626]: "For every node added in the gossip section the following fields are reported:"
+        - list [ref=e627]:
+          - listitem [ref=e628]: Node ID.
+          - listitem [ref=e629]: IP and port of the node.
+          - listitem [ref=e630]: Node flags.
+        - paragraph [ref=e631]: Gossip sections allow receiving nodes to get information about the state of other nodes from the point of view of the sender. This is useful both for failure detection and to discover other nodes in the cluster.
+        - heading [level=3] [ref=e632]:
+          - text: Failure detection
+          - link "Link to this section" [ref=e633] [cursor=pointer]:
+            - /url: "#failure-detection"
+        - paragraph [ref=e636]: Redis Cluster failure detection is used to recognize when a master or replica node is no longer reachable by the majority of nodes and then respond by promoting a replica to the role of master. When replica promotion is not possible the cluster is put in an error state to stop receiving queries from clients.
+        - paragraph [ref=e637]:
+          - text: As already mentioned, every node takes a list of flags associated with other known nodes. There are two flags that are used for failure detection that are called
+          - code [ref=e638]: PFAIL
+          - text: and
+          - code [ref=e639]: FAIL
+          - text: .
+          - code [ref=e640]: PFAIL
+          - text: means
+          - emphasis [ref=e641]: Possible failure
+          - text: ", and is a non-acknowledged failure type."
+          - code [ref=e642]: FAIL
+          - text: means that a node is failing and that this condition was confirmed by a majority of masters within a fixed amount of time.
+        - paragraph [ref=e643]:
+          - strong [ref=e644]: "PFAIL flag:"
+        - paragraph [ref=e645]:
+          - text: A node flags another node with the
+          - code [ref=e646]: PFAIL
+          - text: flag when the node is not reachable for more than
+          - code [ref=e647]: NODE_TIMEOUT
+          - text: time. Both master and replica nodes can flag another node as
+          - code [ref=e648]: PFAIL
+          - text: ", regardless of its type."
+        - paragraph [ref=e649]:
+          - text: The concept of non-reachability for a Redis Cluster node is that we have an
+          - strong [ref=e650]: active ping
+          - text: (a ping that we sent for which we have yet to get a reply) pending for longer than
+          - code [ref=e651]: NODE_TIMEOUT
+          - text: . For this mechanism to work the
+          - code [ref=e652]: NODE_TIMEOUT
+          - text: must be large compared to the network round trip time. In order to add reliability during normal operations, nodes will try to reconnect with other nodes in the cluster as soon as half of the
+          - code [ref=e653]: NODE_TIMEOUT
+          - text: has elapsed without a reply to a ping. This mechanism ensures that connections are kept alive so broken connections usually won't result in false failure reports between nodes.
+        - paragraph [ref=e654]:
+          - strong [ref=e655]: "FAIL flag:"
+        - paragraph [ref=e656]:
+          - text: The
+          - code [ref=e657]: PFAIL
+          - text: flag alone is just local information every node has about other nodes, but it is not sufficient to trigger a replica promotion. For a node to be considered down the
+          - code [ref=e658]: PFAIL
+          - text: condition needs to be escalated to a
+          - code [ref=e659]: FAIL
+          - text: condition.
+        - paragraph [ref=e660]: As outlined in the node heartbeats section of this document, every node sends gossip messages to every other node including the state of a few random known nodes. Every node eventually receives a set of node flags for every other node. This way every node has a mechanism to signal other nodes about failure conditions they have detected.
+        - paragraph [ref=e661]:
+          - text: A
+          - code [ref=e662]: PFAIL
+          - text: condition is escalated to a
+          - code [ref=e663]: FAIL
+          - text: "condition when the following set of conditions are met:"
+        - list [ref=e664]:
+          - listitem [ref=e665]:
+            - text: Some node, that we'll call A, has another node B flagged as
+            - code [ref=e666]: PFAIL
+            - text: .
+          - listitem [ref=e667]: Node A collected, via gossip sections, information about the state of B from the point of view of the majority of masters in the cluster.
+          - listitem [ref=e668]:
+            - text: The majority of masters signaled the
+            - code [ref=e669]: PFAIL
+            - text: or
+            - code [ref=e670]: FAIL
+            - text: condition within
+            - code [ref=e671]: NODE_TIMEOUT * FAIL_REPORT_VALIDITY_MULT
+            - text: time. (The validity factor is set to 2 in the current implementation, so this is just two times the
+            - code [ref=e672]: NODE_TIMEOUT
+            - text: time).
+        - paragraph [ref=e673]: "If all the above conditions are true, Node A will:"
+        - list [ref=e674]:
+          - listitem [ref=e675]:
+            - text: Mark the node as
+            - code [ref=e676]: FAIL
+            - text: .
+          - listitem [ref=e677]:
+            - text: Send a
+            - code [ref=e678]: FAIL
+            - text: message (as opposed to a
+            - code [ref=e679]: FAIL
+            - text: condition within a heartbeat message) to all the reachable nodes.
+        - paragraph [ref=e680]:
+          - text: The
+          - code [ref=e681]: FAIL
+          - text: message will force every receiving node to mark the node in
+          - code [ref=e682]: FAIL
+          - text: state, whether or not it already flagged the node in
+          - code [ref=e683]: PFAIL
+          - text: state.
+        - paragraph [ref=e684]:
+          - text: Note that
+          - emphasis [ref=e685]: the FAIL flag is mostly one way
+          - text: . That is, a node can go from
+          - code [ref=e686]: PFAIL
+          - text: to
+          - code [ref=e687]: FAIL
+          - text: ", but a"
+          - code [ref=e688]: FAIL
+          - text: "flag can only be cleared in the following situations:"
+        - list [ref=e689]:
+          - listitem [ref=e690]:
+            - text: The node is already reachable and is a replica. In this case the
+            - code [ref=e691]: FAIL
+            - text: flag can be cleared as replicas are not failed over.
+          - listitem [ref=e692]:
+            - text: The node is already reachable and is a master not serving any slot. In this case the
+            - code [ref=e693]: FAIL
+            - text: flag can be cleared as masters without slots do not really participate in the cluster and are waiting to be configured in order to join the cluster.
+          - listitem [ref=e694]:
+            - text: The node is already reachable and is a master, but a long time (N times the
+            - code [ref=e695]: NODE_TIMEOUT
+            - text: ) has elapsed without any detectable replica promotion. It's better for it to rejoin the cluster and continue in this case.
+        - paragraph [ref=e696]:
+          - text: It is useful to note that while the
+          - code [ref=e697]: PFAIL
+          - text: "->"
+          - code [ref=e698]: FAIL
+          - text: "transition uses a form of agreement, the agreement used is weak:"
+        - list [ref=e699]:
+          - listitem [ref=e700]: Nodes collect views of other nodes over some time period, so even if the majority of master nodes need to "agree", actually this is just state that we collected from different nodes at different times and we are not sure, nor we require, that at a given moment the majority of masters agreed. However we discard failure reports which are old, so the failure was signaled by the majority of masters within a window of time.
+          - listitem [ref=e701]:
+            - text: While every node detecting the
+            - code [ref=e702]: FAIL
+            - text: condition will force that condition on other nodes in the cluster using the
+            - code [ref=e703]: FAIL
+            - text: message, there is no way to ensure the message will reach all the nodes. For instance a node may detect the
+            - code [ref=e704]: FAIL
+            - text: condition and because of a partition will not be able to reach any other node.
+        - paragraph [ref=e705]:
+          - text: "However the Redis Cluster failure detection has a liveness requirement: eventually all the nodes should agree about the state of a given node. There are two cases that can originate from split brain conditions. Either some minority of nodes believe the node is in"
+          - code [ref=e706]: FAIL
+          - text: state, or a minority of nodes believe the node is not in
+          - code [ref=e707]: FAIL
+          - text: "state. In both the cases eventually the cluster will have a single view of the state of a given node:"
+        - paragraph [ref=e708]:
+          - strong [ref=e709]: Case 1
+          - text: ": If a majority of masters have flagged a node as"
+          - code [ref=e710]: FAIL
+          - text: ", because of failure detection and the"
+          - emphasis [ref=e711]: chain effect
+          - text: it generates, every other node will eventually flag the master as
+          - code [ref=e712]: FAIL
+          - text: ", since in the specified window of time enough failures will be reported."
+        - paragraph [ref=e713]:
+          - strong [ref=e714]: Case 2
+          - text: ": When only a minority of masters have flagged a node as"
+          - code [ref=e715]: FAIL
+          - text: ", the replica promotion will not happen (as it uses a more formal algorithm that makes sure everybody knows about the promotion eventually) and every node will clear the"
+          - code [ref=e716]: FAIL
+          - text: state as per the
+          - code [ref=e717]: FAIL
+          - text: state clearing rules above (i.e. no promotion after N times the
+          - code [ref=e718]: NODE_TIMEOUT
+          - text: has elapsed).
+        - paragraph [ref=e719]:
+          - strong [ref=e720]:
+            - text: The
+            - code [ref=e721]: FAIL
+            - text: flag is only used as a trigger to run the safe part of the algorithm
+          - text: for the replica promotion. In theory a replica may act independently and start a replica promotion when its master is not reachable, and wait for the masters to refuse to provide the acknowledgment if the master is actually reachable by the majority. However the added complexity of the
+          - code [ref=e722]: PFAIL -> FAIL
+          - text: state, the weak agreement, and the
+          - code [ref=e723]: FAIL
+          - text: message forcing the propagation of the state in the shortest amount of time in the reachable part of the cluster, have practical advantages. Because of these mechanisms, usually all the nodes will stop accepting writes at about the same time if the cluster is in an error state. This is a desirable feature from the point of view of applications using Redis Cluster. Also erroneous election attempts initiated by replicas that can't reach its master due to local problems (the master is otherwise reachable by the majority of other master nodes) are avoided.
+        - heading [level=2] [ref=e724]:
+          - text: Configuration handling, propagation, and failovers
+          - link "Link to this section" [ref=e725] [cursor=pointer]:
+            - /url: "#configuration-handling-propagation-and-failovers"
+        - heading [level=3] [ref=e728]:
+          - text: Cluster current epoch
+          - link "Link to this section" [ref=e729] [cursor=pointer]:
+            - /url: "#cluster-current-epoch"
+        - paragraph [ref=e732]: Redis Cluster uses a concept similar to the Raft algorithm "term". In Redis Cluster the term is called epoch instead, and it is used in order to give incremental versioning to events. When multiple nodes provide conflicting information, it becomes possible for another node to understand which state is the most up to date.
+        - paragraph [ref=e733]:
+          - text: The
+          - code [ref=e734]: currentEpoch
+          - text: is a 64 bit unsigned number.
+        - paragraph [ref=e735]:
+          - text: At node creation every Redis Cluster node, both replicas and master nodes, set the
+          - code [ref=e736]: currentEpoch
+          - text: to 0.
+        - paragraph [ref=e737]:
+          - text: Every time a packet is received from another node, if the epoch of the sender (part of the cluster bus messages header) is greater than the local node epoch, the
+          - code [ref=e738]: currentEpoch
+          - text: is updated to the sender epoch.
+        - paragraph [ref=e739]:
+          - text: Because of these semantics, eventually all the nodes will agree to the greatest
+          - code [ref=e740]: currentEpoch
+          - text: in the cluster.
+        - paragraph [ref=e741]: This information is used when the state of the cluster is changed and a node seeks agreement in order to perform some action.
+        - paragraph [ref=e742]: Currently this happens only during replica promotion, as described in the next section. Basically the epoch is a logical clock for the cluster and dictates that given information wins over one with a smaller epoch.
+        - heading [level=3] [ref=e743]:
+          - text: Configuration epoch
+          - link "Link to this section" [ref=e744] [cursor=pointer]:
+            - /url: "#configuration-epoch"
+        - paragraph [ref=e747]:
+          - text: Every master always advertises its
+          - code [ref=e748]: configEpoch
+          - text: in ping and pong packets along with a bitmap advertising the set of slots it serves.
+        - paragraph [ref=e749]:
+          - text: The
+          - code [ref=e750]: configEpoch
+          - text: is set to zero in masters when a new node is created.
+        - paragraph [ref=e751]:
+          - text: A new
+          - code [ref=e752]: configEpoch
+          - text: is created during replica election. replicas trying to replace failing masters increment their epoch and try to get authorization from a majority of masters. When a replica is authorized, a new unique
+          - code [ref=e753]: configEpoch
+          - text: is created and the replica turns into a master using the new
+          - code [ref=e754]: configEpoch
+          - text: .
+        - paragraph [ref=e755]:
+          - text: As explained in the next sections the
+          - code [ref=e756]: configEpoch
+          - text: helps to resolve conflicts when different nodes claim divergent configurations (a condition that may happen because of network partitions and node failures).
+        - paragraph [ref=e757]:
+          - text: replica nodes also advertise the
+          - code [ref=e758]: configEpoch
+          - text: field in ping and pong packets, but in the case of replicas the field represents the
+          - code [ref=e759]: configEpoch
+          - text: of its master as of the last time they exchanged packets. This allows other instances to detect when a replica has an old configuration that needs to be updated (master nodes will not grant votes to replicas with an old configuration).
+        - paragraph [ref=e760]:
+          - text: Every time the
+          - code [ref=e761]: configEpoch
+          - text: changes for some known node, it is permanently stored in the nodes.conf file by all the nodes that receive this information. The same also happens for the
+          - code [ref=e762]: currentEpoch
+          - text: value. These two variables are guaranteed to be saved and
+          - code [ref=e763]: fsync-ed
+          - text: to disk when updated before a node continues its operations.
+        - paragraph [ref=e764]:
+          - text: The
+          - code [ref=e765]: configEpoch
+          - text: values generated using a simple algorithm during failovers are guaranteed to be new, incremental, and unique.
+        - heading [level=3] [ref=e766]:
+          - text: Replica election and promotion
+          - link "Link to this section" [ref=e767] [cursor=pointer]:
+            - /url: "#replica-election-and-promotion"
+        - paragraph [ref=e770]:
+          - text: Replica election and promotion is handled by replica nodes, with the help of master nodes that vote for the replica to promote. A replica election happens when a master is in
+          - code [ref=e771]: FAIL
+          - text: state from the point of view of at least one of its replicas that has the prerequisites in order to become a master.
+        - paragraph [ref=e772]:
+          - text: In order for a replica to promote itself to master, it needs to start an election and win it. All the replicas for a given master can start an election if the master is in
+          - code [ref=e773]: FAIL
+          - text: state, however only one replica will win the election and promote itself to master.
+        - paragraph [ref=e774]: "A replica starts an election when the following conditions are met:"
+        - list [ref=e775]:
+          - listitem [ref=e776]:
+            - text: The replica's master is in
+            - code [ref=e777]: FAIL
+            - text: state.
+          - listitem [ref=e778]: The master was serving a non-zero number of slots.
+          - listitem [ref=e779]: The replica replication link was disconnected from the master for no longer than a given amount of time, in order to ensure the promoted replica's data is reasonably fresh. This time is user configurable.
+        - paragraph [ref=e780]:
+          - text: In order to be elected, the first step for a replica is to increment its
+          - code [ref=e781]: currentEpoch
+          - text: counter, and request votes from master instances.
+        - paragraph [ref=e782]:
+          - text: Votes are requested by the replica by broadcasting a
+          - code [ref=e783]: FAILOVER_AUTH_REQUEST
+          - text: packet to every master node of the cluster. Then it waits for a maximum time of two times the
+          - code [ref=e784]: NODE_TIMEOUT
+          - text: for replies to arrive (but always for at least 2 seconds).
+        - paragraph [ref=e785]:
+          - text: Once a master has voted for a given replica, replying positively with a
+          - code [ref=e786]: FAILOVER_AUTH_ACK
+          - text: ", it can no longer vote for another replica of the same master for a period of"
+          - code [ref=e787]: NODE_TIMEOUT * 2
+          - text: . In this period it will not be able to reply to other authorization requests for the same master. This is not needed to guarantee safety, but useful for preventing multiple replicas from getting elected (even if with a different
+          - code [ref=e788]: configEpoch
+          - text: ) at around the same time, which is usually not wanted.
+        - paragraph [ref=e789]:
+          - text: A replica discards any
+          - code [ref=e790]: AUTH_ACK
+          - text: replies with an epoch that is less than the
+          - code [ref=e791]: currentEpoch
+          - text: at the time the vote request was sent. This ensures it doesn't count votes intended for a previous election.
+        - paragraph [ref=e792]:
+          - text: Once the replica receives ACKs from the majority of masters, it wins the election. Otherwise if the majority is not reached within the period of two times
+          - code [ref=e793]: NODE_TIMEOUT
+          - text: (but always at least 2 seconds), the election is aborted and a new one will be tried again after
+          - code [ref=e794]: NODE_TIMEOUT * 4
+          - text: (and always at least 4 seconds).
+        - heading [level=3] [ref=e795]:
+          - text: Replica rank
+          - link "Link to this section" [ref=e796] [cursor=pointer]:
+            - /url: "#replica-rank"
+        - paragraph [ref=e799]:
+          - text: As soon as a master is in
+          - code [ref=e800]: FAIL
+          - text: "state, a replica waits a short period of time before trying to get elected. That delay is computed as follows:"
+        - code [ref=e802]: DELAY = 500 milliseconds + random delay between 0 and 500 milliseconds + REPLICA_RANK * 1000 milliseconds.
+        - paragraph [ref=e803]:
+          - text: The fixed delay ensures that we wait for the
+          - code [ref=e804]: FAIL
+          - text: state to propagate across the cluster, otherwise the replica may try to get elected while the masters are still unaware of the
+          - code [ref=e805]: FAIL
+          - text: state, refusing to grant their vote.
+        - paragraph [ref=e806]: The random delay is used to desynchronize replicas so they're unlikely to start an election at the same time.
+        - paragraph [ref=e807]:
+          - text: The
+          - code [ref=e808]: REPLICA_RANK
+          - text: "is the rank of this replica regarding the amount of replication data it has processed from the master. Replicas exchange messages when the master is failing in order to establish a (best effort) rank: the replica with the most updated replication offset is at rank 0, the second most updated at rank 1, and so forth. In this way the most updated replicas try to get elected before others."
+        - paragraph [ref=e809]: Rank order is not strictly enforced; if a replica of higher rank fails to be elected, the others will try shortly.
+        - paragraph [ref=e810]:
+          - text: Once a replica wins the election, it obtains a new unique and incremental
+          - code [ref=e811]: configEpoch
+          - text: which is higher than that of any other existing master. It starts advertising itself as master in ping and pong packets, providing the set of served slots with a
+          - code [ref=e812]: configEpoch
+          - text: that will win over the past ones.
+        - paragraph [ref=e813]:
+          - text: In order to speedup the reconfiguration of other nodes, a pong packet is broadcast to all the nodes of the cluster. Currently unreachable nodes will eventually be reconfigured when they receive a ping or pong packet from another node or will receive an
+          - code [ref=e814]: UPDATE
+          - text: packet from another node if the information it publishes via heartbeat packets are detected to be out of date.
+        - paragraph [ref=e815]:
+          - text: The other nodes will detect that there is a new master serving the same slots served by the old master but with a greater
+          - code [ref=e816]: configEpoch
+          - text: ", and will upgrade their configuration. Replicas of the old master (or the failed over master if it rejoins the cluster) will not just upgrade the configuration but will also reconfigure to replicate from the new master. How nodes rejoining the cluster are configured is explained in the next sections."
+        - heading [level=3] [ref=e817]:
+          - text: Masters reply to replica vote request
+          - link "Link to this section" [ref=e818] [cursor=pointer]:
+            - /url: "#masters-reply-to-replica-vote-request"
+        - paragraph [ref=e821]: In the previous section, we discussed how replicas try to get elected. This section explains what happens from the point of view of a master that is requested to vote for a given replica.
+        - paragraph [ref=e822]:
+          - text: Masters receive requests for votes in form of
+          - code [ref=e823]: FAILOVER_AUTH_REQUEST
+          - text: requests from replicas.
+        - paragraph [ref=e824]: "For a vote to be granted the following conditions need to be met:"
+        - list [ref=e825]:
+          - listitem [ref=e826]:
+            - text: "A master only votes a single time for a given epoch, and refuses to vote for older epochs: every master has a lastVoteEpoch field and will refuse to vote again as long as the"
+            - code [ref=e827]: currentEpoch
+            - text: in the auth request packet is not greater than the lastVoteEpoch. When a master replies positively to a vote request, the lastVoteEpoch is updated accordingly, and safely stored on disk.
+          - listitem [ref=e828]:
+            - text: A master votes for a replica only if the replica's master is flagged as
+            - code [ref=e829]: FAIL
+            - text: .
+          - listitem [ref=e830]:
+            - text: Auth requests with a
+            - code [ref=e831]: currentEpoch
+            - text: that is less than the master
+            - code [ref=e832]: currentEpoch
+            - text: are ignored. Because of this the master reply will always have the same
+            - code [ref=e833]: currentEpoch
+            - text: as the auth request. If the same replica asks again to be voted, incrementing the
+            - code [ref=e834]: currentEpoch
+            - text: ", it is guaranteed that an old delayed reply from the master can not be accepted for the new vote."
+        - paragraph [ref=e835]: "Example of the issue caused by not using rule number 3:"
+        - paragraph [ref=e836]:
+          - text: Master
+          - code [ref=e837]: currentEpoch
+          - text: is 5, lastVoteEpoch is 1 (this may happen after a few failed elections)
+        - list [ref=e838]:
+          - listitem [ref=e839]:
+            - text: Replica
+            - code [ref=e840]: currentEpoch
+            - text: is 3.
+          - listitem [ref=e841]:
+            - text: Replica tries to be elected with epoch 4 (3+1), master replies with an ok with
+            - code [ref=e842]: currentEpoch
+            - text: 5, however the reply is delayed.
+          - listitem [ref=e843]:
+            - text: Replica will try to be elected again, at a later time, with epoch 5 (4+1), the delayed reply reaches the replica with
+            - code [ref=e844]: currentEpoch
+            - text: 5, and is accepted as valid.
+        - list [ref=e845]:
+          - listitem [ref=e846]:
+            - text: Masters don't vote for a replica of the same master before
+            - code [ref=e847]: NODE_TIMEOUT * 2
+            - text: has elapsed if a replica of that master was already voted for. This is not strictly required as it is not possible for two replicas to win the election in the same epoch. However, in practical terms it ensures that when a replica is elected it has plenty of time to inform the other replicas and avoid the possibility that another replica will win a new election, performing an unnecessary second failover.
+          - listitem [ref=e848]:
+            - text: Masters make no effort to select the best replica in any way. If the replica's master is in
+            - code [ref=e849]: FAIL
+            - text: state and the master did not vote in the current term, a positive vote is granted. The best replica is the most likely to start an election and win it before the other replicas, since it will usually be able to start the voting process earlier because of its
+            - emphasis [ref=e850]: higher rank
+            - text: as explained in the previous section.
+          - listitem [ref=e851]: When a master refuses to vote for a given replica there is no negative response, the request is simply ignored.
+          - listitem [ref=e852]:
+            - text: Masters don't vote for replicas sending a
+            - code [ref=e853]: configEpoch
+            - text: that is less than any
+            - code [ref=e854]: configEpoch
+            - text: in the master table for the slots claimed by the replica. Remember that the replica sends the
+            - code [ref=e855]: configEpoch
+            - text: of its master, and the bitmap of the slots served by its master. This means that the replica requesting the vote must have a configuration for the slots it wants to failover that is newer or equal the one of the master granting the vote.
+        - heading [level=3] [ref=e856]:
+          - text: Practical example of configuration epoch usefulness during partitions
+          - link "Link to this section" [ref=e857] [cursor=pointer]:
+            - /url: "#practical-example-of-configuration-epoch-usefulness-during-partitions"
+        - paragraph [ref=e860]: This section illustrates how the epoch concept is used to make the replica promotion process more resistant to partitions.
+        - list [ref=e861]:
+          - listitem [ref=e862]: A master is no longer reachable indefinitely. The master has three replicas A, B, C.
+          - listitem [ref=e863]: Replica A wins the election and is promoted to master.
+          - listitem [ref=e864]: A network partition makes A not available for the majority of the cluster.
+          - listitem [ref=e865]: Replica B wins the election and is promoted as master.
+          - listitem [ref=e866]: A partition makes B not available for the majority of the cluster.
+          - listitem [ref=e867]: The previous partition is fixed, and A is available again.
+        - paragraph [ref=e868]:
+          - text: At this point B is down and A is available again with a role of master (actually
+          - code [ref=e869]: UPDATE
+          - text: messages would reconfigure it promptly, but here we assume all
+          - code [ref=e870]: UPDATE
+          - text: "messages were lost). At the same time, replica C will try to get elected in order to fail over B. This is what happens:"
+        - list [ref=e871]:
+          - listitem [ref=e872]:
+            - text: C will try to get elected and will succeed, since for the majority of masters its master is actually down. It will obtain a new incremental
+            - code [ref=e873]: configEpoch
+            - text: .
+          - listitem [ref=e874]: A will not be able to claim to be the master for its hash slots, because the other nodes already have the same hash slots associated with a higher configuration epoch (the one of B) compared to the one published by A.
+          - listitem [ref=e875]: So, all the nodes will upgrade their table to assign the hash slots to C, and the cluster will continue its operations.
+        - paragraph [ref=e876]:
+          - text: As you'll see in the next sections, a stale node rejoining a cluster will usually get notified as soon as possible about the configuration change because as soon as it pings any other node, the receiver will detect it has stale information and will send an
+          - code [ref=e877]: UPDATE
+          - text: message.
+        - heading [level=3] [ref=e878]:
+          - text: Hash slots configuration propagation
+          - link "Link to this section" [ref=e879] [cursor=pointer]:
+            - /url: "#hash-slots-configuration-propagation"
+        - paragraph [ref=e882]: An important part of Redis Cluster is the mechanism used to propagate the information about which cluster node is serving a given set of hash slots. This is vital to both the startup of a fresh cluster and the ability to upgrade the configuration after a replica was promoted to serve the slots of its failing master.
+        - paragraph [ref=e883]: The same mechanism allows nodes partitioned away for an indefinite amount of time to rejoin the cluster in a sensible way.
+        - paragraph [ref=e884]: "There are two ways hash slot configurations are propagated:"
+        - list [ref=e885]:
+          - listitem [ref=e886]: Heartbeat messages. The sender of a ping or pong packet always adds information about the set of hash slots it (or its master, if it is a replica) serves.
+          - listitem [ref=e887]:
+            - code [ref=e888]: UPDATE
+            - text: messages. Since in every heartbeat packet there is information about the sender
+            - code [ref=e889]: configEpoch
+            - text: and set of hash slots served, if a receiver of a heartbeat packet finds the sender information is stale, it will send a packet with new information, forcing the stale node to update its info.
+        - paragraph [ref=e890]:
+          - text: The receiver of a heartbeat or
+          - code [ref=e891]: UPDATE
+          - text: message uses certain simple rules in order to update its table mapping hash slots to nodes. When a new Redis Cluster node is created, its local hash slot table is simply initialized to
+          - code [ref=e892]: "NULL"
+          - text: "entries so that each hash slot is not bound or linked to any node. This looks similar to the following:"
+        - code [ref=e894]: 0 -> NULL 1 -> NULL 2 -> NULL ... 16383 -> NULL
+        - paragraph [ref=e895]: "The first rule followed by a node in order to update its hash slot table is the following:"
+        - paragraph [ref=e896]:
+          - strong [ref=e897]: Rule 1
+          - text: ": If a hash slot is unassigned (set to"
+          - code [ref=e898]: "NULL"
+          - text: ), and a known node claims it, I'll modify my hash slot table and associate the claimed hash slots to it.
+        - paragraph [ref=e899]: "So if we receive a heartbeat from node A claiming to serve hash slots 1 and 2 with a configuration epoch value of 3, the table will be modified to:"
+        - code [ref=e901]: 0 -> NULL 1 -> A [3] 2 -> A [3] ... 16383 -> NULL
+        - paragraph [ref=e902]:
+          - text: When a new cluster is created, a system administrator needs to manually assign (using the
+          - link [ref=e903] [cursor=pointer]:
+            - /url: /commands/cluster-addslots
+            - code [ref=e904]: CLUSTER ADDSLOTS
+          - text: command, via the redis-cli command line tool, or by any other means) the slots served by each master node only to the node itself, and the information will rapidly propagate across the cluster.
+        - paragraph [ref=e905]: "However this rule is not enough. We know that hash slot mapping can change during two events:"
+        - list [ref=e906]:
+          - listitem [ref=e907]: A replica replaces its master during a failover.
+          - listitem [ref=e908]: A slot is resharded from a node to a different one.
+        - paragraph [ref=e909]: "For now let's focus on failovers. When a replica fails over its master, it obtains a configuration epoch which is guaranteed to be greater than the one of its master (and more generally greater than any other configuration epoch generated previously). For example node B, which is a replica of A, may failover A with configuration epoch of 4. It will start to send heartbeat packets (the first time mass-broadcasting cluster-wide) and because of the following second rule, receivers will update their hash slot tables:"
+        - paragraph [ref=e910]:
+          - strong [ref=e911]: Rule 2
+          - text: ": If a hash slot is already assigned, and a known node is advertising it using a"
+          - code [ref=e912]: configEpoch
+          - text: that is greater than the
+          - code [ref=e913]: configEpoch
+          - text: of the master currently associated with the slot, I'll rebind the hash slot to the new node.
+        - paragraph [ref=e914]: "So after receiving messages from B that claim to serve hash slots 1 and 2 with configuration epoch of 4, the receivers will update their table in the following way:"
+        - code [ref=e916]: 0 -> NULL 1 -> B [4] 2 -> B [4] ... 16383 -> NULL
+        - paragraph [ref=e917]:
+          - text: "Liveness property: because of the second rule, eventually all nodes in the cluster will agree that the owner of a slot is the one with the greatest"
+          - code [ref=e918]: configEpoch
+          - text: among the nodes advertising it.
+        - paragraph [ref=e919]:
+          - text: This mechanism in Redis Cluster is called
+          - strong [ref=e920]: last failover wins
+          - text: .
+        - paragraph [ref=e921]: The same happens during resharding. When a node importing a hash slot completes the import operation, its configuration epoch is incremented to make sure the change will be propagated throughout the cluster.
+        - heading [level=3] [ref=e922]:
+          - text: UPDATE messages, a closer look
+          - link "Link to this section" [ref=e923] [cursor=pointer]:
+            - /url: "#update-messages-a-closer-look"
+        - paragraph [ref=e926]:
+          - text: With the previous section in mind, it is easier to see how update messages work. Node A may rejoin the cluster after some time. It will send heartbeat packets where it claims it serves hash slots 1 and 2 with configuration epoch of 3. All the receivers with updated information will instead see that the same hash slots are associated with node B having a higher configuration epoch. Because of this they'll send an
+          - code [ref=e927]: UPDATE
+          - text: message to A with the new configuration for the slots. A will update its configuration because of the
+          - strong [ref=e928]: rule 2
+          - text: above.
+        - heading [level=3] [ref=e929]:
+          - text: How nodes rejoin the cluster
+          - link "Link to this section" [ref=e930] [cursor=pointer]:
+            - /url: "#how-nodes-rejoin-the-cluster"
+        - paragraph [ref=e933]:
+          - text: The same basic mechanism is used when a node rejoins a cluster. Continuing with the example above, node A will be notified that hash slots 1 and 2 are now served by B. Assuming that these two were the only hash slots served by A, the count of hash slots served by A will drop to 0! So A will
+          - strong [ref=e934]: reconfigure to be a replica of the new master
+          - text: .
+        - paragraph [ref=e935]: The actual rule followed is a bit more complex than this. In general it may happen that A rejoins after a lot of time, in the meantime it may happen that hash slots originally served by A are served by multiple nodes, for example hash slot 1 may be served by B, and hash slot 2 by C.
+        - paragraph [ref=e936]:
+          - text: So the actual
+          - emphasis [ref=e937]: Redis Cluster node role switch rule
+          - text: "is:"
+          - strong [ref=e938]: A master node will change its configuration to replicate (be a replica of) the node that stole its last hash slot
+          - text: .
+        - paragraph [ref=e939]: During reconfiguration, eventually the number of served hash slots will drop to zero, and the node will reconfigure accordingly. Note that in the base case this just means that the old master will be a replica of the replica that replaced it after a failover. However in the general form the rule covers all possible cases.
+        - paragraph [ref=e940]: "Replicas do exactly the same: they reconfigure to replicate the node that stole the last hash slot of its former master."
+        - heading [level=3] [ref=e941]:
+          - text: Replica migration
+          - link "Link to this section" [ref=e942] [cursor=pointer]:
+            - /url: "#replica-migration"
+        - paragraph [ref=e945]:
+          - text: Redis Cluster implements a concept called
+          - emphasis [ref=e946]: replica migration
+          - text: in order to improve the availability of the system. The idea is that in a cluster with a master-replica setup, if the map between replicas and masters is fixed availability is limited over time if multiple independent failures of single nodes happen.
+        - paragraph [ref=e947]: "For example in a cluster where every master has a single replica, the cluster can continue operations as long as either the master or the replica fail, but not if both fail the same time. However there is a class of failures that are the independent failures of single nodes caused by hardware or software issues that can accumulate over time. For example:"
+        - list [ref=e948]:
+          - listitem [ref=e949]: Master A has a single replica A1.
+          - listitem [ref=e950]: Master A fails. A1 is promoted as new master.
+          - listitem [ref=e951]: Three hours later A1 fails in an independent manner (unrelated to the failure of A). No other replica is available for promotion since node A is still down. The cluster cannot continue normal operations.
+        - paragraph [ref=e952]: If the map between masters and replicas is fixed, the only way to make the cluster more resistant to the above scenario is to add replicas to every master, however this is costly as it requires more instances of Redis to be executed, more memory, and so forth.
+        - paragraph [ref=e953]: "An alternative is to create an asymmetry in the cluster, and let the cluster layout automatically change over time. For example the cluster may have three masters A, B, C. A and B have a single replica each, A1 and B1. However the master C is different and has two replicas: C1 and C2."
+        - paragraph [ref=e954]:
+          - text: Replica migration is the process of automatic reconfiguration of a replica in order to
+          - emphasis [ref=e955]: migrate
+          - text: "to a master that has no longer coverage (no working replicas). With replica migration the scenario mentioned above turns into the following:"
+        - list [ref=e956]:
+          - listitem [ref=e957]: Master A fails. A1 is promoted.
+          - listitem [ref=e958]: C2 migrates as replica of A1, that is otherwise not backed by any replica.
+          - listitem [ref=e959]: Three hours later A1 fails as well.
+          - listitem [ref=e960]: C2 is promoted as new master to replace A1.
+          - listitem [ref=e961]: The cluster can continue the operations.
+        - heading [level=3] [ref=e962]:
+          - text: Replica migration algorithm
+          - link "Link to this section" [ref=e963] [cursor=pointer]:
+            - /url: "#replica-migration-algorithm"
+        - paragraph [ref=e966]: The migration algorithm does not use any form of agreement since the replica layout in a Redis Cluster is not part of the cluster configuration that needs to be consistent and/or versioned with config epochs. Instead it uses an algorithm to avoid mass-migration of replicas when a master is not backed. The algorithm guarantees that eventually (once the cluster configuration is stable) every master will be backed by at least one replica.
+        - paragraph [ref=e967]:
+          - text: This is how the algorithm works. To start we need to define what is a
+          - emphasis [ref=e968]: good replica
+          - text: "in this context: a good replica is a replica not in"
+          - code [ref=e969]: FAIL
+          - text: state from the point of view of a given node.
+        - paragraph [ref=e970]: The execution of the algorithm is triggered in every replica that detects that there is at least a single master without good replicas. However among all the replicas detecting this condition, only a subset should act. This subset is actually often a single replica unless different replicas have in a given moment a slightly different view of the failure state of other nodes.
+        - paragraph [ref=e971]:
+          - text: The
+          - emphasis [ref=e972]: acting replica
+          - text: is the replica among the masters with the maximum number of attached replicas, that is not in FAIL state and has the smallest node ID.
+        - paragraph [ref=e973]: So for example if there are 10 masters with 1 replica each, and 2 masters with 5 replicas each, the replica that will try to migrate is - among the 2 masters having 5 replicas - the one with the lowest node ID. Given that no agreement is used, it is possible that when the cluster configuration is not stable, a race condition occurs where multiple replicas believe themselves to be the non-failing replica with the lower node ID (it is unlikely for this to happen in practice). If this happens, the result is multiple replicas migrating to the same master, which is harmless. If the race happens in a way that will leave the ceding master without replicas, as soon as the cluster is stable again the algorithm will be re-executed again and will migrate a replica back to the original master.
+        - paragraph [ref=e974]: Eventually every master will be backed by at least one replica. However, the normal behavior is that a single replica migrates from a master with multiple replicas to an orphaned master.
+        - paragraph [ref=e975]:
+          - text: The algorithm is controlled by a user-configurable parameter called
+          - code [ref=e976]: cluster-migration-barrier
+          - text: ": the number of good replicas a master must be left with before a replica can migrate away. For example, if this parameter is set to 2, a replica can try to migrate only if its master remains with two working replicas."
+        - heading [level=3] [ref=e977]:
+          - text: configEpoch conflicts resolution algorithm
+          - link "Link to this section" [ref=e978] [cursor=pointer]:
+            - /url: "#configepoch-conflicts-resolution-algorithm"
+        - paragraph [ref=e981]:
+          - text: When new
+          - code [ref=e982]: configEpoch
+          - text: values are created via replica promotion during failovers, they are guaranteed to be unique.
+        - paragraph [ref=e983]:
+          - text: However there are two distinct events where new configEpoch values are created in an unsafe way, just incrementing the local
+          - code [ref=e984]: currentEpoch
+          - text: "of the local node and hoping there are no conflicts at the same time. Both the events are system-administrator triggered:"
+        - list [ref=e985]:
+          - listitem [ref=e986]:
+            - link [ref=e987] [cursor=pointer]:
+              - /url: /commands/cluster-failover
+              - code [ref=e988]: CLUSTER FAILOVER
+            - text: command with
+            - code [ref=e989]: TAKEOVER
+            - text: option is able to manually promote a replica node into a master
+            - emphasis [ref=e990]: without the majority of masters being available
+            - text: . This is useful, for example, in multi data center setups.
+          - listitem [ref=e991]: Migration of slots for cluster rebalancing also generates new configuration epochs inside the local node without agreement for performance reasons.
+        - paragraph [ref=e992]: Specifically, during manual resharding, when a hash slot is migrated from a node A to a node B, the resharding program will force B to upgrade its configuration to an epoch which is the greatest found in the cluster, plus 1 (unless the node is already the one with the greatest configuration epoch), without requiring agreement from other nodes. Usually a real world resharding involves moving several hundred hash slots (especially in small clusters). Requiring an agreement to generate new configuration epochs during resharding, for each hash slot moved, is inefficient. Moreover it requires a fsync in each of the cluster nodes every time in order to store the new configuration. Because of the way it is performed instead, we only need a new config epoch when the first hash slot is moved, making it much more efficient in production environments.
+        - paragraph [ref=e993]:
+          - text: However because of the two cases above, it is possible (though unlikely) to end with multiple nodes having the same configuration epoch. A resharding operation performed by the system administrator, and a failover happening at the same time (plus a lot of bad luck) could cause
+          - code [ref=e994]: currentEpoch
+          - text: collisions if they are not propagated fast enough.
+        - paragraph [ref=e995]: Moreover, software bugs and filesystem corruptions can also contribute to multiple nodes having the same configuration epoch.
+        - paragraph [ref=e996]:
+          - text: When masters serving different hash slots have the same
+          - code [ref=e997]: configEpoch
+          - text: ", there are no issues. It is more important that replicas failing over a master have unique configuration epochs."
+        - paragraph [ref=e998]:
+          - text: That said, manual interventions or resharding may change the cluster configuration in different ways. The Redis Cluster main liveness property requires that slot configurations always converge, so under every circumstance we really want all the master nodes to have a different
+          - code [ref=e999]: configEpoch
+          - text: .
+        - paragraph [ref=e1000]:
+          - text: In order to enforce this,
+          - strong [ref=e1001]: a conflict resolution algorithm
+          - text: is used in the event that two nodes end up with the same
+          - code [ref=e1002]: configEpoch
+          - text: .
+        - list [ref=e1003]:
+          - listitem [ref=e1004]:
+            - text: IF a master node detects another master node is advertising itself with the same
+            - code [ref=e1005]: configEpoch
+            - text: .
+          - listitem [ref=e1006]:
+            - text: AND IF the node has a lexicographically smaller Node ID compared to the other node claiming the same
+            - code [ref=e1007]: configEpoch
+            - text: .
+          - listitem [ref=e1008]:
+            - text: THEN it increments its
+            - code [ref=e1009]: currentEpoch
+            - text: by 1, and uses it as the new
+            - code [ref=e1010]: configEpoch
+            - text: .
+        - paragraph [ref=e1011]:
+          - text: If there are any set of nodes with the same
+          - code [ref=e1012]: configEpoch
+          - text: ", all the nodes but the one with the greatest Node ID will move forward, guaranteeing that, eventually, every node will pick a unique configEpoch regardless of what happened."
+        - paragraph [ref=e1013]:
+          - text: This mechanism also guarantees that after a fresh cluster is created, all nodes start with a different
+          - code [ref=e1014]: configEpoch
+          - text: (even if this is not actually used) since
+          - code [ref=e1015]: redis-cli
+          - text: makes sure to use
+          - link [ref=e1016] [cursor=pointer]:
+            - /url: /commands/cluster-set-config-epoch
+            - code [ref=e1017]: CLUSTER SET-CONFIG-EPOCH
+          - text: at startup. However if for some reason a node is left misconfigured, it will update its configuration to a different configuration epoch automatically.
+        - heading [level=3] [ref=e1018]:
+          - text: Node resets
+          - link "Link to this section" [ref=e1019] [cursor=pointer]:
+            - /url: "#node-resets"
+        - paragraph [ref=e1022]: Nodes can be software reset (without restarting them) in order to be reused in a different role or in a different cluster. This is useful in normal operations, in testing, and in cloud environments where a given node can be reprovisioned to join a different set of nodes to enlarge or create a new cluster.
+        - paragraph [ref=e1023]:
+          - text: In Redis Cluster nodes are reset using the
+          - link [ref=e1024] [cursor=pointer]:
+            - /url: /commands/cluster-reset
+            - code [ref=e1025]: CLUSTER RESET
+          - text: "command. The command is provided in two variants:"
+        - list [ref=e1026]:
+          - listitem [ref=e1027]:
+            - code [ref=e1028]: CLUSTER RESET SOFT
+          - listitem [ref=e1029]:
+            - code [ref=e1030]: CLUSTER RESET HARD
+        - paragraph [ref=e1031]: The command must be sent directly to the node to reset. If no reset type is provided, a soft reset is performed.
+        - paragraph [ref=e1032]: "The following is a list of operations performed by a reset:"
+        - list [ref=e1033]:
+          - listitem [ref=e1034]: "Soft and hard reset: If the node is a replica, it is turned into a master, and its dataset is discarded. If the node is a master and contains keys the reset operation is aborted."
+          - listitem [ref=e1035]: "Soft and hard reset: All the slots are released, and the manual failover state is reset."
+          - listitem [ref=e1036]: "Soft and hard reset: All the other nodes in the nodes table are removed, so the node no longer knows any other node."
+          - listitem [ref=e1037]:
+            - text: "Hard reset only:"
+            - code [ref=e1038]: currentEpoch
+            - text: ","
+            - code [ref=e1039]: configEpoch
+            - text: ", and"
+            - code [ref=e1040]: lastVoteEpoch
+            - text: are set to 0.
+          - listitem [ref=e1041]: "Hard reset only: the Node ID is changed to a new random ID."
+        - paragraph [ref=e1042]:
+          - text: Master nodes with non-empty data sets can't be reset (since normally you want to reshard data to the other nodes). However, under special conditions when this is appropriate (e.g. when a cluster is totally destroyed with the intent of creating a new one),
+          - link [ref=e1043] [cursor=pointer]:
+            - /url: /commands/flushall
+            - code [ref=e1044]: FLUSHALL
+          - text: must be executed before proceeding with the reset.
+        - heading [level=3] [ref=e1045]:
+          - text: Removing nodes from a cluster
+          - link "Link to this section" [ref=e1046] [cursor=pointer]:
+            - /url: "#removing-nodes-from-a-cluster"
+        - paragraph [ref=e1049]: It is possible to practically remove a node from an existing cluster by resharding all its data to other nodes (if it is a master node) and shutting it down. However, the other nodes will still remember its node ID and address, and will attempt to connect with it.
+        - paragraph [ref=e1050]:
+          - text: For this reason, when a node is removed we want to also remove its entry from all the other nodes tables. This is accomplished by using the
+          - code [ref=e1051]: CLUSTER FORGET <node-id>
+          - text: command.
+        - paragraph [ref=e1052]: "The command does two things:"
+        - list [ref=e1053]:
+          - listitem [ref=e1054]: It removes the node with the specified node ID from the nodes table.
+          - listitem [ref=e1055]: It sets a 60 second ban which prevents a node with the same node ID from being re-added.
+        - paragraph [ref=e1056]: The second operation is needed because Redis Cluster uses gossip in order to auto-discover nodes, so removing the node X from node A, could result in node B gossiping about node X to A again. Because of the 60 second ban, the Redis Cluster administration tools have 60 seconds in order to remove the node from all the nodes, preventing the re-addition of the node due to auto discovery.
+        - paragraph [ref=e1057]:
+          - text: Further information is available in the
+          - link [ref=e1058] [cursor=pointer]:
+            - /url: /commands/cluster-forget
+            - code [ref=e1059]: CLUSTER FORGET
+          - text: documentation.
+        - heading [level=2] [ref=e1060]:
+          - text: Publish/Subscribe
+          - link "Link to this section" [ref=e1061] [cursor=pointer]:
+            - /url: "#publishsubscribe"
+        - paragraph [ref=e1064]: In a Redis Cluster, clients can subscribe to every node, and can also publish to every other node. The cluster will make sure that published messages are forwarded as needed.
+        - paragraph [ref=e1065]: The clients can send SUBSCRIBE to any node and can also send PUBLISH to any node. It will simply broadcast each published message to all other nodes.
+        - paragraph [ref=e1066]: Redis 7.0 and later features sharded pub/sub, in which shard channels are assigned to slots by the same algorithm used to assign keys to slots. A shard message must be sent to a node that owns the slot the shard channel is hashed to. The cluster makes sure the published shard messages are forwarded to all nodes in the shard, so clients can subscribe to a shard channel by connecting to either the master responsible for the slot, or to any of its replicas.
+        - heading [level=2] [ref=e1067]:
+          - text: Appendix
+          - link "Link to this section" [ref=e1068] [cursor=pointer]:
+            - /url: "#appendix"
+        - heading [level=3] [ref=e1071]:
+          - text: "Appendix A: CRC16 reference implementation in ANSI C"
+          - link "Link to this section" [ref=e1072] [cursor=pointer]:
+            - /url: "#appendix-a-crc16-reference-implementation-in-ansi-c"
+        - code [ref=e1076]: "/* * Copyright 2001-2010 Georges Menie (www.menie.org) * Copyright 2010 Salvatore Sanfilippo (adapted to Redis coding style) * All rights reserved. * Redistribution and use in source and binary forms, with or without * modification, are permitted provided that the following conditions are met: * * * Redistributions of source code must retain the above copyright * notice, this list of conditions and the following disclaimer. * * Redistributions in binary form must reproduce the above copyright * notice, this list of conditions and the following disclaimer in the * documentation and/or other materials provided with the distribution. * * Neither the name of the University of California, Berkeley nor the * names of its contributors may be used to endorse or promote products * derived from this software without specific prior written permission. * * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND ANY * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE * DISCLAIMED. IN NO EVENT SHALL THE REGENTS AND CONTRIBUTORS BE LIABLE FOR ANY * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */ /* CRC16 implementation according to CCITT standards. * * Note by @antirez: this is actually the XMODEM CRC 16 algorithm, using the * following parameters: * * Name : \"XMODEM\", also known as \"ZMODEM\", \"CRC-16/ACORN\" * Width : 16 bit * Poly : 1021 (That is actually x^16 + x^12 + x^5 + 1) * Initialization : 0000 * Reflect Input byte : False * Reflect Output CRC : False * Xor constant to output CRC : 0000 * Output for \"123456789\" : 31C3 */ static const uint16_t crc16tab[256]= { 0x0000,0x1021,0x2042,0x3063,0x4084,0x50a5,0x60c6,0x70e7, 0x8108,0x9129,0xa14a,0xb16b,0xc18c,0xd1ad,0xe1ce,0xf1ef, 0x1231,0x0210,0x3273,0x2252,0x52b5,0x4294,0x72f7,0x62d6, 0x9339,0x8318,0xb37b,0xa35a,0xd3bd,0xc39c,0xf3ff,0xe3de, 0x2462,0x3443,0x0420,0x1401,0x64e6,0x74c7,0x44a4,0x5485, 0xa56a,0xb54b,0x8528,0x9509,0xe5ee,0xf5cf,0xc5ac,0xd58d, 0x3653,0x2672,0x1611,0x0630,0x76d7,0x66f6,0x5695,0x46b4, 0xb75b,0xa77a,0x9719,0x8738,0xf7df,0xe7fe,0xd79d,0xc7bc, 0x48c4,0x58e5,0x6886,0x78a7,0x0840,0x1861,0x2802,0x3823, 0xc9cc,0xd9ed,0xe98e,0xf9af,0x8948,0x9969,0xa90a,0xb92b, 0x5af5,0x4ad4,0x7ab7,0x6a96,0x1a71,0x0a50,0x3a33,0x2a12, 0xdbfd,0xcbdc,0xfbbf,0xeb9e,0x9b79,0x8b58,0xbb3b,0xab1a, 0x6ca6,0x7c87,0x4ce4,0x5cc5,0x2c22,0x3c03,0x0c60,0x1c41, 0xedae,0xfd8f,0xcdec,0xddcd,0xad2a,0xbd0b,0x8d68,0x9d49, 0x7e97,0x6eb6,0x5ed5,0x4ef4,0x3e13,0x2e32,0x1e51,0x0e70, 0xff9f,0xefbe,0xdfdd,0xcffc,0xbf1b,0xaf3a,0x9f59,0x8f78, 0x9188,0x81a9,0xb1ca,0xa1eb,0xd10c,0xc12d,0xf14e,0xe16f, 0x1080,0x00a1,0x30c2,0x20e3,0x5004,0x4025,0x7046,0x6067, 0x83b9,0x9398,0xa3fb,0xb3da,0xc33d,0xd31c,0xe37f,0xf35e, 0x02b1,0x1290,0x22f3,0x32d2,0x4235,0x5214,0x6277,0x7256, 0xb5ea,0xa5cb,0x95a8,0x8589,0xf56e,0xe54f,0xd52c,0xc50d, 0x34e2,0x24c3,0x14a0,0x0481,0x7466,0x6447,0x5424,0x4405, 0xa7db,0xb7fa,0x8799,0x97b8,0xe75f,0xf77e,0xc71d,0xd73c, 0x26d3,0x36f2,0x0691,0x16b0,0x6657,0x7676,0x4615,0x5634, 0xd94c,0xc96d,0xf90e,0xe92f,0x99c8,0x89e9,0xb98a,0xa9ab, 0x5844,0x4865,0x7806,0x6827,0x18c0,0x08e1,0x3882,0x28a3, 0xcb7d,0xdb5c,0xeb3f,0xfb1e,0x8bf9,0x9bd8,0xabbb,0xbb9a, 0x4a75,0x5a54,0x6a37,0x7a16,0x0af1,0x1ad0,0x2ab3,0x3a92, 0xfd2e,0xed0f,0xdd6c,0xcd4d,0xbdaa,0xad8b,0x9de8,0x8dc9, 0x7c26,0x6c07,0x5c64,0x4c45,0x3ca2,0x2c83,0x1ce0,0x0cc1, 0xef1f,0xff3e,0xcf5d,0xdf7c,0xaf9b,0xbfba,0x8fd9,0x9ff8, 0x6e17,0x7e36,0x4e55,0x5e74,0x2e93,0x3eb2,0x0ed1,0x1ef0 }; uint16_t crc16(const char *buf, int len) { int counter; uint16_t crc = 0; for (counter = 0; counter < len; counter++) crc = (crc<<8) ^ crc16tab[((crc>>8) ^ *buf++)&0x00FF]; return crc; }"
+        - generic [ref=e1078]:
+          - generic [ref=e1079]:
+            - generic [ref=e1080]: RATE THIS PAGE
+            - generic [ref=e1081]:
+              - generic [ref=e1082] [cursor=pointer]: ★
+              - generic [ref=e1083] [cursor=pointer]: ★
+              - generic [ref=e1084] [cursor=pointer]: ★
+              - generic [ref=e1085] [cursor=pointer]: ★
+              - generic [ref=e1086] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e1087] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e1088]:
+      - navigation [ref=e1089]:
+        - link "Edit this page" [ref=e1090] [cursor=pointer]:
+          - /url: https://github.com/redis/docs/edit/main/content/operate/oss_and_stack/reference/cluster-spec.md
+        - link "Create an issue" [ref=e1093] [cursor=pointer]:
+          - /url: "https://github.com/redis/docs/issues/new?title=Feedback: Redis cluster specification&body=Page https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec"
+        - link "Download Markdown" [ref=e1096] [cursor=pointer]:
+          - /url: "#"
+      - heading "On this page" [level=2] [ref=e1099]
+      - navigation [ref=e1100]:
+        - navigation [ref=e1101]:
+          - list [ref=e1102]:
+            - listitem [ref=e1103]:
+              - link "Main properties and rationales of the design":
+                - /url: "#main-properties-and-rationales-of-the-design"
+              - list [ref=e1104]:
+                - listitem [ref=e1105]:
+                  - link "Redis Cluster goals" [ref=e1106] [cursor=pointer]:
+                    - /url: "#redis-cluster-goals"
+                - listitem [ref=e1107]:
+                  - link "Implemented subset" [ref=e1108] [cursor=pointer]:
+                    - /url: "#implemented-subset"
+            - listitem [ref=e1109]:
+              - link "Client and Server roles in the Redis cluster protocol" [ref=e1110] [cursor=pointer]:
+                - /url: "#client-and-server-roles-in-the-redis-cluster-protocol"
+              - list [ref=e1111]:
+                - listitem [ref=e1112]:
+                  - link "Write safety" [ref=e1113] [cursor=pointer]:
+                    - /url: "#write-safety"
+                - listitem [ref=e1114]:
+                  - link "Availability" [ref=e1115] [cursor=pointer]:
+                    - /url: "#availability"
+                - listitem [ref=e1116]:
+                  - link "Performance" [ref=e1117] [cursor=pointer]:
+                    - /url: "#performance"
+                - listitem [ref=e1118]:
+                  - link "Why merge operations are avoided" [ref=e1119] [cursor=pointer]:
+                    - /url: "#why-merge-operations-are-avoided"
+            - listitem [ref=e1120]:
+              - link "Overview of Redis Cluster main components" [ref=e1121] [cursor=pointer]:
+                - /url: "#overview-of-redis-cluster-main-components"
+              - list [ref=e1122]:
+                - listitem [ref=e1123]:
+                  - link "Key distribution model" [ref=e1124] [cursor=pointer]:
+                    - /url: "#key-distribution-model"
+                - listitem [ref=e1125]:
+                  - link "Hash tags" [ref=e1126] [cursor=pointer]:
+                    - /url: "#hash-tags"
+                - listitem [ref=e1127]:
+                  - link "Cluster node attributes" [ref=e1128] [cursor=pointer]:
+                    - /url: "#cluster-node-attributes"
+                - listitem [ref=e1129]:
+                  - link "The cluster bus" [ref=e1130] [cursor=pointer]:
+                    - /url: "#the-cluster-bus"
+                - listitem [ref=e1131]:
+                  - link "Cluster topology" [ref=e1132] [cursor=pointer]:
+                    - /url: "#cluster-topology"
+                - listitem [ref=e1133]:
+                  - link "Node handshake" [ref=e1134] [cursor=pointer]:
+                    - /url: "#node-handshake"
+            - listitem [ref=e1135]:
+              - link "Redirection and resharding" [ref=e1136] [cursor=pointer]:
+                - /url: "#redirection-and-resharding"
+              - list [ref=e1137]:
+                - listitem [ref=e1138]:
+                  - link "MOVED Redirection" [ref=e1139] [cursor=pointer]:
+                    - /url: "#moved-redirection"
+                - listitem [ref=e1140]:
+                  - link "Live reconfiguration" [ref=e1141] [cursor=pointer]:
+                    - /url: "#live-reconfiguration"
+                - listitem [ref=e1142]:
+                  - link "ASK redirection" [ref=e1143] [cursor=pointer]:
+                    - /url: "#ask-redirection"
+                - listitem [ref=e1144]:
+                  - link "Client connections and redirection handling" [ref=e1145] [cursor=pointer]:
+                    - /url: "#client-connections-and-redirection-handling"
+                - listitem [ref=e1146]:
+                  - link "Multi-keys operations" [ref=e1147] [cursor=pointer]:
+                    - /url: "#multi-keys-operations"
+                - listitem [ref=e1148]:
+                  - link "Scaling reads using replica nodes" [ref=e1149] [cursor=pointer]:
+                    - /url: "#scaling-reads-using-replica-nodes"
+            - listitem [ref=e1150]:
+              - link "Fault Tolerance" [ref=e1151] [cursor=pointer]:
+                - /url: "#fault-tolerance"
+              - list [ref=e1152]:
+                - listitem [ref=e1153]:
+                  - link "Heartbeat and gossip messages" [ref=e1154] [cursor=pointer]:
+                    - /url: "#heartbeat-and-gossip-messages"
+                - listitem [ref=e1155]:
+                  - link "Heartbeat packet content" [ref=e1156] [cursor=pointer]:
+                    - /url: "#heartbeat-packet-content"
+                - listitem [ref=e1157]:
+                  - link "Failure detection" [ref=e1158] [cursor=pointer]:
+                    - /url: "#failure-detection"
+            - listitem [ref=e1159]:
+              - link "Configuration handling, propagation, and failovers" [ref=e1160] [cursor=pointer]:
+                - /url: "#configuration-handling-propagation-and-failovers"
+              - list [ref=e1161]:
+                - listitem [ref=e1162]:
+                  - link "Cluster current epoch" [ref=e1163] [cursor=pointer]:
+                    - /url: "#cluster-current-epoch"
+                - listitem [ref=e1164]:
+                  - link "Configuration epoch" [ref=e1165] [cursor=pointer]:
+                    - /url: "#configuration-epoch"
+                - listitem [ref=e1166]:
+                  - link "Replica election and promotion" [ref=e1167] [cursor=pointer]:
+                    - /url: "#replica-election-and-promotion"
+                - listitem [ref=e1168]:
+                  - link "Replica rank" [ref=e1169] [cursor=pointer]:
+                    - /url: "#replica-rank"
+                - listitem [ref=e1170]:
+                  - link "Masters reply to replica vote request" [ref=e1171] [cursor=pointer]:
+                    - /url: "#masters-reply-to-replica-vote-request"
+                - listitem [ref=e1172]:
+                  - link "Practical example of configuration epoch usefulness during partitions" [ref=e1173] [cursor=pointer]:
+                    - /url: "#practical-example-of-configuration-epoch-usefulness-during-partitions"
+                - listitem [ref=e1174]:
+                  - link "Hash slots configuration propagation" [ref=e1175] [cursor=pointer]:
+                    - /url: "#hash-slots-configuration-propagation"
+                - listitem [ref=e1176]:
+                  - link "UPDATE messages, a closer look" [ref=e1177] [cursor=pointer]:
+                    - /url: "#update-messages-a-closer-look"
+                - listitem [ref=e1178]:
+                  - link "How nodes rejoin the cluster" [ref=e1179] [cursor=pointer]:
+                    - /url: "#how-nodes-rejoin-the-cluster"
+                - listitem [ref=e1180]:
+                  - link "Replica migration" [ref=e1181] [cursor=pointer]:
+                    - /url: "#replica-migration"
+                - listitem [ref=e1182]:
+                  - link "Replica migration algorithm" [ref=e1183] [cursor=pointer]:
+                    - /url: "#replica-migration-algorithm"
+                - listitem [ref=e1184]:
+                  - link "configEpoch conflicts resolution algorithm" [ref=e1185] [cursor=pointer]:
+                    - /url: "#configepoch-conflicts-resolution-algorithm"
+                - listitem [ref=e1186]:
+                  - link "Node resets" [ref=e1187] [cursor=pointer]:
+                    - /url: "#node-resets"
+                - listitem [ref=e1188]:
+                  - link "Removing nodes from a cluster" [ref=e1189] [cursor=pointer]:
+                    - /url: "#removing-nodes-from-a-cluster"
+            - listitem [ref=e1190]:
+              - link "Publish/Subscribe" [ref=e1191] [cursor=pointer]:
+                - /url: "#publishsubscribe"
+            - listitem [ref=e1192]:
+              - link "Appendix" [ref=e1193] [cursor=pointer]:
+                - /url: "#appendix"
+              - list [ref=e1194]:
+                - listitem [ref=e1195]:
+                  - 'link "Appendix A: CRC16 reference implementation in ANSI C" [ref=e1196] [cursor=pointer]':
+                    - /url: "#appendix-a-crc16-reference-implementation-in-ansi-c"
+  - contentinfo [ref=e1197]:
+    - generic [ref=e1198]:
+      - generic [ref=e1199]:
+        - link [ref=e1200] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e1205]:
+          - link [ref=e1206] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e1210] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e1213] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e1216] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e1219] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e1222] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e1225]:
+          - link "Trust" [ref=e1226] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e1227] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e1228] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e1229] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e1230]:
+        - generic [ref=e1231]:
+          - heading "Compare" [level=3] [ref=e1232]
+          - generic [ref=e1233]:
+            - link "Redis vs Elasticache" [ref=e1234] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e1235] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e1236] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e1237] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e1238]:
+          - heading "Company" [level=3] [ref=e1239]
+          - generic [ref=e1240]:
+            - link "Mission & values" [ref=e1241] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e1242] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e1243] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e1244]:
+          - heading "Partners" [level=3] [ref=e1245]
+          - generic [ref=e1246]:
+            - link "Amazon Web Services" [ref=e1247] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e1248] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e1249] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e1250] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e1251]:
+          - heading "Support" [level=3] [ref=e1252]
+          - generic [ref=e1253]:
+            - link "Professional services" [ref=e1254] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e1255] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e1256]:
+    - generic [ref=e1257]:
+      - banner [ref=e1258]:
+        - generic [ref=e1259]:
+          - textbox [ref=e1260]:
+            - /placeholder: Search…
+          - combobox [ref=e1261]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e1262] [cursor=pointer]: ESC
+      - listbox [ref=e1263]

@@ -1,0 +1,1460 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "What's new?" [ref=e50] [cursor=pointer]:
+              - /url: /docs/latest/develop/whats-new/
+          - listitem [ref=e52]:
+            - link "Quick starts" [ref=e53] [cursor=pointer]:
+              - /url: /docs/latest/develop/get-started/
+          - listitem [ref=e55]:
+            - link "Client tools" [ref=e56] [cursor=pointer]:
+              - /url: /docs/latest/develop/tools/
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "CLI":
+                  - /url: /docs/latest/develop/tools/cli/
+              - listitem [ref=e60]:
+                - link "Redis Insight" [ref=e61] [cursor=pointer]:
+                  - /url: /docs/latest/develop/tools/insight/
+              - listitem [ref=e63]:
+                - link "Redis for VS Code" [ref=e64] [cursor=pointer]:
+                  - /url: /docs/latest/develop/tools/redis-for-vscode/
+          - listitem [ref=e66]:
+            - link "Client APIs" [ref=e67] [cursor=pointer]:
+              - /url: /docs/latest/develop/clients/
+          - listitem [ref=e69]:
+            - link "Using commands" [ref=e70] [cursor=pointer]:
+              - /url: /docs/latest/develop/using-commands/
+          - listitem [ref=e72]:
+            - link "Data types" [ref=e73] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/
+          - listitem [ref=e75]:
+            - link "Redis for AI and search" [ref=e76] [cursor=pointer]:
+              - /url: /docs/latest/develop/ai/
+          - listitem [ref=e78]:
+            - link "Programmability" [ref=e79] [cursor=pointer]:
+              - /url: /docs/latest/develop/programmability/
+          - listitem [ref=e81]:
+            - link "Use cases" [ref=e82] [cursor=pointer]:
+              - /url: /docs/latest/develop/use-cases/
+          - listitem [ref=e84]:
+            - link "Pub/sub" [ref=e85] [cursor=pointer]:
+              - /url: /docs/latest/develop/pubsub/
+          - listitem [ref=e87]:
+            - link "Reference" [ref=e88] [cursor=pointer]:
+              - /url: /docs/latest/develop/reference/
+        - link "Libraries and tools" [ref=e90] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e91] [cursor=pointer]:
+          - /url: /docs/latest/operate
+      - link "Commands" [ref=e93] [cursor=pointer]:
+        - /url: /docs/latest/commands
+    - generic [ref=e94]:
+      - navigation "Breadcrumb" [ref=e95]:
+        - list [ref=e96]:
+          - listitem [ref=e97]:
+            - link "Docs Docs" [ref=e98] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e99]: Docs
+          - listitem [ref=e100]:
+            - generic [ref=e101]: →
+            - link "Develop with Redis" [ref=e102] [cursor=pointer]:
+              - /url: /docs/latest/develop/
+          - listitem [ref=e103]:
+            - generic [ref=e104]: →
+            - link "Client tools" [ref=e105] [cursor=pointer]:
+              - /url: /docs/latest/develop/tools/
+          - listitem:
+            - generic: →
+            - link "Redis CLI":
+              - /url: /docs/latest/develop/tools/cli/
+      - generic [ref=e106]:
+        - heading "Redis CLI" [level=1] [ref=e107]
+        - paragraph [ref=e108]: Overview of redis-cli, the Redis command line interface
+        - paragraph [ref=e109]:
+          - text: In interactive mode,
+          - code [ref=e110]: redis-cli
+          - text: has basic line editing capabilities to provide a familiar typing experience.
+        - paragraph [ref=e111]: "To launch the program in special modes, you can use several options, including:"
+        - list [ref=e112]:
+          - listitem [ref=e113]: Simulate a replica and print the replication stream it receives from the primary.
+          - listitem [ref=e114]: Check the latency of a Redis server and display statistics.
+          - listitem [ref=e115]: Request ASCII-art spectrogram of latency samples and frequencies.
+        - paragraph [ref=e116]:
+          - text: This topic covers the different aspects of
+          - code [ref=e117]: redis-cli
+          - text: ", starting from the simplest and ending with the more advanced features."
+        - heading [level=2] [ref=e118]:
+          - text: Install
+          - code [ref=e119]: redis-cli
+          - link "Link to this section" [ref=e120] [cursor=pointer]:
+            - /url: "#install-redis-cli"
+        - paragraph [ref=e123]:
+          - text: You have several options for installing or using
+          - code [ref=e124]: redis-cli
+          - text: .
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - paragraph [ref=e127]:
+              - link "Install Redis Open Source" [ref=e128] [cursor=pointer]:
+                - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+              - text: . The
+              - code [ref=e129]: redis-cli
+              - text: utility is installed as part of each installation method.
+          - listitem [ref=e130]:
+            - paragraph [ref=e131]:
+              - link "Build Redis from source" [ref=e132] [cursor=pointer]:
+                - /url: /docs/latest/operate/oss_and_stack/install/build-stack/
+              - text: ". Instead of building everything, you can just run the following command:"
+            - paragraph [ref=e133]:
+              - code [ref=e134]: $ make redis-cli
+              - text: .
+            - paragraph [ref=e135]:
+              - text: The
+              - code [ref=e136]: redis-cli
+              - text: utility will be built in the
+              - code [ref=e137]: /path/to/redis-source/src
+              - text: directory as
+              - code [ref=e138]: /path/to/redis-source/src/redis-cli
+              - text: .
+        - paragraph [ref=e139]:
+          - text: If you prefer not to install Redis, you can also run
+          - code [ref=e140]: redis-cli
+          - text: in Docker. See the
+          - link [ref=e141] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/docker/#connect-with-redis-cli
+            - text: Run
+            - code [ref=e142]: redis-cli
+            - text: using Docker
+          - text: page for instructions.
+        - heading [level=2] [ref=e143]:
+          - text: Command line usage
+          - link "Link to this section" [ref=e144] [cursor=pointer]:
+            - /url: "#command-line-usage"
+        - paragraph [ref=e147]:
+          - text: To run a Redis command and return a standard output at the terminal, include the command to execute as separate arguments of
+          - code [ref=e148]: redis-cli
+          - text: ":"
+        - code [ref=e150]: $ redis-cli INCR mycounter (integer) 7
+        - paragraph [ref=e151]:
+          - text: The reply of the command is "7". Since Redis replies are typed (strings, arrays, integers, nil, errors, etc.), you see the type of the reply between parentheses. This additional information may not be ideal when the output of
+          - code [ref=e152]: redis-cli
+          - text: must be used as input of another command or redirected into a file.
+        - paragraph [ref=e153]:
+          - code [ref=e154]: redis-cli
+          - text: only shows additional information for human readability when it detects the standard output is a tty, or terminal. For all other outputs it will auto-enable the
+          - emphasis [ref=e155]: raw output mode
+          - text: ", as in the following example:"
+        - code [ref=e157]: $ redis-cli INCR mycounter > /tmp/output.txt $ cat /tmp/output.txt 8
+        - paragraph [ref=e158]:
+          - text: Note that
+          - code [ref=e159]: (integer)
+          - text: is omitted from the output because
+          - code [ref=e160]: redis-cli
+          - text: detects the output is no longer written to the terminal. You can force raw output even on the terminal with the
+          - code [ref=e161]: "--raw"
+          - text: "option:"
+        - code [ref=e163]: $ redis-cli --raw INCR mycounter 9
+        - paragraph [ref=e164]:
+          - text: You can force human readable output when writing to a file or in pipe to other commands by using
+          - code [ref=e165]: "--no-raw"
+          - text: .
+        - paragraph [ref=e166]:
+          - text: For complete command line usage, see
+          - link "below" [ref=e167] [cursor=pointer]:
+            - /url: "#usage"
+          - text: .
+        - heading [level=2] [ref=e168]:
+          - text: String quoting and escaping
+          - link "Link to this section" [ref=e169] [cursor=pointer]:
+            - /url: "#string-quoting-and-escaping"
+        - paragraph [ref=e172]:
+          - text: When
+          - code [ref=e173]: redis-cli
+          - text: parses a command, whitespace characters automatically delimit the arguments. In interactive mode, a newline sends the command for parsing and execution. To input string values that contain whitespaces or non-printable characters, you can use quoted and escaped strings.
+        - paragraph [ref=e174]:
+          - text: Quoted string values are enclosed in double (
+          - code [ref=e175]: "\""
+          - text: ) or single (
+          - code [ref=e176]: "'"
+          - text: ) quotation marks. Escape sequences are used to put nonprintable characters in character and string literals.
+        - paragraph [ref=e177]:
+          - text: An escape sequence contains a backslash (
+          - code [ref=e178]: \
+          - text: ) symbol followed by one of the escape sequence characters.
+        - paragraph [ref=e179]: "Doubly-quoted strings support the following escape sequences:"
+        - list [ref=e180]:
+          - listitem [ref=e181]:
+            - code [ref=e182]: \"
+            - text: "- double-quote"
+          - listitem [ref=e183]:
+            - code [ref=e184]: \n
+            - text: "- newline"
+          - listitem [ref=e185]:
+            - code [ref=e186]: \r
+            - text: "- carriage return"
+          - listitem [ref=e187]:
+            - code [ref=e188]: \t
+            - text: "- horizontal tab"
+          - listitem [ref=e189]:
+            - code [ref=e190]: \b
+            - text: "- backspace"
+          - listitem [ref=e191]:
+            - code [ref=e192]: \a
+            - text: "- alert"
+          - listitem [ref=e193]:
+            - code [ref=e194]: \\
+            - text: "- backslash"
+          - listitem [ref=e195]:
+            - code [ref=e196]: \xhh
+            - text: "- any ASCII character represented by a hexadecimal number ("
+            - emphasis [ref=e197]: hh
+            - text: )
+        - paragraph [ref=e198]: "Single quotes assume the string is literal, and allow only the following escape sequences:"
+        - list [ref=e199]:
+          - listitem [ref=e200]:
+            - code [ref=e201]: \'
+            - text: "- single quote"
+          - listitem [ref=e202]:
+            - code [ref=e203]: \\
+            - text: "- backslash"
+        - paragraph [ref=e204]:
+          - text: For example, to return
+          - code [ref=e205]: Hello World
+          - text: "on two lines:"
+        - code [ref=e207]: 127.0.0.1:6379> SET mykey "Hello\nWorld" OK 127.0.0.1:6379> GET mykey Hello World
+        - paragraph [ref=e208]: "When you input strings that contain single or double quotes, as you might in passwords, for example, escape the string, like so:"
+        - code [ref=e210]: "127.0.0.1:6379> AUTH some_admin_user \">^8T>6Na{u|jp>+v\\\"55\\@_;OU(OR]7mbAYGqsfyu48(j'%hQH7;v*f1H${*gD(Se'\""
+        - heading [level=2] [ref=e211]:
+          - text: Host, port, password, and database
+          - link "Link to this section" [ref=e212] [cursor=pointer]:
+            - /url: "#host-port-password-and-database"
+        - paragraph [ref=e215]:
+          - text: By default,
+          - code [ref=e216]: redis-cli
+          - text: connects to the server at the address 127.0.0.1 with port 6379. You can change the port using several command line options. To specify a different host name or an IP address, use the
+          - code [ref=e217]: "-h"
+          - text: option. In order to set a different port, use
+          - code [ref=e218]: "-p"
+          - text: .
+        - code [ref=e220]: $ redis-cli -h redis15.localnet.org -p 6390 PING PONG
+        - paragraph [ref=e221]:
+          - text: If your instance is password protected, the
+          - code [ref=e222]: "-a <password>"
+          - text: option will perform authentication saving the need of explicitly using the
+          - link [ref=e223] [cursor=pointer]:
+            - /url: /docs/latest/commands/auth/
+            - code [ref=e224]: AUTH
+          - text: "command:"
+        - code [ref=e226]: $ redis-cli -a myUnguessablePazzzzzword123 PING PONG
+        - paragraph [ref=e227]:
+          - strong [ref=e228]: "NOTE:"
+          - text: For security reasons, provide the password to
+          - code [ref=e229]: redis-cli
+          - text: automatically via the
+          - code [ref=e230]: REDISCLI_AUTH
+          - text: environment variable.
+        - paragraph [ref=e231]:
+          - text: Finally, it's possible to send a command that operates on a database number other than the default number zero by using the
+          - code [ref=e232]: "-n <dbnum>"
+          - text: "option:"
+        - code [ref=e234]: $ redis-cli FLUSHALL OK $ redis-cli -n 1 INCR a (integer) 1 $ redis-cli -n 1 INCR a (integer) 2 $ redis-cli -n 2 INCR a (integer) 1
+        - paragraph [ref=e235]:
+          - text: Some or all of this information can also be provided by using the
+          - code [ref=e236]: "-u <uri>"
+          - text: option and the URI pattern
+          - code [ref=e237]: redis://user:password@host:port/dbnum
+          - text: ":"
+        - code [ref=e239]: $ redis-cli -u redis://LJenkins:p%40ssw0rd@redis-16379.hosted.com:16379/0 PING PONG
+        - paragraph [ref=e240]:
+          - strong [ref=e241]: "NOTE:"
+          - text: User, password and dbnum are optional. For authentication without a username, use username
+          - code [ref=e242]: default
+          - text: . For TLS, use the scheme
+          - code [ref=e243]: rediss
+          - text: .
+        - paragraph [ref=e244]:
+          - text: You can use the
+          - code [ref=e245]: "-4"
+          - text: or
+          - code [ref=e246]: "-6"
+          - text: argument to set a preference for IPv4 or IPv6, respectively, for DNS lookups.
+        - heading [level=2] [ref=e247]:
+          - text: SSL/TLS
+          - link "Link to this section" [ref=e248] [cursor=pointer]:
+            - /url: "#ssltls"
+        - paragraph [ref=e251]:
+          - text: By default,
+          - code [ref=e252]: redis-cli
+          - text: uses a plain TCP connection to connect to Redis. You may enable SSL/TLS using the
+          - code [ref=e253]: "--tls"
+          - text: option, along with
+          - code [ref=e254]: "--cacert"
+          - text: or
+          - code [ref=e255]: "--cacertdir"
+          - text: to configure a trusted root certificate bundle or directory.
+        - paragraph [ref=e256]:
+          - text: If the target server requires authentication using a client side certificate, you can specify a certificate and a corresponding private key using
+          - code [ref=e257]: "--cert"
+          - text: and
+          - code [ref=e258]: "--key"
+          - text: .
+        - heading [level=2] [ref=e259]:
+          - text: Get input from other programs
+          - link "Link to this section" [ref=e260] [cursor=pointer]:
+            - /url: "#get-input-from-other-programs"
+        - paragraph [ref=e263]:
+          - text: There are two ways you can use
+          - code [ref=e264]: redis-cli
+          - text: in order to receive input from other commands via the standard input. One is to use the target payload as the last argument from
+          - emphasis [ref=e265]: stdin
+          - text: . For example, in order to set the Redis key
+          - code [ref=e266]: net_services
+          - text: to the content of the file
+          - code [ref=e267]: /etc/services
+          - text: from a local file system, use the
+          - code [ref=e268]: "-x"
+          - text: "option:"
+        - code [ref=e270]: $ redis-cli -x SET net_services < /etc/services OK $ redis-cli GETRANGE net_services 0 50 "#\n# Network services, Internet style\n#\n# Note that "
+        - paragraph [ref=e271]:
+          - text: In the first line of the above session,
+          - code [ref=e272]: redis-cli
+          - text: was executed with the
+          - code [ref=e273]: "-x"
+          - text: option and a file was redirected to the CLI's standard input as the value to satisfy the
+          - code [ref=e274]: SET net_services
+          - text: command phrase. This is useful for scripting.
+        - paragraph [ref=e275]:
+          - text: A different approach is to feed
+          - code [ref=e276]: redis-cli
+          - text: "a sequence of commands written in a text file:"
+        - code [ref=e278]: $ cat /tmp/commands.txt SET item:3374 100 INCR item:3374 APPEND item:3374 xxx GET item:3374 $ cat /tmp/commands.txt | redis-cli OK (integer) 101 (integer) 6 "101xxx"
+        - paragraph [ref=e279]:
+          - text: All the commands in
+          - code [ref=e280]: commands.txt
+          - text: are executed consecutively by
+          - code [ref=e281]: redis-cli
+          - text: "as if they were typed by the user in interactive mode. Strings can be quoted inside the file if needed, so that it's possible to have single arguments with spaces, newlines, or other special characters:"
+        - code [ref=e283]: $ cat /tmp/commands.txt SET arg_example "This is a single argument" STRLEN arg_example $ cat /tmp/commands.txt | redis-cli OK (integer) 25
+        - heading [level=2] [ref=e284]:
+          - text: Continuously run the same command
+          - link "Link to this section" [ref=e285] [cursor=pointer]:
+            - /url: "#continuously-run-the-same-command"
+        - paragraph [ref=e288]:
+          - text: It is possible to execute a single command a specified number of times with a user-selected pause between executions. This is useful in different contexts - for example when we want to continuously monitor some key content or
+          - link [ref=e289] [cursor=pointer]:
+            - /url: /docs/latest/commands/info/
+            - code [ref=e290]: INFO
+          - text: field output, or when we want to simulate some recurring write event, such as pushing a new item into a list every 5 seconds.
+        - paragraph [ref=e291]:
+          - text: "This feature is controlled by two options:"
+          - code [ref=e292]: "-r <count>"
+          - text: and
+          - code [ref=e293]: "-i <delay>"
+          - text: . The
+          - code [ref=e294]: "-r"
+          - text: option states how many times to run a command and
+          - code [ref=e295]: "-i"
+          - text: sets the delay between the different command calls in seconds (with the ability to specify values such as 0.1 to represent 100 milliseconds).
+        - paragraph [ref=e296]: "By default the interval (or delay) is set to 0, so commands are just executed ASAP:"
+        - code [ref=e298]: $ redis-cli -r 5 INCR counter_value (integer) 1 (integer) 2 (integer) 3 (integer) 4 (integer) 5
+        - paragraph [ref=e299]:
+          - text: To run the same command indefinitely, use
+          - code [ref=e300]: "-1"
+          - text: "as the count value. To monitor over time the RSS memory size it's possible to use the following command:"
+        - code [ref=e302]: $ redis-cli -r -1 -i 1 INFO | grep rss_human used_memory_rss_human:2.71M used_memory_rss_human:2.73M used_memory_rss_human:2.73M used_memory_rss_human:2.73M ... a new line will be printed each second ...
+        - heading [level=2] [ref=e303]:
+          - text: Mass insertion of data using
+          - code [ref=e304]: redis-cli
+          - link "Link to this section" [ref=e305] [cursor=pointer]:
+            - /url: "#mass-insertion-of-data-using-redis-cli"
+        - paragraph [ref=e308]:
+          - text: Mass insertion using
+          - code [ref=e309]: redis-cli
+          - text: is covered in a separate page as it is a worthwhile topic itself. Please refer to our
+          - link "mass insertion guide" [ref=e310] [cursor=pointer]:
+            - /url: /docs/latest/develop/clients/patterns/bulk-loading/
+          - text: .
+        - heading [level=2] [ref=e311]:
+          - text: CSV output
+          - link "Link to this section" [ref=e312] [cursor=pointer]:
+            - /url: "#csv-output"
+        - paragraph [ref=e315]:
+          - text: A CSV (Comma Separated Values) output feature exists within
+          - code [ref=e316]: redis-cli
+          - text: to export data from Redis to an external program.
+        - code [ref=e318]: $ redis-cli LPUSH mylist a b c d (integer) 4 $ redis-cli --csv LRANGE mylist 0 -1 "d","c","b","a"
+        - paragraph [ref=e319]:
+          - text: Note that the
+          - code [ref=e320]: "--csv"
+          - text: flag will only work on a single command, not the entirety of a DB as an export.
+        - heading [level=2] [ref=e321]:
+          - text: Run Lua scripts
+          - link "Link to this section" [ref=e322] [cursor=pointer]:
+            - /url: "#run-lua-scripts"
+        - paragraph [ref=e325]:
+          - text: The
+          - code [ref=e326]: redis-cli
+          - text: has extensive support for using the debugging facility of Lua scripting, available with Redis 3.2 onwards. For this feature, refer to the
+          - link "Redis Lua debugger documentation" [ref=e327] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-debugging/
+          - text: .
+        - paragraph [ref=e328]:
+          - text: Even without using the debugger,
+          - code [ref=e329]: redis-cli
+          - text: "can be used to run scripts from a file as an argument:"
+        - code [ref=e331]: $ cat /tmp/script.lua return redis.call('SET',KEYS[1],ARGV[1]) $ redis-cli --eval /tmp/script.lua location:hastings:temp , 23 OK
+        - paragraph [ref=e332]:
+          - text: The Redis
+          - link [ref=e333] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e334]: EVAL
+          - text: command takes the list of keys the script uses, and the other non key arguments, as different arrays. When calling
+          - link [ref=e335] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e336]: EVAL
+          - text: you provide the number of keys as a number.
+        - paragraph [ref=e337]:
+          - text: When calling
+          - code [ref=e338]: redis-cli
+          - text: with the
+          - code [ref=e339]: "--eval"
+          - text: option above, there is no need to specify the number of keys explicitly. Instead it uses the convention of separating keys and arguments with a comma. This is why in the above call you see
+          - code [ref=e340]: location:hastings:temp , 23
+          - text: as arguments.
+        - paragraph [ref=e341]:
+          - text: So
+          - code [ref=e342]: location:hastings:temp
+          - text: will populate the
+          - link [ref=e343] [cursor=pointer]:
+            - /url: /docs/latest/commands/keys/
+            - code [ref=e344]: KEYS
+          - text: array, and
+          - code [ref=e345]: "23"
+          - text: the
+          - code [ref=e346]: ARGV
+          - text: array.
+        - paragraph [ref=e347]:
+          - text: The
+          - code [ref=e348]: "--eval"
+          - text: option is useful when writing simple scripts. For more complex work, the Lua debugger is recommended. It is possible to mix the two approaches, since the debugger can also execute scripts from an external file.
+        - heading [level=2] [ref=e349]:
+          - text: Interactive mode
+          - link "Link to this section" [ref=e350] [cursor=pointer]:
+            - /url: "#interactive-mode"
+        - paragraph [ref=e353]:
+          - text: We have explored how to use the Redis CLI as a command line program. This is useful for scripts and certain types of testing, however most people will spend the majority of time in
+          - code [ref=e354]: redis-cli
+          - text: using its interactive mode.
+        - paragraph [ref=e355]: In interactive mode the user types Redis commands at the prompt. The command is sent to the server, processed, and the reply is parsed back and rendered into a simpler form to read.
+        - paragraph [ref=e356]:
+          - text: Nothing special is needed for running the
+          - code [ref=e357]: redis-cli
+          - text: in interactive mode - just execute it without any arguments
+        - code [ref=e359]: $ redis-cli 127.0.0.1:6379> PING PONG
+        - paragraph [ref=e360]:
+          - text: The string
+          - code [ref=e361]: 127.0.0.1:6379>
+          - text: is the prompt. It displays the connected Redis server instance's hostname and port.
+        - paragraph [ref=e362]: "The prompt updates as the connected server changes or when operating on a database different from the database number zero:"
+        - code [ref=e364]: 127.0.0.1:6379> SELECT 2 OK 127.0.0.1:6379[2]> DBSIZE (integer) 1 127.0.0.1:6379[2]> SELECT 0 OK 127.0.0.1:6379> DBSIZE (integer) 503
+        - heading [level=3] [ref=e365]:
+          - text: Handle connections and reconnections
+          - link "Link to this section" [ref=e366] [cursor=pointer]:
+            - /url: "#handle-connections-and-reconnections"
+        - paragraph [ref=e369]:
+          - text: Using the
+          - code [ref=e370]: CONNECT
+          - text: command in interactive mode makes it possible to connect to a different instance, by specifying the
+          - emphasis [ref=e371]: hostname
+          - text: and
+          - emphasis [ref=e372]: port
+          - text: "we want to connect to:"
+        - code [ref=e374]: 127.0.0.1:6379> CONNECT metal 6379 metal:6379> PING PONG
+        - paragraph [ref=e375]:
+          - text: As you can see the prompt changes accordingly when connecting to a different server instance. If a connection is attempted to an instance that is unreachable, the
+          - code [ref=e376]: redis-cli
+          - text: "goes into disconnected mode and attempts to reconnect with each new command:"
+        - code [ref=e378]: "127.0.0.1:6379> CONNECT 127.0.0.1 9999 Could not connect to Redis at 127.0.0.1:9999: Connection refused not connected> PING Could not connect to Redis at 127.0.0.1:9999: Connection refused not connected> PING Could not connect to Redis at 127.0.0.1:9999: Connection refused"
+        - paragraph [ref=e379]:
+          - text: Generally after a disconnection is detected,
+          - code [ref=e380]: redis-cli
+          - text: "always attempts to reconnect transparently; if the attempt fails, it shows the error and enters the disconnected state. The following is an example of disconnection and reconnection:"
+        - code [ref=e382]: "127.0.0.1:6379> INFO SERVER Could not connect to Redis at 127.0.0.1:6379: Connection refused not connected> PING PONG 127.0.0.1:6379> (now we are connected again)"
+        - paragraph [ref=e383]:
+          - text: When a reconnection is performed,
+          - code [ref=e384]: redis-cli
+          - text: "automatically re-selects the last database number selected. However, all other states about the connection is lost, such as within a MULTI/EXEC transaction:"
+        - code [ref=e386]: $ redis-cli 127.0.0.1:6379> MULTI OK 127.0.0.1:6379> PING QUEUED ( here the server is manually restarted ) 127.0.0.1:6379> EXEC (error) ERR EXEC without MULTI
+        - paragraph [ref=e387]:
+          - text: This is usually not an issue when using the
+          - code [ref=e388]: redis-cli
+          - text: in interactive mode for testing, but this limitation should be known.
+        - paragraph [ref=e389]:
+          - text: Use the
+          - code [ref=e390]: "-t <timeout>"
+          - text: option to specify server timeout in seconds.
+        - heading [level=3] [ref=e391]:
+          - text: Editing, history, completion and hints
+          - link "Link to this section" [ref=e392] [cursor=pointer]:
+            - /url: "#editing-history-completion-and-hints"
+        - paragraph [ref=e395]:
+          - text: Because
+          - code [ref=e396]: redis-cli
+          - text: uses the
+          - link "linenoise line editing library" [ref=e397] [cursor=pointer]:
+            - /url: http://github.com/antirez/linenoise
+          - text: ", it always has line editing capabilities, without depending on"
+          - code [ref=e398]: libreadline
+          - text: or other optional libraries.
+        - paragraph [ref=e399]:
+          - text: Command execution history can be accessed in order to avoid retyping commands by pressing the arrow keys (up and down). The history is preserved between restarts of the CLI, in a file named
+          - code [ref=e400]: .rediscli_history
+          - text: inside the user home directory, as specified by the
+          - code [ref=e401]: HOME
+          - text: environment variable. It is possible to use a different history filename by setting the
+          - code [ref=e402]: REDISCLI_HISTFILE
+          - text: environment variable, and disable it by setting it to
+          - code [ref=e403]: /dev/null
+          - text: .
+        - paragraph [ref=e404]:
+          - text: The
+          - code [ref=e405]: redis-cli
+          - text: "client is also able to perform command-name completion by pressing the TAB key, as in the following example:"
+        - code [ref=e407]: 127.0.0.1:6379> Z<TAB> 127.0.0.1:6379> ZADD<TAB> 127.0.0.1:6379> ZCARD<TAB>
+        - paragraph [ref=e408]:
+          - text: Once Redis command name has been entered at the prompt, the
+          - code [ref=e409]: redis-cli
+          - text: will display syntax hints. Like command history, this behavior can be turned on and off via the
+          - code [ref=e410]: redis-cli
+          - text: preferences.
+        - paragraph [ref=e411]:
+          - text: Reverse history searches, such as
+          - code [ref=e412]: CTRL-R
+          - text: in terminals, is supported.
+        - paragraph [ref=e413]:
+          - text: Starting with Redis 8.8,
+          - code [ref=e414]: redis-cli
+          - text: supports word-jump navigation (
+          - code [ref=e415]: Alt/Option + ←/→
+          - text: ","
+          - code [ref=e416]: Ctrl + ←/→
+          - text: ), which makes editing long commands much more efficient.
+        - heading [level=3] [ref=e417]:
+          - text: Preferences
+          - link "Link to this section" [ref=e418] [cursor=pointer]:
+            - /url: "#preferences"
+        - paragraph [ref=e421]:
+          - text: There are two ways to customize
+          - code [ref=e422]: redis-cli
+          - text: behavior. The file
+          - code [ref=e423]: .redisclirc
+          - text: in the home directory is loaded by the CLI on startup. You can override the file's default location by setting the
+          - code [ref=e424]: REDISCLI_RCFILE
+          - text: environment variable to an alternative path. Preferences can also be set during a CLI session, in which case they will last only the duration of the session.
+        - paragraph [ref=e425]:
+          - text: To set preferences, use the special
+          - code [ref=e426]: :set
+          - text: command. The following preferences can be set, either by typing the command in the CLI or adding it to the
+          - code [ref=e427]: .redisclirc
+          - text: "file:"
+        - list [ref=e428]:
+          - listitem [ref=e429]:
+            - code [ref=e430]: :set hints
+            - text: "- enables syntax hints"
+          - listitem [ref=e431]:
+            - code [ref=e432]: :set nohints
+            - text: "- disables syntax hints"
+        - heading [level=3] [ref=e433]:
+          - text: Run the same command N times
+          - link "Link to this section" [ref=e434] [cursor=pointer]:
+            - /url: "#run-the-same-command-n-times"
+        - paragraph [ref=e437]: "It is possible to run the same command multiple times in interactive mode by prefixing the command name by a number:"
+        - code [ref=e439]: 127.0.0.1:6379> 5 INCR mycounter (integer) 1 (integer) 2 (integer) 3 (integer) 4 (integer) 5
+        - heading [level=3] [ref=e440]:
+          - text: Show online help for Redis commands
+          - link "Link to this section" [ref=e441] [cursor=pointer]:
+            - /url: "#show-online-help-for-redis-commands"
+        - paragraph [ref=e444]:
+          - code [ref=e445]: redis-cli
+          - text: provides online help for most Redis
+          - link "commands" [ref=e446] [cursor=pointer]:
+            - /url: /docs/latest/commands/
+          - text: ", using the"
+          - code [ref=e447]: HELP
+          - text: "command. The command can be used in two forms:"
+        - list [ref=e448]:
+          - listitem [ref=e449]:
+            - code [ref=e450]: HELP @<category>
+            - text: "shows all the commands about a given category. The categories are:"
+            - list [ref=e451]:
+              - listitem [ref=e452]:
+                - code [ref=e453]: "@generic"
+              - listitem [ref=e454]:
+                - code [ref=e455]: "@string"
+              - listitem [ref=e456]:
+                - code [ref=e457]: "@list"
+              - listitem [ref=e458]:
+                - code [ref=e459]: "@set"
+              - listitem [ref=e460]:
+                - code [ref=e461]: "@sorted_set"
+              - listitem [ref=e462]:
+                - code [ref=e463]: "@hash"
+              - listitem [ref=e464]:
+                - code [ref=e465]: "@pubsub"
+              - listitem [ref=e466]:
+                - code [ref=e467]: "@transactions"
+              - listitem [ref=e468]:
+                - code [ref=e469]: "@connection"
+              - listitem [ref=e470]:
+                - code [ref=e471]: "@server"
+              - listitem [ref=e472]:
+                - code [ref=e473]: "@scripting"
+              - listitem [ref=e474]:
+                - code [ref=e475]: "@hyperloglog"
+              - listitem [ref=e476]:
+                - code [ref=e477]: "@cluster"
+              - listitem [ref=e478]:
+                - code [ref=e479]: "@geo"
+              - listitem [ref=e480]:
+                - code [ref=e481]: "@stream"
+          - listitem [ref=e482]:
+            - code [ref=e483]: HELP <commandname>
+            - text: shows specific help for the command given as argument.
+        - paragraph [ref=e484]:
+          - text: For example in order to show help for the
+          - link [ref=e485] [cursor=pointer]:
+            - /url: /docs/latest/commands/pfadd/
+            - code [ref=e486]: PFADD
+          - text: "command, use:"
+        - code [ref=e488]: "127.0.0.1:6379> HELP PFADD PFADD key element [element ...] summary: Adds the specified elements to the specified HyperLogLog. since: 2.8.9"
+        - paragraph [ref=e489]:
+          - text: Note that
+          - code [ref=e490]: HELP
+          - text: supports TAB completion as well.
+        - heading [level=3] [ref=e491]:
+          - text: Clear the terminal screen
+          - link "Link to this section" [ref=e492] [cursor=pointer]:
+            - /url: "#clear-the-terminal-screen"
+        - paragraph [ref=e495]:
+          - text: Using the
+          - code [ref=e496]: CLEAR
+          - text: command in interactive mode clears the terminal's screen.
+        - heading [level=2] [ref=e497]:
+          - text: Special modes of operation
+          - link "Link to this section" [ref=e498] [cursor=pointer]:
+            - /url: "#special-modes-of-operation"
+        - paragraph [ref=e501]:
+          - text: So far we saw two main modes of
+          - code [ref=e502]: redis-cli
+          - text: .
+        - list [ref=e503]:
+          - listitem [ref=e504]: Command line execution of Redis commands.
+          - listitem [ref=e505]: Interactive "REPL" usage.
+        - paragraph [ref=e506]: "The CLI performs other auxiliary tasks related to Redis that are explained in the next sections:"
+        - list [ref=e507]:
+          - listitem [ref=e508]: Monitoring tool to show continuous stats about a Redis server.
+          - listitem [ref=e509]: Scanning a Redis database for very large keys.
+          - listitem [ref=e510]: Key space scanner with pattern matching.
+          - listitem [ref=e511]:
+            - text: Acting as a
+            - link "Pub/Sub" [ref=e512] [cursor=pointer]:
+              - /url: /docs/latest/develop/pubsub/
+            - text: client to subscribe to channels.
+          - listitem [ref=e513]: Monitoring the commands executed into a Redis instance.
+          - listitem [ref=e514]:
+            - text: Checking the
+            - link "latency" [ref=e515] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/management/optimization/latency/
+            - text: of a Redis server in different ways.
+          - listitem [ref=e516]: Checking the scheduler latency of the local computer.
+          - listitem [ref=e517]: Transferring RDB backups from a remote Redis server locally.
+          - listitem [ref=e518]: Acting as a Redis replica for showing what a replica receives.
+          - listitem [ref=e519]:
+            - text: Simulating
+            - link "LRU" [ref=e520] [cursor=pointer]:
+              - /url: /docs/latest/develop/reference/eviction/
+            - text: workloads for showing stats about keys hits.
+          - listitem [ref=e521]: A client for the Lua debugger.
+        - heading [level=3] [ref=e522]:
+          - text: Continuous stats mode
+          - link "Link to this section" [ref=e523] [cursor=pointer]:
+            - /url: "#continuous-stats-mode"
+        - paragraph [ref=e526]:
+          - text: Continuous stats mode is probably one of the lesser known yet very useful features of
+          - code [ref=e527]: redis-cli
+          - text: to monitor Redis instances in real time. To enable this mode, the
+          - code [ref=e528]: "--stat"
+          - text: "option is used. The output is very clear about the behavior of the CLI in this mode:"
+        - code [ref=e530]: $ redis-cli --stat ------- data ------ --------------------- load -------------------- - child - keys mem clients blocked requests connections 506 1015.00K 1 0 24 (+0) 7 506 1015.00K 1 0 25 (+1) 7 506 3.40M 51 0 60461 (+60436) 57 506 3.40M 51 0 146425 (+85964) 107 507 3.40M 51 0 233844 (+87419) 157 507 3.40M 51 0 321715 (+87871) 207 508 3.40M 51 0 408642 (+86927) 257 508 3.40M 51 0 497038 (+88396) 257
+        - paragraph [ref=e531]:
+          - text: In this mode a new line is printed every second with useful information and differences of request values between old data points. Memory usage, client connection counts, and various other statistics about the connected Redis database can be easily understood with this auxiliary
+          - code [ref=e532]: redis-cli
+          - text: tool.
+        - paragraph [ref=e533]:
+          - text: The
+          - code [ref=e534]: "-i <interval>"
+          - text: option in this case works as a modifier in order to change the frequency at which new lines are emitted. The default is one second.
+        - heading [level=2] [ref=e535]:
+          - text: Scan for big keys and memory usage
+          - link "Link to this section" [ref=e536] [cursor=pointer]:
+            - /url: "#scan-for-big-keys-and-memory-usage"
+        - heading [level=3] [ref=e539]:
+          - text: Big keys
+          - link "Link to this section" [ref=e540] [cursor=pointer]:
+            - /url: "#big-keys"
+        - paragraph [ref=e543]:
+          - text: In this special mode,
+          - code [ref=e544]: redis-cli
+          - text: works as a key space analyzer. It scans the dataset for big keys, but also provides information about the data types that the data set consists of. This mode is enabled with the
+          - code [ref=e545]: "--bigkeys"
+          - text: "option, and produces verbose output:"
+        - generic [ref=e546]:
+          - checkbox "Show full output" [ref=e547]
+          - code [ref=e550]: "$ redis-cli --bigkeys # Scanning the entire keyspace to find biggest keys as well as # average sizes per key type. You can use -i 0.1 to sleep 0.1 sec # per 100 SCAN commands (not usually needed). 100.00% |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| Keys sampled: 55 -------- summary ------- Total key length in bytes is 495 (avg len 9.00) Biggest list found \"bikes:finished\" has 1 items Biggest string found \"all_bikes\" has 36 bytes Biggest hash found \"bike:1:stats\" has 3 fields Biggest stream found \"race:france\" has 4 entries Biggest set found \"bikes:racing:france\" has 3 members Biggest zset found \"racer_scores\" has 8 members 1 lists with 1 items (01.82% of keys, avg size 1.00) 16 strings with 149 bytes (29.09% of keys, avg size 9.31) 1 MBbloomCFs with 0 ? (01.82% of keys, avg size 0.00) 1 hashs with 3 fields (01.82% of keys, avg size 3.00) 3 streams with 8 entries (05.45% of keys, avg size 2.67) 2 TDIS-TYPEs with 0 ? (03.64% of keys, avg size 0.00) 1 TopK-TYPEs with 0 ? (01.82% of keys, avg size 0.00) 2 sets with 5 members (03.64% of keys, avg size 2.50) 1 CMSk-TYPEs with 0 ? (01.82% of keys, avg size 0.00) 2 zsets with 11 members (03.64% of keys, avg size 5.50) 25 ReJSON-RLs with 0 ? (45.45% of keys, avg size 0.00)"
+          - generic [ref=e551] [cursor=pointer]: Show full output
+        - paragraph [ref=e553]: In the first part of the output, each new key larger than the previous larger key (of the same type) encountered is reported. The summary section provides general stats about the data inside the Redis instance.
+        - paragraph [ref=e554]:
+          - text: The program uses the
+          - link [ref=e555] [cursor=pointer]:
+            - /url: /docs/latest/commands/scan/
+            - code [ref=e556]: SCAN
+          - text: command, so it can be executed against a busy server without impacting the operations, however the
+          - code [ref=e557]: "-i"
+          - text: option can be used in order to throttle the scanning process of the specified fraction of second for each
+          - link [ref=e558] [cursor=pointer]:
+            - /url: /docs/latest/commands/scan/
+            - code [ref=e559]: SCAN
+          - text: command.
+        - paragraph [ref=e560]:
+          - text: For example,
+          - code [ref=e561]: "-i 0.01"
+          - text: will slow down the program execution considerably, but will also reduce the load on the server to a negligible amount.
+        - paragraph [ref=e562]: Note that the summary also reports in a cleaner form the biggest keys found for each time. The initial output is just to provide some interesting info ASAP if running against a very large data set.
+        - paragraph [ref=e563]:
+          - text: The
+          - code [ref=e564]: "--bigkeys"
+          - text: option now works on cluster replicas.
+        - heading [level=3] [ref=e565]:
+          - text: Memory usage
+          - link "Link to this section" [ref=e566] [cursor=pointer]:
+            - /url: "#memory-usage"
+        - paragraph [ref=e569]:
+          - text: Similar to the
+          - code [ref=e570]: "--bigkeys"
+          - text: option,
+          - code [ref=e571]: "--memkeys"
+          - text: allows you to scan the entire keyspace to find biggest keys as well as the average sizes per key type.
+        - generic [ref=e572]:
+          - checkbox "Show full output" [ref=e573]
+          - code [ref=e576]: "$ redis-cli --memkeys # Scanning the entire keyspace to find biggest keys as well as # average sizes per key type. You can use -i 0.1 to sleep 0.1 sec # per 100 SCAN commands (not usually needed). 100.00% |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| Keys sampled: 55 -------- summary ------- Total key length in bytes is 495 (avg len 9.00) Biggest list found \"bikes:finished\" has 104 bytes Biggest string found \"all_bikes\" has 120 bytes Biggest MBbloomCF found \"bikes:models\" has 1048680 bytes Biggest hash found \"bike:1:stats\" has 104 bytes Biggest stream found \"race:italy\" has 7172 bytes Biggest TDIS-TYPE found \"bikes:sales\" has 9832 bytes Biggest TopK-TYPE found \"bikes:keywords\" has 114256 bytes Biggest set found \"bikes:racing:france\" has 120 bytes Biggest CMSk-TYPE found \"bikes:profit\" has 144056 bytes Biggest zset found \"racer_scores\" has 168 bytes Biggest ReJSON-RL found \"bikes:inventory\" has 4865 bytes 1 lists with 104 bytes (01.82% of keys, avg size 104.00) 16 strings with 1360 bytes (29.09% of keys, avg size 85.00) 1 MBbloomCFs with 1048680 bytes (01.82% of keys, avg size 1048680.00) 1 hashs with 104 bytes (01.82% of keys, avg size 104.00) 3 streams with 16960 bytes (05.45% of keys, avg size 5653.33) 2 TDIS-TYPEs with 19648 bytes (03.64% of keys, avg size 9824.00) 1 TopK-TYPEs with 114256 bytes (01.82% of keys, avg size 114256.00) 2 sets with 208 bytes (03.64% of keys, avg size 104.00) 1 CMSk-TYPEs with 144056 bytes (01.82% of keys, avg size 144056.00) 2 zsets with 304 bytes (03.64% of keys, avg size 152.00) 25 ReJSON-RLs with 15748 bytes (45.45% of keys, avg size 629.92)"
+          - generic [ref=e577] [cursor=pointer]: Show full output
+        - paragraph [ref=e579]:
+          - text: The
+          - code [ref=e580]: "--memkeys"
+          - text: option now works on cluster replicas.
+        - heading [level=3] [ref=e581]:
+          - text: Combine
+          - code [ref=e582]: "--bigkeys"
+          - text: and
+          - code [ref=e583]: "--memkeys"
+          - link "Link to this section" [ref=e584] [cursor=pointer]:
+            - /url: "#combine---bigkeys-and---memkeys"
+        - paragraph [ref=e587]:
+          - text: You can use the
+          - code [ref=e588]: "--keystats"
+          - text: and
+          - code [ref=e589]: "--keystats-samples"
+          - text: options to combine
+          - code [ref=e590]: "--memkeys"
+          - text: and
+          - code [ref=e591]: "--bigkeys"
+          - text: with additional distribution data.
+        - generic [ref=e592]:
+          - checkbox "Show full output" [ref=e593]
+          - code [ref=e596]: "$ redis-cli --keystats # Scanning the entire keyspace to find the biggest keys and distribution information. # Use -i 0.1 to sleep 0.1 sec per 100 SCAN commands (not usually needed). # Use --cursor <n> to start the scan at the cursor <n> (usually after a Ctrl-C). # Use --top <n> to display <n> top key sizes (default is 10). # Ctrl-C to stop the scan. 100.00% |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| Keys sampled: 55 Keys size: 1.30M --- Top 10 key sizes --- 1 1.00M MBbloomCF \"bikes:models\" 2 140.68K CMSk-TYPE \"bikes:profit\" 3 111.58K TopK-TYPE \"bikes:keywords\" 4 9.60K TDIS-TYPE \"bikes:sales\" 5 9.59K TDIS-TYPE \"racer_ages\" 6 7.00K stream \"race:italy\" 7 4.92K stream \"race:france\" 8 4.75K ReJSON-RL \"bikes:inventory\" 9 4.64K stream \"race:usa\" 10 1.26K ReJSON-RL \"bicycle:7\" --- Top size per type --- list bikes:finished is 104B string all_bikes is 120B MBbloomCF bikes:models is 1.00M hash bike:1:stats is 104B stream race:italy is 7.00K TDIS-TYPE bikes:sales is 9.60K TopK-TYPE bikes:keywords is 111.58K set bikes:racing:france is 120B CMSk-TYPE bikes:profit is 140.68K zset racer_scores is 168B ReJSON-RL bikes:inventory is 4.75K --- Top length and cardinality per type --- list bikes:finished has 1 items string all_bikes has 36B hash bike:1:stats has 3 fields stream race:france has 4 entries set bikes:racing:france has 3 members zset racer_scores has 8 members Key size Percentile Total keys -------- ---------- ----------- 64B 0.0000% 3 239B 50.0000% 28 763B 75.0000% 42 4.92K 87.5000% 49 9.60K 93.7500% 52 140.69K 96.8750% 54 1.00M 100.0000% 55 Note: 0.01% size precision, Mean: 24.17K, StdDeviation: 138.12K Key name length Percentile Total keys --------------- ---------- ----------- 19B 100.0000% 55 Total key length is 495B (9B avg) Type Total keys Keys % Tot size Avg size Total length/card Avg ln/card --------- ------------ ------- -------- -------- ------------------ ----------- list 1 1.82% 104B 104B 1 items 1.00 string 16 29.09% 1.33K 85B 149B 9B MBbloomCF 1 1.82% 1.00M 1.00M - - hash 1 1.82% 104B 104B 3 fields 3.00 stream 3 5.45% 16.56K 5.52K 8 entries 2.67 TDIS-TYPE 2 3.64% 19.19K 9.59K - - TopK-TYPE 1 1.82% 111.58K 111.58K - - set 2 3.64% 208B 104B 5 members 2.50 CMSk-TYPE 1 1.82% 140.68K 140.68K - - zset 2 3.64% 304B 152B 11 members 5.50 ReJSON-RL 25 45.45% 15.38K 629B - -"
+          - generic [ref=e597] [cursor=pointer]: Show full output
+        - heading [level=2] [ref=e599]:
+          - text: Get a list of keys
+          - link "Link to this section" [ref=e600] [cursor=pointer]:
+            - /url: "#get-a-list-of-keys"
+        - paragraph [ref=e603]:
+          - text: It is also possible to scan the key space, again in a way that does not block the Redis server (which does happen when you use a command like
+          - code [ref=e604]: KEYS *
+          - text: ), and print all the key names, or filter them for specific patterns. This mode, like the
+          - code [ref=e605]: "--bigkeys"
+          - text: option, uses the
+          - link [ref=e606] [cursor=pointer]:
+            - /url: /docs/latest/commands/scan/
+            - code [ref=e607]: SCAN
+          - text: command, so keys may be reported multiple times if the dataset is changing, but no key would ever be missing, if that key was present since the start of the iteration. Because of the command that it uses this option is called
+          - code [ref=e608]: "--scan"
+          - text: .
+        - code [ref=e610]: $ redis-cli --scan | head -10 key-419 key-71 key-236 key-50 key-38 key-458 key-453 key-499 key-446 key-371
+        - paragraph [ref=e611]:
+          - text: Note that
+          - code [ref=e612]: head -10
+          - text: is used in order to print only the first ten lines of the output.
+        - paragraph [ref=e613]:
+          - text: Scanning is able to use the underlying pattern matching capability of the
+          - link [ref=e614] [cursor=pointer]:
+            - /url: /docs/latest/commands/scan/
+            - code [ref=e615]: SCAN
+          - text: command with the
+          - code [ref=e616]: "--pattern"
+          - text: option.
+        - code [ref=e618]: $ redis-cli --scan --pattern '*-11*' key-114 key-117 key-118 key-113 key-115 key-112 key-119 key-11 key-111 key-110 key-116
+        - paragraph [ref=e619]:
+          - text: Piping the output through the
+          - code [ref=e620]: wc
+          - text: "command can be used to count specific kind of objects, by key name:"
+        - code [ref=e622]: $ redis-cli --scan --pattern 'user:*' | wc -l 3829433
+        - paragraph [ref=e623]:
+          - text: You can use
+          - code [ref=e624]: "-i 0.01"
+          - text: to add a delay between calls to the
+          - link [ref=e625] [cursor=pointer]:
+            - /url: /docs/latest/commands/scan/
+            - code [ref=e626]: SCAN
+          - text: command. This will make the command slower but will significantly reduce load on the server.
+        - heading [level=2] [ref=e627]:
+          - text: Pub/sub mode
+          - link "Link to this section" [ref=e628] [cursor=pointer]:
+            - /url: "#pubsub-mode"
+        - paragraph [ref=e631]:
+          - text: The CLI is able to publish messages in Redis Pub/Sub channels using the
+          - link [ref=e632] [cursor=pointer]:
+            - /url: /docs/latest/commands/publish/
+            - code [ref=e633]: PUBLISH
+          - text: command. Subscribing to channels in order to receive messages is different - the terminal is blocked and waits for messages, so this is implemented as a special mode in
+          - code [ref=e634]: redis-cli
+          - text: . Unlike other special modes this mode is not enabled by using a special option, but simply by using the
+          - link [ref=e635] [cursor=pointer]:
+            - /url: /docs/latest/commands/subscribe/
+            - code [ref=e636]: SUBSCRIBE
+          - text: or
+          - link [ref=e637] [cursor=pointer]:
+            - /url: /docs/latest/commands/psubscribe/
+            - code [ref=e638]: PSUBSCRIBE
+          - text: "command, which are available in interactive or command mode:"
+        - code [ref=e640]: $ redis-cli PSUBSCRIBE '*' Reading messages... (press Ctrl-C to quit) 1) "PSUBSCRIBE" 2) "*" 3) (integer) 1
+        - paragraph [ref=e641]:
+          - text: The
+          - emphasis [ref=e642]: reading messages
+          - text: message shows that we entered Pub/Sub mode. When another client publishes some message in some channel, such as with the command
+          - code [ref=e643]: redis-cli PUBLISH mychannel mymessage
+          - text: ", the CLI in Pub/Sub mode will show something such as:"
+        - code [ref=e645]: 1) "pmessage" 2) "*" 3) "mychannel" 4) "mymessage"
+        - paragraph [ref=e646]:
+          - text: This is very useful for debugging Pub/Sub issues. To exit the Pub/Sub mode just process
+          - code [ref=e647]: CTRL-C
+          - text: .
+        - heading [level=2] [ref=e648]:
+          - text: Monitor commands executed in Redis
+          - link "Link to this section" [ref=e649] [cursor=pointer]:
+            - /url: "#monitor-commands-executed-in-redis"
+        - paragraph [ref=e652]:
+          - text: Similarly to the Pub/Sub mode, the monitoring mode is entered automatically once you use the
+          - link [ref=e653] [cursor=pointer]:
+            - /url: /docs/latest/commands/monitor/
+            - code [ref=e654]: MONITOR
+          - text: "command. All commands received by the active Redis instance will be printed to the standard output:"
+        - code [ref=e656]: $ redis-cli MONITOR OK 1460100081.165665 [0 127.0.0.1:51706] "set" "shipment:8000736522714:status" "sorting" 1460100083.053365 [0 127.0.0.1:51707] "get" "shipment:8000736522714:status"
+        - paragraph [ref=e657]:
+          - text: Note that it is possible to pipe the output, so you can monitor for specific patterns using tools such as
+          - code [ref=e658]: grep
+          - text: .
+        - heading [level=2] [ref=e659]:
+          - text: Monitor the latency of Redis instances
+          - link "Link to this section" [ref=e660] [cursor=pointer]:
+            - /url: "#monitor-the-latency-of-redis-instances"
+        - paragraph [ref=e663]: Redis is often used in contexts where latency is very critical. Latency involves multiple moving parts within the application, from the client library to the network stack, to the Redis instance itself.
+        - paragraph [ref=e664]:
+          - text: The
+          - code [ref=e665]: redis-cli
+          - text: has multiple facilities for studying the latency of a Redis instance and understanding the latency's maximum, average and distribution.
+        - paragraph [ref=e666]:
+          - text: The basic latency-checking tool is the
+          - code [ref=e667]: "--latency"
+          - text: option. Using this option the CLI runs a loop where the
+          - link [ref=e668] [cursor=pointer]:
+            - /url: /docs/latest/commands/ping/
+            - code [ref=e669]: PING
+          - text: "command is sent to the Redis instance and the time to receive a reply is measured. This happens 100 times per second, and stats are updated in a real time in the console:"
+        - code [ref=e671]: "$ redis-cli --latency min: 0, max: 1, avg: 0.19 (427 samples)"
+        - paragraph [ref=e672]:
+          - text: The stats are provided in milliseconds. Usually, the average latency of a very fast instance tends to be overestimated a bit because of the latency due to the kernel scheduler of the system running
+          - code [ref=e673]: redis-cli
+          - text: itself, so the average latency of 0.19 above may easily be 0.01 or less. However this is usually not a big problem, since most developers are interested in events of a few milliseconds or more.
+        - paragraph [ref=e674]:
+          - text: Sometimes it is useful to study how the maximum and average latencies evolve during time. The
+          - code [ref=e675]: "--latency-history"
+          - text: "option is used for that purpose: it works exactly like"
+          - code [ref=e676]: "--latency"
+          - text: ", but every 15 seconds (by default) a new sampling session is started from scratch:"
+        - code [ref=e678]: "$ redis-cli --latency-history min: 0, max: 1, avg: 0.14 (1314 samples) -- 15.01 seconds range min: 0, max: 1, avg: 0.18 (1299 samples) -- 15.00 seconds range min: 0, max: 1, avg: 0.20 (113 samples)^C"
+        - paragraph [ref=e679]:
+          - text: Sampling sessions' length can be changed with the
+          - code [ref=e680]: "-i <interval>"
+          - text: option.
+        - paragraph [ref=e681]:
+          - text: The most advanced latency study tool, but also the most complex to interpret for non-experienced users, is the ability to use color terminals to show a spectrum of latencies. You'll see a colored output that indicates the different percentages of samples, and different ASCII characters that indicate different latency figures. This mode is enabled using the
+          - code [ref=e682]: "--latency-dist"
+          - text: "option:"
+        - code [ref=e684]: $ redis-cli --latency-dist (output not displayed, requires a color terminal, try it!)
+        - paragraph [ref=e685]:
+          - text: There is another pretty unusual latency tool implemented inside
+          - code [ref=e686]: redis-cli
+          - text: . It does not check the latency of a Redis instance, but the latency of the computer running
+          - code [ref=e687]: redis-cli
+          - text: . This latency is intrinsic to the kernel scheduler, the hypervisor in case of virtualized instances, and so forth.
+        - paragraph [ref=e688]:
+          - text: Redis calls it
+          - emphasis [ref=e689]: intrinsic latency
+          - text: because it's mostly opaque to the programmer. If the Redis instance has high latency regardless of all the obvious things that may be the source cause, it's worth to check what's the best your system can do by running
+          - code [ref=e690]: redis-cli
+          - text: in this special mode directly in the system you are running Redis servers on.
+        - paragraph [ref=e691]:
+          - text: By measuring the intrinsic latency, you know that this is the baseline, and Redis cannot outdo your system. In order to run the CLI in this mode, use the
+          - code [ref=e692]: "--intrinsic-latency <test-time>"
+          - text: . Note that the test time is in seconds and dictates how long the test should run.
+        - code [ref=e694]: "$ ./redis-cli --intrinsic-latency 5 Max latency so far: 1 microseconds. Max latency so far: 7 microseconds. Max latency so far: 9 microseconds. Max latency so far: 11 microseconds. Max latency so far: 13 microseconds. Max latency so far: 15 microseconds. Max latency so far: 34 microseconds. Max latency so far: 82 microseconds. Max latency so far: 586 microseconds. Max latency so far: 739 microseconds. 65433042 total runs (avg latency: 0.0764 microseconds / 764.14 nanoseconds per run). Worst run took 9671x longer than the average latency."
+        - paragraph [ref=e695]: "IMPORTANT: this command must be executed on the computer that runs the Redis server instance, not on a different host. It does not connect to a Redis instance and performs the test locally."
+        - paragraph [ref=e696]: In the above case, the system cannot do better than 739 microseconds of worst case latency, so one can expect certain queries to occasionally run less than 1 millisecond.
+        - heading [level=2] [ref=e697]:
+          - text: Remote backups of RDB files
+          - link "Link to this section" [ref=e698] [cursor=pointer]:
+            - /url: "#remote-backups-of-rdb-files"
+        - paragraph [ref=e701]:
+          - text: During a Redis replication's first synchronization, the primary and the replica exchange the whole data set in the form of an RDB file. This feature is exploited by
+          - code [ref=e702]: redis-cli
+          - text: in order to provide a remote backup facility that allows a transfer of an RDB file from any Redis instance to the local computer running
+          - code [ref=e703]: redis-cli
+          - text: . To use this mode, call the CLI with the
+          - code [ref=e704]: "--rdb <dest-filename>"
+          - text: "option:"
+        - code [ref=e706]: $ redis-cli --rdb /tmp/dump.rdb SYNC sent to master, writing 13256 bytes to '/tmp/dump.rdb' Transfer finished with success.
+        - paragraph [ref=e707]:
+          - text: This is a simple but effective way to ensure disaster recovery RDB backups exist of your Redis instance. When using this options in scripts or
+          - code [ref=e708]: cron
+          - text: "jobs, make sure to check the return value of the command. If it is non zero, an error occurred as in the following example:"
+        - code [ref=e710]: "$ redis-cli --rdb /tmp/dump.rdb SYNC with master failed: -ERR Can't SYNC while not connected with my master $ echo $? 1"
+        - heading [level=2] [ref=e711]:
+          - text: Replica mode
+          - link "Link to this section" [ref=e712] [cursor=pointer]:
+            - /url: "#replica-mode"
+        - paragraph [ref=e715]:
+          - text: The replica mode of the CLI is an advanced feature useful for Redis developers and for debugging operations. It allows for the inspection of the content a primary sends to its replicas in the replication stream in order to propagate the writes to its replicas. The option name is simply
+          - code [ref=e716]: "--replica"
+          - text: ". The following is a working example:"
+        - code [ref=e718]: $ redis-cli --replica SYNC with master, discarding 13256 bytes of bulk transfer... SYNC done. Logging commands from master. "PING" "SELECT","0" "SET","last_name","Enigk" "PING" "INCR","mycounter"
+        - paragraph [ref=e719]: The command begins by discarding the RDB file of the first synchronization and then logs each command received in CSV format.
+        - paragraph [ref=e720]: If you think some of the commands are not replicated correctly in your replicas this is a good way to check what's happening, and also useful information in order to improve the bug report.
+        - heading [level=2] [ref=e721]:
+          - text: Perform an LRU simulation
+          - link "Link to this section" [ref=e722] [cursor=pointer]:
+            - /url: "#perform-an-lru-simulation"
+        - paragraph [ref=e725]:
+          - text: Redis is often used as a cache with
+          - link "LRU eviction" [ref=e726] [cursor=pointer]:
+            - /url: /docs/latest/develop/reference/eviction/
+          - text: . Depending on the number of keys and the amount of memory allocated for the cache (specified via the
+          - code [ref=e727]: maxmemory
+          - text: directive), the amount of cache hits and misses will change. Sometimes, simulating the rate of hits is very useful to correctly provision your cache.
+        - paragraph [ref=e728]:
+          - text: The
+          - code [ref=e729]: redis-cli
+          - text: has a special mode where it performs a simulation of GET and SET operations, using an 80-20% power law distribution in the requests pattern. This means that 20% of keys will be requested 80% of times, which is a common distribution in caching scenarios.
+        - paragraph [ref=e730]: "Theoretically, given the distribution of the requests and the Redis memory overhead, it should be possible to compute the hit rate analytically with a mathematical formula. However, Redis can be configured with different LRU settings (number of samples) and LRU's implementation, which is approximated in Redis, changes a lot between different versions. Similarly the amount of memory per key may change between versions. That is why this tool was built: its main motivation was for testing the quality of Redis' LRU implementation, but now is also useful for testing how a given version behaves with the settings originally intended for deployment."
+        - paragraph [ref=e731]:
+          - text: To use this mode, specify the amount of keys in the test and configure a sensible
+          - code [ref=e732]: maxmemory
+          - text: setting as a first attempt.
+        - paragraph [ref=e733]:
+          - text: "IMPORTANT NOTE: Configuring the"
+          - code [ref=e734]: maxmemory
+          - text: "setting in the Redis configuration is crucial: if there is no cap to the maximum memory usage, the hit will eventually be 100% since all the keys can be stored in memory. If too many keys are specified with maximum memory, eventually all of the computer RAM will be used. It is also needed to configure an appropriate"
+          - emphasis [ref=e735]: maxmemory policy
+          - text: ; most of the time
+          - code [ref=e736]: allkeys-lru
+          - text: is selected.
+        - paragraph [ref=e737]: In the following example there is a configured a memory limit of 100MB and an LRU simulation using 10 million keys.
+        - paragraph [ref=e738]: "WARNING: the test uses pipelining and will stress the server, don't use it with production instances."
+        - code [ref=e740]: "$ ./redis-cli --lru-test 10000000 156000 Gets/sec | Hits: 4552 (2.92%) | Misses: 151448 (97.08%) 153750 Gets/sec | Hits: 12906 (8.39%) | Misses: 140844 (91.61%) 159250 Gets/sec | Hits: 21811 (13.70%) | Misses: 137439 (86.30%) 151000 Gets/sec | Hits: 27615 (18.29%) | Misses: 123385 (81.71%) 145000 Gets/sec | Hits: 32791 (22.61%) | Misses: 112209 (77.39%) 157750 Gets/sec | Hits: 42178 (26.74%) | Misses: 115572 (73.26%) 154500 Gets/sec | Hits: 47418 (30.69%) | Misses: 107082 (69.31%) 151250 Gets/sec | Hits: 51636 (34.14%) | Misses: 99614 (65.86%)"
+        - paragraph [ref=e741]: "The program shows stats every second. In the first seconds the cache starts to be populated. The misses rate later stabilizes into the actual figure that can be expected:"
+        - code [ref=e743]: "120750 Gets/sec | Hits: 48774 (40.39%) | Misses: 71976 (59.61%) 122500 Gets/sec | Hits: 49052 (40.04%) | Misses: 73448 (59.96%) 127000 Gets/sec | Hits: 50870 (40.06%) | Misses: 76130 (59.94%) 124250 Gets/sec | Hits: 50147 (40.36%) | Misses: 74103 (59.64%)"
+        - paragraph [ref=e744]: "A miss rate of 59% may not be acceptable for certain use cases; 100MB of memory is not enough. Observe an example using a half gigabyte of memory. After several minutes the output stabilizes to the following figures:"
+        - code [ref=e746]: "140000 Gets/sec | Hits: 135376 (96.70%) | Misses: 4624 (3.30%) 141250 Gets/sec | Hits: 136523 (96.65%) | Misses: 4727 (3.35%) 140250 Gets/sec | Hits: 135457 (96.58%) | Misses: 4793 (3.42%) 140500 Gets/sec | Hits: 135947 (96.76%) | Misses: 4553 (3.24%)"
+        - paragraph [ref=e747]: With 500MB there is sufficient space for the key quantity (10 million) and distribution (80-20 style).
+        - heading [level=2] [ref=e748]:
+          - text: Usage
+          - link "Link to this section" [ref=e749] [cursor=pointer]:
+            - /url: "#usage"
+        - generic [ref=e752]:
+          - code [ref=e754]:
+            - generic [ref=e755]: "Usage: redis-cli [OPTIONS] [cmd [arg [arg ...]]]"
+          - button "Copy to clipboard" [ref=e758] [cursor=pointer]
+        - paragraph [ref=e761]: "Options:"
+        - list [ref=e762]:
+          - listitem [ref=e763]:
+            - code [ref=e764]: "-h <hostname>"
+            - text: ": Server hostname (default: 127.0.0.1)."
+          - listitem [ref=e765]:
+            - code [ref=e766]: "-p <port>"
+            - text: ": Server port (default: 6379)."
+          - listitem [ref=e767]:
+            - code [ref=e768]: "-t <timeout>"
+            - text: ": Server connection timeout in seconds (decimals allowed). Default timeout is 0, meaning no limit, depending on the OS."
+          - listitem [ref=e769]:
+            - code [ref=e770]: "-s <socket>"
+            - text: ": Server socket (overrides hostname and port)."
+          - listitem [ref=e771]:
+            - code [ref=e772]: "-a <password>"
+            - text: ": Password to use when connecting to the server. You can also use the REDISCLI_AUTH environment variable to pass this password more safely (if both are used, this argument takes precedence)."
+          - listitem [ref=e773]:
+            - code [ref=e774]: "--user <username>"
+            - text: ": Used to send ACL style 'AUTH username pass'. Needs -a."
+          - listitem [ref=e775]:
+            - code [ref=e776]: "--pass <password>"
+            - text: ": Alias of -a for consistency with the new --user option."
+          - listitem [ref=e777]:
+            - code [ref=e778]: "--askpass"
+            - text: ": Force user to input password with mask from STDIN. If this argument is used, '-a' and REDISCLI_AUTH environment variable will be ignored."
+          - listitem [ref=e779]:
+            - code [ref=e780]: "-u <uri>"
+            - text: ": Server URI on format redis://user:password@host:port/dbnum User, password and dbnum are optional. For authentication without a username, use username 'default'. For TLS, use the scheme 'rediss'."
+          - listitem [ref=e781]:
+            - code [ref=e782]: "-r <repeat>"
+            - text: ": Execute specified command N times."
+          - listitem [ref=e783]:
+            - code [ref=e784]: "-i <interval>"
+            - text: ": When -r is used, waits"
+            - code [ref=e785]: <interval>
+            - text: seconds per command. It is possible to specify sub-second times like -i 0.1. This interval is also used in --scan and --stat per cycle. and in --bigkeys, --memkeys, --keystats, and --hotkeys per 100 cycles.
+          - listitem [ref=e786]:
+            - code [ref=e787]: "-n <db>"
+            - text: ": Database number."
+          - listitem [ref=e788]:
+            - code [ref=e789]: "-2"
+            - text: ": Start session in RESP2 protocol mode."
+          - listitem [ref=e790]:
+            - code [ref=e791]: "-3"
+            - text: ": Start session in RESP3 protocol mode."
+          - listitem [ref=e792]:
+            - code [ref=e793]: "-x"
+            - text: ": Read last argument from STDIN (see example below)."
+          - listitem [ref=e794]:
+            - code [ref=e795]: "-X"
+            - text: ": Read"
+            - code [ref=e796]: <tag>
+            - text: argument from STDIN (see example below).
+          - listitem [ref=e797]:
+            - code [ref=e798]: "-d <delimiter>"
+            - text: ": Delimiter between response bulks for raw formatting (default: \\n)."
+          - listitem [ref=e799]:
+            - code [ref=e800]: "-D <delimiter>"
+            - text: ": Delimiter between responses for raw formatting (default: \\n)."
+          - listitem [ref=e801]:
+            - code [ref=e802]: "-c"
+            - text: ": Enable cluster mode (follow -ASK and -MOVED redirections)."
+          - listitem [ref=e803]:
+            - code [ref=e804]: "-e"
+            - text: ": Return exit error code when command execution fails."
+          - listitem [ref=e805]:
+            - code [ref=e806]: "-4"
+            - text: ": Prefer IPv4 over IPv6 on DNS lookup."
+          - listitem [ref=e807]:
+            - code [ref=e808]: "-6"
+            - text: ": Prefer IPv6 over IPv4 on DNS lookup."
+          - listitem [ref=e809]:
+            - code [ref=e810]: "--raw"
+            - text: ": Use raw formatting for replies (default when STDOUT is not a tty)."
+          - listitem [ref=e811]:
+            - code [ref=e812]: "--no-raw"
+            - text: ": Force formatted output even when STDOUT is not a tty."
+          - listitem [ref=e813]:
+            - code [ref=e814]: "--quoted-input"
+            - text: ": Force input to be handled as quoted strings."
+          - listitem [ref=e815]:
+            - code [ref=e816]: "--csv"
+            - text: ": Output in CSV format."
+          - listitem [ref=e817]:
+            - code [ref=e818]: "--json"
+            - text: ": Output in JSON format (default RESP3, use -2 if you want to use with RESP2)."
+          - listitem [ref=e819]:
+            - code [ref=e820]: "--quoted-json"
+            - text: ": Same as --json, but produce ASCII-safe quoted strings, not Unicode."
+          - listitem [ref=e821]:
+            - code [ref=e822]: "--show-pushes <yn>"
+            - text: ": Whether to print RESP3 PUSH messages. Enabled by default when STDOUT is a tty but can be overridden with --show-pushes no."
+          - listitem [ref=e823]:
+            - code [ref=e824]: "--stat"
+            - text: ": Print rolling stats about server: mem, clients, ..."
+          - listitem [ref=e825]:
+            - code [ref=e826]: "--latency"
+            - text: ": Enter a special mode continuously sampling latency. If you use this mode in an interactive session it runs forever displaying real-time stats. Otherwise if --raw or --csv is specified, or if you redirect the output to a non TTY, it samples the latency for 1 second (you can use -i to change the interval), then produces a single output and exits."
+          - listitem [ref=e827]:
+            - code [ref=e828]: "--latency-history"
+            - text: ": Like --latency but tracking latency changes over time. Default time interval is 15 sec. Change it using -i."
+          - listitem [ref=e829]:
+            - code [ref=e830]: "--latency-dist"
+            - text: ": Shows latency as a spectrum, requires xterm 256 colors. Default time interval is 1 sec. Change it using -i."
+          - listitem [ref=e831]:
+            - code [ref=e832]: "--lru-test <keys>"
+            - text: ": Simulate a cache workload with an 80-20 distribution."
+          - listitem [ref=e833]:
+            - code [ref=e834]: "--replica"
+            - text: ": Simulate a replica showing commands received from the master."
+          - listitem [ref=e835]:
+            - code [ref=e836]: "--rdb <filename>"
+            - text: ": Transfer an RDB dump from remote server to local file. Use filename of \"-\" to write to stdout."
+          - listitem [ref=e837]:
+            - code [ref=e838]: "--functions-rdb <filename>"
+            - text: ": Like --rdb but only get the functions (not the keys) when getting the RDB dump file."
+          - listitem [ref=e839]:
+            - code [ref=e840]: "--pipe"
+            - text: ": Transfer raw Redis protocol from stdin to server."
+          - listitem [ref=e841]:
+            - code [ref=e842]: "--pipe-timeout <n>"
+            - text: ": In --pipe mode, abort with error if after sending all data. no reply is received within"
+            - code [ref=e843]: <n>
+            - text: "seconds. Default timeout: 30. Use 0 to wait forever."
+          - listitem [ref=e844]:
+            - code [ref=e845]: "--bigkeys"
+            - text: ": Sample Redis keys looking for keys with many elements (complexity)."
+          - listitem [ref=e846]:
+            - code [ref=e847]: "--memkeys"
+            - text: ": Sample Redis keys looking for keys consuming a lot of memory."
+          - listitem [ref=e848]:
+            - code [ref=e849]: "--memkeys-samples <n>"
+            - text: ": Sample Redis keys looking for keys consuming a lot of memory. And define number of key elements to sample"
+          - listitem [ref=e850]:
+            - code [ref=e851]: "--keystats"
+            - text: ": Sample Redis keys looking for keys memory size and length (combine bigkeys and memkeys)."
+          - listitem [ref=e852]:
+            - code [ref=e853]: "--keystats-samples <n>"
+            - text: ": Sample Redis keys looking for keys memory size and length. And define number of key elements to sample (only for memory usage)."
+          - listitem [ref=e854]:
+            - code [ref=e855]: "--cursor <n>"
+            - text: ": Start the scan at the cursor"
+            - code [ref=e856]: <n>
+            - text: (usually after a Ctrl-C). Optionally used with --keystats and --keystats-samples.
+          - listitem [ref=e857]:
+            - code [ref=e858]: "--top <n>"
+            - text: ": To display"
+            - code [ref=e859]: <n>
+            - text: "top key sizes (default: 10). Optionally used with --keystats and --keystats-samples."
+          - listitem [ref=e860]:
+            - code [ref=e861]: "--hotkeys"
+            - text: ": Sample Redis keys looking for hot keys. only works when maxmemory-policy is *lfu."
+          - listitem [ref=e862]:
+            - code [ref=e863]: "--scan"
+            - text: ": List all keys using the SCAN command."
+          - listitem [ref=e864]:
+            - code [ref=e865]: "--pattern <pat>"
+            - text: ": Keys pattern when using the --scan, --bigkeys, --memkeys, --keystats or --hotkeys options (default: *)."
+          - listitem [ref=e866]:
+            - code [ref=e867]: "--count <count>"
+            - text: ": Count option when using the --scan, --bigkeys, --memkeys, --keystats or --hotkeys (default: 10)."
+          - listitem [ref=e868]:
+            - code [ref=e869]: "--quoted-pattern <pat>"
+            - text: ": Same as --pattern, but the specified string can be quoted, in order to pass an otherwise non binary-safe string."
+          - listitem [ref=e870]:
+            - code [ref=e871]: "--intrinsic-latency <sec>"
+            - text: ": Run a test to measure intrinsic system latency. The test will run for the specified amount of seconds."
+          - listitem [ref=e872]:
+            - code [ref=e873]: "--eval <file>"
+            - text: ": Send an EVAL command using the Lua script at"
+            - code [ref=e874]: <file>
+            - text: .
+          - listitem [ref=e875]:
+            - code [ref=e876]: "--ldb"
+            - text: ": Used with --eval enable the Redis Lua debugger."
+          - listitem [ref=e877]:
+            - code [ref=e878]: "--ldb-sync-mode"
+            - text: ": Like --ldb but uses the synchronous Lua debugger, in this mode the server is blocked and script changes are not rolled back from the server memory."
+          - listitem [ref=e879]:
+            - code [ref=e880]: "--cluster <command> [args...] [opts...]"
+            - text: ": Cluster Manager command and arguments (see below)."
+          - listitem [ref=e881]:
+            - code [ref=e882]: "--verbose"
+            - text: ": Verbose mode."
+          - listitem [ref=e883]:
+            - code [ref=e884]: "--no-auth-warning"
+            - text: ": Don't show warning message when using password on command line interface."
+          - listitem [ref=e885]:
+            - code [ref=e886]: "--help"
+            - text: ": Output this help and exit."
+          - listitem [ref=e887]:
+            - code [ref=e888]: "--version"
+            - text: ": Output version and exit."
+        - heading [level=4] [ref=e889]:
+          - text: Cluster Manager Commands
+          - link "Link to this section" [ref=e890] [cursor=pointer]:
+            - /url: "#cluster-manager-commands"
+        - paragraph [ref=e893]: Use --cluster help to list all available cluster manager commands.
+        - heading [level=4] [ref=e894]:
+          - text: Examples
+          - link "Link to this section" [ref=e895] [cursor=pointer]:
+            - /url: "#examples"
+        - list [ref=e898]:
+          - listitem [ref=e899]:
+            - code [ref=e900]: redis-cli -u redis://default:PASSWORD@localhost:6379/0
+          - listitem [ref=e901]:
+            - code [ref=e902]: cat /etc/passwd | redis-cli -x set mypasswd
+          - listitem [ref=e903]:
+            - code [ref=e904]: redis-cli -D &#34;&#34; --raw dump key > key.dump &amp;&amp; redis-cli -X dump_tag restore key2 0 dump_tag replace < key.dump
+          - listitem [ref=e905]:
+            - code [ref=e906]: redis-cli -r 100 lpush mylist x
+          - listitem [ref=e907]:
+            - code [ref=e908]: "redis-cli -r 100 -i 1 info | grep used_memory_human:"
+          - listitem [ref=e909]:
+            - code [ref=e910]: redis-cli --quoted-input set &#39;&#34;null-\x00-separated&#34;&#39; value
+          - listitem [ref=e911]:
+            - code [ref=e912]: redis-cli --eval myscript.lua key1 key2 , arg1 arg2 arg3
+          - listitem [ref=e913]:
+            - code [ref=e914]: redis-cli --scan --pattern &#39;*:12345*&#39;
+          - listitem [ref=e915]:
+            - code [ref=e916]: redis-cli --scan --pattern &#39;*:12345*&#39; --count 100
+            - text: "(Note: when using --eval the comma separates KEYS[] from ARGV[] items)"
+        - paragraph [ref=e917]: When no command is given, redis-cli starts in interactive mode. Type "help" in interactive mode for information on available commands and settings.
+        - generic [ref=e919]:
+          - generic [ref=e920]:
+            - generic [ref=e921]: RATE THIS PAGE
+            - generic [ref=e922]:
+              - generic [ref=e923] [cursor=pointer]: ★
+              - generic [ref=e924] [cursor=pointer]: ★
+              - generic [ref=e925] [cursor=pointer]: ★
+              - generic [ref=e926] [cursor=pointer]: ★
+              - generic [ref=e927] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e928] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e930]:
+      - navigation [ref=e931]:
+        - link "Edit this page" [ref=e932] [cursor=pointer]:
+          - /url: https://github.com/redis/docs/edit/main/content/develop/tools/cli.md
+        - link "Create an issue" [ref=e935] [cursor=pointer]:
+          - /url: "https://github.com/redis/docs/issues/new?title=Feedback: Redis CLI&body=Page https://redis.io/docs/latest/develop/tools/cli"
+        - link "Download Markdown" [ref=e938] [cursor=pointer]:
+          - /url: "#"
+      - heading "On this page" [level=2] [ref=e941]
+      - navigation [ref=e942]:
+        - navigation [ref=e943]:
+          - list [ref=e944]:
+            - listitem [ref=e945]:
+              - link [ref=e946] [cursor=pointer]:
+                - /url: "#install-redis-cli"
+                - text: Install
+                - code [ref=e947]: redis-cli
+            - listitem [ref=e948]:
+              - link "Command line usage" [ref=e949] [cursor=pointer]:
+                - /url: "#command-line-usage"
+            - listitem [ref=e950]:
+              - link "String quoting and escaping" [ref=e951] [cursor=pointer]:
+                - /url: "#string-quoting-and-escaping"
+            - listitem [ref=e952]:
+              - link "Host, port, password, and database" [ref=e953] [cursor=pointer]:
+                - /url: "#host-port-password-and-database"
+            - listitem [ref=e954]:
+              - link "SSL/TLS" [ref=e955] [cursor=pointer]:
+                - /url: "#ssltls"
+            - listitem [ref=e956]:
+              - link "Get input from other programs" [ref=e957] [cursor=pointer]:
+                - /url: "#get-input-from-other-programs"
+            - listitem [ref=e958]:
+              - link "Continuously run the same command" [ref=e959] [cursor=pointer]:
+                - /url: "#continuously-run-the-same-command"
+            - listitem [ref=e960]:
+              - link [ref=e961] [cursor=pointer]:
+                - /url: "#mass-insertion-of-data-using-redis-cli"
+                - text: Mass insertion of data using
+                - code [ref=e962]: redis-cli
+            - listitem [ref=e963]:
+              - link "CSV output" [ref=e964] [cursor=pointer]:
+                - /url: "#csv-output"
+            - listitem [ref=e965]:
+              - link "Run Lua scripts" [ref=e966] [cursor=pointer]:
+                - /url: "#run-lua-scripts"
+            - listitem [ref=e967]:
+              - link "Interactive mode" [ref=e968] [cursor=pointer]:
+                - /url: "#interactive-mode"
+              - list [ref=e969]:
+                - listitem [ref=e970]:
+                  - link "Handle connections and reconnections" [ref=e971] [cursor=pointer]:
+                    - /url: "#handle-connections-and-reconnections"
+                - listitem [ref=e972]:
+                  - link "Editing, history, completion and hints" [ref=e973] [cursor=pointer]:
+                    - /url: "#editing-history-completion-and-hints"
+                - listitem [ref=e974]:
+                  - link "Preferences" [ref=e975] [cursor=pointer]:
+                    - /url: "#preferences"
+                - listitem [ref=e976]:
+                  - link "Run the same command N times" [ref=e977] [cursor=pointer]:
+                    - /url: "#run-the-same-command-n-times"
+                - listitem [ref=e978]:
+                  - link "Show online help for Redis commands" [ref=e979] [cursor=pointer]:
+                    - /url: "#show-online-help-for-redis-commands"
+                - listitem [ref=e980]:
+                  - link "Clear the terminal screen" [ref=e981] [cursor=pointer]:
+                    - /url: "#clear-the-terminal-screen"
+            - listitem [ref=e982]:
+              - link "Special modes of operation" [ref=e983] [cursor=pointer]:
+                - /url: "#special-modes-of-operation"
+              - list [ref=e984]:
+                - listitem [ref=e985]:
+                  - link "Continuous stats mode" [ref=e986] [cursor=pointer]:
+                    - /url: "#continuous-stats-mode"
+            - listitem [ref=e987]:
+              - link "Scan for big keys and memory usage" [ref=e988] [cursor=pointer]:
+                - /url: "#scan-for-big-keys-and-memory-usage"
+              - list [ref=e989]:
+                - listitem [ref=e990]:
+                  - link "Big keys" [ref=e991] [cursor=pointer]:
+                    - /url: "#big-keys"
+                - listitem [ref=e992]:
+                  - link "Memory usage" [ref=e993] [cursor=pointer]:
+                    - /url: "#memory-usage"
+                - listitem [ref=e994]:
+                  - link [ref=e995] [cursor=pointer]:
+                    - /url: "#combine---bigkeys-and---memkeys"
+                    - text: Combine
+                    - code [ref=e996]: "--bigkeys"
+                    - text: and
+                    - code [ref=e997]: "--memkeys"
+            - listitem [ref=e998]:
+              - link "Get a list of keys" [ref=e999] [cursor=pointer]:
+                - /url: "#get-a-list-of-keys"
+            - listitem [ref=e1000]:
+              - link "Pub/sub mode" [ref=e1001] [cursor=pointer]:
+                - /url: "#pubsub-mode"
+            - listitem [ref=e1002]:
+              - link "Monitor commands executed in Redis" [ref=e1003] [cursor=pointer]:
+                - /url: "#monitor-commands-executed-in-redis"
+            - listitem [ref=e1004]:
+              - link "Monitor the latency of Redis instances" [ref=e1005] [cursor=pointer]:
+                - /url: "#monitor-the-latency-of-redis-instances"
+            - listitem [ref=e1006]:
+              - link "Remote backups of RDB files" [ref=e1007] [cursor=pointer]:
+                - /url: "#remote-backups-of-rdb-files"
+            - listitem [ref=e1008]:
+              - link "Replica mode" [ref=e1009] [cursor=pointer]:
+                - /url: "#replica-mode"
+            - listitem [ref=e1010]:
+              - link "Perform an LRU simulation" [ref=e1011] [cursor=pointer]:
+                - /url: "#perform-an-lru-simulation"
+            - listitem [ref=e1012]:
+              - link "Usage" [ref=e1013] [cursor=pointer]:
+                - /url: "#usage"
+  - contentinfo [ref=e1014]:
+    - generic [ref=e1015]:
+      - generic [ref=e1016]:
+        - link [ref=e1017] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e1022]:
+          - link [ref=e1023] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e1027] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e1030] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e1033] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e1036] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e1039] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e1042]:
+          - link "Trust" [ref=e1043] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e1044] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e1045] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e1046] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e1047]:
+        - generic [ref=e1048]:
+          - heading "Compare" [level=3] [ref=e1049]
+          - generic [ref=e1050]:
+            - link "Redis vs Elasticache" [ref=e1051] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e1052] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e1053] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e1054] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e1055]:
+          - heading "Company" [level=3] [ref=e1056]
+          - generic [ref=e1057]:
+            - link "Mission & values" [ref=e1058] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e1059] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e1060] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e1061]:
+          - heading "Partners" [level=3] [ref=e1062]
+          - generic [ref=e1063]:
+            - link "Amazon Web Services" [ref=e1064] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e1065] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e1066] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e1067] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e1068]:
+          - heading "Support" [level=3] [ref=e1069]
+          - generic [ref=e1070]:
+            - link "Professional services" [ref=e1071] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e1072] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e1073]:
+    - generic [ref=e1074]:
+      - banner [ref=e1075]:
+        - generic [ref=e1076]:
+          - textbox [ref=e1077]:
+            - /placeholder: Search…
+          - combobox [ref=e1078]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e1079] [cursor=pointer]: ESC
+      - listbox [ref=e1080]

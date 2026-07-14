@@ -1,0 +1,336 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Framework
+            - generic [ref=e34]: 7.0.8
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../../overview.html
+                - listitem [ref=e51]:
+                  - button [ref=e52] [cursor=pointer]
+                  - link "Core Technologies" [ref=e53] [cursor=pointer]:
+                    - /url: ../../../core.html
+                - listitem [ref=e54]:
+                  - button [ref=e55] [cursor=pointer]
+                  - link "Data Access" [ref=e56] [cursor=pointer]:
+                    - /url: ../../../data-access.html
+                  - list [ref=e57]:
+                    - listitem [ref=e58]:
+                      - button [ref=e59] [cursor=pointer]
+                      - link "Transaction Management" [ref=e60] [cursor=pointer]:
+                        - /url: ../../transaction.html
+                      - list [ref=e61]:
+                        - listitem [ref=e62]:
+                          - link "Advantages of the Spring Framework’s Transaction Support Model" [ref=e63] [cursor=pointer]:
+                            - /url: ../motivation.html
+                        - listitem [ref=e64]:
+                          - link "Understanding the Spring Framework Transaction Abstraction" [ref=e65] [cursor=pointer]:
+                            - /url: ../strategies.html
+                        - listitem [ref=e66]:
+                          - link "Synchronizing Resources with Transactions" [ref=e67] [cursor=pointer]:
+                            - /url: ../tx-resource-synchronization.html
+                        - listitem [ref=e68]:
+                          - button [ref=e69] [cursor=pointer]
+                          - link "Declarative Transaction Management" [ref=e70] [cursor=pointer]:
+                            - /url: ../declarative.html
+                          - list [ref=e71]:
+                            - listitem [ref=e72]:
+                              - link "Understanding the Spring Framework’s Declarative Transaction Implementation" [ref=e73] [cursor=pointer]:
+                                - /url: tx-decl-explained.html
+                            - listitem [ref=e74]:
+                              - link "Example of Declarative Transaction Implementation" [ref=e75] [cursor=pointer]:
+                                - /url: first-example.html
+                            - listitem [ref=e76]:
+                              - link "Rolling Back a Declarative Transaction" [ref=e77] [cursor=pointer]:
+                                - /url: rolling-back.html
+                            - listitem [ref=e78]:
+                              - link "Configuring Different Transactional Semantics for Different Beans" [ref=e79] [cursor=pointer]:
+                                - /url: diff-tx.html
+                            - listitem [ref=e80]:
+                              - link "<tx:advice/> Settings" [ref=e81] [cursor=pointer]:
+                                - /url: txadvice-settings.html
+                            - listitem [ref=e82]:
+                              - link [ref=e83] [cursor=pointer]:
+                                - /url: annotations.html
+                                - text: Using
+                                - code [ref=e84]: "@Transactional"
+                            - listitem [ref=e85]:
+                              - link "Transaction Propagation" [ref=e86] [cursor=pointer]:
+                                - /url: tx-propagation.html
+                            - listitem [ref=e87]:
+                              - link "Advising Transactional Operations" [ref=e88] [cursor=pointer]:
+                                - /url: applying-more-than-just-tx-advice.html
+                            - listitem [ref=e89]:
+                              - link [ref=e90] [cursor=pointer]:
+                                - /url: aspectj.html
+                                - text: Using
+                                - code [ref=e91]: "@Transactional"
+                                - text: with AspectJ
+                        - listitem [ref=e92]:
+                          - link "Programmatic Transaction Management" [ref=e93] [cursor=pointer]:
+                            - /url: ../programmatic.html
+                        - listitem [ref=e94]:
+                          - link "Choosing Between Programmatic and Declarative Transaction Management" [ref=e95] [cursor=pointer]:
+                            - /url: ../tx-decl-vs-prog.html
+                        - listitem [ref=e96]:
+                          - link "Transaction-bound Events" [ref=e97] [cursor=pointer]:
+                            - /url: ../event.html
+                        - listitem [ref=e98]:
+                          - link "Application server-specific integration" [ref=e99] [cursor=pointer]:
+                            - /url: ../application-server-integration.html
+                        - listitem [ref=e100]:
+                          - link "Solutions to Common Problems" [ref=e101] [cursor=pointer]:
+                            - /url: ../solutions-to-common-problems.html
+                        - listitem [ref=e102]:
+                          - link "Further Resources" [ref=e103] [cursor=pointer]:
+                            - /url: ../resources.html
+                    - listitem [ref=e104]:
+                      - link "DAO Support" [ref=e105] [cursor=pointer]:
+                        - /url: ../../dao.html
+                    - listitem [ref=e106]:
+                      - button [ref=e107] [cursor=pointer]
+                      - link "Data Access with JDBC" [ref=e108] [cursor=pointer]:
+                        - /url: ../../jdbc.html
+                    - listitem [ref=e109]:
+                      - link "Data Access with R2DBC" [ref=e110] [cursor=pointer]:
+                        - /url: ../../r2dbc.html
+                    - listitem [ref=e111]:
+                      - button [ref=e112] [cursor=pointer]
+                      - link "Object Relational Mapping (ORM) Data Access" [ref=e113] [cursor=pointer]:
+                        - /url: ../../orm.html
+                    - listitem [ref=e114]:
+                      - link "Marshalling XML by Using Object-XML Mappers" [ref=e115] [cursor=pointer]:
+                        - /url: ../../oxm.html
+                    - listitem [ref=e116]:
+                      - link "Appendix" [ref=e117] [cursor=pointer]:
+                        - /url: ../../appendix.html
+                - listitem [ref=e118]:
+                  - button [ref=e119] [cursor=pointer]
+                  - link "Web on Servlet Stack" [ref=e120] [cursor=pointer]:
+                    - /url: ../../../web.html
+                - listitem [ref=e121]:
+                  - button [ref=e122] [cursor=pointer]
+                  - link "Web on Reactive Stack" [ref=e123] [cursor=pointer]:
+                    - /url: ../../../web-reactive.html
+                - listitem [ref=e124]:
+                  - button [ref=e125] [cursor=pointer]
+                  - link "Testing" [ref=e126] [cursor=pointer]:
+                    - /url: ../../../testing.html
+                - listitem [ref=e127]:
+                  - button [ref=e128] [cursor=pointer]
+                  - link "Integration" [ref=e129] [cursor=pointer]:
+                    - /url: ../../../integration.html
+                - listitem [ref=e130]:
+                  - button [ref=e131] [cursor=pointer]
+                  - link "Language Support" [ref=e132] [cursor=pointer]:
+                    - /url: ../../../languages.html
+                - listitem [ref=e133]:
+                  - link "Appendix" [ref=e134] [cursor=pointer]:
+                    - /url: ../../../appendix.html
+                - listitem [ref=e135]:
+                  - link "Java API" [ref=e136] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/
+                - listitem [ref=e137]:
+                  - link "Kotlin API" [ref=e138] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/kdoc-api/
+                - listitem [ref=e139]:
+                  - link "Wiki" [ref=e140] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-framework/wiki
+        - button [ref=e142] [cursor=pointer]
+    - main [ref=e145]:
+      - generic [ref=e146]:
+        - complementary [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e150]:
+              - heading "Transaction Propagation" [level=3] [ref=e151]
+              - list [ref=e152]:
+                - listitem [ref=e153]:
+                  - link "Understanding PROPAGATION_REQUIRED" [ref=e154] [cursor=pointer]:
+                    - /url: "#tx-propagation-required"
+                - listitem [ref=e155]:
+                  - link "Understanding PROPAGATION_REQUIRES_NEW" [ref=e156] [cursor=pointer]:
+                    - /url: "#tx-propagation-requires_new"
+                - listitem [ref=e157]:
+                  - link "Understanding PROPAGATION_NESTED" [ref=e158] [cursor=pointer]:
+                    - /url: "#tx-propagation-nested"
+            - generic [ref=e159]:
+              - link "Edit this Page" [ref=e160] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-framework/blob/v7.0.8/framework-docs/modules/ROOT/pages/data-access/transaction/declarative/tx-propagation.adoc
+              - link "GitHub Project" [ref=e163] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-framework
+              - link "Stack Overflow" [ref=e167] [cursor=pointer]:
+                - /url: https://stackoverflow.com/questions/tagged/spring
+        - article [ref=e170]:
+          - navigation "breadcrumbs" [ref=e172]:
+            - list [ref=e173]:
+              - listitem "Copy versioned URL" [ref=e174]
+              - listitem [ref=e175]:
+                - link "Spring Framework" [ref=e176] [cursor=pointer]:
+                  - /url: ../../../index.html
+                - text: /
+              - listitem [ref=e177]:
+                - link "Data Access" [ref=e178] [cursor=pointer]:
+                  - /url: ../../../data-access.html
+                - text: /
+              - listitem [ref=e179]:
+                - link "Transaction Management" [ref=e180] [cursor=pointer]:
+                  - /url: ../../transaction.html
+                - text: /
+              - listitem [ref=e181]:
+                - link "Declarative Transaction Management" [ref=e182] [cursor=pointer]:
+                  - /url: ../declarative.html
+                - text: /
+              - listitem [ref=e183]:
+                - link "Transaction Propagation" [ref=e184] [cursor=pointer]:
+                  - /url: tx-propagation.html
+          - heading "Transaction Propagation" [level=1] [ref=e185]
+          - generic [ref=e187]:
+            - paragraph [ref=e189]: This section describes some semantics of transaction propagation in Spring. Note that this section is not a proper introduction to transaction propagation. Rather, it details some of the semantics regarding transaction propagation in Spring.
+            - paragraph [ref=e191]: In Spring-managed transactions, be aware of the difference between physical and logical transactions, and how the propagation setting applies to this difference.
+          - generic [ref=e192]:
+            - heading [level=2] [ref=e193]:
+              - text: Understanding
+              - code [ref=e194]: PROPAGATION_REQUIRED
+            - generic [ref=e195]:
+              - img "tx prop required" [ref=e198]
+              - paragraph [ref=e200]:
+                - code [ref=e201]: PROPAGATION_REQUIRED
+                - text: enforces a physical transaction, either locally for the current scope if no transaction exists yet or participating in an existing 'outer' transaction defined for a larger scope. This is a fine default in common call stack arrangements within the same thread (for example, a service facade that delegates to several repository methods where all the underlying resources have to participate in the service-level transaction).
+              - table [ref=e203]:
+                - rowgroup [ref=e204]:
+                  - row [ref=e205]:
+                    - cell "Note" [ref=e206]
+                    - cell [ref=e208]:
+                      - text: By default, a participating transaction joins the characteristics of the outer scope, silently ignoring the local isolation level, timeout value, or read-only flag (if any). Consider switching the
+                      - code [ref=e209]: validateExistingTransaction
+                      - text: flag to
+                      - code [ref=e210]: "true"
+                      - text: on your transaction manager if you want isolation level declarations to be rejected when participating in an existing transaction with a different isolation level. This non-lenient mode also rejects read-only mismatches (that is, an inner read-write transaction that tries to participate in a read-only outer scope).
+              - paragraph [ref=e212]:
+                - text: When the propagation setting is
+                - code [ref=e213]: PROPAGATION_REQUIRED
+                - text: ", a logical transaction scope is created for each method upon which the setting is applied. Each such logical transaction scope can determine rollback-only status individually, with an outer transaction scope being logically independent from the inner transaction scope. In the case of standard"
+                - code [ref=e214]: PROPAGATION_REQUIRED
+                - text: behavior, all these scopes are mapped to the same physical transaction. So a rollback-only marker set in the inner transaction scope does affect the outer transaction’s chance to actually commit.
+              - paragraph [ref=e216]:
+                - text: However, in the case where an inner transaction scope sets the rollback-only marker, the outer transaction has not decided on the rollback itself, so the rollback (silently triggered by the inner transaction scope) is unexpected. A corresponding
+                - code [ref=e217]: UnexpectedRollbackException
+                - text: is thrown at that point. This is expected behavior so that the caller of a transaction can never be misled to assume that a commit was performed when it really was not. So, if an inner transaction (of which the outer caller is not aware) silently marks a transaction as rollback-only, the outer caller still calls commit. The outer caller needs to receive an
+                - code [ref=e218]: UnexpectedRollbackException
+                - text: to indicate clearly that a rollback was performed instead.
+          - generic [ref=e219]:
+            - heading [level=2] [ref=e220]:
+              - text: Understanding
+              - code [ref=e221]: PROPAGATION_REQUIRES_NEW
+            - generic [ref=e222]:
+              - img "tx prop requires new" [ref=e225]
+              - paragraph [ref=e227]:
+                - code [ref=e228]: PROPAGATION_REQUIRES_NEW
+                - text: ", in contrast to"
+                - code [ref=e229]: PROPAGATION_REQUIRED
+                - text: ", always uses an independent physical transaction for each affected transaction scope, never participating in an existing transaction for an outer scope. In such an arrangement, the underlying resource transactions are different and, hence, can commit or roll back independently, with an outer transaction not affected by an inner transaction’s rollback status and with an inner transaction’s locks released immediately after its completion. Such an independent inner transaction can also declare its own isolation level, timeout, and read-only settings and not inherit an outer transaction’s characteristics."
+              - table [ref=e231]:
+                - rowgroup [ref=e232]:
+                  - row [ref=e233]:
+                    - cell "Note" [ref=e234]
+                    - cell [ref=e236]:
+                      - text: The resources attached to the outer transaction will remain bound there while the inner transaction acquires its own resources such as a new database connection. This may lead to exhaustion of the connection pool and potentially to a deadlock if several threads have an active outer transaction and wait to acquire a new connection for their inner transaction, with the pool not being able to hand out any such inner connection anymore. Do not use
+                      - code [ref=e237]: PROPAGATION_REQUIRES_NEW
+                      - text: unless your connection pool is appropriately sized, exceeding the number of concurrent threads by at least 1.
+          - generic [ref=e238]:
+            - heading [level=2] [ref=e239]:
+              - text: Understanding
+              - code [ref=e240]: PROPAGATION_NESTED
+            - paragraph [ref=e243]:
+              - code [ref=e244]: PROPAGATION_NESTED
+              - text: uses a single physical transaction with multiple savepoints that it can roll back to. Such partial rollbacks let an inner transaction scope trigger a rollback for its scope, with the outer transaction being able to continue the physical transaction despite some operations having been rolled back. This setting is typically mapped onto JDBC savepoints, so it works only with JDBC resource transactions. See Spring’s
+              - link [ref=e245] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/org/springframework/jdbc/datasource/DataSourceTransactionManager.html
+                - code [ref=e246]: DataSourceTransactionManager
+              - text: .
+          - navigation [ref=e247]:
+            - generic [ref=e248]:
+              - text: Prev
+              - link [ref=e249] [cursor=pointer]:
+                - /url: annotations.html
+                - text: ‹ Using
+                - code [ref=e250]: "@Transactional"
+            - generic [ref=e251]:
+              - text: Next
+              - link "Advising Transactional Operations ›" [ref=e252] [cursor=pointer]:
+                - /url: applying-more-than-just-tx-advice.html
+    - text:   
+  - contentinfo [ref=e253]:
+    - generic [ref=e254]:
+      - img "Spring" [ref=e255]
+      - paragraph [ref=e256]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e257] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e258] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e259] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e260]:
+          - text: •
+          - link "Thank you" [ref=e261] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e262] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e263]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e264]:
+      - link "Youtube" [ref=e265] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e269] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e273] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e278]:
+      - generic [ref=e279]:
+        - button "Close" [ref=e281] [cursor=pointer]
+        - generic [ref=e282]:
+          - generic [ref=e284]:
+            - heading "Cookies" [level=2] [ref=e285]
+            - generic [ref=e286]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e287] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e291] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

@@ -1,0 +1,320 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Academy" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Solutions" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Data Redis
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - button [ref=e50] [cursor=pointer]
+                  - link "Overview" [ref=e51] [cursor=pointer]:
+                    - /url: ../index.html
+                - listitem [ref=e52]:
+                  - button [ref=e53] [cursor=pointer]
+                  - link "Redis" [ref=e54] [cursor=pointer]:
+                    - /url: ../redis.html
+                  - list [ref=e55]:
+                    - listitem [ref=e56]:
+                      - link "Getting Started" [ref=e57] [cursor=pointer]:
+                        - /url: getting-started.html
+                    - listitem [ref=e58]:
+                      - link "Drivers" [ref=e59] [cursor=pointer]:
+                        - /url: drivers.html
+                    - listitem [ref=e60]:
+                      - link "Connection Modes" [ref=e61] [cursor=pointer]:
+                        - /url: connection-modes.html
+                    - listitem [ref=e62]:
+                      - link "RedisTemplate" [ref=e63] [cursor=pointer]:
+                        - /url: template.html
+                    - listitem [ref=e64]:
+                      - link "Redis Cache" [ref=e65] [cursor=pointer]:
+                        - /url: redis-cache.html
+                    - listitem [ref=e66]:
+                      - link "Redis Cluster" [ref=e67] [cursor=pointer]:
+                        - /url: cluster.html
+                    - listitem [ref=e68]:
+                      - link "Hash Mapping" [ref=e69] [cursor=pointer]:
+                        - /url: hash-mappers.html
+                    - listitem [ref=e70]:
+                      - button [ref=e71] [cursor=pointer]
+                      - link "Pub/Sub Messaging" [ref=e72] [cursor=pointer]:
+                        - /url: pubsub.html
+                    - listitem [ref=e73]:
+                      - link "Redis Streams" [ref=e74] [cursor=pointer]:
+                        - /url: redis-streams.html
+                    - listitem [ref=e75]:
+                      - link "Scripting" [ref=e76] [cursor=pointer]:
+                        - /url: scripting.html
+                    - listitem [ref=e77]:
+                      - link "Redis Transactions" [ref=e78] [cursor=pointer]:
+                        - /url: transactions.html
+                    - listitem [ref=e79]:
+                      - link "Pipelining" [ref=e80] [cursor=pointer]:
+                        - /url: pipelining.html
+                    - listitem [ref=e81]:
+                      - link "Support Classes" [ref=e82] [cursor=pointer]:
+                        - /url: support-classes.html
+                - listitem [ref=e83]:
+                  - button [ref=e84] [cursor=pointer]
+                  - link "Redis Repositories" [ref=e85] [cursor=pointer]:
+                    - /url: ../repositories.html
+                - listitem [ref=e86]:
+                  - link "Observability" [ref=e87] [cursor=pointer]:
+                    - /url: ../observability.html
+                - listitem [ref=e88]:
+                  - link "Appendix" [ref=e89] [cursor=pointer]:
+                    - /url: ../appendix.html
+                - listitem [ref=e90]:
+                  - link "Javadoc" [ref=e91] [cursor=pointer]:
+                    - /url: ../api/java/index.html
+                - listitem [ref=e92]:
+                  - link "Wiki" [ref=e93] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-data-commons/wiki
+        - button [ref=e95] [cursor=pointer]
+    - main [ref=e98]:
+      - generic [ref=e99]:
+        - complementary [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e103]:
+              - heading "Redis Transactions" [level=3] [ref=e104]
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - link "@Transactional Support" [ref=e107] [cursor=pointer]:
+                    - /url: "#tx.spring"
+            - generic [ref=e108]:
+              - link "Edit this Page" [ref=e109] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-data-redis/blob/4.1.0/src/main/antora/modules/ROOT/pages/redis/transactions.adoc
+              - link "GitHub Project" [ref=e112] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-data-redis
+              - link "Stack Overflow" [ref=e116] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/spring-data-redis
+        - article [ref=e119]:
+          - navigation "breadcrumbs" [ref=e121]:
+            - list [ref=e122]:
+              - listitem "Copy versioned URL" [ref=e123]
+              - listitem [ref=e124]:
+                - link "Spring Data Redis" [ref=e125] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e126]:
+                - link "Redis" [ref=e127] [cursor=pointer]:
+                  - /url: ../redis.html
+                - text: /
+              - listitem [ref=e128]:
+                - link "Redis Transactions" [ref=e129] [cursor=pointer]:
+                  - /url: transactions.html
+          - heading "Redis Transactions" [level=1] [ref=e130]
+          - generic [ref=e132]:
+            - paragraph [ref=e134]:
+              - text: Redis provides support for
+              - link "transactions" [ref=e135] [cursor=pointer]:
+                - /url: https://redis.io/topics/transactions
+              - text: through the
+              - code [ref=e136]: multi
+              - text: ","
+              - code [ref=e137]: exec
+              - text: ", and"
+              - code [ref=e138]: discard
+              - text: commands. These operations are available on
+              - link [ref=e139] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/RedisTemplate.html
+                - code [ref=e140]: RedisTemplate
+              - text: . However,
+              - code [ref=e141]: RedisTemplate
+              - text: is not guaranteed to run all the operations in the transaction with the same connection.
+            - paragraph [ref=e143]:
+              - text: Spring Data Redis provides the
+              - link [ref=e144] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/SessionCallback.html
+                - code [ref=e145]: SessionCallback
+              - text: interface for use when multiple operations need to be performed with the same
+              - code [ref=e146]: connection
+              - text: ", such as when using Redis transactions.The following example uses the"
+              - code [ref=e147]: multi
+              - text: "method:"
+            - generic [ref=e150]:
+              - code [ref=e151]:
+                - text: "java //execute a transaction List<Object> txResults = redisOperations.execute(new SessionCallback<List<Object>>() {"
+                - generic [ref=e152]: public List<Object> execute(RedisOperations operations) throws DataAccessException
+                - text: "{ operations.multi(); operations.opsForSet().add(\"key\", \"value1\"); // This will contain the results of all operations in the transaction return operations.exec(); } }); System.out.println(\"Number of items added to set: \" + txResults.get(0));"
+              - button "Copied!" [ref=e154] [cursor=pointer]
+            - paragraph [ref=e157]:
+              - code [ref=e158]: RedisTemplate
+              - text: uses its value, hash key, and hash value serializers to deserialize all results of
+              - code [ref=e159]: exec
+              - text: before returning. There is an additional
+              - code [ref=e160]: exec
+              - text: method that lets you pass a custom serializer for transaction results.
+            - paragraph [ref=e162]:
+              - text: It is worth mentioning that in case between
+              - code [ref=e163]: multi()
+              - text: and
+              - code [ref=e164]: exec()
+              - text: "an exception happens (e.g. a timeout exception in case Redis does not respond within the timeout) then the connection may get stuck in a transactional state. To prevent such a situation need have to discard the transactional state to clear the connection:"
+            - generic [ref=e167]:
+              - code [ref=e168]:
+                - text: "java List<Object> txResults = redisOperations.execute(new SessionCallback<List<Object>>() {"
+                - generic [ref=e169]: public List<Object> execute(RedisOperations operations) throws DataAccessException
+                - text: "{ boolean transactionStateIsActive = true; try { operations.multi(); operations.opsForSet().add(\"key\", \"value1\"); // This will contain the results of all operations in the transaction return operations.exec(); } catch (RuntimeException e) { operations.discard(); throw e; } } });"
+              - button "Copied!" [ref=e171] [cursor=pointer]
+          - generic [ref=e173]:
+            - heading [level=2] [ref=e174]:
+              - code [ref=e175]: "@Transactional"
+              - text: Support
+            - generic [ref=e176]:
+              - paragraph [ref=e178]:
+                - text: By default,
+                - code [ref=e179]: RedisTemplate
+                - text: does not participate in managed Spring transactions. If you want
+                - code [ref=e180]: RedisTemplate
+                - text: to make use of Redis transaction when using
+                - code [ref=e181]: "@Transactional"
+                - text: or
+                - code [ref=e182]: TransactionTemplate
+                - text: ", you need to be explicitly enable transaction support for each"
+                - code [ref=e183]: RedisTemplate
+                - text: by setting
+                - code [ref=e184]: setEnableTransactionSupport(true)
+                - text: . Enabling transaction support binds
+                - code [ref=e185]: RedisConnection
+                - text: to the current transaction backed by a
+                - code [ref=e186]: ThreadLocal
+                - text: . If the transaction finishes without errors, the Redis transaction gets commited with
+                - code [ref=e187]: EXEC
+                - text: ", otherwise rolled back with"
+                - code [ref=e188]: DISCARD
+                - text: . Redis transactions are batch-oriented. Commands issued during an ongoing transaction are queued and only applied when committing the transaction.
+              - paragraph [ref=e190]:
+                - text: Spring Data Redis distinguishes between read-only and write commands in an ongoing transaction. Read-only commands, such as
+                - code [ref=e191]: KEYS
+                - text: ", are piped to a fresh (non-thread-bound)"
+                - code [ref=e192]: RedisConnection
+                - text: to allow reads. Write commands are queued by
+                - code [ref=e193]: RedisTemplate
+                - text: and applied upon commit.
+              - paragraph [ref=e195]: "The following example shows how to configure transaction management:"
+              - generic [ref=e196]:
+                - generic [ref=e197]: Example 1. Configuration enabling Transaction Management
+                - generic [ref=e198]:
+                  - generic [ref=e201]:
+                    - code [ref=e202]:
+                      - text: java @Configuration @EnableTransactionManagement
+                      - generic [ref=e203]: "1"
+                      - text: public
+                      - generic [ref=e204]: class RedisTxContextConfiguration
+                      - text: "{ @Bean"
+                      - generic [ref=e205]: public StringRedisTemplate redisTemplate()
+                      - text: "{ StringRedisTemplate template = new StringRedisTemplate(redisConnectionFactory()); // explicitly enable transaction support template.setEnableTransactionSupport(true);"
+                      - generic [ref=e206]: "2"
+                      - text: "return template; } @Bean"
+                      - generic [ref=e207]: public RedisConnectionFactory redisConnectionFactory()
+                      - text: "{ // jedis || Lettuce } @Bean"
+                      - generic [ref=e208]: public PlatformTransactionManager transactionManager() throws SQLException
+                      - text: "{ return new DataSourceTransactionManager(dataSource());"
+                      - generic [ref=e209]: "3"
+                      - text: "} @Bean"
+                      - generic [ref=e210]: public DataSource dataSource() throws SQLException
+                      - text: "{ // ... } }"
+                    - button "Copied!" [ref=e212] [cursor=pointer]
+                  - table [ref=e215]:
+                    - rowgroup [ref=e216]:
+                      - row [ref=e217]:
+                        - cell "1" [ref=e218]
+                        - cell [ref=e220]:
+                          - text: Configures a Spring Context to enable
+                          - link "declarative transaction management" [ref=e221] [cursor=pointer]:
+                            - /url: https://docs.spring.io/spring-framework/reference/7.0/data-access.html#transaction-declarative
+                          - text: .
+                      - row [ref=e222]:
+                        - cell "2" [ref=e223]
+                        - cell [ref=e225]:
+                          - text: Configures
+                          - code [ref=e226]: RedisTemplate
+                          - text: to participate in transactions by binding connections to the current thread.
+                      - row [ref=e227]:
+                        - cell "3" [ref=e228]
+                        - cell [ref=e230]:
+                          - text: Transaction management requires a
+                          - code [ref=e231]: PlatformTransactionManager
+                          - text: . Spring Data Redis does not ship with a
+                          - code [ref=e232]: PlatformTransactionManager
+                          - text: implementation. Assuming your application uses JDBC, Spring Data Redis can participate in transactions by using existing transaction managers.
+              - paragraph [ref=e234]: "The following examples each demonstrate a usage constraint:"
+              - generic [ref=e235]:
+                - generic [ref=e236]: Example 2. Usage Constraints
+                - generic [ref=e240]:
+                  - code [ref=e241]: java // must be performed on thread-bound connection template.opsForValue().set("thing1", "thing2"); // read operation must be run on a free (not transaction-aware) connection template.keys("*"); // returns null as values set within a transaction are not visible template.opsForValue().get("thing1");
+                  - button "Copied!" [ref=e243] [cursor=pointer]
+    - text: 
+  - contentinfo [ref=e245]:
+    - generic [ref=e246]:
+      - img "Spring" [ref=e247]
+      - paragraph [ref=e248]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e249] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e250] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e251] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e252]:
+          - text: •
+          - link "Thank you" [ref=e253] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e254] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e255]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e256]:
+      - link "Youtube" [ref=e257] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e261] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e265] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e270]:
+      - generic [ref=e271]:
+        - button "Close" [ref=e273] [cursor=pointer]
+        - generic [ref=e274]:
+          - generic [ref=e276]:
+            - heading "Cookies" [level=2] [ref=e277]
+            - generic [ref=e278]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e279] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e283] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

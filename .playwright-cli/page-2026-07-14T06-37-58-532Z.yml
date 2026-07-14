@@ -1,0 +1,590 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "Apache Kafka" [ref=e5]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Get Started" [ref=e9] [cursor=pointer]:
+              - /url: /43/getting-started/
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /documentation
+          - listitem [ref=e12]:
+            - link "Powered By" [ref=e13] [cursor=pointer]:
+              - /url: /powered-by/
+          - listitem [ref=e14]:
+            - link "Community" [ref=e15] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e16]:
+            - link "Apache" [ref=e17] [cursor=pointer]:
+              - /url: https://www.apache.org/
+          - listitem [ref=e18]:
+            - button "Releases" [ref=e19] [cursor=pointer]
+          - listitem [ref=e20]:
+            - link "DOWNLOAD KAFKA" [ref=e21] [cursor=pointer]:
+              - /url: /community/downloads/
+        - generic [ref=e22]:
+          - button "Toggle search" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+          - generic:
+            - generic:
+              - generic: 
+              - searchbox "Search this site…"
+  - generic [ref=e25]:
+    - generic [ref=e27]:
+      - complementary [ref=e28]:
+        - generic [ref=e31]:
+          - text:  
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "AK 4.3.X" [ref=e35] [cursor=pointer]:
+                  - /url: /43/
+                - list [ref=e36]:
+                  - listitem [ref=e37]:
+                    - generic [ref=e38]:
+                      - text: 
+                      - link "Getting Started" [ref=e39] [cursor=pointer]:
+                        - /url: /43/getting-started/
+                    - list [ref=e40]:
+                      - listitem [ref=e41]:
+                        - link "Introduction" [ref=e43] [cursor=pointer]:
+                          - /url: /43/getting-started/introduction/
+                      - listitem [ref=e44]:
+                        - link "Use Cases" [ref=e46] [cursor=pointer]:
+                          - /url: /43/getting-started/uses/
+                      - listitem [ref=e47]:
+                        - link "Quick Start" [ref=e49] [cursor=pointer]:
+                          - /url: /43/getting-started/quickstart/
+                      - listitem [ref=e50]:
+                        - link "Ecosystem" [ref=e52] [cursor=pointer]:
+                          - /url: /43/getting-started/ecosystem/
+                      - listitem [ref=e53]:
+                        - link "Upgrading" [ref=e55] [cursor=pointer]:
+                          - /url: /43/getting-started/upgrade/
+                      - listitem [ref=e56]:
+                        - link "KRaft vs ZooKeeper" [ref=e58] [cursor=pointer]:
+                          - /url: /43/getting-started/zk2kraft/
+                      - listitem [ref=e59]:
+                        - link "Compatibility" [ref=e61] [cursor=pointer]:
+                          - /url: /43/getting-started/compatibility/
+                      - listitem [ref=e62]:
+                        - link "Docker" [ref=e64] [cursor=pointer]:
+                          - /url: /43/getting-started/docker/
+                  - listitem [ref=e65]:
+                    - link "API" [ref=e67] [cursor=pointer]:
+                      - /url: /43/apis/
+                  - listitem [ref=e68]:
+                    - generic [ref=e69]:
+                      - text: 
+                      - link "Configuration" [ref=e70] [cursor=pointer]:
+                        - /url: /43/configuration/
+                  - listitem [ref=e71]:
+                    - generic [ref=e72]:
+                      - text: 
+                      - link "Design" [ref=e73] [cursor=pointer]:
+                        - /url: /43/design/
+                  - listitem [ref=e74]:
+                    - generic [ref=e75]:
+                      - text: 
+                      - link "Implementation" [ref=e76] [cursor=pointer]:
+                        - /url: /43/implementation/
+                  - listitem [ref=e77]:
+                    - generic [ref=e78]:
+                      - text: 
+                      - link "Operations" [ref=e79] [cursor=pointer]:
+                        - /url: /43/operations/
+                  - listitem [ref=e80]:
+                    - generic [ref=e81]:
+                      - text: 
+                      - link "Security" [ref=e82] [cursor=pointer]:
+                        - /url: /43/security/
+                  - listitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - text: 
+                      - link "Kafka Connect" [ref=e85] [cursor=pointer]:
+                        - /url: /43/kafka-connect/
+                  - listitem [ref=e86]:
+                    - generic [ref=e87]:
+                      - text: 
+                      - link "Kafka Streams" [ref=e88] [cursor=pointer]:
+                        - /url: /43/streams/
+                    - text: 
+      - complementary [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e92]:
+            - link " View page source" [ref=e93] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//tree/markdown/content/en/43/getting-started/quickstart.md
+              - generic [ref=e94]: 
+              - text: View page source
+            - link " Edit this page" [ref=e95] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//edit/markdown/content/en/43/getting-started/quickstart.md
+              - generic [ref=e96]: 
+              - text: Edit this page
+            - link " Create child page" [ref=e97] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//new/markdown/content/en/43/getting-started?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%22%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A+%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%23+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Give+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60%0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%28%3C80+characters%3B+use+the+extended+description+field+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%0A
+              - generic [ref=e98]: 
+              - text: Create child page
+            - link " Create documentation issue" [ref=e99] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//issues/new?title=Quick%20Start
+              - generic [ref=e100]: 
+              - text: Create documentation issue
+            - link " Print entire section" [ref=e101] [cursor=pointer]:
+              - /url: /43/getting-started/_print/
+              - generic [ref=e102]: 
+              - text: Print entire section
+          - generic [ref=e103]:
+            - navigation [ref=e106]:
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - list [ref=e109]:
+                    - listitem [ref=e110]:
+                      - 'link "Step 1: Get Kafka" [ref=e111] [cursor=pointer]':
+                        - /url: "#step-1-get-kafka"
+                    - listitem [ref=e112]:
+                      - 'link "Step 2: Start the Kafka environment" [ref=e113] [cursor=pointer]':
+                        - /url: "#step-2-start-the-kafka-environment"
+                      - list [ref=e114]:
+                        - listitem [ref=e115]:
+                          - link "Using downloaded files" [ref=e116] [cursor=pointer]:
+                            - /url: "#using-downloaded-files"
+                        - listitem [ref=e117]:
+                          - link "Using JVM Based Apache Kafka Docker Image" [ref=e118] [cursor=pointer]:
+                            - /url: "#using-jvm-based-apache-kafka-docker-image"
+                        - listitem [ref=e119]:
+                          - link "Using GraalVM Based Native Apache Kafka Docker Image" [ref=e120] [cursor=pointer]:
+                            - /url: "#using-graalvm-based-native-apache-kafka-docker-image"
+                    - listitem [ref=e121]:
+                      - 'link "Step 3: Create a topic to store your events" [ref=e122] [cursor=pointer]':
+                        - /url: "#step-3-create-a-topic-to-store-your-events"
+                    - listitem [ref=e123]:
+                      - 'link "Step 4: Write some events into the topic" [ref=e124] [cursor=pointer]':
+                        - /url: "#step-4-write-some-events-into-the-topic"
+                    - listitem [ref=e125]:
+                      - 'link "Step 5: Read the events" [ref=e126] [cursor=pointer]':
+                        - /url: "#step-5-read-the-events"
+                    - listitem [ref=e127]:
+                      - 'link "Step 6: Import/export your data as streams of events with Kafka Connect" [ref=e128] [cursor=pointer]':
+                        - /url: "#step-6-importexport-your-data-as-streams-of-events-with-kafka-connect"
+                    - listitem [ref=e129]:
+                      - 'link "Step 7: Process your events with Kafka Streams" [ref=e130] [cursor=pointer]':
+                        - /url: "#step-7-process-your-events-with-kafka-streams"
+                    - listitem [ref=e131]:
+                      - 'link "Step 8: Terminate the Kafka environment" [ref=e132] [cursor=pointer]':
+                        - /url: "#step-8-terminate-the-kafka-environment"
+                    - listitem [ref=e133]:
+                      - link "Congratulations!" [ref=e134] [cursor=pointer]:
+                        - /url: "#congratulations"
+            - generic [ref=e135]:
+              - heading "Tag Cloud" [level=5] [ref=e136]
+              - list [ref=e137]:
+                - listitem [ref=e138]:
+                  - link "Apis 1" [ref=e139] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/apis/
+                    - text: Apis
+                    - generic [ref=e140]: "1"
+                - listitem [ref=e141]:
+                  - link "Configuration 34" [ref=e142] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/configuration/
+                    - text: Configuration
+                    - generic [ref=e143]: "34"
+                - listitem [ref=e144]:
+                  - link "Connect 34" [ref=e145] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/connect/
+                    - text: Connect
+                    - generic [ref=e146]: "34"
+                - listitem [ref=e147]:
+                  - link "Design 34" [ref=e148] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/design/
+                    - text: Design
+                    - generic [ref=e149]: "34"
+                - listitem [ref=e150]:
+                  - link "Developer-Guide 34" [ref=e151] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/developer-guide/
+                    - text: Developer-Guide
+                    - generic [ref=e152]: "34"
+                - listitem [ref=e153]:
+                  - link "Docs 2106" [ref=e154] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/docs/
+                    - text: Docs
+                    - generic [ref=e155]: "2106"
+                - listitem [ref=e156]:
+                  - link "Getting-Started 34" [ref=e157] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/getting-started/
+                    - text: Getting-Started
+                    - generic [ref=e158]: "34"
+                - listitem [ref=e159]:
+                  - link "Implementation 34" [ref=e160] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/implementation/
+                    - text: Implementation
+                    - generic [ref=e161]: "34"
+                - listitem [ref=e162]:
+                  - link "Kafka 2106" [ref=e163] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/kafka/
+                    - text: Kafka
+                    - generic [ref=e164]: "2106"
+                - listitem [ref=e165]:
+                  - link "Ops 34" [ref=e166] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/ops/
+                    - text: Ops
+                    - generic [ref=e167]: "34"
+                - listitem [ref=e168]:
+                  - link "Security 34" [ref=e169] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/security/
+                    - text: Security
+                    - generic [ref=e170]: "34"
+                - listitem [ref=e171]:
+                  - link "Streams 68" [ref=e172] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/streams/
+                    - text: Streams
+                    - generic [ref=e173]: "68"
+      - main [ref=e174]:
+        - navigation "breadcrumb" [ref=e175]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "AK 4.3.X" [ref=e178] [cursor=pointer]:
+                - /url: /43/
+            - listitem [ref=e179]:
+              - text: /
+              - link "Getting Started" [ref=e180] [cursor=pointer]:
+                - /url: /43/getting-started/
+            - listitem [ref=e181]: / Quick Start
+        - generic [ref=e182]:
+          - heading "Quick Start" [level=1] [ref=e183]
+          - generic [ref=e185]:
+            - heading "Tags:" [level=5] [ref=e186]
+            - list [ref=e187]:
+              - listitem [ref=e188]:
+                - link "Kafka" [ref=e189] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/kafka/
+              - listitem [ref=e190]:
+                - link "Docs" [ref=e191] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/docs/
+          - 'heading "Step 1: Get Kafka" [level=2] [ref=e192]'
+          - paragraph [ref=e193]:
+            - link "Download" [ref=e194] [cursor=pointer]:
+              - /url: https://www.apache.org/dyn/closer.cgi?path=/kafka/4.3.1/kafka_2.13-4.3.1.tgz
+            - text: "the latest Kafka release and extract it:"
+          - generic [ref=e196]:
+            - button "Copy to clipboard" [ref=e197] [cursor=pointer]: 
+            - code [ref=e198]:
+              - generic [ref=e199]: $ tar -xzf kafka_2.13-4.3.1.tgz
+              - generic [ref=e201]: $ cd kafka_2.13-4.3.1
+          - 'heading "Step 2: Start the Kafka environment" [level=2] [ref=e203]'
+          - paragraph [ref=e204]: "NOTE: Your local environment must have Java 17+ installed."
+          - paragraph [ref=e205]: Kafka can be run using local scripts and downloaded files or the docker image.
+          - heading "Using downloaded files" [level=3] [ref=e206]
+          - paragraph [ref=e207]: Generate a Cluster UUID
+          - generic [ref=e209]:
+            - button "Copy to clipboard" [ref=e210] [cursor=pointer]: 
+            - code [ref=e211]:
+              - generic [ref=e212]: $ KAFKA_CLUSTER_ID="$(bin/kafka-storage.sh random-uuid)"
+          - paragraph [ref=e214]: Format Log Directories
+          - generic [ref=e216]:
+            - button "Copy to clipboard" [ref=e217] [cursor=pointer]: 
+            - code [ref=e218]:
+              - generic [ref=e219]: $ bin/kafka-storage.sh format --standalone -t $KAFKA_CLUSTER_ID -c config/server.properties
+          - paragraph [ref=e221]: Start the Kafka Server
+          - generic [ref=e223]:
+            - button "Copy to clipboard" [ref=e224] [cursor=pointer]: 
+            - code [ref=e225]:
+              - generic [ref=e226]: $ bin/kafka-server-start.sh config/server.properties
+          - paragraph [ref=e228]: Once the Kafka server has successfully launched, you will have a basic Kafka environment running and ready to use.
+          - heading "Using JVM Based Apache Kafka Docker Image" [level=3] [ref=e229]
+          - paragraph [ref=e230]: "Get the Docker image:"
+          - generic [ref=e232]:
+            - button "Copy to clipboard" [ref=e233] [cursor=pointer]: 
+            - code [ref=e234]:
+              - generic [ref=e235]: $ docker pull apache/kafka:4.3.1
+          - paragraph [ref=e237]: "Start the Kafka Docker container:"
+          - generic [ref=e239]:
+            - button "Copy to clipboard" [ref=e240] [cursor=pointer]: 
+            - code [ref=e241]:
+              - generic [ref=e242]: $ docker run -p 9092:9092 apache/kafka:4.3.1
+          - heading "Using GraalVM Based Native Apache Kafka Docker Image" [level=3] [ref=e244]
+          - paragraph [ref=e245]: "Get the Docker image:"
+          - generic [ref=e247]:
+            - button "Copy to clipboard" [ref=e248] [cursor=pointer]: 
+            - code [ref=e249]:
+              - generic [ref=e250]: $ docker pull apache/kafka-native:4.3.1
+          - paragraph [ref=e252]: "Start the Kafka Docker container:"
+          - generic [ref=e254]:
+            - button "Copy to clipboard" [ref=e255] [cursor=pointer]: 
+            - code [ref=e256]:
+              - generic [ref=e257]: $ docker run -p 9092:9092 apache/kafka-native:4.3.1
+          - 'heading "Step 3: Create a topic to store your events" [level=2] [ref=e259]'
+          - paragraph [ref=e260]:
+            - text: Kafka is a distributed
+            - emphasis [ref=e261]: event streaming platform
+            - text: that lets you read, write, store, and process
+            - link [ref=e262] [cursor=pointer]:
+              - /url: /documentation/#messages
+              - emphasis [ref=e263]: events
+            - text: (also called
+            - emphasis [ref=e264]: records
+            - text: or
+            - emphasis [ref=e265]: messages
+            - text: in the documentation) across many machines.
+          - paragraph [ref=e266]:
+            - text: Example events are payment transactions, geolocation updates from mobile phones, shipping orders, sensor measurements from IoT devices or medical equipment, and much more. These events are organized and stored in
+            - link [ref=e267] [cursor=pointer]:
+              - /url: /43/getting-started/introduction/#main-concepts-and-terminology
+              - emphasis [ref=e268]: topics
+            - text: . Very simplified, a topic is similar to a folder in a filesystem, and the events are the files in that folder.
+          - paragraph [ref=e269]: "So before you can write your first events, you must create a topic. Open another terminal session and run:"
+          - generic [ref=e271]:
+            - button "Copy to clipboard" [ref=e272] [cursor=pointer]: 
+            - code [ref=e273]:
+              - generic [ref=e274]: $ bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+          - paragraph [ref=e276]:
+            - text: "All of Kafka’s command line tools have additional options: run the"
+            - code [ref=e277]: kafka-topics.sh
+            - text: command without any arguments to display usage information. For example, it can also show you
+            - link "details such as the partition count" [ref=e278] [cursor=pointer]:
+              - /url: /43/getting-started/introduction/#main-concepts-and-terminology
+            - text: "of the new topic:"
+          - generic [ref=e280]:
+            - button "Copy to clipboard" [ref=e281] [cursor=pointer]: 
+            - code [ref=e282]:
+              - generic [ref=e283]: $ bin/kafka-topics.sh --describe --topic quickstart-events --bootstrap-server localhost:9092
+              - generic [ref=e285]: "Topic: quickstart-events TopicId: NPmZHyhbR9y00wMglMH2sg PartitionCount: 1 ReplicationFactor: 1 Configs:"
+              - generic [ref=e287]: "Topic: quickstart-events Partition: 0 Leader: 0 Replicas: 0 Isr: 0"
+          - 'heading "Step 4: Write some events into the topic" [level=2] [ref=e289]'
+          - paragraph [ref=e290]: A Kafka client communicates with the Kafka brokers via the network for writing (or reading) events. Once received, the brokers will store the events in a durable and fault-tolerant manner for as long as you need-even forever.
+          - paragraph [ref=e291]: Run the console producer client to write a few events into your topic. By default, each line you enter will result in a separate event being written to the topic.
+          - generic [ref=e293]:
+            - button "Copy to clipboard" [ref=e294] [cursor=pointer]: 
+            - code [ref=e295]:
+              - generic [ref=e296]: $ bin/kafka-console-producer.sh --topic quickstart-events --bootstrap-server localhost:9092
+              - generic [ref=e298]: ">This is my first event"
+              - generic [ref=e300]: ">This is my second event"
+          - paragraph [ref=e302]:
+            - text: You can stop the producer client with
+            - code [ref=e303]: Ctrl-C
+            - text: at any time.
+          - 'heading "Step 5: Read the events" [level=2] [ref=e304]'
+          - paragraph [ref=e305]: "Open another terminal session and run the console consumer client to read the events you just created:"
+          - generic [ref=e307]:
+            - button "Copy to clipboard" [ref=e308] [cursor=pointer]: 
+            - code [ref=e309]:
+              - generic [ref=e310]: $ bin/kafka-console-consumer.sh --topic quickstart-events --from-beginning --bootstrap-server localhost:9092
+              - generic [ref=e312]: This is my first event
+              - generic [ref=e314]: This is my second event
+          - paragraph [ref=e316]:
+            - text: You can stop the consumer client with
+            - code [ref=e317]: Ctrl-C
+            - text: at any time.
+          - paragraph [ref=e318]: "Feel free to experiment: for example, switch back to your producer terminal (previous step) to write additional events, and see how the events immediately show up in your consumer terminal."
+          - paragraph [ref=e319]: Because events are durably stored in Kafka, they can be read as many times and by as many consumers as you want. You can easily verify this by opening yet another terminal session and re-running the previous command again.
+          - 'heading "Step 6: Import/export your data as streams of events with Kafka Connect" [level=2] [ref=e320]'
+          - paragraph [ref=e321]:
+            - text: You probably have lots of data in existing systems like relational databases or traditional messaging systems, along with many applications that already use these systems.
+            - link "Kafka Connect" [ref=e322] [cursor=pointer]:
+              - /url: /documentation/#connect
+            - text: allows you to continuously ingest data from external systems into Kafka, and vice versa. It is an extensible tool that runs
+            - emphasis [ref=e323]: connectors
+            - text: ", which implement the custom logic for interacting with an external system. It is thus very easy to integrate existing systems with Kafka. To make this process even easier, there are hundreds of such connectors readily available."
+          - paragraph [ref=e324]: In this quickstart we’ll see how to run Kafka Connect with simple connectors that import data from a file to a Kafka topic and export data from a Kafka topic to a file.
+          - paragraph [ref=e325]:
+            - text: First, make sure to add
+            - code [ref=e326]: connect-file-4.3.1.jar
+            - text: to the
+            - code [ref=e327]: plugin.path
+            - text: property in the Connect worker’s configuration. For the purpose of this quickstart we’ll use a relative path and consider the connectors’ package as an uber jar, which works when the quickstart commands are run from the installation directory. However, it’s worth noting that for production deployments using absolute paths is always preferable. See
+            - link "plugin.path" [ref=e328] [cursor=pointer]:
+              - /url: ../../configuration/kafka-connect-configs/#connectconfigs_plugin.path
+            - text: for a detailed description of how to set this config.
+          - paragraph [ref=e329]:
+            - text: Edit the
+            - code [ref=e330]: config/connect-standalone.properties
+            - text: file, add or change the
+            - code [ref=e331]: plugin.path
+            - text: "configuration property match the following, and save the file:"
+          - generic [ref=e333]:
+            - button "Copy to clipboard" [ref=e334] [cursor=pointer]: 
+            - code [ref=e335]:
+              - generic [ref=e336]: $ echo "plugin.path=libs/connect-file-4.3.1.jar" >> config/connect-standalone.properties
+          - paragraph [ref=e338]: "Then, start by creating some seed data to test with:"
+          - generic [ref=e340]:
+            - button "Copy to clipboard" [ref=e341] [cursor=pointer]: 
+            - code [ref=e342]:
+              - generic [ref=e343]: $ echo -e "foo
+              - generic [ref=e345]: bar" > test.txt
+          - paragraph [ref=e347]: "Or on Windows:"
+          - generic [ref=e349]:
+            - button "Copy to clipboard" [ref=e350] [cursor=pointer]: 
+            - code [ref=e351]:
+              - generic [ref=e352]: $ echo foo > test.txt
+              - generic [ref=e354]: $ echo bar >> test.txt
+          - paragraph [ref=e356]:
+            - text: Next, we’ll start two connectors running in
+            - emphasis [ref=e357]: standalone
+            - text: mode, which means they run in a single, local, dedicated process. We provide three configuration files as parameters. The first is always the configuration for the Kafka Connect process, containing common configuration such as the Kafka brokers to connect to and the serialization format for data. The remaining configuration files each specify a connector to create. These files include a unique connector name, the connector class to instantiate, and any other configuration required by the connector.
+          - generic [ref=e359]:
+            - button "Copy to clipboard" [ref=e360] [cursor=pointer]: 
+            - code [ref=e361]:
+              - generic [ref=e362]: $ bin/connect-standalone.sh config/connect-standalone.properties config/connect-file-source.properties config/connect-file-sink.properties
+          - paragraph [ref=e364]: "These sample configuration files, included with Kafka, use the default local cluster configuration you started earlier and create two connectors: the first is a source connector that reads lines from an input file and produces each to a Kafka topic and the second is a sink connector that reads messages from a Kafka topic and produces each as a line in an output file."
+          - paragraph [ref=e365]:
+            - text: During startup you’ll see a number of log messages, including some indicating that the connectors are being instantiated. Once the Kafka Connect process has started, the source connector should start reading lines from
+            - code [ref=e366]: test.txt
+            - text: and producing them to the topic
+            - code [ref=e367]: connect-test
+            - text: ", and the sink connector should start reading messages from the topic"
+            - code [ref=e368]: connect-test
+            - text: and write them to the file
+            - code [ref=e369]: test.sink.txt
+            - text: ". We can verify the data has been delivered through the entire pipeline by examining the contents of the output file:"
+          - generic [ref=e371]:
+            - button "Copy to clipboard" [ref=e372] [cursor=pointer]: 
+            - code [ref=e373]:
+              - generic [ref=e374]: $ more test.sink.txt
+              - generic [ref=e376]: foo
+              - generic [ref=e378]: bar
+          - paragraph [ref=e380]:
+            - text: Note that the data is being stored in the Kafka topic
+            - code [ref=e381]: connect-test
+            - text: ", so we can also run a console consumer to see the data in the topic (or use custom consumer code to process it):"
+          - generic [ref=e383]:
+            - button "Copy to clipboard" [ref=e384] [cursor=pointer]: 
+            - code [ref=e385]:
+              - generic [ref=e386]: $ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic connect-test --from-beginning
+              - generic [ref=e388]: "{\"schema\":{\"type\":\"string\",\"optional\":false},\"payload\":\"foo\"}"
+              - generic [ref=e390]: "{\"schema\":{\"type\":\"string\",\"optional\":false},\"payload\":\"bar\"}"
+              - generic [ref=e392]: …
+          - paragraph [ref=e394]: "The connectors continue to process data, so we can add data to the file and see it move through the pipeline:"
+          - generic [ref=e396]:
+            - button "Copy to clipboard" [ref=e397] [cursor=pointer]: 
+            - code [ref=e398]:
+              - generic [ref=e399]: $ echo "Another line" >> test.txt
+          - paragraph [ref=e401]: You should see the line appear in the console consumer output and in the sink file.
+          - 'heading "Step 7: Process your events with Kafka Streams" [level=2] [ref=e402]'
+          - paragraph [ref=e403]:
+            - text: Once your data is stored in Kafka as events, you can process the data with the
+            - link "Kafka Streams" [ref=e404] [cursor=pointer]:
+              - /url: /documentation/streams
+            - text: client library for Java/Scala. It allows you to implement mission-critical real-time applications and microservices, where the input and/or output data is stored in Kafka topics. Kafka Streams combines the simplicity of writing and deploying standard Java and Scala applications on the client side with the benefits of Kafka’s server-side cluster technology to make these applications highly scalable, elastic, fault-tolerant, and distributed. The library supports exactly-once processing, stateful operations and aggregations, windowing, joins, processing based on event-time, and much more.
+          - paragraph [ref=e405]:
+            - text: To give you a first taste, here’s how one would implement the popular
+            - code [ref=e406]: WordCount
+            - text: "algorithm:"
+          - generic [ref=e408]:
+            - button "Copy to clipboard" [ref=e409] [cursor=pointer]: 
+            - code [ref=e410]:
+              - generic [ref=e411]: KStream<String, String> textLines = builder.stream("quickstart-events");
+              - generic [ref=e414]: KTable<String, Long> wordCounts = textLines
+              - generic [ref=e416]: .flatMapValues(line -> Arrays.asList(line.toLowerCase().split(" ")))
+              - generic [ref=e418]: .groupBy((keyIgnored, word) -> word)
+              - generic [ref=e420]: .count();
+              - generic [ref=e423]: wordCounts.toStream().to("output-topic", Produced.with(Serdes.String(), Serdes.Long()));
+          - paragraph [ref=e425]:
+            - text: The
+            - link "Kafka Streams demo" [ref=e426] [cursor=pointer]:
+              - /url: /documentation/streams/quickstart
+            - text: and the
+            - link "app development tutorial" [ref=e427] [cursor=pointer]:
+              - /url: /43/documentation/streams/tutorial
+            - text: demonstrate how to code and run such a streaming application from start to finish.
+          - 'heading "Step 8: Terminate the Kafka environment" [level=2] [ref=e428]'
+          - paragraph [ref=e429]: Now that you reached the end of the quickstart, feel free to tear down the Kafka environment-or continue playing around.
+          - list [ref=e430]:
+            - listitem [ref=e431]:
+              - text: Stop the producer and consumer clients with
+              - code [ref=e432]: Ctrl-C
+              - text: ", if you haven’t done so already."
+            - listitem [ref=e433]:
+              - text: Stop the Kafka broker with
+              - code [ref=e434]: Ctrl-C
+              - text: .
+          - paragraph [ref=e435]: "If you also want to delete any data of your local Kafka environment including any events you have created along the way, run the command:"
+          - generic [ref=e437]:
+            - button "Copy to clipboard" [ref=e438] [cursor=pointer]: 
+            - code [ref=e439]:
+              - generic [ref=e440]: $ rm -rf /tmp/kafka-logs /tmp/kraft-combined-logs
+          - heading "Congratulations!" [level=2] [ref=e442]
+          - paragraph [ref=e443]: You have successfully finished the Apache Kafka quickstart.
+          - paragraph [ref=e444]: "To learn more, we suggest the following next steps:"
+          - list [ref=e445]:
+            - listitem [ref=e446]:
+              - text: Read through the brief
+              - link "Introduction" [ref=e447] [cursor=pointer]:
+                - /url: /intro
+              - text: to learn how Kafka works at a high level, its main concepts, and how it compares to other technologies. To understand Kafka in more detail, head over to the
+              - link "Documentation" [ref=e448] [cursor=pointer]:
+                - /url: /documentation/
+              - text: .
+            - listitem [ref=e449]:
+              - text: Browse through the
+              - link "Use Cases" [ref=e450] [cursor=pointer]:
+                - /url: /powered-by
+              - text: to learn how other users in our world-wide community are getting value out of Kafka.
+            - listitem [ref=e451]:
+              - text: Join a
+              - link "local Kafka meetup group" [ref=e452] [cursor=pointer]:
+                - /url: /events
+              - text: and
+              - link "watch talks from Kafka Summit" [ref=e453] [cursor=pointer]:
+                - /url: https://kafka-summit.org/past-events/
+              - text: ", the main conference of the Kafka community."
+          - generic [ref=e454]:
+            - text: "Last modified June 25, 2026:"
+            - link "Add blog post and fix some trailing 4.3.0 references (#890) (4b8ee1ce95)" [ref=e455] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//commit/4b8ee1ce9518e6a082e198f15cb9faeefb8c4ae3
+        - navigation [ref=e457]:
+          - 'link "Previous: Use Cases" [ref=e459] [cursor=pointer]':
+            - /url: /43/getting-started/uses/
+            - generic [ref=e460]: "‹ Previous:"
+            - generic [ref=e461]: Use Cases
+          - 'link "Next: Ecosystem" [ref=e463] [cursor=pointer]':
+            - /url: /43/getting-started/ecosystem/
+            - generic [ref=e464]: "Next:"
+            - generic [ref=e465]: Ecosystem
+            - generic [ref=e466]: ›
+    - contentinfo [ref=e467]:
+      - generic [ref=e469]:
+        - generic [ref=e471]:
+          - link "Contact" [ref=e472] [cursor=pointer]:
+            - /url: /community/contact/
+            - generic [ref=e473]: 
+          - link "Twitter" [ref=e474] [cursor=pointer]:
+            - /url: https://twitter.com/apachekafka
+            - generic [ref=e475]: 
+          - link "Stack Overflow" [ref=e476] [cursor=pointer]:
+            - /url: https://stackoverflow.com/questions/tagged/apache-kafka
+            - generic [ref=e477]: 
+          - link "GitHub" [ref=e478] [cursor=pointer]:
+            - /url: https://github.com/apache/kafka
+            - generic [ref=e479]: 
+          - link "Developer mailing list" [ref=e480] [cursor=pointer]:
+            - /url: mailto:dev@kafka.apache.org
+            - generic [ref=e481]: 
+        - generic [ref=e482]:
+          - generic [ref=e483]:
+            - text: The contents of this website are © 2026 Apache Software Foundation under the terms of the
+            - link "Apache License v2" [ref=e484] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/LICENSE-2.0
+            - text: . Apache Kafka, Kafka, and the Kafka logo are either registered trademarks or trademarks of The Apache Software Foundation in the United States and other countries.
+          - generic [ref=e485]:
+            - link "Security" [ref=e486] [cursor=pointer]:
+              - /url: https://www.apache.org/security/
+            - text: "|"
+            - link "Donate" [ref=e487] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/contributing.html
+            - text: "|"
+            - link "Thanks" [ref=e488] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/thanks.html
+            - text: "|"
+            - link "Events" [ref=e489] [cursor=pointer]:
+              - /url: https://www.apache.org/events/current-event.html
+            - text: "|"
+            - link "License" [ref=e490] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/
+            - text: "|"
+            - link "Privacy" [ref=e491] [cursor=pointer]:
+              - /url: https://privacy.apache.org/policies/privacy-policy-public.html
+        - link [ref=e493] [cursor=pointer]:
+          - /url: https://www.apache.org/
+          - img "Apache Software Foundation" [ref=e494]

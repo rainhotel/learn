@@ -1,0 +1,672 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - link "Libraries and tools" [ref=e48] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e49] [cursor=pointer]:
+          - /url: /docs/latest/operate
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Redis Software" [ref=e52] [cursor=pointer]:
+              - /url: /docs/latest/operate/rs/
+          - listitem [ref=e54]:
+            - link "Redis Cloud" [ref=e55] [cursor=pointer]:
+              - /url: /docs/latest/operate/rc/
+          - listitem [ref=e57]:
+            - link "Redis for Kubernetes" [ref=e58] [cursor=pointer]:
+              - /url: /docs/latest/operate/kubernetes/
+          - listitem [ref=e60]:
+            - link "Redis Open Source" [ref=e61] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/
+            - list [ref=e63]:
+              - listitem [ref=e64]:
+                - link "Install and upgrade" [ref=e65] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/install/
+              - listitem [ref=e67]:
+                - link "Manage Redis" [ref=e68] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/management/
+                - list [ref=e70]:
+                  - listitem [ref=e71]:
+                    - link "Administration" [ref=e72] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/admin/
+                  - listitem [ref=e74]:
+                    - link "Security" [ref=e75] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/security/
+                  - listitem [ref=e77]:
+                    - link "Configuration" [ref=e78] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/config/
+                  - listitem [ref=e80]:
+                    - link "High availability with Sentinel" [ref=e81] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/sentinel/
+                  - listitem [ref=e83]:
+                    - link "Replication":
+                      - /url: /docs/latest/operate/oss_and_stack/management/replication/
+                  - listitem [ref=e84]:
+                    - link "Scale with Redis Cluster" [ref=e85] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/scaling/
+                  - listitem [ref=e87]:
+                    - link "Persistence" [ref=e88] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/persistence/
+                  - listitem [ref=e90]:
+                    - link "Optimization" [ref=e91] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/optimization/
+                  - listitem [ref=e93]:
+                    - link "Troubleshooting" [ref=e94] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/troubleshooting/
+                  - listitem [ref=e96]:
+                    - link "Debugging" [ref=e97] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/debugging/
+              - listitem [ref=e99]:
+                - link "Redis Open Source and Redis Software" [ref=e100] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/stack-with-enterprise/
+              - listitem [ref=e102]:
+                - link "Reference" [ref=e103] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/reference/
+          - listitem [ref=e105]:
+            - link "Redis Feature Form" [ref=e106] [cursor=pointer]:
+              - /url: /docs/latest/operate/featureform/
+          - listitem [ref=e108]:
+            - link "Redis Insight" [ref=e109] [cursor=pointer]:
+              - /url: /docs/latest/operate/redisinsight/
+          - listitem [ref=e111]:
+            - link "Redis Data Integration (RDI)" [ref=e112] [cursor=pointer]:
+              - /url: /docs/latest/operate/rdi/
+      - link "Commands" [ref=e115] [cursor=pointer]:
+        - /url: /docs/latest/commands
+    - generic [ref=e116]:
+      - navigation "Breadcrumb" [ref=e117]:
+        - list [ref=e118]:
+          - listitem [ref=e119]:
+            - link "Docs Docs" [ref=e120] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e121]: Docs
+          - listitem [ref=e122]:
+            - generic [ref=e123]: →
+            - link "Redis products" [ref=e124] [cursor=pointer]:
+              - /url: /docs/latest/operate/
+          - listitem [ref=e125]:
+            - generic [ref=e126]: →
+            - link "Redis Open Source" [ref=e127] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/
+          - listitem [ref=e128]:
+            - generic [ref=e129]: →
+            - link "Manage Redis" [ref=e130] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/management/
+          - listitem:
+            - generic: →
+            - link "Redis replication":
+              - /url: /docs/latest/operate/oss_and_stack/management/replication/
+      - generic [ref=e131]:
+        - heading "Redis replication" [level=1] [ref=e132]
+        - paragraph [ref=e133]: How Redis supports high availability and failover with replication
+        - table [ref=e135]:
+          - rowgroup [ref=e136]:
+            - row "Redis Open Source" [ref=e137]
+          - rowgroup
+        - paragraph [ref=e139]:
+          - text: At the base of Redis replication (excluding the high availability features provided as an additional layer by Redis Cluster or Redis Sentinel) there is a
+          - emphasis [ref=e140]: leader follower
+          - text: (master-replica) replication that is simple to use and configure. It allows replica Redis instances to be exact copies of master instances. The replica will automatically reconnect to the master every time the link breaks, and will attempt to be an exact copy of it
+          - emphasis [ref=e141]: regardless
+          - text: of what happens to the master.
+        - paragraph [ref=e142]: "This system works using three main mechanisms:"
+        - list [ref=e143]:
+          - listitem [ref=e144]: "When a master and a replica instance are well-connected, the master keeps the replica updated by sending a stream of commands to the replica to replicate the effects on the dataset happening on the master side due to: client writes, keys expired or evicted, any other action changing the master dataset."
+          - listitem [ref=e145]: "When the link between the master and the replica breaks, for network issues or because a timeout is sensed in the master or the replica, the replica reconnects and attempts to proceed with a partial resynchronization: it means that it will try to just obtain the part of the stream of commands it missed during the disconnection."
+          - listitem [ref=e146]: When a partial resynchronization is not possible, the replica will ask for a full resynchronization. This will involve a more complex process in which the master needs to create a snapshot of all its data, send it to the replica, and then continue sending the stream of commands as the dataset changes.
+        - paragraph [ref=e147]: Redis uses by default asynchronous replication, which being low latency and high performance, is the natural replication mode for the vast majority of Redis use cases. However, Redis replicas asynchronously acknowledge the amount of data they receive periodically with the master. So the master does not wait every time for a command to be processed by the replicas, however it knows, if needed, what replica already processed what command. This allows having optional synchronous replication.
+        - paragraph [ref=e148]:
+          - text: Synchronous replication of certain data can be requested by the clients using the
+          - link [ref=e149] [cursor=pointer]:
+            - /url: /commands/wait
+            - code [ref=e150]: WAIT
+          - text: command. However
+          - link [ref=e151] [cursor=pointer]:
+            - /url: /commands/wait
+            - code [ref=e152]: WAIT
+          - text: "is only able to ensure there are the specified number of acknowledged copies in the other Redis instances, it does not turn a set of Redis instances into a CP system with strong consistency: acknowledged writes can still be lost during a failover, depending on the exact configuration of the Redis persistence. However,"
+          - link "WAIT" [ref=e153] [cursor=pointer]:
+            - /url: /docs/latest/commands/wait/
+          - text: dramatically reduces the probability of losing a write after a failure event to specific hard-to-trigger failure modes.
+        - paragraph [ref=e154]: You can check the Redis Sentinel or Redis Cluster documentation for more information about high availability and failover. The rest of this document mainly describes the basic characteristics of Redis basic replication.
+        - heading [level=3] [ref=e155]:
+          - text: Important facts about Redis replication
+          - link "Link to this section" [ref=e156] [cursor=pointer]:
+            - /url: "#important-facts-about-redis-replication"
+        - list [ref=e159]:
+          - listitem [ref=e160]: Redis uses asynchronous replication, with asynchronous replica-to-master acknowledges of the amount of data processed.
+          - listitem [ref=e161]: A master can have multiple replicas.
+          - listitem [ref=e162]: Replicas are able to accept connections from other replicas. Aside from connecting a number of replicas to the same master, replicas can also be connected to other replicas in a cascading-like structure. Since Redis 4.0, all the sub-replicas will receive exactly the same replication stream from the master.
+          - listitem [ref=e163]: Redis replication is non-blocking on the master side. This means that the master will continue to handle queries when one or more replicas perform the initial synchronization or a partial resynchronization.
+          - listitem [ref=e164]: Replication is also largely non-blocking on the replica side. While the replica is performing the initial synchronization, it can handle queries using the old version of the dataset, assuming you configured Redis to do so in redis.conf. Otherwise, you can configure Redis replicas to return an error to clients if the replication stream is down. However, after the initial sync, the old dataset must be deleted and the new one must be loaded. The replica will block incoming connections during this brief window (that can be as long as many seconds for very large datasets). Since Redis 4.0 you can configure Redis so that the deletion of the old data set happens in a different thread, however loading the new initial dataset will still happen in the main thread and block the replica.
+          - listitem [ref=e165]: Replication can be used both for scalability, to have multiple replicas for read-only queries (for example, slow O(N) operations can be offloaded to replicas), or simply for improving data safety and high availability.
+          - listitem [ref=e166]:
+            - text: "You can use replication to avoid the cost of having the master writing the full dataset to disk: a typical technique involves configuring your master"
+            - code [ref=e167]: redis.conf
+            - text: "to avoid persisting to disk at all, then connect a replica configured to save from time to time, or with AOF enabled. However, this setup must be handled with care, since a restarting master will start with an empty dataset: if the replica tries to sync with it, the replica will be emptied as well."
+        - heading [level=2] [ref=e168]:
+          - text: Safety of replication when master has persistence turned off
+          - link "Link to this section" [ref=e169] [cursor=pointer]:
+            - /url: "#safety-of-replication-when-master-has-persistence-turned-off"
+        - paragraph [ref=e172]:
+          - text: In setups where Redis replication is used, it is strongly advised to have persistence turned on in the master and in the replicas. When this is not possible, for example because of latency concerns due to very slow disks, instances should be configured to
+          - strong [ref=e173]: avoid restarting automatically
+          - text: after a reboot.
+        - paragraph [ref=e174]: "To better understand why masters with persistence turned off configured to auto restart are dangerous, check the following failure mode where data is wiped from the master and all its replicas:"
+        - list [ref=e175]:
+          - listitem [ref=e176]: We have a setup with node A acting as master, with persistence turned down, and nodes B and C replicating from node A.
+          - listitem [ref=e177]: Node A crashes, however it has some auto-restart system, that restarts the process. However since persistence is turned off, the node restarts with an empty data set.
+          - listitem [ref=e178]: Nodes B and C will replicate from node A, which is empty, so they'll effectively destroy their copy of the data.
+        - paragraph [ref=e179]: When Redis Sentinel is used for high availability, also turning off persistence on the master, together with auto restart of the process, is dangerous. For example the master can restart fast enough for Sentinel to not detect a failure, so that the failure mode described above happens.
+        - paragraph [ref=e180]: Every time data safety is important, and replication is used with master configured without persistence, auto restart of instances should be disabled.
+        - heading [level=2] [ref=e181]:
+          - text: How Redis replication works
+          - link "Link to this section" [ref=e182] [cursor=pointer]:
+            - /url: "#how-redis-replication-works"
+        - paragraph [ref=e185]: "Every Redis master has a replication ID: it is a large pseudo random string that marks a given history of the dataset. Each master also takes an offset that increments for every byte of replication stream that it is produced to be sent to replicas, to update the state of the replicas with the new changes modifying the dataset. The replication offset is incremented even if no replica is actually connected, so basically every given pair of:"
+        - code [ref=e187]: Replication ID, offset
+        - paragraph [ref=e188]: Identifies an exact version of the dataset of a master.
+        - paragraph [ref=e189]:
+          - text: When replicas connect to masters, they use the
+          - link [ref=e190] [cursor=pointer]:
+            - /url: /commands/psync
+            - code [ref=e191]: PSYNC
+          - text: command to send their old master replication ID and the offsets they processed so far. This way the master can send just the incremental part needed. However if there is not enough
+          - emphasis [ref=e192]: backlog
+          - text: "in the master buffers, or if the replica is referring to an history (replication ID) which is no longer known, then a full resynchronization happens: in this case the replica will get a full copy of the dataset, from scratch."
+        - paragraph [ref=e193]: "This is how a full synchronization works in more details:"
+        - paragraph [ref=e194]: The master starts a background saving process to produce an RDB file. At the same time it starts to buffer all new write commands received from the clients. When the background saving is complete, the master transfers the database file to the replica, which saves it on disk, and then loads it into memory. The master will then send all buffered commands to the replica. This is done as a stream of commands and is in the same format of the Redis protocol itself.
+        - paragraph [ref=e195]:
+          - text: You can try it yourself via telnet. Connect to the Redis port while the server is doing some work and issue the
+          - link [ref=e196] [cursor=pointer]:
+            - /url: /commands/sync
+            - code [ref=e197]: SYNC
+          - text: command. You'll see a bulk transfer and then every command received by the master will be re-issued in the telnet session. Actually
+          - link [ref=e198] [cursor=pointer]:
+            - /url: /commands/sync
+            - code [ref=e199]: SYNC
+          - text: "is an old protocol no longer used by newer Redis instances, but is still there for backward compatibility: it does not allow partial resynchronizations, so now"
+          - link [ref=e200] [cursor=pointer]:
+            - /url: /commands/psync
+            - code [ref=e201]: PSYNC
+          - text: is used instead.
+        - paragraph [ref=e202]: As already said, replicas are able to automatically reconnect when the master-replica link goes down for some reason. If the master receives multiple concurrent replica synchronization requests, it performs a single background save in to serve all of them.
+        - heading [level=2] [ref=e203]:
+          - text: Replication ID explained
+          - link "Link to this section" [ref=e204] [cursor=pointer]:
+            - /url: "#replication-id-explained"
+        - paragraph [ref=e207]: "In the previous section we said that if two instances have the same replication ID and replication offset, they have exactly the same data. However it is useful to understand what exactly is the replication ID, and why instances have actually two replication IDs: the main ID and the secondary ID."
+        - paragraph [ref=e208]:
+          - text: A replication ID basically marks a given
+          - emphasis [ref=e209]: history
+          - text: of the data set. Every time an instance restarts from scratch as a master, or a replica is promoted to master, a new replication ID is generated for this instance. The replicas connected to a master will inherit its replication ID after the handshake. So two instances with the same ID are related by the fact that they hold the same data, but potentially at a different time. It is the offset that works as a logical time to understand, for a given history (replication ID), who holds the most updated data set.
+        - paragraph [ref=e210]: For instance, if two instances A and B have the same replication ID, but one with offset 1000 and one with offset 1023, it means that the first lacks certain commands applied to the data set. It also means that A, by applying just a few commands, may reach exactly the same state of B.
+        - paragraph [ref=e211]: The reason why Redis instances have two replication IDs is because of replicas that are promoted to masters. After a failover, the promoted replica requires to still remember what was its past replication ID, because such replication ID was the one of the former master. In this way, when other replicas will sync with the new master, they will try to perform a partial resynchronization using the old master replication ID. This will work as expected, because when the replica is promoted to master it sets its secondary ID to its main ID, remembering what was the offset when this ID switch happened. Later it will select a new random replication ID, because a new history begins. When handling the new replicas connecting, the master will match their IDs and offsets both with the current ID and the secondary ID (up to a given offset, for safety). In short this means that after a failover, replicas connecting to the newly promoted master don't have to perform a full sync.
+        - paragraph [ref=e212]: "In case you wonder why a replica promoted to master needs to change its replication ID after a failover: it is possible that the old master is still working as a master because of some network partition: retaining the same replication ID would violate the fact that the same ID and same offset of any two random instances mean they have the same data set."
+        - heading [level=2] [ref=e213]:
+          - text: Diskless replication
+          - link "Link to this section" [ref=e214] [cursor=pointer]:
+            - /url: "#diskless-replication"
+        - paragraph [ref=e217]: Normally a full resynchronization requires creating an RDB file on disk, then reloading the same RDB from disk to feed the replicas with the data.
+        - paragraph [ref=e218]: With slow disks this can be a very stressing operation for the master. Redis version 2.8.18 is the first version to have support for diskless replication. In this setup the child process directly sends the RDB over the wire to replicas, without using the disk as intermediate storage.
+        - heading [level=2] [ref=e219]:
+          - text: Configuration
+          - link "Link to this section" [ref=e220] [cursor=pointer]:
+            - /url: "#configuration"
+        - paragraph [ref=e223]: "To configure basic Redis replication is trivial: just add the following line to the replica configuration file:"
+        - code [ref=e225]: replicaof 192.168.1.1 6379
+        - paragraph [ref=e226]:
+          - text: Of course you need to replace 192.168.1.1 6379 with your master IP address (or hostname) and port. Alternatively, you can call the
+          - link [ref=e227] [cursor=pointer]:
+            - /url: /commands/replicaof
+            - code [ref=e228]: REPLICAOF
+          - text: command and the master host will start a sync with the replica.
+        - paragraph [ref=e229]:
+          - text: There are also a few parameters for tuning the replication backlog taken in memory by the master to perform the partial resynchronization. See the example
+          - code [ref=e230]: redis.conf
+          - text: shipped with the Redis distribution for more information.
+        - paragraph [ref=e231]:
+          - text: Diskless replication can be enabled using the
+          - code [ref=e232]: repl-diskless-sync
+          - text: configuration parameter. The delay to start the transfer to wait for more replicas to arrive after the first one is controlled by the
+          - code [ref=e233]: repl-diskless-sync-delay
+          - text: parameter. Please refer to the example
+          - code [ref=e234]: redis.conf
+          - text: file in the Redis distribution for more details.
+        - heading [level=2] [ref=e235]:
+          - text: Read-only replica
+          - link "Link to this section" [ref=e236] [cursor=pointer]:
+            - /url: "#read-only-replica"
+        - paragraph [ref=e239]:
+          - text: Since Redis 2.6, replicas support a read-only mode that is enabled by default. This behavior is controlled by the
+          - code [ref=e240]: replica-read-only
+          - text: option in the redis.conf file, and can be enabled and disabled at runtime using
+          - link [ref=e241] [cursor=pointer]:
+            - /url: /commands/config-set
+            - code [ref=e242]: CONFIG SET
+          - text: .
+        - paragraph [ref=e243]:
+          - text: Read-only replicas will reject all write commands, so that it is not possible to write to a replica because of a mistake. This does not mean that the feature is intended to expose a replica instance to the internet or more generally to a network where untrusted clients exist, because administrative commands like
+          - link [ref=e244] [cursor=pointer]:
+            - /url: /commands/debug
+            - code [ref=e245]: DEBUG
+          - text: or
+          - link [ref=e246] [cursor=pointer]:
+            - /url: /commands/config
+            - code [ref=e247]: CONFIG
+          - text: are still enabled. The
+          - link "Security" [ref=e248] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/management/security/
+          - text: page describes how to secure a Redis instance.
+        - paragraph [ref=e249]: "You may wonder why it is possible to revert the read-only setting and have replica instances that can be targeted by write operations. The answer is that writable replicas exist only for historical reasons. Using writable replicas can result in inconsistency between the master and the replica, so it is not recommended to use writable replicas. To understand in which situations this can be a problem, we need to understand how replication works. Changes on the master is replicated by propagating regular Redis commands to the replica. When a key expires on the master, this is propagated as a DEL command. If a key which exists on the master but is deleted, expired or has a different type on the replica compared to the master will react differently to commands like DEL, INCR or RPOP propagated from the master than intended. The propagated command may fail on the replica or result in a different outcome. To minimize the risks (if you insist on using writable replicas) we suggest you follow these recommendations:"
+        - list [ref=e250]:
+          - listitem [ref=e251]:
+            - paragraph [ref=e252]: Don't write to keys in a writable replica that are also used on the master. (This can be hard to guarantee if you don't have control over all the clients that write to the master.)
+          - listitem [ref=e253]:
+            - paragraph [ref=e254]: Don't configure an instance as a writable replica as an intermediary step when upgrading a set of instances in a running system. In general, don't configure an instance as a writable replica if it can ever be promoted to a master if you want to guarantee data consistency.
+        - paragraph [ref=e255]: "Historically, there were some use cases that were considered legitimate for writable replicas. As of version 7.0, these use cases are now all obsolete and the same can be achieved by other means. For example:"
+        - list [ref=e256]:
+          - listitem [ref=e257]:
+            - paragraph [ref=e258]:
+              - text: Computing slow Set or Sorted set operations and storing the result in temporary local keys using commands like
+              - link [ref=e259] [cursor=pointer]:
+                - /url: /commands/sunionstore
+                - code [ref=e260]: SUNIONSTORE
+              - text: and
+              - link [ref=e261] [cursor=pointer]:
+                - /url: /commands/zinterstore
+                - code [ref=e262]: ZINTERSTORE
+              - text: . Instead, use commands that return the result without storing it, such as
+              - link [ref=e263] [cursor=pointer]:
+                - /url: /commands/sunion
+                - code [ref=e264]: SUNION
+              - text: and
+              - link [ref=e265] [cursor=pointer]:
+                - /url: /commands/zinter
+                - code [ref=e266]: ZINTER
+              - text: .
+          - listitem [ref=e267]:
+            - paragraph [ref=e268]:
+              - text: Using the
+              - link [ref=e269] [cursor=pointer]:
+                - /url: /commands/sort
+                - code [ref=e270]: SORT
+              - text: command (which is not considered a read-only command because of the optional STORE option and therefore cannot be used on a read-only replica). Instead, use
+              - link [ref=e271] [cursor=pointer]:
+                - /url: /commands/sort_ro
+                - code [ref=e272]: SORT_RO
+              - text: ", which is a read-only command."
+          - listitem [ref=e273]:
+            - paragraph [ref=e274]:
+              - text: Using
+              - link [ref=e275] [cursor=pointer]:
+                - /url: /commands/eval
+                - code [ref=e276]: EVAL
+              - text: and
+              - link [ref=e277] [cursor=pointer]:
+                - /url: /commands/evalsha
+                - code [ref=e278]: EVALSHA
+              - text: are also not considered read-only commands, because the Lua script may call write commands. Instead, use
+              - link [ref=e279] [cursor=pointer]:
+                - /url: /commands/eval_ro
+                - code [ref=e280]: EVAL_RO
+              - text: and
+              - link [ref=e281] [cursor=pointer]:
+                - /url: /commands/evalsha_ro
+                - code [ref=e282]: EVALSHA_RO
+              - text: where the Lua script can only call read-only commands.
+        - paragraph [ref=e283]: While writes to a replica will be discarded if the replica and the master resync or if the replica is restarted, there is no guarantee that they will sync automatically.
+        - paragraph [ref=e284]:
+          - text: Before version 4.0, writable replicas were incapable of expiring keys with a time to live set. This means that if you use
+          - link [ref=e285] [cursor=pointer]:
+            - /url: /commands/expire
+            - code [ref=e286]: EXPIRE
+          - text: or other commands that set a maximum TTL for a key, the key will leak, and while you may no longer see it while accessing it with read commands, you will see it in the count of keys and it will still use memory. Redis 4.0 RC3 and greater versions are able to evict keys with TTL as masters do, with the exceptions of keys written in DB numbers greater than 63 (but by default Redis instances only have 16 databases). Note though that even in versions greater than 4.0, using
+          - link [ref=e287] [cursor=pointer]:
+            - /url: /commands/expire
+            - code [ref=e288]: EXPIRE
+          - text: on a key that could ever exists on the master can cause inconsistency between the replica and the master.
+        - paragraph [ref=e289]: "Also note that since Redis 4.0 replica writes are only local, and are not propagated to sub-replicas attached to the instance. Sub-replicas instead will always receive the replication stream identical to the one sent by the top-level master to the intermediate replicas. So for example in the following setup:"
+        - code [ref=e291]: A ---> B ---> C
+        - paragraph [ref=e292]:
+          - text: Even if
+          - code [ref=e293]: B
+          - text: is writable, C will not see
+          - code [ref=e294]: B
+          - text: writes and will instead have identical dataset as the master instance
+          - code [ref=e295]: A
+          - text: .
+        - heading [level=2] [ref=e296]:
+          - text: Setting a replica to authenticate to a master
+          - link "Link to this section" [ref=e297] [cursor=pointer]:
+            - /url: "#setting-a-replica-to-authenticate-to-a-master"
+        - paragraph [ref=e300]:
+          - text: If your master has a password via
+          - code [ref=e301]: requirepass
+          - text: ", it's trivial to configure the replica to use that password in all sync operations."
+        - paragraph [ref=e302]:
+          - text: To do it on a running instance, use
+          - code [ref=e303]: redis-cli
+          - text: "and type:"
+        - code [ref=e305]: config set masterauth <password>
+        - paragraph [ref=e306]: "To set it permanently, add this to your config file:"
+        - code [ref=e308]: masterauth <password>
+        - heading [level=2] [ref=e309]:
+          - text: Allow writes only with N attached replicas
+          - link "Link to this section" [ref=e310] [cursor=pointer]:
+            - /url: "#allow-writes-only-with-n-attached-replicas"
+        - paragraph [ref=e313]: Starting with Redis 2.8, you can configure a Redis master to accept write queries only if at least N replicas are currently connected to the master.
+        - paragraph [ref=e314]: However, because Redis uses asynchronous replication it is not possible to ensure the replica actually received a given write, so there is always a window for data loss.
+        - paragraph [ref=e315]: "This is how the feature works:"
+        - list [ref=e316]:
+          - listitem [ref=e317]: Redis replicas ping the master every second, acknowledging the amount of replication stream processed.
+          - listitem [ref=e318]: Redis masters will remember the last time it received a ping from every replica.
+          - listitem [ref=e319]: The user can configure a minimum number of replicas that have a lag not greater than a maximum number of seconds.
+        - paragraph [ref=e320]: If there are at least N replicas, with a lag less than M seconds, then the write will be accepted.
+        - paragraph [ref=e321]: You may think of it as a best effort data safety mechanism, where consistency is not ensured for a given write, but at least the time window for data loss is restricted to a given number of seconds. In general bound data loss is better than unbound one.
+        - paragraph [ref=e322]: If the conditions are not met, the master will instead reply with an error and the write will not be accepted.
+        - paragraph [ref=e323]: "There are two configuration parameters for this feature:"
+        - list [ref=e324]:
+          - listitem [ref=e325]:
+            - text: min-replicas-to-write
+            - code [ref=e326]: <number of replicas>
+          - listitem [ref=e327]:
+            - text: min-replicas-max-lag
+            - code [ref=e328]: <number of seconds>
+        - paragraph [ref=e329]:
+          - text: For more information, please check the example
+          - code [ref=e330]: redis.conf
+          - text: file shipped with the Redis source distribution.
+        - heading [level=2] [ref=e331]:
+          - text: How Redis replication deals with expires on keys
+          - link "Link to this section" [ref=e332] [cursor=pointer]:
+            - /url: "#how-redis-replication-deals-with-expires-on-keys"
+        - paragraph [ref=e335]: Redis expires allow keys to have a limited time to live (TTL). Such a feature depends on the ability of an instance to count the time, however Redis replicas correctly replicate keys with expires, even when such keys are altered using Lua scripts.
+        - paragraph [ref=e336]: "To implement such a feature Redis cannot rely on the ability of the master and replica to have synced clocks, since this is a problem that cannot be solved and would result in race conditions and diverging data sets, so Redis uses three main techniques to make the replication of expired keys able to work:"
+        - list [ref=e337]:
+          - listitem [ref=e338]:
+            - text: Replicas don't expire keys, instead they wait for masters to expire the keys. When a master expires a key (or evict it because of LRU), it synthesizes a
+            - link [ref=e339] [cursor=pointer]:
+              - /url: /commands/del
+              - code [ref=e340]: DEL
+            - text: command which is transmitted to all the replicas.
+          - listitem [ref=e341]:
+            - text: However because of master-driven expire, sometimes replicas may still have in memory keys that are already logically expired, since the master was not able to provide the
+            - link [ref=e342] [cursor=pointer]:
+              - /url: /commands/del
+              - code [ref=e343]: DEL
+            - text: command in time. To deal with that the replica uses its logical clock to report that a key does not exist
+            - strong [ref=e344]: only for read operations
+            - text: that don't violate the consistency of the data set (as new commands from the master will arrive). In this way replicas avoid reporting logically expired keys that are still existing. In practical terms, an HTML fragments cache that uses replicas to scale will avoid returning items that are already older than the desired time to live.
+          - listitem [ref=e345]: During Lua scripts executions no key expiries are performed. As a Lua script runs, conceptually the time in the master is frozen, so that a given key will either exist or not for all the time the script runs. This prevents keys expiring in the middle of a script, and is needed to send the same script to the replica in a way that is guaranteed to have the same effects in the data set.
+        - paragraph [ref=e346]: Once a replica is promoted to a master it will start to expire keys independently, and will not require any help from its old master.
+        - heading [level=2] [ref=e347]:
+          - text: Configuring replication in Docker and NAT
+          - link "Link to this section" [ref=e348] [cursor=pointer]:
+            - /url: "#configuring-replication-in-docker-and-nat"
+        - paragraph [ref=e351]:
+          - text: When Docker, or other types of containers using port forwarding, or Network Address Translation is used, Redis replication needs some extra care, especially when using Redis Sentinel or other systems where the master
+          - link [ref=e352] [cursor=pointer]:
+            - /url: /commands/info
+            - code [ref=e353]: INFO
+          - text: or
+          - link [ref=e354] [cursor=pointer]:
+            - /url: /commands/role
+            - code [ref=e355]: ROLE
+          - text: commands output is scanned to discover replicas' addresses.
+        - paragraph [ref=e356]:
+          - text: The problem is that the
+          - link [ref=e357] [cursor=pointer]:
+            - /url: /commands/role
+            - code [ref=e358]: ROLE
+          - text: command, and the replication section of the
+          - link [ref=e359] [cursor=pointer]:
+            - /url: /commands/info
+            - code [ref=e360]: INFO
+          - text: output, when issued into a master instance, will show replicas as having the IP address they use to connect to the master, which, in environments using NAT may be different compared to the logical address of the replica instance (the one that clients should use to connect to replicas).
+        - paragraph [ref=e361]:
+          - text: Similarly the replicas will be listed with the listening port configured into
+          - code [ref=e362]: redis.conf
+          - text: ", that may be different from the forwarded port in case the port is remapped."
+        - paragraph [ref=e363]: "To fix both issues, it is possible, since Redis 3.2.2, to force a replica to announce an arbitrary pair of IP and port to the master. The two configurations directives to use are:"
+        - code [ref=e365]: replica-announce-ip 5.5.5.5 replica-announce-port 1234
+        - paragraph [ref=e366]:
+          - text: And are documented in the example
+          - code [ref=e367]: redis.conf
+          - text: of recent Redis distributions.
+        - heading [level=2] [ref=e368]:
+          - text: The INFO and ROLE command
+          - link "Link to this section" [ref=e369] [cursor=pointer]:
+            - /url: "#the-info-and-role-command"
+        - paragraph [ref=e372]:
+          - text: There are two Redis commands that provide a lot of information on the current replication parameters of master and replica instances. One is
+          - link [ref=e373] [cursor=pointer]:
+            - /url: /commands/info
+            - code [ref=e374]: INFO
+          - text: . If the command is called with the
+          - code [ref=e375]: replication
+          - text: argument as
+          - code [ref=e376]: INFO replication
+          - text: only information relevant to the replication are displayed. Another more computer-friendly command is
+          - link [ref=e377] [cursor=pointer]:
+            - /url: /commands/role
+            - code [ref=e378]: ROLE
+          - text: ", that provides the replication status of masters and replicas together with their replication offsets, list of connected replicas and so forth."
+        - heading [level=2] [ref=e379]:
+          - text: Partial sync after restarts and failovers
+          - link "Link to this section" [ref=e380] [cursor=pointer]:
+            - /url: "#partial-sync-after-restarts-and-failovers"
+        - paragraph [ref=e383]: Since Redis 4.0, when an instance is promoted to master after a failover, it will still be able to perform a partial resynchronization with the replicas of the old master. To do so, the replica remembers the old replication ID and offset of its former master, so can provide part of the backlog to the connecting replicas even if they ask for the old replication ID.
+        - paragraph [ref=e384]: However the new replication ID of the promoted replica will be different, since it constitutes a different history of the data set. For example, the master can return available and can continue accepting writes for some time, so using the same replication ID in the promoted replica would violate the rule that a replication ID and offset pair identifies only a single data set.
+        - paragraph [ref=e385]:
+          - text: Moreover, replicas - when powered off gently and restarted - are able to store in the
+          - code [ref=e386]: RDB
+          - text: file the information needed to resync with their master. This is useful in case of upgrades. When this is needed, it is better to use the
+          - link [ref=e387] [cursor=pointer]:
+            - /url: /commands/shutdown
+            - code [ref=e388]: SHUTDOWN
+          - text: command in order to perform a
+          - code [ref=e389]: save & quit
+          - text: operation on the replica.
+        - paragraph [ref=e390]: It is not possible to partially sync a replica that restarted via the AOF file. However the instance may be turned to RDB persistence before shutting down it, than can be restarted, and finally AOF can be enabled again.
+        - heading [level=2] [ref=e391]:
+          - code [ref=e392]: Maxmemory
+          - text: on replicas
+          - link "Link to this section" [ref=e393] [cursor=pointer]:
+            - /url: "#maxmemory-on-replicas"
+        - paragraph [ref=e396]:
+          - text: By default, a replica will ignore
+          - code [ref=e397]: maxmemory
+          - text: (unless it is promoted to master after a failover or manually). It means that the eviction of keys will be handled by the master, sending the DEL commands to the replica as keys evict in the master side.
+        - paragraph [ref=e398]: This behavior ensures that masters and replicas stay consistent, which is usually what you want. However, if your replica is writable, or you want the replica to have a different memory setting, and you are sure all the writes performed to the replica are idempotent, then you may change this default (but be sure to understand what you are doing).
+        - paragraph [ref=e399]:
+          - text: Note that since the replica by default does not evict, it may end up using more memory than what is set via
+          - code [ref=e400]: maxmemory
+          - text: (since there are certain buffers that may be larger on the replica, or data structures may sometimes take more memory and so forth). Make sure you monitor your replicas, and make sure they have enough memory to never hit a real out-of-memory condition before the master hits the configured
+          - code [ref=e401]: maxmemory
+          - text: setting.
+        - paragraph [ref=e402]:
+          - text: To change this behavior, you can allow a replica to not ignore the
+          - code [ref=e403]: maxmemory
+          - text: ". The configuration directives to use is:"
+        - code [ref=e405]: replica-ignore-maxmemory no
+        - generic [ref=e407]:
+          - generic [ref=e408]:
+            - generic [ref=e409]: RATE THIS PAGE
+            - generic [ref=e410]:
+              - generic [ref=e411] [cursor=pointer]: ★
+              - generic [ref=e412] [cursor=pointer]: ★
+              - generic [ref=e413] [cursor=pointer]: ★
+              - generic [ref=e414] [cursor=pointer]: ★
+              - generic [ref=e415] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e416] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e417]:
+      - navigation [ref=e418]:
+        - link "Edit this page" [ref=e419] [cursor=pointer]:
+          - /url: https://github.com/redis/docs/edit/main/content/operate/oss_and_stack/management/replication.md
+        - link "Create an issue" [ref=e422] [cursor=pointer]:
+          - /url: "https://github.com/redis/docs/issues/new?title=Feedback: Redis replication&body=Page https://redis.io/docs/latest/operate/oss_and_stack/management/replication"
+        - link "Download Markdown" [ref=e425] [cursor=pointer]:
+          - /url: "#"
+      - heading "On this page" [level=2] [ref=e428]
+      - navigation [ref=e429]:
+        - navigation [ref=e430]:
+          - list [ref=e431]:
+            - listitem [ref=e432]:
+              - list [ref=e433]:
+                - listitem [ref=e434]:
+                  - link "Important facts about Redis replication" [ref=e435] [cursor=pointer]:
+                    - /url: "#important-facts-about-redis-replication"
+            - listitem [ref=e436]:
+              - link "Safety of replication when master has persistence turned off" [ref=e437] [cursor=pointer]:
+                - /url: "#safety-of-replication-when-master-has-persistence-turned-off"
+            - listitem [ref=e438]:
+              - link "How Redis replication works" [ref=e439] [cursor=pointer]:
+                - /url: "#how-redis-replication-works"
+            - listitem [ref=e440]:
+              - link "Replication ID explained" [ref=e441] [cursor=pointer]:
+                - /url: "#replication-id-explained"
+            - listitem [ref=e442]:
+              - link "Diskless replication" [ref=e443] [cursor=pointer]:
+                - /url: "#diskless-replication"
+            - listitem [ref=e444]:
+              - link "Configuration" [ref=e445] [cursor=pointer]:
+                - /url: "#configuration"
+            - listitem [ref=e446]:
+              - link "Read-only replica" [ref=e447] [cursor=pointer]:
+                - /url: "#read-only-replica"
+            - listitem [ref=e448]:
+              - link "Setting a replica to authenticate to a master" [ref=e449] [cursor=pointer]:
+                - /url: "#setting-a-replica-to-authenticate-to-a-master"
+            - listitem [ref=e450]:
+              - link "Allow writes only with N attached replicas" [ref=e451] [cursor=pointer]:
+                - /url: "#allow-writes-only-with-n-attached-replicas"
+            - listitem [ref=e452]:
+              - link "How Redis replication deals with expires on keys" [ref=e453] [cursor=pointer]:
+                - /url: "#how-redis-replication-deals-with-expires-on-keys"
+            - listitem [ref=e454]:
+              - link "Configuring replication in Docker and NAT" [ref=e455] [cursor=pointer]:
+                - /url: "#configuring-replication-in-docker-and-nat"
+            - listitem [ref=e456]:
+              - link "The INFO and ROLE command" [ref=e457] [cursor=pointer]:
+                - /url: "#the-info-and-role-command"
+            - listitem [ref=e458]:
+              - link "Partial sync after restarts and failovers" [ref=e459] [cursor=pointer]:
+                - /url: "#partial-sync-after-restarts-and-failovers"
+            - listitem [ref=e460]:
+              - link [ref=e461] [cursor=pointer]:
+                - /url: "#maxmemory-on-replicas"
+                - code [ref=e462]: Maxmemory
+                - text: on replicas
+  - contentinfo [ref=e463]:
+    - generic [ref=e464]:
+      - generic [ref=e465]:
+        - link [ref=e466] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e471]:
+          - link [ref=e472] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e476] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e479] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e482] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e485] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e488] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e491]:
+          - link "Trust" [ref=e492] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e493] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e494] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e495] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e496]:
+        - generic [ref=e497]:
+          - heading "Compare" [level=3] [ref=e498]
+          - generic [ref=e499]:
+            - link "Redis vs Elasticache" [ref=e500] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e501] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e502] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e503] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e504]:
+          - heading "Company" [level=3] [ref=e505]
+          - generic [ref=e506]:
+            - link "Mission & values" [ref=e507] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e508] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e509] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e510]:
+          - heading "Partners" [level=3] [ref=e511]
+          - generic [ref=e512]:
+            - link "Amazon Web Services" [ref=e513] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e514] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e515] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e516] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e517]:
+          - heading "Support" [level=3] [ref=e518]
+          - generic [ref=e519]:
+            - link "Professional services" [ref=e520] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e521] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e522]:
+    - generic [ref=e523]:
+      - banner [ref=e524]:
+        - generic [ref=e525]:
+          - textbox [ref=e526]:
+            - /placeholder: Search…
+          - combobox [ref=e527]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e528] [cursor=pointer]: ESC
+      - listbox [ref=e529]

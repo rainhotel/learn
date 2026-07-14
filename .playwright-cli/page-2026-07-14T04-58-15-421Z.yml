@@ -1,0 +1,2945 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "Apache Kafka" [ref=e5]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Get Started" [ref=e9] [cursor=pointer]:
+              - /url: /43/getting-started/
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /documentation
+          - listitem [ref=e12]:
+            - link "Powered By" [ref=e13] [cursor=pointer]:
+              - /url: /powered-by/
+          - listitem [ref=e14]:
+            - link "Community" [ref=e15] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e16]:
+            - link "Apache" [ref=e17] [cursor=pointer]:
+              - /url: https://www.apache.org/
+          - listitem [ref=e18]:
+            - button "Releases" [ref=e19] [cursor=pointer]
+          - listitem [ref=e20]:
+            - link "DOWNLOAD KAFKA" [ref=e21] [cursor=pointer]:
+              - /url: /community/downloads/
+        - generic [ref=e22]:
+          - button "Toggle search" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+          - generic:
+            - generic:
+              - generic: 
+              - searchbox "Search this site…"
+  - generic [ref=e25]:
+    - generic [ref=e27]:
+      - complementary [ref=e28]:
+        - generic [ref=e31]:
+          - text:  
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "AK 4.3.X" [ref=e35] [cursor=pointer]:
+                  - /url: /43/
+                - list [ref=e36]:
+                  - listitem [ref=e37]:
+                    - generic [ref=e38]:
+                      - text: 
+                      - link "Getting Started" [ref=e39] [cursor=pointer]:
+                        - /url: /43/getting-started/
+                  - listitem [ref=e40]:
+                    - link "API" [ref=e42] [cursor=pointer]:
+                      - /url: /43/apis/
+                  - listitem [ref=e43]:
+                    - generic [ref=e44]:
+                      - text: 
+                      - link "Configuration" [ref=e45] [cursor=pointer]:
+                        - /url: /43/configuration/
+                    - list [ref=e46]:
+                      - listitem [ref=e47]:
+                        - link "Broker Configs" [ref=e49] [cursor=pointer]:
+                          - /url: /43/configuration/broker-configs/
+                      - listitem [ref=e50]:
+                        - link "Topic Configs" [ref=e52] [cursor=pointer]:
+                          - /url: /43/configuration/topic-configs/
+                      - listitem [ref=e53]:
+                        - link "Group Configs" [ref=e55] [cursor=pointer]:
+                          - /url: /43/configuration/group-configs/
+                      - listitem [ref=e56]:
+                        - link "Producer Configs" [ref=e58] [cursor=pointer]:
+                          - /url: /43/configuration/producer-configs/
+                      - listitem [ref=e59]:
+                        - link "Consumer and Share Consumer Configs" [ref=e61] [cursor=pointer]:
+                          - /url: /43/configuration/consumer-configs/
+                      - listitem [ref=e62]:
+                        - link "Kafka Connect Configs" [ref=e64] [cursor=pointer]:
+                          - /url: /43/configuration/kafka-connect-configs/
+                      - listitem [ref=e65]:
+                        - link "Kafka Streams Configs" [ref=e67] [cursor=pointer]:
+                          - /url: /43/configuration/kafka-streams-configs/
+                      - listitem [ref=e68]:
+                        - link "Admin Configs" [ref=e70] [cursor=pointer]:
+                          - /url: /43/configuration/admin-configs/
+                      - listitem [ref=e71]:
+                        - link "MirrorMaker Configs" [ref=e73] [cursor=pointer]:
+                          - /url: /43/configuration/mirrormaker-configs/
+                      - listitem [ref=e74]:
+                        - link "System Properties" [ref=e76] [cursor=pointer]:
+                          - /url: /43/configuration/system-properties/
+                      - listitem [ref=e77]:
+                        - link "Tiered Storage Configs" [ref=e79] [cursor=pointer]:
+                          - /url: /43/configuration/tiered-storage-configs/
+                      - listitem [ref=e80]:
+                        - link "Configuration Providers" [ref=e82] [cursor=pointer]:
+                          - /url: /43/configuration/configuration-providers/
+                  - listitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - text: 
+                      - link "Design" [ref=e85] [cursor=pointer]:
+                        - /url: /43/design/
+                  - listitem [ref=e86]:
+                    - generic [ref=e87]:
+                      - text: 
+                      - link "Implementation" [ref=e88] [cursor=pointer]:
+                        - /url: /43/implementation/
+                  - listitem [ref=e89]:
+                    - generic [ref=e90]:
+                      - text: 
+                      - link "Operations" [ref=e91] [cursor=pointer]:
+                        - /url: /43/operations/
+                  - listitem [ref=e92]:
+                    - generic [ref=e93]:
+                      - text: 
+                      - link "Security" [ref=e94] [cursor=pointer]:
+                        - /url: /43/security/
+                  - listitem [ref=e95]:
+                    - generic [ref=e96]:
+                      - text: 
+                      - link "Kafka Connect" [ref=e97] [cursor=pointer]:
+                        - /url: /43/kafka-connect/
+                  - listitem [ref=e98]:
+                    - generic [ref=e99]:
+                      - text: 
+                      - link "Kafka Streams" [ref=e100] [cursor=pointer]:
+                        - /url: /43/streams/
+                    - text: 
+      - complementary [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e104]:
+            - link " View page source" [ref=e105] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//tree/markdown/content/en/43/configuration/producer-configs.md
+              - generic [ref=e106]: 
+              - text: View page source
+            - link " Edit this page" [ref=e107] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//edit/markdown/content/en/43/configuration/producer-configs.md
+              - generic [ref=e108]: 
+              - text: Edit this page
+            - link " Create child page" [ref=e109] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//new/markdown/content/en/43/configuration?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%22%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A+%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%23+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Give+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60%0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%28%3C80+characters%3B+use+the+extended+description+field+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%0A
+              - generic [ref=e110]: 
+              - text: Create child page
+            - link " Create documentation issue" [ref=e111] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//issues/new?title=Producer%20Configs
+              - generic [ref=e112]: 
+              - text: Create documentation issue
+            - link " Print entire section" [ref=e113] [cursor=pointer]:
+              - /url: /43/configuration/_print/
+              - generic [ref=e114]: 
+              - text: Print entire section
+          - generic [ref=e116]:
+            - heading "Tag Cloud" [level=5] [ref=e117]
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "Apis 1" [ref=e120] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/apis/
+                  - text: Apis
+                  - generic [ref=e121]: "1"
+              - listitem [ref=e122]:
+                - link "Configuration 34" [ref=e123] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/configuration/
+                  - text: Configuration
+                  - generic [ref=e124]: "34"
+              - listitem [ref=e125]:
+                - link "Connect 34" [ref=e126] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/connect/
+                  - text: Connect
+                  - generic [ref=e127]: "34"
+              - listitem [ref=e128]:
+                - link "Design 34" [ref=e129] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/design/
+                  - text: Design
+                  - generic [ref=e130]: "34"
+              - listitem [ref=e131]:
+                - link "Developer-Guide 34" [ref=e132] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/developer-guide/
+                  - text: Developer-Guide
+                  - generic [ref=e133]: "34"
+              - listitem [ref=e134]:
+                - link "Docs 2106" [ref=e135] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/docs/
+                  - text: Docs
+                  - generic [ref=e136]: "2106"
+              - listitem [ref=e137]:
+                - link "Getting-Started 34" [ref=e138] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/getting-started/
+                  - text: Getting-Started
+                  - generic [ref=e139]: "34"
+              - listitem [ref=e140]:
+                - link "Implementation 34" [ref=e141] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/implementation/
+                  - text: Implementation
+                  - generic [ref=e142]: "34"
+              - listitem [ref=e143]:
+                - link "Kafka 2106" [ref=e144] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/kafka/
+                  - text: Kafka
+                  - generic [ref=e145]: "2106"
+              - listitem [ref=e146]:
+                - link "Ops 34" [ref=e147] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/ops/
+                  - text: Ops
+                  - generic [ref=e148]: "34"
+              - listitem [ref=e149]:
+                - link "Security 34" [ref=e150] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/security/
+                  - text: Security
+                  - generic [ref=e151]: "34"
+              - listitem [ref=e152]:
+                - link "Streams 68" [ref=e153] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/streams/
+                  - text: Streams
+                  - generic [ref=e154]: "68"
+      - main [ref=e155]:
+        - navigation "breadcrumb" [ref=e156]:
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "AK 4.3.X" [ref=e159] [cursor=pointer]:
+                - /url: /43/
+            - listitem [ref=e160]:
+              - text: /
+              - link "Configuration" [ref=e161] [cursor=pointer]:
+                - /url: /43/configuration/
+            - listitem [ref=e162]: / Producer Configs
+        - generic [ref=e163]:
+          - heading "Producer Configs" [level=1] [ref=e164]
+          - generic [ref=e165]: Producer Configs
+          - generic [ref=e167]:
+            - heading "Tags:" [level=5] [ref=e168]
+            - list [ref=e169]:
+              - listitem [ref=e170]:
+                - link "Kafka" [ref=e171] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/kafka/
+              - listitem [ref=e172]:
+                - link "Docs" [ref=e173] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/docs/
+          - paragraph [ref=e174]: "Below is the producer configuration:"
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - heading [level=4] [ref=e177]:
+                - link "bootstrap.servers" [ref=e178] [cursor=pointer]:
+                  - /url: "#producerconfigs_bootstrap.servers"
+              - paragraph [ref=e179]:
+                - text: A list of host/port pairs used to establish the initial connection to the Kafka cluster. Clients use this list to bootstrap and discover the full set of Kafka brokers. While the order of servers in the list does not matter, we recommend including more than one server to ensure resilience if any servers are down. This list does not need to contain the entire set of brokers, as Kafka clients automatically manage and update connections to the cluster efficiently. This list must be in the form
+                - code [ref=e180]: host1:port1,host2:port2,...
+                - text: .
+              - table [ref=e181]:
+                - rowgroup [ref=e182]:
+                  - row [ref=e183]:
+                    - rowheader "Type:" [ref=e184]
+                    - cell "list" [ref=e185]
+                  - row [ref=e186]:
+                    - columnheader "Default:" [ref=e187]
+                    - cell [ref=e188]
+                  - row [ref=e189]:
+                    - columnheader "Valid Values:" [ref=e190]
+                    - cell [ref=e191]
+                  - row [ref=e192]:
+                    - rowheader "Importance:" [ref=e193]
+                    - cell "high" [ref=e194]
+            - listitem [ref=e195]:
+              - heading [level=4] [ref=e196]:
+                - link "key.serializer" [ref=e197] [cursor=pointer]:
+                  - /url: "#producerconfigs_key.serializer"
+              - paragraph [ref=e198]:
+                - text: Serializer class for key that implements the
+                - code [ref=e199]: org.apache.kafka.common.serialization.Serializer
+                - text: interface.
+              - table [ref=e200]:
+                - rowgroup [ref=e201]:
+                  - row [ref=e202]:
+                    - rowheader "Type:" [ref=e203]
+                    - cell "class" [ref=e204]
+                  - row [ref=e205]:
+                    - columnheader "Default:" [ref=e206]
+                    - cell [ref=e207]
+                  - row [ref=e208]:
+                    - columnheader "Valid Values:" [ref=e209]
+                    - cell [ref=e210]
+                  - row [ref=e211]:
+                    - rowheader "Importance:" [ref=e212]
+                    - cell "high" [ref=e213]
+            - listitem [ref=e214]:
+              - heading [level=4] [ref=e215]:
+                - link "value.serializer" [ref=e216] [cursor=pointer]:
+                  - /url: "#producerconfigs_value.serializer"
+              - paragraph [ref=e217]:
+                - text: Serializer class for value that implements the
+                - code [ref=e218]: org.apache.kafka.common.serialization.Serializer
+                - text: interface.
+              - table [ref=e219]:
+                - rowgroup [ref=e220]:
+                  - row [ref=e221]:
+                    - rowheader "Type:" [ref=e222]
+                    - cell "class" [ref=e223]
+                  - row [ref=e224]:
+                    - columnheader "Default:" [ref=e225]
+                    - cell [ref=e226]
+                  - row [ref=e227]:
+                    - columnheader "Valid Values:" [ref=e228]
+                    - cell [ref=e229]
+                  - row [ref=e230]:
+                    - rowheader "Importance:" [ref=e231]
+                    - cell "high" [ref=e232]
+            - listitem [ref=e233]:
+              - heading [level=4] [ref=e234]:
+                - link "buffer.memory" [ref=e235] [cursor=pointer]:
+                  - /url: "#producerconfigs_buffer.memory"
+              - paragraph [ref=e236]:
+                - text: The total bytes of memory the producer can use to buffer records waiting to be sent to the server. If records are sent faster than they can be delivered to the server the producer will block for
+                - code [ref=e237]: max.block.ms
+                - text: after which it will fail with an exception.
+              - paragraph [ref=e238]: This setting should correspond roughly to the total memory the producer will use, but is not a hard bound since not all memory the producer uses is used for buffering. Some additional memory will be used for compression (if compression is enabled) as well as for maintaining in-flight requests.
+              - table [ref=e239]:
+                - rowgroup [ref=e240]:
+                  - row [ref=e241]:
+                    - rowheader "Type:" [ref=e242]
+                    - cell "long" [ref=e243]
+                  - row [ref=e244]:
+                    - rowheader "Default:" [ref=e245]
+                    - cell "33554432" [ref=e246]
+                  - row [ref=e247]:
+                    - rowheader "Valid Values:" [ref=e248]
+                    - cell "[0,...]" [ref=e249]
+                  - row [ref=e250]:
+                    - rowheader "Importance:" [ref=e251]
+                    - cell "high" [ref=e252]
+            - listitem [ref=e253]:
+              - heading [level=4] [ref=e254]:
+                - link "compression.type" [ref=e255] [cursor=pointer]:
+                  - /url: "#producerconfigs_compression.type"
+              - paragraph [ref=e256]:
+                - text: The compression type for all data generated by the producer. The default is none (i.e. no compression). Valid values are
+                - code [ref=e257]: none
+                - text: ","
+                - code [ref=e258]: gzip
+                - text: ","
+                - code [ref=e259]: snappy
+                - text: ","
+                - code [ref=e260]: lz4
+                - text: ", or"
+                - code [ref=e261]: zstd
+                - text: . Compression is of full batches of data, so the efficacy of batching will also impact the compression ratio (more batching means better compression).
+              - table [ref=e262]:
+                - rowgroup [ref=e263]:
+                  - row [ref=e264]:
+                    - rowheader "Type:" [ref=e265]
+                    - cell "string" [ref=e266]
+                  - row [ref=e267]:
+                    - rowheader "Default:" [ref=e268]
+                    - cell "none" [ref=e269]
+                  - row [ref=e270]:
+                    - rowheader "Valid Values:" [ref=e271]
+                    - cell "[none, gzip, snappy, lz4, zstd]" [ref=e272]
+                  - row [ref=e273]:
+                    - rowheader "Importance:" [ref=e274]
+                    - cell "high" [ref=e275]
+            - listitem [ref=e276]:
+              - heading [level=4] [ref=e277]:
+                - link "retries" [ref=e278] [cursor=pointer]:
+                  - /url: "#producerconfigs_retries"
+              - paragraph [ref=e279]:
+                - text: Number of times to retry a request that fails with a transient error. Setting a value greater than zero will cause the client to resend any record whose send fails with a potentially transient error. Requests will be retried this many times until they succeed, fail with a non-transient error, or the
+                - code [ref=e280]: delivery.timeout.ms
+                - text: expires. Note that this automatic retry will simply resend the same record upon receiving the error. Setting a value of zero will disable this automatic retry behaviour, so that the transient errors will be propagated to the application to be handled. Users should generally prefer to leave this config unset and instead use
+                - code [ref=e281]: delivery.timeout.ms
+                - text: to control retry behavior.
+              - paragraph [ref=e282]: Enabling idempotence requires this config value to be greater than 0. If conflicting configurations are set and idempotence is not explicitly enabled, idempotence is disabled.
+              - paragraph [ref=e283]:
+                - text: Allowing retries while setting
+                - code [ref=e284]: enable.idempotence
+                - text: to
+                - code [ref=e285]: "false"
+                - text: and
+                - code [ref=e286]: max.in.flight.requests.per.connection
+                - text: to greater than 1 will potentially change the ordering of records because if two batches are sent to a single partition, and the first fails and is retried but the second succeeds, then the records in the second batch may appear first.
+              - table [ref=e287]:
+                - rowgroup [ref=e288]:
+                  - row [ref=e289]:
+                    - rowheader "Type:" [ref=e290]
+                    - cell "int" [ref=e291]
+                  - row [ref=e292]:
+                    - rowheader "Default:" [ref=e293]
+                    - cell "2147483647" [ref=e294]
+                  - row [ref=e295]:
+                    - rowheader "Valid Values:" [ref=e296]
+                    - cell "[0,...,2147483647]" [ref=e297]
+                  - row [ref=e298]:
+                    - rowheader "Importance:" [ref=e299]
+                    - cell "high" [ref=e300]
+            - listitem [ref=e301]:
+              - heading [level=4] [ref=e302]:
+                - link "ssl.key.password" [ref=e303] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.key.password"
+              - paragraph [ref=e304]: The password of the private key in the key store file or the PEM key specified in 'ssl.keystore.key'.
+              - table [ref=e305]:
+                - rowgroup [ref=e306]:
+                  - row [ref=e307]:
+                    - rowheader "Type:" [ref=e308]
+                    - cell "password" [ref=e309]
+                  - row [ref=e310]:
+                    - rowheader "Default:" [ref=e311]
+                    - cell "null" [ref=e312]
+                  - row [ref=e313]:
+                    - columnheader "Valid Values:" [ref=e314]
+                    - cell [ref=e315]
+                  - row [ref=e316]:
+                    - rowheader "Importance:" [ref=e317]
+                    - cell "high" [ref=e318]
+            - listitem [ref=e319]:
+              - heading [level=4] [ref=e320]:
+                - link "ssl.keystore.certificate.chain" [ref=e321] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.keystore.certificate.chain"
+              - paragraph [ref=e322]: Certificate chain in the format specified by 'ssl.keystore.type'. Default SSL engine factory supports only PEM format with a list of X.509 certificates
+              - table [ref=e323]:
+                - rowgroup [ref=e324]:
+                  - row [ref=e325]:
+                    - rowheader "Type:" [ref=e326]
+                    - cell "password" [ref=e327]
+                  - row [ref=e328]:
+                    - rowheader "Default:" [ref=e329]
+                    - cell "null" [ref=e330]
+                  - row [ref=e331]:
+                    - columnheader "Valid Values:" [ref=e332]
+                    - cell [ref=e333]
+                  - row [ref=e334]:
+                    - rowheader "Importance:" [ref=e335]
+                    - cell "high" [ref=e336]
+            - listitem [ref=e337]:
+              - heading [level=4] [ref=e338]:
+                - link "ssl.keystore.key" [ref=e339] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.keystore.key"
+              - paragraph [ref=e340]: Private key in the format specified by 'ssl.keystore.type'. Default SSL engine factory supports only PEM format with PKCS#8 keys. If the key is encrypted, key password must be specified using 'ssl.key.password'
+              - table [ref=e341]:
+                - rowgroup [ref=e342]:
+                  - row [ref=e343]:
+                    - rowheader "Type:" [ref=e344]
+                    - cell "password" [ref=e345]
+                  - row [ref=e346]:
+                    - rowheader "Default:" [ref=e347]
+                    - cell "null" [ref=e348]
+                  - row [ref=e349]:
+                    - columnheader "Valid Values:" [ref=e350]
+                    - cell [ref=e351]
+                  - row [ref=e352]:
+                    - rowheader "Importance:" [ref=e353]
+                    - cell "high" [ref=e354]
+            - listitem [ref=e355]:
+              - heading [level=4] [ref=e356]:
+                - link "ssl.keystore.location" [ref=e357] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.keystore.location"
+              - paragraph [ref=e358]: The location of the key store file. This is optional for client and can be used for two-way authentication for client.
+              - table [ref=e359]:
+                - rowgroup [ref=e360]:
+                  - row [ref=e361]:
+                    - rowheader "Type:" [ref=e362]
+                    - cell "string" [ref=e363]
+                  - row [ref=e364]:
+                    - rowheader "Default:" [ref=e365]
+                    - cell "null" [ref=e366]
+                  - row [ref=e367]:
+                    - columnheader "Valid Values:" [ref=e368]
+                    - cell [ref=e369]
+                  - row [ref=e370]:
+                    - rowheader "Importance:" [ref=e371]
+                    - cell "high" [ref=e372]
+            - listitem [ref=e373]:
+              - heading [level=4] [ref=e374]:
+                - link "ssl.keystore.password" [ref=e375] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.keystore.password"
+              - paragraph [ref=e376]: The store password for the key store file. This is optional for client and only needed if 'ssl.keystore.location' is configured. Key store password is not supported for PEM format.
+              - table [ref=e377]:
+                - rowgroup [ref=e378]:
+                  - row [ref=e379]:
+                    - rowheader "Type:" [ref=e380]
+                    - cell "password" [ref=e381]
+                  - row [ref=e382]:
+                    - rowheader "Default:" [ref=e383]
+                    - cell "null" [ref=e384]
+                  - row [ref=e385]:
+                    - columnheader "Valid Values:" [ref=e386]
+                    - cell [ref=e387]
+                  - row [ref=e388]:
+                    - rowheader "Importance:" [ref=e389]
+                    - cell "high" [ref=e390]
+            - listitem [ref=e391]:
+              - heading [level=4] [ref=e392]:
+                - link "ssl.truststore.certificates" [ref=e393] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.truststore.certificates"
+              - paragraph [ref=e394]: Trusted certificates in the format specified by 'ssl.truststore.type'. Default SSL engine factory supports only PEM format with X.509 certificates.
+              - table [ref=e395]:
+                - rowgroup [ref=e396]:
+                  - row [ref=e397]:
+                    - rowheader "Type:" [ref=e398]
+                    - cell "password" [ref=e399]
+                  - row [ref=e400]:
+                    - rowheader "Default:" [ref=e401]
+                    - cell "null" [ref=e402]
+                  - row [ref=e403]:
+                    - columnheader "Valid Values:" [ref=e404]
+                    - cell [ref=e405]
+                  - row [ref=e406]:
+                    - rowheader "Importance:" [ref=e407]
+                    - cell "high" [ref=e408]
+            - listitem [ref=e409]:
+              - heading [level=4] [ref=e410]:
+                - link "ssl.truststore.location" [ref=e411] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.truststore.location"
+              - paragraph [ref=e412]: The location of the trust store file.
+              - table [ref=e413]:
+                - rowgroup [ref=e414]:
+                  - row [ref=e415]:
+                    - rowheader "Type:" [ref=e416]
+                    - cell "string" [ref=e417]
+                  - row [ref=e418]:
+                    - rowheader "Default:" [ref=e419]
+                    - cell "null" [ref=e420]
+                  - row [ref=e421]:
+                    - columnheader "Valid Values:" [ref=e422]
+                    - cell [ref=e423]
+                  - row [ref=e424]:
+                    - rowheader "Importance:" [ref=e425]
+                    - cell "high" [ref=e426]
+            - listitem [ref=e427]:
+              - heading [level=4] [ref=e428]:
+                - link "ssl.truststore.password" [ref=e429] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.truststore.password"
+              - paragraph [ref=e430]: The password for the trust store file. If a password is not set, trust store file configured will still be used, but integrity checking is disabled. Trust store password is not supported for PEM format.
+              - table [ref=e431]:
+                - rowgroup [ref=e432]:
+                  - row [ref=e433]:
+                    - rowheader "Type:" [ref=e434]
+                    - cell "password" [ref=e435]
+                  - row [ref=e436]:
+                    - rowheader "Default:" [ref=e437]
+                    - cell "null" [ref=e438]
+                  - row [ref=e439]:
+                    - columnheader "Valid Values:" [ref=e440]
+                    - cell [ref=e441]
+                  - row [ref=e442]:
+                    - rowheader "Importance:" [ref=e443]
+                    - cell "high" [ref=e444]
+            - listitem [ref=e445]:
+              - heading [level=4] [ref=e446]:
+                - link "batch.size" [ref=e447] [cursor=pointer]:
+                  - /url: "#producerconfigs_batch.size"
+              - paragraph [ref=e448]: The producer will attempt to batch records together into fewer requests whenever multiple records are being sent to the same partition. This helps performance on both the client and the server. This configuration controls the default batch size in bytes.
+              - paragraph [ref=e449]: No attempt will be made to batch records larger than this size.
+              - paragraph [ref=e450]: Requests sent to brokers will contain multiple batches, one for each partition with data available to be sent.
+              - paragraph [ref=e451]: A small batch size will make batching less common and may reduce throughput (a batch size of zero will disable batching entirely). A very large batch size may use memory a bit more wastefully as we will always allocate a buffer of the specified batch size in anticipation of additional records.
+              - paragraph [ref=e452]:
+                - text: "Note: This setting gives the upper bound of the batch size to be sent. If we have fewer than this many bytes accumulated for this partition, we will 'linger' for the"
+                - code [ref=e453]: linger.ms
+                - text: time waiting for more records to show up. This
+                - code [ref=e454]: linger.ms
+                - text: setting defaults to 5, which means the producer will wait for 5ms or until the record batch is of
+                - code [ref=e455]: batch.size
+                - text: (whichever happens first) before sending the record batch. Note that broker backpressure can result in a higher effective linger time than this setting. The default changed from 0 to 5 in Apache Kafka 4.0 as the efficiency gains from larger batches typically result in similar or lower producer latency despite the increased linger.
+              - table [ref=e456]:
+                - rowgroup [ref=e457]:
+                  - row [ref=e458]:
+                    - rowheader "Type:" [ref=e459]
+                    - cell "int" [ref=e460]
+                  - row [ref=e461]:
+                    - rowheader "Default:" [ref=e462]
+                    - cell "16384" [ref=e463]
+                  - row [ref=e464]:
+                    - rowheader "Valid Values:" [ref=e465]
+                    - cell "[0,...]" [ref=e466]
+                  - row [ref=e467]:
+                    - rowheader "Importance:" [ref=e468]
+                    - cell "medium" [ref=e469]
+            - listitem [ref=e470]:
+              - heading [level=4] [ref=e471]:
+                - link "client.dns.lookup" [ref=e472] [cursor=pointer]:
+                  - /url: "#producerconfigs_client.dns.lookup"
+              - paragraph [ref=e473]:
+                - text: Controls how the client uses DNS lookups. If set to
+                - code [ref=e474]: use_all_dns_ips
+                - text: ", connect to each returned IP address in sequence until a successful connection is established. After a disconnection, the next IP is used. Once all IPs have been used once, the client resolves the IP(s) from the hostname again (both the JVM and the OS cache DNS name lookups, however). If set to"
+                - code [ref=e475]: resolve_canonical_bootstrap_servers_only
+                - text: ", resolve each bootstrap address into a list of canonical names. After the bootstrap phase, this behaves the same as"
+                - code [ref=e476]: use_all_dns_ips
+                - text: .
+              - table [ref=e477]:
+                - rowgroup [ref=e478]:
+                  - row [ref=e479]:
+                    - rowheader "Type:" [ref=e480]
+                    - cell "string" [ref=e481]
+                  - row [ref=e482]:
+                    - rowheader "Default:" [ref=e483]
+                    - cell "use_all_dns_ips" [ref=e484]
+                  - row [ref=e485]:
+                    - rowheader "Valid Values:" [ref=e486]
+                    - cell "[use_all_dns_ips, resolve_canonical_bootstrap_servers_only]" [ref=e487]
+                  - row [ref=e488]:
+                    - rowheader "Importance:" [ref=e489]
+                    - cell "medium" [ref=e490]
+            - listitem [ref=e491]:
+              - heading [level=4] [ref=e492]:
+                - link "client.id" [ref=e493] [cursor=pointer]:
+                  - /url: "#producerconfigs_client.id"
+              - paragraph [ref=e494]: An id string to pass to the server when making requests. The purpose of this is to be able to track the source of requests beyond just ip/port by allowing a logical application name to be included in server-side request logging.
+              - table [ref=e495]:
+                - rowgroup [ref=e496]:
+                  - row [ref=e497]:
+                    - rowheader "Type:" [ref=e498]
+                    - cell "string" [ref=e499]
+                  - row [ref=e500]:
+                    - rowheader "Default:" [ref=e501]
+                    - cell "\"\"" [ref=e502]
+                  - row [ref=e503]:
+                    - columnheader "Valid Values:" [ref=e504]
+                    - cell [ref=e505]
+                  - row [ref=e506]:
+                    - rowheader "Importance:" [ref=e507]
+                    - cell "medium" [ref=e508]
+            - listitem [ref=e509]:
+              - heading [level=4] [ref=e510]:
+                - link "compression.gzip.level" [ref=e511] [cursor=pointer]:
+                  - /url: "#producerconfigs_compression.gzip.level"
+              - paragraph [ref=e512]:
+                - text: The compression level to use if compression.type is set to
+                - code [ref=e513]: gzip
+                - text: .
+              - table [ref=e514]:
+                - rowgroup [ref=e515]:
+                  - row [ref=e516]:
+                    - rowheader "Type:" [ref=e517]
+                    - cell "int" [ref=e518]
+                  - row [ref=e519]:
+                    - rowheader "Default:" [ref=e520]
+                    - cell "-1" [ref=e521]
+                  - row [ref=e522]:
+                    - rowheader "Valid Values:" [ref=e523]
+                    - cell "[1,...,9] or -1" [ref=e524]
+                  - row [ref=e525]:
+                    - rowheader "Importance:" [ref=e526]
+                    - cell "medium" [ref=e527]
+            - listitem [ref=e528]:
+              - heading [level=4] [ref=e529]:
+                - link "compression.lz4.level" [ref=e530] [cursor=pointer]:
+                  - /url: "#producerconfigs_compression.lz4.level"
+              - paragraph [ref=e531]:
+                - text: The compression level to use if compression.type is set to
+                - code [ref=e532]: lz4
+                - text: .
+              - table [ref=e533]:
+                - rowgroup [ref=e534]:
+                  - row [ref=e535]:
+                    - rowheader "Type:" [ref=e536]
+                    - cell "int" [ref=e537]
+                  - row [ref=e538]:
+                    - rowheader "Default:" [ref=e539]
+                    - cell "9" [ref=e540]
+                  - row [ref=e541]:
+                    - rowheader "Valid Values:" [ref=e542]
+                    - cell "[1,...,17]" [ref=e543]
+                  - row [ref=e544]:
+                    - rowheader "Importance:" [ref=e545]
+                    - cell "medium" [ref=e546]
+            - listitem [ref=e547]:
+              - heading [level=4] [ref=e548]:
+                - link "compression.zstd.level" [ref=e549] [cursor=pointer]:
+                  - /url: "#producerconfigs_compression.zstd.level"
+              - paragraph [ref=e550]:
+                - text: The compression level to use if compression.type is set to
+                - code [ref=e551]: zstd
+                - text: .
+              - table [ref=e552]:
+                - rowgroup [ref=e553]:
+                  - row [ref=e554]:
+                    - rowheader "Type:" [ref=e555]
+                    - cell "int" [ref=e556]
+                  - row [ref=e557]:
+                    - rowheader "Default:" [ref=e558]
+                    - cell "3" [ref=e559]
+                  - row [ref=e560]:
+                    - rowheader "Valid Values:" [ref=e561]
+                    - cell "[-131072,...,22]" [ref=e562]
+                  - row [ref=e563]:
+                    - rowheader "Importance:" [ref=e564]
+                    - cell "medium" [ref=e565]
+            - listitem [ref=e566]:
+              - heading [level=4] [ref=e567]:
+                - link "connections.max.idle.ms" [ref=e568] [cursor=pointer]:
+                  - /url: "#producerconfigs_connections.max.idle.ms"
+              - paragraph [ref=e569]: Close idle connections after the number of milliseconds specified by this config.
+              - table [ref=e570]:
+                - rowgroup [ref=e571]:
+                  - row [ref=e572]:
+                    - rowheader "Type:" [ref=e573]
+                    - cell "long" [ref=e574]
+                  - row [ref=e575]:
+                    - rowheader "Default:" [ref=e576]
+                    - cell "540000 (9 minutes)" [ref=e577]
+                  - row [ref=e578]:
+                    - columnheader "Valid Values:" [ref=e579]
+                    - cell [ref=e580]
+                  - row [ref=e581]:
+                    - rowheader "Importance:" [ref=e582]
+                    - cell "medium" [ref=e583]
+            - listitem [ref=e584]:
+              - heading [level=4] [ref=e585]:
+                - link "delivery.timeout.ms" [ref=e586] [cursor=pointer]:
+                  - /url: "#producerconfigs_delivery.timeout.ms"
+              - paragraph [ref=e587]:
+                - text: An upper bound on the time to report success or failure after a call to
+                - code [ref=e588]: send()
+                - text: returns. This limits the total time that a record will be delayed prior to sending, the time to await acknowledgement from the broker (if expected), and the time allowed for retriable send failures. The producer may report failure to send a record earlier than this config if either an unrecoverable error is encountered, the retries have been exhausted, or the record is added to a batch which reached an earlier delivery expiration deadline. The value of this config should be greater than or equal to the sum of
+                - code [ref=e589]: request.timeout.ms
+                - text: and
+                - code [ref=e590]: linger.ms
+                - text: .
+              - table [ref=e591]:
+                - rowgroup [ref=e592]:
+                  - row [ref=e593]:
+                    - rowheader "Type:" [ref=e594]
+                    - cell "int" [ref=e595]
+                  - row [ref=e596]:
+                    - rowheader "Default:" [ref=e597]
+                    - cell "120000 (2 minutes)" [ref=e598]
+                  - row [ref=e599]:
+                    - rowheader "Valid Values:" [ref=e600]
+                    - cell "[0,...]" [ref=e601]
+                  - row [ref=e602]:
+                    - rowheader "Importance:" [ref=e603]
+                    - cell "medium" [ref=e604]
+            - listitem [ref=e605]:
+              - heading [level=4] [ref=e606]:
+                - link "linger.ms" [ref=e607] [cursor=pointer]:
+                  - /url: "#producerconfigs_linger.ms"
+              - paragraph [ref=e608]:
+                - text: "The producer groups together any records that arrive in between request transmissions into a single batched request. Normally this occurs only under load when records arrive faster than they can be sent out. However in some circumstances the client may want to reduce the number of requests even under moderate load. This setting accomplishes this by adding a small amount of artificial delay—that is, rather than immediately sending out a record, the producer will wait for up to the given delay to allow other records to be sent so that the sends can be batched together. This can be thought of as analogous to Nagle's algorithm in TCP. This setting gives the upper bound on the delay for batching: once we get"
+                - code [ref=e609]: batch.size
+                - text: worth of records for a partition it will be sent immediately regardless of this setting, however if we have fewer than this many bytes accumulated for this partition we will 'linger' for the specified time waiting for more records to show up. This setting defaults to 5 (i.e. 5ms delay). Increasing
+                - code [ref=e610]: linger.ms=50
+                - text: ", for example, would have the effect of reducing the number of requests sent but would add up to 50ms of latency to records sent in the absence of load.The default changed from 0 to 5 in Apache Kafka 4.0 as the efficiency gains from larger batches typically result in similar or lower producer latency despite the increased linger."
+              - table [ref=e611]:
+                - rowgroup [ref=e612]:
+                  - row [ref=e613]:
+                    - rowheader "Type:" [ref=e614]
+                    - cell "long" [ref=e615]
+                  - row [ref=e616]:
+                    - rowheader "Default:" [ref=e617]
+                    - cell "5" [ref=e618]
+                  - row [ref=e619]:
+                    - rowheader "Valid Values:" [ref=e620]
+                    - cell "[0,...]" [ref=e621]
+                  - row [ref=e622]:
+                    - rowheader "Importance:" [ref=e623]
+                    - cell "medium" [ref=e624]
+            - listitem [ref=e625]:
+              - heading [level=4] [ref=e626]:
+                - link "max.block.ms" [ref=e627] [cursor=pointer]:
+                  - /url: "#producerconfigs_max.block.ms"
+              - paragraph [ref=e628]:
+                - text: The configuration controls how long the
+                - code [ref=e629]: KafkaProducer
+                - text: "'s"
+                - code [ref=e630]: send()
+                - text: ","
+                - code [ref=e631]: partitionsFor()
+                - text: ","
+                - code [ref=e632]: initTransactions()
+                - text: ","
+                - code [ref=e633]: sendOffsetsToTransaction()
+                - text: ","
+                - code [ref=e634]: commitTransaction()
+                - text: and
+                - code [ref=e635]: abortTransaction()
+                - text: methods will block. For
+                - code [ref=e636]: send()
+                - text: this timeout bounds the total time waiting for both metadata fetch and buffer allocation (blocking in the user-supplied serializers or partitioner is not counted against this timeout). For
+                - code [ref=e637]: partitionsFor()
+                - text: this timeout bounds the time spent waiting for metadata if it is unavailable. The transaction-related methods always block, but may timeout if the transaction coordinator could not be discovered or did not respond within the timeout.
+              - table [ref=e638]:
+                - rowgroup [ref=e639]:
+                  - row [ref=e640]:
+                    - rowheader "Type:" [ref=e641]
+                    - cell "long" [ref=e642]
+                  - row [ref=e643]:
+                    - rowheader "Default:" [ref=e644]
+                    - cell "60000 (1 minute)" [ref=e645]
+                  - row [ref=e646]:
+                    - rowheader "Valid Values:" [ref=e647]
+                    - cell "[0,...]" [ref=e648]
+                  - row [ref=e649]:
+                    - rowheader "Importance:" [ref=e650]
+                    - cell "medium" [ref=e651]
+            - listitem [ref=e652]:
+              - heading [level=4] [ref=e653]:
+                - link "max.request.size" [ref=e654] [cursor=pointer]:
+                  - /url: "#producerconfigs_max.request.size"
+              - paragraph [ref=e655]: The maximum size of a request in bytes. This setting will limit the number of record batches the producer will send in a single request to avoid sending huge requests. This is also effectively a cap on the maximum uncompressed record batch size. Note that the server has its own cap on the record batch size (after compression if compression is enabled) which may be different from this.
+              - table [ref=e656]:
+                - rowgroup [ref=e657]:
+                  - row [ref=e658]:
+                    - rowheader "Type:" [ref=e659]
+                    - cell "int" [ref=e660]
+                  - row [ref=e661]:
+                    - rowheader "Default:" [ref=e662]
+                    - cell "1048576" [ref=e663]
+                  - row [ref=e664]:
+                    - rowheader "Valid Values:" [ref=e665]
+                    - cell "[0,...]" [ref=e666]
+                  - row [ref=e667]:
+                    - rowheader "Importance:" [ref=e668]
+                    - cell "medium" [ref=e669]
+            - listitem [ref=e670]:
+              - heading [level=4] [ref=e671]:
+                - link "partitioner.class" [ref=e672] [cursor=pointer]:
+                  - /url: "#producerconfigs_partitioner.class"
+              - paragraph [ref=e673]: "Determines which partition to send a record to when records are produced. Available options are:"
+              - list [ref=e674]:
+                - listitem [ref=e675]:
+                  - text: "If not set, the default partitioning logic is used. This strategy send records to a partition until at least batch.size bytes is produced to the partition. It works with the strategy:"
+                  - list [ref=e676]:
+                    - listitem [ref=e677]: If no partition is specified but a key is present, choose a partition based on a hash of the key.
+                    - listitem [ref=e678]: If no partition or key is present, choose the sticky partition that changes when at least batch.size bytes are produced to the partition.
+                - listitem [ref=e679]:
+                  - code [ref=e680]: org.apache.kafka.clients.producer.RoundRobinPartitioner
+                  - text: ": A partitioning strategy where each record in a series of consecutive records is sent to a different partition, regardless of whether the 'key' is provided or not, until partitions run out and the process starts over again. Note: There's a known issue that will cause uneven distribution when a new batch is created. See KAFKA-9965 for more detail."
+              - paragraph [ref=e681]:
+                - text: Implementing the
+                - code [ref=e682]: org.apache.kafka.clients.producer.Partitioner
+                - text: interface allows you to plug in a custom partitioner.
+              - table [ref=e683]:
+                - rowgroup [ref=e684]:
+                  - row [ref=e685]:
+                    - rowheader "Type:" [ref=e686]
+                    - cell "class" [ref=e687]
+                  - row [ref=e688]:
+                    - rowheader "Default:" [ref=e689]
+                    - cell "null" [ref=e690]
+                  - row [ref=e691]:
+                    - columnheader "Valid Values:" [ref=e692]
+                    - cell [ref=e693]
+                  - row [ref=e694]:
+                    - rowheader "Importance:" [ref=e695]
+                    - cell "medium" [ref=e696]
+            - listitem [ref=e697]:
+              - heading [level=4] [ref=e698]:
+                - link "partitioner.ignore.keys" [ref=e699] [cursor=pointer]:
+                  - /url: "#producerconfigs_partitioner.ignore.keys"
+              - paragraph [ref=e700]: "When set to 'true' the producer won't use record keys to choose a partition. If 'false', producer would choose a partition based on a hash of the key when a key is present. Note: this setting has no effect if a custom partitioner is used."
+              - table [ref=e701]:
+                - rowgroup [ref=e702]:
+                  - row [ref=e703]:
+                    - rowheader "Type:" [ref=e704]
+                    - cell "boolean" [ref=e705]
+                  - row [ref=e706]:
+                    - rowheader "Default:" [ref=e707]
+                    - cell "false" [ref=e708]
+                  - row [ref=e709]:
+                    - columnheader "Valid Values:" [ref=e710]
+                    - cell [ref=e711]
+                  - row [ref=e712]:
+                    - rowheader "Importance:" [ref=e713]
+                    - cell "medium" [ref=e714]
+            - listitem [ref=e715]:
+              - heading [level=4] [ref=e716]:
+                - link "receive.buffer.bytes" [ref=e717] [cursor=pointer]:
+                  - /url: "#producerconfigs_receive.buffer.bytes"
+              - paragraph [ref=e718]: The size of the TCP receive buffer (SO_RCVBUF) to use when reading data. If the value is -1, the OS default will be used.
+              - table [ref=e719]:
+                - rowgroup [ref=e720]:
+                  - row [ref=e721]:
+                    - rowheader "Type:" [ref=e722]
+                    - cell "int" [ref=e723]
+                  - row [ref=e724]:
+                    - rowheader "Default:" [ref=e725]
+                    - cell "32768 (32 kibibytes)" [ref=e726]
+                  - row [ref=e727]:
+                    - rowheader "Valid Values:" [ref=e728]
+                    - cell "[-1,...]" [ref=e729]
+                  - row [ref=e730]:
+                    - rowheader "Importance:" [ref=e731]
+                    - cell "medium" [ref=e732]
+            - listitem [ref=e733]:
+              - heading [level=4] [ref=e734]:
+                - link "request.timeout.ms" [ref=e735] [cursor=pointer]:
+                  - /url: "#producerconfigs_request.timeout.ms"
+              - paragraph [ref=e736]:
+                - text: The configuration controls the maximum amount of time the client will wait for the response of a request. If the response is not received before the timeout elapses the client will resend the request if necessary or fail the request if retries are exhausted. This should be larger than
+                - code [ref=e737]: replica.lag.time.max.ms
+                - text: (a broker configuration) to reduce the possibility of message duplication due to unnecessary producer retries.
+              - table [ref=e738]:
+                - rowgroup [ref=e739]:
+                  - row [ref=e740]:
+                    - rowheader "Type:" [ref=e741]
+                    - cell "int" [ref=e742]
+                  - row [ref=e743]:
+                    - rowheader "Default:" [ref=e744]
+                    - cell "30000 (30 seconds)" [ref=e745]
+                  - row [ref=e746]:
+                    - rowheader "Valid Values:" [ref=e747]
+                    - cell "[0,...]" [ref=e748]
+                  - row [ref=e749]:
+                    - rowheader "Importance:" [ref=e750]
+                    - cell "medium" [ref=e751]
+            - listitem [ref=e752]:
+              - heading [level=4] [ref=e753]:
+                - link "sasl.client.callback.handler.class" [ref=e754] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.client.callback.handler.class"
+              - paragraph [ref=e755]: The fully qualified name of a SASL client callback handler class that implements the AuthenticateCallbackHandler interface.
+              - table [ref=e756]:
+                - rowgroup [ref=e757]:
+                  - row [ref=e758]:
+                    - rowheader "Type:" [ref=e759]
+                    - cell "class" [ref=e760]
+                  - row [ref=e761]:
+                    - rowheader "Default:" [ref=e762]
+                    - cell "null" [ref=e763]
+                  - row [ref=e764]:
+                    - columnheader "Valid Values:" [ref=e765]
+                    - cell [ref=e766]
+                  - row [ref=e767]:
+                    - rowheader "Importance:" [ref=e768]
+                    - cell "medium" [ref=e769]
+            - listitem [ref=e770]:
+              - heading [level=4] [ref=e771]:
+                - link "sasl.jaas.config" [ref=e772] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.jaas.config"
+              - paragraph [ref=e773]:
+                - text: JAAS login context parameters for SASL connections in the format used by JAAS configuration files. JAAS configuration file format is described
+                - link "here" [ref=e774] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/javase/8/docs/technotes/guides/security/jgss/tutorials/LoginConfigFile.html
+                - text: ". The format for the value is:"
+                - code [ref=e775]: loginModuleClass controlFlag (optionName=optionValue)*;
+                - text: . For brokers, the config must be prefixed with listener prefix and SASL mechanism name in lower-case. For example, listener.name.sasl_ssl.scram-sha-256.sasl.jaas.config=com.example.ScramLoginModule required;
+              - table [ref=e776]:
+                - rowgroup [ref=e777]:
+                  - row [ref=e778]:
+                    - rowheader "Type:" [ref=e779]
+                    - cell "password" [ref=e780]
+                  - row [ref=e781]:
+                    - rowheader "Default:" [ref=e782]
+                    - cell "null" [ref=e783]
+                  - row [ref=e784]:
+                    - columnheader "Valid Values:" [ref=e785]
+                    - cell [ref=e786]
+                  - row [ref=e787]:
+                    - rowheader "Importance:" [ref=e788]
+                    - cell "medium" [ref=e789]
+            - listitem [ref=e790]:
+              - heading [level=4] [ref=e791]:
+                - link "sasl.kerberos.service.name" [ref=e792] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.kerberos.service.name"
+              - paragraph [ref=e793]: The Kerberos principal name that Kafka runs as. This can be defined either in Kafka's JAAS config or in Kafka's config.
+              - table [ref=e794]:
+                - rowgroup [ref=e795]:
+                  - row [ref=e796]:
+                    - rowheader "Type:" [ref=e797]
+                    - cell "string" [ref=e798]
+                  - row [ref=e799]:
+                    - rowheader "Default:" [ref=e800]
+                    - cell "null" [ref=e801]
+                  - row [ref=e802]:
+                    - columnheader "Valid Values:" [ref=e803]
+                    - cell [ref=e804]
+                  - row [ref=e805]:
+                    - rowheader "Importance:" [ref=e806]
+                    - cell "medium" [ref=e807]
+            - listitem [ref=e808]:
+              - heading [level=4] [ref=e809]:
+                - link "sasl.login.callback.handler.class" [ref=e810] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.callback.handler.class"
+              - paragraph [ref=e811]: The fully qualified name of a SASL login callback handler class that implements the AuthenticateCallbackHandler interface. For brokers, login callback handler config must be prefixed with listener prefix and SASL mechanism name in lower-case. For example, listener.name.sasl_ssl.scram-sha-256.sasl.login.callback.handler.class=com.example.CustomScramLoginCallbackHandler
+              - table [ref=e812]:
+                - rowgroup [ref=e813]:
+                  - row [ref=e814]:
+                    - rowheader "Type:" [ref=e815]
+                    - cell "class" [ref=e816]
+                  - row [ref=e817]:
+                    - rowheader "Default:" [ref=e818]
+                    - cell "null" [ref=e819]
+                  - row [ref=e820]:
+                    - columnheader "Valid Values:" [ref=e821]
+                    - cell [ref=e822]
+                  - row [ref=e823]:
+                    - rowheader "Importance:" [ref=e824]
+                    - cell "medium" [ref=e825]
+            - listitem [ref=e826]:
+              - heading [level=4] [ref=e827]:
+                - link "sasl.login.class" [ref=e828] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.class"
+              - paragraph [ref=e829]: The fully qualified name of a class that implements the Login interface. For brokers, login config must be prefixed with listener prefix and SASL mechanism name in lower-case. For example, listener.name.sasl_ssl.scram-sha-256.sasl.login.class=com.example.CustomScramLogin
+              - table [ref=e830]:
+                - rowgroup [ref=e831]:
+                  - row [ref=e832]:
+                    - rowheader "Type:" [ref=e833]
+                    - cell "class" [ref=e834]
+                  - row [ref=e835]:
+                    - rowheader "Default:" [ref=e836]
+                    - cell "null" [ref=e837]
+                  - row [ref=e838]:
+                    - columnheader "Valid Values:" [ref=e839]
+                    - cell [ref=e840]
+                  - row [ref=e841]:
+                    - rowheader "Importance:" [ref=e842]
+                    - cell "medium" [ref=e843]
+            - listitem [ref=e844]:
+              - heading [level=4] [ref=e845]:
+                - link "sasl.mechanism" [ref=e846] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.mechanism"
+              - paragraph [ref=e847]: SASL mechanism used for client connections. This may be any mechanism for which a security provider is available. GSSAPI is the default mechanism.
+              - table [ref=e848]:
+                - rowgroup [ref=e849]:
+                  - row [ref=e850]:
+                    - rowheader "Type:" [ref=e851]
+                    - cell "string" [ref=e852]
+                  - row [ref=e853]:
+                    - rowheader "Default:" [ref=e854]
+                    - cell "GSSAPI" [ref=e855]
+                  - row [ref=e856]:
+                    - columnheader "Valid Values:" [ref=e857]
+                    - cell [ref=e858]
+                  - row [ref=e859]:
+                    - rowheader "Importance:" [ref=e860]
+                    - cell "medium" [ref=e861]
+            - listitem [ref=e862]:
+              - heading [level=4] [ref=e863]:
+                - link "sasl.oauthbearer.assertion.algorithm" [ref=e864] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.algorithm"
+              - paragraph
+              - paragraph [ref=e865]:
+                - text: The algorithm the Apache Kafka client should use to sign the assertion sent to the identity provider. It is also used as the value of the OAuth
+                - code [ref=e866]: alg
+                - text: (Algorithm) header in the JWT assertion.
+              - paragraph [ref=e867]:
+                - emphasis [ref=e868]: Note
+                - text: ": If a value for"
+                - code [ref=e869]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e870]:
+                - rowgroup [ref=e871]:
+                  - row [ref=e872]:
+                    - rowheader "Type:" [ref=e873]
+                    - cell "string" [ref=e874]
+                  - row [ref=e875]:
+                    - rowheader "Default:" [ref=e876]
+                    - cell "RS256" [ref=e877]
+                  - row [ref=e878]:
+                    - rowheader "Valid Values:" [ref=e879]
+                    - cell "(case insensitive) [ES256, RS256]" [ref=e880]
+                  - row [ref=e881]:
+                    - rowheader "Importance:" [ref=e882]
+                    - cell "medium" [ref=e883]
+            - listitem [ref=e884]:
+              - heading [level=4] [ref=e885]:
+                - link "sasl.oauthbearer.assertion.claim.aud" [ref=e886] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.claim.aud"
+              - paragraph
+              - paragraph [ref=e887]:
+                - text: The JWT
+                - code [ref=e888]: aud
+                - text: (Audience) claim which will be included in the client JWT assertion created locally.
+              - paragraph [ref=e889]:
+                - emphasis [ref=e890]: Note
+                - text: ": If a value for"
+                - code [ref=e891]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e892]:
+                - rowgroup [ref=e893]:
+                  - row [ref=e894]:
+                    - rowheader "Type:" [ref=e895]
+                    - cell "string" [ref=e896]
+                  - row [ref=e897]:
+                    - rowheader "Default:" [ref=e898]
+                    - cell "null" [ref=e899]
+                  - row [ref=e900]:
+                    - columnheader "Valid Values:" [ref=e901]
+                    - cell [ref=e902]
+                  - row [ref=e903]:
+                    - rowheader "Importance:" [ref=e904]
+                    - cell "medium" [ref=e905]
+            - listitem [ref=e906]:
+              - heading [level=4] [ref=e907]:
+                - link "sasl.oauthbearer.assertion.claim.iss" [ref=e908] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.claim.iss"
+              - paragraph
+              - paragraph [ref=e909]:
+                - text: The value to be used as the
+                - code [ref=e910]: iss
+                - text: (Issuer) claim which will be included in the client JWT assertion created locally.
+              - paragraph [ref=e911]:
+                - emphasis [ref=e912]: Note
+                - text: ": If a value for"
+                - code [ref=e913]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e914]:
+                - rowgroup [ref=e915]:
+                  - row [ref=e916]:
+                    - rowheader "Type:" [ref=e917]
+                    - cell "string" [ref=e918]
+                  - row [ref=e919]:
+                    - rowheader "Default:" [ref=e920]
+                    - cell "null" [ref=e921]
+                  - row [ref=e922]:
+                    - columnheader "Valid Values:" [ref=e923]
+                    - cell [ref=e924]
+                  - row [ref=e925]:
+                    - rowheader "Importance:" [ref=e926]
+                    - cell "medium" [ref=e927]
+            - listitem [ref=e928]:
+              - heading [level=4] [ref=e929]:
+                - link "sasl.oauthbearer.assertion.claim.jti.include" [ref=e930] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.claim.jti.include"
+              - paragraph
+              - paragraph [ref=e931]:
+                - text: Flag that determines if the JWT assertion should generate a unique ID for the JWT and include it in the
+                - code [ref=e932]: jti
+                - text: (JWT ID) claim.
+              - paragraph [ref=e933]:
+                - emphasis [ref=e934]: Note
+                - text: ": If a value for"
+                - code [ref=e935]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e936]:
+                - rowgroup [ref=e937]:
+                  - row [ref=e938]:
+                    - rowheader "Type:" [ref=e939]
+                    - cell "boolean" [ref=e940]
+                  - row [ref=e941]:
+                    - rowheader "Default:" [ref=e942]
+                    - cell "false" [ref=e943]
+                  - row [ref=e944]:
+                    - columnheader "Valid Values:" [ref=e945]
+                    - cell [ref=e946]
+                  - row [ref=e947]:
+                    - rowheader "Importance:" [ref=e948]
+                    - cell "medium" [ref=e949]
+            - listitem [ref=e950]:
+              - heading [level=4] [ref=e951]:
+                - link "sasl.oauthbearer.assertion.claim.sub" [ref=e952] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.claim.sub"
+              - paragraph
+              - paragraph [ref=e953]:
+                - text: The value to be used as the
+                - code [ref=e954]: sub
+                - text: (Subject) claim which will be included in the client JWT assertion created locally.
+              - paragraph [ref=e955]:
+                - emphasis [ref=e956]: Note
+                - text: ": If a value for"
+                - code [ref=e957]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e958]:
+                - rowgroup [ref=e959]:
+                  - row [ref=e960]:
+                    - rowheader "Type:" [ref=e961]
+                    - cell "string" [ref=e962]
+                  - row [ref=e963]:
+                    - rowheader "Default:" [ref=e964]
+                    - cell "null" [ref=e965]
+                  - row [ref=e966]:
+                    - columnheader "Valid Values:" [ref=e967]
+                    - cell [ref=e968]
+                  - row [ref=e969]:
+                    - rowheader "Importance:" [ref=e970]
+                    - cell "medium" [ref=e971]
+            - listitem [ref=e972]:
+              - heading [level=4] [ref=e973]:
+                - link "sasl.oauthbearer.assertion.file" [ref=e974] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.file"
+              - paragraph
+              - paragraph [ref=e975]:
+                - text: File that contains a
+                - emphasis [ref=e976]: pre-generated
+                - text: JWT assertion.
+              - paragraph [ref=e977]: The underlying implementation caches the file contents to avoid the performance hit of loading the file on each access. The caching mechanism will detect whenthe file changes to allow for the file to be reloaded on modifications. This allows for "live" assertion rotation without restarting the Kafka client.
+              - paragraph [ref=e978]: "The file contains the assertion in the serialized, three part JWT format:"
+              - list [ref=e979]:
+                - listitem [ref=e980]:
+                  - text: The
+                  - emphasis [ref=e981]: header
+                  - text: section is a base 64-encoded JWT header that contains values like
+                  - code [ref=e982]: alg
+                  - text: (Algorithm),
+                  - code [ref=e983]: typ
+                  - text: (Type, always the literal value
+                  - code [ref=e984]: JWT
+                  - text: ), etc.
+                - listitem [ref=e985]:
+                  - text: The
+                  - emphasis [ref=e986]: payload
+                  - text: section includes the base 64-encoded set of JWT claims, such as
+                  - code [ref=e987]: aud
+                  - text: (Audience),
+                  - code [ref=e988]: iss
+                  - text: (Issuer),
+                  - code [ref=e989]: sub
+                  - text: (Subject), etc.
+                - listitem [ref=e990]:
+                  - text: The
+                  - emphasis [ref=e991]: signature
+                  - text: section is the concatenated
+                  - emphasis [ref=e992]: header
+                  - text: and
+                  - emphasis [ref=e993]: payload
+                  - text: sections that was signed using a private key
+              - paragraph [ref=e994]:
+                - text: See
+                - link "RFC 7519" [ref=e995] [cursor=pointer]:
+                  - /url: https://datatracker.ietf.org/doc/html/rfc7519
+                - text: and
+                - link "RFC 7515" [ref=e996] [cursor=pointer]:
+                  - /url: https://datatracker.ietf.org/doc/html/rfc7515
+                - text: for more details on the JWT and JWS formats.
+              - paragraph [ref=e997]:
+                - emphasis [ref=e998]: Note
+                - text: ": If a value for"
+                - code [ref=e999]: sasl.oauthbearer.assertion.file
+                - text: is provided, all other
+                - code [ref=e1000]: sasl.oauthbearer.assertion.
+                - text: "* configurations are ignored."
+              - paragraph
+              - table [ref=e1001]:
+                - rowgroup [ref=e1002]:
+                  - row [ref=e1003]:
+                    - rowheader "Type:" [ref=e1004]
+                    - cell "string" [ref=e1005]
+                  - row [ref=e1006]:
+                    - rowheader "Default:" [ref=e1007]
+                    - cell "null" [ref=e1008]
+                  - row [ref=e1009]:
+                    - columnheader "Valid Values:" [ref=e1010]
+                    - cell [ref=e1011]
+                  - row [ref=e1012]:
+                    - rowheader "Importance:" [ref=e1013]
+                    - cell "medium" [ref=e1014]
+            - listitem [ref=e1015]:
+              - heading [level=4] [ref=e1016]:
+                - link "sasl.oauthbearer.assertion.private.key.file" [ref=e1017] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.private.key.file"
+              - paragraph
+              - paragraph [ref=e1018]: File that contains a private key in the standard PEM format which is used to sign the JWT assertion sent to the identity provider.
+              - paragraph [ref=e1019]: The underlying implementation caches the file contents to avoid the performance hit of loading the file on each access. The caching mechanism will detect when the file changes to allow for the file to be reloaded on modifications. This allows for "live" private key rotation without restarting the Kafka client.
+              - paragraph [ref=e1020]:
+                - emphasis [ref=e1021]: Note
+                - text: ": If a value for"
+                - code [ref=e1022]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e1023]:
+                - rowgroup [ref=e1024]:
+                  - row [ref=e1025]:
+                    - rowheader "Type:" [ref=e1026]
+                    - cell "string" [ref=e1027]
+                  - row [ref=e1028]:
+                    - rowheader "Default:" [ref=e1029]
+                    - cell "null" [ref=e1030]
+                  - row [ref=e1031]:
+                    - columnheader "Valid Values:" [ref=e1032]
+                    - cell [ref=e1033]
+                  - row [ref=e1034]:
+                    - rowheader "Importance:" [ref=e1035]
+                    - cell "medium" [ref=e1036]
+            - listitem [ref=e1037]:
+              - heading [level=4] [ref=e1038]:
+                - link "sasl.oauthbearer.assertion.private.key.passphrase" [ref=e1039] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.private.key.passphrase"
+              - paragraph
+              - paragraph [ref=e1040]:
+                - text: The optional passphrase to decrypt the private key file specified by
+                - code [ref=e1041]: sasl.oauthbearer.assertion.private.key.file
+                - text: .
+              - paragraph [ref=e1042]:
+                - emphasis [ref=e1043]: Note
+                - text: ": If the file referred to by"
+                - code [ref=e1044]: sasl.oauthbearer.assertion.private.key.file
+                - text: is modified on the file system at runtime and it was created with a
+                - emphasis [ref=e1045]: different
+                - text: passphrase than it was previously, the client will not be able to access the private key file because the passphrase is now out of date. For that reason, when using private key passphrases, either use the same passphrase each time, or—for improved security—restart the Kafka client using the new passphrase configuration.
+              - paragraph [ref=e1046]:
+                - emphasis [ref=e1047]: Note
+                - text: ": If a value for"
+                - code [ref=e1048]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e1049]:
+                - rowgroup [ref=e1050]:
+                  - row [ref=e1051]:
+                    - rowheader "Type:" [ref=e1052]
+                    - cell "password" [ref=e1053]
+                  - row [ref=e1054]:
+                    - rowheader "Default:" [ref=e1055]
+                    - cell "null" [ref=e1056]
+                  - row [ref=e1057]:
+                    - columnheader "Valid Values:" [ref=e1058]
+                    - cell [ref=e1059]
+                  - row [ref=e1060]:
+                    - rowheader "Importance:" [ref=e1061]
+                    - cell "medium" [ref=e1062]
+            - listitem [ref=e1063]:
+              - heading [level=4] [ref=e1064]:
+                - link "sasl.oauthbearer.assertion.template.file" [ref=e1065] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.template.file"
+              - paragraph
+              - paragraph [ref=e1066]: This optional configuration specifies the file containing the JWT headers and/or payload claims to be used when creating the JWT assertion.
+              - paragraph [ref=e1067]: Not all identity providers require the same set of claims; some may require a given claim while others may prohibit it. In order to provide the most flexibility, this configuration allows the user to provide the static header values and claims that are to be included in the JWT.
+              - paragraph [ref=e1068]:
+                - emphasis [ref=e1069]: Note
+                - text: ": If a value for"
+                - code [ref=e1070]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e1071]:
+                - rowgroup [ref=e1072]:
+                  - row [ref=e1073]:
+                    - rowheader "Type:" [ref=e1074]
+                    - cell "string" [ref=e1075]
+                  - row [ref=e1076]:
+                    - rowheader "Default:" [ref=e1077]
+                    - cell "null" [ref=e1078]
+                  - row [ref=e1079]:
+                    - columnheader "Valid Values:" [ref=e1080]
+                    - cell [ref=e1081]
+                  - row [ref=e1082]:
+                    - rowheader "Importance:" [ref=e1083]
+                    - cell "medium" [ref=e1084]
+            - listitem [ref=e1085]:
+              - heading [level=4] [ref=e1086]:
+                - link "sasl.oauthbearer.client.credentials.client.id" [ref=e1087] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.client.credentials.client.id"
+              - paragraph
+              - paragraph [ref=e1088]: The ID (defined in/by the OAuth identity provider) to identify the client requesting the token.
+              - paragraph [ref=e1089]:
+                - text: The client ID was previously stored as part of the
+                - code [ref=e1090]: sasl.jaas.config
+                - text: configuration with the key
+                - code [ref=e1091]: clientId
+                - text: . For backward compatibility, the
+                - code [ref=e1092]: clientId
+                - text: JAAS option can still be used, but it is deprecated and will be removed in a future version.
+              - paragraph [ref=e1093]: "Order of precedence:"
+              - list [ref=e1094]:
+                - listitem [ref=e1095]:
+                  - code [ref=e1096]: sasl.oauthbearer.client.credentials.client.id
+                  - text: from configuration
+                - listitem [ref=e1097]:
+                  - code [ref=e1098]: clientId
+                  - text: from JAAS
+              - paragraph
+              - table [ref=e1099]:
+                - rowgroup [ref=e1100]:
+                  - row [ref=e1101]:
+                    - rowheader "Type:" [ref=e1102]
+                    - cell "string" [ref=e1103]
+                  - row [ref=e1104]:
+                    - rowheader "Default:" [ref=e1105]
+                    - cell "null" [ref=e1106]
+                  - row [ref=e1107]:
+                    - columnheader "Valid Values:" [ref=e1108]
+                    - cell [ref=e1109]
+                  - row [ref=e1110]:
+                    - rowheader "Importance:" [ref=e1111]
+                    - cell "medium" [ref=e1112]
+            - listitem [ref=e1113]:
+              - heading [level=4] [ref=e1114]:
+                - link "sasl.oauthbearer.client.credentials.client.secret" [ref=e1115] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.client.credentials.client.secret"
+              - paragraph
+              - paragraph [ref=e1116]: The secret (defined by either the user or preassigned, depending on the identity provider) of the client requesting the token.
+              - paragraph [ref=e1117]:
+                - text: The client secret was previously stored as part of the
+                - code [ref=e1118]: sasl.jaas.config
+                - text: configuration with the key
+                - code [ref=e1119]: clientSecret
+                - text: . For backward compatibility, the
+                - code [ref=e1120]: clientSecret
+                - text: JAAS option can still be used, but it is deprecated and will be removed in a future version.
+              - paragraph [ref=e1121]: "Order of precedence:"
+              - list [ref=e1122]:
+                - listitem [ref=e1123]:
+                  - code [ref=e1124]: sasl.oauthbearer.client.credentials.client.secret
+                  - text: from configuration
+                - listitem [ref=e1125]:
+                  - code [ref=e1126]: clientSecret
+                  - text: from JAAS
+              - paragraph
+              - table [ref=e1127]:
+                - rowgroup [ref=e1128]:
+                  - row [ref=e1129]:
+                    - rowheader "Type:" [ref=e1130]
+                    - cell "password" [ref=e1131]
+                  - row [ref=e1132]:
+                    - rowheader "Default:" [ref=e1133]
+                    - cell "null" [ref=e1134]
+                  - row [ref=e1135]:
+                    - columnheader "Valid Values:" [ref=e1136]
+                    - cell [ref=e1137]
+                  - row [ref=e1138]:
+                    - rowheader "Importance:" [ref=e1139]
+                    - cell "medium" [ref=e1140]
+            - listitem [ref=e1141]:
+              - heading [level=4] [ref=e1142]:
+                - link "sasl.oauthbearer.jwks.endpoint.url" [ref=e1143] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.jwks.endpoint.url"
+              - paragraph [ref=e1144]:
+                - text: The OAuth/OIDC provider URL from which the provider's
+                - link "JWKS (JSON Web Key Set)" [ref=e1145] [cursor=pointer]:
+                  - /url: https://datatracker.ietf.org/doc/html/rfc7517#section-5
+                - text: can be retrieved. The URL can be HTTP(S)-based or file-based. If the URL is HTTP(S)-based, the JWKS data will be retrieved from the OAuth/OIDC provider via the configured URL on broker startup. All then-current keys will be cached on the broker for incoming requests. If an authentication request is received for a JWT that includes a "kid" header claim value that isn't yet in the cache, the JWKS endpoint will be queried again on demand. However, the broker polls the URL every sasl.oauthbearer.jwks.endpoint.refresh.ms milliseconds to refresh the cache with any forthcoming keys before any JWT requests that include them are received. If the URL is file-based, the broker will load the JWKS file from a configured location on startup. In the event that the JWT includes a "kid" header value that isn't in the JWKS file, the broker will reject the JWT and authentication will fail.
+              - table [ref=e1146]:
+                - rowgroup [ref=e1147]:
+                  - row [ref=e1148]:
+                    - rowheader "Type:" [ref=e1149]
+                    - cell "string" [ref=e1150]
+                  - row [ref=e1151]:
+                    - rowheader "Default:" [ref=e1152]
+                    - cell "null" [ref=e1153]
+                  - row [ref=e1154]:
+                    - columnheader "Valid Values:" [ref=e1155]
+                    - cell [ref=e1156]
+                  - row [ref=e1157]:
+                    - rowheader "Importance:" [ref=e1158]
+                    - cell "medium" [ref=e1159]
+            - listitem [ref=e1160]:
+              - heading [level=4] [ref=e1161]:
+                - link "sasl.oauthbearer.jwt.retriever.class" [ref=e1162] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.jwt.retriever.class"
+              - paragraph
+              - paragraph [ref=e1163]:
+                - text: The fully-qualified class name of a
+                - code [ref=e1164]: JwtRetriever
+                - text: implementation used to request tokens from the identity provider.
+              - paragraph [ref=e1165]: The default configuration value represents a class that maintains backward compatibility with previous versions of Apache Kafka. The default implementation uses the configuration to determine which concrete implementation to create.
+              - paragraph [ref=e1166]: "Other implementations that are provided include:"
+              - list [ref=e1167]:
+                - listitem [ref=e1168]:
+                  - code [ref=e1169]: org.apache.kafka.common.security.oauthbearer.ClientCredentialsJwtRetriever
+                - listitem [ref=e1170]:
+                  - code [ref=e1171]: org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever
+                - listitem [ref=e1172]:
+                  - code [ref=e1173]: org.apache.kafka.common.security.oauthbearer.FileJwtRetriever
+                - listitem [ref=e1174]:
+                  - code [ref=e1175]: org.apache.kafka.common.security.oauthbearer.JwtBearerJwtRetriever
+              - paragraph
+              - table [ref=e1176]:
+                - rowgroup [ref=e1177]:
+                  - row [ref=e1178]:
+                    - rowheader "Type:" [ref=e1179]
+                    - cell "class" [ref=e1180]
+                  - row [ref=e1181]:
+                    - rowheader "Default:" [ref=e1182]
+                    - cell "org.apache.kafka.common.security.oauthbearer.DefaultJwtRetriever" [ref=e1183]
+                  - row [ref=e1184]:
+                    - columnheader "Valid Values:" [ref=e1185]
+                    - cell [ref=e1186]
+                  - row [ref=e1187]:
+                    - rowheader "Importance:" [ref=e1188]
+                    - cell "medium" [ref=e1189]
+            - listitem [ref=e1190]:
+              - heading [level=4] [ref=e1191]:
+                - link "sasl.oauthbearer.jwt.validator.class" [ref=e1192] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.jwt.validator.class"
+              - paragraph
+              - paragraph [ref=e1193]:
+                - text: The fully-qualified class name of a
+                - code [ref=e1194]: JwtValidator
+                - text: implementation used to validate the JWT from the identity provider.
+              - paragraph [ref=e1195]:
+                - text: The default validator (
+                - code [ref=e1196]: org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+                - text: ) maintains backward compatibility with previous versions of Apache Kafka. The default validator uses configuration to determine which concrete implementation to create.
+              - paragraph [ref=e1197]:
+                - text: The built-in
+                - code [ref=e1198]: JwtValidator
+                - text: "implementations are:"
+              - list [ref=e1199]:
+                - listitem [ref=e1200]:
+                  - code [ref=e1201]: org.apache.kafka.common.security.oauthbearer.BrokerJwtValidator
+                - listitem [ref=e1202]:
+                  - code [ref=e1203]: org.apache.kafka.common.security.oauthbearer.ClientJwtValidator
+                - listitem [ref=e1204]:
+                  - code [ref=e1205]: org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator
+              - paragraph
+              - table [ref=e1206]:
+                - rowgroup [ref=e1207]:
+                  - row [ref=e1208]:
+                    - rowheader "Type:" [ref=e1209]
+                    - cell "class" [ref=e1210]
+                  - row [ref=e1211]:
+                    - rowheader "Default:" [ref=e1212]
+                    - cell "org.apache.kafka.common.security.oauthbearer.DefaultJwtValidator" [ref=e1213]
+                  - row [ref=e1214]:
+                    - columnheader "Valid Values:" [ref=e1215]
+                    - cell [ref=e1216]
+                  - row [ref=e1217]:
+                    - rowheader "Importance:" [ref=e1218]
+                    - cell "medium" [ref=e1219]
+            - listitem [ref=e1220]:
+              - heading [level=4] [ref=e1221]:
+                - link "sasl.oauthbearer.scope" [ref=e1222] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.scope"
+              - paragraph
+              - paragraph [ref=e1223]: This is the level of access a client application is granted to a resource or API which is included in the token request. If provided, it should match one or more scopes configured in the identity provider.
+              - paragraph [ref=e1224]:
+                - text: The scope was previously stored as part of the
+                - code [ref=e1225]: sasl.jaas.config
+                - text: configuration with the key
+                - code [ref=e1226]: scope
+                - text: . For backward compatibility, the
+                - code [ref=e1227]: scope
+                - text: JAAS option can still be used, but it is deprecated and will be removed in a future version.
+              - paragraph [ref=e1228]: "Order of precedence:"
+              - list [ref=e1229]:
+                - listitem [ref=e1230]:
+                  - code [ref=e1231]: sasl.oauthbearer.scope
+                  - text: from configuration
+                - listitem [ref=e1232]:
+                  - code [ref=e1233]: scope
+                  - text: from JAAS
+              - paragraph
+              - table [ref=e1234]:
+                - rowgroup [ref=e1235]:
+                  - row [ref=e1236]:
+                    - rowheader "Type:" [ref=e1237]
+                    - cell "string" [ref=e1238]
+                  - row [ref=e1239]:
+                    - rowheader "Default:" [ref=e1240]
+                    - cell "null" [ref=e1241]
+                  - row [ref=e1242]:
+                    - columnheader "Valid Values:" [ref=e1243]
+                    - cell [ref=e1244]
+                  - row [ref=e1245]:
+                    - rowheader "Importance:" [ref=e1246]
+                    - cell "medium" [ref=e1247]
+            - listitem [ref=e1248]:
+              - heading [level=4] [ref=e1249]:
+                - link "sasl.oauthbearer.token.endpoint.url" [ref=e1250] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.token.endpoint.url"
+              - paragraph [ref=e1251]:
+                - text: The URL for the OAuth/OIDC identity provider. If the URL is HTTP(S)-based, it is the issuer's token endpoint URL to which requests will be made to login based on the configuration in
+                - code [ref=e1252]: sasl.oauthbearer.jwt.retriever.class
+                - text: . If the URL is file-based, it specifies a file containing an access token (in JWT serialized form) issued by the OAuth/OIDC identity provider to use for authorization.
+              - table [ref=e1253]:
+                - rowgroup [ref=e1254]:
+                  - row [ref=e1255]:
+                    - rowheader "Type:" [ref=e1256]
+                    - cell "string" [ref=e1257]
+                  - row [ref=e1258]:
+                    - rowheader "Default:" [ref=e1259]
+                    - cell "null" [ref=e1260]
+                  - row [ref=e1261]:
+                    - columnheader "Valid Values:" [ref=e1262]
+                    - cell [ref=e1263]
+                  - row [ref=e1264]:
+                    - rowheader "Importance:" [ref=e1265]
+                    - cell "medium" [ref=e1266]
+            - listitem [ref=e1267]:
+              - heading [level=4] [ref=e1268]:
+                - link "security.protocol" [ref=e1269] [cursor=pointer]:
+                  - /url: "#producerconfigs_security.protocol"
+              - paragraph [ref=e1270]: Protocol used to communicate with brokers.
+              - table [ref=e1271]:
+                - rowgroup [ref=e1272]:
+                  - row [ref=e1273]:
+                    - rowheader "Type:" [ref=e1274]
+                    - cell "string" [ref=e1275]
+                  - row [ref=e1276]:
+                    - rowheader "Default:" [ref=e1277]
+                    - cell "PLAINTEXT" [ref=e1278]
+                  - row [ref=e1279]:
+                    - rowheader "Valid Values:" [ref=e1280]
+                    - cell "(case insensitive) [SASL_SSL, PLAINTEXT, SSL, SASL_PLAINTEXT]" [ref=e1281]
+                  - row [ref=e1282]:
+                    - rowheader "Importance:" [ref=e1283]
+                    - cell "medium" [ref=e1284]
+            - listitem [ref=e1285]:
+              - heading [level=4] [ref=e1286]:
+                - link "send.buffer.bytes" [ref=e1287] [cursor=pointer]:
+                  - /url: "#producerconfigs_send.buffer.bytes"
+              - paragraph [ref=e1288]: The size of the TCP send buffer (SO_SNDBUF) to use when sending data. If the value is -1, the OS default will be used.
+              - table [ref=e1289]:
+                - rowgroup [ref=e1290]:
+                  - row [ref=e1291]:
+                    - rowheader "Type:" [ref=e1292]
+                    - cell "int" [ref=e1293]
+                  - row [ref=e1294]:
+                    - rowheader "Default:" [ref=e1295]
+                    - cell "131072 (128 kibibytes)" [ref=e1296]
+                  - row [ref=e1297]:
+                    - rowheader "Valid Values:" [ref=e1298]
+                    - cell "[-1,...]" [ref=e1299]
+                  - row [ref=e1300]:
+                    - rowheader "Importance:" [ref=e1301]
+                    - cell "medium" [ref=e1302]
+            - listitem [ref=e1303]:
+              - heading [level=4] [ref=e1304]:
+                - link "socket.connection.setup.timeout.max.ms" [ref=e1305] [cursor=pointer]:
+                  - /url: "#producerconfigs_socket.connection.setup.timeout.max.ms"
+              - paragraph [ref=e1306]: The maximum amount of time the client will wait for the socket connection to be established. The connection setup timeout will increase exponentially for each consecutive connection failure up to this maximum. To avoid connection storms, a randomization factor of 0.2 will be applied to the timeout resulting in a random range between 20% below and 20% above the computed value.
+              - table [ref=e1307]:
+                - rowgroup [ref=e1308]:
+                  - row [ref=e1309]:
+                    - rowheader "Type:" [ref=e1310]
+                    - cell "long" [ref=e1311]
+                  - row [ref=e1312]:
+                    - rowheader "Default:" [ref=e1313]
+                    - cell "30000 (30 seconds)" [ref=e1314]
+                  - row [ref=e1315]:
+                    - columnheader "Valid Values:" [ref=e1316]
+                    - cell [ref=e1317]
+                  - row [ref=e1318]:
+                    - rowheader "Importance:" [ref=e1319]
+                    - cell "medium" [ref=e1320]
+            - listitem [ref=e1321]:
+              - heading [level=4] [ref=e1322]:
+                - link "socket.connection.setup.timeout.ms" [ref=e1323] [cursor=pointer]:
+                  - /url: "#producerconfigs_socket.connection.setup.timeout.ms"
+              - paragraph [ref=e1324]:
+                - text: The amount of time the client will wait for the socket connection to be established. If the connection is not built before the timeout elapses, clients will close the socket channel. This value is the initial backoff value and will increase exponentially for each consecutive connection failure, up to the
+                - code [ref=e1325]: socket.connection.setup.timeout.max.ms
+                - text: value.
+              - table [ref=e1326]:
+                - rowgroup [ref=e1327]:
+                  - row [ref=e1328]:
+                    - rowheader "Type:" [ref=e1329]
+                    - cell "long" [ref=e1330]
+                  - row [ref=e1331]:
+                    - rowheader "Default:" [ref=e1332]
+                    - cell "10000 (10 seconds)" [ref=e1333]
+                  - row [ref=e1334]:
+                    - columnheader "Valid Values:" [ref=e1335]
+                    - cell [ref=e1336]
+                  - row [ref=e1337]:
+                    - rowheader "Importance:" [ref=e1338]
+                    - cell "medium" [ref=e1339]
+            - listitem [ref=e1340]:
+              - heading [level=4] [ref=e1341]:
+                - link "ssl.enabled.protocols" [ref=e1342] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.enabled.protocols"
+              - paragraph [ref=e1343]:
+                - text: The list of protocols enabled for SSL connections. The default is 'TLSv1.2,TLSv1.3'. This means that clients and servers will prefer TLSv1.3 if both support it and fallback to TLSv1.2 otherwise (assuming both support at least TLSv1.2). This default should be fine for most use cases. If this configuration is set to an empty list, Kafka will use the protocols enabled by default in the underlying SSLEngine, which may include additional protocols depending on the JVM version. Also see the config documentation for
+                - code [ref=e1344]: ssl.protocol
+                - text: to understand how it can impact the TLS version negotiation behavior.
+              - table [ref=e1345]:
+                - rowgroup [ref=e1346]:
+                  - row [ref=e1347]:
+                    - rowheader "Type:" [ref=e1348]
+                    - cell "list" [ref=e1349]
+                  - row [ref=e1350]:
+                    - rowheader "Default:" [ref=e1351]
+                    - cell "TLSv1.2,TLSv1.3" [ref=e1352]
+                  - row [ref=e1353]:
+                    - columnheader "Valid Values:" [ref=e1354]
+                    - cell [ref=e1355]
+                  - row [ref=e1356]:
+                    - rowheader "Importance:" [ref=e1357]
+                    - cell "medium" [ref=e1358]
+            - listitem [ref=e1359]:
+              - heading [level=4] [ref=e1360]:
+                - link "ssl.keystore.type" [ref=e1361] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.keystore.type"
+              - paragraph [ref=e1362]:
+                - text: The file format of the key store file. This is optional for client. The values currently supported by the default
+                - code [ref=e1363]: ssl.engine.factory.class
+                - text: are [JKS, PKCS12, PEM].
+              - table [ref=e1364]:
+                - rowgroup [ref=e1365]:
+                  - row [ref=e1366]:
+                    - rowheader "Type:" [ref=e1367]
+                    - cell "string" [ref=e1368]
+                  - row [ref=e1369]:
+                    - rowheader "Default:" [ref=e1370]
+                    - cell "JKS" [ref=e1371]
+                  - row [ref=e1372]:
+                    - columnheader "Valid Values:" [ref=e1373]
+                    - cell [ref=e1374]
+                  - row [ref=e1375]:
+                    - rowheader "Importance:" [ref=e1376]
+                    - cell "medium" [ref=e1377]
+            - listitem [ref=e1378]:
+              - heading [level=4] [ref=e1379]:
+                - link "ssl.protocol" [ref=e1380] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.protocol"
+              - paragraph [ref=e1381]:
+                - text: The SSL protocol used to generate the SSLContext. The default is 'TLSv1.3', which should be fine for most use cases. A typical alternative to the default is 'TLSv1.2'. Allowed values for this config are dependent on the JVM. Clients using the defaults for this config and 'ssl.enabled.protocols' will downgrade to 'TLSv1.2' if the server does not support 'TLSv1.3'. If this config is set to 'TLSv1.2', however, clients will not use 'TLSv1.3' even if it is one of the values in
+                - code [ref=e1382]: ssl.enabled.protocols
+                - text: and the server only supports 'TLSv1.3'.
+              - table [ref=e1383]:
+                - rowgroup [ref=e1384]:
+                  - row [ref=e1385]:
+                    - rowheader "Type:" [ref=e1386]
+                    - cell "string" [ref=e1387]
+                  - row [ref=e1388]:
+                    - rowheader "Default:" [ref=e1389]
+                    - cell "TLSv1.3" [ref=e1390]
+                  - row [ref=e1391]:
+                    - columnheader "Valid Values:" [ref=e1392]
+                    - cell [ref=e1393]
+                  - row [ref=e1394]:
+                    - rowheader "Importance:" [ref=e1395]
+                    - cell "medium" [ref=e1396]
+            - listitem [ref=e1397]:
+              - heading [level=4] [ref=e1398]:
+                - link "ssl.provider" [ref=e1399] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.provider"
+              - paragraph [ref=e1400]: The name of the security provider used for SSL connections. Default value is the default security provider of the JVM.
+              - table [ref=e1401]:
+                - rowgroup [ref=e1402]:
+                  - row [ref=e1403]:
+                    - rowheader "Type:" [ref=e1404]
+                    - cell "string" [ref=e1405]
+                  - row [ref=e1406]:
+                    - rowheader "Default:" [ref=e1407]
+                    - cell "null" [ref=e1408]
+                  - row [ref=e1409]:
+                    - columnheader "Valid Values:" [ref=e1410]
+                    - cell [ref=e1411]
+                  - row [ref=e1412]:
+                    - rowheader "Importance:" [ref=e1413]
+                    - cell "medium" [ref=e1414]
+            - listitem [ref=e1415]:
+              - heading [level=4] [ref=e1416]:
+                - link "ssl.truststore.type" [ref=e1417] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.truststore.type"
+              - paragraph [ref=e1418]:
+                - text: The file format of the trust store file. The values currently supported by the default
+                - code [ref=e1419]: ssl.engine.factory.class
+                - text: are [JKS, PKCS12, PEM].
+              - table [ref=e1420]:
+                - rowgroup [ref=e1421]:
+                  - row [ref=e1422]:
+                    - rowheader "Type:" [ref=e1423]
+                    - cell "string" [ref=e1424]
+                  - row [ref=e1425]:
+                    - rowheader "Default:" [ref=e1426]
+                    - cell "JKS" [ref=e1427]
+                  - row [ref=e1428]:
+                    - columnheader "Valid Values:" [ref=e1429]
+                    - cell [ref=e1430]
+                  - row [ref=e1431]:
+                    - rowheader "Importance:" [ref=e1432]
+                    - cell "medium" [ref=e1433]
+            - listitem [ref=e1434]:
+              - heading [level=4] [ref=e1435]:
+                - link "acks" [ref=e1436] [cursor=pointer]:
+                  - /url: "#producerconfigs_acks"
+              - paragraph [ref=e1437]: "The number of acknowledgments the producer requires the leader to have received before considering a request complete. This controls the durability of records that are sent. The following settings are allowed:"
+              - list [ref=e1438]:
+                - listitem [ref=e1439]:
+                  - code [ref=e1440]: acks=0
+                  - text: If set to zero then the producer will not wait for any acknowledgment from the server at all. The record will be immediately added to the socket buffer and considered sent. No guarantee can be made that the server has received the record in this case, and the
+                  - code [ref=e1441]: retries
+                  - text: configuration will not take effect (as the client won't generally know of any failures). The offset given back for each record will always be set to
+                  - code [ref=e1442]: "-1"
+                  - text: .
+                - listitem [ref=e1443]:
+                  - code [ref=e1444]: acks=1
+                  - text: This will mean the leader will write the record to its local log but will respond without awaiting full acknowledgement from all followers. In this case should the leader fail immediately after acknowledging the record but before the followers have replicated it then the record will be lost.
+                - listitem [ref=e1445]:
+                  - code [ref=e1446]: acks=all
+                  - text: This means the leader will wait for the full set of in-sync replicas to acknowledge the record. This guarantees that the record will not be lost as long as at least one in-sync replica remains alive. This is the strongest available guarantee. This is equivalent to the acks=-1 setting.
+              - paragraph [ref=e1447]: Note that enabling idempotence requires this config value to be 'all'. If conflicting configurations are set and idempotence is not explicitly enabled, idempotence is disabled.
+              - table [ref=e1448]:
+                - rowgroup [ref=e1449]:
+                  - row [ref=e1450]:
+                    - rowheader "Type:" [ref=e1451]
+                    - cell "string" [ref=e1452]
+                  - row [ref=e1453]:
+                    - rowheader "Default:" [ref=e1454]
+                    - cell "all" [ref=e1455]
+                  - row [ref=e1456]:
+                    - rowheader "Valid Values:" [ref=e1457]
+                    - cell "[all, -1, 0, 1]" [ref=e1458]
+                  - row [ref=e1459]:
+                    - rowheader "Importance:" [ref=e1460]
+                    - cell "low" [ref=e1461]
+            - listitem [ref=e1462]:
+              - heading [level=4] [ref=e1463]:
+                - link "config.providers" [ref=e1464] [cursor=pointer]:
+                  - /url: "#producerconfigs_config.providers"
+              - paragraph [ref=e1465]:
+                - text: Comma-separated alias names for classes implementing the
+                - code [ref=e1466]: ConfigProvider
+                - text: interface. This enables loading configuration data (such as passwords, API keys, and other credentials) from external sources. For example, see
+                - link "Configuration Providers" [ref=e1467] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/documentation/#config_providers
+                - text: .
+              - table [ref=e1468]:
+                - rowgroup [ref=e1469]:
+                  - row [ref=e1470]:
+                    - rowheader "Type:" [ref=e1471]
+                    - cell "list" [ref=e1472]
+                  - row [ref=e1473]:
+                    - rowheader "Default:" [ref=e1474]
+                    - cell "\"\"" [ref=e1475]
+                  - row [ref=e1476]:
+                    - columnheader "Valid Values:" [ref=e1477]
+                    - cell [ref=e1478]
+                  - row [ref=e1479]:
+                    - rowheader "Importance:" [ref=e1480]
+                    - cell "low" [ref=e1481]
+            - listitem [ref=e1482]:
+              - heading [level=4] [ref=e1483]:
+                - link "enable.idempotence" [ref=e1484] [cursor=pointer]:
+                  - /url: "#producerconfigs_enable.idempotence"
+              - paragraph [ref=e1485]:
+                - text: When set to 'true', the producer will ensure that exactly one copy of each message is written in the stream. If 'false', producer retries due to broker failures, etc., may write duplicates of the retried message in the stream. Note that enabling idempotence requires
+                - code [ref=e1486]: max.in.flight.requests.per.connection
+                - text: to be less than or equal to 5 (with message ordering preserved for any allowable value),
+                - code [ref=e1487]: retries
+                - text: to be greater than 0, and
+                - code [ref=e1488]: acks
+                - text: must be 'all'.
+              - paragraph [ref=e1489]:
+                - text: Idempotence is enabled by default if no conflicting configurations are set. If conflicting configurations are set and idempotence is not explicitly enabled, idempotence is disabled. If idempotence is explicitly enabled and conflicting configurations are set, a
+                - code [ref=e1490]: ConfigException
+                - text: is thrown.
+              - table [ref=e1491]:
+                - rowgroup [ref=e1492]:
+                  - row [ref=e1493]:
+                    - rowheader "Type:" [ref=e1494]
+                    - cell "boolean" [ref=e1495]
+                  - row [ref=e1496]:
+                    - rowheader "Default:" [ref=e1497]
+                    - cell "true" [ref=e1498]
+                  - row [ref=e1499]:
+                    - columnheader "Valid Values:" [ref=e1500]
+                    - cell [ref=e1501]
+                  - row [ref=e1502]:
+                    - rowheader "Importance:" [ref=e1503]
+                    - cell "low" [ref=e1504]
+            - listitem [ref=e1505]:
+              - heading [level=4] [ref=e1506]:
+                - link "enable.metrics.push" [ref=e1507] [cursor=pointer]:
+                  - /url: "#producerconfigs_enable.metrics.push"
+              - paragraph [ref=e1508]: Whether to enable pushing of client metrics to the cluster, if the cluster has a client metrics subscription which matches this client.
+              - table [ref=e1509]:
+                - rowgroup [ref=e1510]:
+                  - row [ref=e1511]:
+                    - rowheader "Type:" [ref=e1512]
+                    - cell "boolean" [ref=e1513]
+                  - row [ref=e1514]:
+                    - rowheader "Default:" [ref=e1515]
+                    - cell "true" [ref=e1516]
+                  - row [ref=e1517]:
+                    - columnheader "Valid Values:" [ref=e1518]
+                    - cell [ref=e1519]
+                  - row [ref=e1520]:
+                    - rowheader "Importance:" [ref=e1521]
+                    - cell "low" [ref=e1522]
+            - listitem [ref=e1523]:
+              - heading [level=4] [ref=e1524]:
+                - link "interceptor.classes" [ref=e1525] [cursor=pointer]:
+                  - /url: "#producerconfigs_interceptor.classes"
+              - paragraph [ref=e1526]:
+                - text: A list of classes to use as interceptors. Implementing the
+                - code [ref=e1527]: org.apache.kafka.clients.producer.ProducerInterceptor
+                - text: interface allows you to intercept (and possibly mutate) the records received by the producer before they are published to the Kafka cluster. By default, there are no interceptors.
+              - table [ref=e1528]:
+                - rowgroup [ref=e1529]:
+                  - row [ref=e1530]:
+                    - rowheader "Type:" [ref=e1531]
+                    - cell "list" [ref=e1532]
+                  - row [ref=e1533]:
+                    - rowheader "Default:" [ref=e1534]
+                    - cell "\"\"" [ref=e1535]
+                  - row [ref=e1536]:
+                    - columnheader "Valid Values:" [ref=e1537]
+                    - cell [ref=e1538]
+                  - row [ref=e1539]:
+                    - rowheader "Importance:" [ref=e1540]
+                    - cell "low" [ref=e1541]
+            - listitem [ref=e1542]:
+              - heading [level=4] [ref=e1543]:
+                - link "max.in.flight.requests.per.connection" [ref=e1544] [cursor=pointer]:
+                  - /url: "#producerconfigs_max.in.flight.requests.per.connection"
+              - paragraph [ref=e1545]:
+                - text: The maximum number of unacknowledged requests the client will send on a single connection before blocking. Note that if this configuration is set to be greater than 1 and
+                - code [ref=e1546]: enable.idempotence
+                - text: is set to false, there is a risk of message reordering after a failed send due to retries (i.e., if retries are enabled); if retries are disabled or if
+                - code [ref=e1547]: enable.idempotence
+                - text: is set to true, ordering will be preserved. Additionally, enabling idempotence requires the value of this configuration to be less than or equal to 5, because broker only retains at most 5 batches for each producer. If the value is more than 5, previous batches may be removed on broker side.
+              - table [ref=e1548]:
+                - rowgroup [ref=e1549]:
+                  - row [ref=e1550]:
+                    - rowheader "Type:" [ref=e1551]
+                    - cell "int" [ref=e1552]
+                  - row [ref=e1553]:
+                    - rowheader "Default:" [ref=e1554]
+                    - cell "5" [ref=e1555]
+                  - row [ref=e1556]:
+                    - rowheader "Valid Values:" [ref=e1557]
+                    - cell "[1,...]" [ref=e1558]
+                  - row [ref=e1559]:
+                    - rowheader "Importance:" [ref=e1560]
+                    - cell "low" [ref=e1561]
+            - listitem [ref=e1562]:
+              - heading [level=4] [ref=e1563]:
+                - link "metadata.max.age.ms" [ref=e1564] [cursor=pointer]:
+                  - /url: "#producerconfigs_metadata.max.age.ms"
+              - paragraph [ref=e1565]: The period of time in milliseconds after which we force a refresh of metadata even if we haven't seen any partition leadership changes to proactively discover any new brokers or partitions.
+              - table [ref=e1566]:
+                - rowgroup [ref=e1567]:
+                  - row [ref=e1568]:
+                    - rowheader "Type:" [ref=e1569]
+                    - cell "long" [ref=e1570]
+                  - row [ref=e1571]:
+                    - rowheader "Default:" [ref=e1572]
+                    - cell "300000 (5 minutes)" [ref=e1573]
+                  - row [ref=e1574]:
+                    - rowheader "Valid Values:" [ref=e1575]
+                    - cell "[0,...]" [ref=e1576]
+                  - row [ref=e1577]:
+                    - rowheader "Importance:" [ref=e1578]
+                    - cell "low" [ref=e1579]
+            - listitem [ref=e1580]:
+              - heading [level=4] [ref=e1581]:
+                - link "metadata.max.idle.ms" [ref=e1582] [cursor=pointer]:
+                  - /url: "#producerconfigs_metadata.max.idle.ms"
+              - paragraph [ref=e1583]: Controls how long the producer will cache metadata for a topic that's idle. If the elapsed time since a topic was last produced to exceeds the metadata idle duration, then the topic's metadata is forgotten and the next access to it will force a metadata fetch request.
+              - table [ref=e1584]:
+                - rowgroup [ref=e1585]:
+                  - row [ref=e1586]:
+                    - rowheader "Type:" [ref=e1587]
+                    - cell "long" [ref=e1588]
+                  - row [ref=e1589]:
+                    - rowheader "Default:" [ref=e1590]
+                    - cell "300000 (5 minutes)" [ref=e1591]
+                  - row [ref=e1592]:
+                    - rowheader "Valid Values:" [ref=e1593]
+                    - cell "[5000,...]" [ref=e1594]
+                  - row [ref=e1595]:
+                    - rowheader "Importance:" [ref=e1596]
+                    - cell "low" [ref=e1597]
+            - listitem [ref=e1598]:
+              - heading [level=4] [ref=e1599]:
+                - link "metadata.recovery.rebootstrap.trigger.ms" [ref=e1600] [cursor=pointer]:
+                  - /url: "#producerconfigs_metadata.recovery.rebootstrap.trigger.ms"
+              - paragraph [ref=e1601]:
+                - text: If a client configured to rebootstrap using
+                - code [ref=e1602]: metadata.recovery.strategy=rebootstrap
+                - text: is unable to obtain metadata from any of the brokers in the last known metadata for this interval, client repeats the bootstrap process using
+                - code [ref=e1603]: bootstrap.servers
+                - text: configuration.
+              - table [ref=e1604]:
+                - rowgroup [ref=e1605]:
+                  - row [ref=e1606]:
+                    - rowheader "Type:" [ref=e1607]
+                    - cell "long" [ref=e1608]
+                  - row [ref=e1609]:
+                    - rowheader "Default:" [ref=e1610]
+                    - cell "300000 (5 minutes)" [ref=e1611]
+                  - row [ref=e1612]:
+                    - rowheader "Valid Values:" [ref=e1613]
+                    - cell "[0,...]" [ref=e1614]
+                  - row [ref=e1615]:
+                    - rowheader "Importance:" [ref=e1616]
+                    - cell "low" [ref=e1617]
+            - listitem [ref=e1618]:
+              - heading [level=4] [ref=e1619]:
+                - link "metadata.recovery.strategy" [ref=e1620] [cursor=pointer]:
+                  - /url: "#producerconfigs_metadata.recovery.strategy"
+              - paragraph [ref=e1621]:
+                - text: Controls how the client recovers when none of the brokers known to it is available. If set to
+                - code [ref=e1622]: none
+                - text: ", the client fails. If set to"
+                - code [ref=e1623]: rebootstrap
+                - text: ", the client repeats the bootstrap process using"
+                - code [ref=e1624]: bootstrap.servers
+                - text: . Rebootstrapping is useful when a client communicates with brokers so infrequently that the set of brokers may change entirely before the client refreshes metadata. Metadata recovery is triggered when all last-known brokers appear unavailable simultaneously. Brokers appear unavailable when disconnected and no current retry attempt is in-progress. Consider increasing
+                - code [ref=e1625]: reconnect.backoff.ms
+                - text: and
+                - code [ref=e1626]: reconnect.backoff.max.ms
+                - text: and decreasing
+                - code [ref=e1627]: socket.connection.setup.timeout.ms
+                - text: and
+                - code [ref=e1628]: socket.connection.setup.timeout.max.ms
+                - text: for the client. Rebootstrap is also triggered if connection cannot be established to any of the brokers for
+                - code [ref=e1629]: metadata.recovery.rebootstrap.trigger.ms
+                - text: milliseconds or if server requests rebootstrap.
+              - table [ref=e1630]:
+                - rowgroup [ref=e1631]:
+                  - row [ref=e1632]:
+                    - rowheader "Type:" [ref=e1633]
+                    - cell "string" [ref=e1634]
+                  - row [ref=e1635]:
+                    - rowheader "Default:" [ref=e1636]
+                    - cell "rebootstrap" [ref=e1637]
+                  - row [ref=e1638]:
+                    - rowheader "Valid Values:" [ref=e1639]
+                    - cell "(case insensitive) [REBOOTSTRAP, NONE]" [ref=e1640]
+                  - row [ref=e1641]:
+                    - rowheader "Importance:" [ref=e1642]
+                    - cell "low" [ref=e1643]
+            - listitem [ref=e1644]:
+              - heading [level=4] [ref=e1645]:
+                - link "metric.reporters" [ref=e1646] [cursor=pointer]:
+                  - /url: "#producerconfigs_metric.reporters"
+              - paragraph [ref=e1647]:
+                - text: A list of classes to use as metrics reporters. Implementing the
+                - code [ref=e1648]: org.apache.kafka.common.metrics.MetricsReporter
+                - text: interface allows plugging in classes that will be notified of new metric creation. When custom reporters are set and
+                - code [ref=e1649]: org.apache.kafka.common.metrics.JmxReporter
+                - text: is needed, it has to be explicitly added to the list.
+              - table [ref=e1650]:
+                - rowgroup [ref=e1651]:
+                  - row [ref=e1652]:
+                    - rowheader "Type:" [ref=e1653]
+                    - cell "list" [ref=e1654]
+                  - row [ref=e1655]:
+                    - rowheader "Default:" [ref=e1656]
+                    - cell "org.apache.kafka.common.metrics.JmxReporter" [ref=e1657]
+                  - row [ref=e1658]:
+                    - columnheader "Valid Values:" [ref=e1659]
+                    - cell [ref=e1660]
+                  - row [ref=e1661]:
+                    - rowheader "Importance:" [ref=e1662]
+                    - cell "low" [ref=e1663]
+            - listitem [ref=e1664]:
+              - heading [level=4] [ref=e1665]:
+                - link "metrics.num.samples" [ref=e1666] [cursor=pointer]:
+                  - /url: "#producerconfigs_metrics.num.samples"
+              - paragraph [ref=e1667]: The number of samples maintained to compute metrics.
+              - table [ref=e1668]:
+                - rowgroup [ref=e1669]:
+                  - row [ref=e1670]:
+                    - rowheader "Type:" [ref=e1671]
+                    - cell "int" [ref=e1672]
+                  - row [ref=e1673]:
+                    - rowheader "Default:" [ref=e1674]
+                    - cell "2" [ref=e1675]
+                  - row [ref=e1676]:
+                    - rowheader "Valid Values:" [ref=e1677]
+                    - cell "[1,...]" [ref=e1678]
+                  - row [ref=e1679]:
+                    - rowheader "Importance:" [ref=e1680]
+                    - cell "low" [ref=e1681]
+            - listitem [ref=e1682]:
+              - heading [level=4] [ref=e1683]:
+                - link "metrics.recording.level" [ref=e1684] [cursor=pointer]:
+                  - /url: "#producerconfigs_metrics.recording.level"
+              - paragraph [ref=e1685]: The highest recording level for metrics. It has three levels for recording metrics - info, debug, and trace.INFO level records only essential metrics necessary for monitoring system performance and health. It collects vital data without gathering too much detail, making it suitable for production environments where minimal overhead is desired.DEBUG level records most metrics, providing more detailed information about the system's operation. It's useful for development and testing environments where you need deeper insights to debug and fine-tune the application.TRACE level records all possible metrics, capturing every detail about the system's performance and operation. It's best for controlled environments where in-depth analysis is required, though it can introduce significant overhead.
+              - table [ref=e1686]:
+                - rowgroup [ref=e1687]:
+                  - row [ref=e1688]:
+                    - rowheader "Type:" [ref=e1689]
+                    - cell "string" [ref=e1690]
+                  - row [ref=e1691]:
+                    - rowheader "Default:" [ref=e1692]
+                    - cell "INFO" [ref=e1693]
+                  - row [ref=e1694]:
+                    - rowheader "Valid Values:" [ref=e1695]
+                    - cell "[INFO, DEBUG, TRACE]" [ref=e1696]
+                  - row [ref=e1697]:
+                    - rowheader "Importance:" [ref=e1698]
+                    - cell "low" [ref=e1699]
+            - listitem [ref=e1700]:
+              - heading [level=4] [ref=e1701]:
+                - link "metrics.sample.window.ms" [ref=e1702] [cursor=pointer]:
+                  - /url: "#producerconfigs_metrics.sample.window.ms"
+              - paragraph [ref=e1703]: The window of time a metrics sample is computed over.
+              - table [ref=e1704]:
+                - rowgroup [ref=e1705]:
+                  - row [ref=e1706]:
+                    - rowheader "Type:" [ref=e1707]
+                    - cell "long" [ref=e1708]
+                  - row [ref=e1709]:
+                    - rowheader "Default:" [ref=e1710]
+                    - cell "30000 (30 seconds)" [ref=e1711]
+                  - row [ref=e1712]:
+                    - rowheader "Valid Values:" [ref=e1713]
+                    - cell "[0,...]" [ref=e1714]
+                  - row [ref=e1715]:
+                    - rowheader "Importance:" [ref=e1716]
+                    - cell "low" [ref=e1717]
+            - listitem [ref=e1718]:
+              - heading [level=4] [ref=e1719]:
+                - link "partitioner.adaptive.partitioning.enable" [ref=e1720] [cursor=pointer]:
+                  - /url: "#producerconfigs_partitioner.adaptive.partitioning.enable"
+              - paragraph [ref=e1721]: "When set to 'true', the producer will try to adapt to broker performance and produce more messages to partitions hosted on faster brokers. If 'false', the producer will try to distribute messages uniformly. Note: this setting has no effect if a custom partitioner is used."
+              - table [ref=e1722]:
+                - rowgroup [ref=e1723]:
+                  - row [ref=e1724]:
+                    - rowheader "Type:" [ref=e1725]
+                    - cell "boolean" [ref=e1726]
+                  - row [ref=e1727]:
+                    - rowheader "Default:" [ref=e1728]
+                    - cell "true" [ref=e1729]
+                  - row [ref=e1730]:
+                    - columnheader "Valid Values:" [ref=e1731]
+                    - cell [ref=e1732]
+                  - row [ref=e1733]:
+                    - rowheader "Importance:" [ref=e1734]
+                    - cell "low" [ref=e1735]
+            - listitem [ref=e1736]:
+              - heading [level=4] [ref=e1737]:
+                - link "partitioner.availability.timeout.ms" [ref=e1738] [cursor=pointer]:
+                  - /url: "#producerconfigs_partitioner.availability.timeout.ms"
+              - paragraph [ref=e1739]:
+                - text: If a broker cannot process produce requests from a partition for
+                - code [ref=e1740]: partitioner.availability.timeout.ms
+                - text: "time, the partitioner treats that partition as not available. If the value is 0, this logic is disabled. Note: this setting has no effect if a custom partitioner is used or"
+                - code [ref=e1741]: partitioner.adaptive.partitioning.enable
+                - text: is set to 'false'.
+              - table [ref=e1742]:
+                - rowgroup [ref=e1743]:
+                  - row [ref=e1744]:
+                    - rowheader "Type:" [ref=e1745]
+                    - cell "long" [ref=e1746]
+                  - row [ref=e1747]:
+                    - rowheader "Default:" [ref=e1748]
+                    - cell "0" [ref=e1749]
+                  - row [ref=e1750]:
+                    - rowheader "Valid Values:" [ref=e1751]
+                    - cell "[0,...]" [ref=e1752]
+                  - row [ref=e1753]:
+                    - rowheader "Importance:" [ref=e1754]
+                    - cell "low" [ref=e1755]
+            - listitem [ref=e1756]:
+              - heading [level=4] [ref=e1757]:
+                - link "reconnect.backoff.max.ms" [ref=e1758] [cursor=pointer]:
+                  - /url: "#producerconfigs_reconnect.backoff.max.ms"
+              - paragraph [ref=e1759]: The maximum amount of time in milliseconds to wait when reconnecting to a broker that has repeatedly failed to connect. If provided, the backoff per host will increase exponentially for each consecutive connection failure, up to this maximum. After calculating the backoff increase, 20% random jitter is added to avoid connection storms.
+              - table [ref=e1760]:
+                - rowgroup [ref=e1761]:
+                  - row [ref=e1762]:
+                    - rowheader "Type:" [ref=e1763]
+                    - cell "long" [ref=e1764]
+                  - row [ref=e1765]:
+                    - rowheader "Default:" [ref=e1766]
+                    - cell "1000 (1 second)" [ref=e1767]
+                  - row [ref=e1768]:
+                    - rowheader "Valid Values:" [ref=e1769]
+                    - cell "[0,...]" [ref=e1770]
+                  - row [ref=e1771]:
+                    - rowheader "Importance:" [ref=e1772]
+                    - cell "low" [ref=e1773]
+            - listitem [ref=e1774]:
+              - heading [level=4] [ref=e1775]:
+                - link "reconnect.backoff.ms" [ref=e1776] [cursor=pointer]:
+                  - /url: "#producerconfigs_reconnect.backoff.ms"
+              - paragraph [ref=e1777]:
+                - text: The base amount of time to wait before attempting to reconnect to a given host. This avoids repeatedly connecting to a host in a tight loop. This backoff applies to all connection attempts by the client to a broker. This value is the initial backoff value and will increase exponentially for each consecutive connection failure, up to the
+                - code [ref=e1778]: reconnect.backoff.max.ms
+                - text: value.
+              - table [ref=e1779]:
+                - rowgroup [ref=e1780]:
+                  - row [ref=e1781]:
+                    - rowheader "Type:" [ref=e1782]
+                    - cell "long" [ref=e1783]
+                  - row [ref=e1784]:
+                    - rowheader "Default:" [ref=e1785]
+                    - cell "50" [ref=e1786]
+                  - row [ref=e1787]:
+                    - rowheader "Valid Values:" [ref=e1788]
+                    - cell "[0,...]" [ref=e1789]
+                  - row [ref=e1790]:
+                    - rowheader "Importance:" [ref=e1791]
+                    - cell "low" [ref=e1792]
+            - listitem [ref=e1793]:
+              - heading [level=4] [ref=e1794]:
+                - link "retry.backoff.max.ms" [ref=e1795] [cursor=pointer]:
+                  - /url: "#producerconfigs_retry.backoff.max.ms"
+              - paragraph [ref=e1796]:
+                - text: The maximum amount of time in milliseconds to wait when retrying a request to the broker that has repeatedly failed. If provided, the backoff per client will increase exponentially for each failed request, up to this maximum. To prevent all clients from being synchronized upon retry, a randomized jitter with a factor of 0.2 will be applied to the backoff, resulting in the backoff falling within a range between 20% below and 20% above the computed value. If
+                - code [ref=e1797]: retry.backoff.ms
+                - text: is set to be higher than
+                - code [ref=e1798]: retry.backoff.max.ms
+                - text: ", then"
+                - code [ref=e1799]: retry.backoff.max.ms
+                - text: will be used as a constant backoff from the beginning without any exponential increase
+              - table [ref=e1800]:
+                - rowgroup [ref=e1801]:
+                  - row [ref=e1802]:
+                    - rowheader "Type:" [ref=e1803]
+                    - cell "long" [ref=e1804]
+                  - row [ref=e1805]:
+                    - rowheader "Default:" [ref=e1806]
+                    - cell "1000 (1 second)" [ref=e1807]
+                  - row [ref=e1808]:
+                    - rowheader "Valid Values:" [ref=e1809]
+                    - cell "[0,...]" [ref=e1810]
+                  - row [ref=e1811]:
+                    - rowheader "Importance:" [ref=e1812]
+                    - cell "low" [ref=e1813]
+            - listitem [ref=e1814]:
+              - heading [level=4] [ref=e1815]:
+                - link "retry.backoff.ms" [ref=e1816] [cursor=pointer]:
+                  - /url: "#producerconfigs_retry.backoff.ms"
+              - paragraph [ref=e1817]:
+                - text: The amount of time to wait before attempting to retry a failed request to a given topic partition. This avoids repeatedly sending requests in a tight loop under some failure scenarios. This value is the initial backoff value and will increase exponentially for each failed request, up to the
+                - code [ref=e1818]: retry.backoff.max.ms
+                - text: value.
+              - table [ref=e1819]:
+                - rowgroup [ref=e1820]:
+                  - row [ref=e1821]:
+                    - rowheader "Type:" [ref=e1822]
+                    - cell "long" [ref=e1823]
+                  - row [ref=e1824]:
+                    - rowheader "Default:" [ref=e1825]
+                    - cell "100" [ref=e1826]
+                  - row [ref=e1827]:
+                    - rowheader "Valid Values:" [ref=e1828]
+                    - cell "[0,...]" [ref=e1829]
+                  - row [ref=e1830]:
+                    - rowheader "Importance:" [ref=e1831]
+                    - cell "low" [ref=e1832]
+            - listitem [ref=e1833]:
+              - heading [level=4] [ref=e1834]:
+                - link "sasl.kerberos.kinit.cmd" [ref=e1835] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.kerberos.kinit.cmd"
+              - paragraph [ref=e1836]: Kerberos kinit command path.
+              - table [ref=e1837]:
+                - rowgroup [ref=e1838]:
+                  - row [ref=e1839]:
+                    - rowheader "Type:" [ref=e1840]
+                    - cell "string" [ref=e1841]
+                  - row [ref=e1842]:
+                    - rowheader "Default:" [ref=e1843]
+                    - cell "/usr/bin/kinit" [ref=e1844]
+                  - row [ref=e1845]:
+                    - columnheader "Valid Values:" [ref=e1846]
+                    - cell [ref=e1847]
+                  - row [ref=e1848]:
+                    - rowheader "Importance:" [ref=e1849]
+                    - cell "low" [ref=e1850]
+            - listitem [ref=e1851]:
+              - heading [level=4] [ref=e1852]:
+                - link "sasl.kerberos.min.time.before.relogin" [ref=e1853] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.kerberos.min.time.before.relogin"
+              - paragraph [ref=e1854]: Login thread sleep time between refresh attempts.
+              - table [ref=e1855]:
+                - rowgroup [ref=e1856]:
+                  - row [ref=e1857]:
+                    - rowheader "Type:" [ref=e1858]
+                    - cell "long" [ref=e1859]
+                  - row [ref=e1860]:
+                    - rowheader "Default:" [ref=e1861]
+                    - cell "60000" [ref=e1862]
+                  - row [ref=e1863]:
+                    - columnheader "Valid Values:" [ref=e1864]
+                    - cell [ref=e1865]
+                  - row [ref=e1866]:
+                    - rowheader "Importance:" [ref=e1867]
+                    - cell "low" [ref=e1868]
+            - listitem [ref=e1869]:
+              - heading [level=4] [ref=e1870]:
+                - link "sasl.kerberos.ticket.renew.jitter" [ref=e1871] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.kerberos.ticket.renew.jitter"
+              - paragraph [ref=e1872]: Percentage of random jitter added to the renewal time.
+              - table [ref=e1873]:
+                - rowgroup [ref=e1874]:
+                  - row [ref=e1875]:
+                    - rowheader "Type:" [ref=e1876]
+                    - cell "double" [ref=e1877]
+                  - row [ref=e1878]:
+                    - rowheader "Default:" [ref=e1879]
+                    - cell "0.05" [ref=e1880]
+                  - row [ref=e1881]:
+                    - columnheader "Valid Values:" [ref=e1882]
+                    - cell [ref=e1883]
+                  - row [ref=e1884]:
+                    - rowheader "Importance:" [ref=e1885]
+                    - cell "low" [ref=e1886]
+            - listitem [ref=e1887]:
+              - heading [level=4] [ref=e1888]:
+                - link "sasl.kerberos.ticket.renew.window.factor" [ref=e1889] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.kerberos.ticket.renew.window.factor"
+              - paragraph [ref=e1890]: Login thread will sleep until the specified window factor of time from last refresh to ticket's expiry has been reached, at which time it will try to renew the ticket.
+              - table [ref=e1891]:
+                - rowgroup [ref=e1892]:
+                  - row [ref=e1893]:
+                    - rowheader "Type:" [ref=e1894]
+                    - cell "double" [ref=e1895]
+                  - row [ref=e1896]:
+                    - rowheader "Default:" [ref=e1897]
+                    - cell "0.8" [ref=e1898]
+                  - row [ref=e1899]:
+                    - columnheader "Valid Values:" [ref=e1900]
+                    - cell [ref=e1901]
+                  - row [ref=e1902]:
+                    - rowheader "Importance:" [ref=e1903]
+                    - cell "low" [ref=e1904]
+            - listitem [ref=e1905]:
+              - heading [level=4] [ref=e1906]:
+                - link "sasl.login.connect.timeout.ms" [ref=e1907] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.connect.timeout.ms"
+              - paragraph [ref=e1908]: The (optional) value in milliseconds for the external authentication provider connection timeout. Currently applies only to OAUTHBEARER.
+              - table [ref=e1909]:
+                - rowgroup [ref=e1910]:
+                  - row [ref=e1911]:
+                    - rowheader "Type:" [ref=e1912]
+                    - cell "int" [ref=e1913]
+                  - row [ref=e1914]:
+                    - rowheader "Default:" [ref=e1915]
+                    - cell "null" [ref=e1916]
+                  - row [ref=e1917]:
+                    - columnheader "Valid Values:" [ref=e1918]
+                    - cell [ref=e1919]
+                  - row [ref=e1920]:
+                    - rowheader "Importance:" [ref=e1921]
+                    - cell "low" [ref=e1922]
+            - listitem [ref=e1923]:
+              - heading [level=4] [ref=e1924]:
+                - link "sasl.login.read.timeout.ms" [ref=e1925] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.read.timeout.ms"
+              - paragraph [ref=e1926]: The (optional) value in milliseconds for the external authentication provider read timeout. Currently applies only to OAUTHBEARER.
+              - table [ref=e1927]:
+                - rowgroup [ref=e1928]:
+                  - row [ref=e1929]:
+                    - rowheader "Type:" [ref=e1930]
+                    - cell "int" [ref=e1931]
+                  - row [ref=e1932]:
+                    - rowheader "Default:" [ref=e1933]
+                    - cell "null" [ref=e1934]
+                  - row [ref=e1935]:
+                    - columnheader "Valid Values:" [ref=e1936]
+                    - cell [ref=e1937]
+                  - row [ref=e1938]:
+                    - rowheader "Importance:" [ref=e1939]
+                    - cell "low" [ref=e1940]
+            - listitem [ref=e1941]:
+              - heading [level=4] [ref=e1942]:
+                - link "sasl.login.refresh.buffer.seconds" [ref=e1943] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.refresh.buffer.seconds"
+              - paragraph [ref=e1944]: The amount of buffer time before credential expiration to maintain when refreshing a credential, in seconds. If a refresh would otherwise occur closer to expiration than the number of buffer seconds then the refresh will be moved up to maintain as much of the buffer time as possible. Legal values are between 0 and 3600 (1 hour); a default value of 300 (5 minutes) is used if no value is specified. This value and sasl.login.refresh.min.period.seconds are both ignored if their sum exceeds the remaining lifetime of a credential. Currently applies only to OAUTHBEARER.
+              - table [ref=e1945]:
+                - rowgroup [ref=e1946]:
+                  - row [ref=e1947]:
+                    - rowheader "Type:" [ref=e1948]
+                    - cell "short" [ref=e1949]
+                  - row [ref=e1950]:
+                    - rowheader "Default:" [ref=e1951]
+                    - cell "300" [ref=e1952]
+                  - row [ref=e1953]:
+                    - rowheader "Valid Values:" [ref=e1954]
+                    - cell "[0,...,3600]" [ref=e1955]
+                  - row [ref=e1956]:
+                    - rowheader "Importance:" [ref=e1957]
+                    - cell "low" [ref=e1958]
+            - listitem [ref=e1959]:
+              - heading [level=4] [ref=e1960]:
+                - link "sasl.login.refresh.min.period.seconds" [ref=e1961] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.refresh.min.period.seconds"
+              - paragraph [ref=e1962]: The desired minimum time for the login refresh thread to wait before refreshing a credential, in seconds. Legal values are between 0 and 900 (15 minutes); a default value of 60 (1 minute) is used if no value is specified. This value and sasl.login.refresh.buffer.seconds are both ignored if their sum exceeds the remaining lifetime of a credential. Currently applies only to OAUTHBEARER.
+              - table [ref=e1963]:
+                - rowgroup [ref=e1964]:
+                  - row [ref=e1965]:
+                    - rowheader "Type:" [ref=e1966]
+                    - cell "short" [ref=e1967]
+                  - row [ref=e1968]:
+                    - rowheader "Default:" [ref=e1969]
+                    - cell "60" [ref=e1970]
+                  - row [ref=e1971]:
+                    - rowheader "Valid Values:" [ref=e1972]
+                    - cell "[0,...,900]" [ref=e1973]
+                  - row [ref=e1974]:
+                    - rowheader "Importance:" [ref=e1975]
+                    - cell "low" [ref=e1976]
+            - listitem [ref=e1977]:
+              - heading [level=4] [ref=e1978]:
+                - link "sasl.login.refresh.window.factor" [ref=e1979] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.refresh.window.factor"
+              - paragraph [ref=e1980]: Login refresh thread will sleep until the specified window factor relative to the credential's lifetime has been reached, at which time it will try to refresh the credential. Legal values are between 0.5 (50%) and 1.0 (100%) inclusive; a default value of 0.8 (80%) is used if no value is specified. Currently applies only to OAUTHBEARER.
+              - table [ref=e1981]:
+                - rowgroup [ref=e1982]:
+                  - row [ref=e1983]:
+                    - rowheader "Type:" [ref=e1984]
+                    - cell "double" [ref=e1985]
+                  - row [ref=e1986]:
+                    - rowheader "Default:" [ref=e1987]
+                    - cell "0.8" [ref=e1988]
+                  - row [ref=e1989]:
+                    - rowheader "Valid Values:" [ref=e1990]
+                    - cell "[0.5,...,1.0]" [ref=e1991]
+                  - row [ref=e1992]:
+                    - rowheader "Importance:" [ref=e1993]
+                    - cell "low" [ref=e1994]
+            - listitem [ref=e1995]:
+              - heading [level=4] [ref=e1996]:
+                - link "sasl.login.refresh.window.jitter" [ref=e1997] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.refresh.window.jitter"
+              - paragraph [ref=e1998]: The maximum amount of random jitter relative to the credential's lifetime that is added to the login refresh thread's sleep time. Legal values are between 0 and 0.25 (25%) inclusive; a default value of 0.05 (5%) is used if no value is specified. Currently applies only to OAUTHBEARER.
+              - table [ref=e1999]:
+                - rowgroup [ref=e2000]:
+                  - row [ref=e2001]:
+                    - rowheader "Type:" [ref=e2002]
+                    - cell "double" [ref=e2003]
+                  - row [ref=e2004]:
+                    - rowheader "Default:" [ref=e2005]
+                    - cell "0.05" [ref=e2006]
+                  - row [ref=e2007]:
+                    - rowheader "Valid Values:" [ref=e2008]
+                    - cell "[0.0,...,0.25]" [ref=e2009]
+                  - row [ref=e2010]:
+                    - rowheader "Importance:" [ref=e2011]
+                    - cell "low" [ref=e2012]
+            - listitem [ref=e2013]:
+              - heading [level=4] [ref=e2014]:
+                - link "sasl.login.retry.backoff.max.ms" [ref=e2015] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.retry.backoff.max.ms"
+              - paragraph [ref=e2016]: The (optional) value in milliseconds for the maximum wait between login attempts to the external authentication provider. Login uses an exponential backoff algorithm with an initial wait based on the sasl.login.retry.backoff.ms setting and will double in wait length between attempts up to a maximum wait length specified by the sasl.login.retry.backoff.max.ms setting. Currently applies only to OAUTHBEARER.
+              - table [ref=e2017]:
+                - rowgroup [ref=e2018]:
+                  - row [ref=e2019]:
+                    - rowheader "Type:" [ref=e2020]
+                    - cell "long" [ref=e2021]
+                  - row [ref=e2022]:
+                    - rowheader "Default:" [ref=e2023]
+                    - cell "10000 (10 seconds)" [ref=e2024]
+                  - row [ref=e2025]:
+                    - columnheader "Valid Values:" [ref=e2026]
+                    - cell [ref=e2027]
+                  - row [ref=e2028]:
+                    - rowheader "Importance:" [ref=e2029]
+                    - cell "low" [ref=e2030]
+            - listitem [ref=e2031]:
+              - heading [level=4] [ref=e2032]:
+                - link "sasl.login.retry.backoff.ms" [ref=e2033] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.login.retry.backoff.ms"
+              - paragraph [ref=e2034]: The (optional) value in milliseconds for the initial wait between login attempts to the external authentication provider. Login uses an exponential backoff algorithm with an initial wait based on the sasl.login.retry.backoff.ms setting and will double in wait length between attempts up to a maximum wait length specified by the sasl.login.retry.backoff.max.ms setting. Currently applies only to OAUTHBEARER.
+              - table [ref=e2035]:
+                - rowgroup [ref=e2036]:
+                  - row [ref=e2037]:
+                    - rowheader "Type:" [ref=e2038]
+                    - cell "long" [ref=e2039]
+                  - row [ref=e2040]:
+                    - rowheader "Default:" [ref=e2041]
+                    - cell "100" [ref=e2042]
+                  - row [ref=e2043]:
+                    - columnheader "Valid Values:" [ref=e2044]
+                    - cell [ref=e2045]
+                  - row [ref=e2046]:
+                    - rowheader "Importance:" [ref=e2047]
+                    - cell "low" [ref=e2048]
+            - listitem [ref=e2049]:
+              - heading [level=4] [ref=e2050]:
+                - link "sasl.oauthbearer.assertion.claim.exp.seconds" [ref=e2051] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.claim.exp.seconds"
+              - paragraph
+              - paragraph [ref=e2052]:
+                - text: The number of seconds
+                - emphasis [ref=e2053]: in the future
+                - text: for which the JWT is valid. The value is used to determine the JWT
+                - code [ref=e2054]: exp
+                - text: (Expiration) claim based on the current system time when the JWT is created.
+              - paragraph [ref=e2055]:
+                - text: The formula to generate the
+                - code [ref=e2056]: exp
+                - text: "claim is very simple:"
+              - generic [ref=e2057]: "Let: x = the current timestamp in seconds, on client y = the value of this configurationThen: exp = x + y"
+              - paragraph [ref=e2058]:
+                - emphasis [ref=e2059]: Note
+                - text: ": If a value for"
+                - code [ref=e2060]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e2061]:
+                - rowgroup [ref=e2062]:
+                  - row [ref=e2063]:
+                    - rowheader "Type:" [ref=e2064]
+                    - cell "int" [ref=e2065]
+                  - row [ref=e2066]:
+                    - rowheader "Default:" [ref=e2067]
+                    - cell "300" [ref=e2068]
+                  - row [ref=e2069]:
+                    - rowheader "Valid Values:" [ref=e2070]
+                    - cell "[0,...,86400]" [ref=e2071]
+                  - row [ref=e2072]:
+                    - rowheader "Importance:" [ref=e2073]
+                    - cell "low" [ref=e2074]
+            - listitem [ref=e2075]:
+              - heading [level=4] [ref=e2076]:
+                - link "sasl.oauthbearer.assertion.claim.nbf.seconds" [ref=e2077] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.assertion.claim.nbf.seconds"
+              - paragraph
+              - paragraph [ref=e2078]:
+                - text: The number of seconds
+                - emphasis [ref=e2079]: in the past
+                - text: from which the JWT is valid. The value is used to determine the JWT
+                - code [ref=e2080]: nbf
+                - text: (Not Before) claim based on the current system time when the JWT is created.
+              - paragraph [ref=e2081]:
+                - text: The formula to generate the
+                - code [ref=e2082]: nbf
+                - text: "claim is very simple:"
+              - generic [ref=e2083]: "Let: x = the current timestamp in seconds, on client y = the value of this configurationThen: nbf = x - y"
+              - paragraph [ref=e2084]:
+                - emphasis [ref=e2085]: Note
+                - text: ": If a value for"
+                - code [ref=e2086]: sasl.oauthbearer.assertion.file
+                - text: is provided, this configuration will be ignored.
+              - paragraph
+              - table [ref=e2087]:
+                - rowgroup [ref=e2088]:
+                  - row [ref=e2089]:
+                    - rowheader "Type:" [ref=e2090]
+                    - cell "int" [ref=e2091]
+                  - row [ref=e2092]:
+                    - rowheader "Default:" [ref=e2093]
+                    - cell "60" [ref=e2094]
+                  - row [ref=e2095]:
+                    - rowheader "Valid Values:" [ref=e2096]
+                    - cell "[0,...,3600]" [ref=e2097]
+                  - row [ref=e2098]:
+                    - rowheader "Importance:" [ref=e2099]
+                    - cell "low" [ref=e2100]
+            - listitem [ref=e2101]:
+              - heading [level=4] [ref=e2102]:
+                - link "sasl.oauthbearer.clock.skew.seconds" [ref=e2103] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.clock.skew.seconds"
+              - paragraph [ref=e2104]: The (optional) value in seconds to allow for differences between the time of the OAuth/OIDC identity provider and the broker.
+              - table [ref=e2105]:
+                - rowgroup [ref=e2106]:
+                  - row [ref=e2107]:
+                    - rowheader "Type:" [ref=e2108]
+                    - cell "int" [ref=e2109]
+                  - row [ref=e2110]:
+                    - rowheader "Default:" [ref=e2111]
+                    - cell "30" [ref=e2112]
+                  - row [ref=e2113]:
+                    - columnheader "Valid Values:" [ref=e2114]
+                    - cell [ref=e2115]
+                  - row [ref=e2116]:
+                    - rowheader "Importance:" [ref=e2117]
+                    - cell "low" [ref=e2118]
+            - listitem [ref=e2119]:
+              - heading [level=4] [ref=e2120]:
+                - link "sasl.oauthbearer.expected.audience" [ref=e2121] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.expected.audience"
+              - paragraph [ref=e2122]: The (optional) comma-delimited setting for the broker to use to verify that the JWT was issued for one of the expected audiences. The JWT will be inspected for the standard OAuth "aud" claim and if this value is set, the broker will match the value from JWT's "aud" claim to see if there is an exact match. If there is no match, the broker will reject the JWT and authentication will fail.
+              - table [ref=e2123]:
+                - rowgroup [ref=e2124]:
+                  - row [ref=e2125]:
+                    - rowheader "Type:" [ref=e2126]
+                    - cell "list" [ref=e2127]
+                  - row [ref=e2128]:
+                    - rowheader "Default:" [ref=e2129]
+                    - cell "\"\"" [ref=e2130]
+                  - row [ref=e2131]:
+                    - columnheader "Valid Values:" [ref=e2132]
+                    - cell [ref=e2133]
+                  - row [ref=e2134]:
+                    - rowheader "Importance:" [ref=e2135]
+                    - cell "low" [ref=e2136]
+            - listitem [ref=e2137]:
+              - heading [level=4] [ref=e2138]:
+                - link "sasl.oauthbearer.expected.issuer" [ref=e2139] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.expected.issuer"
+              - paragraph [ref=e2140]: The (optional) setting for the broker to use to verify that the JWT was created by the expected issuer. The JWT will be inspected for the standard OAuth "iss" claim and if this value is set, the broker will match it exactly against what is in the JWT's "iss" claim. If there is no match, the broker will reject the JWT and authentication will fail.
+              - table [ref=e2141]:
+                - rowgroup [ref=e2142]:
+                  - row [ref=e2143]:
+                    - rowheader "Type:" [ref=e2144]
+                    - cell "string" [ref=e2145]
+                  - row [ref=e2146]:
+                    - rowheader "Default:" [ref=e2147]
+                    - cell "null" [ref=e2148]
+                  - row [ref=e2149]:
+                    - columnheader "Valid Values:" [ref=e2150]
+                    - cell [ref=e2151]
+                  - row [ref=e2152]:
+                    - rowheader "Importance:" [ref=e2153]
+                    - cell "low" [ref=e2154]
+            - listitem [ref=e2155]:
+              - heading [level=4] [ref=e2156]:
+                - link "sasl.oauthbearer.header.urlencode" [ref=e2157] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.header.urlencode"
+              - paragraph [ref=e2158]:
+                - text: The (optional) setting to enable the OAuth client to URL-encode the client_id and client_secret in the authorization header in accordance with RFC6749, see
+                - link "here" [ref=e2159] [cursor=pointer]:
+                  - /url: https://datatracker.ietf.org/doc/html/rfc6749#section-2.3.1
+                - text: for more details. The default value is set to 'false' for backward compatibility
+              - table [ref=e2160]:
+                - rowgroup [ref=e2161]:
+                  - row [ref=e2162]:
+                    - rowheader "Type:" [ref=e2163]
+                    - cell "boolean" [ref=e2164]
+                  - row [ref=e2165]:
+                    - rowheader "Default:" [ref=e2166]
+                    - cell "false" [ref=e2167]
+                  - row [ref=e2168]:
+                    - columnheader "Valid Values:" [ref=e2169]
+                    - cell [ref=e2170]
+                  - row [ref=e2171]:
+                    - rowheader "Importance:" [ref=e2172]
+                    - cell "low" [ref=e2173]
+            - listitem [ref=e2174]:
+              - heading [level=4] [ref=e2175]:
+                - link "sasl.oauthbearer.jwks.endpoint.refresh.ms" [ref=e2176] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.jwks.endpoint.refresh.ms"
+              - paragraph [ref=e2177]: The (optional) value in milliseconds for the broker to wait between refreshing its JWKS (JSON Web Key Set) cache that contains the keys to verify the signature of the JWT.
+              - table [ref=e2178]:
+                - rowgroup [ref=e2179]:
+                  - row [ref=e2180]:
+                    - rowheader "Type:" [ref=e2181]
+                    - cell "long" [ref=e2182]
+                  - row [ref=e2183]:
+                    - rowheader "Default:" [ref=e2184]
+                    - cell "3600000 (1 hour)" [ref=e2185]
+                  - row [ref=e2186]:
+                    - columnheader "Valid Values:" [ref=e2187]
+                    - cell [ref=e2188]
+                  - row [ref=e2189]:
+                    - rowheader "Importance:" [ref=e2190]
+                    - cell "low" [ref=e2191]
+            - listitem [ref=e2192]:
+              - heading [level=4] [ref=e2193]:
+                - link "sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms" [ref=e2194] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms"
+              - paragraph [ref=e2195]: The (optional) value in milliseconds for the maximum wait between attempts to retrieve the JWKS (JSON Web Key Set) from the external authentication provider. JWKS retrieval uses an exponential backoff algorithm with an initial wait based on the sasl.oauthbearer.jwks.endpoint.retry.backoff.ms setting and will double in wait length between attempts up to a maximum wait length specified by the sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms setting.
+              - table [ref=e2196]:
+                - rowgroup [ref=e2197]:
+                  - row [ref=e2198]:
+                    - rowheader "Type:" [ref=e2199]
+                    - cell "long" [ref=e2200]
+                  - row [ref=e2201]:
+                    - rowheader "Default:" [ref=e2202]
+                    - cell "10000 (10 seconds)" [ref=e2203]
+                  - row [ref=e2204]:
+                    - columnheader "Valid Values:" [ref=e2205]
+                    - cell [ref=e2206]
+                  - row [ref=e2207]:
+                    - rowheader "Importance:" [ref=e2208]
+                    - cell "low" [ref=e2209]
+            - listitem [ref=e2210]:
+              - heading [level=4] [ref=e2211]:
+                - link "sasl.oauthbearer.jwks.endpoint.retry.backoff.ms" [ref=e2212] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.jwks.endpoint.retry.backoff.ms"
+              - paragraph [ref=e2213]: The (optional) value in milliseconds for the initial wait between JWKS (JSON Web Key Set) retrieval attempts from the external authentication provider. JWKS retrieval uses an exponential backoff algorithm with an initial wait based on the sasl.oauthbearer.jwks.endpoint.retry.backoff.ms setting and will double in wait length between attempts up to a maximum wait length specified by the sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms setting.
+              - table [ref=e2214]:
+                - rowgroup [ref=e2215]:
+                  - row [ref=e2216]:
+                    - rowheader "Type:" [ref=e2217]
+                    - cell "long" [ref=e2218]
+                  - row [ref=e2219]:
+                    - rowheader "Default:" [ref=e2220]
+                    - cell "100" [ref=e2221]
+                  - row [ref=e2222]:
+                    - columnheader "Valid Values:" [ref=e2223]
+                    - cell [ref=e2224]
+                  - row [ref=e2225]:
+                    - rowheader "Importance:" [ref=e2226]
+                    - cell "low" [ref=e2227]
+            - listitem [ref=e2228]:
+              - heading [level=4] [ref=e2229]:
+                - link "sasl.oauthbearer.scope.claim.name" [ref=e2230] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.scope.claim.name"
+              - paragraph [ref=e2231]: The OAuth claim for the scope is often named "scope", but this (optional) setting can provide a different name to use for the scope included in the JWT payload's claims if the OAuth/OIDC provider uses a different name for that claim.
+              - table [ref=e2232]:
+                - rowgroup [ref=e2233]:
+                  - row [ref=e2234]:
+                    - rowheader "Type:" [ref=e2235]
+                    - cell "string" [ref=e2236]
+                  - row [ref=e2237]:
+                    - rowheader "Default:" [ref=e2238]
+                    - cell "scope" [ref=e2239]
+                  - row [ref=e2240]:
+                    - columnheader "Valid Values:" [ref=e2241]
+                    - cell [ref=e2242]
+                  - row [ref=e2243]:
+                    - rowheader "Importance:" [ref=e2244]
+                    - cell "low" [ref=e2245]
+            - listitem [ref=e2246]:
+              - heading [level=4] [ref=e2247]:
+                - link "sasl.oauthbearer.sub.claim.name" [ref=e2248] [cursor=pointer]:
+                  - /url: "#producerconfigs_sasl.oauthbearer.sub.claim.name"
+              - paragraph [ref=e2249]: The OAuth claim for the subject is often named "sub", but this (optional) setting can provide a different name to use for the subject included in the JWT payload's claims if the OAuth/OIDC provider uses a different name for that claim.
+              - table [ref=e2250]:
+                - rowgroup [ref=e2251]:
+                  - row [ref=e2252]:
+                    - rowheader "Type:" [ref=e2253]
+                    - cell "string" [ref=e2254]
+                  - row [ref=e2255]:
+                    - rowheader "Default:" [ref=e2256]
+                    - cell "sub" [ref=e2257]
+                  - row [ref=e2258]:
+                    - columnheader "Valid Values:" [ref=e2259]
+                    - cell [ref=e2260]
+                  - row [ref=e2261]:
+                    - rowheader "Importance:" [ref=e2262]
+                    - cell "low" [ref=e2263]
+            - listitem [ref=e2264]:
+              - heading [level=4] [ref=e2265]:
+                - link "security.providers" [ref=e2266] [cursor=pointer]:
+                  - /url: "#producerconfigs_security.providers"
+              - paragraph [ref=e2267]:
+                - text: A list of configurable creator classes each returning a provider implementing security algorithms. These classes should implement the
+                - code [ref=e2268]: org.apache.kafka.common.security.auth.SecurityProviderCreator
+                - text: interface.
+              - table [ref=e2269]:
+                - rowgroup [ref=e2270]:
+                  - row [ref=e2271]:
+                    - rowheader "Type:" [ref=e2272]
+                    - cell "string" [ref=e2273]
+                  - row [ref=e2274]:
+                    - rowheader "Default:" [ref=e2275]
+                    - cell "null" [ref=e2276]
+                  - row [ref=e2277]:
+                    - columnheader "Valid Values:" [ref=e2278]
+                    - cell [ref=e2279]
+                  - row [ref=e2280]:
+                    - rowheader "Importance:" [ref=e2281]
+                    - cell "low" [ref=e2282]
+            - listitem [ref=e2283]:
+              - heading [level=4] [ref=e2284]:
+                - link "ssl.cipher.suites" [ref=e2285] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.cipher.suites"
+              - paragraph [ref=e2286]: A list of cipher suites. This is a named combination of authentication, encryption, MAC and key exchange algorithm used to negotiate the security settings for a network connection using TLS or SSL network protocol. By default all the available cipher suites are supported.
+              - table [ref=e2287]:
+                - rowgroup [ref=e2288]:
+                  - row [ref=e2289]:
+                    - rowheader "Type:" [ref=e2290]
+                    - cell "list" [ref=e2291]
+                  - row [ref=e2292]:
+                    - rowheader "Default:" [ref=e2293]
+                    - cell "\"\"" [ref=e2294]
+                  - row [ref=e2295]:
+                    - columnheader "Valid Values:" [ref=e2296]
+                    - cell [ref=e2297]
+                  - row [ref=e2298]:
+                    - rowheader "Importance:" [ref=e2299]
+                    - cell "low" [ref=e2300]
+            - listitem [ref=e2301]:
+              - heading [level=4] [ref=e2302]:
+                - link "ssl.endpoint.identification.algorithm" [ref=e2303] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.endpoint.identification.algorithm"
+              - paragraph [ref=e2304]: The endpoint identification algorithm to validate server hostname using server certificate.
+              - table [ref=e2305]:
+                - rowgroup [ref=e2306]:
+                  - row [ref=e2307]:
+                    - rowheader "Type:" [ref=e2308]
+                    - cell "string" [ref=e2309]
+                  - row [ref=e2310]:
+                    - rowheader "Default:" [ref=e2311]
+                    - cell "https" [ref=e2312]
+                  - row [ref=e2313]:
+                    - columnheader "Valid Values:" [ref=e2314]
+                    - cell [ref=e2315]
+                  - row [ref=e2316]:
+                    - rowheader "Importance:" [ref=e2317]
+                    - cell "low" [ref=e2318]
+            - listitem [ref=e2319]:
+              - heading [level=4] [ref=e2320]:
+                - link "ssl.engine.factory.class" [ref=e2321] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.engine.factory.class"
+              - paragraph [ref=e2322]: The class of type org.apache.kafka.common.security.auth.SslEngineFactory to provide SSLEngine objects. Default value is org.apache.kafka.common.security.ssl.DefaultSslEngineFactory. Alternatively, setting this to org.apache.kafka.common.security.ssl.CommonNameLoggingSslEngineFactory will log the common name of expired SSL certificates used by clients to authenticate at any of the brokers with log level INFO. Note that this will cause a tiny delay during establishment of new connections from mTLS clients to brokers due to the extra code for examining the certificate chain provided by the client. Note further that the implementation uses a custom truststore based on the standard Java truststore and thus might be considered a security risk due to not being as mature as the standard one.
+              - table [ref=e2323]:
+                - rowgroup [ref=e2324]:
+                  - row [ref=e2325]:
+                    - rowheader "Type:" [ref=e2326]
+                    - cell "class" [ref=e2327]
+                  - row [ref=e2328]:
+                    - rowheader "Default:" [ref=e2329]
+                    - cell "null" [ref=e2330]
+                  - row [ref=e2331]:
+                    - columnheader "Valid Values:" [ref=e2332]
+                    - cell [ref=e2333]
+                  - row [ref=e2334]:
+                    - rowheader "Importance:" [ref=e2335]
+                    - cell "low" [ref=e2336]
+            - listitem [ref=e2337]:
+              - heading [level=4] [ref=e2338]:
+                - link "ssl.keymanager.algorithm" [ref=e2339] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.keymanager.algorithm"
+              - paragraph [ref=e2340]: The algorithm used by key manager factory for SSL connections. Default value is the key manager factory algorithm configured for the Java Virtual Machine.
+              - table [ref=e2341]:
+                - rowgroup [ref=e2342]:
+                  - row [ref=e2343]:
+                    - rowheader "Type:" [ref=e2344]
+                    - cell "string" [ref=e2345]
+                  - row [ref=e2346]:
+                    - rowheader "Default:" [ref=e2347]
+                    - cell "SunX509" [ref=e2348]
+                  - row [ref=e2349]:
+                    - columnheader "Valid Values:" [ref=e2350]
+                    - cell [ref=e2351]
+                  - row [ref=e2352]:
+                    - rowheader "Importance:" [ref=e2353]
+                    - cell "low" [ref=e2354]
+            - listitem [ref=e2355]:
+              - heading [level=4] [ref=e2356]:
+                - link "ssl.secure.random.implementation" [ref=e2357] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.secure.random.implementation"
+              - paragraph [ref=e2358]: The SecureRandom PRNG implementation to use for SSL cryptography operations.
+              - table [ref=e2359]:
+                - rowgroup [ref=e2360]:
+                  - row [ref=e2361]:
+                    - rowheader "Type:" [ref=e2362]
+                    - cell "string" [ref=e2363]
+                  - row [ref=e2364]:
+                    - rowheader "Default:" [ref=e2365]
+                    - cell "null" [ref=e2366]
+                  - row [ref=e2367]:
+                    - columnheader "Valid Values:" [ref=e2368]
+                    - cell [ref=e2369]
+                  - row [ref=e2370]:
+                    - rowheader "Importance:" [ref=e2371]
+                    - cell "low" [ref=e2372]
+            - listitem [ref=e2373]:
+              - heading [level=4] [ref=e2374]:
+                - link "ssl.trustmanager.algorithm" [ref=e2375] [cursor=pointer]:
+                  - /url: "#producerconfigs_ssl.trustmanager.algorithm"
+              - paragraph [ref=e2376]: The algorithm used by trust manager factory for SSL connections. Default value is the trust manager factory algorithm configured for the Java Virtual Machine.
+              - table [ref=e2377]:
+                - rowgroup [ref=e2378]:
+                  - row [ref=e2379]:
+                    - rowheader "Type:" [ref=e2380]
+                    - cell "string" [ref=e2381]
+                  - row [ref=e2382]:
+                    - rowheader "Default:" [ref=e2383]
+                    - cell "PKIX" [ref=e2384]
+                  - row [ref=e2385]:
+                    - columnheader "Valid Values:" [ref=e2386]
+                    - cell [ref=e2387]
+                  - row [ref=e2388]:
+                    - rowheader "Importance:" [ref=e2389]
+                    - cell "low" [ref=e2390]
+            - listitem [ref=e2391]:
+              - heading [level=4] [ref=e2392]:
+                - link "transaction.timeout.ms" [ref=e2393] [cursor=pointer]:
+                  - /url: "#producerconfigs_transaction.timeout.ms"
+              - paragraph [ref=e2394]:
+                - text: The maximum amount of time in milliseconds that a transaction will remain open before the coordinator proactively aborts it. The start of the transaction is set at the time that the first partition is added to it. If this value is larger than the
+                - code [ref=e2395]: transaction.max.timeout.ms
+                - text: setting in the broker, the request will fail with a
+                - code [ref=e2396]: InvalidTxnTimeoutException
+                - text: error.
+              - table [ref=e2397]:
+                - rowgroup [ref=e2398]:
+                  - row [ref=e2399]:
+                    - rowheader "Type:" [ref=e2400]
+                    - cell "int" [ref=e2401]
+                  - row [ref=e2402]:
+                    - rowheader "Default:" [ref=e2403]
+                    - cell "60000 (1 minute)" [ref=e2404]
+                  - row [ref=e2405]:
+                    - columnheader "Valid Values:" [ref=e2406]
+                    - cell [ref=e2407]
+                  - row [ref=e2408]:
+                    - rowheader "Importance:" [ref=e2409]
+                    - cell "low" [ref=e2410]
+            - listitem [ref=e2411]:
+              - heading [level=4] [ref=e2412]:
+                - link "transaction.two.phase.commit.enable" [ref=e2413] [cursor=pointer]:
+                  - /url: "#producerconfigs_transaction.two.phase.commit.enable"
+              - paragraph [ref=e2414]: If set to true, then the broker is informed that the client is participating in two phase commit protocol and transactions that this client starts never expire.
+              - table [ref=e2415]:
+                - rowgroup [ref=e2416]:
+                  - row [ref=e2417]:
+                    - rowheader "Type:" [ref=e2418]
+                    - cell "boolean" [ref=e2419]
+                  - row [ref=e2420]:
+                    - rowheader "Default:" [ref=e2421]
+                    - cell "false" [ref=e2422]
+                  - row [ref=e2423]:
+                    - columnheader "Valid Values:" [ref=e2424]
+                    - cell [ref=e2425]
+                  - row [ref=e2426]:
+                    - rowheader "Importance:" [ref=e2427]
+                    - cell "low" [ref=e2428]
+            - listitem [ref=e2429]:
+              - heading [level=4] [ref=e2430]:
+                - link "transactional.id" [ref=e2431] [cursor=pointer]:
+                  - /url: "#producerconfigs_transactional.id"
+              - paragraph [ref=e2432]:
+                - text: The TransactionalId to use for transactional delivery. This enables reliability semantics which span multiple producer sessions since it allows the client to guarantee that transactions using the same TransactionalId have been completed prior to starting any new transactions. If no TransactionalId is provided, then the producer is limited to idempotent delivery. If a TransactionalId is configured,
+                - code [ref=e2433]: enable.idempotence
+                - text: is implied. By default the TransactionId is not configured, which means transactions cannot be used. Note that, by default, transactions require a cluster of at least three brokers which is the recommended setting for production; for development you can change this, by adjusting broker setting
+                - code [ref=e2434]: transaction.state.log.replication.factor
+                - text: .
+              - table [ref=e2435]:
+                - rowgroup [ref=e2436]:
+                  - row [ref=e2437]:
+                    - rowheader "Type:" [ref=e2438]
+                    - cell "string" [ref=e2439]
+                  - row [ref=e2440]:
+                    - rowheader "Default:" [ref=e2441]
+                    - cell "null" [ref=e2442]
+                  - row [ref=e2443]:
+                    - rowheader "Valid Values:" [ref=e2444]
+                    - cell "non-empty string" [ref=e2445]
+                  - row [ref=e2446]:
+                    - rowheader "Importance:" [ref=e2447]
+                    - cell "low" [ref=e2448]
+          - paragraph
+          - generic [ref=e2449]:
+            - text: "Last modified May 22, 2026:"
+            - 'link "MINOR: Add 4.3 docs and javadoc (#853) (dde051e342)" [ref=e2450] [cursor=pointer]':
+              - /url: https://github.com/apache/kafka-site//commit/dde051e342850dadc1aefef27899a50c1a6fc3e9
+        - navigation [ref=e2452]:
+          - 'link "Previous: Group Configs" [ref=e2454] [cursor=pointer]':
+            - /url: /43/configuration/group-configs/
+            - generic [ref=e2455]: "‹ Previous:"
+            - generic [ref=e2456]: Group Configs
+          - 'link "Next: Consumer and Share Consumer Configs" [ref=e2458] [cursor=pointer]':
+            - /url: /43/configuration/consumer-configs/
+            - generic [ref=e2459]: "Next:"
+            - generic [ref=e2460]: Consumer and Share Consumer Configs
+            - generic [ref=e2461]: ›
+    - contentinfo [ref=e2462]:
+      - generic [ref=e2464]:
+        - generic [ref=e2466]:
+          - link "Contact" [ref=e2467] [cursor=pointer]:
+            - /url: /community/contact/
+            - generic [ref=e2468]: 
+          - link "Twitter" [ref=e2469] [cursor=pointer]:
+            - /url: https://twitter.com/apachekafka
+            - generic [ref=e2470]: 
+          - link "Stack Overflow" [ref=e2471] [cursor=pointer]:
+            - /url: https://stackoverflow.com/questions/tagged/apache-kafka
+            - generic [ref=e2472]: 
+          - link "GitHub" [ref=e2473] [cursor=pointer]:
+            - /url: https://github.com/apache/kafka
+            - generic [ref=e2474]: 
+          - link "Developer mailing list" [ref=e2475] [cursor=pointer]:
+            - /url: mailto:dev@kafka.apache.org
+            - generic [ref=e2476]: 
+        - generic [ref=e2477]:
+          - generic [ref=e2478]:
+            - text: The contents of this website are © 2026 Apache Software Foundation under the terms of the
+            - link "Apache License v2" [ref=e2479] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/LICENSE-2.0
+            - text: . Apache Kafka, Kafka, and the Kafka logo are either registered trademarks or trademarks of The Apache Software Foundation in the United States and other countries.
+          - generic [ref=e2480]:
+            - link "Security" [ref=e2481] [cursor=pointer]:
+              - /url: https://www.apache.org/security/
+            - text: "|"
+            - link "Donate" [ref=e2482] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/contributing.html
+            - text: "|"
+            - link "Thanks" [ref=e2483] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/thanks.html
+            - text: "|"
+            - link "Events" [ref=e2484] [cursor=pointer]:
+              - /url: https://www.apache.org/events/current-event.html
+            - text: "|"
+            - link "License" [ref=e2485] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/
+            - text: "|"
+            - link "Privacy" [ref=e2486] [cursor=pointer]:
+              - /url: https://privacy.apache.org/policies/privacy-policy-public.html
+        - link [ref=e2488] [cursor=pointer]:
+          - /url: https://www.apache.org/
+          - img "Apache Software Foundation" [ref=e2489]

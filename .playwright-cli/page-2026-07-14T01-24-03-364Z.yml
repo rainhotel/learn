@@ -1,0 +1,1002 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Framework
+            - generic [ref=e34]: 7.0.8
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../../overview.html
+                - listitem [ref=e51]:
+                  - button [ref=e52] [cursor=pointer]
+                  - link "Core Technologies" [ref=e53] [cursor=pointer]:
+                    - /url: ../../../core.html
+                - listitem [ref=e54]:
+                  - button [ref=e55] [cursor=pointer]
+                  - link "Data Access" [ref=e56] [cursor=pointer]:
+                    - /url: ../../../data-access.html
+                  - list [ref=e57]:
+                    - listitem [ref=e58]:
+                      - button [ref=e59] [cursor=pointer]
+                      - link "Transaction Management" [ref=e60] [cursor=pointer]:
+                        - /url: ../../transaction.html
+                      - list [ref=e61]:
+                        - listitem [ref=e62]:
+                          - link "Advantages of the Spring Framework’s Transaction Support Model" [ref=e63] [cursor=pointer]:
+                            - /url: ../motivation.html
+                        - listitem [ref=e64]:
+                          - link "Understanding the Spring Framework Transaction Abstraction" [ref=e65] [cursor=pointer]:
+                            - /url: ../strategies.html
+                        - listitem [ref=e66]:
+                          - link "Synchronizing Resources with Transactions" [ref=e67] [cursor=pointer]:
+                            - /url: ../tx-resource-synchronization.html
+                        - listitem [ref=e68]:
+                          - button [ref=e69] [cursor=pointer]
+                          - link "Declarative Transaction Management" [ref=e70] [cursor=pointer]:
+                            - /url: ../declarative.html
+                          - list [ref=e71]:
+                            - listitem [ref=e72]:
+                              - link "Understanding the Spring Framework’s Declarative Transaction Implementation" [ref=e73] [cursor=pointer]:
+                                - /url: tx-decl-explained.html
+                            - listitem [ref=e74]:
+                              - link "Example of Declarative Transaction Implementation" [ref=e75] [cursor=pointer]:
+                                - /url: first-example.html
+                            - listitem [ref=e76]:
+                              - link "Rolling Back a Declarative Transaction" [ref=e77] [cursor=pointer]:
+                                - /url: rolling-back.html
+                            - listitem [ref=e78]:
+                              - link "Configuring Different Transactional Semantics for Different Beans" [ref=e79] [cursor=pointer]:
+                                - /url: diff-tx.html
+                            - listitem [ref=e80]:
+                              - link "<tx:advice/> Settings" [ref=e81] [cursor=pointer]:
+                                - /url: txadvice-settings.html
+                            - listitem [ref=e82]:
+                              - link [ref=e83] [cursor=pointer]:
+                                - /url: annotations.html
+                                - text: Using
+                                - code [ref=e84]: "@Transactional"
+                            - listitem [ref=e85]:
+                              - link "Transaction Propagation" [ref=e86] [cursor=pointer]:
+                                - /url: tx-propagation.html
+                            - listitem [ref=e87]:
+                              - link "Advising Transactional Operations" [ref=e88] [cursor=pointer]:
+                                - /url: applying-more-than-just-tx-advice.html
+                            - listitem [ref=e89]:
+                              - link [ref=e90] [cursor=pointer]:
+                                - /url: aspectj.html
+                                - text: Using
+                                - code [ref=e91]: "@Transactional"
+                                - text: with AspectJ
+                        - listitem [ref=e92]:
+                          - link "Programmatic Transaction Management" [ref=e93] [cursor=pointer]:
+                            - /url: ../programmatic.html
+                        - listitem [ref=e94]:
+                          - link "Choosing Between Programmatic and Declarative Transaction Management" [ref=e95] [cursor=pointer]:
+                            - /url: ../tx-decl-vs-prog.html
+                        - listitem [ref=e96]:
+                          - link "Transaction-bound Events" [ref=e97] [cursor=pointer]:
+                            - /url: ../event.html
+                        - listitem [ref=e98]:
+                          - link "Application server-specific integration" [ref=e99] [cursor=pointer]:
+                            - /url: ../application-server-integration.html
+                        - listitem [ref=e100]:
+                          - link "Solutions to Common Problems" [ref=e101] [cursor=pointer]:
+                            - /url: ../solutions-to-common-problems.html
+                        - listitem [ref=e102]:
+                          - link "Further Resources" [ref=e103] [cursor=pointer]:
+                            - /url: ../resources.html
+                    - listitem [ref=e104]:
+                      - link "DAO Support" [ref=e105] [cursor=pointer]:
+                        - /url: ../../dao.html
+                    - listitem [ref=e106]:
+                      - button [ref=e107] [cursor=pointer]
+                      - link "Data Access with JDBC" [ref=e108] [cursor=pointer]:
+                        - /url: ../../jdbc.html
+                    - listitem [ref=e109]:
+                      - link "Data Access with R2DBC" [ref=e110] [cursor=pointer]:
+                        - /url: ../../r2dbc.html
+                    - listitem [ref=e111]:
+                      - button [ref=e112] [cursor=pointer]
+                      - link "Object Relational Mapping (ORM) Data Access" [ref=e113] [cursor=pointer]:
+                        - /url: ../../orm.html
+                    - listitem [ref=e114]:
+                      - link "Marshalling XML by Using Object-XML Mappers" [ref=e115] [cursor=pointer]:
+                        - /url: ../../oxm.html
+                    - listitem [ref=e116]:
+                      - link "Appendix" [ref=e117] [cursor=pointer]:
+                        - /url: ../../appendix.html
+                - listitem [ref=e118]:
+                  - button [ref=e119] [cursor=pointer]
+                  - link "Web on Servlet Stack" [ref=e120] [cursor=pointer]:
+                    - /url: ../../../web.html
+                - listitem [ref=e121]:
+                  - button [ref=e122] [cursor=pointer]
+                  - link "Web on Reactive Stack" [ref=e123] [cursor=pointer]:
+                    - /url: ../../../web-reactive.html
+                - listitem [ref=e124]:
+                  - button [ref=e125] [cursor=pointer]
+                  - link "Testing" [ref=e126] [cursor=pointer]:
+                    - /url: ../../../testing.html
+                - listitem [ref=e127]:
+                  - button [ref=e128] [cursor=pointer]
+                  - link "Integration" [ref=e129] [cursor=pointer]:
+                    - /url: ../../../integration.html
+                - listitem [ref=e130]:
+                  - button [ref=e131] [cursor=pointer]
+                  - link "Language Support" [ref=e132] [cursor=pointer]:
+                    - /url: ../../../languages.html
+                - listitem [ref=e133]:
+                  - link "Appendix" [ref=e134] [cursor=pointer]:
+                    - /url: ../../../appendix.html
+                - listitem [ref=e135]:
+                  - link "Java API" [ref=e136] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/
+                - listitem [ref=e137]:
+                  - link "Kotlin API" [ref=e138] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/kdoc-api/
+                - listitem [ref=e139]:
+                  - link "Wiki" [ref=e140] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-framework/wiki
+        - button [ref=e142] [cursor=pointer]
+    - main [ref=e145]:
+      - generic [ref=e146]:
+        - complementary [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e150]:
+              - heading "Using @Transactional" [level=3] [ref=e151]
+              - list [ref=e152]:
+                - listitem [ref=e153]:
+                  - link "@Transactional Settings" [ref=e154] [cursor=pointer]:
+                    - /url: "#transaction-declarative-attransactional-settings"
+                - listitem [ref=e155]:
+                  - link "Multiple Transaction Managers with @Transactional" [ref=e156] [cursor=pointer]:
+                    - /url: "#tx-multiple-tx-mgrs-with-attransactional"
+                - listitem [ref=e157]:
+                  - link "Custom Composed Annotations" [ref=e158] [cursor=pointer]:
+                    - /url: "#tx-custom-attributes"
+            - generic [ref=e159]:
+              - link "Edit this Page" [ref=e160] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-framework/blob/v7.0.8/framework-docs/modules/ROOT/pages/data-access/transaction/declarative/annotations.adoc
+              - link "GitHub Project" [ref=e163] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-framework
+              - link "Stack Overflow" [ref=e167] [cursor=pointer]:
+                - /url: https://stackoverflow.com/questions/tagged/spring
+        - article [ref=e170]:
+          - navigation "breadcrumbs" [ref=e172]:
+            - list [ref=e173]:
+              - listitem "Copy versioned URL" [ref=e174]
+              - listitem [ref=e175]:
+                - link "Spring Framework" [ref=e176] [cursor=pointer]:
+                  - /url: ../../../index.html
+                - text: /
+              - listitem [ref=e177]:
+                - link "Data Access" [ref=e178] [cursor=pointer]:
+                  - /url: ../../../data-access.html
+                - text: /
+              - listitem [ref=e179]:
+                - link "Transaction Management" [ref=e180] [cursor=pointer]:
+                  - /url: ../../transaction.html
+                - text: /
+              - listitem [ref=e181]:
+                - link "Declarative Transaction Management" [ref=e182] [cursor=pointer]:
+                  - /url: ../declarative.html
+                - text: /
+              - listitem [ref=e183]:
+                - link [ref=e184] [cursor=pointer]:
+                  - /url: annotations.html
+                  - text: Using
+                  - code [ref=e185]: "@Transactional"
+          - heading [level=1] [ref=e186]:
+            - text: Using
+            - code [ref=e187]: "@Transactional"
+          - generic [ref=e189]:
+            - paragraph [ref=e191]: In addition to the XML-based declarative approach to transaction configuration, you can use an annotation-based approach. Declaring transaction semantics directly in the Java source code puts the declarations much closer to the affected code. There is not much danger of undue coupling, because code that is meant to be used transactionally is almost always deployed that way anyway.
+            - table [ref=e193]:
+              - rowgroup [ref=e194]:
+                - row [ref=e195]:
+                  - cell "Note" [ref=e196]
+                  - cell [ref=e198]:
+                    - text: The standard
+                    - code [ref=e199]: jakarta.transaction.Transactional
+                    - text: annotation is also supported as a drop-in replacement for Spring’s own annotation. Please refer to the JTA documentation for more details.
+            - paragraph [ref=e201]:
+              - text: The ease-of-use afforded by the use of the
+              - code [ref=e202]: "@Transactional"
+              - text: "annotation is best illustrated with an example, which is explained in the text that follows. Consider the following class definition:"
+            - generic [ref=e204]:
+              - tablist [ref=e206]:
+                - tab [selected] [ref=e207] [cursor=pointer]:
+                  - paragraph [ref=e208]: Java
+                - tab [ref=e209] [cursor=pointer]:
+                  - paragraph [ref=e210]: Kotlin
+              - tabpanel "Java" [ref=e211]:
+                - generic [ref=e214]:
+                  - code [ref=e215]:
+                    - text: java // the service class that we want to make transactional @Transactional public
+                    - generic [ref=e216]: class DefaultFooService implements FooService
+                    - text: "{ @Override"
+                    - generic [ref=e217]: public Foo getFoo(String fooName)
+                    - text: "{ // ... } @Override"
+                    - generic [ref=e218]: public Foo getFoo(String fooName, String barName)
+                    - text: "{ // ... } @Override"
+                    - generic [ref=e219]: public void insertFoo(Foo foo)
+                    - text: "{ // ... } @Override"
+                    - generic [ref=e220]: public void updateFoo(Foo foo)
+                    - text: "{ // ... } }"
+                  - button "Copied!" [ref=e222] [cursor=pointer]
+              - text: kotlin
+            - paragraph [ref=e225]:
+              - text: Used at the class level as above, the annotation indicates a default for all methods of the declaring class (as well as its subclasses). Alternatively, each method can be annotated individually. See
+              - link "method visibility" [ref=e226] [cursor=pointer]:
+                - /url: "#transaction-declarative-annotations-method-visibility"
+              - text: for further details on which methods Spring considers transactional. Note that a class-level annotation does not apply to ancestor classes up the class hierarchy; in such a scenario, inherited methods need to be locally redeclared in order to participate in a subclass-level annotation.
+            - paragraph [ref=e228]:
+              - text: When a POJO class such as the one above is defined as a bean in a Spring context, you can make the bean instance transactional through an
+              - code [ref=e229]: "@EnableTransactionManagement"
+              - text: annotation in a
+              - code [ref=e230]: "@Configuration"
+              - text: class. See the
+              - link "javadoc" [ref=e231] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/org/springframework/transaction/annotation/EnableTransactionManagement.html
+              - text: for full details.
+            - paragraph [ref=e233]: "The following example shows the configuration needed to enable annotation-driven transaction management:"
+            - generic [ref=e235]:
+              - tablist [ref=e237]:
+                - tab [selected] [ref=e238] [cursor=pointer]:
+                  - paragraph [ref=e239]: Java
+                - tab [ref=e240] [cursor=pointer]:
+                  - paragraph [ref=e241]: Kotlin
+                - tab [ref=e242] [cursor=pointer]:
+                  - paragraph [ref=e243]: Xml
+              - tabpanel "Java" [ref=e244]:
+                - generic [ref=e247]:
+                  - code [ref=e248]:
+                    - text: java @Configuration @EnableTransactionManagement public
+                    - generic [ref=e249]: class AppConfig
+                    - text: "{ @Bean"
+                    - generic [ref=e250]: public FooService fooService()
+                    - text: "{ return new DefaultFooService(); } @Bean"
+                    - generic [ref=e251]: public PlatformTransactionManager txManager(DataSource dataSource)
+                    - text: "{ return new DataSourceTransactionManager(dataSource); } }"
+                  - button "Copied!" [ref=e253] [cursor=pointer]
+              - text: kotlin xml
+            - table [ref=e256]:
+              - rowgroup [ref=e257]:
+                - row [ref=e258]:
+                  - cell "Tip" [ref=e259]
+                  - cell [ref=e261]:
+                    - text: In programmatic configuration, the
+                    - code [ref=e262]: "@EnableTransactionManagement"
+                    - text: annotation uses any
+                    - code [ref=e263]: TransactionManager
+                    - text: bean in the context. In XML configuration, you can omit the
+                    - code [ref=e264]: transaction-manager
+                    - text: attribute in the
+                    - code [ref=e265]: <tx:annotation-driven/>
+                    - text: tag if the bean name of the
+                    - code [ref=e266]: TransactionManager
+                    - text: that you want to wire in has the name
+                    - code [ref=e267]: transactionManager
+                    - text: . If the
+                    - code [ref=e268]: TransactionManager
+                    - text: bean has any other name, you have to use the
+                    - code [ref=e269]: transaction-manager
+                    - text: attribute explicitly, as in the preceding example.
+            - paragraph [ref=e271]: "Reactive transactional methods use reactive return types in contrast to imperative programming arrangements as the following listing shows:"
+            - generic [ref=e273]:
+              - tablist [ref=e275]:
+                - tab [selected] [ref=e276] [cursor=pointer]:
+                  - paragraph [ref=e277]: Java
+                - tab [ref=e278] [cursor=pointer]:
+                  - paragraph [ref=e279]: Kotlin
+              - tabpanel "Java" [ref=e280]:
+                - generic [ref=e283]:
+                  - code [ref=e284]:
+                    - text: java // the reactive service class that we want to make transactional @Transactional public
+                    - generic [ref=e285]: class DefaultFooService implements FooService
+                    - text: "{ @Override"
+                    - generic [ref=e286]: public Publisher<Foo> getFoo(String fooName)
+                    - text: "{ // ... } @Override"
+                    - generic [ref=e287]: public Mono<Foo> getFoo(String fooName, String barName)
+                    - text: "{ // ... } @Override"
+                    - generic [ref=e288]: public Mono<Void> insertFoo(Foo foo)
+                    - text: "{ // ... } @Override"
+                    - generic [ref=e289]: public Mono<Void> updateFoo(Foo foo)
+                    - text: "{ // ... } }"
+                  - button "Copied!" [ref=e291] [cursor=pointer]
+              - text: kotlin
+            - paragraph [ref=e294]:
+              - text: Note that there are special considerations for the returned
+              - code [ref=e295]: Publisher
+              - text: with regards to Reactive Streams cancellation signals. See the
+              - link "Cancel Signals" [ref=e296] [cursor=pointer]:
+                - /url: ../programmatic.html#tx-prog-operator-cancel
+              - text: section under "Using the TransactionalOperator" for more details.
+            - table [ref=e298]:
+              - rowgroup [ref=e299]:
+                - row [ref=e300]:
+                  - cell "Note" [ref=e301]
+                  - cell [ref=e303]:
+                    - generic [ref=e304]:
+                      - text: Method visibility and
+                      - code [ref=e305]: "@Transactional"
+                      - text: in proxy mode
+                    - paragraph [ref=e307]:
+                      - text: The
+                      - code [ref=e308]: "@Transactional"
+                      - text: annotation is typically used on methods with
+                      - code [ref=e309]: public
+                      - text: visibility. As of 6.0,
+                      - code [ref=e310]: protected
+                      - text: or package-visible methods can also be made transactional for class-based proxies by default. Note that transactional methods in interface-based proxies must always be
+                      - code [ref=e311]: public
+                      - text: and defined in the proxied interface. For both kinds of proxies, only external method calls coming in through the proxy are intercepted.
+                    - paragraph [ref=e313]:
+                      - text: If you prefer consistent treatment of method visibility across the different kinds of proxies (which was the default up until 5.3), consider specifying
+                      - code [ref=e314]: publicMethodsOnly
+                      - text: ":"
+                    - generic [ref=e317]:
+                      - code [ref=e318]:
+                        - generic [ref=e319]: /** * Register a custom AnnotationTransactionAttributeSource with the * publicMethodsOnly flag set to true to consistently ignore non-public methods. * @see ProxyTransactionManagementConfiguration#transactionAttributeSource() */
+                        - text: "@Bean"
+                        - generic [ref=e320]: TransactionAttributeSource transactionAttributeSource()
+                        - text: "{ return new AnnotationTransactionAttributeSource(true); }"
+                      - button "Copied!" [ref=e322] [cursor=pointer]
+                    - paragraph [ref=e325]:
+                      - text: The
+                      - emphasis [ref=e326]: Spring TestContext Framework
+                      - text: supports non-private
+                      - code [ref=e327]: "@Transactional"
+                      - text: test methods by default as well. See
+                      - link "Transaction Management" [ref=e328] [cursor=pointer]:
+                        - /url: ../../../testing/testcontext-framework/tx.html
+                      - text: in the testing chapter for examples.
+            - paragraph [ref=e330]:
+              - text: You can apply the
+              - code [ref=e331]: "@Transactional"
+              - text: annotation to an interface definition, a method on an interface, a class definition, or a method on a class. However, the mere presence of the
+              - code [ref=e332]: "@Transactional"
+              - text: annotation is not enough to activate the transactional behavior. The
+              - code [ref=e333]: "@Transactional"
+              - text: annotation is merely metadata that can be consumed by corresponding runtime infrastructure which uses that metadata to configure the appropriate beans with transactional behavior. In the preceding examples that use programmatic configuration, the
+              - code [ref=e334]: "@EnableTransactionManagement"
+              - text: annotation switches on actual transaction management at runtime. Whereas, in the preceding example that uses XML configuration, the
+              - code [ref=e335]: <tx:annotation-driven/>
+              - text: element switches on actual transaction management at runtime.
+            - table [ref=e337]:
+              - rowgroup [ref=e338]:
+                - row [ref=e339]:
+                  - cell "Tip" [ref=e340]
+                  - cell [ref=e342]:
+                    - text: The Spring team recommends that you annotate methods of concrete classes with the
+                    - code [ref=e343]: "@Transactional"
+                    - text: "annotation, rather than relying on annotated methods in interfaces, even if the latter does work for interface-based and target-class proxies as of 5.0. Since Java annotations are not inherited from interfaces, interface-declared annotations are still not recognized by the weaving infrastructure when using AspectJ mode, so the aspect does not get applied. As a consequence, your transaction annotations may be silently ignored: Your code might appear to \"work\" until you test a rollback scenario."
+            - table [ref=e345]:
+              - rowgroup [ref=e346]:
+                - row [ref=e347]:
+                  - cell "Note" [ref=e348]
+                  - cell [ref=e350]:
+                    - text: In proxy mode (which is the default), only external method calls coming in through the proxy are intercepted. This means that self-invocation (in effect, a method within the target object calling another method of the target object) does not lead to an actual transaction at runtime even if the invoked method is marked with
+                    - code [ref=e351]: "@Transactional"
+                    - text: . Also, the proxy must be fully initialized to provide the expected behavior, so you should not rely on this feature in your initialization code — for example, in a
+                    - code [ref=e352]: "@PostConstruct"
+                    - text: method.
+            - paragraph [ref=e354]:
+              - text: Consider using AspectJ mode (see the
+              - code [ref=e355]: mode
+              - text: attribute in the following table) if you expect self-invocations to be wrapped with transactions as well. In this case, there is no proxy in the first place. Instead, the target class is woven (that is, its byte code is modified) to support
+              - code [ref=e356]: "@Transactional"
+              - text: runtime behavior on any kind of method.
+            - table [ref=e357]:
+              - caption [ref=e358]: Table 1. Annotation driven transaction settings
+              - rowgroup [ref=e364]:
+                - row [ref=e365]:
+                  - columnheader "XML Attribute" [ref=e366]
+                  - columnheader "Annotation Attribute" [ref=e367]
+                  - columnheader "Default" [ref=e368]
+                  - columnheader "Description" [ref=e369]
+              - rowgroup [ref=e370]:
+                - row [ref=e371]:
+                  - cell [ref=e372]:
+                    - paragraph [ref=e373]:
+                      - code [ref=e374]: transaction-manager
+                  - cell [ref=e375]:
+                    - paragraph [ref=e376]:
+                      - text: N/A (see
+                      - link [ref=e377] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/org/springframework/transaction/annotation/TransactionManagementConfigurer.html
+                        - code [ref=e378]: TransactionManagementConfigurer
+                      - text: javadoc)
+                  - cell [ref=e379]:
+                    - paragraph [ref=e380]:
+                      - code [ref=e381]: transactionManager
+                  - cell [ref=e382]:
+                    - paragraph [ref=e383]:
+                      - text: Name of the transaction manager to use. Required only if the name of the transaction manager is not
+                      - code [ref=e384]: transactionManager
+                      - text: ", as in the preceding example."
+                - row [ref=e385]:
+                  - cell [ref=e386]:
+                    - paragraph [ref=e387]:
+                      - code [ref=e388]: mode
+                  - cell [ref=e389]:
+                    - paragraph [ref=e390]:
+                      - code [ref=e391]: mode
+                  - cell [ref=e392]:
+                    - paragraph [ref=e393]:
+                      - code [ref=e394]: proxy
+                  - cell [ref=e395]:
+                    - paragraph [ref=e396]:
+                      - text: The default mode (
+                      - code [ref=e397]: proxy
+                      - text: ) processes annotated beans to be proxied by using Spring’s AOP framework (following proxy semantics, as discussed earlier, applying to method calls coming in through the proxy only). The alternative mode (
+                      - code [ref=e398]: aspectj
+                      - text: ) instead weaves the affected classes with Spring’s AspectJ transaction aspect, modifying the target class byte code to apply to any kind of method call. AspectJ weaving requires
+                      - code [ref=e399]: spring-aspects.jar
+                      - text: in the classpath as well as having load-time weaving (or compile-time weaving) enabled. (See
+                      - link "Spring configuration" [ref=e400] [cursor=pointer]:
+                        - /url: ../../../core/aop/using-aspectj.html#aop-aj-ltw-spring
+                      - text: for details on how to set up load-time weaving.)
+                - row [ref=e401]:
+                  - cell [ref=e402]:
+                    - paragraph [ref=e403]:
+                      - code [ref=e404]: proxy-target-class
+                  - cell [ref=e405]:
+                    - paragraph [ref=e406]:
+                      - code [ref=e407]: proxyTargetClass
+                  - cell [ref=e408]:
+                    - paragraph [ref=e409]:
+                      - code [ref=e410]: "false"
+                  - cell [ref=e411]:
+                    - paragraph [ref=e412]:
+                      - text: Applies to
+                      - code [ref=e413]: proxy
+                      - text: mode only. Controls what type of transactional proxies are created for classes annotated with the
+                      - code [ref=e414]: "@Transactional"
+                      - text: annotation. If the
+                      - code [ref=e415]: proxy-target-class
+                      - text: attribute is set to
+                      - code [ref=e416]: "true"
+                      - text: ", class-based proxies are created. If"
+                      - code [ref=e417]: proxy-target-class
+                      - text: is
+                      - code [ref=e418]: "false"
+                      - text: or if the attribute is omitted, then standard JDK interface-based proxies are created. (See
+                      - link "Proxying Mechanisms" [ref=e419] [cursor=pointer]:
+                        - /url: ../../../core/aop/proxying.html
+                      - text: for a detailed examination of the different proxy types.)
+                - row [ref=e420]:
+                  - cell [ref=e421]:
+                    - paragraph [ref=e422]:
+                      - code [ref=e423]: order
+                  - cell [ref=e424]:
+                    - paragraph [ref=e425]:
+                      - code [ref=e426]: order
+                  - cell [ref=e427]:
+                    - paragraph [ref=e428]:
+                      - code [ref=e429]: Ordered.LOWEST_PRECEDENCE
+                  - cell [ref=e430]:
+                    - paragraph [ref=e431]:
+                      - text: Defines the order of the transaction advice that is applied to beans annotated with
+                      - code [ref=e432]: "@Transactional"
+                      - text: . (For more information about the rules related to ordering of AOP advice, see
+                      - link "Advice Ordering" [ref=e433] [cursor=pointer]:
+                        - /url: ../../../core/aop/ataspectj/advice.html#aop-ataspectj-advice-ordering
+                      - text: .) No specified ordering means that the AOP subsystem determines the order of the advice.
+            - table [ref=e435]:
+              - rowgroup [ref=e436]:
+                - row [ref=e437]:
+                  - cell "Note" [ref=e438]
+                  - cell [ref=e440]:
+                    - text: The default advice mode for processing
+                    - code [ref=e441]: "@Transactional"
+                    - text: annotations is
+                    - code [ref=e442]: proxy
+                    - text: ", which allows for interception of calls through the proxy only. Local calls within the same class cannot get intercepted that way. For a more advanced mode of interception, consider switching to"
+                    - code [ref=e443]: aspectj
+                    - text: mode in combination with compile-time or load-time weaving.
+            - table [ref=e445]:
+              - rowgroup [ref=e446]:
+                - row [ref=e447]:
+                  - cell "Note" [ref=e448]
+                  - cell [ref=e450]:
+                    - text: The
+                    - code [ref=e451]: proxy-target-class
+                    - text: attribute controls what type of transactional proxies are created for classes annotated with the
+                    - code [ref=e452]: "@Transactional"
+                    - text: annotation. If
+                    - code [ref=e453]: proxy-target-class
+                    - text: is set to
+                    - code [ref=e454]: "true"
+                    - text: ", class-based proxies are created. If"
+                    - code [ref=e455]: proxy-target-class
+                    - text: is
+                    - code [ref=e456]: "false"
+                    - text: or if the attribute is omitted, standard JDK interface-based proxies are created. (See
+                    - link "Proxying Mechanisms" [ref=e457] [cursor=pointer]:
+                      - /url: ../../../core/aop/proxying.html
+                    - text: for a discussion of the different proxy types.)
+            - table [ref=e459]:
+              - rowgroup [ref=e460]:
+                - row [ref=e461]:
+                  - cell "Note" [ref=e462]
+                  - cell [ref=e464]:
+                    - code [ref=e465]: "@EnableTransactionManagement"
+                    - text: and
+                    - code [ref=e466]: <tx:annotation-driven/>
+                    - text: look for
+                    - code [ref=e467]: "@Transactional"
+                    - text: only on beans in the same application context in which they are defined. This means that, if you put annotation-driven configuration in a
+                    - code [ref=e468]: WebApplicationContext
+                    - text: for a
+                    - code [ref=e469]: DispatcherServlet
+                    - text: ", it checks for"
+                    - code [ref=e470]: "@Transactional"
+                    - text: beans only in your controllers and not in your services. See
+                    - link "MVC" [ref=e471] [cursor=pointer]:
+                      - /url: ../../../web/webmvc/mvc-servlet.html
+                    - text: for more information.
+            - paragraph [ref=e473]:
+              - text: The most derived location takes precedence when evaluating the transactional settings for a method. In the case of the following example, the
+              - code [ref=e474]: DefaultFooService
+              - text: class is annotated at the class level with the settings for a read-only transaction, but the
+              - code [ref=e475]: "@Transactional"
+              - text: annotation on the
+              - code [ref=e476]: updateFoo(Foo)
+              - text: method in the same class takes precedence over the transactional settings defined at the class level.
+            - generic [ref=e478]:
+              - tablist [ref=e480]:
+                - tab [selected] [ref=e481] [cursor=pointer]:
+                  - paragraph [ref=e482]: Java
+                - tab [ref=e483] [cursor=pointer]:
+                  - paragraph [ref=e484]: Kotlin
+              - tabpanel "Java" [ref=e485]:
+                - generic [ref=e488]:
+                  - code [ref=e489]:
+                    - text: java @Transactional(readOnly = true) public
+                    - generic [ref=e490]: class DefaultFooService implements FooService
+                    - text: "{"
+                    - generic [ref=e491]: public Foo getFoo(String fooName)
+                    - text: "{ // ... } // these settings have precedence for this method @Transactional(readOnly = false, propagation = Propagation.REQUIRES_NEW)"
+                    - generic [ref=e492]: public void updateFoo(Foo foo)
+                    - text: "{ // ... } }"
+                  - button "Copied!" [ref=e494] [cursor=pointer]
+              - text: kotlin
+          - generic [ref=e496]:
+            - heading [level=2] [ref=e497]:
+              - code [ref=e498]: "@Transactional"
+              - text: Settings
+            - generic [ref=e499]:
+              - paragraph [ref=e501]:
+                - text: The
+                - code [ref=e502]: "@Transactional"
+                - text: annotation is metadata that specifies that an interface, class, or method must have transactional semantics (for example, "start a brand new read-only transaction when this method is invoked, suspending any existing transaction"). The default
+                - code [ref=e503]: "@Transactional"
+                - text: "settings are as follows:"
+              - list [ref=e505]:
+                - listitem [ref=e506]:
+                  - paragraph [ref=e507]:
+                    - text: The propagation setting is
+                    - code [ref=e508]: PROPAGATION_REQUIRED.
+                - listitem [ref=e509]:
+                  - paragraph [ref=e510]:
+                    - text: The isolation level is
+                    - code [ref=e511]: ISOLATION_DEFAULT.
+                - listitem [ref=e512]:
+                  - paragraph [ref=e513]: The transaction is read-write.
+                - listitem [ref=e514]:
+                  - paragraph [ref=e515]: The transaction timeout defaults to the default timeout of the underlying transaction system, or to none if timeouts are not supported.
+                - listitem [ref=e516]:
+                  - paragraph [ref=e517]:
+                    - text: Any
+                    - code [ref=e518]: RuntimeException
+                    - text: or
+                    - code [ref=e519]: Error
+                    - text: triggers rollback, and any checked
+                    - code [ref=e520]: Exception
+                    - text: does not.
+              - paragraph [ref=e522]:
+                - text: You can change these default settings. The following table summarizes the various properties of the
+                - code [ref=e523]: "@Transactional"
+                - text: "annotation:"
+              - table [ref=e524]:
+                - caption [ref=e525]: Table 2. @Transactional Settings
+                - rowgroup [ref=e530]:
+                  - row [ref=e531]:
+                    - columnheader "Property" [ref=e532]
+                    - columnheader "Type" [ref=e533]
+                    - columnheader "Description" [ref=e534]
+                - rowgroup [ref=e535]:
+                  - row [ref=e536]:
+                    - cell [ref=e537]:
+                      - paragraph [ref=e538]:
+                        - link "value" [ref=e539] [cursor=pointer]:
+                          - /url: "#tx-multiple-tx-mgrs-with-attransactional"
+                    - cell [ref=e540]:
+                      - paragraph [ref=e541]:
+                        - code [ref=e542]: String
+                    - cell [ref=e543]:
+                      - paragraph [ref=e544]: Optional qualifier that specifies the transaction manager to be used.
+                  - row [ref=e545]:
+                    - cell [ref=e546]:
+                      - paragraph [ref=e547]:
+                        - code [ref=e548]: transactionManager
+                    - cell [ref=e549]:
+                      - paragraph [ref=e550]:
+                        - code [ref=e551]: String
+                    - cell [ref=e552]:
+                      - paragraph [ref=e553]:
+                        - text: Alias for
+                        - code [ref=e554]: value
+                        - text: .
+                  - row [ref=e555]:
+                    - cell [ref=e556]:
+                      - paragraph [ref=e557]:
+                        - code [ref=e558]: label
+                    - cell [ref=e559]:
+                      - paragraph [ref=e560]:
+                        - text: Array of
+                        - code [ref=e561]: String
+                        - text: labels to add an expressive description to the transaction.
+                    - cell [ref=e562]:
+                      - paragraph [ref=e563]: Labels may be evaluated by transaction managers to associate implementation-specific behavior with the actual transaction.
+                  - row [ref=e564]:
+                    - cell [ref=e565]:
+                      - paragraph [ref=e566]:
+                        - link "propagation" [ref=e567] [cursor=pointer]:
+                          - /url: tx-propagation.html
+                    - cell [ref=e568]:
+                      - paragraph [ref=e569]:
+                        - code [ref=e570]: enum
+                        - text: ":"
+                        - code [ref=e571]: Propagation
+                    - cell [ref=e572]:
+                      - paragraph [ref=e573]: Optional propagation setting.
+                  - row [ref=e574]:
+                    - cell [ref=e575]:
+                      - paragraph [ref=e576]:
+                        - code [ref=e577]: isolation
+                    - cell [ref=e578]:
+                      - paragraph [ref=e579]:
+                        - code [ref=e580]: enum
+                        - text: ":"
+                        - code [ref=e581]: Isolation
+                    - cell [ref=e582]:
+                      - paragraph [ref=e583]:
+                        - text: Optional isolation level. Applies only to propagation values of
+                        - code [ref=e584]: REQUIRED
+                        - text: or
+                        - code [ref=e585]: REQUIRES_NEW
+                        - text: .
+                  - row [ref=e586]:
+                    - cell [ref=e587]:
+                      - paragraph [ref=e588]:
+                        - code [ref=e589]: timeout
+                    - cell [ref=e590]:
+                      - paragraph [ref=e591]:
+                        - code [ref=e592]: int
+                        - text: (in seconds of granularity)
+                    - cell [ref=e593]:
+                      - paragraph [ref=e594]:
+                        - text: Optional transaction timeout. Applies only to propagation values of
+                        - code [ref=e595]: REQUIRED
+                        - text: or
+                        - code [ref=e596]: REQUIRES_NEW
+                        - text: .
+                  - row [ref=e597]:
+                    - cell [ref=e598]:
+                      - paragraph [ref=e599]:
+                        - code [ref=e600]: timeoutString
+                    - cell [ref=e601]:
+                      - paragraph [ref=e602]:
+                        - code [ref=e603]: String
+                        - text: (in seconds of granularity)
+                    - cell [ref=e604]:
+                      - paragraph [ref=e605]:
+                        - text: Alternative for specifying the
+                        - code [ref=e606]: timeout
+                        - text: in seconds as a
+                        - code [ref=e607]: String
+                        - text: value — for example, as a placeholder.
+                  - row [ref=e608]:
+                    - cell [ref=e609]:
+                      - paragraph [ref=e610]:
+                        - code [ref=e611]: readOnly
+                    - cell [ref=e612]:
+                      - paragraph [ref=e613]:
+                        - code [ref=e614]: boolean
+                    - cell [ref=e615]:
+                      - paragraph [ref=e616]:
+                        - text: Read-write versus read-only transaction. Only applicable to values of
+                        - code [ref=e617]: REQUIRED
+                        - text: or
+                        - code [ref=e618]: REQUIRES_NEW
+                        - text: .
+                  - row [ref=e619]:
+                    - cell [ref=e620]:
+                      - paragraph [ref=e621]:
+                        - code [ref=e622]: rollbackFor
+                    - cell [ref=e623]:
+                      - paragraph [ref=e624]:
+                        - text: Array of
+                        - code [ref=e625]: Class
+                        - text: objects, which must be derived from
+                        - code [ref=e626]: Throwable.
+                    - cell [ref=e627]:
+                      - paragraph [ref=e628]: Optional array of exception types that must cause rollback.
+                  - row [ref=e629]:
+                    - cell [ref=e630]:
+                      - paragraph [ref=e631]:
+                        - code [ref=e632]: rollbackForClassName
+                    - cell [ref=e633]:
+                      - paragraph [ref=e634]: Array of exception name patterns.
+                    - cell [ref=e635]:
+                      - paragraph [ref=e636]: Optional array of exception name patterns that must cause rollback.
+                  - row [ref=e637]:
+                    - cell [ref=e638]:
+                      - paragraph [ref=e639]:
+                        - code [ref=e640]: noRollbackFor
+                    - cell [ref=e641]:
+                      - paragraph [ref=e642]:
+                        - text: Array of
+                        - code [ref=e643]: Class
+                        - text: objects, which must be derived from
+                        - code [ref=e644]: Throwable.
+                    - cell [ref=e645]:
+                      - paragraph [ref=e646]: Optional array of exception types that must not cause rollback.
+                  - row [ref=e647]:
+                    - cell [ref=e648]:
+                      - paragraph [ref=e649]:
+                        - code [ref=e650]: noRollbackForClassName
+                    - cell [ref=e651]:
+                      - paragraph [ref=e652]: Array of exception name patterns.
+                    - cell [ref=e653]:
+                      - paragraph [ref=e654]: Optional array of exception name patterns that must not cause rollback.
+              - table [ref=e656]:
+                - rowgroup [ref=e657]:
+                  - row [ref=e658]:
+                    - cell "Tip" [ref=e659]
+                    - cell [ref=e661]:
+                      - text: See
+                      - link "Rollback rules" [ref=e662] [cursor=pointer]:
+                        - /url: rolling-back.html#transaction-declarative-rollback-rules
+                      - text: for further details on rollback rule semantics, patterns, and warnings regarding possible unintentional matches for pattern-based rollback rules.
+              - table [ref=e664]:
+                - rowgroup [ref=e665]:
+                  - row [ref=e666]:
+                    - cell "Note" [ref=e667]
+                    - cell [ref=e669]:
+                      - paragraph [ref=e671]:
+                        - text: As of 6.2, you can globally change the default rollback behavior – for example, through
+                        - code [ref=e672]: "@EnableTransactionManagement(rollbackOn=ALL_EXCEPTIONS)"
+                        - text: ", leading to a rollback for all exceptions raised within a transaction, including any checked exception. For further customizations,"
+                        - code [ref=e673]: AnnotationTransactionAttributeSource
+                        - text: provides an
+                        - code [ref=e674]: addDefaultRollbackRule(RollbackRuleAttribute)
+                        - text: method for custom default rules.
+                      - paragraph [ref=e676]:
+                        - text: Note that transaction-specific rollback rules override the default behavior but retain the chosen default for unspecified exceptions. This is the case for Spring’s
+                        - code [ref=e677]: "@Transactional"
+                        - text: as well as JTA’s
+                        - code [ref=e678]: jakarta.transaction.Transactional
+                        - text: annotation.
+                      - paragraph [ref=e680]:
+                        - text: Unless you rely on EJB-style business exceptions with commit behavior, it is advisable to switch to
+                        - code [ref=e681]: ALL_EXCEPTIONS
+                        - text: for consistent rollback semantics even in case of a (potentially accidental) checked exception. Also, it is advisable to make that switch for Kotlin-based applications where there is no enforcement of checked exceptions at all.
+              - paragraph [ref=e683]:
+                - text: Currently, you cannot have explicit control over the name of a transaction, where 'name' means the transaction name that appears in a transaction monitor and in logging output. For declarative transactions, the transaction name is always the fully-qualified class name of the transactionally advised class +
+                - code [ref=e684]: .
+                - text: + the method name. For example, if the
+                - code [ref=e685]: handlePayment(..)
+                - text: method of the
+                - code [ref=e686]: BusinessService
+                - text: class started a transaction, the name of the transaction would be
+                - code [ref=e687]: com.example.BusinessService.handlePayment
+                - text: .
+          - generic [ref=e688]:
+            - heading [level=2] [ref=e689]:
+              - text: Multiple Transaction Managers with
+              - code [ref=e690]: "@Transactional"
+            - generic [ref=e691]:
+              - paragraph [ref=e693]:
+                - text: Most Spring applications need only a single transaction manager, but there may be situations where you want multiple independent transaction managers in a single application. You can use the
+                - code [ref=e694]: value
+                - text: or
+                - code [ref=e695]: transactionManager
+                - text: attribute of the
+                - code [ref=e696]: "@Transactional"
+                - text: annotation to optionally specify the identity of the
+                - code [ref=e697]: TransactionManager
+                - text: "to be used. This can either be the bean name or the qualifier value of the transaction manager bean. For example, using the qualifier notation, you can combine the following Java code with the following transaction manager bean declarations in the application context:"
+              - generic [ref=e699]:
+                - tablist [ref=e701]:
+                  - tab [selected] [ref=e702] [cursor=pointer]:
+                    - paragraph [ref=e703]: Java
+                  - tab [ref=e704] [cursor=pointer]:
+                    - paragraph [ref=e705]: Kotlin
+                - tabpanel "Java" [ref=e706]:
+                  - generic [ref=e709]:
+                    - code [ref=e710]:
+                      - text: java public
+                      - generic [ref=e711]: class TransactionalService
+                      - text: "{ @Transactional(\"order\")"
+                      - generic [ref=e712]: public void setSomething(String name)
+                      - text: "{ ... } @Transactional(\"account\")"
+                      - generic [ref=e713]: public void doSomething()
+                      - text: "{ ... } @Transactional(\"reactive-account\")"
+                      - generic [ref=e714]: public Mono<Void> doSomethingReactive()
+                      - text: "{ ... } }"
+                    - button "Copied!" [ref=e716] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e719]: "The following listing shows the bean declarations:"
+              - generic [ref=e722]:
+                - code [ref=e723]:
+                  - text: xml
+                  - generic [ref=e724]: <tx:annotation-driven/>
+                  - generic [ref=e725]: <bean id="transactionManager1" class="org.springframework.jdbc.support.JdbcTransactionManager">
+                  - text: ...
+                  - generic [ref=e726]: <qualifier value="order"/>
+                  - generic [ref=e727]: </bean>
+                  - generic [ref=e728]: <bean id="transactionManager2" class="org.springframework.jdbc.support.JdbcTransactionManager">
+                  - text: ...
+                  - generic [ref=e729]: <qualifier value="account"/>
+                  - generic [ref=e730]: </bean>
+                  - generic [ref=e731]: <bean id="transactionManager3" class="org.springframework.data.r2dbc.connection.R2dbcTransactionManager">
+                  - text: ...
+                  - generic [ref=e732]: <qualifier value="reactive-account"/>
+                  - generic [ref=e733]: </bean>
+                - button "Copied!" [ref=e735] [cursor=pointer]
+              - paragraph [ref=e738]:
+                - text: In this case, the individual methods on
+                - code [ref=e739]: TransactionalService
+                - text: run under separate transaction managers, differentiated by the
+                - code [ref=e740]: order
+                - text: ","
+                - code [ref=e741]: account
+                - text: ", and"
+                - code [ref=e742]: reactive-account
+                - text: qualifiers. The default
+                - code [ref=e743]: <tx:annotation-driven>
+                - text: target bean name,
+                - code [ref=e744]: transactionManager
+                - text: ", is still used if no specifically qualified"
+                - code [ref=e745]: TransactionManager
+                - text: bean is found.
+              - table [ref=e747]:
+                - rowgroup [ref=e748]:
+                  - row [ref=e749]:
+                    - cell "Tip" [ref=e750]
+                    - cell [ref=e752]:
+                      - paragraph [ref=e754]:
+                        - text: If all transactional methods on the same class share the same qualifier, consider declaring a type-level
+                        - code [ref=e755]: org.springframework.beans.factory.annotation.Qualifier
+                        - text: annotation instead. If its value matches the qualifier value (or bean name) of a specific transaction manager, that transaction manager is going to be used for transaction definitions without a specific qualifier on
+                        - code [ref=e756]: "@Transactional"
+                        - text: itself.
+                      - paragraph [ref=e758]: Such a type-level qualifier can be declared on the concrete class, applying to transaction definitions from a base class as well. This effectively overrides the default transaction manager choice for any unqualified base class methods.
+                      - paragraph [ref=e760]: Last but not least, such a type-level bean qualifier can serve multiple purposes, for example, with a value of "order" it can be used for autowiring purposes (identifying the order repository) as well as transaction manager selection, as long as the target beans for autowiring as well as the associated transaction manager definitions declare the same qualifier value. Such a qualifier value only needs to be unique within a set of type-matching beans, not having to serve as an ID.
+          - generic [ref=e761]:
+            - heading "Custom Composed Annotations" [level=2] [ref=e762]
+            - generic [ref=e763]:
+              - paragraph [ref=e765]:
+                - text: If you find you repeatedly use the same attributes with
+                - code [ref=e766]: "@Transactional"
+                - text: on many different methods,
+                - link "Spring’s meta-annotation support" [ref=e767] [cursor=pointer]:
+                  - /url: ../../../core/beans/classpath-scanning.html#beans-meta-annotations
+                - text: "lets you define custom composed annotations for your specific use cases. For example, consider the following annotation definitions:"
+              - generic [ref=e769]:
+                - tablist [ref=e771]:
+                  - tab [selected] [ref=e772] [cursor=pointer]:
+                    - paragraph [ref=e773]: Java
+                  - tab [ref=e774] [cursor=pointer]:
+                    - paragraph [ref=e775]: Kotlin
+                - tabpanel "Java" [ref=e776]:
+                  - generic [ref=e779]:
+                    - code [ref=e780]: "java @Target({ElementType.METHOD, ElementType.TYPE}) @Retention(RetentionPolicy.RUNTIME) @Transactional(transactionManager = \"order\", label = \"causal-consistency\") public @interface OrderTx { } @Target({ElementType.METHOD, ElementType.TYPE}) @Retention(RetentionPolicy.RUNTIME) @Transactional(transactionManager = \"account\", label = \"retryable\") public @interface AccountTx { }"
+                    - button "Copied!" [ref=e782] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e785]: "The preceding annotations let us write the example from the previous section as follows:"
+              - generic [ref=e787]:
+                - tablist [ref=e789]:
+                  - tab [selected] [ref=e790] [cursor=pointer]:
+                    - paragraph [ref=e791]: Java
+                  - tab [ref=e792] [cursor=pointer]:
+                    - paragraph [ref=e793]: Kotlin
+                - tabpanel "Java" [ref=e794]:
+                  - generic [ref=e797]:
+                    - code [ref=e798]:
+                      - text: java public
+                      - generic [ref=e799]: class TransactionalService
+                      - text: "{ @OrderTx"
+                      - generic [ref=e800]: public void setSomething(String name)
+                      - text: "{ // ... } @AccountTx"
+                      - generic [ref=e801]: public void doSomething()
+                      - text: "{ // ... } }"
+                    - button "Copied!" [ref=e803] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e806]: In the preceding example, we used the syntax to define the transaction manager qualifier and transactional labels, but we could also have included propagation behavior, rollback rules, timeouts, and other features.
+          - navigation [ref=e807]:
+            - generic [ref=e808]:
+              - text: Prev
+              - link "‹ <tx:advice/> Settings" [ref=e809] [cursor=pointer]:
+                - /url: txadvice-settings.html
+            - generic [ref=e810]:
+              - text: Next
+              - link "Transaction Propagation ›" [ref=e811] [cursor=pointer]:
+                - /url: tx-propagation.html
+    - text:   
+  - contentinfo [ref=e812]:
+    - generic [ref=e813]:
+      - img "Spring" [ref=e814]
+      - paragraph [ref=e815]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e816] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e817] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e818] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e819]:
+          - text: •
+          - link "Thank you" [ref=e820] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e821] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e822]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e823]:
+      - link "Youtube" [ref=e824] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e828] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e832] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e837]:
+      - generic [ref=e838]:
+        - button "Close" [ref=e840] [cursor=pointer]
+        - generic [ref=e841]:
+          - generic [ref=e843]:
+            - heading "Cookies" [level=2] [ref=e844]
+            - generic [ref=e845]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e846] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e850] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

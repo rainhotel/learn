@@ -1,0 +1,341 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "Apache Kafka" [ref=e5]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Get Started" [ref=e9] [cursor=pointer]:
+              - /url: /43/getting-started/
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /documentation
+          - listitem [ref=e12]:
+            - link "Powered By" [ref=e13] [cursor=pointer]:
+              - /url: /powered-by/
+          - listitem [ref=e14]:
+            - link "Community" [ref=e15] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e16]:
+            - link "Apache" [ref=e17] [cursor=pointer]:
+              - /url: https://www.apache.org/
+          - listitem [ref=e18]:
+            - button "Releases" [ref=e19] [cursor=pointer]
+          - listitem [ref=e20]:
+            - link "DOWNLOAD KAFKA" [ref=e21] [cursor=pointer]:
+              - /url: /community/downloads/
+        - generic [ref=e22]:
+          - button "Toggle search" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+          - generic:
+            - generic:
+              - generic: 
+              - searchbox "Search this site…"
+  - generic [ref=e25]:
+    - generic [ref=e27]:
+      - complementary [ref=e28]:
+        - generic [ref=e31]:
+          - text:  
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "AK 4.3.X" [ref=e35] [cursor=pointer]:
+                  - /url: /43/
+                - list [ref=e36]:
+                  - listitem [ref=e37]:
+                    - generic [ref=e38]:
+                      - text: 
+                      - link "Getting Started" [ref=e39] [cursor=pointer]:
+                        - /url: /43/getting-started/
+                    - list [ref=e40]:
+                      - listitem [ref=e41]:
+                        - link "Introduction" [ref=e43] [cursor=pointer]:
+                          - /url: /43/getting-started/introduction/
+                      - listitem [ref=e44]:
+                        - link "Use Cases" [ref=e46] [cursor=pointer]:
+                          - /url: /43/getting-started/uses/
+                      - listitem [ref=e47]:
+                        - link "Quick Start" [ref=e49] [cursor=pointer]:
+                          - /url: /43/getting-started/quickstart/
+                      - listitem [ref=e50]:
+                        - link "Ecosystem" [ref=e52] [cursor=pointer]:
+                          - /url: /43/getting-started/ecosystem/
+                      - listitem [ref=e53]:
+                        - link "Upgrading" [ref=e55] [cursor=pointer]:
+                          - /url: /43/getting-started/upgrade/
+                      - listitem [ref=e56]:
+                        - link "KRaft vs ZooKeeper" [ref=e58] [cursor=pointer]:
+                          - /url: /43/getting-started/zk2kraft/
+                      - listitem [ref=e59]:
+                        - link "Compatibility" [ref=e61] [cursor=pointer]:
+                          - /url: /43/getting-started/compatibility/
+                      - listitem [ref=e62]:
+                        - link "Docker" [ref=e64] [cursor=pointer]:
+                          - /url: /43/getting-started/docker/
+                  - listitem [ref=e65]:
+                    - link "API" [ref=e67] [cursor=pointer]:
+                      - /url: /43/apis/
+                  - listitem [ref=e68]:
+                    - generic [ref=e69]:
+                      - text: 
+                      - link "Configuration" [ref=e70] [cursor=pointer]:
+                        - /url: /43/configuration/
+                  - listitem [ref=e71]:
+                    - generic [ref=e72]:
+                      - text: 
+                      - link "Design" [ref=e73] [cursor=pointer]:
+                        - /url: /43/design/
+                  - listitem [ref=e74]:
+                    - generic [ref=e75]:
+                      - text: 
+                      - link "Implementation" [ref=e76] [cursor=pointer]:
+                        - /url: /43/implementation/
+                  - listitem [ref=e77]:
+                    - generic [ref=e78]:
+                      - text: 
+                      - link "Operations" [ref=e79] [cursor=pointer]:
+                        - /url: /43/operations/
+                  - listitem [ref=e80]:
+                    - generic [ref=e81]:
+                      - text: 
+                      - link "Security" [ref=e82] [cursor=pointer]:
+                        - /url: /43/security/
+                  - listitem [ref=e83]:
+                    - generic [ref=e84]:
+                      - text: 
+                      - link "Kafka Connect" [ref=e85] [cursor=pointer]:
+                        - /url: /43/kafka-connect/
+                  - listitem [ref=e86]:
+                    - generic [ref=e87]:
+                      - text: 
+                      - link "Kafka Streams" [ref=e88] [cursor=pointer]:
+                        - /url: /43/streams/
+                    - text: 
+      - complementary [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e92]:
+            - link " View page source" [ref=e93] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//tree/markdown/content/en/43/getting-started/docker.md
+              - generic [ref=e94]: 
+              - text: View page source
+            - link " Edit this page" [ref=e95] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//edit/markdown/content/en/43/getting-started/docker.md
+              - generic [ref=e96]: 
+              - text: Edit this page
+            - link " Create child page" [ref=e97] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//new/markdown/content/en/43/getting-started?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%22%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A+%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%23+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Give+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60%0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%28%3C80+characters%3B+use+the+extended+description+field+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%0A
+              - generic [ref=e98]: 
+              - text: Create child page
+            - link " Create documentation issue" [ref=e99] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//issues/new?title=Docker
+              - generic [ref=e100]: 
+              - text: Create documentation issue
+            - link " Print entire section" [ref=e101] [cursor=pointer]:
+              - /url: /43/getting-started/_print/
+              - generic [ref=e102]: 
+              - text: Print entire section
+          - generic [ref=e103]:
+            - navigation [ref=e106]:
+              - list [ref=e107]:
+                - listitem [ref=e108]:
+                  - list [ref=e109]:
+                    - listitem [ref=e110]:
+                      - link "JVM Based Apache Kafka Docker Image" [ref=e111] [cursor=pointer]:
+                        - /url: "#jvm-based-apache-kafka-docker-image"
+                    - listitem [ref=e112]:
+                      - link "GraalVM Based Native Apache Kafka Docker Image" [ref=e113] [cursor=pointer]:
+                        - /url: "#graalvm-based-native-apache-kafka-docker-image"
+                    - listitem [ref=e114]:
+                      - link "Usage guide" [ref=e115] [cursor=pointer]:
+                        - /url: "#usage-guide"
+            - generic [ref=e116]:
+              - heading "Tag Cloud" [level=5] [ref=e117]
+              - list [ref=e118]:
+                - listitem [ref=e119]:
+                  - link "Apis 1" [ref=e120] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/apis/
+                    - text: Apis
+                    - generic [ref=e121]: "1"
+                - listitem [ref=e122]:
+                  - link "Configuration 34" [ref=e123] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/configuration/
+                    - text: Configuration
+                    - generic [ref=e124]: "34"
+                - listitem [ref=e125]:
+                  - link "Connect 34" [ref=e126] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/connect/
+                    - text: Connect
+                    - generic [ref=e127]: "34"
+                - listitem [ref=e128]:
+                  - link "Design 34" [ref=e129] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/design/
+                    - text: Design
+                    - generic [ref=e130]: "34"
+                - listitem [ref=e131]:
+                  - link "Developer-Guide 34" [ref=e132] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/developer-guide/
+                    - text: Developer-Guide
+                    - generic [ref=e133]: "34"
+                - listitem [ref=e134]:
+                  - link "Docs 2106" [ref=e135] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/docs/
+                    - text: Docs
+                    - generic [ref=e136]: "2106"
+                - listitem [ref=e137]:
+                  - link "Getting-Started 34" [ref=e138] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/getting-started/
+                    - text: Getting-Started
+                    - generic [ref=e139]: "34"
+                - listitem [ref=e140]:
+                  - link "Implementation 34" [ref=e141] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/implementation/
+                    - text: Implementation
+                    - generic [ref=e142]: "34"
+                - listitem [ref=e143]:
+                  - link "Kafka 2106" [ref=e144] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/kafka/
+                    - text: Kafka
+                    - generic [ref=e145]: "2106"
+                - listitem [ref=e146]:
+                  - link "Ops 34" [ref=e147] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/ops/
+                    - text: Ops
+                    - generic [ref=e148]: "34"
+                - listitem [ref=e149]:
+                  - link "Security 34" [ref=e150] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/security/
+                    - text: Security
+                    - generic [ref=e151]: "34"
+                - listitem [ref=e152]:
+                  - link "Streams 68" [ref=e153] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/streams/
+                    - text: Streams
+                    - generic [ref=e154]: "68"
+      - main [ref=e155]:
+        - navigation "breadcrumb" [ref=e156]:
+          - list [ref=e157]:
+            - listitem [ref=e158]:
+              - link "AK 4.3.X" [ref=e159] [cursor=pointer]:
+                - /url: /43/
+            - listitem [ref=e160]:
+              - text: /
+              - link "Getting Started" [ref=e161] [cursor=pointer]:
+                - /url: /43/getting-started/
+            - listitem [ref=e162]: / Docker
+        - generic [ref=e163]:
+          - heading "Docker" [level=1] [ref=e164]
+          - generic [ref=e166]:
+            - heading "Tags:" [level=5] [ref=e167]
+            - list [ref=e168]:
+              - listitem [ref=e169]:
+                - link "Kafka" [ref=e170] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/kafka/
+              - listitem [ref=e171]:
+                - link "Docs" [ref=e172] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/docs/
+          - heading "JVM Based Apache Kafka Docker Image" [level=2] [ref=e173]
+          - paragraph [ref=e174]:
+            - link "Docker" [ref=e175] [cursor=pointer]:
+              - /url: https://www.docker.com/
+            - text: is a popular container runtime. Docker images for the JVM based Apache Kafka can be found on
+            - link "Docker Hub" [ref=e176] [cursor=pointer]:
+              - /url: https://hub.docker.com/r/apache/kafka
+            - text: and are available from version 3.7.0.
+          - paragraph [ref=e177]: "Docker image can be pulled from Docker Hub using the following command:"
+          - generic [ref=e179]:
+            - button "Copy to clipboard" [ref=e180] [cursor=pointer]: 
+            - code [ref=e181]:
+              - generic [ref=e182]: $ docker pull apache/kafka:4.3.1
+          - paragraph [ref=e184]: "If you want to fetch the latest version of the Docker image use following command:"
+          - generic [ref=e186]:
+            - button "Copy to clipboard" [ref=e187] [cursor=pointer]: 
+            - code [ref=e188]:
+              - generic [ref=e189]: $ docker pull apache/kafka:latest
+          - paragraph [ref=e191]: "To start the Kafka container using this Docker image with default configs and on default port 9092:"
+          - generic [ref=e193]:
+            - button "Copy to clipboard" [ref=e194] [cursor=pointer]: 
+            - code [ref=e195]:
+              - generic [ref=e196]: $ docker run -p 9092:9092 apache/kafka:4.3.1
+          - heading "GraalVM Based Native Apache Kafka Docker Image" [level=2] [ref=e198]
+          - paragraph [ref=e199]:
+            - text: Docker images for the GraalVM Based Native Apache Kafka can be found on
+            - link "Docker Hub" [ref=e200] [cursor=pointer]:
+              - /url: https://hub.docker.com/r/apache/kafka-native
+            - text: "and are available from version 3.8.0.NOTE: This image is experimental and intended for local development and testing purposes only; it is not recommended for production use."
+          - paragraph [ref=e201]: "Docker image can be pulled from Docker Hub using the following command:"
+          - generic [ref=e203]:
+            - button "Copy to clipboard" [ref=e204] [cursor=pointer]: 
+            - code [ref=e205]:
+              - generic [ref=e206]: $ docker pull apache/kafka-native:4.3.1
+          - paragraph [ref=e208]: "If you want to fetch the latest version of the Docker image use following command:"
+          - generic [ref=e210]:
+            - button "Copy to clipboard" [ref=e211] [cursor=pointer]: 
+            - code [ref=e212]:
+              - generic [ref=e213]: $ docker pull apache/kafka-native:latest
+          - paragraph [ref=e215]: "To start the Kafka container using this Docker image with default configs and on default port 9092:"
+          - generic [ref=e217]:
+            - button "Copy to clipboard" [ref=e218] [cursor=pointer]: 
+            - code [ref=e219]:
+              - generic [ref=e220]: $ docker run -p 9092:9092 apache/kafka-native:4.3.1
+          - heading "Usage guide" [level=2] [ref=e222]
+          - paragraph [ref=e223]:
+            - text: Detailed instructions for using the Docker image are mentioned
+            - link "here" [ref=e224] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka/blob/trunk/docker/examples/README.md
+            - text: .
+          - generic [ref=e225]:
+            - text: "Last modified June 25, 2026:"
+            - link "Add blog post and fix some trailing 4.3.0 references (#890) (4b8ee1ce95)" [ref=e226] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//commit/4b8ee1ce9518e6a082e198f15cb9faeefb8c4ae3
+        - navigation [ref=e228]:
+          - 'link "Previous: Compatibility" [ref=e230] [cursor=pointer]':
+            - /url: /43/getting-started/compatibility/
+            - generic [ref=e231]: "‹ Previous:"
+            - generic [ref=e232]: Compatibility
+    - contentinfo [ref=e233]:
+      - generic [ref=e235]:
+        - generic [ref=e237]:
+          - link "Contact" [ref=e238] [cursor=pointer]:
+            - /url: /community/contact/
+            - generic [ref=e239]: 
+          - link "Twitter" [ref=e240] [cursor=pointer]:
+            - /url: https://twitter.com/apachekafka
+            - generic [ref=e241]: 
+          - link "Stack Overflow" [ref=e242] [cursor=pointer]:
+            - /url: https://stackoverflow.com/questions/tagged/apache-kafka
+            - generic [ref=e243]: 
+          - link "GitHub" [ref=e244] [cursor=pointer]:
+            - /url: https://github.com/apache/kafka
+            - generic [ref=e245]: 
+          - link "Developer mailing list" [ref=e246] [cursor=pointer]:
+            - /url: mailto:dev@kafka.apache.org
+            - generic [ref=e247]: 
+        - generic [ref=e248]:
+          - generic [ref=e249]:
+            - text: The contents of this website are © 2026 Apache Software Foundation under the terms of the
+            - link "Apache License v2" [ref=e250] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/LICENSE-2.0
+            - text: . Apache Kafka, Kafka, and the Kafka logo are either registered trademarks or trademarks of The Apache Software Foundation in the United States and other countries.
+          - generic [ref=e251]:
+            - link "Security" [ref=e252] [cursor=pointer]:
+              - /url: https://www.apache.org/security/
+            - text: "|"
+            - link "Donate" [ref=e253] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/contributing.html
+            - text: "|"
+            - link "Thanks" [ref=e254] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/thanks.html
+            - text: "|"
+            - link "Events" [ref=e255] [cursor=pointer]:
+              - /url: https://www.apache.org/events/current-event.html
+            - text: "|"
+            - link "License" [ref=e256] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/
+            - text: "|"
+            - link "Privacy" [ref=e257] [cursor=pointer]:
+              - /url: https://privacy.apache.org/policies/privacy-policy-public.html
+        - link [ref=e259] [cursor=pointer]:
+          - /url: https://www.apache.org/
+          - img "Apache Software Foundation" [ref=e260]

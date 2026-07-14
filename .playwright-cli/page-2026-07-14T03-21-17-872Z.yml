@@ -1,0 +1,484 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Academy" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Solutions" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Data Redis
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - button [ref=e50] [cursor=pointer]
+                  - link "Overview" [ref=e51] [cursor=pointer]:
+                    - /url: ../index.html
+                - listitem [ref=e52]:
+                  - button [ref=e53] [cursor=pointer]
+                  - link "Redis" [ref=e54] [cursor=pointer]:
+                    - /url: ../redis.html
+                  - list [ref=e55]:
+                    - listitem [ref=e56]:
+                      - link "Getting Started" [ref=e57] [cursor=pointer]:
+                        - /url: getting-started.html
+                    - listitem [ref=e58]:
+                      - link "Drivers" [ref=e59] [cursor=pointer]:
+                        - /url: drivers.html
+                    - listitem [ref=e60]:
+                      - link "Connection Modes" [ref=e61] [cursor=pointer]:
+                        - /url: connection-modes.html
+                    - listitem [ref=e62]:
+                      - link "RedisTemplate" [ref=e63] [cursor=pointer]:
+                        - /url: template.html
+                    - listitem [ref=e64]:
+                      - link "Redis Cache" [ref=e65] [cursor=pointer]:
+                        - /url: redis-cache.html
+                    - listitem [ref=e66]:
+                      - link "Redis Cluster" [ref=e67] [cursor=pointer]:
+                        - /url: cluster.html
+                    - listitem [ref=e68]:
+                      - link "Hash Mapping" [ref=e69] [cursor=pointer]:
+                        - /url: hash-mappers.html
+                    - listitem [ref=e70]:
+                      - button [ref=e71] [cursor=pointer]
+                      - link "Pub/Sub Messaging" [ref=e72] [cursor=pointer]:
+                        - /url: pubsub.html
+                    - listitem [ref=e73]:
+                      - link "Redis Streams" [ref=e74] [cursor=pointer]:
+                        - /url: redis-streams.html
+                    - listitem [ref=e75]:
+                      - link "Scripting" [ref=e76] [cursor=pointer]:
+                        - /url: scripting.html
+                    - listitem [ref=e77]:
+                      - link "Redis Transactions" [ref=e78] [cursor=pointer]:
+                        - /url: transactions.html
+                    - listitem [ref=e79]:
+                      - link "Pipelining" [ref=e80] [cursor=pointer]:
+                        - /url: pipelining.html
+                    - listitem [ref=e81]:
+                      - link "Support Classes" [ref=e82] [cursor=pointer]:
+                        - /url: support-classes.html
+                - listitem [ref=e83]:
+                  - button [ref=e84] [cursor=pointer]
+                  - link "Redis Repositories" [ref=e85] [cursor=pointer]:
+                    - /url: ../repositories.html
+                - listitem [ref=e86]:
+                  - link "Observability" [ref=e87] [cursor=pointer]:
+                    - /url: ../observability.html
+                - listitem [ref=e88]:
+                  - link "Appendix" [ref=e89] [cursor=pointer]:
+                    - /url: ../appendix.html
+                - listitem [ref=e90]:
+                  - link "Javadoc" [ref=e91] [cursor=pointer]:
+                    - /url: ../api/java/index.html
+                - listitem [ref=e92]:
+                  - link "Wiki" [ref=e93] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-data-commons/wiki
+        - button [ref=e95] [cursor=pointer]
+    - main [ref=e98]:
+      - generic [ref=e99]:
+        - complementary [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e103]:
+              - heading "Working with Objects through RedisTemplate" [level=3] [ref=e104]
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - link "String-focused Convenience Classes" [ref=e107] [cursor=pointer]:
+                    - /url: "#redis:string"
+                - listitem [ref=e108]:
+                  - link "Serializers" [ref=e109] [cursor=pointer]:
+                    - /url: "#redis:serializer"
+            - generic [ref=e110]:
+              - link "Edit this Page" [ref=e111] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-data-redis/blob/4.1.0/src/main/antora/modules/ROOT/pages/redis/template.adoc
+              - link "GitHub Project" [ref=e114] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-data-redis
+              - link "Stack Overflow" [ref=e118] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/spring-data-redis
+        - article [ref=e121]:
+          - navigation "breadcrumbs" [ref=e123]:
+            - list [ref=e124]:
+              - listitem "Copy versioned URL" [ref=e125]
+              - listitem [ref=e126]:
+                - link "Spring Data Redis" [ref=e127] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e128]:
+                - link "Redis" [ref=e129] [cursor=pointer]:
+                  - /url: ../redis.html
+                - text: /
+              - listitem [ref=e130]:
+                - link "RedisTemplate" [ref=e131] [cursor=pointer]:
+                  - /url: template.html
+          - heading [level=1] [ref=e132]:
+            - text: Working with Objects through
+            - code [ref=e133]: RedisTemplate
+          - generic [ref=e135]:
+            - paragraph [ref=e137]:
+              - text: Most users are likely to use
+              - link [ref=e138] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/RedisTemplate.html
+                - code [ref=e139]: RedisTemplate
+              - text: and its corresponding package,
+              - code [ref=e140]: org.springframework.data.redis.core
+              - text: or its reactive variant
+              - link [ref=e141] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/ReactiveRedisTemplate.html
+                - code [ref=e142]: ReactiveRedisTemplate
+              - text: . The template is, in fact, the central class of the Redis module, due to its rich feature set. The template offers a high-level abstraction for Redis interactions. While
+              - code [ref=e143]: "[Reactive]RedisConnection"
+              - text: offers low-level methods that accept and return binary values (
+              - code [ref=e144]: byte
+              - text: arrays), the template takes care of serialization and connection management, freeing the user from dealing with such details.
+            - paragraph [ref=e146]:
+              - text: The
+              - link [ref=e147] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/RedisTemplate.html
+                - code [ref=e148]: RedisTemplate
+              - text: class implements the
+              - link [ref=e149] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/RedisOperations.html
+                - code [ref=e150]: RedisOperations
+              - text: interface and its reactive variant
+              - link [ref=e151] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/ReactiveRedisTemplate.html
+                - code [ref=e152]: ReactiveRedisTemplate
+              - text: implements
+              - link [ref=e153] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/core/ReactiveRedisOperations.html
+                - code [ref=e154]: ReactiveRedisOperations
+              - text: .
+            - table [ref=e156]:
+              - rowgroup [ref=e157]:
+                - row [ref=e158]:
+                  - cell "Note" [ref=e159]
+                  - cell [ref=e161]:
+                    - text: The preferred way to reference operations on a
+                    - code [ref=e162]: "[Reactive]RedisTemplate"
+                    - text: instance is through the
+                    - code [ref=e163]: "[Reactive]RedisOperations"
+                    - text: interface.
+            - paragraph [ref=e165]:
+              - text: Moreover, the template provides operations views (following the grouping from the Redis command
+              - link "reference" [ref=e166] [cursor=pointer]:
+                - /url: https://redis.io/commands
+              - text: ) that offer rich, generified interfaces for working against a certain type or certain key (through the
+              - code [ref=e167]: KeyBound
+              - text: "interfaces) as described in the following table:"
+            - group [ref=e168]:
+              - generic "Operational views" [ref=e169] [cursor=pointer]
+            - paragraph [ref=e171]: Once configured, the template is thread-safe and can be reused across multiple instances.
+            - paragraph [ref=e173]:
+              - code [ref=e174]: RedisTemplate
+              - text: uses a Java-based serializer for most of its operations. This means that any object written or read by the template is serialized and deserialized through Java.
+            - paragraph [ref=e176]:
+              - text: You can change the serialization mechanism on the template, and the Redis module offers several implementations, which are available in the
+              - code [ref=e177]: org.springframework.data.redis.serializer
+              - text: package. See
+              - link "Serializers" [ref=e178] [cursor=pointer]:
+                - /url: "#redis:serializer"
+              - text: for more information. You can also set any of the serializers to null and use RedisTemplate with raw byte arrays by setting the
+              - code [ref=e179]: enableDefaultSerializer
+              - text: property to
+              - code [ref=e180]: "false"
+              - text: . Note that the template requires all keys to be non-null. However, values can be null as long as the underlying serializer accepts them. Read the Javadoc of each serializer for more information.
+            - paragraph [ref=e182]:
+              - text: For cases where you need a certain template view, declare the view as a dependency and inject the template. The container automatically performs the conversion, eliminating the
+              - code [ref=e183]: opsFor[X]
+              - text: "calls, as shown in the following example:"
+            - generic [ref=e184]:
+              - generic [ref=e185]: Configuring Template API
+              - generic [ref=e186]:
+                - tablist [ref=e188]:
+                  - tab [selected] [ref=e189] [cursor=pointer]:
+                    - paragraph [ref=e190]: Java Imperative
+                  - tab [ref=e191] [cursor=pointer]:
+                    - paragraph [ref=e192]: Java Reactive
+                  - tab [ref=e193] [cursor=pointer]:
+                    - paragraph [ref=e194]: XML
+                - tabpanel "Java Imperative" [ref=e195]:
+                  - generic [ref=e198]:
+                    - code [ref=e199]:
+                      - text: java @Configuration
+                      - generic [ref=e200]: class MyConfig
+                      - text: "{ @Bean"
+                      - generic [ref=e201]: LettuceConnectionFactory connectionFactory()
+                      - text: "{ return new LettuceConnectionFactory(); } @Bean"
+                      - generic [ref=e202]: RedisTemplate<String, String> redisTemplate(RedisConnectionFactory connectionFactory)
+                      - text: "{ RedisTemplate<String, String> template = new RedisTemplate<>(); template.setConnectionFactory(connectionFactory); return template; } }"
+                    - button "Copied!" [ref=e204] [cursor=pointer]
+                - text: java xml
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - text: Pushing an item to a List using
+                - code [ref=e208]: "[Reactive]RedisTemplate"
+              - generic [ref=e209]:
+                - tablist [ref=e211]:
+                  - tab [selected] [ref=e212] [cursor=pointer]:
+                    - paragraph [ref=e213]: Imperative
+                  - tab [ref=e214] [cursor=pointer]:
+                    - paragraph [ref=e215]: Reactive
+                - tabpanel "Imperative" [ref=e216]:
+                  - generic [ref=e219]:
+                    - code [ref=e220]:
+                      - text: java public
+                      - generic [ref=e221]: class Example
+                      - text: "{ // inject the actual operations @Autowired private RedisOperations<String, String> operations; // inject the template as ListOperations @Resource(name=\"redisTemplate\") private ListOperations<String, String> listOps;"
+                      - generic [ref=e222]: public void addLink(String userId, URL url)
+                      - text: "{ listOps.leftPush(userId, url.toExternalForm()); } }"
+                    - button "Copied!" [ref=e224] [cursor=pointer]
+                - text: java
+          - generic [ref=e226]:
+            - heading "String-focused Convenience Classes" [level=2] [ref=e227]
+            - generic [ref=e228]:
+              - paragraph [ref=e230]:
+                - text: Since it is quite common for the keys and values stored in Redis to be
+                - code [ref=e231]: java.lang.String
+                - text: ", the Redis modules provides two extensions to"
+                - code [ref=e232]: RedisConnection
+                - text: and
+                - code [ref=e233]: RedisTemplate
+                - text: ", respectively the"
+                - code [ref=e234]: StringRedisConnection
+                - text: (and its
+                - code [ref=e235]: DefaultStringRedisConnection
+                - text: implementation) and
+                - code [ref=e236]: StringRedisTemplate
+                - text: as a convenient one-stop solution for intensive String operations. In addition to being bound to
+                - code [ref=e237]: String
+                - text: keys, the template and the connection use the
+                - code [ref=e238]: StringRedisSerializer
+                - text: "underneath, which means the stored keys and values are human-readable (assuming the same encoding is used both in Redis and your code). The following listings show an example:"
+              - generic [ref=e240]:
+                - tablist [ref=e242]:
+                  - tab [selected] [ref=e243] [cursor=pointer]:
+                    - paragraph [ref=e244]: Java Imperative
+                  - tab [ref=e245] [cursor=pointer]:
+                    - paragraph [ref=e246]: Java Reactive
+                  - tab [ref=e247] [cursor=pointer]:
+                    - paragraph [ref=e248]: XML
+                - tabpanel "Java Imperative" [ref=e249]:
+                  - generic [ref=e252]:
+                    - code [ref=e253]:
+                      - text: java @Configuration
+                      - generic [ref=e254]: class RedisConfiguration
+                      - text: "{ @Bean"
+                      - generic [ref=e255]: LettuceConnectionFactory redisConnectionFactory()
+                      - text: "{ return new LettuceConnectionFactory(); } @Bean"
+                      - generic [ref=e256]: StringRedisTemplate stringRedisTemplate(RedisConnectionFactory redisConnectionFactory)
+                      - text: "{ StringRedisTemplate template = new StringRedisTemplate(); template.setConnectionFactory(redisConnectionFactory); return template; } }"
+                    - button "Copied!" [ref=e258] [cursor=pointer]
+                - text: java xml
+              - generic [ref=e261]:
+                - tablist [ref=e263]:
+                  - tab [selected] [ref=e264] [cursor=pointer]:
+                    - paragraph [ref=e265]: Imperative
+                  - tab [ref=e266] [cursor=pointer]:
+                    - paragraph [ref=e267]: Reactive
+                - tabpanel "Imperative" [ref=e268]:
+                  - generic [ref=e271]:
+                    - code [ref=e272]:
+                      - text: java public
+                      - generic [ref=e273]: class Example
+                      - text: "{ @Autowired private StringRedisTemplate redisTemplate;"
+                      - generic [ref=e274]: public void addLink(String userId, URL url)
+                      - text: "{ redisTemplate.opsForList().leftPush(userId, url.toExternalForm()); } }"
+                    - button "Copied!" [ref=e276] [cursor=pointer]
+                - text: java
+              - paragraph [ref=e279]:
+                - text: As with the other Spring templates,
+                - code [ref=e280]: RedisTemplate
+                - text: and
+                - code [ref=e281]: StringRedisTemplate
+                - text: let you talk directly to Redis through the
+                - code [ref=e282]: RedisCallback
+                - text: interface. This feature gives complete control to you, as it talks directly to the
+                - code [ref=e283]: RedisConnection
+                - text: . Note that the callback receives an instance of
+                - code [ref=e284]: StringRedisConnection
+                - text: when a
+                - code [ref=e285]: StringRedisTemplate
+                - text: is used. The following example shows how to use the
+                - code [ref=e286]: RedisCallback
+                - text: "interface:"
+              - generic [ref=e289]:
+                - code [ref=e290]:
+                  - text: java
+                  - generic [ref=e291]: public void useCallback()
+                  - text: "{ redisOperations.execute(new RedisCallback<Object>() {"
+                  - generic [ref=e292]: public Object doInRedis(RedisConnection connection) throws DataAccessException
+                  - text: "{ Long size = connection.dbSize(); // Can cast to StringRedisConnection if using a StringRedisTemplate ((StringRedisConnection)connection).set(\"key\", \"value\"); } }); }"
+                - button "Copied!" [ref=e294] [cursor=pointer]
+          - generic [ref=e296]:
+            - heading "Serializers" [level=2] [ref=e297]
+            - generic [ref=e298]:
+              - paragraph [ref=e300]: From the framework perspective, the data stored in Redis is only bytes. While Redis itself supports various types, for the most part, these refer to the way the data is stored rather than what it represents. It is up to the user to decide whether the information gets translated into strings or any other objects.
+              - paragraph [ref=e302]:
+                - text: In Spring Data, the conversion between the user (custom) types and raw data (and vice-versa) is handled by Spring Data Redis in the
+                - code [ref=e303]: org.springframework.data.redis.serializer
+                - text: package.
+              - paragraph [ref=e305]: "This package contains two types of serializers that, as the name implies, take care of the serialization process:"
+              - list [ref=e307]:
+                - listitem [ref=e308]:
+                  - paragraph [ref=e309]:
+                    - text: Two-way serializers based on
+                    - link [ref=e310] [cursor=pointer]:
+                      - /url: ../api/java/org/springframework/data/redis/serializer/RedisSerializer.html
+                      - code [ref=e311]: RedisSerializer
+                    - text: .
+                - listitem [ref=e312]:
+                  - paragraph [ref=e313]:
+                    - text: Element readers and writers that use
+                    - code [ref=e314]: RedisElementReader
+                    - text: and
+                    - code [ref=e315]: RedisElementWriter
+                    - text: .
+              - paragraph [ref=e317]:
+                - text: The main difference between these variants is that
+                - code [ref=e318]: RedisSerializer
+                - text: primarily serializes to
+                - code [ref=e319]: byte[]
+                - text: while readers and writers use
+                - code [ref=e320]: ByteBuffer
+                - text: .
+              - paragraph [ref=e322]: "Multiple implementations are available (including two that have been already mentioned in this documentation):"
+              - list [ref=e324]:
+                - listitem [ref=e325]:
+                  - paragraph [ref=e326]:
+                    - link [ref=e327] [cursor=pointer]:
+                      - /url: ../api/java/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.html
+                      - code [ref=e328]: JdkSerializationRedisSerializer
+                    - text: ", which is used by default for"
+                    - link [ref=e329] [cursor=pointer]:
+                      - /url: ../api/java/org/springframework/data/redis/cache/RedisCache.html
+                      - code [ref=e330]: RedisCache
+                    - text: and
+                    - link [ref=e331] [cursor=pointer]:
+                      - /url: ../api/java/org/springframework/data/redis/core/RedisTemplate.html
+                      - code [ref=e332]: RedisTemplate
+                    - text: .
+                - listitem [ref=e333]:
+                  - paragraph [ref=e334]:
+                    - text: the
+                    - code [ref=e335]: StringRedisSerializer
+                    - text: .
+              - paragraph [ref=e337]:
+                - text: However, one can use
+                - code [ref=e338]: OxmSerializer
+                - text: for Object/XML mapping through Spring
+                - link "OXM" [ref=e339] [cursor=pointer]:
+                  - /url: https://docs.spring.io/spring-framework/reference/7.0/data-access.html#oxm
+                - text: support or
+                - link [ref=e340] [cursor=pointer]:
+                  - /url: ../api/java/org/springframework/data/redis/serializer/JacksonJsonRedisSerializer.html
+                  - code [ref=e341]: JacksonJsonRedisSerializer
+                - text: or
+                - link [ref=e342] [cursor=pointer]:
+                  - /url: ../api/java/org/springframework/data/redis/serializer/GenericJacksonJsonRedisSerializer.html
+                  - code [ref=e343]: GenericJacksonJsonRedisSerializer
+                - text: for storing data in
+                - link "JSON" [ref=e344] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/JSON
+                - text: format.
+              - paragraph [ref=e346]: Do note that the storage format is not limited only to values. It can be used for keys, values, or hashes without any restrictions.
+              - table [ref=e348]:
+                - rowgroup [ref=e349]:
+                  - row [ref=e350]:
+                    - cell "Warning" [ref=e351]
+                    - cell [ref=e353]:
+                      - paragraph [ref=e355]:
+                        - text: By default,
+                        - link [ref=e356] [cursor=pointer]:
+                          - /url: ../api/java/org/springframework/data/redis/cache/RedisCache.html
+                          - code [ref=e357]: RedisCache
+                        - text: and
+                        - link [ref=e358] [cursor=pointer]:
+                          - /url: ../api/java/org/springframework/data/redis/core/RedisTemplate.html
+                          - code [ref=e359]: RedisTemplate
+                        - text: are configured to use Java native serialization. Java native serialization is known for allowing the running of remote code caused by payloads that exploit vulnerable libraries and classes injecting unverified bytecode. Manipulated input could lead to unwanted code being run in the application during the deserialization step. As a consequence, do not use serialization in untrusted environments. In general, we strongly recommend any other message format (such as JSON) instead.
+                      - paragraph [ref=e361]: "If you are concerned about security vulnerabilities due to Java serialization, consider the general-purpose serialization filter mechanism at the core JVM level:"
+                      - list [ref=e363]:
+                        - listitem [ref=e364]:
+                          - paragraph [ref=e365]:
+                            - link "Filter Incoming Serialization Data" [ref=e366] [cursor=pointer]:
+                              - /url: https://docs.oracle.com/en/java/javase/17/core/serialization-filtering1.html
+                            - text: .
+                        - listitem [ref=e367]:
+                          - paragraph [ref=e368]:
+                            - link "JEP 290" [ref=e369] [cursor=pointer]:
+                              - /url: https://openjdk.org/jeps/290
+                            - text: .
+                        - listitem [ref=e370]:
+                          - paragraph [ref=e371]:
+                            - 'link "OWASP: Deserialization of untrusted data" [ref=e372] [cursor=pointer]':
+                              - /url: https://owasp.org/www-community/vulnerabilities/Deserialization_of_untrusted_data
+                            - text: .
+    - text: 
+  - contentinfo [ref=e373]:
+    - generic [ref=e374]:
+      - img "Spring" [ref=e375]
+      - paragraph [ref=e376]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e377] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e378] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e379] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e380]:
+          - text: •
+          - link "Thank you" [ref=e381] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e382] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e383]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e384]:
+      - link "Youtube" [ref=e385] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e389] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e393] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e398]:
+      - generic [ref=e399]:
+        - button "Close" [ref=e401] [cursor=pointer]
+        - generic [ref=e402]:
+          - generic [ref=e404]:
+            - heading "Cookies" [level=2] [ref=e405]
+            - generic [ref=e406]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e407] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e411] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

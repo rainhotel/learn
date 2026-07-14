@@ -1,0 +1,730 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "What's new?" [ref=e50] [cursor=pointer]:
+              - /url: /docs/latest/develop/whats-new/
+          - listitem [ref=e52]:
+            - link "Quick starts" [ref=e53] [cursor=pointer]:
+              - /url: /docs/latest/develop/get-started/
+          - listitem [ref=e55]:
+            - link "Client tools" [ref=e56] [cursor=pointer]:
+              - /url: /docs/latest/develop/tools/
+          - listitem [ref=e58]:
+            - link "Client APIs" [ref=e59] [cursor=pointer]:
+              - /url: /docs/latest/develop/clients/
+          - listitem [ref=e61]:
+            - link "Using commands" [ref=e62] [cursor=pointer]:
+              - /url: /docs/latest/develop/using-commands/
+          - listitem [ref=e64]:
+            - link "Data types" [ref=e65] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/
+            - list [ref=e67]:
+              - listitem [ref=e68]:
+                - link "Compare data types" [ref=e69] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/compare-data-types/
+              - listitem [ref=e71]:
+                - link "Strings" [ref=e72] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/strings/
+              - listitem [ref=e74]:
+                - link "Arrays" [ref=e75] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/arrays/
+              - listitem [ref=e77]:
+                - link "Geospatial" [ref=e78] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/geospatial/
+              - listitem [ref=e80]:
+                - link "Hashes" [ref=e81] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/hashes/
+              - listitem [ref=e83]:
+                - link "JSON" [ref=e84] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/json/
+              - listitem [ref=e86]:
+                - link "Lists" [ref=e87] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/lists/
+              - listitem [ref=e89]:
+                - link "Probabilistic" [ref=e90] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/probabilistic/
+              - listitem [ref=e92]:
+                - link "Sets" [ref=e93] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/sets/
+              - listitem [ref=e95]:
+                - link "Sorted sets" [ref=e96] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/sorted-sets/
+              - listitem [ref=e98]:
+                - link "Streams" [ref=e99] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/streams/
+              - listitem [ref=e101]:
+                - link "Time series" [ref=e102] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/timeseries/
+              - listitem [ref=e104]:
+                - link "Vector sets" [ref=e105] [cursor=pointer]:
+                  - /url: /docs/latest/develop/data-types/vector-sets/
+          - listitem [ref=e107]:
+            - link "Redis for AI and search" [ref=e108] [cursor=pointer]:
+              - /url: /docs/latest/develop/ai/
+          - listitem [ref=e110]:
+            - link "Programmability" [ref=e111] [cursor=pointer]:
+              - /url: /docs/latest/develop/programmability/
+          - listitem [ref=e113]:
+            - link "Use cases" [ref=e114] [cursor=pointer]:
+              - /url: /docs/latest/develop/use-cases/
+          - listitem [ref=e116]:
+            - link "Pub/sub" [ref=e117] [cursor=pointer]:
+              - /url: /docs/latest/develop/pubsub/
+          - listitem [ref=e119]:
+            - link "Reference" [ref=e120] [cursor=pointer]:
+              - /url: /docs/latest/develop/reference/
+        - link "Libraries and tools" [ref=e122] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e123] [cursor=pointer]:
+          - /url: /docs/latest/operate
+      - link "Commands" [ref=e125] [cursor=pointer]:
+        - /url: /docs/latest/commands
+    - generic [ref=e126]:
+      - navigation "Breadcrumb" [ref=e127]:
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - link "Docs Docs" [ref=e130] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e131]: Docs
+          - listitem [ref=e132]:
+            - generic [ref=e133]: →
+            - link "Develop with Redis" [ref=e134] [cursor=pointer]:
+              - /url: /docs/latest/develop/
+          - listitem:
+            - generic: →
+            - link "Redis data types":
+              - /url: /docs/latest/develop/data-types/
+      - generic [ref=e135]:
+        - heading "Redis data types" [level=1] [ref=e136]
+        - paragraph [ref=e137]: Overview of data types supported by Redis
+        - paragraph [ref=e138]:
+          - text: Redis is a data structure server. At its core, Redis provides a collection of native data types that help you solve a wide variety of problems, from
+          - link "caching" [ref=e139] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/strings/
+          - text: to
+          - link "queuing" [ref=e140] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/lists/
+          - text: to
+          - link "event processing" [ref=e141] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/streams/
+          - text: . Below is a short description of each data type, with links to broader overviews and command references. Each overview includes a comprehensive tutorial with code samples.
+        - heading [level=2] [ref=e142]:
+          - text: Data types
+          - link "Link to this section" [ref=e143] [cursor=pointer]:
+            - /url: "#data-types"
+        - paragraph [ref=e146]:
+          - link "Redis Open Source" [ref=e147] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/
+          - text: "implements the following data types:"
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - link "Strings" [ref=e150] [cursor=pointer]:
+              - /url: "#strings"
+            - list [ref=e151]:
+              - listitem [ref=e152]:
+                - link "Bitmaps" [ref=e153] [cursor=pointer]:
+                  - /url: "#bitmaps"
+              - listitem [ref=e154]:
+                - link "Bitfields" [ref=e155] [cursor=pointer]:
+                  - /url: "#bitfields"
+          - listitem [ref=e156]:
+            - link "Arrays" [ref=e157] [cursor=pointer]:
+              - /url: "#arrays"
+          - listitem [ref=e158]:
+            - link "Geospatial indexes" [ref=e159] [cursor=pointer]:
+              - /url: "#geospatial-indexes"
+          - listitem [ref=e160]:
+            - link "Hashes" [ref=e161] [cursor=pointer]:
+              - /url: "#hashes"
+          - listitem [ref=e162]:
+            - link "JSON" [ref=e163] [cursor=pointer]:
+              - /url: "#json"
+          - listitem [ref=e164]:
+            - link "Lists" [ref=e165] [cursor=pointer]:
+              - /url: "#lists"
+          - listitem [ref=e166]:
+            - link "Probabilistic data types" [ref=e167] [cursor=pointer]:
+              - /url: "#probabilistic-data-types"
+          - listitem [ref=e168]:
+            - link "Sets" [ref=e169] [cursor=pointer]:
+              - /url: "#sets"
+          - listitem [ref=e170]:
+            - link "Sorted sets" [ref=e171] [cursor=pointer]:
+              - /url: "#sorted-sets"
+          - listitem [ref=e172]:
+            - link "Streams" [ref=e173] [cursor=pointer]:
+              - /url: "#streams"
+          - listitem [ref=e174]:
+            - link "Time series" [ref=e175] [cursor=pointer]:
+              - /url: "#time-series"
+          - listitem [ref=e176]:
+            - link "Vector sets" [ref=e177] [cursor=pointer]:
+              - /url: "#vector-sets"
+        - paragraph [ref=e178]:
+          - text: See
+          - link "Compare data types" [ref=e179] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/compare-data-types/
+          - text: for advice on which of the general-purpose data types is best for common tasks.
+        - heading [level=3] [ref=e180]:
+          - text: Strings
+          - link "Link to this section" [ref=e181] [cursor=pointer]:
+            - /url: "#strings"
+        - paragraph [ref=e184]:
+          - link "Redis strings" [ref=e185] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/strings/
+          - text: "are the most basic Redis data type, representing a sequence of bytes. For more information, see:"
+        - list [ref=e186]:
+          - listitem [ref=e187]:
+            - link "Overview of Redis strings" [ref=e188] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/strings/
+          - listitem [ref=e189]:
+            - link "Redis string command reference" [ref=e190] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=string
+        - heading [level=3] [ref=e191]:
+          - text: Bitfields
+          - link "Link to this section" [ref=e192] [cursor=pointer]:
+            - /url: "#bitfields"
+        - paragraph [ref=e195]:
+          - link "Redis bitfields" [ref=e196] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/strings/bitfields/
+          - text: "efficiently encode multiple counters in a string value. Bitfields provide atomic get, set, and increment operations and support different overflow policies. For more information, see:"
+        - list [ref=e197]:
+          - listitem [ref=e198]:
+            - link "Overview of Redis bitfields" [ref=e199] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/strings/bitfields/
+          - listitem [ref=e200]:
+            - text: The
+            - link [ref=e201] [cursor=pointer]:
+              - /url: /docs/latest/commands/bitfield/
+              - code [ref=e202]: BITFIELD
+            - text: command.
+        - heading [level=3] [ref=e203]:
+          - text: Bitmaps
+          - link "Link to this section" [ref=e204] [cursor=pointer]:
+            - /url: "#bitmaps"
+        - paragraph [ref=e207]:
+          - link "Redis bitmaps" [ref=e208] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/strings/bitmaps/
+          - text: "let you perform bitwise operations on strings. For more information, see:"
+        - list [ref=e209]:
+          - listitem [ref=e210]:
+            - link "Overview of Redis bitmaps" [ref=e211] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/strings/bitmaps/
+          - listitem [ref=e212]:
+            - link "Redis bitmap command reference" [ref=e213] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=bitmap
+        - heading [level=3] [ref=e214]:
+          - text: Arrays
+          - link "Link to this section" [ref=e215] [cursor=pointer]:
+            - /url: "#arrays"
+        - paragraph [ref=e218]:
+          - link "Redis arrays" [ref=e219] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/arrays/
+          - text: "are sparse, index-addressable sequences of strings. For more information, see:"
+        - list [ref=e220]:
+          - listitem [ref=e221]:
+            - link "Overview of Redis arrays" [ref=e222] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/arrays/
+          - listitem [ref=e223]:
+            - link "Redis array command reference" [ref=e224] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=array
+        - heading [level=3] [ref=e225]:
+          - text: Geospatial indexes
+          - link "Link to this section" [ref=e226] [cursor=pointer]:
+            - /url: "#geospatial-indexes"
+        - paragraph [ref=e229]:
+          - link "Redis geospatial indexes" [ref=e230] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/geospatial/
+          - text: "are useful for finding locations within a given geographic radius or bounding box. For more information, see:"
+        - list [ref=e231]:
+          - listitem [ref=e232]:
+            - link "Overview of Redis geospatial indexes" [ref=e233] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/geospatial/
+          - listitem [ref=e234]:
+            - link "Redis geospatial indexes command reference" [ref=e235] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=geo
+        - heading [level=3] [ref=e236]:
+          - text: Hashes
+          - link "Link to this section" [ref=e237] [cursor=pointer]:
+            - /url: "#hashes"
+        - paragraph [ref=e240]:
+          - link "Redis hashes" [ref=e241] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/hashes/
+          - text: are record types modeled as collections of field-value pairs. As such, Redis hashes resemble
+          - link "Python dictionaries" [ref=e242] [cursor=pointer]:
+            - /url: https://docs.python.org/3/tutorial/datastructures.html#dictionaries
+          - text: ","
+          - link "Java HashMaps" [ref=e243] [cursor=pointer]:
+            - /url: https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+          - text: ", and"
+          - link "Ruby hashes" [ref=e244] [cursor=pointer]:
+            - /url: https://ruby-doc.org/core-3.1.2/Hash.html
+          - text: ". For more information, see:"
+        - list [ref=e245]:
+          - listitem [ref=e246]:
+            - link "Overview of Redis hashes" [ref=e247] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/hashes/
+          - listitem [ref=e248]:
+            - link "Redis hashes command reference" [ref=e249] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=hash
+        - heading [level=3] [ref=e250]:
+          - text: JSON
+          - link "Link to this section" [ref=e251] [cursor=pointer]:
+            - /url: "#json"
+        - paragraph [ref=e254]:
+          - link "Redis JSON" [ref=e255] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/json/
+          - text: provides structured, hierarchical arrays and key-value objects that match the popular
+          - link "JSON" [ref=e256] [cursor=pointer]:
+            - /url: https://www.json.org/json-en.html
+          - text: "text file format. You can import JSON text into Redis objects and access, modify, and query individual data elements. For more information, see:"
+        - list [ref=e257]:
+          - listitem [ref=e258]:
+            - link "Overview of Redis JSON" [ref=e259] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/json/
+          - listitem [ref=e260]:
+            - link "JSON command reference" [ref=e261] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=json
+        - heading [level=3] [ref=e262]:
+          - text: Lists
+          - link "Link to this section" [ref=e263] [cursor=pointer]:
+            - /url: "#lists"
+        - paragraph [ref=e266]:
+          - link "Redis lists" [ref=e267] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/lists/
+          - text: "are lists of strings sorted by insertion order. For more information, see:"
+        - list [ref=e268]:
+          - listitem [ref=e269]:
+            - link "Overview of Redis lists" [ref=e270] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/lists/
+          - listitem [ref=e271]:
+            - link "Redis list command reference" [ref=e272] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=list
+        - heading [level=3] [ref=e273]:
+          - text: Probabilistic data types
+          - link "Link to this section" [ref=e274] [cursor=pointer]:
+            - /url: "#probabilistic-data-types"
+        - paragraph [ref=e277]: "These data types let you gather and calculate statistics in a way that is approximate but highly efficient. The following types are available:"
+        - list [ref=e278]:
+          - listitem [ref=e279]:
+            - link "Bloom filter" [ref=e280] [cursor=pointer]:
+              - /url: "#bloom-filter"
+          - listitem [ref=e281]:
+            - link "Count-min sketch" [ref=e282] [cursor=pointer]:
+              - /url: "#count-min-sketch"
+          - listitem [ref=e283]:
+            - link "Cuckoo filter" [ref=e284] [cursor=pointer]:
+              - /url: "#cuckoo-filter"
+          - listitem [ref=e285]:
+            - link "HyperLogLog" [ref=e286] [cursor=pointer]:
+              - /url: "#hyperloglog"
+          - listitem [ref=e287]:
+            - link "t-digest" [ref=e288] [cursor=pointer]:
+              - /url: "#t-digest"
+          - listitem [ref=e289]:
+            - link "Top-K" [ref=e290] [cursor=pointer]:
+              - /url: "#top-k"
+        - heading [level=3] [ref=e291]:
+          - text: Bloom filter
+          - link "Link to this section" [ref=e292] [cursor=pointer]:
+            - /url: "#bloom-filter"
+        - paragraph [ref=e295]:
+          - link "Redis Bloom filters" [ref=e296] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/probabilistic/bloom-filter/
+          - text: "let you check for the presence or absence of an element in a set. For more information, see:"
+        - list [ref=e297]:
+          - listitem [ref=e298]:
+            - link "Overview of Redis Bloom filters" [ref=e299] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/probabilistic/bloom-filter/
+          - listitem [ref=e300]:
+            - link "Bloom filter command reference" [ref=e301] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=bf
+        - heading [level=3] [ref=e302]:
+          - text: Count-min sketch
+          - link "Link to this section" [ref=e303] [cursor=pointer]:
+            - /url: "#count-min-sketch"
+        - paragraph [ref=e306]:
+          - link "Redis Count-min sketch" [ref=e307] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/probabilistic/count-min-sketch/
+          - text: "estimate the frequency of a data point within a stream of values. For more information, see:"
+        - list [ref=e308]:
+          - listitem [ref=e309]:
+            - link "Redis Count-min sketch overview" [ref=e310] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/probabilistic/count-min-sketch/
+          - listitem [ref=e311]:
+            - link "Count-min sketch command reference" [ref=e312] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=cms
+        - heading [level=3] [ref=e313]:
+          - text: Cuckoo filter
+          - link "Link to this section" [ref=e314] [cursor=pointer]:
+            - /url: "#cuckoo-filter"
+        - paragraph [ref=e317]:
+          - link "Redis Cuckoo filters" [ref=e318] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/probabilistic/cuckoo-filter/
+          - text: let you check for the presence or absence of an element in a set. They are similar to
+          - link "Bloom filters" [ref=e319] [cursor=pointer]:
+            - /url: "#bloom-filter"
+          - text: "but with slightly different trade-offs between features and performance. For more information, see:"
+        - list [ref=e320]:
+          - listitem [ref=e321]:
+            - link "Overview of Redis Cuckoo filters" [ref=e322] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/probabilistic/cuckoo-filter/
+          - listitem [ref=e323]:
+            - link "Cuckoo filter command reference" [ref=e324] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=cf
+        - heading [level=3] [ref=e325]:
+          - text: HyperLogLog
+          - link "Link to this section" [ref=e326] [cursor=pointer]:
+            - /url: "#hyperloglog"
+        - paragraph [ref=e329]:
+          - text: The
+          - link "Redis HyperLogLog" [ref=e330] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/probabilistic/hyperloglogs/
+          - text: "data structures provide probabilistic estimates of the cardinality (i.e., number of elements) of large sets. For more information, see:"
+        - list [ref=e331]:
+          - listitem [ref=e332]:
+            - link "Overview of Redis HyperLogLog" [ref=e333] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/probabilistic/hyperloglogs/
+          - listitem [ref=e334]:
+            - link "Redis HyperLogLog command reference" [ref=e335] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=hyperloglog
+        - heading [level=3] [ref=e336]:
+          - text: t-digest
+          - link "Link to this section" [ref=e337] [cursor=pointer]:
+            - /url: "#t-digest"
+        - paragraph [ref=e340]:
+          - link "Redis t-digest" [ref=e341] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/probabilistic/t-digest/
+          - text: "structures estimate percentiles from a stream of data values. For more information, see:"
+        - list [ref=e342]:
+          - listitem [ref=e343]:
+            - link "Redis t-digest overview" [ref=e344] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/probabilistic/t-digest/
+          - listitem [ref=e345]:
+            - link "t-digest command reference" [ref=e346] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=tdigest
+        - heading [level=3] [ref=e347]:
+          - text: Top-K
+          - link "Link to this section" [ref=e348] [cursor=pointer]:
+            - /url: "#top-k"
+        - paragraph [ref=e351]:
+          - link "Redis Top-K" [ref=e352] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/probabilistic/top-k/
+          - text: "structures estimate the ranking of a data point within a stream of values. For more information, see:"
+        - list [ref=e353]:
+          - listitem [ref=e354]:
+            - link "Redis Top-K overview" [ref=e355] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/probabilistic/top-k/
+          - listitem [ref=e356]:
+            - link "Top-K command reference" [ref=e357] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=topk
+        - heading [level=3] [ref=e358]:
+          - text: Sets
+          - link "Link to this section" [ref=e359] [cursor=pointer]:
+            - /url: "#sets"
+        - paragraph [ref=e362]:
+          - link "Redis sets" [ref=e363] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/sets/
+          - text: are unordered collections of unique strings that act like the sets from your favorite programming language (for example,
+          - link "Java HashSets" [ref=e364] [cursor=pointer]:
+            - /url: https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html
+          - text: ","
+          - link "Python sets" [ref=e365] [cursor=pointer]:
+            - /url: https://docs.python.org/3.10/library/stdtypes.html#set-types-set-frozenset
+          - text: ", and so on). With a Redis set, you can add, remove, and test for existence in O(1) time (in other words, regardless of the number of set elements). For more information, see:"
+        - list [ref=e366]:
+          - listitem [ref=e367]:
+            - link "Overview of Redis sets" [ref=e368] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/sets/
+          - listitem [ref=e369]:
+            - link "Redis set command reference" [ref=e370] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=set
+        - heading [level=3] [ref=e371]:
+          - text: Sorted sets
+          - link "Link to this section" [ref=e372] [cursor=pointer]:
+            - /url: "#sorted-sets"
+        - paragraph [ref=e375]:
+          - link "Redis sorted sets" [ref=e376] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/sorted-sets/
+          - text: "are collections of unique strings that maintain order by each string's associated score. For more information, see:"
+        - list [ref=e377]:
+          - listitem [ref=e378]:
+            - link "Overview of Redis sorted sets" [ref=e379] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/sorted-sets/
+          - listitem [ref=e380]:
+            - link "Redis sorted set command reference" [ref=e381] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=sorted-set
+        - heading [level=3] [ref=e382]:
+          - text: Streams
+          - link "Link to this section" [ref=e383] [cursor=pointer]:
+            - /url: "#streams"
+        - paragraph [ref=e386]:
+          - text: A
+          - link "Redis stream" [ref=e387] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/streams/
+          - text: "is a data structure that acts like an append-only log. Streams help record events in the order they occur and then syndicate them for processing. For more information, see:"
+        - list [ref=e388]:
+          - listitem [ref=e389]:
+            - link "Overview of Redis Streams" [ref=e390] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/streams/
+          - listitem [ref=e391]:
+            - link "Redis Streams command reference" [ref=e392] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=stream
+        - heading [level=3] [ref=e393]:
+          - text: Time series
+          - link "Link to this section" [ref=e394] [cursor=pointer]:
+            - /url: "#time-series"
+        - paragraph [ref=e397]:
+          - link "Redis time series" [ref=e398] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/timeseries/
+          - text: "structures let you store and query timestamped data points. For more information, see:"
+        - list [ref=e399]:
+          - listitem [ref=e400]:
+            - link "Redis time series overview" [ref=e401] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/timeseries/
+          - listitem [ref=e402]:
+            - link "Time series command reference" [ref=e403] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=timeseries
+        - heading [level=3] [ref=e404]:
+          - text: Vector sets
+          - link "Link to this section" [ref=e405] [cursor=pointer]:
+            - /url: "#vector-sets"
+        - paragraph [ref=e408]:
+          - link "Redis vector sets" [ref=e409] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/vector-sets/
+          - text: are a specialized data type designed for managing high-dimensional vector data, enabling fast and efficient vector similarity search within Redis. Vector sets are optimized for use cases involving machine learning, recommendation systems, and semantic search, where each vector represents a data point in multi-dimensional space. Vector sets supports the
+          - link "HNSW" [ref=e410] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/Hierarchical_navigable_small_world
+          - text: (hierarchical navigable small world) algorithm, allowing you to store, index, and query vectors based on the cosine similarity metric. With vector sets, Redis provides native support for hybrid search, combining vector similarity with structured
+          - link "filters" [ref=e411] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/vector-sets/filtered-search/
+          - text: ". For more information, see:"
+        - list [ref=e412]:
+          - listitem [ref=e413]:
+            - link "Overview of Redis vector sets" [ref=e414] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/vector-sets/
+          - listitem [ref=e415]:
+            - link "Redis vector set command reference" [ref=e416] [cursor=pointer]:
+              - /url: /docs/latest/commands/?group=vector_set
+        - heading [level=2] [ref=e417]:
+          - text: Adding extensions
+          - link "Link to this section" [ref=e418] [cursor=pointer]:
+            - /url: "#adding-extensions"
+        - paragraph [ref=e421]: "To extend the features provided by the included data types, use one of these options:"
+        - list [ref=e422]:
+          - listitem [ref=e423]:
+            - text: Write your own custom
+            - link "server-side functions in Lua" [ref=e424] [cursor=pointer]:
+              - /url: /docs/latest/develop/programmability/
+            - text: .
+          - listitem [ref=e425]:
+            - text: Write your own Redis module using the
+            - link "modules API" [ref=e426] [cursor=pointer]:
+              - /url: /docs/latest/develop/reference/modules/
+            - text: or check out the
+            - link "community-supported modules" [ref=e427] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/stack-with-enterprise/
+            - text: .
+        - generic [ref=e429]:
+          - generic [ref=e430]:
+            - generic [ref=e431]: RATE THIS PAGE
+            - generic [ref=e432]:
+              - generic [ref=e433] [cursor=pointer]: ★
+              - generic [ref=e434] [cursor=pointer]: ★
+              - generic [ref=e435] [cursor=pointer]: ★
+              - generic [ref=e436] [cursor=pointer]: ★
+              - generic [ref=e437] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e438] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e439]:
+      - navigation [ref=e440]:
+        - link "Edit this page" [ref=e441] [cursor=pointer]:
+          - /url: https://github.com/redis/docs/edit/main/content/develop/data-types/_index.md
+        - link "Create an issue" [ref=e444] [cursor=pointer]:
+          - /url: "https://github.com/redis/docs/issues/new?title=Feedback: Redis data types&body=Page https://redis.io/docs/latest/develop/data-types/"
+        - link "Download Markdown" [ref=e447] [cursor=pointer]:
+          - /url: "#"
+      - heading "On this page" [level=2] [ref=e450]
+      - navigation [ref=e451]:
+        - navigation [ref=e452]:
+          - list [ref=e453]:
+            - listitem [ref=e454]:
+              - link "Data types":
+                - /url: "#data-types"
+              - list [ref=e455]:
+                - listitem [ref=e456]:
+                  - link "Strings" [ref=e457] [cursor=pointer]:
+                    - /url: "#strings"
+                - listitem [ref=e458]:
+                  - link "Bitfields" [ref=e459] [cursor=pointer]:
+                    - /url: "#bitfields"
+                - listitem [ref=e460]:
+                  - link "Bitmaps" [ref=e461] [cursor=pointer]:
+                    - /url: "#bitmaps"
+                - listitem [ref=e462]:
+                  - link "Arrays" [ref=e463] [cursor=pointer]:
+                    - /url: "#arrays"
+                - listitem [ref=e464]:
+                  - link "Geospatial indexes" [ref=e465] [cursor=pointer]:
+                    - /url: "#geospatial-indexes"
+                - listitem [ref=e466]:
+                  - link "Hashes" [ref=e467] [cursor=pointer]:
+                    - /url: "#hashes"
+                - listitem [ref=e468]:
+                  - link "JSON" [ref=e469] [cursor=pointer]:
+                    - /url: "#json"
+                - listitem [ref=e470]:
+                  - link "Lists" [ref=e471] [cursor=pointer]:
+                    - /url: "#lists"
+                - listitem [ref=e472]:
+                  - link "Probabilistic data types" [ref=e473] [cursor=pointer]:
+                    - /url: "#probabilistic-data-types"
+                - listitem [ref=e474]:
+                  - link "Bloom filter" [ref=e475] [cursor=pointer]:
+                    - /url: "#bloom-filter"
+                - listitem [ref=e476]:
+                  - link "Count-min sketch" [ref=e477] [cursor=pointer]:
+                    - /url: "#count-min-sketch"
+                - listitem [ref=e478]:
+                  - link "Cuckoo filter" [ref=e479] [cursor=pointer]:
+                    - /url: "#cuckoo-filter"
+                - listitem [ref=e480]:
+                  - link "HyperLogLog" [ref=e481] [cursor=pointer]:
+                    - /url: "#hyperloglog"
+                - listitem [ref=e482]:
+                  - link "t-digest" [ref=e483] [cursor=pointer]:
+                    - /url: "#t-digest"
+                - listitem [ref=e484]:
+                  - link "Top-K" [ref=e485] [cursor=pointer]:
+                    - /url: "#top-k"
+                - listitem [ref=e486]:
+                  - link "Sets" [ref=e487] [cursor=pointer]:
+                    - /url: "#sets"
+                - listitem [ref=e488]:
+                  - link "Sorted sets" [ref=e489] [cursor=pointer]:
+                    - /url: "#sorted-sets"
+                - listitem [ref=e490]:
+                  - link "Streams" [ref=e491] [cursor=pointer]:
+                    - /url: "#streams"
+                - listitem [ref=e492]:
+                  - link "Time series" [ref=e493] [cursor=pointer]:
+                    - /url: "#time-series"
+                - listitem [ref=e494]:
+                  - link "Vector sets" [ref=e495] [cursor=pointer]:
+                    - /url: "#vector-sets"
+            - listitem [ref=e496]:
+              - link "Adding extensions" [ref=e497] [cursor=pointer]:
+                - /url: "#adding-extensions"
+  - contentinfo [ref=e498]:
+    - generic [ref=e499]:
+      - generic [ref=e500]:
+        - link [ref=e501] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e506]:
+          - link [ref=e507] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e511] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e514] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e517] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e520] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e523] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e526]:
+          - link "Trust" [ref=e527] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e528] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e529] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e530] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e531]:
+        - generic [ref=e532]:
+          - heading "Compare" [level=3] [ref=e533]
+          - generic [ref=e534]:
+            - link "Redis vs Elasticache" [ref=e535] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e536] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e537] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e538] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e539]:
+          - heading "Company" [level=3] [ref=e540]
+          - generic [ref=e541]:
+            - link "Mission & values" [ref=e542] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e543] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e544] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e545]:
+          - heading "Partners" [level=3] [ref=e546]
+          - generic [ref=e547]:
+            - link "Amazon Web Services" [ref=e548] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e549] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e550] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e551] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e552]:
+          - heading "Support" [level=3] [ref=e553]
+          - generic [ref=e554]:
+            - link "Professional services" [ref=e555] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e556] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e557]:
+    - generic [ref=e558]:
+      - banner [ref=e559]:
+        - generic [ref=e560]:
+          - textbox [ref=e561]:
+            - /placeholder: Search…
+          - combobox [ref=e562]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e563] [cursor=pointer]: ESC
+      - listbox [ref=e564]

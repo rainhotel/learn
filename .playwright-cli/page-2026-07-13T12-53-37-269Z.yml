@@ -1,0 +1,419 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip Top Navigation Bar" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - navigation [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Java Home" [ref=e8]
+        - list [ref=e10]:
+          - listitem [ref=e11]:
+            - link "Learn" [ref=e12] [cursor=pointer]:
+              - /url: /learn
+          - listitem [ref=e13]:
+            - link "Download" [ref=e14] [cursor=pointer]:
+              - /url: /download
+          - listitem [ref=e15]:
+            - link "Community" [ref=e16] [cursor=pointer]:
+              - /url: /community
+          - listitem [ref=e17]:
+            - link "Contribute" [ref=e18] [cursor=pointer]:
+              - /url: /contribute
+          - listitem [ref=e19]:
+            - link "News" [ref=e20] [cursor=pointer]:
+              - /url: /news
+          - listitem [ref=e21]:
+            - link "Future" [ref=e22] [cursor=pointer]:
+              - /url: /future
+          - listitem [ref=e23]:
+            - link "Playground" [ref=e24] [cursor=pointer]:
+              - /url: /playground
+  - list [ref=e26]:
+    - listitem [ref=e27]:
+      - link "Tutorials" [ref=e28] [cursor=pointer]:
+        - /url: /learn/
+    - listitem [ref=e29]:
+      - link "Watch & Listen" [ref=e30] [cursor=pointer]:
+        - /url: /learn/watchlisten/
+    - listitem [ref=e31]:
+      - link "FAQ" [ref=e32] [cursor=pointer]:
+        - /url: /learn/faq/
+    - listitem [ref=e33]:
+      - link "Oracle University" [ref=e34] [cursor=pointer]:
+        - /url: /learn/ou/
+  - main [ref=e35]:
+    - generic [ref=e36]:
+      - heading "Learn Java" [level=1] [ref=e37]
+      - generic [ref=e38]:
+        - heading "Running Your First Java Application" [level=2] [ref=e39]
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link "Getting Started with Java" [ref=e42] [cursor=pointer]:
+              - /url: /learn/getting-started/
+            - paragraph [ref=e44]: Downloading and setting up the JDK, writing your first Java class, and creating your first Java application.
+          - listitem [ref=e45]:
+            - link "Launching Simple Source-Code Programs" [ref=e46] [cursor=pointer]:
+              - /url: /learn/launch-simple-source-code-programs/
+            - paragraph [ref=e48]: Launching simple source-code Java programs with the Java launcher.
+          - listitem [ref=e49]:
+            - link "JShell - The Java Shell Tool" [ref=e50] [cursor=pointer]:
+              - /url: /learn/jshell-tool/
+            - paragraph [ref=e52]: jshell interactively evaluates declarations, statements, and expressions of the Java programming language in a read-eval-print loop (REPL).
+          - listitem [ref=e53]:
+            - link "Building a Java application in Visual Studio Code" [ref=e54] [cursor=pointer]:
+              - /url: /learn/vscode-java/
+            - paragraph [ref=e56]: Oracle Java Platform extension enables you to develop your Maven and Gradle Java project in Visual Studio Code.
+          - listitem [ref=e57]:
+            - link "Building a Java application in IntelliJ IDEA" [ref=e58] [cursor=pointer]:
+              - /url: /learn/intellij-idea/
+            - paragraph [ref=e60]: Learn how to code, run, test, debug and document a Java application in IntelliJ IDEA.
+          - listitem [ref=e61]:
+            - link "Building a Java Application in the Eclipse IDE" [ref=e62] [cursor=pointer]:
+              - /url: /learn/eclipse/
+            - paragraph [ref=e64]: Installing and getting started with the Eclipse IDE for developing Java applications
+      - generic [ref=e65]:
+        - heading "Staying Aware of New Features" [level=2] [ref=e66]
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - link "Java Platform Evolution" [ref=e69] [cursor=pointer]:
+              - /url: /evolution/
+            - paragraph [ref=e71]: Java has come a long ways since Java 8. Let's go over some of this evolution.
+          - listitem [ref=e72]:
+            - link "Using the Preview Features Available in the JDK" [ref=e73] [cursor=pointer]:
+              - /url: /learn/new-features/using-preview/
+            - paragraph [ref=e75]: How to compile and execute the preview features available in the JDK.
+      - generic [ref=e76]:
+        - heading "Getting to Know the Language" [level=2] [ref=e77]
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - link "Objects, Classes, Interfaces, Packages, and Inheritance" [ref=e80] [cursor=pointer]:
+              - /url: /learn/oop/
+            - paragraph [ref=e82]: Introducing the object oriented programming.
+          - listitem [ref=e83]:
+            - link "Java Language Basics" [ref=e84] [cursor=pointer]:
+              - /url: /learn/language-basics/
+            - paragraph [ref=e86]: Getting to know the basics of the Java language.
+          - listitem [ref=e87]:
+            - link "Classes and Objects" [ref=e88] [cursor=pointer]:
+              - /url: /learn/classes-objects/
+            - paragraph [ref=e90]: Defining your own classes, declaring member variables, methods, and constructors.
+          - listitem [ref=e91]:
+            - link "Using Records to Model Immutable Data" [ref=e92] [cursor=pointer]:
+              - /url: /learn/records/
+            - paragraph [ref=e94]: How to model your immutable data with records to make your code simpler and more readable.
+          - listitem [ref=e95]:
+            - link "Numbers and Strings" [ref=e96] [cursor=pointer]:
+              - /url: /learn/numbers-strings/
+            - paragraph [ref=e98]: Understanding numbers, characters and strings of characters.
+          - listitem [ref=e99]:
+            - link "Inheritance" [ref=e100] [cursor=pointer]:
+              - /url: /learn/inheritance/
+            - paragraph [ref=e102]: Leveraging inheritance in Java applications.
+          - listitem [ref=e103]:
+            - link "Interfaces" [ref=e104] [cursor=pointer]:
+              - /url: /learn/interfaces/
+            - paragraph [ref=e106]: Creating and using interfaces.
+          - listitem [ref=e107]:
+            - link "Generics" [ref=e108] [cursor=pointer]:
+              - /url: /learn/generics/
+            - paragraph [ref=e110]: Working with parameterized types.
+          - listitem [ref=e111]:
+            - link "Lambda Expressions" [ref=e112] [cursor=pointer]:
+              - /url: /learn/lambdas/
+            - paragraph [ref=e114]: Using Lambda Expressions to improve the readability of your code.
+          - listitem [ref=e115]:
+            - link "Annotations" [ref=e116] [cursor=pointer]:
+              - /url: /learn/annotations/
+            - paragraph [ref=e118]: Annotations is a form of metadata, provide data about a program that is not part of the program itself. Annotations have no direct effect on the operation of the code they annotate.
+          - listitem [ref=e119]:
+            - link "Packages" [ref=e120] [cursor=pointer]:
+              - /url: /learn/packages/
+            - paragraph [ref=e122]: How to bundle classes and interfaces into packages, how to use classes that are in packages, and how to arrange your file system so that the compiler can find your source files.
+          - listitem [ref=e123]:
+            - link "Using Pattern Matching" [ref=e124] [cursor=pointer]:
+              - /url: /learn/pattern-matching/
+            - paragraph [ref=e126]: Pattern matching is the next major evolution of the Java language. It brings new features, one by one, that greatly improve the way you can write your Java code.
+          - listitem [ref=e127]:
+            - link "Exceptions" [ref=e128] [cursor=pointer]:
+              - /url: /learn/exceptions/
+            - paragraph [ref=e130]: Using exceptions to handle errors and other exceptional events.
+          - listitem [ref=e131]:
+            - link "Refactoring from the Imperative to the Functional Style" [ref=e132] [cursor=pointer]:
+              - /url: /learn/refactoring-to-functional-style/
+            - paragraph [ref=e134]: Learning to change code from the Imperative to the Functional Style.
+      - generic [ref=e135]:
+        - heading "Mastering the API" [level=2] [ref=e136]
+        - list [ref=e137]:
+          - listitem [ref=e138]:
+            - link "The Collections Framework" [ref=e139] [cursor=pointer]:
+              - /url: /learn/api/collections-framework/
+            - paragraph [ref=e141]: Getting to know the Collections Framework to store and retrieve data in collections and hashmaps.
+          - listitem [ref=e142]:
+            - link "The Stream API" [ref=e143] [cursor=pointer]:
+              - /url: /learn/api/streams/
+            - paragraph [ref=e145]: Process your in-memory data with Java streams and collectors. Process them faster with parallel streams.
+          - listitem [ref=e146]:
+            - link "The Java I/O API" [ref=e147] [cursor=pointer]:
+              - /url: /learn/java-io/
+            - paragraph [ref=e149]: Access external resources with the Java Input / Output API.
+          - listitem [ref=e150]:
+            - link "Common I/O Tasks in Modern Java" [ref=e151] [cursor=pointer]:
+              - /url: /learn/modernio/
+            - paragraph [ref=e153]: This article focuses on tasks that application programmers are likely to encounter, particularly in web applications, such as reading and writing text files, reading text, images, JSON from the web, and more.
+          - listitem [ref=e154]:
+            - link "The Date Time API" [ref=e155] [cursor=pointer]:
+              - /url: /learn/date-time/
+            - paragraph [ref=e157]: Covers the Date Time API added to the JDK 8, including the core concepts and classes.
+          - listitem [ref=e158]:
+            - link "Regular Expressions" [ref=e159] [cursor=pointer]:
+              - /url: /learn/regex/
+            - paragraph [ref=e161]: Provides a general overview of regular expressions. It also introduces the core classes that comprise this API.
+          - listitem [ref=e162]:
+            - link "Introduction to Java Reflection" [ref=e163] [cursor=pointer]:
+              - /url: /learn/introduction_to_java_reflection/
+            - paragraph [ref=e165]: Java reflection allows an object to look in the mirror and discover what fields, methods, and constructors it has. We can read and write fields, invoke methods, and even create new objects by calling the constructors.
+          - listitem [ref=e166]:
+            - link "The Reflection API" [ref=e167] [cursor=pointer]:
+              - /url: /learn/reflection/
+            - paragraph [ref=e169]: Let us deep dive in to the Reflection API, and see how you can use it to examine or modify the runtime behavior of applications running in the Java Virtual Machine.
+          - listitem [ref=e170]:
+            - link "Introduction to Method Handles" [ref=e171] [cursor=pointer]:
+              - /url: /learn/introduction_to_method_handles/
+            - paragraph [ref=e173]: Method handles, how they are different from the Reflection API, and the tooling they provide.
+          - listitem [ref=e174]:
+            - link "Fundamentals of Security using JDK Libraries" [ref=e175] [cursor=pointer]:
+              - /url: /learn/security/
+            - paragraph [ref=e177]: Provides a general overview of security APIs. It also introduces the core components part of this API.
+          - listitem [ref=e178]:
+            - link "Virtual Threads" [ref=e179] [cursor=pointer]:
+              - /url: /learn/new-features/virtual-threads/
+            - paragraph [ref=e181]: "Virtual Threads: What, Why, and How?"
+          - listitem [ref=e182]:
+            - link "The Foreign Function and Memory API" [ref=e183] [cursor=pointer]:
+              - /url: /learn/ffm/
+            - paragraph [ref=e185]: The Foreign Function and Memory (FFM) API facilitates Java programs to interoperate with code and data outside the Java runtime without the brittleness and danger of JNI.
+      - generic [ref=e186]:
+        - heading "Organizing your Application" [level=2] [ref=e187]
+        - list [ref=e188]:
+          - listitem [ref=e189]:
+            - link "Modules" [ref=e190] [cursor=pointer]:
+              - /url: /learn/modules/
+            - paragraph [ref=e192]: Understand how the module system shapes the JDK and how you can use it to make your code base more maintainable.
+          - listitem [ref=e193]:
+            - link "Creating Runtime and Application Images with JLink" [ref=e194] [cursor=pointer]:
+              - /url: /learn/jlink/
+            - paragraph [ref=e196]:
+              - text: Learn how to use the command line tool
+              - code [ref=e197]: jlink
+              - text: to create custom-made runtime images or self-contained application images.
+      - generic [ref=e198]:
+        - heading "Getting to know the JVM" [level=2] [ref=e199]
+        - list [ref=e200]:
+          - listitem [ref=e201]:
+            - link "The Core JDK Tools" [ref=e202] [cursor=pointer]:
+              - /url: /learn/jvm/tools/core/
+            - paragraph [ref=e204]: Learn about the tools the JDK gives you to compile, run, analyze and monitor your code.
+          - listitem [ref=e205]:
+            - link "The Monitoring Tools" [ref=e206] [cursor=pointer]:
+              - /url: /learn/jvm/tools/monitoring/
+            - paragraph [ref=e208]: Learn about the tools the JDK gives you to monitor your application.
+          - listitem [ref=e209]:
+            - link "JPackage" [ref=e210] [cursor=pointer]:
+              - /url: /learn/jvm/tool/jpackage/
+            - paragraph [ref=e212]: Packaging your application to create a native installer.
+          - listitem [ref=e213]:
+            - link "The Security Tools" [ref=e214] [cursor=pointer]:
+              - /url: /learn/jvm/tool/security/
+            - paragraph [ref=e216]: Setting security policies with the JDK tools and commands.
+          - listitem [ref=e217]:
+            - link "The Troubleshooting Tools" [ref=e218] [cursor=pointer]:
+              - /url: /learn/jvm/tool/troubleshooting/
+            - paragraph [ref=e220]: Learn about the tools the JDK gives you to troubleshoot Java applications and the Java Virtual Machine (JVM).
+          - listitem [ref=e221]:
+            - link "Garbage Collection in Java Overview" [ref=e222] [cursor=pointer]:
+              - /url: /learn/jvm/tool/garbage-collection/
+            - paragraph [ref=e224]: Understanding the key aspects of how garbage collection works in Java and how to tune garbage collection.
+          - listitem [ref=e225]:
+            - link "CDS and AppCDS in Hotspot" [ref=e226] [cursor=pointer]:
+              - /url: /learn/jvm/cds-appcds/
+            - paragraph [ref=e228]: Understanding how to use CDS in HotSpot to improve JVM startup performance.
+          - listitem [ref=e229]:
+            - link "JDK Flight Recorder" [ref=e230] [cursor=pointer]:
+              - /url: /learn/jvm/jfr/
+            - paragraph [ref=e232]: Learn how to use JDK Flight Recorder to monitor, profile, and test your applications.
+          - listitem [ref=e233]:
+            - link "JWebserver - Launch the Java Simple Web Server" [ref=e234] [cursor=pointer]:
+              - /url: /learn/jvm/tool/jwebserver/
+            - paragraph [ref=e236]: A tool that provides a minimal HTTP server, designed to be used for prototyping, testing, and debugging.
+          - listitem [ref=e237]:
+            - link "Complementary JDK Tools" [ref=e238] [cursor=pointer]:
+              - /url: /learn/jvm/complementary/
+            - paragraph [ref=e240]: Learn how to use complementary JDK tools like jextract.
+      - generic [ref=e241]:
+        - heading "Rich Client Applications" [level=2] [ref=e242]
+        - list [ref=e243]:
+          - listitem [ref=e244]:
+            - link "Download and Setup JavaFX" [ref=e245] [cursor=pointer]:
+              - /url: /learn/javafx/install/
+            - paragraph [ref=e247]: A guide to download and setup a JavaFX runtime on your machine.
+          - listitem [ref=e248]:
+            - link "JavaFX Fundamentals" [ref=e249] [cursor=pointer]:
+              - /url: /learn/javafx/core/
+            - paragraph [ref=e251]: Learn to create simple JavaFX applications.
+          - listitem [ref=e252]:
+            - link "Introduction to JavaFX animations" [ref=e253] [cursor=pointer]:
+              - /url: /learn/javafx-animations/
+            - paragraph [ref=e255]: Learn to create advanced JavaFX animations
+          - listitem [ref=e256]:
+            - link "Accessibility in JavaFX" [ref=e257] [cursor=pointer]:
+              - /url: /learn/javafx/a11y/
+            - paragraph [ref=e259]: Understand how to build accessible JavaFX applications.
+      - generic [ref=e260]:
+        - heading "More Resources" [level=2] [ref=e261]
+        - list [ref=e262]:
+          - listitem [ref=e263]:
+            - link "Getting Started with Java Certification" [ref=e264] [cursor=pointer]:
+              - /url: /learn/java-cert-overview/
+            - paragraph [ref=e266]: Overview of the Java Certification and how to study
+          - listitem [ref=e267]:
+            - link "Debugging in Java" [ref=e268] [cursor=pointer]:
+              - /url: /learn/debugging/
+            - paragraph [ref=e270]: Learning how to use a debugger
+      - generic [ref=e271]:
+        - heading "References for the latest release" [level=2] [ref=e272]
+        - list [ref=e273]:
+          - listitem [ref=e274]:
+            - link "Java Documentation" [ref=e275] [cursor=pointer]:
+              - /url: https://docs.oracle.com/en/java/javase/26/
+          - listitem [ref=e276]:
+            - link "Java API Docs" [ref=e277] [cursor=pointer]:
+              - /url: https://docs.oracle.com/en/java/javase/26/docs/api/index.html
+          - listitem [ref=e278]:
+            - link "Java Release Notes" [ref=e279] [cursor=pointer]:
+              - /url: https://www.oracle.com/java/technologies/javase/26u-relnotes.html
+          - listitem [ref=e280]:
+            - link "Java Language and Virtual Machine Specifications" [ref=e281] [cursor=pointer]:
+              - /url: https://docs.oracle.com/javase/specs/index.html
+          - listitem [ref=e282]:
+            - link "Secure Coding Guidelines" [ref=e283] [cursor=pointer]:
+              - /url: https://www.oracle.com/java/technologies/javase/seccodeguide.html
+          - listitem [ref=e284]:
+            - link "Java Administrators" [ref=e285] [cursor=pointer]:
+              - /url: https://ops.java/
+  - contentinfo [ref=e286]:
+    - generic [ref=e287]:
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - text: About
+          - list "About" [ref=e291]:
+            - listitem [ref=e292]:
+              - link "Oracle Java website" [ref=e293] [cursor=pointer]:
+                - /url: https://www.oracle.com/java/
+                - text: About Java
+            - listitem [ref=e294]:
+              - link "Open JDK website" [ref=e295] [cursor=pointer]:
+                - /url: https://openjdk.org/
+                - text: About OpenJDK
+            - listitem [ref=e296]:
+              - link "Geting started with Java" [ref=e297] [cursor=pointer]:
+                - /url: /learn/getting-started
+                - text: Getting Started
+            - listitem [ref=e298]:
+              - link "Oracle SE subscription" [ref=e299] [cursor=pointer]:
+                - /url: https://www.oracle.com/java/java-se-subscription/
+                - text: Oracle Java SE Subscription
+        - generic [ref=e300]:
+          - text: Downloads
+          - list "Downloads" [ref=e301]:
+            - listitem [ref=e302]:
+              - link "All releases" [ref=e303] [cursor=pointer]:
+                - /url: https://www.oracle.com/java/technologies/javase-downloads.html
+                - text: All Releases
+            - listitem [ref=e304]:
+              - link "GitHub OpenJDK repositories" [ref=e305] [cursor=pointer]:
+                - /url: https://github.com/openjdk/jdk
+                - text: Source Code
+        - generic [ref=e306]:
+          - text: Learning Java
+          - list "Learning Java" [ref=e307]:
+            - listitem [ref=e308]:
+              - link "Documentation on the Oracle website" [ref=e309] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/
+                - text: Documentation
+            - listitem [ref=e310]:
+              - link "API documentation for Java 26" [ref=e311] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/26/docs/api/index.html
+                - text: Java 26 API Docs
+            - listitem [ref=e312]:
+              - link "Tutorials" [ref=e313] [cursor=pointer]:
+                - /url: /learn/
+            - listitem [ref=e314]:
+              - link "Frequently Asked Questions" [ref=e315] [cursor=pointer]:
+                - /url: /learn/faq/
+                - text: FAQ
+            - listitem [ref=e316]:
+              - link "Java on YouTube" [ref=e317] [cursor=pointer]:
+                - /url: https://www.youtube.com/java
+                - text: Java YouTube
+        - generic [ref=e318]:
+          - text: Community
+          - list "Community" [ref=e319]:
+            - listitem [ref=e320]:
+              - link "Java USer Groups" [ref=e321] [cursor=pointer]:
+                - /url: /community/jugs/
+                - text: Java User Groups
+            - listitem [ref=e322]:
+              - link "Java Conferences" [ref=e323] [cursor=pointer]:
+                - /url: /community/events/
+            - listitem [ref=e324]:
+              - link "Contributing" [ref=e325] [cursor=pointer]:
+                - /url: /contribute/
+            - listitem [ref=e326]:
+              - link "Contributing" [ref=e327] [cursor=pointer]:
+                - /url: https://bugs.java/
+                - text: Java Bugs
+        - generic [ref=e328]:
+          - text: Stay Informed
+          - list "Stay Informed" [ref=e329]:
+            - listitem [ref=e330]:
+              - link "Inside Java" [ref=e331] [cursor=pointer]:
+                - /url: https://inside.java
+                - text: Inside.java
+            - listitem [ref=e332]:
+              - link "The inside Java newscast" [ref=e333] [cursor=pointer]:
+                - /url: https://inside.java/newscast
+                - text: Newscast
+            - listitem [ref=e334]:
+              - link "The inside Java podcasts" [ref=e335] [cursor=pointer]:
+                - /url: https://inside.java/podcast/
+                - text: Podcast
+            - listitem [ref=e336]:
+              - link "Java on YouTube" [ref=e337] [cursor=pointer]:
+                - /url: https://youtube.com/java
+            - listitem [ref=e338]:
+              - link "Java on Twitter" [ref=e339] [cursor=pointer]:
+                - /url: https://twitter.com/java
+                - text: "@java on X/Twitter"
+      - generic [ref=e340]:
+        - link "Java on X/Twitter" [ref=e341] [cursor=pointer]:
+          - /url: https://www.twitter.com/java
+        - link "GitHub OpenJDK repositories" [ref=e343] [cursor=pointer]:
+          - /url: https://github.com/openjdk
+        - link "Java YouTube channel" [ref=e345] [cursor=pointer]:
+          - /url: https://youtube.com/java
+      - paragraph [ref=e347]:
+        - link "Copyright" [ref=e348] [cursor=pointer]:
+          - /url: https://www.oracle.com/legal/copyright.html
+        - text: © 2026 Oracle and/or its affiliates. All rights reserved.
+        - link "Terms of Use" [ref=e349] [cursor=pointer]:
+          - /url: https://www.oracle.com/legal/terms.html
+        - text: "|"
+        - link "Privacy" [ref=e350] [cursor=pointer]:
+          - /url: https://www.oracle.com/legal/privacy/
+        - text: "|"
+        - link "Trademarks" [ref=e351] [cursor=pointer]:
+          - /url: https://www.oracle.com/legal/trademarks.html
+      - link [ref=e352] [cursor=pointer]:
+        - /url: https://www.oracle.com
+        - img "Oracle Home" [ref=e353]

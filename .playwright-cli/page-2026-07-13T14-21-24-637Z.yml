@@ -1,0 +1,2869 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - img "Oracle Logo" [ref=e3]
+    - paragraph [ref=e4]:
+      - link "Java SE" [ref=e5] [cursor=pointer]:
+        - /url: https://docs.oracle.com/en/java/javase/21/
+      - text: ">"
+      - link "Java SE Specifications" [ref=e6] [cursor=pointer]:
+        - /url: ../../../index.html
+      - text: ">"
+      - link "Java Language Specification" [ref=e7] [cursor=pointer]:
+        - /url: index.html
+  - generic [ref=e8]:
+    - table "Navigation header" [ref=e9]:
+      - rowgroup [ref=e10]:
+        - row [ref=e11]:
+          - columnheader "Chapter 17. Threads and Locks" [ref=e12]
+        - row [ref=e13]:
+          - cell [ref=e14]:
+            - link "Prev" [ref=e15] [cursor=pointer]:
+              - /url: jls-16.html
+          - rowheader [ref=e16]
+          - cell [ref=e17]:
+            - link "Next" [ref=e18] [cursor=pointer]:
+              - /url: jls-18.html
+    - separator [ref=e19]
+  - generic [ref=e20]:
+    - heading "Chapter 17. Threads and Locks" [level=1] [ref=e24]
+    - generic [ref=e25]:
+      - paragraph [ref=e26]: Table of Contents
+      - generic [ref=e27]:
+        - term [ref=e28]:
+          - link "17.1. Synchronization" [ref=e30] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.1
+        - term [ref=e31]:
+          - link "17.2. Wait Sets and Notification" [ref=e33] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.2
+        - definition [ref=e34]:
+          - generic [ref=e35]:
+            - term [ref=e36]:
+              - link "17.2.1. Wait" [ref=e38] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.2.1
+            - term [ref=e39]:
+              - link "17.2.2. Notification" [ref=e41] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.2.2
+            - term [ref=e42]:
+              - link "17.2.3. Interruptions" [ref=e44] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.2.3
+            - term [ref=e45]:
+              - link "17.2.4. Interactions of Waits, Notification, and Interruption" [ref=e47] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.2.4
+        - term [ref=e48]:
+          - link "17.3. Sleep and Yield" [ref=e50] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.3
+        - term [ref=e51]:
+          - link "17.4. Memory Model" [ref=e53] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4
+        - definition [ref=e54]:
+          - generic [ref=e55]:
+            - term [ref=e56]:
+              - link "17.4.1. Shared Variables" [ref=e58] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.1
+            - term [ref=e59]:
+              - link "17.4.2. Actions" [ref=e61] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.2
+            - term [ref=e62]:
+              - link "17.4.3. Programs and Program Order" [ref=e64] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.3
+            - term [ref=e65]:
+              - link "17.4.4. Synchronization Order" [ref=e67] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.4
+            - term [ref=e68]:
+              - link "17.4.5. Happens-before Order" [ref=e70] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.5
+            - term [ref=e71]:
+              - link "17.4.6. Executions" [ref=e73] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.6
+            - term [ref=e74]:
+              - link "17.4.7. Well-Formed Executions" [ref=e76] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.7
+            - term [ref=e77]:
+              - link "17.4.8. Executions and Causality Requirements" [ref=e79] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.8
+            - term [ref=e80]:
+              - link "17.4.9. Observable Behavior and Nonterminating Executions" [ref=e82] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.9
+        - term [ref=e83]:
+          - link [ref=e85] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.5
+            - text: 17.5.
+            - code [ref=e86]: final
+            - text: Field Semantics
+        - definition [ref=e87]:
+          - generic [ref=e88]:
+            - term [ref=e89]:
+              - link [ref=e91] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.5.1
+                - text: 17.5.1. Semantics of
+                - code [ref=e92]: final
+                - text: Fields
+            - term [ref=e93]:
+              - link [ref=e95] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.5.2
+                - text: 17.5.2. Reading
+                - code [ref=e96]: final
+                - text: Fields During Construction
+            - term [ref=e97]:
+              - link [ref=e99] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.5.3
+                - text: 17.5.3. Subsequent Modification of
+                - code [ref=e100]: final
+                - text: Fields
+            - term [ref=e101]:
+              - link "17.5.4. Write-Protected Fields" [ref=e103] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.5.4
+        - term [ref=e104]:
+          - link "17.6. Word Tearing" [ref=e106] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.6
+        - term [ref=e107]:
+          - link [ref=e109] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.7
+            - text: 17.7. Non-Atomic Treatment of
+            - code [ref=e110]: double
+            - text: and
+            - code [ref=e111]: long
+    - paragraph [ref=e112]:
+      - text: While most of the discussion in the preceding chapters is concerned only with the behavior of code as executed a single statement or expression at a time, that is, by a single
+      - emphasis [ref=e114]: thread
+      - text: ", the Java Virtual Machine can support many threads of execution at once. These threads independently execute code that operates on values and objects residing in a shared main memory. Threads may be supported by having many hardware processors, by time-slicing a single hardware processor, or by time-slicing many hardware processors."
+    - paragraph [ref=e115]:
+      - text: Threads are represented by the
+      - code [ref=e116]: Thread
+      - text: class. The only way for a user to create a thread is to create an object of this class; each thread is associated with such an object. A thread will start when the
+      - code [ref=e117]: start()
+      - text: method is invoked on the corresponding
+      - code [ref=e118]: Thread
+      - text: object.
+    - paragraph [ref=e119]:
+      - text: The behavior of threads, particularly when not correctly synchronized, can be confusing and counterintuitive. This chapter describes the semantics of multithreaded programs; it includes rules for which values may be seen by a read of shared memory that is updated by multiple threads. As the specification is similar to the
+      - emphasis [ref=e121]: memory models
+      - text: for different hardware architectures, these semantics are known as the
+      - emphasis [ref=e123]: Java programming language memory model
+      - text: . When no confusion can arise, we will simply refer to these rules as "the memory model".
+    - paragraph [ref=e124]: These semantics do not prescribe how a multithreaded program should be executed. Rather, they describe the behaviors that multithreaded programs are allowed to exhibit. Any execution strategy that generates only allowed behaviors is an acceptable execution strategy.
+    - generic [ref=e125]:
+      - heading "17.1. Synchronization" [level=2] [ref=e129]
+      - paragraph [ref=e130]:
+        - text: The Java programming language provides multiple mechanisms for communicating between threads. The most basic of these methods is
+        - emphasis [ref=e132]: synchronization
+        - text: ", which is implemented using"
+        - emphasis [ref=e134]: monitors
+        - text: . Each object in Java is associated with a monitor, which a thread can
+        - emphasis [ref=e136]: lock
+        - text: or
+        - emphasis [ref=e138]: unlock
+        - text: . Only one thread at a time may hold a lock on a monitor. Any other threads attempting to lock that monitor are blocked until they can obtain a lock on that monitor. A thread
+        - emphasis [ref=e140]: t
+        - text: may lock a particular monitor multiple times; each unlock reverses the effect of one lock operation.
+      - paragraph [ref=e141]:
+        - text: The
+        - code [ref=e142]: synchronized
+        - text: statement (
+        - link "§14.19" [ref=e143] [cursor=pointer]:
+          - /url: jls-14.html#jls-14.19
+        - text: ) computes a reference to an object; it then attempts to perform a lock action on that object's monitor and does not proceed further until the lock action has successfully completed. After the lock action has been performed, the body of the
+        - code [ref=e144]: synchronized
+        - text: statement is executed. If execution of the body is ever completed, either normally or abruptly, an unlock action is automatically performed on that same monitor.
+      - paragraph [ref=e145]:
+        - text: A
+        - code [ref=e146]: synchronized
+        - text: method (
+        - link "§8.4.3.6" [ref=e147] [cursor=pointer]:
+          - /url: jls-8.html#jls-8.4.3.6
+        - text: ) automatically performs a lock action when it is invoked; its body is not executed until the lock action has successfully completed. If the method is an instance method, it locks the monitor associated with the instance for which it was invoked (that is, the object that will be known as
+        - code [ref=e148]: this
+        - text: during execution of the body of the method). If the method is
+        - code [ref=e149]: static
+        - text: ", it locks the monitor associated with the"
+        - code [ref=e150]: Class
+        - text: object that represents the class in which the method is defined. If execution of the method's body is ever completed, either normally or abruptly, an unlock action is automatically performed on that same monitor.
+      - paragraph [ref=e151]: The Java programming language neither prevents nor requires detection of deadlock conditions. Programs where threads hold (directly or indirectly) locks on multiple objects should use conventional techniques for deadlock avoidance, creating higher-level locking primitives that do not deadlock, if necessary.
+      - paragraph [ref=e152]:
+        - text: Other mechanisms, such as reads and writes of
+        - code [ref=e153]: volatile
+        - text: variables and the use of classes in the
+        - code [ref=e154]: java.util.concurrent
+        - text: package, provide alternative ways of synchronization.
+    - generic [ref=e155]:
+      - heading "17.2. Wait Sets and Notification" [level=2] [ref=e159]
+      - paragraph [ref=e160]:
+        - text: Every object, in addition to having an associated monitor, has an associated
+        - emphasis [ref=e162]: wait set
+        - text: . A wait set is a set of threads.
+      - paragraph [ref=e163]:
+        - text: When an object is first created, its wait set is empty. Elementary actions that add threads to and remove threads from wait sets are atomic. Wait sets are manipulated solely through the methods
+        - code [ref=e164]: Object
+        - code [ref=e165]: .
+        - code [ref=e166]: wait
+        - text: ","
+        - code [ref=e167]: Object
+        - code [ref=e168]: .
+        - code [ref=e169]: notify
+        - text: ", and"
+        - code [ref=e170]: Object
+        - code [ref=e171]: .
+        - code [ref=e172]: notifyAll
+        - text: .
+      - paragraph [ref=e173]:
+        - text: Wait set manipulations can also be affected by the interruption status of a thread, and by the
+        - code [ref=e174]: Thread
+        - text: class's methods dealing with interruption. Additionally, the
+        - code [ref=e175]: Thread
+        - text: class's methods for sleeping and joining other threads have properties derived from those of wait and notification actions.
+      - generic [ref=e176]:
+        - heading "17.2.1. Wait" [level=3] [ref=e180]
+        - paragraph [ref=e181]:
+          - emphasis [ref=e183]: Wait actions
+          - text: occur upon invocation of
+          - code [ref=e184]: wait()
+          - text: ", or the timed forms"
+          - code [ref=e185]: wait(long millisecs)
+          - text: and
+          - code [ref=e186]: wait(long millisecs, int nanosecs)
+          - text: .
+        - paragraph [ref=e187]:
+          - text: A call of
+          - code [ref=e188]: wait(long millisecs)
+          - text: with a parameter of zero, or a call of
+          - code [ref=e189]: wait(long millisecs, int nanosecs)
+          - text: with two zero parameters, is equivalent to an invocation of
+          - code [ref=e190]: wait()
+          - text: .
+        - paragraph [ref=e191]:
+          - text: A thread
+          - emphasis [ref=e193]: returns normally
+          - text: from a wait if it returns without throwing an
+          - code [ref=e194]: InterruptedException
+          - text: .
+        - paragraph [ref=e195]:
+          - text: Let thread
+          - emphasis [ref=e197]: t
+          - text: be the thread executing the
+          - code [ref=e198]: wait
+          - text: method on object
+          - emphasis [ref=e200]: m
+          - text: ", and let"
+          - emphasis [ref=e202]: "n"
+          - text: be the number of lock actions by
+          - emphasis [ref=e204]: t
+          - text: "on"
+          - emphasis [ref=e206]: m
+          - text: "that have not been matched by unlock actions. One of the following actions occurs:"
+        - list [ref=e208]:
+          - listitem [ref=e209]:
+            - paragraph [ref=e210]:
+              - text: If
+              - emphasis [ref=e212]: "n"
+              - text: is zero (i.e., thread
+              - emphasis [ref=e214]: t
+              - text: does not already possess the lock for target
+              - emphasis [ref=e216]: m
+              - text: ), then an
+              - code [ref=e217]: IllegalMonitorStateException
+              - text: is thrown.
+          - listitem [ref=e218]:
+            - paragraph [ref=e219]:
+              - text: If this is a timed wait and the
+              - code [ref=e220]: nanosecs
+              - text: argument is not in the range of
+              - code [ref=e221]: 0-999999
+              - text: or the
+              - code [ref=e222]: millisecs
+              - text: argument is negative, then an
+              - code [ref=e223]: IllegalArgumentException
+              - text: is thrown.
+          - listitem [ref=e224]:
+            - paragraph [ref=e225]:
+              - text: If thread
+              - emphasis [ref=e227]: t
+              - text: is interrupted, then an
+              - code [ref=e228]: InterruptedException
+              - text: is thrown and
+              - emphasis [ref=e230]: t
+              - text: "'s interruption status is set to false."
+          - listitem [ref=e231]:
+            - paragraph [ref=e232]: "Otherwise, the following sequence occurs:"
+            - list [ref=e234]:
+              - listitem [ref=e235]:
+                - paragraph [ref=e236]:
+                  - text: Thread
+                  - emphasis [ref=e238]: t
+                  - text: is added to the wait set of object
+                  - emphasis [ref=e240]: m
+                  - text: ", and performs"
+                  - emphasis [ref=e242]: "n"
+                  - text: unlock actions on
+                  - emphasis [ref=e244]: m
+                  - text: .
+              - listitem [ref=e245]:
+                - paragraph [ref=e246]:
+                  - text: Thread
+                  - emphasis [ref=e248]: t
+                  - text: does not execute any further instructions until it has been removed from
+                  - emphasis [ref=e250]: m
+                  - text: "'s wait set. The thread may be removed from the wait set due to any one of the following actions, and will resume sometime afterward:"
+                - list [ref=e252]:
+                  - listitem [ref=e253]:
+                    - paragraph [ref=e254]:
+                      - text: A
+                      - code [ref=e255]: notify
+                      - text: action being performed on
+                      - emphasis [ref=e257]: m
+                      - text: in which
+                      - emphasis [ref=e259]: t
+                      - text: is selected for removal from the wait set.
+                  - listitem [ref=e260]:
+                    - paragraph [ref=e261]:
+                      - text: A
+                      - code [ref=e262]: notifyAll
+                      - text: action being performed on
+                      - emphasis [ref=e264]: m
+                      - text: .
+                  - listitem [ref=e265]:
+                    - paragraph [ref=e266]:
+                      - text: An
+                      - code [ref=e267]: interrupt
+                      - text: action being performed on
+                      - emphasis [ref=e269]: t
+                      - text: .
+                  - listitem [ref=e270]:
+                    - paragraph [ref=e271]:
+                      - text: If this is a timed wait, an internal action removing
+                      - emphasis [ref=e273]: t
+                      - text: from
+                      - emphasis [ref=e275]: m
+                      - text: "'s wait set that occurs after at least"
+                      - code [ref=e276]: millisecs
+                      - text: milliseconds plus
+                      - code [ref=e277]: nanosecs
+                      - text: nanoseconds elapse since the beginning of this wait action.
+                  - listitem [ref=e278]:
+                    - paragraph [ref=e279]: An internal action by the implementation. Implementations are permitted, although not encouraged, to perform "spurious wake-ups", that is, to remove threads from wait sets and thus enable resumption without explicit instructions to do so.
+                    - paragraph [ref=e280]:
+                      - text: Notice that this provision necessitates the Java coding practice of using
+                      - code [ref=e281]: wait
+                      - text: only within loops that terminate only when some logical condition that the thread is waiting for holds.
+                - paragraph [ref=e282]: Each thread must determine an order over the events that could cause it to be removed from a wait set. That order does not have to be consistent with other orderings, but the thread must behave as though those events occurred in that order.
+                - paragraph [ref=e283]:
+                  - text: For example, if a thread
+                  - emphasis [ref=e285]: t
+                  - text: is in the wait set for
+                  - emphasis [ref=e287]: m
+                  - text: ", and then both an interrupt of"
+                  - emphasis [ref=e289]: t
+                  - text: and a notification of
+                  - emphasis [ref=e291]: m
+                  - text: occur, there must be an order over these events. If the interrupt is deemed to have occurred first, then
+                  - emphasis [ref=e293]: t
+                  - text: will eventually return from
+                  - code [ref=e294]: wait
+                  - text: by throwing
+                  - code [ref=e295]: InterruptedException
+                  - text: ", and some other thread in the wait set for"
+                  - emphasis [ref=e297]: m
+                  - text: (if any exist at the time of the notification) must receive the notification. If the notification is deemed to have occurred first, then
+                  - emphasis [ref=e299]: t
+                  - text: will eventually return normally from
+                  - code [ref=e300]: wait
+                  - text: with an interrupt still pending.
+              - listitem [ref=e301]:
+                - paragraph [ref=e302]:
+                  - text: Thread
+                  - emphasis [ref=e304]: t
+                  - text: performs
+                  - emphasis [ref=e306]: "n"
+                  - text: lock actions on
+                  - emphasis [ref=e308]: m
+                  - text: .
+              - listitem [ref=e309]:
+                - paragraph [ref=e310]:
+                  - text: If thread
+                  - emphasis [ref=e312]: t
+                  - text: was removed from
+                  - emphasis [ref=e314]: m
+                  - text: "'s wait set in step 2 due to an interrupt, then"
+                  - emphasis [ref=e316]: t
+                  - text: "'s interruption status is set to false and the"
+                  - code [ref=e317]: wait
+                  - text: method throws
+                  - code [ref=e318]: InterruptedException
+                  - text: .
+      - generic [ref=e319]:
+        - heading "17.2.2. Notification" [level=3] [ref=e323]
+        - paragraph [ref=e324]:
+          - text: Notification actions occur upon invocation of methods
+          - code [ref=e325]: notify
+          - text: and
+          - code [ref=e326]: notifyAll
+          - text: .
+        - paragraph [ref=e327]:
+          - text: Let thread
+          - emphasis [ref=e329]: t
+          - text: be the thread executing either of these methods on object
+          - emphasis [ref=e331]: m
+          - text: ", and let"
+          - emphasis [ref=e333]: "n"
+          - text: be the number of lock actions by
+          - emphasis [ref=e335]: t
+          - text: "on"
+          - emphasis [ref=e337]: m
+          - text: "that have not been matched by unlock actions. One of the following actions occurs:"
+        - list [ref=e339]:
+          - listitem [ref=e340]:
+            - paragraph [ref=e341]:
+              - text: If
+              - emphasis [ref=e343]: "n"
+              - text: is zero, then an
+              - code [ref=e344]: IllegalMonitorStateException
+              - text: is thrown.
+            - paragraph [ref=e345]:
+              - text: This is the case where thread
+              - emphasis [ref=e347]: t
+              - text: does not already possess the lock for target
+              - emphasis [ref=e349]: m
+              - text: .
+          - listitem [ref=e350]:
+            - paragraph [ref=e351]:
+              - text: If
+              - emphasis [ref=e353]: "n"
+              - text: is greater than zero and this is a
+              - code [ref=e354]: notify
+              - text: action, then if
+              - emphasis [ref=e356]: m
+              - text: "'s wait set is not empty, a thread"
+              - emphasis [ref=e358]: u
+              - text: that is a member of
+              - emphasis [ref=e360]: m
+              - text: "'s current wait set is selected and removed from the wait set."
+            - paragraph [ref=e361]:
+              - text: There is no guarantee about which thread in the wait set is selected. This removal from the wait set enables
+              - emphasis [ref=e363]: u
+              - text: "'s resumption in a wait action. Notice, however, that"
+              - emphasis [ref=e365]: u
+              - text: "'s lock actions upon resumption cannot succeed until some time after"
+              - emphasis [ref=e367]: t
+              - text: fully unlocks the monitor for
+              - emphasis [ref=e369]: m
+              - text: .
+          - listitem [ref=e370]:
+            - paragraph [ref=e371]:
+              - text: If
+              - emphasis [ref=e373]: "n"
+              - text: is greater than zero and this is a
+              - code [ref=e374]: notifyAll
+              - text: action, then all threads are removed from
+              - emphasis [ref=e376]: m
+              - text: "'s wait set, and thus resume."
+            - paragraph [ref=e377]: Notice, however, that only one of them at a time will lock the monitor required during the resumption of wait.
+      - generic [ref=e378]:
+        - heading "17.2.3. Interruptions" [level=3] [ref=e382]
+        - paragraph [ref=e383]:
+          - text: Interruption actions occur upon invocation of
+          - code [ref=e384]: Thread.interrupt
+          - text: ", as well as methods defined to invoke it in turn, such as"
+          - code [ref=e385]: ThreadGroup.interrupt
+          - text: .
+        - paragraph [ref=e386]:
+          - text: Let
+          - emphasis [ref=e388]: t
+          - text: be the thread invoking
+          - emphasis [ref=e390]: u
+          - code [ref=e391]: .interrupt
+          - text: ", for some thread"
+          - emphasis [ref=e393]: u
+          - text: ", where"
+          - emphasis [ref=e395]: t
+          - text: and
+          - emphasis [ref=e397]: u
+          - text: may be the same. This action causes
+          - emphasis [ref=e399]: u
+          - text: "'s interruption status to be set to true."
+        - paragraph [ref=e400]:
+          - text: Additionally, if there exists some object
+          - emphasis [ref=e402]: m
+          - text: whose wait set contains
+          - emphasis [ref=e404]: u
+          - text: ", then"
+          - emphasis [ref=e406]: u
+          - text: is removed from
+          - emphasis [ref=e408]: m
+          - text: "'s wait set. This enables"
+          - emphasis [ref=e410]: u
+          - text: to resume in a wait action, in which case this wait will, after re-locking
+          - emphasis [ref=e412]: m
+          - text: "'s monitor, throw"
+          - code [ref=e413]: InterruptedException
+          - text: .
+        - paragraph [ref=e414]:
+          - text: Invocations of
+          - code [ref=e415]: Thread.isInterrupted
+          - text: can determine a thread's interruption status. The
+          - code [ref=e416]: static
+          - text: method
+          - code [ref=e417]: Thread.interrupted
+          - text: may be invoked by a thread to observe and clear its own interruption status.
+      - generic [ref=e418]:
+        - heading "17.2.4. Interactions of Waits, Notification, and Interruption" [level=3] [ref=e422]
+        - paragraph [ref=e423]: The above specifications allow us to determine several properties having to do with the interaction of waits, notification, and interruption.
+        - paragraph [ref=e424]: "If a thread is both notified and interrupted while waiting, it may either:"
+        - list [ref=e426]:
+          - listitem [ref=e427]:
+            - paragraph [ref=e428]:
+              - text: return normally from
+              - code [ref=e429]: wait
+              - text: ", while still having a pending interrupt (in other words, a call to"
+              - code [ref=e430]: Thread.interrupted
+              - text: would return true)
+          - listitem [ref=e431]:
+            - paragraph [ref=e432]:
+              - text: return from
+              - code [ref=e433]: wait
+              - text: by throwing an
+              - code [ref=e434]: InterruptedException
+              - text: .
+        - paragraph [ref=e435]:
+          - text: The thread may not reset its interrupt status and return normally from the call to
+          - code [ref=e436]: wait
+          - text: .
+        - paragraph [ref=e437]:
+          - text: Similarly, notifications cannot be lost due to interrupts. Assume that a set
+          - emphasis [ref=e439]: s
+          - text: of threads is in the wait set of an object
+          - emphasis [ref=e441]: m
+          - text: ", and another thread performs a"
+          - code [ref=e442]: notify
+          - text: "on"
+          - emphasis [ref=e444]: m
+          - text: ". Then either:"
+        - list [ref=e446]:
+          - listitem [ref=e447]:
+            - paragraph [ref=e448]:
+              - text: at least one thread in
+              - emphasis [ref=e450]: s
+              - text: must return normally from
+              - code [ref=e451]: wait
+              - text: ", or"
+          - listitem [ref=e452]:
+            - paragraph [ref=e453]:
+              - text: all of the threads in
+              - emphasis [ref=e455]: s
+              - text: must exit
+              - code [ref=e456]: wait
+              - text: by throwing
+              - code [ref=e457]: InterruptedException
+              - text: .
+        - paragraph [ref=e458]:
+          - text: Note that if a thread is both interrupted and woken via
+          - code [ref=e459]: notify
+          - text: ", and that thread returns from"
+          - code [ref=e460]: wait
+          - text: by throwing an
+          - code [ref=e461]: InterruptedException
+          - text: ", then some other thread in the wait set must be notified."
+    - generic [ref=e462]:
+      - heading "17.3. Sleep and Yield" [level=2] [ref=e466]
+      - paragraph [ref=e467]:
+        - code [ref=e468]: Thread.sleep
+        - text: causes the currently executing thread to sleep (temporarily cease execution) for the specified duration, subject to the precision and accuracy of system timers and schedulers. The thread does not lose ownership of any monitors, and resumption of execution will depend on scheduling and the availability of processors on which to execute the thread.
+      - paragraph [ref=e469]:
+        - text: It is important to note that neither
+        - code [ref=e470]: Thread.sleep
+        - text: nor
+        - code [ref=e471]: Thread.yield
+        - text: have any synchronization semantics. In particular, the compiler does not have to flush writes cached in registers out to shared memory before a call to
+        - code [ref=e472]: Thread.sleep
+        - text: or
+        - code [ref=e473]: Thread.yield
+        - text: ", nor does the compiler have to reload values cached in registers after a call to"
+        - code [ref=e474]: Thread.sleep
+        - text: or
+        - code [ref=e475]: Thread.yield
+        - text: .
+      - generic [ref=e476]:
+        - paragraph [ref=e477]:
+          - text: For example, in the following (broken) code fragment, assume that
+          - code [ref=e478]: this.done
+          - text: is a non-
+          - code [ref=e479]: volatile boolean
+          - text: "field:"
+        - generic [ref=e480]: while (!this.done) Thread.sleep(1000);
+        - paragraph [ref=e481]:
+          - text: The compiler is free to read the field
+          - code [ref=e482]: this.done
+          - text: just once, and reuse the cached value in each execution of the loop. This would mean that the loop would never terminate, even if another thread changed the value of
+          - code [ref=e483]: this.done
+          - text: .
+    - generic [ref=e484]:
+      - heading "17.4. Memory Model" [level=2] [ref=e488]
+      - paragraph [ref=e489]:
+        - text: A
+        - emphasis [ref=e491]: memory model
+        - text: describes, given a program and an execution trace of that program, whether the execution trace is a legal execution of the program. The Java programming language memory model works by examining each read in an execution trace and checking that the write observed by that read is valid according to certain rules.
+      - paragraph [ref=e492]: The memory model describes possible behaviors of a program. An implementation is free to produce any code it likes, as long as all resulting executions of a program produce a result that can be predicted by the memory model.
+      - paragraph [ref=e493]: This provides a great deal of freedom for the implementor to perform a myriad of code transformations, including the reordering of actions and removal of unnecessary synchronization.
+      - generic [ref=e494]:
+        - paragraph [ref=e495]: Example 17.4-1. Incorrectly Synchronized Programs May Exhibit Surprising Behavior
+        - generic [ref=e496]:
+          - paragraph [ref=e497]: The semantics of the Java programming language allow compilers and microprocessors to perform optimizations that can interact with incorrectly synchronized code in ways that can produce behaviors that seem paradoxical. Here are some examples of how incorrectly synchronized programs may exhibit surprising behaviors.
+          - paragraph [ref=e498]:
+            - text: Consider, for example, the example program traces shown in
+            - link "Table 17.4-A" [ref=e499] [cursor=pointer]:
+              - /url: jls-17.html#jls-17.4-A
+            - text: . This program uses local variables
+            - code [ref=e500]: r1
+            - text: and
+            - code [ref=e501]: r2
+            - text: and shared variables
+            - code [ref=e502]: A
+            - text: and
+            - code [ref=e503]: B
+            - text: . Initially,
+            - code [ref=e504]: A == B == 0
+            - text: .
+          - generic [ref=e505]:
+            - paragraph [ref=e506]: Table 17.4-A. Surprising results caused by statement reordering - original code
+            - table "Surprising results caused by statement reordering - original code" [ref=e508]:
+              - rowgroup [ref=e512]:
+                - row [ref=e513]:
+                  - columnheader "Thread 1" [ref=e514]
+                  - columnheader "Thread 2" [ref=e515]
+              - rowgroup [ref=e516]:
+                - row [ref=e517]:
+                  - cell [ref=e518]:
+                    - text: "1:"
+                    - code [ref=e519]: r2 = A;
+                  - cell [ref=e520]:
+                    - text: "3:"
+                    - code [ref=e521]: r1 = B;
+                - row [ref=e522]:
+                  - cell [ref=e523]:
+                    - text: "2:"
+                    - code [ref=e524]: B = 1;
+                  - cell [ref=e525]:
+                    - text: "4:"
+                    - code [ref=e526]: A = 2;
+          - paragraph [ref=e527]:
+            - text: It may appear that the result
+            - code [ref=e528]: r2 == 2
+            - text: and
+            - code [ref=e529]: r1 == 1
+            - text: is impossible. Intuitively, either instruction 1 or instruction 3 should come first in an execution. If instruction 1 comes first, it should not be able to see the write at instruction 4. If instruction 3 comes first, it should not be able to see the write at instruction 2.
+          - paragraph [ref=e530]: If some execution exhibited this behavior, then we would know that instruction 4 came before instruction 1, which came before instruction 2, which came before instruction 3, which came before instruction 4. This is, on the face of it, absurd.
+          - paragraph [ref=e531]:
+            - text: However, compilers are allowed to reorder the instructions in either thread, when this does not affect the execution of that thread in isolation. If instruction 1 is reordered with instruction 2, as shown in the trace in
+            - link "Table 17.4-B" [ref=e532] [cursor=pointer]:
+              - /url: jls-17.html#jls-17.4-B
+            - text: ", then it is easy to see how the result"
+            - code [ref=e533]: r2 == 2
+            - text: and
+            - code [ref=e534]: r1 == 1
+            - text: might occur.
+          - generic [ref=e535]:
+            - paragraph [ref=e536]: Table 17.4-B. Surprising results caused by statement reordering - valid compiler transformation
+            - table "Surprising results caused by statement reordering - valid compiler transformation" [ref=e538]:
+              - rowgroup [ref=e542]:
+                - row [ref=e543]:
+                  - columnheader "Thread 1" [ref=e544]
+                  - columnheader "Thread 2" [ref=e545]
+              - rowgroup [ref=e546]:
+                - row [ref=e547]:
+                  - cell [ref=e548]:
+                    - code [ref=e549]: B = 1;
+                  - cell [ref=e550]:
+                    - code [ref=e551]: r1 = B;
+                - row [ref=e552]:
+                  - cell [ref=e553]:
+                    - code [ref=e554]: r2 = A;
+                  - cell [ref=e555]:
+                    - code [ref=e556]: A = 2;
+          - paragraph [ref=e557]: "To some programmers, this behavior may seem \"broken\". However, it should be noted that this code is improperly synchronized:"
+          - list [ref=e559]:
+            - listitem [ref=e560]:
+              - paragraph [ref=e561]: there is a write in one thread,
+            - listitem [ref=e562]:
+              - paragraph [ref=e563]: a read of the same variable by another thread,
+            - listitem [ref=e564]:
+              - paragraph [ref=e565]: and the write and read are not ordered by synchronization.
+          - paragraph [ref=e566]:
+            - text: This situation is an example of a
+            - emphasis [ref=e568]: data race
+            - text: (
+            - link "§17.4.5" [ref=e569] [cursor=pointer]:
+              - /url: jls-17.html#jls-17.4.5
+            - text: ). When code contains a data race, counterintuitive results are often possible.
+          - paragraph [ref=e570]:
+            - text: Several mechanisms can produce the reordering in
+            - link "Table 17.4-B" [ref=e571] [cursor=pointer]:
+              - /url: jls-17.html#jls-17.4-B
+            - text: . A Just-In-Time compiler in a Java Virtual Machine implementation may rearrange code, or the processor. In addition, the memory hierarchy of the architecture on which a Java Virtual Machine implementation is run may make it appear as if code is being reordered. In this chapter, we shall refer to anything that can reorder code as a
+            - emphasis [ref=e573]: compiler
+            - text: .
+          - paragraph [ref=e574]:
+            - text: Another example of surprising results can be seen in
+            - link "Table 17.4-C" [ref=e575] [cursor=pointer]:
+              - /url: jls-17.html#jls-17.4-C
+            - text: . Initially,
+            - code [ref=e576]: p == q
+            - text: and
+            - code [ref=e577]: p.x == 0
+            - text: . This program is also incorrectly synchronized; it writes to shared memory without enforcing any ordering between those writes.
+          - generic [ref=e578]:
+            - paragraph [ref=e579]: Table 17.4-C. Surprising results caused by forward substitution
+            - table "Surprising results caused by forward substitution" [ref=e581]:
+              - rowgroup [ref=e585]:
+                - row [ref=e586]:
+                  - columnheader "Thread 1" [ref=e587]
+                  - columnheader "Thread 2" [ref=e588]
+              - rowgroup [ref=e589]:
+                - row [ref=e590]:
+                  - cell [ref=e591]:
+                    - code [ref=e592]: r1 = p;
+                  - cell [ref=e593]:
+                    - code [ref=e594]: r6 = p;
+                - row [ref=e595]:
+                  - cell [ref=e596]:
+                    - code [ref=e597]: r2 = r1.x;
+                  - cell [ref=e598]:
+                    - code [ref=e599]: r6.x = 3;
+                - row [ref=e600]:
+                  - cell [ref=e601]:
+                    - code [ref=e602]: r3 = q;
+                  - cell [ref=e603]
+                - row [ref=e604]:
+                  - cell [ref=e605]:
+                    - code [ref=e606]: r4 = r3.x;
+                  - cell [ref=e607]
+                - row [ref=e608]:
+                  - cell [ref=e609]:
+                    - code [ref=e610]: r5 = r1.x;
+                  - cell [ref=e611]
+          - paragraph [ref=e612]:
+            - text: One common compiler optimization involves having the value read for
+            - code [ref=e613]: r2
+            - text: reused for
+            - code [ref=e614]: r5
+            - text: ": they are both reads of"
+            - code [ref=e615]: r1.x
+            - text: with no intervening write. This situation is shown in
+            - link "Table 17.4-D" [ref=e616] [cursor=pointer]:
+              - /url: jls-17.html#jls-17.4-D
+            - text: .
+          - generic [ref=e617]:
+            - paragraph [ref=e618]: Table 17.4-D. Surprising results caused by forward substitution
+            - table "Surprising results caused by forward substitution" [ref=e620]:
+              - rowgroup [ref=e624]:
+                - row [ref=e625]:
+                  - columnheader "Thread 1" [ref=e626]
+                  - columnheader "Thread 2" [ref=e627]
+              - rowgroup [ref=e628]:
+                - row [ref=e629]:
+                  - cell [ref=e630]:
+                    - code [ref=e631]: r1 = p;
+                  - cell [ref=e632]:
+                    - code [ref=e633]: r6 = p;
+                - row [ref=e634]:
+                  - cell [ref=e635]:
+                    - code [ref=e636]: r2 = r1.x;
+                  - cell [ref=e637]:
+                    - code [ref=e638]: r6.x = 3;
+                - row [ref=e639]:
+                  - cell [ref=e640]:
+                    - code [ref=e641]: r3 = q;
+                  - cell [ref=e642]
+                - row [ref=e643]:
+                  - cell [ref=e644]:
+                    - code [ref=e645]: r4 = r3.x;
+                  - cell [ref=e646]
+                - row [ref=e647]:
+                  - cell [ref=e648]:
+                    - code [ref=e649]: r5 = r2;
+                  - cell [ref=e650]
+          - paragraph [ref=e651]:
+            - text: Now consider the case where the assignment to
+            - code [ref=e652]: r6.x
+            - text: in Thread 2 happens between the first read of
+            - code [ref=e653]: r1.x
+            - text: and the read of
+            - code [ref=e654]: r3.x
+            - text: in Thread 1. If the compiler decides to reuse the value of
+            - code [ref=e655]: r2
+            - text: for the
+            - code [ref=e656]: r5
+            - text: ", then"
+            - code [ref=e657]: r2
+            - text: and
+            - code [ref=e658]: r5
+            - text: will have the value
+            - code [ref=e659]: "0"
+            - text: ", and"
+            - code [ref=e660]: r4
+            - text: will have the value
+            - code [ref=e661]: "3"
+            - text: . From the perspective of the programmer, the value stored at
+            - code [ref=e662]: p.x
+            - text: has changed from
+            - code [ref=e663]: "0"
+            - text: to
+            - code [ref=e664]: "3"
+            - text: and then changed back.
+      - paragraph [ref=e665]:
+        - text: The memory model determines what values can be read at every point in the program. The actions of each thread in isolation must behave as governed by the semantics of that thread, with the exception that the values seen by each read are determined by the memory model. When we refer to this, we say that the program obeys
+        - emphasis [ref=e667]: intra-thread semantics
+        - text: . Intra-thread semantics are the semantics for single-threaded programs, and allow the complete prediction of the behavior of a thread based on the values seen by read actions within the thread. To determine if the actions of thread
+        - emphasis [ref=e669]: t
+        - text: in an execution are legal, we simply evaluate the implementation of thread
+        - emphasis [ref=e671]: t
+        - text: as it would be performed in a single-threaded context, as defined in the rest of this specification.
+      - paragraph [ref=e672]:
+        - text: Each time the evaluation of thread
+        - emphasis [ref=e674]: t
+        - text: generates an inter-thread action, it must match the inter-thread action
+        - emphasis [ref=e676]: a
+        - text: of
+        - emphasis [ref=e678]: t
+        - text: that comes next in program order. If
+        - emphasis [ref=e680]: a
+        - text: is a read, then further evaluation of
+        - emphasis [ref=e682]: t
+        - text: uses the value seen by
+        - emphasis [ref=e684]: a
+        - text: as determined by the memory model.
+      - paragraph [ref=e685]:
+        - text: This section provides the specification of the Java programming language memory model except for issues dealing with
+        - code [ref=e686]: final
+        - text: fields, which are described in
+        - link "§17.5" [ref=e687] [cursor=pointer]:
+          - /url: jls-17.html#jls-17.5
+        - text: .
+      - paragraph [ref=e688]:
+        - text: The memory model specified herein is not fundamentally based in the object-oriented nature of the Java programming language. For conciseness and simplicity in our examples, we often exhibit code fragments without class or method definitions, or explicit dereferencing. Most examples consist of two or more threads containing statements with access to local variables, shared global variables, or instance fields of an object. We typically use variables names such as
+        - code [ref=e689]: r1
+        - text: or
+        - code [ref=e690]: r2
+        - text: to indicate variables local to a method or thread. Such variables are not accessible by other threads.
+      - generic [ref=e691]:
+        - heading "17.4.1. Shared Variables" [level=3] [ref=e695]
+        - paragraph [ref=e696]:
+          - text: Memory that can be shared between threads is called
+          - emphasis [ref=e698]: shared memory
+          - text: or
+          - emphasis [ref=e700]: heap memory
+          - text: .
+        - paragraph [ref=e701]:
+          - text: All instance fields,
+          - code [ref=e702]: static
+          - text: fields, and array elements are stored in heap memory. In this chapter, we use the term
+          - emphasis [ref=e704]: variable
+          - text: to refer to both fields and array elements.
+        - paragraph [ref=e705]:
+          - text: Local variables (
+          - link "§14.4" [ref=e706] [cursor=pointer]:
+            - /url: jls-14.html#jls-14.4
+          - text: ), formal method parameters (
+          - link "§8.4.1" [ref=e707] [cursor=pointer]:
+            - /url: jls-8.html#jls-8.4.1
+          - text: ), and exception handler parameters (
+          - link "§14.20" [ref=e708] [cursor=pointer]:
+            - /url: jls-14.html#jls-14.20
+          - text: ) are never shared between threads and are unaffected by the memory model.
+        - paragraph [ref=e709]:
+          - text: Two accesses to (reads of or writes to) the same variable are said to be
+          - emphasis [ref=e711]: conflicting
+          - text: if at least one of the accesses is a write.
+      - generic [ref=e712]:
+        - heading "17.4.2. Actions" [level=3] [ref=e716]
+        - paragraph [ref=e717]:
+          - text: An
+          - emphasis [ref=e719]: inter-thread action
+          - text: "is an action performed by one thread that can be detected or directly influenced by another thread. There are several kinds of inter-thread action that a program may perform:"
+        - list [ref=e721]:
+          - listitem [ref=e722]:
+            - paragraph [ref=e723]:
+              - emphasis [ref=e725]: Read
+              - text: (normal, or non-volatile). Reading a variable.
+          - listitem [ref=e726]:
+            - paragraph [ref=e727]:
+              - emphasis [ref=e729]: Write
+              - text: (normal, or non-volatile). Writing a variable.
+          - listitem [ref=e730]:
+            - paragraph [ref=e731]:
+              - emphasis [ref=e733]: Synchronization actions
+              - text: ", which are:"
+            - list [ref=e735]:
+              - listitem [ref=e736]:
+                - paragraph [ref=e737]:
+                  - emphasis [ref=e739]: Volatile read
+                  - text: . A volatile read of a variable.
+              - listitem [ref=e740]:
+                - paragraph [ref=e741]:
+                  - emphasis [ref=e743]: Volatile write
+                  - text: . A volatile write of a variable.
+              - listitem [ref=e744]:
+                - paragraph [ref=e745]:
+                  - emphasis [ref=e747]: Lock
+                  - text: . Locking a monitor
+              - listitem [ref=e748]:
+                - paragraph [ref=e749]:
+                  - emphasis [ref=e751]: Unlock
+                  - text: . Unlocking a monitor.
+              - listitem [ref=e752]:
+                - paragraph [ref=e753]: The (synthetic) first and last action of a thread.
+              - listitem [ref=e754]:
+                - paragraph [ref=e755]:
+                  - text: Actions that start a thread or detect that a thread has terminated (
+                  - link "§17.4.4" [ref=e756] [cursor=pointer]:
+                    - /url: jls-17.html#jls-17.4.4
+                  - text: ).
+          - listitem [ref=e757]:
+            - paragraph [ref=e758]:
+              - emphasis [ref=e760]: External Actions
+              - text: . An external action is an action that may be observable outside of an execution, and has a result based on an environment external to the execution.
+          - listitem [ref=e761]:
+            - paragraph [ref=e762]:
+              - emphasis [ref=e764]: Thread divergence actions
+              - text: (
+              - link "§17.4.9" [ref=e765] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.9
+              - text: ). A thread divergence action is only performed by a thread that is in an infinite loop in which no memory, synchronization, or external actions are performed. If a thread performs a thread divergence action, it will be followed by an infinite number of thread divergence actions.
+            - paragraph [ref=e766]: Thread divergence actions are introduced to model how a thread may cause all other threads to stall and fail to make progress.
+        - paragraph [ref=e767]:
+          - text: This specification is only concerned with inter-thread actions. We do not need to concern ourselves with intra-thread actions (e.g., adding two local variables and storing the result in a third local variable). As previously mentioned, all threads need to obey the correct intra-thread semantics for Java programs. We will usually refer to inter-thread actions more succinctly as simply
+          - emphasis [ref=e769]: actions
+          - text: .
+        - paragraph [ref=e770]:
+          - text: An action
+          - emphasis [ref=e772]: a
+          - text: is described by a tuple <
+          - emphasis [ref=e774]: t
+          - text: ","
+          - emphasis [ref=e776]: k
+          - text: ","
+          - emphasis [ref=e778]: v
+          - text: ","
+          - emphasis [ref=e780]: u
+          - text: ">, comprising:"
+        - list [ref=e782]:
+          - listitem [ref=e783]:
+            - paragraph [ref=e784]:
+              - emphasis [ref=e786]: t
+              - text: "- the thread performing the action"
+          - listitem [ref=e787]:
+            - paragraph [ref=e788]:
+              - emphasis [ref=e790]: k
+              - text: "- the kind of action"
+          - listitem [ref=e791]:
+            - paragraph [ref=e792]:
+              - emphasis [ref=e794]: v
+              - text: "- the variable or monitor involved in the action."
+            - paragraph [ref=e795]:
+              - text: For lock actions,
+              - emphasis [ref=e797]: v
+              - text: is the monitor being locked; for unlock actions,
+              - emphasis [ref=e799]: v
+              - text: is the monitor being unlocked.
+            - paragraph [ref=e800]:
+              - text: If the action is a (volatile or non-volatile) read,
+              - emphasis [ref=e802]: v
+              - text: is the variable being read.
+            - paragraph [ref=e803]:
+              - text: If the action is a (volatile or non-volatile) write,
+              - emphasis [ref=e805]: v
+              - text: is the variable being written.
+          - listitem [ref=e806]:
+            - paragraph [ref=e807]:
+              - emphasis [ref=e809]: u
+              - text: "- an arbitrary unique identifier for the action"
+        - paragraph [ref=e810]: An external action tuple contains an additional component, which contains the results of the external action as perceived by the thread performing the action. This may be information as to the success or failure of the action, and any values read by the action.
+        - paragraph [ref=e811]: Parameters to the external action (e.g., which bytes are written to which socket) are not part of the external action tuple. These parameters are set up by other actions within the thread and can be determined by examining the intra-thread semantics. They are not explicitly discussed in the memory model.
+        - paragraph [ref=e812]:
+          - text: In non-terminating executions, not all external actions are observable. Non-terminating executions and observable actions are discussed in
+          - link "§17.4.9" [ref=e813] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.9
+          - text: .
+      - generic [ref=e814]:
+        - heading "17.4.3. Programs and Program Order" [level=3] [ref=e818]
+        - paragraph [ref=e819]:
+          - text: Among all the inter-thread actions performed by each thread
+          - emphasis [ref=e821]: t
+          - text: ", the"
+          - emphasis [ref=e823]: program order
+          - text: of
+          - emphasis [ref=e825]: t
+          - text: is a total order that reflects the order in which these actions would be performed according to the intra-thread semantics of
+          - emphasis [ref=e827]: t
+          - text: .
+        - paragraph [ref=e828]:
+          - text: A set of actions is
+          - emphasis [ref=e830]: sequentially consistent
+          - text: if all actions occur in a total order (the execution order) that is consistent with program order, and furthermore, each read
+          - emphasis [ref=e832]: r
+          - text: of a variable
+          - emphasis [ref=e834]: v
+          - text: sees the value written by the write
+          - emphasis [ref=e836]: w
+          - text: to
+          - emphasis [ref=e838]: v
+          - text: "such that:"
+        - list [ref=e840]:
+          - listitem [ref=e841]:
+            - paragraph [ref=e842]:
+              - emphasis [ref=e844]: w
+              - text: comes before
+              - emphasis [ref=e846]: r
+              - text: in the execution order, and
+          - listitem [ref=e847]:
+            - paragraph [ref=e848]:
+              - text: there is no other write
+              - emphasis [ref=e850]: w
+              - text: "' such that"
+              - emphasis [ref=e852]: w
+              - text: comes before
+              - emphasis [ref=e854]: w
+              - text: "' and"
+              - emphasis [ref=e856]: w
+              - text: "' comes before"
+              - emphasis [ref=e858]: r
+              - text: in the execution order.
+        - paragraph [ref=e859]: Sequential consistency is a very strong guarantee that is made about visibility and ordering in an execution of a program. Within a sequentially consistent execution, there is a total order over all individual actions (such as reads and writes) which is consistent with the order of the program, and each individual action is atomic and is immediately visible to every thread.
+        - paragraph [ref=e860]: If a program has no data races, then all executions of the program will appear to be sequentially consistent.
+        - paragraph [ref=e861]: Sequential consistency and/or freedom from data races still allows errors arising from groups of operations that need to be perceived atomically and are not.
+        - paragraph [ref=e862]:
+          - text: If we were to use sequential consistency as our memory model, many of the compiler and processor optimizations that we have discussed would be illegal. For example, in the trace in
+          - link "Table 17.4-C" [ref=e863] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4-C
+          - text: ", as soon as the write of"
+          - code [ref=e864]: "3"
+          - text: to
+          - code [ref=e865]: p.x
+          - text: occurred, subsequent reads of that location would be required to see that value.
+      - generic [ref=e866]:
+        - heading "17.4.4. Synchronization Order" [level=3] [ref=e870]
+        - paragraph [ref=e871]:
+          - text: Every execution has a
+          - emphasis [ref=e873]: synchronization order
+          - text: . A synchronization order is a total order over all of the synchronization actions of an execution. For each thread
+          - emphasis [ref=e875]: t
+          - text: ", the synchronization order of the synchronization actions ("
+          - link "§17.4.2" [ref=e876] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.2
+          - text: ) in
+          - emphasis [ref=e878]: t
+          - text: is consistent with the program order (
+          - link "§17.4.3" [ref=e879] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.3
+          - text: ) of
+          - emphasis [ref=e881]: t
+          - text: .
+        - paragraph [ref=e882]:
+          - text: Synchronization actions induce the
+          - emphasis [ref=e884]: synchronized-with
+          - text: "relation on actions, defined as follows:"
+        - list [ref=e886]:
+          - listitem [ref=e887]:
+            - paragraph [ref=e888]:
+              - text: An unlock action on monitor
+              - emphasis [ref=e890]: m
+              - emphasis [ref=e892]: synchronizes-with
+              - text: all subsequent lock actions on
+              - emphasis [ref=e894]: m
+              - text: (where "subsequent" is defined according to the synchronization order).
+          - listitem [ref=e895]:
+            - paragraph [ref=e896]:
+              - text: A write to a volatile variable
+              - emphasis [ref=e898]: v
+              - text: (
+              - link "§8.3.1.4" [ref=e899] [cursor=pointer]:
+                - /url: jls-8.html#jls-8.3.1.4
+              - text: )
+              - emphasis [ref=e901]: synchronizes-with
+              - text: all subsequent reads of
+              - emphasis [ref=e903]: v
+              - text: by any thread (where "subsequent" is defined according to the synchronization order).
+          - listitem [ref=e904]:
+            - paragraph [ref=e905]:
+              - text: An action that starts a thread
+              - emphasis [ref=e907]: synchronizes-with
+              - text: the first action in the thread it starts.
+          - listitem [ref=e908]:
+            - paragraph [ref=e909]:
+              - text: The write of the default value (zero,
+              - code [ref=e910]: "false"
+              - text: ", or"
+              - code [ref=e911]: "null"
+              - text: ) to each variable
+              - emphasis [ref=e913]: synchronizes-with
+              - text: the first action in every thread.
+            - paragraph [ref=e914]: Although it may seem a little strange to write a default value to a variable before the object containing the variable is allocated, conceptually every object is created at the start of the program with its default initialized values.
+          - listitem [ref=e915]:
+            - paragraph [ref=e916]:
+              - text: The final action in a thread
+              - code [ref=e917]: T1
+              - emphasis [ref=e919]: synchronizes-with
+              - text: any action in another thread
+              - code [ref=e920]: T2
+              - text: that detects that
+              - code [ref=e921]: T1
+              - text: has terminated.
+            - paragraph [ref=e922]:
+              - code [ref=e923]: T2
+              - text: may accomplish this by calling
+              - code [ref=e924]: T1
+              - code [ref=e925]: .isAlive()
+              - text: or
+              - code [ref=e926]: T1
+              - code [ref=e927]: .join()
+              - text: .
+          - listitem [ref=e928]:
+            - paragraph [ref=e929]:
+              - text: If thread
+              - code [ref=e930]: T1
+              - text: interrupts thread
+              - code [ref=e931]: T2
+              - text: ", the interrupt by"
+              - code [ref=e932]: T1
+              - emphasis [ref=e934]: synchronizes-with
+              - text: any point where any other thread (including
+              - code [ref=e935]: T2
+              - text: ) determines that
+              - code [ref=e936]: T2
+              - text: has been interrupted (by having an
+              - code [ref=e937]: InterruptedException
+              - text: thrown or by invoking
+              - code [ref=e938]: Thread.interrupted
+              - text: or
+              - code [ref=e939]: Thread.isInterrupted
+              - text: ).
+        - paragraph [ref=e940]:
+          - text: The source of a
+          - emphasis [ref=e942]: synchronizes-with
+          - text: edge is called a
+          - emphasis [ref=e944]: release
+          - text: ", and the destination is called an"
+          - emphasis [ref=e946]: acquire
+          - text: .
+      - generic [ref=e947]:
+        - heading "17.4.5. Happens-before Order" [level=3] [ref=e951]
+        - paragraph [ref=e952]:
+          - text: Two actions can be ordered by a
+          - emphasis [ref=e954]: happens-before
+          - text: relationship. If one action
+          - emphasis [ref=e956]: happens-before
+          - text: another, then the first is visible to and ordered before the second.
+        - paragraph [ref=e957]:
+          - text: If we have two actions
+          - emphasis [ref=e959]: x
+          - text: and
+          - emphasis [ref=e961]: "y"
+          - text: ", we write"
+          - emphasis [ref=e963]: hb(x, y)
+          - text: to indicate that
+          - emphasis [ref=e965]: x happens-before y
+          - text: .
+        - list [ref=e967]:
+          - listitem [ref=e968]:
+            - paragraph [ref=e969]:
+              - text: If
+              - emphasis [ref=e971]: x
+              - text: and
+              - emphasis [ref=e973]: "y"
+              - text: are actions of the same thread and
+              - emphasis [ref=e975]: x
+              - text: comes before
+              - emphasis [ref=e977]: "y"
+              - text: in program order, then
+              - emphasis [ref=e979]: hb(x, y)
+              - text: .
+          - listitem [ref=e980]:
+            - paragraph [ref=e981]:
+              - text: There is a
+              - emphasis [ref=e983]: happens-before
+              - text: edge from the end of a constructor of an object to the start of a finalizer (
+              - link "§12.6" [ref=e984] [cursor=pointer]:
+                - /url: jls-12.html#jls-12.6
+              - text: ) for that object.
+          - listitem [ref=e985]:
+            - paragraph [ref=e986]:
+              - text: If an action
+              - emphasis [ref=e988]: x
+              - emphasis [ref=e990]: synchronizes-with
+              - text: a following action
+              - emphasis [ref=e992]: "y"
+              - text: ", then we also have"
+              - emphasis [ref=e994]: hb(x, y)
+              - text: .
+          - listitem [ref=e995]:
+            - paragraph [ref=e996]:
+              - text: If
+              - emphasis [ref=e998]: hb(x, y)
+              - text: and
+              - emphasis [ref=e1000]: hb(y, z)
+              - text: ", then"
+              - emphasis [ref=e1002]: hb(x, z)
+              - text: .
+        - paragraph [ref=e1003]:
+          - text: The
+          - code [ref=e1004]: wait
+          - text: methods of class
+          - code [ref=e1005]: Object
+          - text: (
+          - link "§17.2.1" [ref=e1006] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.2.1
+          - text: ) have lock and unlock actions associated with them; their
+          - emphasis [ref=e1008]: happens-before
+          - text: relationships are defined by these associated actions.
+        - paragraph [ref=e1009]:
+          - text: It should be noted that the presence of a
+          - emphasis [ref=e1011]: happens-before
+          - text: relationship between two actions does not necessarily imply that they have to take place in that order in an implementation. If the reordering produces results consistent with a legal execution, it is not illegal.
+        - paragraph [ref=e1012]: For example, the write of a default value to every field of an object constructed by a thread need not happen before the beginning of that thread, as long as no read ever observes that fact.
+        - paragraph [ref=e1013]:
+          - text: More specifically, if two actions share a
+          - emphasis [ref=e1015]: happens-before
+          - text: relationship, they do not necessarily have to appear to have happened in that order to any code with which they do not share a
+          - emphasis [ref=e1017]: happens-before
+          - text: relationship. Writes in one thread that are in a data race with reads in another thread may, for example, appear to occur out of order to those reads.
+        - paragraph [ref=e1018]:
+          - text: The
+          - emphasis [ref=e1020]: happens-before
+          - text: relation defines when data races take place.
+        - paragraph [ref=e1021]:
+          - text: A set of synchronization edges,
+          - emphasis [ref=e1023]: S
+          - text: ", is"
+          - emphasis [ref=e1025]: sufficient
+          - text: if it is the minimal set such that the transitive closure of
+          - emphasis [ref=e1027]: S
+          - text: with the program order determines all of the
+          - emphasis [ref=e1029]: happens-before
+          - text: edges in the execution. This set is unique.
+        - paragraph [ref=e1030]: "It follows from the above definitions that:"
+        - list [ref=e1032]:
+          - listitem [ref=e1033]:
+            - paragraph [ref=e1034]:
+              - text: An unlock on a monitor
+              - emphasis [ref=e1036]: happens-before
+              - text: every subsequent lock on that monitor.
+          - listitem [ref=e1037]:
+            - paragraph [ref=e1038]:
+              - text: A write to a
+              - code [ref=e1039]: volatile
+              - text: field (
+              - link "§8.3.1.4" [ref=e1040] [cursor=pointer]:
+                - /url: jls-8.html#jls-8.3.1.4
+              - text: )
+              - emphasis [ref=e1042]: happens-before
+              - text: every subsequent read of that field.
+          - listitem [ref=e1043]:
+            - paragraph [ref=e1044]:
+              - text: A call to
+              - code [ref=e1045]: start()
+              - text: on a thread
+              - emphasis [ref=e1047]: happens-before
+              - text: any actions in the started thread.
+          - listitem [ref=e1048]:
+            - paragraph [ref=e1049]:
+              - text: All actions in a thread
+              - emphasis [ref=e1051]: happen-before
+              - text: any other thread successfully returns from a
+              - code [ref=e1052]: join()
+              - text: on that thread.
+          - listitem [ref=e1053]:
+            - paragraph [ref=e1054]:
+              - text: The default initialization of any object
+              - emphasis [ref=e1056]: happens-before
+              - text: any other actions (other than default-writes) of a program.
+        - paragraph [ref=e1057]:
+          - text: When a program contains two conflicting accesses (
+          - link "§17.4.1" [ref=e1058] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.1
+          - text: ) that are not ordered by a happens-before relationship, it is said to contain a
+          - emphasis [ref=e1060]: data race
+          - text: .
+        - paragraph [ref=e1061]:
+          - text: The semantics of operations other than inter-thread actions, such as reads of array lengths (
+          - link "§10.7" [ref=e1062] [cursor=pointer]:
+            - /url: jls-10.html#jls-10.7
+          - text: ), executions of checked casts (
+          - link "§5.5" [ref=e1063] [cursor=pointer]:
+            - /url: jls-5.html#jls-5.5
+          - text: ","
+          - link "§15.16" [ref=e1064] [cursor=pointer]:
+            - /url: jls-15.html#jls-15.16
+          - text: ), and invocations of virtual methods (
+          - link "§15.12" [ref=e1065] [cursor=pointer]:
+            - /url: jls-15.html#jls-15.12
+          - text: ), are not directly affected by data races.
+        - paragraph [ref=e1066]: Therefore, a data race cannot cause incorrect behavior such as returning the wrong length for an array.
+        - paragraph [ref=e1067]:
+          - text: A program is
+          - emphasis [ref=e1069]: correctly synchronized
+          - text: if and only if all sequentially consistent executions are free of data races.
+        - paragraph [ref=e1070]:
+          - text: If a program is correctly synchronized, then all executions of the program will appear to be sequentially consistent (
+          - link "§17.4.3" [ref=e1071] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.3
+          - text: ).
+        - paragraph [ref=e1072]: This is an extremely strong guarantee for programmers. Programmers do not need to reason about reorderings to determine that their code contains data races. Therefore they do not need to reason about reorderings when determining whether their code is correctly synchronized. Once the determination that the code is correctly synchronized is made, the programmer does not need to worry that reorderings will affect his or her code.
+        - paragraph [ref=e1073]: A program must be correctly synchronized to avoid the kinds of counterintuitive behaviors that can be observed when code is reordered. The use of correct synchronization does not ensure that the overall behavior of a program is correct. However, its use does allow a programmer to reason about the possible behaviors of a program in a simple way; the behavior of a correctly synchronized program is much less dependent on possible reorderings. Without correct synchronization, very strange, confusing and counterintuitive behaviors are possible.
+        - paragraph [ref=e1074]:
+          - text: We say that a read
+          - emphasis [ref=e1076]: r
+          - text: of a variable
+          - emphasis [ref=e1078]: v
+          - text: is allowed to observe a write
+          - emphasis [ref=e1080]: w
+          - text: to
+          - emphasis [ref=e1082]: v
+          - text: if, in the
+          - emphasis [ref=e1084]: happens-before
+          - text: "partial order of the execution trace:"
+        - list [ref=e1086]:
+          - listitem [ref=e1087]:
+            - paragraph [ref=e1088]:
+              - emphasis [ref=e1090]: r
+              - text: is not ordered before
+              - emphasis [ref=e1092]: w
+              - text: (i.e., it is not the case that
+              - emphasis [ref=e1094]: hb(r, w)
+              - text: ), and
+          - listitem [ref=e1095]:
+            - paragraph [ref=e1096]:
+              - text: there is no intervening write
+              - emphasis [ref=e1098]: w
+              - text: "' to"
+              - emphasis [ref=e1100]: v
+              - text: (i.e. no write
+              - emphasis [ref=e1102]: w
+              - text: "' to"
+              - emphasis [ref=e1104]: v
+              - text: such that
+              - emphasis [ref=e1106]: hb(w, w')
+              - text: and
+              - emphasis [ref=e1108]: hb(w', r)
+              - text: ).
+        - paragraph [ref=e1109]:
+          - text: Informally, a read
+          - emphasis [ref=e1111]: r
+          - text: is allowed to see the result of a write
+          - emphasis [ref=e1113]: w
+          - text: if there is no
+          - emphasis [ref=e1115]: happens-before
+          - text: ordering to prevent that read.
+        - paragraph [ref=e1116]:
+          - text: A set of actions
+          - emphasis [ref=e1118]: A
+          - text: is
+          - emphasis [ref=e1120]: happens-before consistent
+          - text: if for all reads
+          - emphasis [ref=e1122]: r
+          - text: in
+          - emphasis [ref=e1124]: A
+          - text: ", where"
+          - emphasis [ref=e1126]: W(r)
+          - text: is the write action seen by
+          - emphasis [ref=e1128]: r
+          - text: ", it is not the case that either"
+          - emphasis [ref=e1130]: hb(r, W(r))
+          - text: or that there exists a write
+          - emphasis [ref=e1132]: w
+          - text: in
+          - emphasis [ref=e1134]: A
+          - text: such that
+          - emphasis [ref=e1136]: w.v
+          - text: =
+          - emphasis [ref=e1138]: r.v
+          - text: and
+          - emphasis [ref=e1140]: hb(W(r), w)
+          - text: and
+          - emphasis [ref=e1142]: hb(w, r)
+          - text: .
+        - paragraph [ref=e1143]:
+          - text: In a
+          - emphasis [ref=e1145]: happens-before consistent
+          - text: set of actions, each read sees a write that it is allowed to see by the
+          - emphasis [ref=e1147]: happens-before
+          - text: ordering.
+        - generic [ref=e1148]:
+          - paragraph [ref=e1149]: Example 17.4.5-1. Happens-before Consistency
+          - generic [ref=e1150]:
+            - paragraph [ref=e1151]:
+              - text: For the trace in
+              - link "Table 17.4.5-A" [ref=e1152] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.5-A
+              - text: ", initially"
+              - code [ref=e1153]: A == B == 0
+              - text: . The trace can observe
+              - code [ref=e1154]: r2 == 0
+              - text: and
+              - code [ref=e1155]: r1 == 0
+              - text: and still be
+              - emphasis [ref=e1157]: happens-before consistent
+              - text: ", since there are execution orders that allow each read to see the appropriate write."
+            - generic [ref=e1158]:
+              - paragraph [ref=e1159]: Table 17.4.5-A. Behavior allowed by happens-before consistency, but not sequential consistency.
+              - table "Behavior allowed by happens-before consistency, but not sequential consistency." [ref=e1161]:
+                - rowgroup [ref=e1165]:
+                  - row [ref=e1166]:
+                    - columnheader "Thread 1" [ref=e1167]
+                    - columnheader "Thread 2" [ref=e1168]
+                - rowgroup [ref=e1169]:
+                  - row [ref=e1170]:
+                    - cell [ref=e1171]:
+                      - code [ref=e1172]: B = 1;
+                    - cell [ref=e1173]:
+                      - code [ref=e1174]: A = 2;
+                  - row [ref=e1175]:
+                    - cell [ref=e1176]:
+                      - code [ref=e1177]: r2 = A;
+                    - cell [ref=e1178]:
+                      - code [ref=e1179]: r1 = B;
+            - paragraph [ref=e1180]: "Since there is no synchronization, each read can see either the write of the initial value or the write by the other thread. An execution order that displays this behavior is:"
+            - generic [ref=e1181]: "1: B = 1; 3: A = 2; 2: r2 = A; // sees initial write of 0 4: r1 = B; // sees initial write of 0"
+            - paragraph [ref=e1182]: "Another execution order that is happens-before consistent is:"
+            - generic [ref=e1183]: "1: r2 = A; // sees write of A = 2 3: r1 = B; // sees write of B = 1 2: B = 1; 4: A = 2;"
+            - paragraph [ref=e1184]:
+              - text: In this execution, the reads see writes that occur later in the execution order. This may seem counterintuitive, but is allowed by
+              - emphasis [ref=e1186]: happens-before
+              - text: consistency. Allowing reads to see later writes can sometimes produce unacceptable behaviors.
+      - generic [ref=e1187]:
+        - heading "17.4.6. Executions" [level=3] [ref=e1191]
+        - paragraph [ref=e1192]:
+          - text: An execution
+          - emphasis [ref=e1194]: E
+          - text: is described by a tuple <
+          - emphasis [ref=e1196]: P, A, po, so, W, V, sw, hb
+          - text: ">, comprising:"
+        - list [ref=e1198]:
+          - listitem [ref=e1199]:
+            - paragraph [ref=e1200]:
+              - emphasis [ref=e1202]: P
+              - text: "- a program"
+          - listitem [ref=e1203]:
+            - paragraph [ref=e1204]:
+              - emphasis [ref=e1206]: A
+              - text: "- a set of actions"
+          - listitem [ref=e1207]:
+            - paragraph [ref=e1208]:
+              - emphasis [ref=e1210]: po
+              - text: "- program order, which for each thread"
+              - emphasis [ref=e1212]: t
+              - text: ", is a total order over all actions performed by"
+              - emphasis [ref=e1214]: t
+              - text: in
+              - emphasis [ref=e1216]: A
+          - listitem [ref=e1217]:
+            - paragraph [ref=e1218]:
+              - emphasis [ref=e1220]: so
+              - text: "- synchronization order, which is a total order over all synchronization actions in"
+              - emphasis [ref=e1222]: A
+          - listitem [ref=e1223]:
+            - paragraph [ref=e1224]:
+              - emphasis [ref=e1226]: W
+              - text: "- a write-seen function, which for each read"
+              - emphasis [ref=e1228]: r
+              - text: in
+              - emphasis [ref=e1230]: A
+              - text: ", gives"
+              - emphasis [ref=e1232]: W(r)
+              - text: ", the write action seen by"
+              - emphasis [ref=e1234]: r
+              - text: in
+              - emphasis [ref=e1236]: E
+              - text: .
+          - listitem [ref=e1237]:
+            - paragraph [ref=e1238]:
+              - emphasis [ref=e1240]: V
+              - text: "- a value-written function, which for each write"
+              - emphasis [ref=e1242]: w
+              - text: in
+              - emphasis [ref=e1244]: A
+              - text: ", gives"
+              - emphasis [ref=e1246]: V(w)
+              - text: ", the value written by"
+              - emphasis [ref=e1248]: w
+              - text: in
+              - emphasis [ref=e1250]: E
+              - text: .
+          - listitem [ref=e1251]:
+            - paragraph [ref=e1252]:
+              - emphasis [ref=e1254]: sw
+              - text: "- synchronizes-with, a partial order over synchronization actions"
+          - listitem [ref=e1255]:
+            - paragraph [ref=e1256]:
+              - emphasis [ref=e1258]: hb
+              - text: "- happens-before, a partial order over actions"
+        - paragraph [ref=e1259]:
+          - text: Note that the synchronizes-with and happens-before elements are uniquely determined by the other components of an execution and the rules for well-formed executions (
+          - link "§17.4.7" [ref=e1260] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.7
+          - text: ).
+        - paragraph [ref=e1261]:
+          - text: An execution is
+          - emphasis [ref=e1263]: happens-before consistent
+          - text: if its set of actions is
+          - emphasis [ref=e1265]: happens-before consistent
+          - text: (
+          - link "§17.4.5" [ref=e1266] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.5
+          - text: ).
+      - generic [ref=e1267]:
+        - heading "17.4.7. Well-Formed Executions" [level=3] [ref=e1271]
+        - paragraph [ref=e1272]:
+          - text: We only consider well-formed executions. An execution
+          - emphasis [ref=e1274]: E
+          - text: = <
+          - emphasis [ref=e1276]: P, A, po, so, W, V, sw, hb
+          - text: "> is well formed if the following are true:"
+        - list [ref=e1278]:
+          - listitem [ref=e1279]:
+            - paragraph [ref=e1280]: Each read sees a write to the same variable in the execution.
+            - paragraph [ref=e1281]:
+              - text: All reads and writes of volatile variables are volatile actions. For all reads
+              - emphasis [ref=e1283]: r
+              - text: in
+              - emphasis [ref=e1285]: A
+              - text: ", we have"
+              - emphasis [ref=e1287]: W(r)
+              - text: in
+              - emphasis [ref=e1289]: A
+              - text: and
+              - emphasis [ref=e1291]: W(r).v
+              - text: =
+              - emphasis [ref=e1293]: r.v
+              - text: . The variable
+              - emphasis [ref=e1295]: r.v
+              - text: is volatile if and only if
+              - emphasis [ref=e1297]: r
+              - text: is a volatile read, and the variable
+              - emphasis [ref=e1299]: w.v
+              - text: is volatile if and only if
+              - emphasis [ref=e1301]: w
+              - text: is a volatile write.
+          - listitem [ref=e1302]:
+            - paragraph [ref=e1303]: The happens-before order is a partial order.
+            - paragraph [ref=e1304]: "The happens-before order is given by the transitive closure of synchronizes-with edges and program order. It must be a valid partial order: reflexive, transitive and antisymmetric."
+          - listitem [ref=e1305]:
+            - paragraph [ref=e1306]: The execution obeys intra-thread consistency.
+            - paragraph [ref=e1307]:
+              - text: For each thread
+              - emphasis [ref=e1309]: t
+              - text: ", the actions performed by"
+              - emphasis [ref=e1311]: t
+              - text: in
+              - emphasis [ref=e1313]: A
+              - text: are the same as would be generated by that thread in program-order in isolation, with each write
+              - emphasis [ref=e1315]: w
+              - text: writing the value
+              - emphasis [ref=e1317]: V(w)
+              - text: ", given that each read"
+              - emphasis [ref=e1319]: r
+              - text: sees the value
+              - emphasis [ref=e1321]: V(W(r))
+              - text: . Values seen by each read are determined by the memory model. The program order given must reflect the program order in which the actions would be performed according to the intra-thread semantics of
+              - emphasis [ref=e1323]: P
+              - text: .
+          - listitem [ref=e1324]:
+            - paragraph [ref=e1325]:
+              - text: The execution is
+              - emphasis [ref=e1327]: happens-before consistent
+              - text: (
+              - link "§17.4.6" [ref=e1328] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.6
+              - text: ).
+          - listitem [ref=e1329]:
+            - paragraph [ref=e1330]: The execution obeys synchronization-order consistency.
+            - paragraph [ref=e1331]:
+              - text: For all volatile reads
+              - emphasis [ref=e1333]: r
+              - text: in
+              - emphasis [ref=e1335]: A
+              - text: ", it is not the case that either"
+              - emphasis [ref=e1337]: so(r, W(r))
+              - text: or that there exists a write
+              - emphasis [ref=e1339]: w
+              - text: in
+              - emphasis [ref=e1341]: A
+              - text: such that
+              - emphasis [ref=e1343]: w.v
+              - text: =
+              - emphasis [ref=e1345]: r.v
+              - text: and
+              - emphasis [ref=e1347]: so(W(r), w)
+              - text: and
+              - emphasis [ref=e1349]: so(w, r)
+              - text: .
+      - generic [ref=e1350]:
+        - heading "17.4.8. Executions and Causality Requirements" [level=3] [ref=e1354]
+        - paragraph [ref=e1355]:
+          - text: We use
+          - emphasis [ref=e1357]: f
+          - text: "|"
+          - subscript [ref=e1358]:
+            - emphasis [ref=e1360]: d
+          - text: to denote the function given by restricting the domain of
+          - emphasis [ref=e1362]: f
+          - text: to
+          - emphasis [ref=e1364]: d
+          - text: . For all
+          - emphasis [ref=e1366]: x
+          - text: in
+          - emphasis [ref=e1368]: d
+          - text: ","
+          - emphasis [ref=e1370]: f
+          - text: "|"
+          - subscript [ref=e1371]:
+            - emphasis [ref=e1373]: d
+          - text: (
+          - emphasis [ref=e1375]: x
+          - text: ) =
+          - emphasis [ref=e1377]: f
+          - text: (
+          - emphasis [ref=e1379]: x
+          - text: ), and for all
+          - emphasis [ref=e1381]: x
+          - text: not in
+          - emphasis [ref=e1383]: d
+          - text: ","
+          - emphasis [ref=e1385]: f
+          - text: "|"
+          - subscript [ref=e1386]:
+            - emphasis [ref=e1388]: d
+          - text: (
+          - emphasis [ref=e1390]: x
+          - text: ) is undefined.
+        - paragraph [ref=e1391]:
+          - text: We use
+          - emphasis [ref=e1393]: p
+          - text: "|"
+          - subscript [ref=e1394]:
+            - emphasis [ref=e1396]: d
+          - text: to represent the restriction of the partial order
+          - emphasis [ref=e1398]: p
+          - text: to the elements in
+          - emphasis [ref=e1400]: d
+          - text: . For all
+          - emphasis [ref=e1402]: x
+          - text: ","
+          - emphasis [ref=e1404]: "y"
+          - text: in
+          - emphasis [ref=e1406]: d
+          - text: ","
+          - emphasis [ref=e1408]: p
+          - text: (
+          - emphasis [ref=e1410]: x
+          - text: ","
+          - emphasis [ref=e1412]: "y"
+          - text: ) if and only if
+          - emphasis [ref=e1414]: p
+          - text: "|"
+          - subscript [ref=e1415]:
+            - emphasis [ref=e1417]: d
+          - text: (
+          - emphasis [ref=e1419]: x
+          - text: ","
+          - emphasis [ref=e1421]: "y"
+          - text: ). If either
+          - emphasis [ref=e1423]: x
+          - text: or
+          - emphasis [ref=e1425]: "y"
+          - text: are not in
+          - emphasis [ref=e1427]: d
+          - text: ", then it is not the case that"
+          - emphasis [ref=e1429]: p
+          - text: "|"
+          - subscript [ref=e1430]:
+            - emphasis [ref=e1432]: d
+          - text: (
+          - emphasis [ref=e1434]: x
+          - text: ","
+          - emphasis [ref=e1436]: "y"
+          - text: ).
+        - paragraph [ref=e1437]:
+          - text: A well-formed execution
+          - emphasis [ref=e1439]: E
+          - text: = <
+          - emphasis [ref=e1441]: P, A, po, so, W, V, sw, hb
+          - text: "> is validated by"
+          - emphasis [ref=e1443]: committing
+          - text: actions from
+          - emphasis [ref=e1445]: A
+          - text: . If all of the actions in
+          - emphasis [ref=e1447]: A
+          - text: can be committed, then the execution satisfies the causality requirements of the Java programming language memory model.
+        - paragraph [ref=e1448]:
+          - text: Starting with the empty set as
+          - emphasis [ref=e1450]:
+            - text: C
+            - subscript [ref=e1451]: "0"
+          - text: ", we perform a sequence of steps where we take actions from the set of actions"
+          - emphasis [ref=e1453]: A
+          - text: and add them to a set of committed actions
+          - emphasis [ref=e1455]:
+            - text: C
+            - subscript [ref=e1456]: i
+          - text: to get a new set of committed actions
+          - emphasis [ref=e1458]:
+            - text: C
+            - subscript [ref=e1459]: i+1
+          - text: . To demonstrate that this is reasonable, for each
+          - emphasis [ref=e1461]:
+            - text: C
+            - subscript [ref=e1462]: i
+          - text: we need to demonstrate an execution
+          - emphasis [ref=e1464]: E
+          - text: containing
+          - emphasis [ref=e1466]:
+            - text: C
+            - subscript [ref=e1467]: i
+          - text: that meets certain conditions.
+        - paragraph [ref=e1468]:
+          - text: Formally, an execution
+          - emphasis [ref=e1470]: E satisfies the causality requirements of the Java programming language memory model
+          - text: "if and only if there exist:"
+        - list [ref=e1472]:
+          - listitem [ref=e1473]:
+            - paragraph [ref=e1474]:
+              - text: Sets of actions
+              - emphasis [ref=e1476]:
+                - text: C
+                - subscript [ref=e1477]: "0"
+              - text: ","
+              - emphasis [ref=e1479]:
+                - text: C
+                - subscript [ref=e1480]: "1"
+              - text: ", ... such that:"
+            - list [ref=e1482]:
+              - listitem [ref=e1483]:
+                - paragraph [ref=e1484]:
+                  - emphasis [ref=e1486]:
+                    - text: C
+                    - subscript [ref=e1487]: "0"
+                  - text: is the empty set
+              - listitem [ref=e1488]:
+                - paragraph [ref=e1489]:
+                  - emphasis [ref=e1491]:
+                    - text: C
+                    - subscript [ref=e1492]: i
+                  - text: is a proper subset of
+                  - emphasis [ref=e1494]:
+                    - text: C
+                    - subscript [ref=e1495]: i+1
+              - listitem [ref=e1496]:
+                - paragraph [ref=e1497]:
+                  - emphasis [ref=e1499]: A
+                  - text: = ∪ (
+                  - emphasis [ref=e1501]:
+                    - text: C
+                    - subscript [ref=e1502]: "0"
+                  - text: ","
+                  - emphasis [ref=e1504]:
+                    - text: C
+                    - subscript [ref=e1505]: "1"
+                  - text: ", ...)"
+            - paragraph [ref=e1506]:
+              - text: If
+              - emphasis [ref=e1508]: A
+              - text: is finite, then the sequence
+              - emphasis [ref=e1510]:
+                - text: C
+                - subscript [ref=e1511]: "0"
+              - text: ","
+              - emphasis [ref=e1513]:
+                - text: C
+                - subscript [ref=e1514]: "1"
+              - text: ", ... will be finite, ending in a set"
+              - emphasis [ref=e1516]:
+                - text: C
+                - subscript [ref=e1517]: "n"
+              - text: =
+              - emphasis [ref=e1519]: A
+              - text: .
+            - paragraph [ref=e1520]:
+              - text: If
+              - emphasis [ref=e1522]: A
+              - text: is infinite, then the sequence
+              - emphasis [ref=e1524]:
+                - text: C
+                - subscript [ref=e1525]: "0"
+              - text: ","
+              - emphasis [ref=e1527]:
+                - text: C
+                - subscript [ref=e1528]: "1"
+              - text: ", ... may be infinite, and it must be the case that the union of all elements of this infinite sequence is equal to"
+              - emphasis [ref=e1530]: A
+              - text: .
+          - listitem [ref=e1531]:
+            - paragraph [ref=e1532]:
+              - text: Well-formed executions
+              - emphasis [ref=e1534]:
+                - text: E
+                - subscript [ref=e1535]: "1"
+              - text: ", ..., where"
+              - emphasis [ref=e1537]:
+                - text: E
+                - subscript [ref=e1538]: i
+              - text: = <
+              - emphasis [ref=e1540]:
+                - text: P, A
+                - subscript [ref=e1541]: i
+                - text: ", po"
+                - subscript [ref=e1542]: i
+                - text: ", so"
+                - subscript [ref=e1543]: i
+                - text: ", W"
+                - subscript [ref=e1544]: i
+                - text: ", V"
+                - subscript [ref=e1545]: i
+                - text: ", sw"
+                - subscript [ref=e1546]: i
+                - text: ", hb"
+                - subscript [ref=e1547]: i
+              - text: ">."
+        - paragraph [ref=e1548]:
+          - text: Given these sets of actions
+          - emphasis [ref=e1550]:
+            - text: C
+            - subscript [ref=e1551]: "0"
+          - text: ", ... and executions"
+          - emphasis [ref=e1553]:
+            - text: E
+            - subscript [ref=e1554]: "1"
+          - text: ", ... , every action in"
+          - emphasis [ref=e1556]:
+            - text: C
+            - subscript [ref=e1557]: i
+          - text: must be one of the actions in
+          - emphasis [ref=e1559]:
+            - text: E
+            - subscript [ref=e1560]: i
+          - text: . All actions in
+          - emphasis [ref=e1562]:
+            - text: C
+            - subscript [ref=e1563]: i
+          - text: must share the same relative happens-before order and synchronization order in both
+          - emphasis [ref=e1565]:
+            - text: E
+            - subscript [ref=e1566]: i
+          - text: and
+          - emphasis [ref=e1568]: E
+          - text: ". Formally:"
+        - list [ref=e1570]:
+          - listitem [ref=e1571]:
+            - paragraph [ref=e1572]:
+              - emphasis [ref=e1574]:
+                - text: C
+                - subscript [ref=e1575]: i
+              - text: is a subset of
+              - emphasis [ref=e1577]:
+                - text: A
+                - subscript [ref=e1578]: i
+          - listitem [ref=e1579]:
+            - paragraph [ref=e1580]:
+              - emphasis [ref=e1582]:
+                - text: hb
+                - subscript [ref=e1583]: i
+              - text: "|"
+              - subscript [ref=e1584]:
+                - emphasis [ref=e1586]:
+                  - text: C
+                  - subscript [ref=e1587]: i
+              - text: =
+              - emphasis [ref=e1589]: hb
+              - text: "|"
+              - subscript [ref=e1590]:
+                - emphasis [ref=e1592]:
+                  - text: C
+                  - subscript [ref=e1593]: i
+          - listitem [ref=e1594]:
+            - paragraph [ref=e1595]:
+              - emphasis [ref=e1597]:
+                - text: so
+                - subscript [ref=e1598]: i
+              - text: "|"
+              - subscript [ref=e1599]:
+                - emphasis [ref=e1601]:
+                  - text: C
+                  - subscript [ref=e1602]: i
+              - text: =
+              - emphasis [ref=e1604]: so
+              - text: "|"
+              - subscript [ref=e1605]:
+                - emphasis [ref=e1607]:
+                  - text: C
+                  - subscript [ref=e1608]: i
+        - paragraph [ref=e1609]:
+          - text: The values written by the writes in
+          - emphasis [ref=e1611]:
+            - text: C
+            - subscript [ref=e1612]: i
+          - text: must be the same in both
+          - emphasis [ref=e1614]:
+            - text: E
+            - subscript [ref=e1615]: i
+          - text: and
+          - emphasis [ref=e1617]: E
+          - text: . Only the reads in
+          - emphasis [ref=e1619]:
+            - text: C
+            - subscript [ref=e1620]: i-1
+          - text: need to see the same writes in
+          - emphasis [ref=e1622]:
+            - text: E
+            - subscript [ref=e1623]: i
+          - text: as in
+          - emphasis [ref=e1625]: E
+          - text: ". Formally:"
+        - list [ref=e1627]:
+          - listitem [ref=e1628]:
+            - paragraph [ref=e1629]:
+              - emphasis [ref=e1631]:
+                - text: V
+                - subscript [ref=e1632]: i
+              - text: "|"
+              - subscript [ref=e1633]:
+                - emphasis [ref=e1635]:
+                  - text: C
+                  - subscript [ref=e1636]: i
+              - text: =
+              - emphasis [ref=e1638]: V
+              - text: "|"
+              - subscript [ref=e1639]:
+                - emphasis [ref=e1641]:
+                  - text: C
+                  - subscript [ref=e1642]: i
+          - listitem [ref=e1643]:
+            - paragraph [ref=e1644]:
+              - emphasis [ref=e1646]:
+                - text: W
+                - subscript [ref=e1647]: i
+              - text: "|"
+              - subscript [ref=e1648]:
+                - emphasis [ref=e1650]:
+                  - text: C
+                  - subscript [ref=e1651]: i-1
+              - text: =
+              - emphasis [ref=e1653]: W
+              - text: "|"
+              - subscript [ref=e1654]:
+                - emphasis [ref=e1656]:
+                  - text: C
+                  - subscript [ref=e1657]: i-1
+        - paragraph [ref=e1658]:
+          - text: All reads in
+          - emphasis [ref=e1660]:
+            - text: E
+            - subscript [ref=e1661]: i
+          - text: that are not in
+          - emphasis [ref=e1663]:
+            - text: C
+            - subscript [ref=e1664]: i-1
+          - text: must see writes that happen-before them. Each read
+          - emphasis [ref=e1666]: r
+          - text: in
+          - emphasis [ref=e1668]:
+            - text: C
+            - subscript [ref=e1669]: i
+          - text: "-"
+          - emphasis [ref=e1671]:
+            - text: C
+            - subscript [ref=e1672]: i-1
+          - text: must see writes in
+          - emphasis [ref=e1674]:
+            - text: C
+            - subscript [ref=e1675]: i-1
+          - text: in both
+          - emphasis [ref=e1677]:
+            - text: E
+            - subscript [ref=e1678]: i
+          - text: and
+          - emphasis [ref=e1680]: E
+          - text: ", but may see a different write in"
+          - emphasis [ref=e1682]:
+            - text: E
+            - subscript [ref=e1683]: i
+          - text: from the one it sees in
+          - emphasis [ref=e1685]: E
+          - text: ". Formally:"
+        - list [ref=e1687]:
+          - listitem [ref=e1688]:
+            - paragraph [ref=e1689]:
+              - text: For any read
+              - emphasis [ref=e1691]: r
+              - text: in
+              - emphasis [ref=e1693]:
+                - text: A
+                - subscript [ref=e1694]: i
+              - text: "-"
+              - emphasis [ref=e1696]:
+                - text: C
+                - subscript [ref=e1697]: i-1
+              - text: ", we have"
+              - emphasis [ref=e1699]:
+                - text: hb
+                - subscript [ref=e1700]: i
+                - text: (W
+                - subscript [ref=e1701]: i
+                - text: (r), r)
+          - listitem [ref=e1702]:
+            - paragraph [ref=e1703]:
+              - text: For any read
+              - emphasis [ref=e1705]: r
+              - text: in (
+              - emphasis [ref=e1707]:
+                - text: C
+                - subscript [ref=e1708]: i
+              - text: "-"
+              - emphasis [ref=e1710]:
+                - text: C
+                - subscript [ref=e1711]: i-1
+              - text: ), we have
+              - emphasis [ref=e1713]:
+                - text: W
+                - subscript [ref=e1714]: i
+                - text: (r)
+              - text: in
+              - emphasis [ref=e1716]:
+                - text: C
+                - subscript [ref=e1717]: i-1
+              - text: and
+              - emphasis [ref=e1719]: W(r)
+              - text: in
+              - emphasis [ref=e1721]:
+                - text: C
+                - subscript [ref=e1722]: i-1
+        - paragraph [ref=e1723]:
+          - text: Given a set of sufficient synchronizes-with edges for
+          - emphasis [ref=e1725]:
+            - text: E
+            - subscript [ref=e1726]: i
+          - text: ", if there is a release-acquire pair that happens-before ("
+          - link "§17.4.5" [ref=e1727] [cursor=pointer]:
+            - /url: jls-17.html#jls-17.4.5
+          - text: ) an action you are committing, then that pair must be present in all
+          - emphasis [ref=e1729]:
+            - text: E
+            - subscript [ref=e1730]: j
+          - text: ", where"
+          - emphasis [ref=e1732]: j
+          - text: ≥
+          - emphasis [ref=e1734]: i
+          - text: ". Formally:"
+        - list [ref=e1736]:
+          - listitem [ref=e1737]:
+            - paragraph [ref=e1738]:
+              - text: Let
+              - emphasis [ref=e1740]:
+                - text: ssw
+                - subscript [ref=e1741]: i
+              - text: be the
+              - emphasis [ref=e1743]:
+                - text: sw
+                - subscript [ref=e1744]: i
+              - text: edges that are also in the transitive reduction of
+              - emphasis [ref=e1746]:
+                - text: hb
+                - subscript [ref=e1747]: i
+              - text: but not in
+              - emphasis [ref=e1749]: po
+              - text: . We call
+              - emphasis [ref=e1751]:
+                - text: ssw
+                - subscript [ref=e1752]: i
+              - text: the
+              - emphasis [ref=e1754]:
+                - text: sufficient synchronizes-with edges for
+                - emphasis [ref=e1756]:
+                  - text: E
+                  - subscript [ref=e1757]: i
+              - text: . If
+              - emphasis [ref=e1759]:
+                - text: ssw
+                - subscript [ref=e1760]: i
+                - text: (x, y)
+              - text: and
+              - emphasis [ref=e1762]:
+                - text: hb
+                - subscript [ref=e1763]: i
+                - text: (y, z)
+              - text: and
+              - emphasis [ref=e1765]: z
+              - text: in
+              - emphasis [ref=e1767]:
+                - text: C
+                - subscript [ref=e1768]: i
+              - text: ", then"
+              - emphasis [ref=e1770]:
+                - text: sw
+                - subscript [ref=e1771]: j
+                - text: (x, y)
+              - text: for all
+              - emphasis [ref=e1773]: j
+              - text: ≥
+              - emphasis [ref=e1775]: i
+              - text: .
+            - paragraph [ref=e1776]:
+              - text: If an action
+              - emphasis [ref=e1778]: "y"
+              - text: is committed, all external actions that happen-before
+              - emphasis [ref=e1780]: "y"
+              - text: are also committed.
+          - listitem [ref=e1781]:
+            - paragraph [ref=e1782]:
+              - text: If
+              - emphasis [ref=e1784]: "y"
+              - text: is in
+              - emphasis [ref=e1786]:
+                - text: C
+                - subscript [ref=e1787]: i
+              - text: ","
+              - emphasis [ref=e1789]: x
+              - text: is an external action and
+              - emphasis [ref=e1791]:
+                - text: hb
+                - subscript [ref=e1792]: i
+                - text: (x, y)
+              - text: ", then"
+              - emphasis [ref=e1794]: x
+              - text: in
+              - emphasis [ref=e1796]:
+                - text: C
+                - subscript [ref=e1797]: i
+              - text: .
+        - generic [ref=e1798]:
+          - paragraph [ref=e1799]: Example 17.4.8-1. Happens-before Consistency Is Not Sufficient
+          - generic [ref=e1800]:
+            - paragraph [ref=e1801]:
+              - text: Happens-before consistency is a necessary, but not sufficient, set of constraints. Merely enforcing happens-before consistency would allow for unacceptable behaviors - those that violate the requirements we have established for programs. For example, happens-before consistency allows values to appear "out of thin air". This can be seen by a detailed examination of the trace in
+              - link "Table 17.4.8-A" [ref=e1802] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.8-A
+              - text: .
+            - generic [ref=e1803]:
+              - paragraph [ref=e1804]: Table 17.4.8-A. Happens-before consistency is not sufficient
+              - table "Happens-before consistency is not sufficient" [ref=e1806]:
+                - rowgroup [ref=e1810]:
+                  - row [ref=e1811]:
+                    - columnheader "Thread 1" [ref=e1812]
+                    - columnheader "Thread 2" [ref=e1813]
+                - rowgroup [ref=e1814]:
+                  - row [ref=e1815]:
+                    - cell [ref=e1816]:
+                      - code [ref=e1817]: r1 = x;
+                    - cell [ref=e1818]:
+                      - code [ref=e1819]: r2 = y;
+                  - row [ref=e1820]:
+                    - cell [ref=e1821]:
+                      - code [ref=e1822]: if (r1 != 0) y = 1;
+                    - cell [ref=e1823]:
+                      - code [ref=e1824]: if (r2 != 0) x = 1;
+            - paragraph [ref=e1825]:
+              - text: The code shown in
+              - link "Table 17.4.8-A" [ref=e1826] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.8-A
+              - text: "is correctly synchronized. This may seem surprising, since it does not perform any synchronization actions. Remember, however, that a program is correctly synchronized if, when it is executed in a sequentially consistent manner, there are no data races. If this code is executed in a sequentially consistent way, each action will occur in program order, and neither of the writes will occur. Since no writes occur, there can be no data races: the program is correctly synchronized."
+            - paragraph [ref=e1827]: "Since this program is correctly synchronized, the only behaviors we can allow are sequentially consistent behaviors. However, there is an execution of this program that is happens-before consistent, but not sequentially consistent:"
+            - generic [ref=e1828]: r1 = x; // sees write of x = 1 y = 1; r2 = y; // sees write of y = 1 x = 1;
+            - paragraph [ref=e1829]: "This result is happens-before consistent: there is no happens-before relationship that prevents it from occurring. However, it is clearly not acceptable: there is no sequentially consistent execution that would result in this behavior. The fact that we allow a read to see a write that comes later in the execution order can sometimes thus result in unacceptable behaviors."
+            - paragraph [ref=e1830]:
+              - text: Although allowing reads to see writes that come later in the execution order is sometimes undesirable, it is also sometimes necessary. As we saw above, the trace in
+              - link "Table 17.4.5-A" [ref=e1831] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.5-A
+              - text: requires some reads to see writes that occur later in the execution order. Since the reads come first in each thread, the very first action in the execution order must be a read. If that read cannot see a write that occurs later, then it cannot see any value other than the initial value for the variable it reads. This is clearly not reflective of all behaviors.
+            - paragraph [ref=e1832]:
+              - text: We refer to the issue of when reads can see future writes as
+              - emphasis [ref=e1834]: causality
+              - text: ", because of issues that arise in cases like the one found in"
+              - link "Table 17.4.8-A" [ref=e1835] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.8-A
+              - text: . In that case, the reads cause the writes to occur, and the writes cause the reads to occur. There is no "first cause" for the actions. Our memory model therefore needs a consistent way of determining which reads can see writes early.
+            - paragraph [ref=e1836]:
+              - text: Examples such as the one found in
+              - link "Table 17.4.8-A" [ref=e1837] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.8-A
+              - text: demonstrate that the specification must be careful when stating whether a read can see a write that occurs later in the execution (bearing in mind that if a read sees a write that occurs later in the execution, it represents the fact that the write is actually performed early).
+            - paragraph [ref=e1838]: The memory model takes as input a given execution, and a program, and determines whether that execution is a legal execution of the program. It does this by gradually building a set of "committed" actions that reflect which actions were executed by the program. Usually, the next action to be committed will reflect the next action that can be performed by a sequentially consistent execution. However, to reflect reads that need to see later writes, we allow some actions to be committed earlier than other actions that happen-before them.
+            - paragraph [ref=e1839]:
+              - text: Obviously, some actions may be committed early and some may not. If, for example, one of the writes in
+              - link "Table 17.4.8-A" [ref=e1840] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.8-A
+              - text: were committed before the read of that variable, the read could see the write, and the "out-of-thin-air" result could occur. Informally, we allow an action to be committed early if we know that the action can occur without assuming some data race occurs. In
+              - link "Table 17.4.8-A" [ref=e1841] [cursor=pointer]:
+                - /url: jls-17.html#jls-17.4.8-A
+              - text: ", we cannot perform either write early, because the writes cannot occur unless the reads see the result of a data race."
+      - generic [ref=e1842]:
+        - heading "17.4.9. Observable Behavior and Nonterminating Executions" [level=3] [ref=e1846]
+        - paragraph [ref=e1847]: For programs that always terminate in some bounded finite period of time, their behavior can be understood (informally) simply in terms of their allowable executions. For programs that can fail to terminate in a bounded amount of time, more subtle issues arise.
+        - paragraph [ref=e1848]:
+          - text: The observable behavior of a program is defined by the finite sets of external actions that the program may perform. A program that, for example, simply prints "Hello" forever is described by a set of behaviors that for any non-negative integer
+          - emphasis [ref=e1850]: i
+          - text: ", includes the behavior of printing \"Hello\""
+          - emphasis [ref=e1852]: i
+          - text: times.
+        - paragraph [ref=e1853]:
+          - text: Termination is not explicitly modeled as a behavior, but a program can easily be extended to generate an additional external action
+          - emphasis [ref=e1855]: executionTermination
+          - text: that occurs when all threads have terminated.
+        - paragraph [ref=e1856]:
+          - text: We also define a special
+          - emphasis [ref=e1858]: hang
+          - text: action. If behavior is described by a set of external actions including a
+          - emphasis [ref=e1860]: hang
+          - text: action, it indicates a behavior where after the external actions are observed, the program can run for an unbounded amount of time without performing any additional external actions or terminating. Programs can hang if all threads are blocked or if the program can perform an unbounded number of actions without performing any external actions.
+        - paragraph [ref=e1861]: A thread can be blocked in a variety of circumstances, such as when it is attempting to acquire a lock or perform an external action (such as a read) that depends on external data.
+        - paragraph [ref=e1862]: An execution may result in a thread being blocked indefinitely and the execution's not terminating. In such cases, the actions generated by the blocked thread must consist of all actions generated by that thread up to and including the action that caused the thread to be blocked, and no actions that would be generated by the thread after that action.
+        - paragraph [ref=e1863]: To reason about observable behaviors, we need to talk about sets of observable actions.
+        - paragraph [ref=e1864]:
+          - text: If
+          - emphasis [ref=e1866]: O
+          - text: is a set of observable actions for an execution
+          - emphasis [ref=e1868]: E
+          - text: ", then set"
+          - emphasis [ref=e1870]: O
+          - text: must be a subset of
+          - emphasis [ref=e1872]: E
+          - text: "'s actions,"
+          - emphasis [ref=e1874]: A
+          - text: ", and must contain only a finite number of actions, even if"
+          - emphasis [ref=e1876]: A
+          - text: contains an infinite number of actions. Furthermore, if an action
+          - emphasis [ref=e1878]: "y"
+          - text: is in
+          - emphasis [ref=e1880]: O
+          - text: ", and either"
+          - emphasis [ref=e1882]: hb(x, y)
+          - text: or
+          - emphasis [ref=e1884]: so(x, y)
+          - text: ", then"
+          - emphasis [ref=e1886]: x
+          - text: is in
+          - emphasis [ref=e1888]: O
+          - text: .
+        - paragraph [ref=e1889]: Note that a set of observable actions are not restricted to external actions. Rather, only external actions that are in a set of observable actions are deemed to be observable external actions.
+        - paragraph [ref=e1890]:
+          - text: A behavior
+          - emphasis [ref=e1892]: B
+          - text: is an allowable behavior of a program
+          - emphasis [ref=e1894]: P
+          - text: if and only if
+          - emphasis [ref=e1896]: B
+          - text: "is a finite set of external actions and either:"
+        - list [ref=e1898]:
+          - listitem [ref=e1899]:
+            - paragraph [ref=e1900]:
+              - text: There exists an execution
+              - emphasis [ref=e1902]: E
+              - text: of
+              - emphasis [ref=e1904]: P
+              - text: ", and a set"
+              - emphasis [ref=e1906]: O
+              - text: of observable actions for
+              - emphasis [ref=e1908]: E
+              - text: ", and"
+              - emphasis [ref=e1910]: B
+              - text: is the set of external actions in
+              - emphasis [ref=e1912]: O
+              - text: (If any threads in
+              - emphasis [ref=e1914]: E
+              - text: end in a blocked state and
+              - emphasis [ref=e1916]: O
+              - text: contains all actions in
+              - emphasis [ref=e1918]: E
+              - text: ", then"
+              - emphasis [ref=e1920]: B
+              - text: may also contain a
+              - emphasis [ref=e1922]: hang
+              - text: action); or
+          - listitem [ref=e1923]:
+            - paragraph [ref=e1924]:
+              - text: There exists a set
+              - emphasis [ref=e1926]: O
+              - text: of actions such that
+              - emphasis [ref=e1928]: B
+              - text: consists of a
+              - emphasis [ref=e1930]: hang
+              - text: action plus all the external actions in
+              - emphasis [ref=e1932]: O
+              - text: and for all
+              - emphasis [ref=e1934]: k
+              - text: ≥ |
+              - emphasis [ref=e1936]: O
+              - text: "|, there exists an execution"
+              - emphasis [ref=e1938]: E
+              - text: of
+              - emphasis [ref=e1940]: P
+              - text: with actions
+              - emphasis [ref=e1942]: A
+              - text: ", and there exists a set of actions"
+              - emphasis [ref=e1944]: O
+              - text: "' such that:"
+            - list [ref=e1946]:
+              - listitem [ref=e1947]:
+                - paragraph [ref=e1948]:
+                  - text: Both
+                  - emphasis [ref=e1950]: O
+                  - text: and
+                  - emphasis [ref=e1952]: O
+                  - text: "' are subsets of"
+                  - emphasis [ref=e1954]: A
+                  - text: that fulfill the requirements for sets of observable actions.
+              - listitem [ref=e1955]:
+                - paragraph [ref=e1956]:
+                  - emphasis [ref=e1958]: O
+                  - text: ⊆
+                  - emphasis [ref=e1960]: O
+                  - text: "' ⊆"
+                  - emphasis [ref=e1962]: A
+              - listitem [ref=e1963]:
+                - paragraph [ref=e1964]:
+                  - text: "|"
+                  - emphasis [ref=e1966]: O
+                  - text: "' | ≥"
+                  - emphasis [ref=e1968]: k
+              - listitem [ref=e1969]:
+                - paragraph [ref=e1970]:
+                  - emphasis [ref=e1972]: O
+                  - text: "' -"
+                  - emphasis [ref=e1974]: O
+                  - text: contains no external actions
+        - paragraph [ref=e1975]:
+          - text: Note that a behavior
+          - emphasis [ref=e1977]: B
+          - text: does not describe the order in which the external actions in
+          - emphasis [ref=e1979]: B
+          - text: are observed, but other (internal) constraints on how the external actions are generated and performed may impose such constraints.
+    - generic [ref=e1980]:
+      - heading [level=2] [ref=e1984]:
+        - text: 17.5.
+        - code [ref=e1985]: final
+        - text: Field Semantics
+      - paragraph [ref=e1986]:
+        - text: Fields declared final are initialized once, but never changed under normal circumstances. The detailed semantics of
+        - code [ref=e1987]: final
+        - text: fields are somewhat different from those of normal fields. In particular, compilers have a great deal of freedom to move reads of
+        - code [ref=e1988]: final
+        - text: fields across synchronization barriers and calls to arbitrary or unknown methods. Correspondingly, compilers are allowed to keep the value of a
+        - code [ref=e1989]: final
+        - text: field cached in a register and not reload it from memory in situations where a non-
+        - code [ref=e1990]: final
+        - text: field would have to be reloaded.
+      - paragraph [ref=e1991]:
+        - code [ref=e1992]: final
+        - text: fields also allow programmers to implement thread-safe immutable objects without synchronization. A thread-safe immutable object is seen as immutable by all threads, even if a data race is used to pass references to the immutable object between threads. This can provide safety guarantees against misuse of an immutable class by incorrect or malicious code.
+        - code [ref=e1993]: final
+        - text: fields must be used correctly to provide a guarantee of immutability.
+      - paragraph [ref=e1994]:
+        - text: An object is considered to be
+        - emphasis [ref=e1996]: completely initialized
+        - text: when its constructor finishes. A thread that can only see a reference to an object after that object has been completely initialized is guaranteed to see the correctly initialized values for that object's
+        - code [ref=e1997]: final
+        - text: fields.
+      - paragraph [ref=e1998]:
+        - text: The usage model for
+        - code [ref=e1999]: final
+        - text: "fields is a simple one: Set the"
+        - code [ref=e2000]: final
+        - text: fields for an object in that object's constructor; and do not write a reference to the object being constructed in a place where another thread can see it before the object's constructor is finished. If this is followed, then when the object is seen by another thread, that thread will always see the correctly constructed version of that object's
+        - code [ref=e2001]: final
+        - text: fields. It will also see versions of any object or array referenced by those
+        - code [ref=e2002]: final
+        - text: fields that are at least as up-to-date as the
+        - code [ref=e2003]: final
+        - text: fields are.
+      - generic [ref=e2004]:
+        - paragraph [ref=e2005]:
+          - generic [ref=e2006]:
+            - text: Example 17.5-1.
+            - code [ref=e2007]: final
+            - text: Fields In The Java Memory Model
+        - generic [ref=e2008]:
+          - paragraph [ref=e2009]:
+            - text: The program below illustrates how
+            - code [ref=e2010]: final
+            - text: fields compare to normal fields.
+          - generic [ref=e2011]: "class FinalFieldExample { final int x; int y; static FinalFieldExample f; public FinalFieldExample() { x = 3; y = 4; } static void writer() { f = new FinalFieldExample(); } static void reader() { if (f != null) { int i = f.x; // guaranteed to see 3 int j = f.y; // could see 0 } } }"
+          - paragraph [ref=e2012]:
+            - text: The class
+            - code [ref=e2013]: FinalFieldExample
+            - text: has a
+            - code [ref=e2014]: final
+            - code [ref=e2015]: int
+            - text: field
+            - code [ref=e2016]: x
+            - text: and a non-
+            - code [ref=e2017]: final
+            - code [ref=e2018]: int
+            - text: field
+            - code [ref=e2019]: "y"
+            - text: . One thread might execute the method
+            - code [ref=e2020]: writer
+            - text: and another might execute the method
+            - code [ref=e2021]: reader
+            - text: .
+          - paragraph [ref=e2022]:
+            - text: Because the
+            - code [ref=e2023]: writer
+            - text: method writes
+            - code [ref=e2024]: f
+            - emphasis [ref=e2026]: after
+            - text: the object's constructor finishes, the
+            - code [ref=e2027]: reader
+            - text: method will be guaranteed to see the properly initialized value for
+            - code [ref=e2028]: f.x
+            - text: ": it will read the value"
+            - code [ref=e2029]: "3"
+            - text: . However,
+            - code [ref=e2030]: f.y
+            - text: is not
+            - code [ref=e2031]: final
+            - text: ; the
+            - code [ref=e2032]: reader
+            - text: method is therefore not guaranteed to see the value
+            - code [ref=e2033]: "4"
+            - text: for it.
+      - generic [ref=e2034]:
+        - paragraph [ref=e2035]:
+          - generic [ref=e2036]:
+            - text: Example 17.5-2.
+            - code [ref=e2037]: final
+            - text: Fields For Security
+        - generic [ref=e2038]:
+          - paragraph [ref=e2039]:
+            - code [ref=e2040]: final
+            - text: "fields are designed to allow for necessary security guarantees. Consider the following program. One thread (which we shall refer to as thread 1) executes:"
+          - generic [ref=e2041]: Global.s = "/tmp/usr".substring(4);
+          - paragraph [ref=e2042]: while another thread (thread 2) executes
+          - generic [ref=e2043]: String myS = Global.s; if (myS.equals("/tmp"))System.out.println(myS);
+          - paragraph [ref=e2044]:
+            - code [ref=e2045]: String
+            - text: objects are intended to be immutable and string operations do not perform synchronization. While the
+            - code [ref=e2046]: String
+            - text: implementation does not have any data races, other code could have data races involving the use of
+            - code [ref=e2047]: String
+            - text: objects, and the memory model makes weak guarantees for programs that have data races. In particular, if the fields of the
+            - code [ref=e2048]: String
+            - text: class were not
+            - code [ref=e2049]: final
+            - text: ", then it would be possible (although unlikely) that thread 2 could initially see the default value of"
+            - code [ref=e2050]: "0"
+            - text: for the offset of the string object, allowing it to compare as equal to "
+            - code [ref=e2051]: /tmp
+            - text: "\". A later operation on the"
+            - code [ref=e2052]: String
+            - text: object might see the correct offset of
+            - code [ref=e2053]: "4"
+            - text: ", so that the"
+            - code [ref=e2054]: String
+            - text: object is perceived as being "
+            - code [ref=e2055]: /usr
+            - text: "\". Many security features of the Java programming language depend upon"
+            - code [ref=e2056]: String
+            - text: objects being perceived as truly immutable, even if malicious code is using data races to pass
+            - code [ref=e2057]: String
+            - text: references between threads.
+      - generic [ref=e2058]:
+        - heading [level=3] [ref=e2062]:
+          - text: 17.5.1. Semantics of
+          - code [ref=e2063]: final
+          - text: Fields
+        - paragraph [ref=e2064]:
+          - text: Let
+          - emphasis [ref=e2066]: o
+          - text: be an object, and
+          - emphasis [ref=e2068]: c
+          - text: be a constructor for
+          - emphasis [ref=e2070]: o
+          - text: in which a
+          - code [ref=e2071]: final
+          - text: field
+          - emphasis [ref=e2073]: f
+          - text: is written. A
+          - emphasis [ref=e2075]: freeze
+          - text: action on
+          - code [ref=e2076]: final
+          - text: field
+          - emphasis [ref=e2078]: f
+          - text: of
+          - emphasis [ref=e2080]: o
+          - text: takes place when
+          - emphasis [ref=e2082]: c
+          - text: exits, either normally or abruptly.
+        - paragraph [ref=e2083]:
+          - text: Note that if one constructor invokes another constructor, and the invoked constructor sets a
+          - code [ref=e2084]: final
+          - text: field, the freeze for the
+          - code [ref=e2085]: final
+          - text: field takes place at the end of the invoked constructor.
+        - paragraph [ref=e2086]:
+          - text: For each execution, the behavior of reads is influenced by two additional partial orders, the dereference chain
+          - emphasis [ref=e2088]: dereferences()
+          - text: and the memory chain
+          - emphasis [ref=e2090]: mc()
+          - text: ", which are considered to be part of the execution (and thus, fixed for any particular execution). These partial orders must satisfy the following constraints (which need not have a unique solution):"
+        - list [ref=e2092]:
+          - listitem [ref=e2093]:
+            - paragraph [ref=e2094]:
+              - text: "Dereference Chain: If an action"
+              - emphasis [ref=e2096]: a
+              - text: is a read or write of a field or element of an object
+              - emphasis [ref=e2098]: o
+              - text: by a thread
+              - emphasis [ref=e2100]: t
+              - text: that did not initialize
+              - emphasis [ref=e2102]: o
+              - text: ", then there must exist some read"
+              - emphasis [ref=e2104]: r
+              - text: by thread
+              - emphasis [ref=e2106]: t
+              - text: that sees the address of
+              - emphasis [ref=e2108]: o
+              - text: such that
+              - emphasis [ref=e2110]: r
+              - emphasis [ref=e2112]: dereferences(r, a)
+              - text: .
+          - listitem [ref=e2113]:
+            - paragraph [ref=e2114]: "Memory Chain: There are several constraints on the memory chain ordering:"
+            - list [ref=e2116]:
+              - listitem [ref=e2117]:
+                - paragraph [ref=e2118]:
+                  - text: If
+                  - emphasis [ref=e2120]: r
+                  - text: is a read that sees a write
+                  - emphasis [ref=e2122]: w
+                  - text: ", then it must be the case that"
+                  - emphasis [ref=e2124]: mc(w, r)
+                  - text: .
+              - listitem [ref=e2125]:
+                - paragraph [ref=e2126]:
+                  - text: If
+                  - emphasis [ref=e2128]: r
+                  - text: and
+                  - emphasis [ref=e2130]: a
+                  - text: are actions such that
+                  - emphasis [ref=e2132]: dereferences(r, a)
+                  - text: ", then it must be the case that"
+                  - emphasis [ref=e2134]: mc(r, a)
+                  - text: .
+              - listitem [ref=e2135]:
+                - paragraph [ref=e2136]:
+                  - text: If
+                  - emphasis [ref=e2138]: w
+                  - text: is a write of the address of an object
+                  - emphasis [ref=e2140]: o
+                  - text: by a thread
+                  - emphasis [ref=e2142]: t
+                  - text: that did not initialize
+                  - emphasis [ref=e2144]: o
+                  - text: ", then there must exist some read"
+                  - emphasis [ref=e2146]: r
+                  - text: by thread
+                  - emphasis [ref=e2148]: t
+                  - text: that sees the address of
+                  - emphasis [ref=e2150]: o
+                  - text: such that
+                  - emphasis [ref=e2152]: mc(r, w)
+                  - text: .
+        - paragraph [ref=e2153]:
+          - text: Given a write
+          - emphasis [ref=e2155]: w
+          - text: ", a freeze"
+          - emphasis [ref=e2157]: f
+          - text: ", an action"
+          - emphasis [ref=e2159]: a
+          - text: (that is not a read of a
+          - code [ref=e2160]: final
+          - text: field), a read
+          - emphasis [ref=e2162]:
+            - text: r
+            - subscript [ref=e2163]: "1"
+          - text: of the
+          - code [ref=e2164]: final
+          - text: field frozen by
+          - emphasis [ref=e2166]: f
+          - text: ", and a read"
+          - emphasis [ref=e2168]:
+            - text: r
+            - subscript [ref=e2169]: "2"
+          - text: such that
+          - emphasis [ref=e2171]: hb(w, f)
+          - text: ","
+          - emphasis [ref=e2173]: hb(f, a)
+          - text: ","
+          - emphasis [ref=e2175]:
+            - text: mc(a, r
+            - subscript [ref=e2176]: "1"
+            - text: )
+          - text: ", and"
+          - emphasis [ref=e2178]:
+            - text: dereferences(r
+            - subscript [ref=e2179]: "1"
+            - text: ", r"
+            - subscript [ref=e2180]: "2"
+            - text: )
+          - text: ", then when determining which values can be seen by"
+          - emphasis [ref=e2182]:
+            - text: r
+            - subscript [ref=e2183]: "2"
+          - text: ", we consider"
+          - emphasis [ref=e2185]:
+            - text: hb(w, r
+            - subscript [ref=e2186]: "2"
+            - text: )
+          - text: . (This
+          - emphasis [ref=e2188]: happens-before
+          - text: ordering does not transitively close with other
+          - emphasis [ref=e2190]: happens-before
+          - text: orderings.)
+        - paragraph [ref=e2191]:
+          - text: Note that the
+          - emphasis [ref=e2193]: dereferences
+          - text: order is reflexive, and
+          - emphasis [ref=e2195]:
+            - text: r
+            - subscript [ref=e2196]: "1"
+          - text: can be the same as
+          - emphasis [ref=e2198]:
+            - text: r
+            - subscript [ref=e2199]: "2"
+          - text: .
+        - paragraph [ref=e2200]:
+          - text: For reads of
+          - code [ref=e2201]: final
+          - text: fields, the only writes that are deemed to come before the read of the
+          - code [ref=e2202]: final
+          - text: field are the ones derived through the
+          - code [ref=e2203]: final
+          - text: field semantics.
+      - generic [ref=e2204]:
+        - heading [level=3] [ref=e2208]:
+          - text: 17.5.2. Reading
+          - code [ref=e2209]: final
+          - text: Fields During Construction
+        - paragraph [ref=e2210]:
+          - text: A read of a
+          - code [ref=e2211]: final
+          - text: field of an object within the thread that constructs that object is ordered with respect to the initialization of that field within the constructor by the usual
+          - emphasis [ref=e2213]: happens-before
+          - text: rules. If the read occurs after the field is set in the constructor, it sees the value the
+          - code [ref=e2214]: final
+          - text: field is assigned, otherwise it sees the default value.
+      - generic [ref=e2215]:
+        - heading [level=3] [ref=e2219]:
+          - text: 17.5.3. Subsequent Modification of
+          - code [ref=e2220]: final
+          - text: Fields
+        - paragraph [ref=e2221]:
+          - text: In some cases, such as deserialization, the system will need to change the
+          - code [ref=e2222]: final
+          - text: fields of an object after construction.
+          - code [ref=e2223]: final
+          - text: fields can be changed via reflection and other implementation-dependent means. The only pattern in which this has reasonable semantics is one in which an object is constructed and then the
+          - code [ref=e2224]: final
+          - text: fields of the object are updated. The object should not be made visible to other threads, nor should the
+          - code [ref=e2225]: final
+          - text: fields be read, until all updates to the
+          - code [ref=e2226]: final
+          - text: fields of the object are complete. Freezes of a
+          - code [ref=e2227]: final
+          - text: field occur both at the end of the constructor in which the
+          - code [ref=e2228]: final
+          - text: field is set, and immediately after each modification of a
+          - code [ref=e2229]: final
+          - text: field via reflection or other special mechanism.
+        - paragraph [ref=e2230]:
+          - text: Even then, there are a number of complications. If a
+          - code [ref=e2231]: final
+          - text: field is initialized to a constant expression (
+          - link "§15.29" [ref=e2232] [cursor=pointer]:
+            - /url: jls-15.html#jls-15.29
+          - text: ) in the field declaration, changes to the
+          - code [ref=e2233]: final
+          - text: field may not be observed, since uses of that
+          - code [ref=e2234]: final
+          - text: field are replaced at compile time with the value of the constant expression.
+        - paragraph [ref=e2235]:
+          - text: Another problem is that the specification allows aggressive optimization of
+          - code [ref=e2236]: final
+          - text: fields. Within a thread, it is permissible to reorder reads of a
+          - code [ref=e2237]: final
+          - text: field with those modifications of a
+          - code [ref=e2238]: final
+          - text: field that do not take place in the constructor.
+        - generic [ref=e2239]:
+          - paragraph [ref=e2240]:
+            - generic [ref=e2241]:
+              - text: Example 17.5.3-1. Aggressive Optimization of
+              - code [ref=e2242]: final
+              - text: Fields
+          - generic [ref=e2243]:
+            - generic [ref=e2244]: "class A { final int x; A() { x = 1; } int f() { return d(this,this); } int d(A a1, A a2) { int i = a1.x; g(a1); int j = a2.x; return j - i; } static void g(A a) { // uses reflection to change a.x to 2 } }"
+            - paragraph [ref=e2245]:
+              - text: In the
+              - code [ref=e2246]: d
+              - text: method, the compiler is allowed to reorder the reads of
+              - code [ref=e2247]: x
+              - text: and the call to
+              - code [ref=e2248]: g
+              - text: freely. Thus,
+              - code [ref=e2249]: new A().f()
+              - text: could return
+              - code [ref=e2250]: "-1"
+              - text: ","
+              - code [ref=e2251]: "0"
+              - text: ", or"
+              - code [ref=e2252]: "1"
+              - text: .
+        - paragraph [ref=e2253]:
+          - text: An implementation may provide a way to execute a block of code in a
+          - emphasis [ref=e2255]:
+            - code [ref=e2256]: final
+            - text: "-field-safe context"
+          - text: . If an object is constructed within a
+          - code [ref=e2257]: final
+          - text: "-field-safe context, the reads of a"
+          - code [ref=e2258]: final
+          - text: field of that object will not be reordered with modifications of that
+          - code [ref=e2259]: final
+          - text: field that occur within that
+          - code [ref=e2260]: final
+          - text: "-field-safe context."
+        - paragraph [ref=e2261]:
+          - text: A
+          - code [ref=e2262]: final
+          - text: "-field-safe context has additional protections. If a thread has seen an incorrectly published reference to an object that allows the thread to see the default value of a"
+          - code [ref=e2263]: final
+          - text: field, and then, within a
+          - code [ref=e2264]: final
+          - text: "-field-safe context, reads a properly published reference to the object, it will be guaranteed to see the correct value of the"
+          - code [ref=e2265]: final
+          - text: field. In the formalism, code executed within a
+          - code [ref=e2266]: final
+          - text: "-field-safe context is treated as a separate thread (for the purposes of"
+          - code [ref=e2267]: final
+          - text: field semantics only).
+        - paragraph [ref=e2268]:
+          - text: In an implementation, a compiler should not move an access to a
+          - code [ref=e2269]: final
+          - text: field into or out of a
+          - code [ref=e2270]: final
+          - text: "-field-safe context (although it can be moved around the execution of such a context, so long as the object is not constructed within that context)."
+        - paragraph [ref=e2271]:
+          - text: One place where use of a
+          - code [ref=e2272]: final
+          - text: "-field-safe context would be appropriate is in an executor or thread pool. By executing each"
+          - code [ref=e2273]: Runnable
+          - text: in a separate
+          - code [ref=e2274]: final
+          - text: "-field-safe context, the executor could guarantee that incorrect access by one"
+          - code [ref=e2275]: Runnable
+          - text: to a object
+          - emphasis [ref=e2277]: o
+          - text: will not remove
+          - code [ref=e2278]: final
+          - text: field guarantees for other
+          - code [ref=e2279]: Runnable
+          - text: s handled by the same executor.
+      - generic [ref=e2280]:
+        - heading "17.5.4. Write-Protected Fields" [level=3] [ref=e2284]
+        - paragraph [ref=e2285]:
+          - text: Normally, a field that is
+          - code [ref=e2286]: final
+          - text: and
+          - code [ref=e2287]: static
+          - text: may not be modified. However,
+          - code [ref=e2288]: System.in
+          - text: ","
+          - code [ref=e2289]: System.out
+          - text: ", and"
+          - code [ref=e2290]: System.err
+          - text: are
+          - code [ref=e2291]: static
+          - code [ref=e2292]: final
+          - text: fields that, for legacy reasons, must be allowed to be changed by the methods
+          - code [ref=e2293]: System.setIn
+          - text: ","
+          - code [ref=e2294]: System.setOut
+          - text: ", and"
+          - code [ref=e2295]: System.setErr
+          - text: . We refer to these fields as being
+          - emphasis [ref=e2297]: write-protected
+          - text: to distinguish them from ordinary
+          - code [ref=e2298]: final
+          - text: fields.
+        - paragraph [ref=e2299]:
+          - text: The compiler needs to treat these fields differently from other
+          - code [ref=e2300]: final
+          - text: fields. For example, a read of an ordinary
+          - code [ref=e2301]: final
+          - text: "field is \"immune\" to synchronization: the barrier involved in a lock or volatile read does not have to affect what value is read from a"
+          - code [ref=e2302]: final
+          - text: field. Since the value of write-protected fields may be seen to change, synchronization events should have an effect on them. Therefore, the semantics dictate that these fields be treated as normal fields that cannot be changed by user code, unless that user code is in the
+          - code [ref=e2303]: System
+          - text: class.
+    - generic [ref=e2304]:
+      - heading "17.6. Word Tearing" [level=2] [ref=e2308]
+      - paragraph [ref=e2309]: One consideration for implementations of the Java Virtual Machine is that every field and array element is considered distinct; updates to one field or element must not interact with reads or updates of any other field or element. In particular, two threads that update adjacent elements of a byte array separately must not interfere or interact and do not need synchronization to ensure sequential consistency.
+      - paragraph [ref=e2310]:
+        - text: Some processors do not provide the ability to write to a single byte. It would be illegal to implement byte array updates on such a processor by simply reading an entire word, updating the appropriate byte, and then writing the entire word back to memory. This problem is sometimes known as
+        - emphasis [ref=e2312]: word tearing
+        - text: ", and on processors that cannot easily update a single byte in isolation some other approach will be required."
+      - generic [ref=e2313]:
+        - paragraph [ref=e2314]: Example 17.6-1. Detection of Word Tearing
+        - generic [ref=e2315]:
+          - paragraph [ref=e2316]: "The following program is a test case to detect word tearing:"
+          - generic [ref=e2317]: "public class WordTearing extends Thread { static final int LENGTH = 8; static final int ITERS = 1000000; static byte[] counts = new byte[LENGTH]; static Thread[] threads = new Thread[LENGTH]; final int id; WordTearing(int i) { id = i; } public void run() { byte v = 0; for (int i = 0; i < ITERS; i++) { byte v2 = counts[id]; if (v != v2) { System.err.println(\"Word-Tearing found: \" + \"counts[\" + id + \"] = \"+ v2 + \", should be \" + v); return; } v++; counts[id] = v; } } public static void main(String[] args) { for (int i = 0; i < LENGTH; ++i) (threads[i] = new WordTearing(i)).start(); } }"
+          - paragraph [ref=e2318]: This makes the point that bytes must not be overwritten by writes to adjacent bytes.
+    - generic [ref=e2319]:
+      - heading [level=2] [ref=e2323]:
+        - text: 17.7. Non-Atomic Treatment of
+        - code [ref=e2324]: double
+        - text: and
+        - code [ref=e2325]: long
+      - paragraph [ref=e2326]:
+        - text: For the purposes of the Java programming language memory model, a single write to a non-volatile
+        - code [ref=e2327]: long
+        - text: or
+        - code [ref=e2328]: double
+        - text: "value is treated as two separate writes: one to each 32-bit half. This can result in a situation where a thread sees the first 32 bits of a 64-bit value from one write, and the second 32 bits from another write."
+      - paragraph [ref=e2329]:
+        - text: Writes and reads of volatile
+        - code [ref=e2330]: long
+        - text: and
+        - code [ref=e2331]: double
+        - text: values are always atomic.
+      - paragraph [ref=e2332]: Writes to and reads of references are always atomic, regardless of whether they are implemented as 32-bit or 64-bit values.
+      - paragraph [ref=e2333]:
+        - text: Some implementations may find it convenient to divide a single write action on a 64-bit
+        - code [ref=e2334]: long
+        - text: or
+        - code [ref=e2335]: double
+        - text: value into two write actions on adjacent 32-bit values. For efficiency's sake, this behavior is implementation-specific; an implementation of the Java Virtual Machine is free to perform writes to
+        - code [ref=e2336]: long
+        - text: and
+        - code [ref=e2337]: double
+        - text: values atomically or in two parts.
+      - paragraph [ref=e2338]:
+        - text: Implementations of the Java Virtual Machine are encouraged to avoid splitting 64-bit values where possible. Programmers are encouraged to declare shared 64-bit values as
+        - code [ref=e2339]: volatile
+        - text: or synchronize their programs correctly to avoid possible complications.
+  - generic [ref=e2340]:
+    - separator [ref=e2341]
+    - table "Navigation footer" [ref=e2342]:
+      - rowgroup [ref=e2343]:
+        - row [ref=e2344]:
+          - cell [ref=e2345]:
+            - link "Prev" [ref=e2346] [cursor=pointer]:
+              - /url: jls-16.html
+          - cell [ref=e2347]
+          - cell [ref=e2348]:
+            - link "Next" [ref=e2349] [cursor=pointer]:
+              - /url: jls-18.html
+        - row [ref=e2350]:
+          - cell "Chapter 16. Definite Assignment" [ref=e2351]
+          - cell [ref=e2352]:
+            - link "Home" [ref=e2353] [cursor=pointer]:
+              - /url: index.html
+          - cell "Chapter 18. Type Inference" [ref=e2354]
+  - generic [ref=e2355]:
+    - separator [ref=e2356]
+    - link "Legal Notice" [ref=e2357] [cursor=pointer]:
+      - /url: spec-frontmatter.html

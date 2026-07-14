@@ -1,0 +1,279 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring for Apache Kafka
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: index.html
+                - listitem [ref=e51]:
+                  - link "What’s new?" [ref=e52] [cursor=pointer]:
+                    - /url: whats-new.html
+                - listitem [ref=e53]:
+                  - button [ref=e54] [cursor=pointer]
+                  - link "Introduction" [ref=e55] [cursor=pointer]:
+                    - /url: introduction.html
+                - listitem [ref=e56]:
+                  - button [ref=e57] [cursor=pointer]
+                  - link "Reference" [ref=e58] [cursor=pointer]:
+                    - /url: reference.html
+                  - list [ref=e59]:
+                    - listitem [ref=e60]:
+                      - button [ref=e61] [cursor=pointer]
+                      - link "Using Spring for Apache Kafka" [ref=e62] [cursor=pointer]:
+                        - /url: kafka.html
+                    - listitem [ref=e63]:
+                      - button [ref=e64] [cursor=pointer]
+                      - link "Non-Blocking Retries" [ref=e65] [cursor=pointer]:
+                        - /url: retrytopic.html
+                      - list [ref=e66]:
+                        - listitem [ref=e67]:
+                          - link "How the Pattern Works" [ref=e68] [cursor=pointer]:
+                            - /url: retrytopic/how-the-pattern-works.html
+                        - listitem [ref=e69]:
+                          - link "Back Off Delay Precision" [ref=e70] [cursor=pointer]:
+                            - /url: retrytopic/back-off-delay-precision.html
+                        - listitem [ref=e71]:
+                          - link "Configuration" [ref=e72] [cursor=pointer]:
+                            - /url: retrytopic/retry-config.html
+                        - listitem [ref=e73]:
+                          - link "Programmatic Construction" [ref=e74] [cursor=pointer]:
+                            - /url: retrytopic/programmatic-construction.html
+                        - listitem [ref=e75]:
+                          - link "Features" [ref=e76] [cursor=pointer]:
+                            - /url: retrytopic/features.html
+                        - listitem [ref=e77]:
+                          - link "Combining Blocking and Non-Blocking Retries" [ref=e78] [cursor=pointer]:
+                            - /url: retrytopic/retry-topic-combine-blocking.html
+                        - listitem [ref=e79]:
+                          - link "Accessing Delivery Attempts" [ref=e80] [cursor=pointer]:
+                            - /url: retrytopic/accessing-delivery-attempts.html
+                        - listitem [ref=e81]:
+                          - link "Topic Naming" [ref=e82] [cursor=pointer]:
+                            - /url: retrytopic/topic-naming.html
+                        - listitem [ref=e83]:
+                          - link "Multiple Listeners, Same Topic(s)" [ref=e84] [cursor=pointer]:
+                            - /url: retrytopic/multi-retry.html
+                        - listitem [ref=e85]:
+                          - link "DLT Strategies" [ref=e86] [cursor=pointer]:
+                            - /url: retrytopic/dlt-strategies.html
+                        - listitem [ref=e87]:
+                          - link "Specifying a ListenerContainerFactory" [ref=e88] [cursor=pointer]:
+                            - /url: retrytopic/retry-topic-lcf.html
+                        - listitem [ref=e89]:
+                          - link "Accessing Topics' Information at Runtime" [ref=e90] [cursor=pointer]:
+                            - /url: retrytopic/access-topic-info-runtime.html
+                        - listitem [ref=e91]:
+                          - link "Changing KafkaBackOffException Logging Level" [ref=e92] [cursor=pointer]:
+                            - /url: retrytopic/change-kboe-logging-level.html
+                    - listitem [ref=e93]:
+                      - link "Apache Kafka Streams Support" [ref=e94] [cursor=pointer]:
+                        - /url: streams.html
+                    - listitem [ref=e95]:
+                      - link "Testing Applications" [ref=e96] [cursor=pointer]:
+                        - /url: testing.html
+                - listitem [ref=e97]:
+                  - link "Tips, Tricks and Examples" [ref=e98] [cursor=pointer]:
+                    - /url: tips.html
+                - listitem [ref=e99]:
+                  - link "Other Resources" [ref=e100] [cursor=pointer]:
+                    - /url: other-resources.html
+                - listitem [ref=e101]:
+                  - link "Override Spring Boot Dependencies" [ref=e102] [cursor=pointer]:
+                    - /url: appendix/override-boot-dependencies.html
+                - listitem [ref=e103]:
+                  - link "Micrometer Observation Documentation" [ref=e104] [cursor=pointer]:
+                    - /url: appendix/micrometer.html
+                - listitem [ref=e105]:
+                  - link "Native Images" [ref=e106] [cursor=pointer]:
+                    - /url: appendix/native-images.html
+                - listitem [ref=e107]:
+                  - link "Change History" [ref=e108] [cursor=pointer]:
+                    - /url: appendix/change-history.html
+        - button [ref=e110] [cursor=pointer]
+    - main [ref=e113]:
+      - generic [ref=e114]:
+        - complementary [ref=e115]:
+          - generic [ref=e117]:
+            - link "Edit this Page" [ref=e118] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-kafka/blob/v4.1.0/spring-kafka-docs/src/main/antora/modules/ROOT/pages/retrytopic.adoc
+            - link "GitHub Project" [ref=e121] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-kafka
+            - link "Stack Overflow" [ref=e125] [cursor=pointer]:
+              - /url: https://stackoverflow.com/tags/spring-kafka
+        - article [ref=e128]:
+          - navigation "breadcrumbs" [ref=e130]:
+            - list [ref=e131]:
+              - listitem "Copy versioned URL" [ref=e132]
+              - listitem [ref=e133]:
+                - link "Spring for Apache Kafka" [ref=e134] [cursor=pointer]:
+                  - /url: index.html
+                - text: /
+              - listitem [ref=e135]:
+                - link "Reference" [ref=e136] [cursor=pointer]:
+                  - /url: reference.html
+                - text: /
+              - listitem [ref=e137]:
+                - link "Non-Blocking Retries" [ref=e138] [cursor=pointer]:
+                  - /url: retrytopic.html
+          - heading "Non-Blocking Retries" [level=1] [ref=e139]
+          - paragraph [ref=e141]:
+            - text: Version 2.9 changed the mechanism to bootstrap infrastructure beans; see
+            - link "Configuration" [ref=e142] [cursor=pointer]:
+              - /url: retrytopic/retry-config.html
+            - text: for the two mechanisms that are now required to bootstrap the feature.
+          - paragraph [ref=e144]:
+            - text: Achieving non-blocking retry / dlt functionality with Kafka usually requires setting up extra topics and creating and configuring the corresponding listeners. Since 2.7 Spring for Apache Kafka offers support for that via the
+            - code [ref=e145]: "@RetryableTopic"
+            - text: annotation and
+            - code [ref=e146]: RetryTopicConfiguration
+            - text: class to simplify that bootstrapping.
+          - paragraph [ref=e148]:
+            - text: Since 3.2, Spring for Apache Kafka supports non-blocking retries with
+            - link "@KafkaListener on a Class" [ref=e149] [cursor=pointer]:
+              - /url: kafka/receiving-messages/class-level-kafkalistener.html
+            - text: .
+          - table [ref=e151]:
+            - rowgroup [ref=e152]:
+              - row [ref=e153]:
+                - cell "Important" [ref=e154]
+                - cell [ref=e156]:
+                  - text: Non-blocking retries are not supported with
+                  - link "Batch Listeners" [ref=e157] [cursor=pointer]:
+                    - /url: kafka/receiving-messages/listener-annotation.html#batch-listeners
+                  - text: .
+          - table [ref=e159]:
+            - rowgroup [ref=e160]:
+              - row [ref=e161]:
+                - cell "Important" [ref=e162]
+                - cell [ref=e164]:
+                  - text: Non-Blocking Retries cannot combine with
+                  - link "Container Transactions" [ref=e165] [cursor=pointer]:
+                    - /url: kafka/transactions.html#container-transaction-manager
+                  - text: .
+          - generic [ref=e166]:
+            - heading "Section Summary" [level=2] [ref=e167]
+            - list [ref=e168]:
+              - listitem [ref=e169]:
+                - link "How the Pattern Works" [ref=e170] [cursor=pointer]:
+                  - /url: retrytopic/how-the-pattern-works.html
+              - listitem [ref=e171]:
+                - link "Back Off Delay Precision" [ref=e172] [cursor=pointer]:
+                  - /url: retrytopic/back-off-delay-precision.html
+              - listitem [ref=e173]:
+                - link "Configuration" [ref=e174] [cursor=pointer]:
+                  - /url: retrytopic/retry-config.html
+              - listitem [ref=e175]:
+                - link "Programmatic Construction" [ref=e176] [cursor=pointer]:
+                  - /url: retrytopic/programmatic-construction.html
+              - listitem [ref=e177]:
+                - link "Features" [ref=e178] [cursor=pointer]:
+                  - /url: retrytopic/features.html
+              - listitem [ref=e179]:
+                - link "Combining Blocking and Non-Blocking Retries" [ref=e180] [cursor=pointer]:
+                  - /url: retrytopic/retry-topic-combine-blocking.html
+              - listitem [ref=e181]:
+                - link "Accessing Delivery Attempts" [ref=e182] [cursor=pointer]:
+                  - /url: retrytopic/accessing-delivery-attempts.html
+              - listitem [ref=e183]:
+                - link "Topic Naming" [ref=e184] [cursor=pointer]:
+                  - /url: retrytopic/topic-naming.html
+              - listitem [ref=e185]:
+                - link "Multiple Listeners, Same Topic(s)" [ref=e186] [cursor=pointer]:
+                  - /url: retrytopic/multi-retry.html
+              - listitem [ref=e187]:
+                - link "DLT Strategies" [ref=e188] [cursor=pointer]:
+                  - /url: retrytopic/dlt-strategies.html
+              - listitem [ref=e189]:
+                - link "Specifying a ListenerContainerFactory" [ref=e190] [cursor=pointer]:
+                  - /url: retrytopic/retry-topic-lcf.html
+              - listitem [ref=e191]:
+                - link "Accessing Topics' Information at Runtime" [ref=e192] [cursor=pointer]:
+                  - /url: retrytopic/access-topic-info-runtime.html
+              - listitem [ref=e193]:
+                - link "Changing KafkaBackOffException Logging Level" [ref=e194] [cursor=pointer]:
+                  - /url: retrytopic/change-kboe-logging-level.html
+          - navigation [ref=e195]:
+            - generic [ref=e196]:
+              - text: Prev
+              - link "‹ Kafka Queues (Share Consumer)" [ref=e197] [cursor=pointer]:
+                - /url: kafka/kafka-queues.html
+            - generic [ref=e198]:
+              - text: Next
+              - link "How the Pattern Works ›" [ref=e199] [cursor=pointer]:
+                - /url: retrytopic/how-the-pattern-works.html
+    - text:   
+  - contentinfo [ref=e200]:
+    - generic [ref=e201]:
+      - img "Spring" [ref=e202]
+      - paragraph [ref=e203]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e204] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e205] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e206] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e207]:
+          - text: •
+          - link "Thank you" [ref=e208] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e209] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e210]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e211]:
+      - link "Youtube" [ref=e212] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e216] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e220] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e225]:
+      - generic [ref=e226]:
+        - button "Close" [ref=e228] [cursor=pointer]
+        - generic [ref=e229]:
+          - generic [ref=e231]:
+            - heading "Cookies" [level=2] [ref=e232]
+            - generic [ref=e233]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e234] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e238] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

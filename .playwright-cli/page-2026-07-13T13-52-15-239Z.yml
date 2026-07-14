@@ -1,0 +1,2075 @@
+- generic:
+  - generic [ref=e1]:
+    - banner [ref=e2]:
+      - navigation:
+        - generic [ref=e3]:
+          - link "Skip navigation links" [ref=e5] [cursor=pointer]:
+            - /url: "#skip-navbar-top"
+          - strong [ref=e8]: Java SE 21 & JDK 21
+          - list "Navigation":
+            - listitem [ref=e9]:
+              - link "Overview" [ref=e10] [cursor=pointer]:
+                - /url: ../../../index.html
+            - listitem [ref=e11]:
+              - link "Module" [ref=e12] [cursor=pointer]:
+                - /url: ../../module-summary.html
+            - listitem [ref=e13]:
+              - link "Package" [ref=e14] [cursor=pointer]:
+                - /url: package-summary.html
+            - listitem [ref=e15]: Class
+            - listitem [ref=e16]:
+              - link "Use" [ref=e17] [cursor=pointer]:
+                - /url: class-use/HashMap.html
+            - listitem [ref=e18]:
+              - link "Tree" [ref=e19] [cursor=pointer]:
+                - /url: package-tree.html
+            - listitem [ref=e20]:
+              - link "Preview" [ref=e21] [cursor=pointer]:
+                - /url: ../../../preview-list.html
+            - listitem [ref=e22]:
+              - link "New" [ref=e23] [cursor=pointer]:
+                - /url: ../../../new-list.html
+            - listitem [ref=e24]:
+              - link "Deprecated" [ref=e25] [cursor=pointer]:
+                - /url: ../../../deprecated-list.html
+            - listitem [ref=e26]:
+              - link "Index" [ref=e27] [cursor=pointer]:
+                - /url: ../../../index-files/index-1.html
+            - listitem [ref=e28]:
+              - link "Help" [ref=e29] [cursor=pointer]:
+                - /url: ../../../help-doc.html#class
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - list [ref=e32]:
+              - listitem [ref=e33]: "Summary:"
+              - listitem [ref=e34]:
+                - link "Nested" [ref=e35] [cursor=pointer]:
+                  - /url: "#nested-class-summary"
+                - text: "|"
+              - listitem [ref=e36]: Field |
+              - listitem [ref=e37]:
+                - link "Constr" [ref=e38] [cursor=pointer]:
+                  - /url: "#constructor-summary"
+                - text: "|"
+              - listitem [ref=e39]:
+                - link "Method" [ref=e40] [cursor=pointer]:
+                  - /url: "#method-summary"
+            - list [ref=e41]:
+              - listitem [ref=e42]: "Detail:"
+              - listitem [ref=e43]: Field |
+              - listitem [ref=e44]:
+                - link "Constr" [ref=e45] [cursor=pointer]:
+                  - /url: "#constructor-detail"
+                - text: "|"
+              - listitem [ref=e46]:
+                - link "Method" [ref=e47] [cursor=pointer]:
+                  - /url: "#method-detail"
+          - generic [ref=e48]:
+            - link "SEARCH" [ref=e49] [cursor=pointer]:
+              - /url: ../../../search.html
+            - textbox "Search" [active] [ref=e50]
+            - button "reset" [ref=e51]
+    - generic [ref=e52]:
+      - main [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - text: Module
+            - link "java.base" [ref=e56] [cursor=pointer]:
+              - /url: ../../module-summary.html
+          - generic [ref=e57]:
+            - text: Package
+            - link "java.util" [ref=e58] [cursor=pointer]:
+              - /url: package-summary.html
+          - heading "Class HashMap<K,V>" [level=1] [ref=e59]
+        - generic "Inheritance Tree" [ref=e60]:
+          - link "java.lang.Object" [ref=e61] [cursor=pointer]:
+            - /url: ../lang/Object.html
+          - generic [ref=e62]:
+            - link "java.util.AbstractMap" [ref=e63] [cursor=pointer]:
+              - /url: AbstractMap.html
+            - text: <K,V>
+            - generic [ref=e64]: java.util.HashMap<K,V>
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - term [ref=e67]: "Type Parameters:"
+            - definition [ref=e68]:
+              - code [ref=e69]: K
+              - text: "- the type of keys maintained by this map"
+            - definition [ref=e70]:
+              - code [ref=e71]: V
+              - text: "- the type of mapped values"
+          - generic [ref=e72]:
+            - term [ref=e73]: "All Implemented Interfaces:"
+            - definition [ref=e74]:
+              - code [ref=e75]:
+                - link "Serializable" [ref=e76] [cursor=pointer]:
+                  - /url: ../io/Serializable.html
+              - text: ","
+              - code [ref=e77]:
+                - link "Cloneable" [ref=e78] [cursor=pointer]:
+                  - /url: ../lang/Cloneable.html
+              - text: ","
+              - code [ref=e79]:
+                - link "Map" [ref=e80] [cursor=pointer]:
+                  - /url: Map.html
+                - text: <K,V>
+          - generic [ref=e81]:
+            - term [ref=e82]: "Direct Known Subclasses:"
+            - definition [ref=e83]:
+              - code [ref=e84]:
+                - link "LinkedHashMap" [ref=e85] [cursor=pointer]:
+                  - /url: LinkedHashMap.html
+              - text: ","
+              - code [ref=e86]:
+                - link "PrinterStateReasons" [ref=e87] [cursor=pointer]:
+                  - /url: ../../../java.desktop/javax/print/attribute/standard/PrinterStateReasons.html
+          - separator [ref=e88]
+          - generic [ref=e89]:
+            - text: public class
+            - generic [ref=e90]: HashMap<K,V>
+            - generic [ref=e91]:
+              - text: extends
+              - link "AbstractMap" [ref=e92] [cursor=pointer]:
+                - /url: AbstractMap.html
+              - text: <K,V> implements
+              - link "Map" [ref=e93] [cursor=pointer]:
+                - /url: Map.html
+              - text: <K,V>,
+              - link "Cloneable" [ref=e94] [cursor=pointer]:
+                - /url: ../lang/Cloneable.html
+              - text: ","
+              - link "Serializable" [ref=e95] [cursor=pointer]:
+                - /url: ../io/Serializable.html
+          - generic [ref=e96]:
+            - text: Hash table based implementation of the
+            - code [ref=e97]: Map
+            - text: interface. This implementation provides all of the optional map operations, and permits
+            - code [ref=e98]: "null"
+            - text: values and the
+            - code [ref=e99]: "null"
+            - text: key. (The
+            - code [ref=e100]: HashMap
+            - text: class is roughly equivalent to
+            - code [ref=e101]: Hashtable
+            - text: ", except that it is unsynchronized and permits nulls.) This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time."
+            - paragraph [ref=e102]:
+              - text: This implementation provides constant-time performance for the basic operations (
+              - code [ref=e103]: get
+              - text: and
+              - code [ref=e104]: put
+              - text: ), assuming the hash function disperses the elements properly among the buckets. Iteration over collection views requires time proportional to the "capacity" of the
+              - code [ref=e105]: HashMap
+              - text: instance (the number of buckets) plus its size (the number of key-value mappings). Thus, it's very important not to set the initial capacity too high (or the load factor too low) if iteration performance is important.
+            - paragraph [ref=e106]:
+              - text: An instance of
+              - code [ref=e107]: HashMap
+              - text: "has two parameters that affect its performance: initial capacity and load factor. The capacity is the number of buckets in the hash table, and the initial capacity is simply the capacity at the time the hash table is created. The load factor is a measure of how full the hash table is allowed to get before its capacity is automatically increased. When the number of entries in the hash table exceeds the product of the load factor and the current capacity, the hash table is rehashed (that is, internal data structures are rebuilt) so that the hash table has approximately twice the number of buckets."
+            - paragraph [ref=e108]:
+              - text: As a general rule, the default load factor (.75) offers a good tradeoff between time and space costs. Higher values decrease the space overhead but increase the lookup cost (reflected in most of the operations of the
+              - code [ref=e109]: HashMap
+              - text: class, including
+              - code [ref=e110]: get
+              - text: and
+              - code [ref=e111]: put
+              - text: ). The expected number of entries in the map and its load factor should be taken into account when setting its initial capacity, so as to minimize the number of rehash operations. If the initial capacity is greater than the maximum number of entries divided by the load factor, no rehash operations will ever occur.
+            - paragraph [ref=e112]:
+              - text: If many mappings are to be stored in a
+              - code [ref=e113]: HashMap
+              - text: instance, creating it with a sufficiently large capacity will allow the mappings to be stored more efficiently than letting it perform automatic rehashing as needed to grow the table. Note that using many keys with the same
+              - code [ref=e114]: hashCode()
+              - text: is a sure way to slow down performance of any hash table. To ameliorate impact, when keys are
+              - link [ref=e115] [cursor=pointer]:
+                - /url: ../lang/Comparable.html
+                - code [ref=e116]: Comparable
+              - text: ", this class may use comparison order among keys to help break ties."
+            - paragraph [ref=e117]:
+              - strong [ref=e118]: Note that this implementation is not synchronized.
+              - text: If multiple threads access a hash map concurrently, and at least one of the threads modifies the map structurally, it must be synchronized externally. (A structural modification is any operation that adds or deletes one or more mappings; merely changing the value associated with a key that an instance already contains is not a structural modification.) This is typically accomplished by synchronizing on some object that naturally encapsulates the map. If no such object exists, the map should be "wrapped" using the
+              - link [ref=e119] [cursor=pointer]:
+                - /url: Collections.html#synchronizedMap(java.util.Map)
+                - code [ref=e120]: Collections.synchronizedMap
+              - text: "method. This is best done at creation time, to prevent accidental unsynchronized access to the map:"
+            - generic [ref=e121]: Map m = Collections.synchronizedMap(new HashMap(...));
+            - paragraph
+            - paragraph [ref=e122]:
+              - text: "The iterators returned by all of this class's \"collection view methods\" are fail-fast: if the map is structurally modified at any time after the iterator is created, in any way except through the iterator's own"
+              - code [ref=e123]: remove
+              - text: method, the iterator will throw a
+              - link [ref=e124] [cursor=pointer]:
+                - /url: ConcurrentModificationException.html
+                - code [ref=e125]: ConcurrentModificationException
+              - text: . Thus, in the face of concurrent modification, the iterator fails quickly and cleanly, rather than risking arbitrary, non-deterministic behavior at an undetermined time in the future.
+            - paragraph [ref=e126]:
+              - text: Note that the fail-fast behavior of an iterator cannot be guaranteed as it is, generally speaking, impossible to make any hard guarantees in the presence of unsynchronized concurrent modification. Fail-fast iterators throw
+              - code [ref=e127]: ConcurrentModificationException
+              - text: "on a best-effort basis. Therefore, it would be wrong to write a program that depended on this exception for its correctness: the fail-fast behavior of iterators should be used only to detect bugs."
+            - paragraph [ref=e128]:
+              - text: This class is a member of the
+              - link "Java Collections Framework" [ref=e129] [cursor=pointer]:
+                - /url: ../../../java.base/java/util/package-summary.html#CollectionsFramework
+              - text: .
+          - generic [ref=e130]:
+            - term [ref=e131]: "Since:"
+            - definition [ref=e132]: "1.2"
+            - term [ref=e133]: "See Also:"
+            - definition [ref=e134]:
+              - list [ref=e135]:
+                - listitem [ref=e136]:
+                  - link [ref=e137] [cursor=pointer]:
+                    - /url: ../lang/Object.html#hashCode()
+                    - code [ref=e138]: Object.hashCode()
+                  - text: ","
+                - listitem [ref=e139]:
+                  - link [ref=e140] [cursor=pointer]:
+                    - /url: Collection.html
+                    - code [ref=e141]: Collection
+                  - text: ","
+                - listitem [ref=e142]:
+                  - link [ref=e143] [cursor=pointer]:
+                    - /url: Map.html
+                    - code [ref=e144]: Map
+                  - text: ","
+                - listitem [ref=e145]:
+                  - link [ref=e146] [cursor=pointer]:
+                    - /url: TreeMap.html
+                    - code [ref=e147]: TreeMap
+                  - text: ","
+                - listitem [ref=e148]:
+                  - link [ref=e149] [cursor=pointer]:
+                    - /url: Hashtable.html
+                    - code [ref=e150]: Hashtable
+                  - text: ","
+                - listitem [ref=e151]:
+                  - link "Serialized Form" [ref=e152] [cursor=pointer]:
+                    - /url: ../../../serialized-form.html#java.util.HashMap
+        - list [ref=e154]:
+          - listitem [ref=e155]:
+            - generic [ref=e156]:
+              - heading [level=2] [ref=e157]:
+                - text: Nested Class Summary
+                - link "Link to this section" [ref=e158] [cursor=pointer]:
+                  - /url: "#nested-class-summary"
+                  - img "Link icon" [ref=e159]
+              - generic [ref=e160]:
+                - heading [level=2] [ref=e161]:
+                  - text: Nested classes/interfaces declared in class java.util.
+                  - link "AbstractMap" [ref=e162] [cursor=pointer]:
+                    - /url: AbstractMap.html
+                  - link "Link to this section" [ref=e163] [cursor=pointer]:
+                    - /url: "#nested-classes-inherited-from-class-java.util.AbstractMap"
+                    - img "Link icon" [ref=e164]
+                - code [ref=e165]:
+                  - link "AbstractMap.SimpleEntry" [ref=e166] [cursor=pointer]:
+                    - /url: AbstractMap.SimpleEntry.html
+                  - text: <
+                  - link "K" [ref=e167] [cursor=pointer]:
+                    - /url: AbstractMap.SimpleEntry.html
+                  - text: ","
+                  - link "V" [ref=e168] [cursor=pointer]:
+                    - /url: AbstractMap.SimpleEntry.html
+                  - text: ">,"
+                  - link "AbstractMap.SimpleImmutableEntry" [ref=e169] [cursor=pointer]:
+                    - /url: AbstractMap.SimpleImmutableEntry.html
+                  - text: <
+                  - link "K" [ref=e170] [cursor=pointer]:
+                    - /url: AbstractMap.SimpleImmutableEntry.html
+                  - text: ","
+                  - link "V" [ref=e171] [cursor=pointer]:
+                    - /url: AbstractMap.SimpleImmutableEntry.html
+                  - text: ">"
+              - generic [ref=e172]:
+                - heading [level=2] [ref=e173]:
+                  - text: Nested classes/interfaces declared in interface java.util.
+                  - link "Map" [ref=e174] [cursor=pointer]:
+                    - /url: Map.html
+                  - link "Link to this section" [ref=e175] [cursor=pointer]:
+                    - /url: "#nested-classes-inherited-from-class-java.util.Map"
+                    - img "Link icon" [ref=e176]
+                - code [ref=e177]:
+                  - link "Map.Entry" [ref=e178] [cursor=pointer]:
+                    - /url: Map.Entry.html
+                  - text: <
+                  - link "K" [ref=e179] [cursor=pointer]:
+                    - /url: Map.Entry.html
+                  - text: ","
+                  - link "V" [ref=e180] [cursor=pointer]:
+                    - /url: Map.Entry.html
+                  - text: ">"
+          - listitem [ref=e181]:
+            - generic [ref=e182]:
+              - heading [level=2] [ref=e183]:
+                - text: Constructor Summary
+                - link "Link to this section" [ref=e184] [cursor=pointer]:
+                  - /url: "#constructor-summary"
+                  - img "Link icon" [ref=e185]
+              - generic [ref=e186]: Constructors
+              - generic [ref=e188]:
+                - generic [ref=e189]: Constructor
+                - generic [ref=e190]: Description
+                - code [ref=e192]:
+                  - link "HashMap" [ref=e193] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E()"
+                  - text: ()
+                - generic [ref=e195]:
+                  - text: Constructs an empty
+                  - code [ref=e196]: HashMap
+                  - text: with the default initial capacity (16) and the default load factor (0.75).
+                - code [ref=e198]:
+                  - link "HashMap" [ref=e199] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E(int)"
+                  - text: (int initialCapacity)
+                - generic [ref=e201]:
+                  - text: Constructs an empty
+                  - code [ref=e202]: HashMap
+                  - text: with the specified initial capacity and the default load factor (0.75).
+                - code [ref=e204]:
+                  - link "HashMap" [ref=e205] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E(int,float)"
+                  - text: (int initialCapacity, float loadFactor)
+                - generic [ref=e207]:
+                  - text: Constructs an empty
+                  - code [ref=e208]: HashMap
+                  - text: with the specified initial capacity and load factor.
+                - code [ref=e210]:
+                  - link "HashMap" [ref=e211] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E(java.util.Map)"
+                  - text: (
+                  - link "Map" [ref=e212] [cursor=pointer]:
+                    - /url: Map.html
+                  - text: <? extends
+                  - link "K" [ref=e213] [cursor=pointer]:
+                    - /url: HashMap.html
+                  - text: ",? extends"
+                  - link "V" [ref=e214] [cursor=pointer]:
+                    - /url: HashMap.html
+                  - text: "> m)"
+                - generic [ref=e216]:
+                  - text: Constructs a new
+                  - code [ref=e217]: HashMap
+                  - text: with the same mappings as the specified
+                  - code [ref=e218]: Map
+                  - text: .
+          - listitem [ref=e219]:
+            - generic [ref=e220]:
+              - heading [level=2] [ref=e221]:
+                - text: Method Summary
+                - link "Link to this section" [ref=e222] [cursor=pointer]:
+                  - /url: "#method-summary"
+                  - img "Link icon" [ref=e223]
+              - generic [ref=e224]:
+                - tablist [ref=e225]:
+                  - tab "All Methods" [selected] [ref=e226] [cursor=pointer]
+                  - tab "Static Methods" [ref=e227] [cursor=pointer]
+                  - tab "Instance Methods" [ref=e228] [cursor=pointer]
+                  - tab "Concrete Methods" [ref=e229] [cursor=pointer]
+                - tabpanel [ref=e230]:
+                  - generic "All Methods" [ref=e231]:
+                    - generic [ref=e232]: Modifier and Type
+                    - generic [ref=e233]: Method
+                    - generic [ref=e234]: Description
+                    - code [ref=e236]: void
+                    - code [ref=e238]:
+                      - link "clear" [ref=e239] [cursor=pointer]:
+                        - /url: "#clear()"
+                      - text: ()
+                    - generic [ref=e240]: Removes all of the mappings from this map.
+                    - code [ref=e243]:
+                      - link "Object" [ref=e244] [cursor=pointer]:
+                        - /url: ../lang/Object.html
+                    - code [ref=e246]:
+                      - link "clone" [ref=e247] [cursor=pointer]:
+                        - /url: "#clone()"
+                      - text: ()
+                    - generic [ref=e249]:
+                      - text: Returns a shallow copy of this
+                      - code [ref=e250]: HashMap
+                      - text: "instance: the keys and values themselves are not cloned."
+                    - code [ref=e252]:
+                      - link "V" [ref=e253] [cursor=pointer]:
+                        - /url: HashMap.html
+                    - code [ref=e255]:
+                      - link "compute" [ref=e256] [cursor=pointer]:
+                        - /url: "#compute(K,java.util.function.BiFunction)"
+                      - text: (
+                      - link "K" [ref=e257] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: key,
+                      - link "BiFunction" [ref=e258] [cursor=pointer]:
+                        - /url: function/BiFunction.html
+                      - text: <? super
+                      - link "K" [ref=e259] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? super"
+                      - link "V" [ref=e260] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? extends"
+                      - link "V" [ref=e261] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: "> remappingFunction)"
+                    - generic [ref=e263]:
+                      - text: Attempts to compute a mapping for the specified key and its current mapped value (or
+                      - code [ref=e264]: "null"
+                      - text: if there is no current mapping).
+                    - code [ref=e266]:
+                      - link "V" [ref=e267] [cursor=pointer]:
+                        - /url: HashMap.html
+                    - code [ref=e269]:
+                      - link "computeIfAbsent" [ref=e270] [cursor=pointer]:
+                        - /url: "#computeIfAbsent(K,java.util.function.Function)"
+                      - text: (
+                      - link "K" [ref=e271] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: key,
+                      - link "Function" [ref=e272] [cursor=pointer]:
+                        - /url: function/Function.html
+                      - text: <? super
+                      - link "K" [ref=e273] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? extends"
+                      - link "V" [ref=e274] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: "> mappingFunction)"
+                    - generic [ref=e276]:
+                      - text: If the specified key is not already associated with a value (or is mapped to
+                      - code [ref=e277]: "null"
+                      - text: ), attempts to compute its value using the given mapping function and enters it into this map unless
+                      - code [ref=e278]: "null"
+                      - text: .
+                    - code [ref=e280]:
+                      - link "V" [ref=e281] [cursor=pointer]:
+                        - /url: HashMap.html
+                    - code [ref=e283]:
+                      - link "computeIfPresent" [ref=e284] [cursor=pointer]:
+                        - /url: "#computeIfPresent(K,java.util.function.BiFunction)"
+                      - text: (
+                      - link "K" [ref=e285] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: key,
+                      - link "BiFunction" [ref=e286] [cursor=pointer]:
+                        - /url: function/BiFunction.html
+                      - text: <? super
+                      - link "K" [ref=e287] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? super"
+                      - link "V" [ref=e288] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? extends"
+                      - link "V" [ref=e289] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: "> remappingFunction)"
+                    - generic [ref=e290]: If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.
+                    - code [ref=e293]: boolean
+                    - code [ref=e295]:
+                      - link "containsKey" [ref=e296] [cursor=pointer]:
+                        - /url: "#containsKey(java.lang.Object)"
+                      - text: (
+                      - link "Object" [ref=e297] [cursor=pointer]:
+                        - /url: ../lang/Object.html
+                      - text: key)
+                    - generic [ref=e299]:
+                      - text: Returns
+                      - code [ref=e300]: "true"
+                      - text: if this map contains a mapping for the specified key.
+                    - code [ref=e302]: boolean
+                    - code [ref=e304]:
+                      - link "containsValue" [ref=e305] [cursor=pointer]:
+                        - /url: "#containsValue(java.lang.Object)"
+                      - text: (
+                      - link "Object" [ref=e306] [cursor=pointer]:
+                        - /url: ../lang/Object.html
+                      - text: value)
+                    - generic [ref=e308]:
+                      - text: Returns
+                      - code [ref=e309]: "true"
+                      - text: if this map maps one or more keys to the specified value.
+                    - code [ref=e311]:
+                      - link "Set" [ref=e312] [cursor=pointer]:
+                        - /url: Set.html
+                      - text: <
+                      - link "Map.Entry" [ref=e313] [cursor=pointer]:
+                        - /url: Map.Entry.html
+                      - text: <
+                      - link "K" [ref=e314] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ","
+                      - link "V" [ref=e315] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ">>"
+                    - code [ref=e317]:
+                      - link "entrySet" [ref=e318] [cursor=pointer]:
+                        - /url: "#entrySet()"
+                      - text: ()
+                    - generic [ref=e320]:
+                      - text: Returns a
+                      - link [ref=e321] [cursor=pointer]:
+                        - /url: Set.html
+                        - code [ref=e322]: Set
+                      - text: view of the mappings contained in this map.
+                    - code [ref=e324]:
+                      - link "V" [ref=e325] [cursor=pointer]:
+                        - /url: HashMap.html
+                    - code [ref=e327]:
+                      - link "get" [ref=e328] [cursor=pointer]:
+                        - /url: "#get(java.lang.Object)"
+                      - text: (
+                      - link "Object" [ref=e329] [cursor=pointer]:
+                        - /url: ../lang/Object.html
+                      - text: key)
+                    - generic [ref=e331]:
+                      - text: Returns the value to which the specified key is mapped, or
+                      - code [ref=e332]: "null"
+                      - text: if this map contains no mapping for the key.
+                    - code [ref=e334]: boolean
+                    - code [ref=e336]:
+                      - link "isEmpty" [ref=e337] [cursor=pointer]:
+                        - /url: "#isEmpty()"
+                      - text: ()
+                    - generic [ref=e339]:
+                      - text: Returns
+                      - code [ref=e340]: "true"
+                      - text: if this map contains no key-value mappings.
+                    - code [ref=e342]:
+                      - link "Set" [ref=e343] [cursor=pointer]:
+                        - /url: Set.html
+                      - text: <
+                      - link "K" [ref=e344] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ">"
+                    - code [ref=e346]:
+                      - link "keySet" [ref=e347] [cursor=pointer]:
+                        - /url: "#keySet()"
+                      - text: ()
+                    - generic [ref=e349]:
+                      - text: Returns a
+                      - link [ref=e350] [cursor=pointer]:
+                        - /url: Set.html
+                        - code [ref=e351]: Set
+                      - text: view of the keys contained in this map.
+                    - code [ref=e353]:
+                      - link "V" [ref=e354] [cursor=pointer]:
+                        - /url: HashMap.html
+                    - code [ref=e356]:
+                      - link "merge" [ref=e357] [cursor=pointer]:
+                        - /url: "#merge(K,V,java.util.function.BiFunction)"
+                      - text: (
+                      - link "K" [ref=e358] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: key,
+                      - link "V" [ref=e359] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: value,
+                      - link "BiFunction" [ref=e360] [cursor=pointer]:
+                        - /url: function/BiFunction.html
+                      - text: <? super
+                      - link "V" [ref=e361] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? super"
+                      - link "V" [ref=e362] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? extends"
+                      - link "V" [ref=e363] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: "> remappingFunction)"
+                    - generic [ref=e364]: If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.
+                    - code [ref=e367]:
+                      - text: static <K, V>
+                      - link "HashMap" [ref=e368] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: <K,V>
+                    - code [ref=e370]:
+                      - link "newHashMap" [ref=e371] [cursor=pointer]:
+                        - /url: "#newHashMap(int)"
+                      - text: (int numMappings)
+                    - generic [ref=e372]: Creates a new, empty HashMap suitable for the expected number of mappings.
+                    - code [ref=e375]:
+                      - link "V" [ref=e376] [cursor=pointer]:
+                        - /url: HashMap.html
+                    - code [ref=e378]:
+                      - link "put" [ref=e379] [cursor=pointer]:
+                        - /url: "#put(K,V)"
+                      - text: (
+                      - link "K" [ref=e380] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: key,
+                      - link "V" [ref=e381] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: value)
+                    - generic [ref=e382]: Associates the specified value with the specified key in this map.
+                    - code [ref=e385]: void
+                    - code [ref=e387]:
+                      - link "putAll" [ref=e388] [cursor=pointer]:
+                        - /url: "#putAll(java.util.Map)"
+                      - text: (
+                      - link "Map" [ref=e389] [cursor=pointer]:
+                        - /url: Map.html
+                      - text: <? extends
+                      - link "K" [ref=e390] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ",? extends"
+                      - link "V" [ref=e391] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: "> m)"
+                    - generic [ref=e392]: Copies all of the mappings from the specified map to this map.
+                    - code [ref=e395]:
+                      - link "V" [ref=e396] [cursor=pointer]:
+                        - /url: HashMap.html
+                    - code [ref=e398]:
+                      - link "remove" [ref=e399] [cursor=pointer]:
+                        - /url: "#remove(java.lang.Object)"
+                      - text: (
+                      - link "Object" [ref=e400] [cursor=pointer]:
+                        - /url: ../lang/Object.html
+                      - text: key)
+                    - generic [ref=e401]: Removes the mapping for the specified key from this map if present.
+                    - code [ref=e404]: int
+                    - code [ref=e406]:
+                      - link "size" [ref=e407] [cursor=pointer]:
+                        - /url: "#size()"
+                      - text: ()
+                    - generic [ref=e408]: Returns the number of key-value mappings in this map.
+                    - code [ref=e411]:
+                      - link "Collection" [ref=e412] [cursor=pointer]:
+                        - /url: Collection.html
+                      - text: <
+                      - link "V" [ref=e413] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: ">"
+                    - code [ref=e415]:
+                      - link "values" [ref=e416] [cursor=pointer]:
+                        - /url: "#values()"
+                      - text: ()
+                    - generic [ref=e418]:
+                      - text: Returns a
+                      - link [ref=e419] [cursor=pointer]:
+                        - /url: Collection.html
+                        - code [ref=e420]: Collection
+                      - text: view of the values contained in this map.
+              - generic [ref=e421]:
+                - heading [level=3] [ref=e422]:
+                  - text: Methods declared in class java.util.
+                  - link "AbstractMap" [ref=e423] [cursor=pointer]:
+                    - /url: AbstractMap.html
+                  - link "Link to this section" [ref=e424] [cursor=pointer]:
+                    - /url: "#methods-inherited-from-class-java.util.AbstractMap"
+                    - img "Link icon" [ref=e425]
+                - code [ref=e426]:
+                  - link "equals" [ref=e427] [cursor=pointer]:
+                    - /url: AbstractMap.html#equals(java.lang.Object)
+                  - text: ","
+                  - link "hashCode" [ref=e428] [cursor=pointer]:
+                    - /url: AbstractMap.html#hashCode()
+                  - text: ","
+                  - link "toString" [ref=e429] [cursor=pointer]:
+                    - /url: AbstractMap.html#toString()
+              - generic [ref=e430]:
+                - heading [level=3] [ref=e431]:
+                  - text: Methods declared in class java.lang.
+                  - link "Object" [ref=e432] [cursor=pointer]:
+                    - /url: ../lang/Object.html
+                  - link "Link to this section" [ref=e433] [cursor=pointer]:
+                    - /url: "#methods-inherited-from-class-java.lang.Object"
+                    - img "Link icon" [ref=e434]
+                - code [ref=e435]:
+                  - link "finalize" [ref=e436] [cursor=pointer]:
+                    - /url: ../lang/Object.html#finalize()
+                  - text: ","
+                  - link "getClass" [ref=e437] [cursor=pointer]:
+                    - /url: ../lang/Object.html#getClass()
+                  - text: ","
+                  - link "notify" [ref=e438] [cursor=pointer]:
+                    - /url: ../lang/Object.html#notify()
+                  - text: ","
+                  - link "notifyAll" [ref=e439] [cursor=pointer]:
+                    - /url: ../lang/Object.html#notifyAll()
+                  - text: ","
+                  - link "wait" [ref=e440] [cursor=pointer]:
+                    - /url: ../lang/Object.html#wait()
+                  - text: ","
+                  - link "wait" [ref=e441] [cursor=pointer]:
+                    - /url: ../lang/Object.html#wait(long)
+                  - text: ","
+                  - link "wait" [ref=e442] [cursor=pointer]:
+                    - /url: ../lang/Object.html#wait(long,int)
+              - generic [ref=e443]:
+                - heading [level=3] [ref=e444]:
+                  - text: Methods declared in interface java.util.
+                  - link "Map" [ref=e445] [cursor=pointer]:
+                    - /url: Map.html
+                  - link "Link to this section" [ref=e446] [cursor=pointer]:
+                    - /url: "#methods-inherited-from-class-java.util.Map"
+                    - img "Link icon" [ref=e447]
+                - code [ref=e448]:
+                  - link "equals" [ref=e449] [cursor=pointer]:
+                    - /url: Map.html#equals(java.lang.Object)
+                  - text: ","
+                  - link "forEach" [ref=e450] [cursor=pointer]:
+                    - /url: Map.html#forEach(java.util.function.BiConsumer)
+                  - text: ","
+                  - link "getOrDefault" [ref=e451] [cursor=pointer]:
+                    - /url: Map.html#getOrDefault(java.lang.Object,V)
+                  - text: ","
+                  - link "hashCode" [ref=e452] [cursor=pointer]:
+                    - /url: Map.html#hashCode()
+                  - text: ","
+                  - link "putIfAbsent" [ref=e453] [cursor=pointer]:
+                    - /url: Map.html#putIfAbsent(K,V)
+                  - text: ","
+                  - link "remove" [ref=e454] [cursor=pointer]:
+                    - /url: Map.html#remove(java.lang.Object,java.lang.Object)
+                  - text: ","
+                  - link "replace" [ref=e455] [cursor=pointer]:
+                    - /url: Map.html#replace(K,V)
+                  - text: ","
+                  - link "replace" [ref=e456] [cursor=pointer]:
+                    - /url: Map.html#replace(K,V,V)
+                  - text: ","
+                  - link "replaceAll" [ref=e457] [cursor=pointer]:
+                    - /url: Map.html#replaceAll(java.util.function.BiFunction)
+        - list [ref=e459]:
+          - listitem [ref=e460]:
+            - generic [ref=e461]:
+              - heading [level=2] [ref=e462]:
+                - text: Constructor Details
+                - link "Link to this section" [ref=e463] [cursor=pointer]:
+                  - /url: "#constructor-detail"
+                  - img "Link icon" [ref=e464]
+              - list [ref=e465]:
+                - listitem [ref=e466]:
+                  - generic [ref=e467]:
+                    - heading [level=3] [ref=e468]:
+                      - text: HashMap
+                      - link "Link to this section" [ref=e469] [cursor=pointer]:
+                        - /url: "#<init>(int,float)"
+                        - img "Link icon" [ref=e470]
+                    - generic [ref=e471]:
+                      - text: public HashMap
+                      - generic [ref=e472]: (int initialCapacity, float loadFactor)
+                    - generic [ref=e473]:
+                      - text: Constructs an empty
+                      - code [ref=e474]: HashMap
+                      - text: with the specified initial capacity and load factor.
+                    - generic [ref=e475]:
+                      - term [ref=e476]: "API Note:"
+                      - definition [ref=e477]:
+                        - text: To create a
+                        - code [ref=e478]: HashMap
+                        - text: with an initial capacity that accommodates an expected number of mappings, use
+                        - link [ref=e479] [cursor=pointer]:
+                          - /url: "#newHashMap(int)"
+                          - code [ref=e480]: newHashMap
+                        - text: .
+                      - term [ref=e481]: "Parameters:"
+                      - definition [ref=e482]:
+                        - code [ref=e483]: initialCapacity
+                        - text: "- the initial capacity"
+                      - definition [ref=e484]:
+                        - code [ref=e485]: loadFactor
+                        - text: "- the load factor"
+                      - term [ref=e486]: "Throws:"
+                      - definition [ref=e487]:
+                        - code [ref=e488]:
+                          - link "IllegalArgumentException" [ref=e489] [cursor=pointer]:
+                            - /url: ../lang/IllegalArgumentException.html
+                        - text: "- if the initial capacity is negative or the load factor is nonpositive"
+                - listitem [ref=e490]:
+                  - generic [ref=e491]:
+                    - heading [level=3] [ref=e492]:
+                      - text: HashMap
+                      - link "Link to this section" [ref=e493] [cursor=pointer]:
+                        - /url: "#<init>(int)"
+                        - img "Link icon" [ref=e494]
+                    - generic [ref=e495]:
+                      - text: public HashMap
+                      - generic [ref=e496]: (int initialCapacity)
+                    - generic [ref=e497]:
+                      - text: Constructs an empty
+                      - code [ref=e498]: HashMap
+                      - text: with the specified initial capacity and the default load factor (0.75).
+                    - generic [ref=e499]:
+                      - term [ref=e500]: "API Note:"
+                      - definition [ref=e501]:
+                        - text: To create a
+                        - code [ref=e502]: HashMap
+                        - text: with an initial capacity that accommodates an expected number of mappings, use
+                        - link [ref=e503] [cursor=pointer]:
+                          - /url: "#newHashMap(int)"
+                          - code [ref=e504]: newHashMap
+                        - text: .
+                      - term [ref=e505]: "Parameters:"
+                      - definition [ref=e506]:
+                        - code [ref=e507]: initialCapacity
+                        - text: "- the initial capacity."
+                      - term [ref=e508]: "Throws:"
+                      - definition [ref=e509]:
+                        - code [ref=e510]:
+                          - link "IllegalArgumentException" [ref=e511] [cursor=pointer]:
+                            - /url: ../lang/IllegalArgumentException.html
+                        - text: "- if the initial capacity is negative."
+                - listitem [ref=e512]:
+                  - generic [ref=e513]:
+                    - heading [level=3] [ref=e514]:
+                      - text: HashMap
+                      - link "Link to this section" [ref=e515] [cursor=pointer]:
+                        - /url: "#<init>()"
+                        - img "Link icon" [ref=e516]
+                    - generic [ref=e517]: public HashMap()
+                    - generic [ref=e518]:
+                      - text: Constructs an empty
+                      - code [ref=e519]: HashMap
+                      - text: with the default initial capacity (16) and the default load factor (0.75).
+                - listitem [ref=e520]:
+                  - generic [ref=e521]:
+                    - heading [level=3] [ref=e522]:
+                      - text: HashMap
+                      - link "Link to this section" [ref=e523] [cursor=pointer]:
+                        - /url: "#<init>(java.util.Map)"
+                        - img "Link icon" [ref=e524]
+                    - generic [ref=e525]:
+                      - text: public HashMap
+                      - generic [ref=e526]:
+                        - text: (
+                        - link "Map" [ref=e527] [cursor=pointer]:
+                          - /url: Map.html
+                        - text: <? extends
+                        - link "K" [ref=e528] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? extends"
+                        - link "V" [ref=e529] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: "> m)"
+                    - generic [ref=e530]:
+                      - text: Constructs a new
+                      - code [ref=e531]: HashMap
+                      - text: with the same mappings as the specified
+                      - code [ref=e532]: Map
+                      - text: . The
+                      - code [ref=e533]: HashMap
+                      - text: is created with default load factor (0.75) and an initial capacity sufficient to hold the mappings in the specified
+                      - code [ref=e534]: Map
+                      - text: .
+                    - generic [ref=e535]:
+                      - term [ref=e536]: "Parameters:"
+                      - definition [ref=e537]:
+                        - code [ref=e538]: m
+                        - text: "- the map whose mappings are to be placed in this map"
+                      - term [ref=e539]: "Throws:"
+                      - definition [ref=e540]:
+                        - code [ref=e541]:
+                          - link "NullPointerException" [ref=e542] [cursor=pointer]:
+                            - /url: ../lang/NullPointerException.html
+                        - text: "- if the specified map is null"
+          - listitem [ref=e543]:
+            - generic [ref=e544]:
+              - heading [level=2] [ref=e545]:
+                - text: Method Details
+                - link "Link to this section" [ref=e546] [cursor=pointer]:
+                  - /url: "#method-detail"
+                  - img "Link icon" [ref=e547]
+              - list [ref=e548]:
+                - listitem [ref=e549]:
+                  - generic [ref=e550]:
+                    - heading [level=3] [ref=e551]:
+                      - text: size
+                      - link "Link to this section" [ref=e552] [cursor=pointer]:
+                        - /url: "#size()"
+                        - img "Link icon" [ref=e553]
+                    - generic [ref=e554]: public int size()
+                    - generic [ref=e555]: Returns the number of key-value mappings in this map.
+                    - generic [ref=e556]:
+                      - term [ref=e557]: "Specified by:"
+                      - definition [ref=e558]:
+                        - code [ref=e559]:
+                          - link "size" [ref=e560] [cursor=pointer]:
+                            - /url: Map.html#size()
+                        - text: in interface
+                        - code [ref=e561]:
+                          - link "Map" [ref=e562] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e563] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e564] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e565]: "Overrides:"
+                      - definition [ref=e566]:
+                        - code [ref=e567]:
+                          - link "size" [ref=e568] [cursor=pointer]:
+                            - /url: AbstractMap.html#size()
+                        - text: in class
+                        - code [ref=e569]:
+                          - link "AbstractMap" [ref=e570] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e571] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e572] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e573]: "Returns:"
+                      - definition [ref=e574]: the number of key-value mappings in this map
+                - listitem [ref=e575]:
+                  - generic [ref=e576]:
+                    - heading [level=3] [ref=e577]:
+                      - text: isEmpty
+                      - link "Link to this section" [ref=e578] [cursor=pointer]:
+                        - /url: "#isEmpty()"
+                        - img "Link icon" [ref=e579]
+                    - generic [ref=e580]: public boolean isEmpty()
+                    - generic [ref=e581]:
+                      - text: Returns
+                      - code [ref=e582]: "true"
+                      - text: if this map contains no key-value mappings.
+                    - generic [ref=e583]:
+                      - term [ref=e584]: "Specified by:"
+                      - definition [ref=e585]:
+                        - code [ref=e586]:
+                          - link "isEmpty" [ref=e587] [cursor=pointer]:
+                            - /url: Map.html#isEmpty()
+                        - text: in interface
+                        - code [ref=e588]:
+                          - link "Map" [ref=e589] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e590] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e591] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e592]: "Overrides:"
+                      - definition [ref=e593]:
+                        - code [ref=e594]:
+                          - link "isEmpty" [ref=e595] [cursor=pointer]:
+                            - /url: AbstractMap.html#isEmpty()
+                        - text: in class
+                        - code [ref=e596]:
+                          - link "AbstractMap" [ref=e597] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e598] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e599] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e600]: "Returns:"
+                      - definition [ref=e601]:
+                        - code [ref=e602]: "true"
+                        - text: if this map contains no key-value mappings
+                - listitem [ref=e603]:
+                  - generic [ref=e604]:
+                    - heading [level=3] [ref=e605]:
+                      - text: get
+                      - link "Link to this section" [ref=e606] [cursor=pointer]:
+                        - /url: "#get(java.lang.Object)"
+                        - img "Link icon" [ref=e607]
+                    - generic [ref=e608]:
+                      - text: public
+                      - link "V" [ref=e610] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: get
+                      - generic [ref=e611]:
+                        - text: (
+                        - link "Object" [ref=e612] [cursor=pointer]:
+                          - /url: ../lang/Object.html
+                        - text: key)
+                    - generic [ref=e613]:
+                      - text: Returns the value to which the specified key is mapped, or
+                      - code [ref=e614]: "null"
+                      - text: if this map contains no mapping for the key.
+                      - paragraph [ref=e615]:
+                        - text: More formally, if this map contains a mapping from a key
+                        - code [ref=e616]: k
+                        - text: to a value
+                        - code [ref=e617]: v
+                        - text: such that
+                        - code [ref=e618]: "(key==null ? k==null : key.equals(k))"
+                        - text: ", then this method returns"
+                        - code [ref=e619]: v
+                        - text: ; otherwise it returns
+                        - code [ref=e620]: "null"
+                        - text: . (There can be at most one such mapping.)
+                      - paragraph [ref=e621]:
+                        - text: A return value of
+                        - code [ref=e622]: "null"
+                        - text: does not necessarily indicate that the map contains no mapping for the key; it's also possible that the map explicitly maps the key to
+                        - code [ref=e623]: "null"
+                        - text: . The
+                        - link [ref=e624] [cursor=pointer]:
+                          - /url: "#containsKey(java.lang.Object)"
+                          - code [ref=e625]: containsKey
+                        - text: operation may be used to distinguish these two cases.
+                    - generic [ref=e626]:
+                      - term [ref=e627]: "Specified by:"
+                      - definition [ref=e628]:
+                        - code [ref=e629]:
+                          - link "get" [ref=e630] [cursor=pointer]:
+                            - /url: Map.html#get(java.lang.Object)
+                        - text: in interface
+                        - code [ref=e631]:
+                          - link "Map" [ref=e632] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e633] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e634] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e635]: "Overrides:"
+                      - definition [ref=e636]:
+                        - code [ref=e637]:
+                          - link "get" [ref=e638] [cursor=pointer]:
+                            - /url: AbstractMap.html#get(java.lang.Object)
+                        - text: in class
+                        - code [ref=e639]:
+                          - link "AbstractMap" [ref=e640] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e641] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e642] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e643]: "Parameters:"
+                      - definition [ref=e644]:
+                        - code [ref=e645]: key
+                        - text: "- the key whose associated value is to be returned"
+                      - term [ref=e646]: "Returns:"
+                      - definition [ref=e647]:
+                        - text: the value to which the specified key is mapped, or
+                        - code [ref=e648]: "null"
+                        - text: if this map contains no mapping for the key
+                      - term [ref=e649]: "See Also:"
+                      - definition [ref=e650]:
+                        - list [ref=e651]:
+                          - listitem [ref=e652]:
+                            - link [ref=e653] [cursor=pointer]:
+                              - /url: "#put(K,V)"
+                              - code [ref=e654]: put(Object, Object)
+                - listitem [ref=e655]:
+                  - generic [ref=e656]:
+                    - heading [level=3] [ref=e657]:
+                      - text: containsKey
+                      - link "Link to this section" [ref=e658] [cursor=pointer]:
+                        - /url: "#containsKey(java.lang.Object)"
+                        - img "Link icon" [ref=e659]
+                    - generic [ref=e660]:
+                      - text: public boolean containsKey
+                      - generic [ref=e661]:
+                        - text: (
+                        - link "Object" [ref=e662] [cursor=pointer]:
+                          - /url: ../lang/Object.html
+                        - text: key)
+                    - generic [ref=e663]:
+                      - text: Returns
+                      - code [ref=e664]: "true"
+                      - text: if this map contains a mapping for the specified key.
+                    - generic [ref=e665]:
+                      - term [ref=e666]: "Specified by:"
+                      - definition [ref=e667]:
+                        - code [ref=e668]:
+                          - link "containsKey" [ref=e669] [cursor=pointer]:
+                            - /url: Map.html#containsKey(java.lang.Object)
+                        - text: in interface
+                        - code [ref=e670]:
+                          - link "Map" [ref=e671] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e672] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e673] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e674]: "Overrides:"
+                      - definition [ref=e675]:
+                        - code [ref=e676]:
+                          - link "containsKey" [ref=e677] [cursor=pointer]:
+                            - /url: AbstractMap.html#containsKey(java.lang.Object)
+                        - text: in class
+                        - code [ref=e678]:
+                          - link "AbstractMap" [ref=e679] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e680] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e681] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e682]: "Parameters:"
+                      - definition [ref=e683]:
+                        - code [ref=e684]: key
+                        - text: "- The key whose presence in this map is to be tested"
+                      - term [ref=e685]: "Returns:"
+                      - definition [ref=e686]:
+                        - code [ref=e687]: "true"
+                        - text: if this map contains a mapping for the specified key.
+                - listitem [ref=e688]:
+                  - generic [ref=e689]:
+                    - heading [level=3] [ref=e690]:
+                      - text: put
+                      - link "Link to this section" [ref=e691] [cursor=pointer]:
+                        - /url: "#put(java.lang.Object,java.lang.Object)"
+                        - img "Link icon" [ref=e692]
+                    - generic [ref=e693]:
+                      - text: public
+                      - link "V" [ref=e695] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: put
+                      - generic [ref=e696]:
+                        - text: (
+                        - link "K" [ref=e697] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: key,
+                        - link "V" [ref=e698] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: value)
+                    - generic [ref=e699]: Associates the specified value with the specified key in this map. If the map previously contained a mapping for the key, the old value is replaced.
+                    - generic [ref=e700]:
+                      - term [ref=e701]: "Specified by:"
+                      - definition [ref=e702]:
+                        - code [ref=e703]:
+                          - link "put" [ref=e704] [cursor=pointer]:
+                            - /url: Map.html#put(K,V)
+                        - text: in interface
+                        - code [ref=e705]:
+                          - link "Map" [ref=e706] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e707] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e708] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e709]: "Overrides:"
+                      - definition [ref=e710]:
+                        - code [ref=e711]:
+                          - link "put" [ref=e712] [cursor=pointer]:
+                            - /url: AbstractMap.html#put(K,V)
+                        - text: in class
+                        - code [ref=e713]:
+                          - link "AbstractMap" [ref=e714] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e715] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e716] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e717]: "Parameters:"
+                      - definition [ref=e718]:
+                        - code [ref=e719]: key
+                        - text: "- key with which the specified value is to be associated"
+                      - definition [ref=e720]:
+                        - code [ref=e721]: value
+                        - text: "- value to be associated with the specified key"
+                      - term [ref=e722]: "Returns:"
+                      - definition [ref=e723]:
+                        - text: the previous value associated with
+                        - code [ref=e724]: key
+                        - text: ", or"
+                        - code [ref=e725]: "null"
+                        - text: if there was no mapping for
+                        - code [ref=e726]: key
+                        - text: . (A
+                        - code [ref=e727]: "null"
+                        - text: return can also indicate that the map previously associated
+                        - code [ref=e728]: "null"
+                        - text: with
+                        - code [ref=e729]: key
+                        - text: .)
+                - listitem [ref=e730]:
+                  - generic [ref=e731]:
+                    - heading [level=3] [ref=e732]:
+                      - text: putAll
+                      - link "Link to this section" [ref=e733] [cursor=pointer]:
+                        - /url: "#putAll(java.util.Map)"
+                        - img "Link icon" [ref=e734]
+                    - generic [ref=e735]:
+                      - text: public void putAll
+                      - generic [ref=e736]:
+                        - text: (
+                        - link "Map" [ref=e737] [cursor=pointer]:
+                          - /url: Map.html
+                        - text: <? extends
+                        - link "K" [ref=e738] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? extends"
+                        - link "V" [ref=e739] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: "> m)"
+                    - generic [ref=e740]: Copies all of the mappings from the specified map to this map. These mappings will replace any mappings that this map had for any of the keys currently in the specified map.
+                    - generic [ref=e741]:
+                      - term [ref=e742]: "Specified by:"
+                      - definition [ref=e743]:
+                        - code [ref=e744]:
+                          - link "putAll" [ref=e745] [cursor=pointer]:
+                            - /url: Map.html#putAll(java.util.Map)
+                        - text: in interface
+                        - code [ref=e746]:
+                          - link "Map" [ref=e747] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e748] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e749] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e750]: "Overrides:"
+                      - definition [ref=e751]:
+                        - code [ref=e752]:
+                          - link "putAll" [ref=e753] [cursor=pointer]:
+                            - /url: AbstractMap.html#putAll(java.util.Map)
+                        - text: in class
+                        - code [ref=e754]:
+                          - link "AbstractMap" [ref=e755] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e756] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e757] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e758]: "Parameters:"
+                      - definition [ref=e759]:
+                        - code [ref=e760]: m
+                        - text: "- mappings to be stored in this map"
+                      - term [ref=e761]: "Throws:"
+                      - definition [ref=e762]:
+                        - code [ref=e763]:
+                          - link "NullPointerException" [ref=e764] [cursor=pointer]:
+                            - /url: ../lang/NullPointerException.html
+                        - text: "- if the specified map is null"
+                - listitem [ref=e765]:
+                  - generic [ref=e766]:
+                    - heading [level=3] [ref=e767]:
+                      - text: remove
+                      - link "Link to this section" [ref=e768] [cursor=pointer]:
+                        - /url: "#remove(java.lang.Object)"
+                        - img "Link icon" [ref=e769]
+                    - generic [ref=e770]:
+                      - text: public
+                      - link "V" [ref=e772] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: remove
+                      - generic [ref=e773]:
+                        - text: (
+                        - link "Object" [ref=e774] [cursor=pointer]:
+                          - /url: ../lang/Object.html
+                        - text: key)
+                    - generic [ref=e775]: Removes the mapping for the specified key from this map if present.
+                    - generic [ref=e776]:
+                      - term [ref=e777]: "Specified by:"
+                      - definition [ref=e778]:
+                        - code [ref=e779]:
+                          - link "remove" [ref=e780] [cursor=pointer]:
+                            - /url: Map.html#remove(java.lang.Object)
+                        - text: in interface
+                        - code [ref=e781]:
+                          - link "Map" [ref=e782] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e783] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e784] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e785]: "Overrides:"
+                      - definition [ref=e786]:
+                        - code [ref=e787]:
+                          - link "remove" [ref=e788] [cursor=pointer]:
+                            - /url: AbstractMap.html#remove(java.lang.Object)
+                        - text: in class
+                        - code [ref=e789]:
+                          - link "AbstractMap" [ref=e790] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e791] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e792] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e793]: "Parameters:"
+                      - definition [ref=e794]:
+                        - code [ref=e795]: key
+                        - text: "- key whose mapping is to be removed from the map"
+                      - term [ref=e796]: "Returns:"
+                      - definition [ref=e797]:
+                        - text: the previous value associated with
+                        - code [ref=e798]: key
+                        - text: ", or"
+                        - code [ref=e799]: "null"
+                        - text: if there was no mapping for
+                        - code [ref=e800]: key
+                        - text: . (A
+                        - code [ref=e801]: "null"
+                        - text: return can also indicate that the map previously associated
+                        - code [ref=e802]: "null"
+                        - text: with
+                        - code [ref=e803]: key
+                        - text: .)
+                - listitem [ref=e804]:
+                  - generic [ref=e805]:
+                    - heading [level=3] [ref=e806]:
+                      - text: clear
+                      - link "Link to this section" [ref=e807] [cursor=pointer]:
+                        - /url: "#clear()"
+                        - img "Link icon" [ref=e808]
+                    - generic [ref=e809]: public void clear()
+                    - generic [ref=e810]: Removes all of the mappings from this map. The map will be empty after this call returns.
+                    - generic [ref=e811]:
+                      - term [ref=e812]: "Specified by:"
+                      - definition [ref=e813]:
+                        - code [ref=e814]:
+                          - link "clear" [ref=e815] [cursor=pointer]:
+                            - /url: Map.html#clear()
+                        - text: in interface
+                        - code [ref=e816]:
+                          - link "Map" [ref=e817] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e818] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e819] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e820]: "Overrides:"
+                      - definition [ref=e821]:
+                        - code [ref=e822]:
+                          - link "clear" [ref=e823] [cursor=pointer]:
+                            - /url: AbstractMap.html#clear()
+                        - text: in class
+                        - code [ref=e824]:
+                          - link "AbstractMap" [ref=e825] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e826] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e827] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                - listitem [ref=e828]:
+                  - generic [ref=e829]:
+                    - heading [level=3] [ref=e830]:
+                      - text: containsValue
+                      - link "Link to this section" [ref=e831] [cursor=pointer]:
+                        - /url: "#containsValue(java.lang.Object)"
+                        - img "Link icon" [ref=e832]
+                    - generic [ref=e833]:
+                      - text: public boolean containsValue
+                      - generic [ref=e834]:
+                        - text: (
+                        - link "Object" [ref=e835] [cursor=pointer]:
+                          - /url: ../lang/Object.html
+                        - text: value)
+                    - generic [ref=e836]:
+                      - text: Returns
+                      - code [ref=e837]: "true"
+                      - text: if this map maps one or more keys to the specified value.
+                    - generic [ref=e838]:
+                      - term [ref=e839]: "Specified by:"
+                      - definition [ref=e840]:
+                        - code [ref=e841]:
+                          - link "containsValue" [ref=e842] [cursor=pointer]:
+                            - /url: Map.html#containsValue(java.lang.Object)
+                        - text: in interface
+                        - code [ref=e843]:
+                          - link "Map" [ref=e844] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e845] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e846] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e847]: "Overrides:"
+                      - definition [ref=e848]:
+                        - code [ref=e849]:
+                          - link "containsValue" [ref=e850] [cursor=pointer]:
+                            - /url: AbstractMap.html#containsValue(java.lang.Object)
+                        - text: in class
+                        - code [ref=e851]:
+                          - link "AbstractMap" [ref=e852] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e853] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e854] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e855]: "Parameters:"
+                      - definition [ref=e856]:
+                        - code [ref=e857]: value
+                        - text: "- value whose presence in this map is to be tested"
+                      - term [ref=e858]: "Returns:"
+                      - definition [ref=e859]:
+                        - code [ref=e860]: "true"
+                        - text: if this map maps one or more keys to the specified value
+                - listitem [ref=e861]:
+                  - generic [ref=e862]:
+                    - heading [level=3] [ref=e863]:
+                      - text: keySet
+                      - link "Link to this section" [ref=e864] [cursor=pointer]:
+                        - /url: "#keySet()"
+                        - img "Link icon" [ref=e865]
+                    - generic [ref=e866]:
+                      - text: public
+                      - generic [ref=e867]:
+                        - link "Set" [ref=e868] [cursor=pointer]:
+                          - /url: Set.html
+                        - text: <
+                        - link "K" [ref=e869] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ">"
+                      - text: keySet()
+                    - generic [ref=e870]:
+                      - text: Returns a
+                      - link [ref=e871] [cursor=pointer]:
+                        - /url: Set.html
+                        - code [ref=e872]: Set
+                      - text: view of the keys contained in this map. The set is backed by the map, so changes to the map are reflected in the set, and vice-versa. If the map is modified while an iteration over the set is in progress (except through the iterator's own
+                      - code [ref=e873]: remove
+                      - text: operation), the results of the iteration are undefined. The set supports element removal, which removes the corresponding mapping from the map, via the
+                      - code [ref=e874]: Iterator.remove
+                      - text: ","
+                      - code [ref=e875]: Set.remove
+                      - text: ","
+                      - code [ref=e876]: removeAll
+                      - text: ","
+                      - code [ref=e877]: retainAll
+                      - text: ", and"
+                      - code [ref=e878]: clear
+                      - text: operations. It does not support the
+                      - code [ref=e879]: add
+                      - text: or
+                      - code [ref=e880]: addAll
+                      - text: operations.
+                    - generic [ref=e881]:
+                      - term [ref=e882]: "Specified by:"
+                      - definition [ref=e883]:
+                        - code [ref=e884]:
+                          - link "keySet" [ref=e885] [cursor=pointer]:
+                            - /url: Map.html#keySet()
+                        - text: in interface
+                        - code [ref=e886]:
+                          - link "Map" [ref=e887] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e888] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e889] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e890]: "Overrides:"
+                      - definition [ref=e891]:
+                        - code [ref=e892]:
+                          - link "keySet" [ref=e893] [cursor=pointer]:
+                            - /url: AbstractMap.html#keySet()
+                        - text: in class
+                        - code [ref=e894]:
+                          - link "AbstractMap" [ref=e895] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e896] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e897] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e898]: "Returns:"
+                      - definition [ref=e899]: a set view of the keys contained in this map
+                - listitem [ref=e900]:
+                  - generic [ref=e901]:
+                    - heading [level=3] [ref=e902]:
+                      - text: values
+                      - link "Link to this section" [ref=e903] [cursor=pointer]:
+                        - /url: "#values()"
+                        - img "Link icon" [ref=e904]
+                    - generic [ref=e905]:
+                      - text: public
+                      - generic [ref=e906]:
+                        - link "Collection" [ref=e907] [cursor=pointer]:
+                          - /url: Collection.html
+                        - text: <
+                        - link "V" [ref=e908] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ">"
+                      - text: values()
+                    - generic [ref=e909]:
+                      - text: Returns a
+                      - link [ref=e910] [cursor=pointer]:
+                        - /url: Collection.html
+                        - code [ref=e911]: Collection
+                      - text: view of the values contained in this map. The collection is backed by the map, so changes to the map are reflected in the collection, and vice-versa. If the map is modified while an iteration over the collection is in progress (except through the iterator's own
+                      - code [ref=e912]: remove
+                      - text: operation), the results of the iteration are undefined. The collection supports element removal, which removes the corresponding mapping from the map, via the
+                      - code [ref=e913]: Iterator.remove
+                      - text: ","
+                      - code [ref=e914]: Collection.remove
+                      - text: ","
+                      - code [ref=e915]: removeAll
+                      - text: ","
+                      - code [ref=e916]: retainAll
+                      - text: and
+                      - code [ref=e917]: clear
+                      - text: operations. It does not support the
+                      - code [ref=e918]: add
+                      - text: or
+                      - code [ref=e919]: addAll
+                      - text: operations.
+                    - generic [ref=e920]:
+                      - term [ref=e921]: "Specified by:"
+                      - definition [ref=e922]:
+                        - code [ref=e923]:
+                          - link "values" [ref=e924] [cursor=pointer]:
+                            - /url: Map.html#values()
+                        - text: in interface
+                        - code [ref=e925]:
+                          - link "Map" [ref=e926] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e927] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e928] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e929]: "Overrides:"
+                      - definition [ref=e930]:
+                        - code [ref=e931]:
+                          - link "values" [ref=e932] [cursor=pointer]:
+                            - /url: AbstractMap.html#values()
+                        - text: in class
+                        - code [ref=e933]:
+                          - link "AbstractMap" [ref=e934] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e935] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e936] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e937]: "Returns:"
+                      - definition [ref=e938]: a view of the values contained in this map
+                - listitem [ref=e939]:
+                  - generic [ref=e940]:
+                    - heading [level=3] [ref=e941]:
+                      - text: entrySet
+                      - link "Link to this section" [ref=e942] [cursor=pointer]:
+                        - /url: "#entrySet()"
+                        - img "Link icon" [ref=e943]
+                    - generic [ref=e944]:
+                      - text: public
+                      - generic [ref=e945]:
+                        - link "Set" [ref=e946] [cursor=pointer]:
+                          - /url: Set.html
+                        - text: <
+                        - link "Map.Entry" [ref=e947] [cursor=pointer]:
+                          - /url: Map.Entry.html
+                        - text: <
+                        - link "K" [ref=e948] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ","
+                        - link "V" [ref=e949] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ">>"
+                      - text: entrySet()
+                    - generic [ref=e950]:
+                      - text: Returns a
+                      - link [ref=e951] [cursor=pointer]:
+                        - /url: Set.html
+                        - code [ref=e952]: Set
+                      - text: view of the mappings contained in this map. The set is backed by the map, so changes to the map are reflected in the set, and vice-versa. If the map is modified while an iteration over the set is in progress (except through the iterator's own
+                      - code [ref=e953]: remove
+                      - text: operation, or through the
+                      - code [ref=e954]: setValue
+                      - text: operation on a map entry returned by the iterator) the results of the iteration are undefined. The set supports element removal, which removes the corresponding mapping from the map, via the
+                      - code [ref=e955]: Iterator.remove
+                      - text: ","
+                      - code [ref=e956]: Set.remove
+                      - text: ","
+                      - code [ref=e957]: removeAll
+                      - text: ","
+                      - code [ref=e958]: retainAll
+                      - text: and
+                      - code [ref=e959]: clear
+                      - text: operations. It does not support the
+                      - code [ref=e960]: add
+                      - text: or
+                      - code [ref=e961]: addAll
+                      - text: operations.
+                    - generic [ref=e962]:
+                      - term [ref=e963]: "Specified by:"
+                      - definition [ref=e964]:
+                        - code [ref=e965]:
+                          - link "entrySet" [ref=e966] [cursor=pointer]:
+                            - /url: Map.html#entrySet()
+                        - text: in interface
+                        - code [ref=e967]:
+                          - link "Map" [ref=e968] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e969] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e970] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e971]: "Returns:"
+                      - definition [ref=e972]: a set view of the mappings contained in this map
+                - listitem [ref=e973]:
+                  - generic [ref=e974]:
+                    - heading [level=3] [ref=e975]:
+                      - text: computeIfAbsent
+                      - link "Link to this section" [ref=e976] [cursor=pointer]:
+                        - /url: "#computeIfAbsent(java.lang.Object,java.util.function.Function)"
+                        - img "Link icon" [ref=e977]
+                    - generic [ref=e978]:
+                      - text: public
+                      - link "V" [ref=e980] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: computeIfAbsent
+                      - generic [ref=e981]:
+                        - text: (
+                        - link "K" [ref=e982] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: key,
+                        - link "Function" [ref=e983] [cursor=pointer]:
+                          - /url: function/Function.html
+                        - text: <? super
+                        - link "K" [ref=e984] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? extends"
+                        - link "V" [ref=e985] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: "> mappingFunction)"
+                    - generic [ref=e986]:
+                      - text: If the specified key is not already associated with a value (or is mapped to
+                      - code [ref=e987]: "null"
+                      - text: ), attempts to compute its value using the given mapping function and enters it into this map unless
+                      - code [ref=e988]: "null"
+                      - text: .
+                      - paragraph [ref=e989]:
+                        - text: If the mapping function returns
+                        - code [ref=e990]: "null"
+                        - text: ", no mapping is recorded. If the mapping function itself throws an (unchecked) exception, the exception is rethrown, and no mapping is recorded. The most common usage is to construct a new object serving as an initial mapped value or memoized result, as in:"
+                      - code [ref=e992]: map.computeIfAbsent(key, k -> new Value(f(k)));
+                      - paragraph
+                      - paragraph [ref=e993]:
+                        - text: Or to implement a multi-value map,
+                        - code [ref=e994]: Map<K,Collection<V>>
+                        - text: ", supporting multiple values per key:"
+                      - code [ref=e996]: map.computeIfAbsent(key, k -> new HashSet<V>()).add(v);
+                      - paragraph
+                      - paragraph [ref=e997]: The mapping function should not modify this map during computation.
+                      - paragraph [ref=e998]:
+                        - text: This method will, on a best-effort basis, throw a
+                        - link [ref=e999] [cursor=pointer]:
+                          - /url: ConcurrentModificationException.html
+                          - code [ref=e1000]: ConcurrentModificationException
+                        - text: if it is detected that the mapping function modifies this map during computation.
+                    - generic [ref=e1001]:
+                      - term [ref=e1002]: "Specified by:"
+                      - definition [ref=e1003]:
+                        - code [ref=e1004]:
+                          - link "computeIfAbsent" [ref=e1005] [cursor=pointer]:
+                            - /url: Map.html#computeIfAbsent(K,java.util.function.Function)
+                        - text: in interface
+                        - code [ref=e1006]:
+                          - link "Map" [ref=e1007] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e1008] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e1009] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e1010]: "Parameters:"
+                      - definition [ref=e1011]:
+                        - code [ref=e1012]: key
+                        - text: "- key with which the specified value is to be associated"
+                      - definition [ref=e1013]:
+                        - code [ref=e1014]: mappingFunction
+                        - text: "- the mapping function to compute a value"
+                      - term [ref=e1015]: "Returns:"
+                      - definition [ref=e1016]: the current (existing or computed) value associated with the specified key, or null if the computed value is null
+                      - term [ref=e1017]: "Throws:"
+                      - definition [ref=e1018]:
+                        - code [ref=e1019]:
+                          - link "ConcurrentModificationException" [ref=e1020] [cursor=pointer]:
+                            - /url: ConcurrentModificationException.html
+                        - text: "- if it is detected that the mapping function modified this map"
+                - listitem [ref=e1021]:
+                  - generic [ref=e1022]:
+                    - heading [level=3] [ref=e1023]:
+                      - text: computeIfPresent
+                      - link "Link to this section" [ref=e1024] [cursor=pointer]:
+                        - /url: "#computeIfPresent(java.lang.Object,java.util.function.BiFunction)"
+                        - img "Link icon" [ref=e1025]
+                    - generic [ref=e1026]:
+                      - text: public
+                      - link "V" [ref=e1028] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: computeIfPresent
+                      - generic [ref=e1029]:
+                        - text: (
+                        - link "K" [ref=e1030] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: key,
+                        - link "BiFunction" [ref=e1031] [cursor=pointer]:
+                          - /url: function/BiFunction.html
+                        - text: <? super
+                        - link "K" [ref=e1032] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? super"
+                        - link "V" [ref=e1033] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? extends"
+                        - link "V" [ref=e1034] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: "> remappingFunction)"
+                    - generic [ref=e1035]:
+                      - text: If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.
+                      - paragraph [ref=e1036]:
+                        - text: If the remapping function returns
+                        - code [ref=e1037]: "null"
+                        - text: ", the mapping is removed. If the remapping function itself throws an (unchecked) exception, the exception is rethrown, and the current mapping is left unchanged."
+                      - paragraph [ref=e1038]: The remapping function should not modify this map during computation.
+                      - paragraph [ref=e1039]:
+                        - text: This method will, on a best-effort basis, throw a
+                        - link [ref=e1040] [cursor=pointer]:
+                          - /url: ConcurrentModificationException.html
+                          - code [ref=e1041]: ConcurrentModificationException
+                        - text: if it is detected that the remapping function modifies this map during computation.
+                    - generic [ref=e1042]:
+                      - term [ref=e1043]: "Specified by:"
+                      - definition [ref=e1044]:
+                        - code [ref=e1045]:
+                          - link "computeIfPresent" [ref=e1046] [cursor=pointer]:
+                            - /url: Map.html#computeIfPresent(K,java.util.function.BiFunction)
+                        - text: in interface
+                        - code [ref=e1047]:
+                          - link "Map" [ref=e1048] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e1049] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e1050] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e1051]: "Parameters:"
+                      - definition [ref=e1052]:
+                        - code [ref=e1053]: key
+                        - text: "- key with which the specified value is to be associated"
+                      - definition [ref=e1054]:
+                        - code [ref=e1055]: remappingFunction
+                        - text: "- the remapping function to compute a value"
+                      - term [ref=e1056]: "Returns:"
+                      - definition [ref=e1057]: the new value associated with the specified key, or null if none
+                      - term [ref=e1058]: "Throws:"
+                      - definition [ref=e1059]:
+                        - code [ref=e1060]:
+                          - link "ConcurrentModificationException" [ref=e1061] [cursor=pointer]:
+                            - /url: ConcurrentModificationException.html
+                        - text: "- if it is detected that the remapping function modified this map"
+                - listitem [ref=e1062]:
+                  - generic [ref=e1063]:
+                    - heading [level=3] [ref=e1064]:
+                      - text: compute
+                      - link "Link to this section" [ref=e1065] [cursor=pointer]:
+                        - /url: "#compute(java.lang.Object,java.util.function.BiFunction)"
+                        - img "Link icon" [ref=e1066]
+                    - generic [ref=e1067]:
+                      - text: public
+                      - link "V" [ref=e1069] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: compute
+                      - generic [ref=e1070]:
+                        - text: (
+                        - link "K" [ref=e1071] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: key,
+                        - link "BiFunction" [ref=e1072] [cursor=pointer]:
+                          - /url: function/BiFunction.html
+                        - text: <? super
+                        - link "K" [ref=e1073] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? super"
+                        - link "V" [ref=e1074] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? extends"
+                        - link "V" [ref=e1075] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: "> remappingFunction)"
+                    - generic [ref=e1076]:
+                      - text: Attempts to compute a mapping for the specified key and its current mapped value (or
+                      - code [ref=e1077]: "null"
+                      - text: if there is no current mapping). For example, to either create or append a
+                      - code [ref=e1078]: String
+                      - text: "msg to a value mapping:"
+                      - code [ref=e1080]: "map.compute(key, (k, v) -> (v == null) ? msg : v.concat(msg))"
+                      - text: (Method
+                      - link [ref=e1081] [cursor=pointer]:
+                        - /url: Map.html#merge(K,V,java.util.function.BiFunction)
+                        - code [ref=e1082]: merge()
+                      - text: is often simpler to use for such purposes.)
+                      - paragraph [ref=e1083]:
+                        - text: If the remapping function returns
+                        - code [ref=e1084]: "null"
+                        - text: ", the mapping is removed (or remains absent if initially absent). If the remapping function itself throws an (unchecked) exception, the exception is rethrown, and the current mapping is left unchanged."
+                      - paragraph [ref=e1085]: The remapping function should not modify this map during computation.
+                      - paragraph [ref=e1086]:
+                        - text: This method will, on a best-effort basis, throw a
+                        - link [ref=e1087] [cursor=pointer]:
+                          - /url: ConcurrentModificationException.html
+                          - code [ref=e1088]: ConcurrentModificationException
+                        - text: if it is detected that the remapping function modifies this map during computation.
+                    - generic [ref=e1089]:
+                      - term [ref=e1090]: "Specified by:"
+                      - definition [ref=e1091]:
+                        - code [ref=e1092]:
+                          - link "compute" [ref=e1093] [cursor=pointer]:
+                            - /url: Map.html#compute(K,java.util.function.BiFunction)
+                        - text: in interface
+                        - code [ref=e1094]:
+                          - link "Map" [ref=e1095] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e1096] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e1097] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e1098]: "Parameters:"
+                      - definition [ref=e1099]:
+                        - code [ref=e1100]: key
+                        - text: "- key with which the specified value is to be associated"
+                      - definition [ref=e1101]:
+                        - code [ref=e1102]: remappingFunction
+                        - text: "- the remapping function to compute a value"
+                      - term [ref=e1103]: "Returns:"
+                      - definition [ref=e1104]: the new value associated with the specified key, or null if none
+                      - term [ref=e1105]: "Throws:"
+                      - definition [ref=e1106]:
+                        - code [ref=e1107]:
+                          - link "ConcurrentModificationException" [ref=e1108] [cursor=pointer]:
+                            - /url: ConcurrentModificationException.html
+                        - text: "- if it is detected that the remapping function modified this map"
+                - listitem [ref=e1109]:
+                  - generic [ref=e1110]:
+                    - heading [level=3] [ref=e1111]:
+                      - text: merge
+                      - link "Link to this section" [ref=e1112] [cursor=pointer]:
+                        - /url: "#merge(java.lang.Object,java.lang.Object,java.util.function.BiFunction)"
+                        - img "Link icon" [ref=e1113]
+                    - generic [ref=e1114]:
+                      - text: public
+                      - link "V" [ref=e1116] [cursor=pointer]:
+                        - /url: HashMap.html
+                      - text: merge
+                      - generic [ref=e1117]:
+                        - text: (
+                        - link "K" [ref=e1118] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: key,
+                        - link "V" [ref=e1119] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: value,
+                        - link "BiFunction" [ref=e1120] [cursor=pointer]:
+                          - /url: function/BiFunction.html
+                        - text: <? super
+                        - link "V" [ref=e1121] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? super"
+                        - link "V" [ref=e1122] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: ",? extends"
+                        - link "V" [ref=e1123] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: "> remappingFunction)"
+                    - generic [ref=e1124]:
+                      - text: If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value. Otherwise, replaces the associated value with the results of the given remapping function, or removes if the result is
+                      - code [ref=e1125]: "null"
+                      - text: . This method may be of use when combining multiple mapped values for a key. For example, to either create or append a
+                      - code [ref=e1126]: String msg
+                      - text: "to a value mapping:"
+                      - code [ref=e1128]: map.merge(key, msg, String::concat)
+                      - paragraph [ref=e1129]:
+                        - text: If the remapping function returns
+                        - code [ref=e1130]: "null"
+                        - text: ", the mapping is removed. If the remapping function itself throws an (unchecked) exception, the exception is rethrown, and the current mapping is left unchanged."
+                      - paragraph [ref=e1131]: The remapping function should not modify this map during computation.
+                      - paragraph [ref=e1132]:
+                        - text: This method will, on a best-effort basis, throw a
+                        - link [ref=e1133] [cursor=pointer]:
+                          - /url: ConcurrentModificationException.html
+                          - code [ref=e1134]: ConcurrentModificationException
+                        - text: if it is detected that the remapping function modifies this map during computation.
+                    - generic [ref=e1135]:
+                      - term [ref=e1136]: "Specified by:"
+                      - definition [ref=e1137]:
+                        - code [ref=e1138]:
+                          - link "merge" [ref=e1139] [cursor=pointer]:
+                            - /url: Map.html#merge(K,V,java.util.function.BiFunction)
+                        - text: in interface
+                        - code [ref=e1140]:
+                          - link "Map" [ref=e1141] [cursor=pointer]:
+                            - /url: Map.html
+                          - text: <
+                          - link "K" [ref=e1142] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e1143] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e1144]: "Parameters:"
+                      - definition [ref=e1145]:
+                        - code [ref=e1146]: key
+                        - text: "- key with which the resulting value is to be associated"
+                      - definition [ref=e1147]:
+                        - code [ref=e1148]: value
+                        - text: "- the non-null value to be merged with the existing value associated with the key or, if no existing value or a null value is associated with the key, to be associated with the key"
+                      - definition [ref=e1149]:
+                        - code [ref=e1150]: remappingFunction
+                        - text: "- the remapping function to recompute a value if present"
+                      - term [ref=e1151]: "Returns:"
+                      - definition [ref=e1152]: the new value associated with the specified key, or null if no value is associated with the key
+                      - term [ref=e1153]: "Throws:"
+                      - definition [ref=e1154]:
+                        - code [ref=e1155]:
+                          - link "ConcurrentModificationException" [ref=e1156] [cursor=pointer]:
+                            - /url: ConcurrentModificationException.html
+                        - text: "- if it is detected that the remapping function modified this map"
+                - listitem [ref=e1157]:
+                  - generic [ref=e1158]:
+                    - heading [level=3] [ref=e1159]:
+                      - text: clone
+                      - link "Link to this section" [ref=e1160] [cursor=pointer]:
+                        - /url: "#clone()"
+                        - img "Link icon" [ref=e1161]
+                    - generic [ref=e1162]:
+                      - text: public
+                      - link "Object" [ref=e1164] [cursor=pointer]:
+                        - /url: ../lang/Object.html
+                      - text: clone()
+                    - generic [ref=e1165]:
+                      - text: Returns a shallow copy of this
+                      - code [ref=e1166]: HashMap
+                      - text: "instance: the keys and values themselves are not cloned."
+                    - generic [ref=e1167]:
+                      - term [ref=e1168]: "Overrides:"
+                      - definition [ref=e1169]:
+                        - code [ref=e1170]:
+                          - link "clone" [ref=e1171] [cursor=pointer]:
+                            - /url: AbstractMap.html#clone()
+                        - text: in class
+                        - code [ref=e1172]:
+                          - link "AbstractMap" [ref=e1173] [cursor=pointer]:
+                            - /url: AbstractMap.html
+                          - text: <
+                          - link "K" [ref=e1174] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ","
+                          - link "V" [ref=e1175] [cursor=pointer]:
+                            - /url: HashMap.html
+                          - text: ">"
+                      - term [ref=e1176]: "Returns:"
+                      - definition [ref=e1177]: a shallow copy of this map
+                      - term [ref=e1178]: "See Also:"
+                      - definition [ref=e1179]:
+                        - list [ref=e1180]:
+                          - listitem [ref=e1181]:
+                            - link [ref=e1182] [cursor=pointer]:
+                              - /url: ../lang/Cloneable.html
+                              - code [ref=e1183]: Cloneable
+                - listitem [ref=e1184]:
+                  - generic [ref=e1185]:
+                    - heading [level=3] [ref=e1186]:
+                      - text: newHashMap
+                      - link "Link to this section" [ref=e1187] [cursor=pointer]:
+                        - /url: "#newHashMap(int)"
+                        - img "Link icon" [ref=e1188]
+                    - generic [ref=e1189]:
+                      - text: public static
+                      - generic [ref=e1190]: <K, V>
+                      - generic [ref=e1191]:
+                        - link "HashMap" [ref=e1192] [cursor=pointer]:
+                          - /url: HashMap.html
+                        - text: <K,V>
+                      - text: newHashMap
+                      - generic [ref=e1193]: (int numMappings)
+                    - generic [ref=e1194]: Creates a new, empty HashMap suitable for the expected number of mappings. The returned map uses the default load factor of 0.75, and its initial capacity is generally large enough so that the expected number of mappings can be added without resizing the map.
+                    - generic [ref=e1195]:
+                      - term [ref=e1196]: "Type Parameters:"
+                      - definition [ref=e1197]:
+                        - code [ref=e1198]: K
+                        - text: "- the type of keys maintained by the new map"
+                      - definition [ref=e1199]:
+                        - code [ref=e1200]: V
+                        - text: "- the type of mapped values"
+                      - term [ref=e1201]: "Parameters:"
+                      - definition [ref=e1202]:
+                        - code [ref=e1203]: numMappings
+                        - text: "- the expected number of mappings"
+                      - term [ref=e1204]: "Returns:"
+                      - definition [ref=e1205]: the newly created map
+                      - term [ref=e1206]: "Throws:"
+                      - definition [ref=e1207]:
+                        - code [ref=e1208]:
+                          - link "IllegalArgumentException" [ref=e1209] [cursor=pointer]:
+                            - /url: ../lang/IllegalArgumentException.html
+                        - text: "- if numMappings is negative"
+                      - term [ref=e1210]: "Since:"
+                      - definition [ref=e1211]: "19"
+      - contentinfo [ref=e1212]:
+        - separator [ref=e1213]
+        - paragraph [ref=e1214]:
+          - generic [ref=e1215]:
+            - link "Report a bug or suggest an enhancement" [ref=e1216] [cursor=pointer]:
+              - /url: https://bugreport.java.com/bugreport/
+            - text: For further API reference and developer documentation see the
+            - link "Java SE Documentation" [ref=e1217] [cursor=pointer]:
+              - /url: https://docs.oracle.com/pls/topic/lookup?ctx=javase21&id=homepage
+            - text: ", which contains more detailed, developer-targeted descriptions with conceptual overviews, definitions of terms, workarounds, and working code examples."
+            - link "Other versions." [ref=e1218] [cursor=pointer]:
+              - /url: https://docs.oracle.com/en/java/javase/index.html
+            - text: Java is a trademark or registered trademark of Oracle and/or its affiliates in the US and other countries.
+            - link "Copyright" [ref=e1219] [cursor=pointer]:
+              - /url: ../../../../legal/copyright.html
+            - text: © 1993, 2025, Oracle and/or its affiliates, 500 Oracle Parkway, Redwood Shores, CA 94065 USA.All rights reserved. Use is subject to
+            - link "license terms" [ref=e1220] [cursor=pointer]:
+              - /url: https://www.oracle.com/java/javase/terms/license/java21speclicense.html
+            - text: and the
+            - link "documentation redistribution policy" [ref=e1221] [cursor=pointer]:
+              - /url: https://www.oracle.com/technetwork/java/redist-137594.html
+            - text: .
+            - generic [ref=e1222]:
+              - text: Modify
+              - link:
+                - /url: "#"
+              - text: . Modify
+              - link "Ad Choices" [ref=e1223] [cursor=pointer]:
+                - /url: https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#12
+              - text: .
+  - status [ref=e1224]

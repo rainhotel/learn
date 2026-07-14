@@ -1,0 +1,462 @@
+- generic [active] [ref=f1e1]:
+  - banner:
+    - navigation [ref=f1e2]:
+      - generic [ref=f1e3]:
+        - link [ref=f1e4] [cursor=pointer]:
+          - /url: /
+          - img "Apache Kafka" [ref=f1e5]
+        - list [ref=f1e7]:
+          - listitem [ref=f1e8]:
+            - link "Get Started" [ref=f1e9] [cursor=pointer]:
+              - /url: /43/getting-started/
+          - listitem [ref=f1e10]:
+            - link "Docs" [ref=f1e11] [cursor=pointer]:
+              - /url: /documentation
+          - listitem [ref=f1e12]:
+            - link "Powered By" [ref=f1e13] [cursor=pointer]:
+              - /url: /powered-by/
+          - listitem [ref=f1e14]:
+            - link "Community" [ref=f1e15] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=f1e16]:
+            - link "Apache" [ref=f1e17] [cursor=pointer]:
+              - /url: https://www.apache.org/
+          - listitem [ref=f1e18]:
+            - button "Releases" [ref=f1e19] [cursor=pointer]
+          - listitem [ref=f1e20]:
+            - link "DOWNLOAD KAFKA" [ref=f1e21] [cursor=pointer]:
+              - /url: /community/downloads/
+        - generic [ref=f1e22]:
+          - button "Toggle search" [ref=f1e23] [cursor=pointer]:
+            - generic [ref=f1e24]: 
+          - generic:
+            - generic:
+              - generic: 
+              - searchbox "Search this site…"
+  - generic [ref=f1e25]:
+    - generic [ref=f1e27]:
+      - complementary [ref=f1e28]:
+        - generic [ref=f1e31]:
+          - text:  
+          - navigation [ref=f1e32]:
+            - list [ref=f1e33]:
+              - listitem [ref=f1e34]:
+                - link "AK 4.3.X" [ref=f1e35] [cursor=pointer]:
+                  - /url: /43/
+                - list [ref=f1e36]:
+                  - listitem [ref=f1e37]:
+                    - generic [ref=f1e38]:
+                      - text: 
+                      - link "Getting Started" [ref=f1e39] [cursor=pointer]:
+                        - /url: /43/getting-started/
+                    - list [ref=f1e40]:
+                      - listitem [ref=f1e41]:
+                        - link "Introduction" [ref=f1e43] [cursor=pointer]:
+                          - /url: /43/getting-started/introduction/
+                      - listitem [ref=f1e44]:
+                        - link "Use Cases" [ref=f1e46] [cursor=pointer]:
+                          - /url: /43/getting-started/uses/
+                      - listitem [ref=f1e47]:
+                        - link "Quick Start" [ref=f1e49] [cursor=pointer]:
+                          - /url: /43/getting-started/quickstart/
+                      - listitem [ref=f1e50]:
+                        - link "Ecosystem" [ref=f1e52] [cursor=pointer]:
+                          - /url: /43/getting-started/ecosystem/
+                      - listitem [ref=f1e53]:
+                        - link "Upgrading" [ref=f1e55] [cursor=pointer]:
+                          - /url: /43/getting-started/upgrade/
+                      - listitem [ref=f1e56]:
+                        - link "KRaft vs ZooKeeper" [ref=f1e58] [cursor=pointer]:
+                          - /url: /43/getting-started/zk2kraft/
+                      - listitem [ref=f1e59]:
+                        - link "Compatibility" [ref=f1e61] [cursor=pointer]:
+                          - /url: /43/getting-started/compatibility/
+                      - listitem [ref=f1e62]:
+                        - link "Docker" [ref=f1e64] [cursor=pointer]:
+                          - /url: /43/getting-started/docker/
+                  - listitem [ref=f1e65]:
+                    - link "API" [ref=f1e67] [cursor=pointer]:
+                      - /url: /43/apis/
+                  - listitem [ref=f1e68]:
+                    - generic [ref=f1e69]:
+                      - text: 
+                      - link "Configuration" [ref=f1e70] [cursor=pointer]:
+                        - /url: /43/configuration/
+                  - listitem [ref=f1e71]:
+                    - generic [ref=f1e72]:
+                      - text: 
+                      - link "Design" [ref=f1e73] [cursor=pointer]:
+                        - /url: /43/design/
+                  - listitem [ref=f1e74]:
+                    - generic [ref=f1e75]:
+                      - text: 
+                      - link "Implementation" [ref=f1e76] [cursor=pointer]:
+                        - /url: /43/implementation/
+                  - listitem [ref=f1e77]:
+                    - generic [ref=f1e78]:
+                      - text: 
+                      - link "Operations" [ref=f1e79] [cursor=pointer]:
+                        - /url: /43/operations/
+                  - listitem [ref=f1e80]:
+                    - generic [ref=f1e81]:
+                      - text: 
+                      - link "Security" [ref=f1e82] [cursor=pointer]:
+                        - /url: /43/security/
+                  - listitem [ref=f1e83]:
+                    - generic [ref=f1e84]:
+                      - text: 
+                      - link "Kafka Connect" [ref=f1e85] [cursor=pointer]:
+                        - /url: /43/kafka-connect/
+                  - listitem [ref=f1e86]:
+                    - generic [ref=f1e87]:
+                      - text: 
+                      - link "Kafka Streams" [ref=f1e88] [cursor=pointer]:
+                        - /url: /43/streams/
+                    - text: 
+      - complementary [ref=f1e89]:
+        - generic [ref=f1e90]:
+          - generic [ref=f1e92]:
+            - link " View page source" [ref=f1e93] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//tree/markdown/content/en/43/getting-started/introduction.md
+              - generic [ref=f1e94]: 
+              - text: View page source
+            - link " Edit this page" [ref=f1e95] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//edit/markdown/content/en/43/getting-started/introduction.md
+              - generic [ref=f1e96]: 
+              - text: Edit this page
+            - link " Create child page" [ref=f1e97] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//new/markdown/content/en/43/getting-started?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%22%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A+%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%23+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Give+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60%0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%28%3C80+characters%3B+use+the+extended+description+field+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%0A
+              - generic [ref=f1e98]: 
+              - text: Create child page
+            - link " Create documentation issue" [ref=f1e99] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//issues/new?title=Introduction
+              - generic [ref=f1e100]: 
+              - text: Create documentation issue
+            - link " Print entire section" [ref=f1e101] [cursor=pointer]:
+              - /url: /43/getting-started/_print/
+              - generic [ref=f1e102]: 
+              - text: Print entire section
+          - generic [ref=f1e103]:
+            - navigation [ref=f1e106]:
+              - list [ref=f1e107]:
+                - listitem [ref=f1e108]:
+                  - list [ref=f1e109]:
+                    - listitem [ref=f1e110]:
+                      - link "What is event streaming?" [ref=f1e111] [cursor=pointer]:
+                        - /url: "#what-is-event-streaming"
+                    - listitem [ref=f1e112]:
+                      - link "What can I use event streaming for?" [ref=f1e113] [cursor=pointer]:
+                        - /url: "#what-can-i-use-event-streaming-for"
+                    - listitem [ref=f1e114]:
+                      - link "Apache Kafka® is an event streaming platform. What does that mean?" [ref=f1e115] [cursor=pointer]:
+                        - /url: "#apache-kafka-is-an-event-streaming-platform-what-does-that-mean"
+                    - listitem [ref=f1e116]:
+                      - link "How does Kafka work in a nutshell?" [ref=f1e117] [cursor=pointer]:
+                        - /url: "#how-does-kafka-work-in-a-nutshell"
+                    - listitem [ref=f1e118]:
+                      - link "Main Concepts and Terminology" [ref=f1e119] [cursor=pointer]:
+                        - /url: "#main-concepts-and-terminology"
+                    - listitem [ref=f1e120]:
+                      - link "Kafka APIs" [ref=f1e121] [cursor=pointer]:
+                        - /url: "#kafka-apis"
+                    - listitem [ref=f1e122]:
+                      - link "Where to go from here" [ref=f1e123] [cursor=pointer]:
+                        - /url: "#where-to-go-from-here"
+            - generic [ref=f1e124]:
+              - heading "Tag Cloud" [level=5] [ref=f1e125]
+              - list [ref=f1e126]:
+                - listitem [ref=f1e127]:
+                  - link "Apis 1" [ref=f1e128] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/apis/
+                    - text: Apis
+                    - generic [ref=f1e129]: "1"
+                - listitem [ref=f1e130]:
+                  - link "Configuration 34" [ref=f1e131] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/configuration/
+                    - text: Configuration
+                    - generic [ref=f1e132]: "34"
+                - listitem [ref=f1e133]:
+                  - link "Connect 34" [ref=f1e134] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/connect/
+                    - text: Connect
+                    - generic [ref=f1e135]: "34"
+                - listitem [ref=f1e136]:
+                  - link "Design 34" [ref=f1e137] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/design/
+                    - text: Design
+                    - generic [ref=f1e138]: "34"
+                - listitem [ref=f1e139]:
+                  - link "Developer-Guide 34" [ref=f1e140] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/developer-guide/
+                    - text: Developer-Guide
+                    - generic [ref=f1e141]: "34"
+                - listitem [ref=f1e142]:
+                  - link "Docs 2106" [ref=f1e143] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/docs/
+                    - text: Docs
+                    - generic [ref=f1e144]: "2106"
+                - listitem [ref=f1e145]:
+                  - link "Getting-Started 34" [ref=f1e146] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/getting-started/
+                    - text: Getting-Started
+                    - generic [ref=f1e147]: "34"
+                - listitem [ref=f1e148]:
+                  - link "Implementation 34" [ref=f1e149] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/implementation/
+                    - text: Implementation
+                    - generic [ref=f1e150]: "34"
+                - listitem [ref=f1e151]:
+                  - link "Kafka 2106" [ref=f1e152] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/kafka/
+                    - text: Kafka
+                    - generic [ref=f1e153]: "2106"
+                - listitem [ref=f1e154]:
+                  - link "Ops 34" [ref=f1e155] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/ops/
+                    - text: Ops
+                    - generic [ref=f1e156]: "34"
+                - listitem [ref=f1e157]:
+                  - link "Security 34" [ref=f1e158] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/security/
+                    - text: Security
+                    - generic [ref=f1e159]: "34"
+                - listitem [ref=f1e160]:
+                  - link "Streams 68" [ref=f1e161] [cursor=pointer]:
+                    - /url: https://kafka.apache.org/tags/streams/
+                    - text: Streams
+                    - generic [ref=f1e162]: "68"
+      - main [ref=f1e163]:
+        - navigation "breadcrumb" [ref=f1e164]:
+          - list [ref=f1e165]:
+            - listitem [ref=f1e166]:
+              - link "AK 4.3.X" [ref=f1e167] [cursor=pointer]:
+                - /url: /43/
+            - listitem [ref=f1e168]:
+              - text: /
+              - link "Getting Started" [ref=f1e169] [cursor=pointer]:
+                - /url: /43/getting-started/
+            - listitem [ref=f1e170]: / Introduction
+        - generic [ref=f1e171]:
+          - heading "Introduction" [level=1] [ref=f1e172]
+          - generic [ref=f1e174]:
+            - heading "Tags:" [level=5] [ref=f1e175]
+            - list [ref=f1e176]:
+              - listitem [ref=f1e177]:
+                - link "Kafka" [ref=f1e178] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/kafka/
+              - listitem [ref=f1e179]:
+                - link "Docs" [ref=f1e180] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/docs/
+          - heading "What is event streaming?" [level=2] [ref=f1e181]
+          - paragraph [ref=f1e182]: Event streaming is the digital equivalent of the human body’s central nervous system. It is the technological foundation for the ‘always-on’ world where businesses are increasingly software-defined and automated, and where the user of software is more software.
+          - paragraph [ref=f1e183]: Technically speaking, event streaming is the practice of capturing data in real-time from event sources like databases, sensors, mobile devices, cloud services, and software applications in the form of streams of events; storing these event streams durably for later retrieval; manipulating, processing, and reacting to the event streams in real-time as well as retrospectively; and routing the event streams to different destination technologies as needed. Event streaming thus ensures a continuous flow and interpretation of data so that the right information is at the right place, at the right time.
+          - heading "What can I use event streaming for?" [level=2] [ref=f1e184]
+          - paragraph [ref=f1e185]:
+            - text: Event streaming is applied to a
+            - link "wide variety of use cases" [ref=f1e186] [cursor=pointer]:
+              - /url: /powered-by
+            - text: "across a plethora of industries and organizations. Its many examples include:"
+          - list [ref=f1e187]:
+            - listitem [ref=f1e188]: To process payments and financial transactions in real-time, such as in stock exchanges, banks, and insurances.
+            - listitem [ref=f1e189]: To track and monitor cars, trucks, fleets, and shipments in real-time, such as in logistics and the automotive industry.
+            - listitem [ref=f1e190]: To continuously capture and analyze sensor data from IoT devices or other equipment, such as in factories and wind parks.
+            - listitem [ref=f1e191]: To collect and immediately react to customer interactions and orders, such as in retail, the hotel and travel industry, and mobile applications.
+            - listitem [ref=f1e192]: To monitor patients in hospital care and predict changes in condition to ensure timely treatment in emergencies.
+            - listitem [ref=f1e193]: To connect, store, and make available data produced by different divisions of a company.
+            - listitem [ref=f1e194]: To serve as the foundation for data platforms, event-driven architectures, and microservices.
+          - heading "Apache Kafka® is an event streaming platform. What does that mean?" [level=2] [ref=f1e195]
+          - paragraph [ref=f1e196]:
+            - text: Kafka combines three key capabilities so you can implement
+            - link "your use cases" [ref=f1e197] [cursor=pointer]:
+              - /url: /powered-by
+            - text: "for event streaming end-to-end with a single battle-tested solution:"
+          - list [ref=f1e198]:
+            - listitem [ref=f1e199]:
+              - text: To
+              - strong [ref=f1e200]: publish
+              - text: (write) and
+              - strong [ref=f1e201]: subscribe to
+              - text: (read) streams of events, including continuous import/export of your data from other systems.
+            - listitem [ref=f1e202]:
+              - text: To
+              - strong [ref=f1e203]: store
+              - text: streams of events durably and reliably for as long as you want.
+            - listitem [ref=f1e204]:
+              - text: To
+              - strong [ref=f1e205]: process
+              - text: streams of events as they occur or retrospectively.
+          - paragraph [ref=f1e206]: And all this functionality is provided in a distributed, highly scalable, elastic, fault-tolerant, and secure manner. Kafka can be deployed on bare-metal hardware, virtual machines, and containers, and on-premises as well as in the cloud. You can choose between self-managing your Kafka environments and using fully managed services offered by a variety of vendors.
+          - heading "How does Kafka work in a nutshell?" [level=2] [ref=f1e207]
+          - paragraph [ref=f1e208]:
+            - text: Kafka is a distributed system consisting of
+            - strong [ref=f1e209]: servers
+            - text: and
+            - strong [ref=f1e210]: clients
+            - text: that communicate via a high-performance
+            - link "TCP network protocol" [ref=f1e211] [cursor=pointer]:
+              - /url: /protocol.html
+            - text: . It can be deployed on bare-metal hardware, virtual machines, and containers in on-premise as well as cloud environments.
+          - paragraph [ref=f1e212]:
+            - strong [ref=f1e213]: Servers
+            - text: ": Kafka is run as a cluster of one or more servers that can span multiple datacenters or cloud regions. Some of these servers form the storage layer, called the brokers. Other servers run"
+            - link "Kafka Connect" [ref=f1e214] [cursor=pointer]:
+              - /url: /documentation/#connect
+            - text: "to continuously import and export data as event streams to integrate Kafka with your existing systems such as relational databases as well as other Kafka clusters. To let you implement mission-critical use cases, a Kafka cluster is highly scalable and fault-tolerant: if any of its servers fails, the other servers will take over their work to ensure continuous operations without any data loss."
+          - paragraph [ref=f1e215]:
+            - strong [ref=f1e216]: Clients
+            - text: ": They allow you to write distributed applications and microservices that read, write, and process streams of events in parallel, at scale, and in a fault-tolerant manner even in the case of network problems or machine failures. Kafka ships with some such clients included, which are augmented by"
+            - link "dozens of clients" [ref=f1e217] [cursor=pointer]:
+              - /url: https://cwiki.apache.org/confluence/x/3gDVAQ
+            - text: "provided by the Kafka community: clients are available for Java and Scala including the higher-level"
+            - link "Kafka Streams" [ref=f1e218] [cursor=pointer]:
+              - /url: /documentation/streams/
+            - text: library, for Go, Python, C/C++, and many other programming languages as well as REST APIs.
+          - heading "Main Concepts and Terminology" [level=2] [ref=f1e219]
+          - paragraph [ref=f1e220]:
+            - text: An
+            - strong [ref=f1e221]: event
+            - text: "records the fact that “something happened” in the world or in your business. It is also called record or message in the documentation. When you read or write data to Kafka, you do this in the form of events. Conceptually, an event has a key, value, timestamp, and optional metadata headers. Here’s an example event:"
+          - list [ref=f1e222]:
+            - listitem [ref=f1e223]: "Event key: “Alice”"
+            - listitem [ref=f1e224]: "Event value: “Made a payment of $200 to Bob”"
+            - listitem [ref=f1e225]: "Event timestamp: “Jun. 25, 2020 at 2:06 p.m.”"
+          - paragraph [ref=f1e226]:
+            - strong [ref=f1e227]: Producers
+            - text: are those client applications that publish (write) events to Kafka, and
+            - strong [ref=f1e228]: consumers
+            - text: are those that subscribe to (read and process) these events. In Kafka, producers and consumers are fully decoupled and agnostic of each other, which is a key design element to achieve the high scalability that Kafka is known for. For example, producers never need to wait for consumers. Kafka provides various
+            - link "guarantees" [ref=f1e229] [cursor=pointer]:
+              - /url: /documentation/#semantics
+            - text: such as the ability to process events exactly-once.
+          - paragraph [ref=f1e230]:
+            - text: Events are organized and durably stored in
+            - strong [ref=f1e231]: topics
+            - text: ". Very simplified, a topic is similar to a folder in a filesystem, and the events are the files in that folder. An example topic name could be “payments”. Topics in Kafka are always multi-producer and multi-subscriber: a topic can have zero, one, or many producers that write events to it, as well as zero, one, or many consumers that subscribe to these events. Events in a topic can be read as often as needed-unlike traditional messaging systems, events are not deleted after consumption. Instead, you define for how long Kafka should retain your events through a per-topic configuration setting, after which old events will be discarded. Kafka’s performance is effectively constant with respect to data size, so storing data for a long time is perfectly fine."
+          - paragraph [ref=f1e232]:
+            - text: Topics are
+            - strong [ref=f1e233]: partitioned
+            - text: ", meaning a topic is spread over a number of “buckets” located on different Kafka brokers. This distributed placement of your data is very important for scalability because it allows client applications to both read and write the data from/to many brokers at the same time. When a new event is published to a topic, it is actually appended to one of the topic’s partitions. Events with the same event key (e.g., a customer or vehicle ID) are written to the same partition, and Kafka"
+            - link "guarantees" [ref=f1e234] [cursor=pointer]:
+              - /url: /documentation/#semantics
+            - text: that any consumer of a given topic-partition will always read that partition’s events in exactly the same order as they were written.
+          - paragraph [ref=f1e235]: "Figure: This example topic has four partitions P1-P4. Two different producer clients are publishing, independently from each other, new events to the topic by writing events over the network to the topic’s partitions. Events with the same key (denoted by their color in the figure) are written to the same partition. Note that both producers can write to the same partition if appropriate."
+          - paragraph [ref=f1e237]:
+            - text: To make your data fault-tolerant and highly-available, every topic can be
+            - strong [ref=f1e238]: replicated
+            - text: ", even across geo-regions or datacenters, so that there are always multiple brokers that have a copy of the data just in case things go wrong, you want to do maintenance on the brokers, and so on. A common production setting is a replication factor of 3, i.e., there will always be three copies of your data. This replication is performed at the level of topic-partitions."
+          - paragraph [ref=f1e239]:
+            - text: This primer should be sufficient for an introduction. The
+            - link "Design" [ref=f1e240] [cursor=pointer]:
+              - /url: /documentation/#design
+            - text: section of the documentation explains Kafka’s various concepts in full detail, if you are interested.
+          - heading "Kafka APIs" [level=2] [ref=f1e241]
+          - paragraph [ref=f1e242]: "In addition to command line tooling for management and administration tasks, Kafka has five core APIs for Java and Scala:"
+          - list [ref=f1e243]:
+            - listitem [ref=f1e244]:
+              - text: The
+              - link "Admin API" [ref=f1e245] [cursor=pointer]:
+                - /url: /documentation.html#adminapi
+              - text: to manage and inspect topics, brokers, and other Kafka objects.
+            - listitem [ref=f1e246]:
+              - text: The
+              - link "Producer API" [ref=f1e247] [cursor=pointer]:
+                - /url: /documentation.html#producerapi
+              - text: to publish (write) a stream of events to one or more Kafka topics.
+            - listitem [ref=f1e248]:
+              - text: The
+              - link "Consumer API" [ref=f1e249] [cursor=pointer]:
+                - /url: /documentation.html#consumerapi
+              - text: to subscribe to (read) one or more topics and to process the stream of events produced to them.
+            - listitem [ref=f1e250]:
+              - text: The
+              - link "Kafka Streams API" [ref=f1e251] [cursor=pointer]:
+                - /url: /documentation/streams
+              - text: to implement stream processing applications and microservices. It provides higher-level functions to process event streams, including transformations, stateful operations like aggregations and joins, windowing, processing based on event-time, and more. Input is read from one or more topics in order to generate output to one or more topics, effectively transforming the input streams to output streams.
+            - listitem [ref=f1e252]:
+              - text: The
+              - link "Kafka Connect API" [ref=f1e253] [cursor=pointer]:
+                - /url: /documentation.html#connect
+              - text: to build and run reusable data import/export connectors that consume (read) or produce (write) streams of events from and to external systems and applications so they can integrate with Kafka. For example, a connector to a relational database like PostgreSQL might capture every change to a set of tables. However, in practice, you typically don’t need to implement your own connectors because the Kafka community already provides hundreds of ready-to-use connectors.
+          - heading "Where to go from here" [level=2] [ref=f1e254]
+          - list [ref=f1e255]:
+            - listitem [ref=f1e256]:
+              - text: To get hands-on experience with Kafka, follow the
+              - link "Quickstart" [ref=f1e257] [cursor=pointer]:
+                - /url: /quickstart
+              - text: .
+            - listitem [ref=f1e258]:
+              - text: To understand Kafka in more detail, read the
+              - link "Documentation" [ref=f1e259] [cursor=pointer]:
+                - /url: /documentation/
+              - text: . You also have your choice of
+              - link "Kafka books and academic papers" [ref=f1e260] [cursor=pointer]:
+                - /url: /books-and-papers
+              - text: .
+            - listitem [ref=f1e261]:
+              - text: Browse through the
+              - link "Use Cases" [ref=f1e262] [cursor=pointer]:
+                - /url: /powered-by
+              - text: to learn how other users in our world-wide community are getting value out of Kafka.
+            - listitem [ref=f1e263]:
+              - text: Join a
+              - link "local Kafka meetup group" [ref=f1e264] [cursor=pointer]:
+                - /url: /events
+              - text: and
+              - link "watch talks from Kafka Summit" [ref=f1e265] [cursor=pointer]:
+                - /url: https://kafka-summit.org/past-events/
+              - text: ", the main conference of the Kafka community."
+          - generic [ref=f1e266]:
+            - text: "Last modified May 22, 2026:"
+            - 'link "MINOR: Add 4.3 docs and javadoc (#853) (dde051e342)" [ref=f1e267] [cursor=pointer]':
+              - /url: https://github.com/apache/kafka-site//commit/dde051e342850dadc1aefef27899a50c1a6fc3e9
+        - navigation [ref=f1e269]:
+          - 'link "Next: Use Cases" [ref=f1e271] [cursor=pointer]':
+            - /url: /43/getting-started/uses/
+            - generic [ref=f1e272]: "Next:"
+            - generic [ref=f1e273]: Use Cases
+            - generic [ref=f1e274]: ›
+    - contentinfo [ref=f1e275]:
+      - generic [ref=f1e277]:
+        - generic [ref=f1e279]:
+          - link "Contact" [ref=f1e280] [cursor=pointer]:
+            - /url: /community/contact/
+            - generic [ref=f1e281]: 
+          - link "Twitter" [ref=f1e282] [cursor=pointer]:
+            - /url: https://twitter.com/apachekafka
+            - generic [ref=f1e283]: 
+          - link "Stack Overflow" [ref=f1e284] [cursor=pointer]:
+            - /url: https://stackoverflow.com/questions/tagged/apache-kafka
+            - generic [ref=f1e285]: 
+          - link "GitHub" [ref=f1e286] [cursor=pointer]:
+            - /url: https://github.com/apache/kafka
+            - generic [ref=f1e287]: 
+          - link "Developer mailing list" [ref=f1e288] [cursor=pointer]:
+            - /url: mailto:dev@kafka.apache.org
+            - generic [ref=f1e289]: 
+        - generic [ref=f1e290]:
+          - generic [ref=f1e291]:
+            - text: The contents of this website are © 2026 Apache Software Foundation under the terms of the
+            - link "Apache License v2" [ref=f1e292] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/LICENSE-2.0
+            - text: . Apache Kafka, Kafka, and the Kafka logo are either registered trademarks or trademarks of The Apache Software Foundation in the United States and other countries.
+          - generic [ref=f1e293]:
+            - link "Security" [ref=f1e294] [cursor=pointer]:
+              - /url: https://www.apache.org/security/
+            - text: "|"
+            - link "Donate" [ref=f1e295] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/contributing.html
+            - text: "|"
+            - link "Thanks" [ref=f1e296] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/thanks.html
+            - text: "|"
+            - link "Events" [ref=f1e297] [cursor=pointer]:
+              - /url: https://www.apache.org/events/current-event.html
+            - text: "|"
+            - link "License" [ref=f1e298] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/
+            - text: "|"
+            - link "Privacy" [ref=f1e299] [cursor=pointer]:
+              - /url: https://privacy.apache.org/policies/privacy-policy-public.html
+        - link [ref=f1e301] [cursor=pointer]:
+          - /url: https://www.apache.org/
+          - img "Apache Software Foundation" [ref=f1e302]

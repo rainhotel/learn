@@ -1,0 +1,854 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "What's new?" [ref=e50] [cursor=pointer]:
+              - /url: /docs/latest/develop/whats-new/
+          - listitem [ref=e52]:
+            - link "Quick starts" [ref=e53] [cursor=pointer]:
+              - /url: /docs/latest/develop/get-started/
+          - listitem [ref=e55]:
+            - link "Client tools" [ref=e56] [cursor=pointer]:
+              - /url: /docs/latest/develop/tools/
+          - listitem [ref=e58]:
+            - link "Client APIs" [ref=e59] [cursor=pointer]:
+              - /url: /docs/latest/develop/clients/
+          - listitem [ref=e61]:
+            - link "Using commands" [ref=e62] [cursor=pointer]:
+              - /url: /docs/latest/develop/using-commands/
+          - listitem [ref=e64]:
+            - link "Data types" [ref=e65] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/
+          - listitem [ref=e67]:
+            - link "Redis for AI and search" [ref=e68] [cursor=pointer]:
+              - /url: /docs/latest/develop/ai/
+          - listitem [ref=e70]:
+            - link "Programmability" [ref=e71] [cursor=pointer]:
+              - /url: /docs/latest/develop/programmability/
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Functions" [ref=e75] [cursor=pointer]:
+                  - /url: /docs/latest/develop/programmability/functions-intro/
+              - listitem [ref=e77]:
+                - link "Lua scripting":
+                  - /url: /docs/latest/develop/programmability/eval-intro/
+              - listitem [ref=e78]:
+                - link "Lua API" [ref=e79] [cursor=pointer]:
+                  - /url: /docs/latest/develop/programmability/lua-api/
+              - listitem [ref=e81]:
+                - link "Debugging Lua" [ref=e82] [cursor=pointer]:
+                  - /url: /docs/latest/develop/programmability/lua-debugging/
+          - listitem [ref=e84]:
+            - link "Use cases" [ref=e85] [cursor=pointer]:
+              - /url: /docs/latest/develop/use-cases/
+          - listitem [ref=e87]:
+            - link "Pub/sub" [ref=e88] [cursor=pointer]:
+              - /url: /docs/latest/develop/pubsub/
+          - listitem [ref=e90]:
+            - link "Reference" [ref=e91] [cursor=pointer]:
+              - /url: /docs/latest/develop/reference/
+        - link "Libraries and tools" [ref=e93] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e94] [cursor=pointer]:
+          - /url: /docs/latest/operate
+      - link "Commands" [ref=e96] [cursor=pointer]:
+        - /url: /docs/latest/commands
+    - generic [ref=e97]:
+      - navigation "Breadcrumb" [ref=e98]:
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "Docs Docs" [ref=e101] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e102]: Docs
+          - listitem [ref=e103]:
+            - generic [ref=e104]: →
+            - link "Develop with Redis" [ref=e105] [cursor=pointer]:
+              - /url: /docs/latest/develop/
+          - listitem [ref=e106]:
+            - generic [ref=e107]: →
+            - link "Redis programmability" [ref=e108] [cursor=pointer]:
+              - /url: /docs/latest/develop/programmability/
+          - listitem:
+            - generic: →
+            - link "Scripting with Lua":
+              - /url: /docs/latest/develop/programmability/eval-intro/
+      - generic [ref=e109]:
+        - heading "Scripting with Lua" [level=1] [ref=e110]
+        - paragraph [ref=e111]: Executing Lua in Redis
+        - paragraph [ref=e112]:
+          - text: Redis lets users upload and execute Lua scripts on the server. Scripts can employ programmatic control structures and use most of the
+          - link "commands" [ref=e113] [cursor=pointer]:
+            - /url: /docs/latest/commands/
+          - text: while executing to access the database. Because scripts execute in the server, reading and writing data from scripts is very efficient.
+        - paragraph [ref=e114]: Redis guarantees the script's atomic execution. While executing the script, all server activities are blocked during its entire runtime. These semantics mean that all of the script's effects either have yet to happen or had already happened.
+        - paragraph [ref=e115]: "Scripting offers several properties that can be valuable in many cases. These include:"
+        - list [ref=e116]:
+          - listitem [ref=e117]: Providing locality by executing logic where data lives. Data locality reduces overall latency and saves networking resources.
+          - listitem [ref=e118]: Blocking semantics that ensure the script's atomic execution.
+          - listitem [ref=e119]: Enabling the composition of simple capabilities that are either missing from Redis or are too niche to be a part of it.
+        - paragraph [ref=e120]: Lua lets you run part of your application logic inside Redis. Such scripts can perform conditional updates across multiple keys, possibly combining several different data types atomically.
+        - paragraph [ref=e121]:
+          - text: Scripts are executed in Redis by an embedded execution engine. Presently, Redis supports a single scripting engine, the
+          - link "Lua 5.1" [ref=e122] [cursor=pointer]:
+            - /url: https://www.lua.org/
+          - text: interpreter. Please refer to the
+          - link "Redis Lua API Reference" [ref=e123] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/
+          - text: page for complete documentation.
+        - paragraph [ref=e124]:
+          - text: Although the server executes them, Eval scripts are regarded as a part of the client-side application, which is why they're not named, versioned, or persisted. So all scripts may need to be reloaded by the application at any time if missing (after a server restart, fail-over to a replica, etc.). As of version 7.0,
+          - link "Redis Functions" [ref=e125] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/functions-intro/
+          - text: offer an alternative approach to programmability which allow the server itself to be extended with additional programmed logic.
+        - heading [level=2] [ref=e126]:
+          - text: Getting started
+          - link "Link to this section" [ref=e127] [cursor=pointer]:
+            - /url: "#getting-started"
+        - paragraph [ref=e130]:
+          - text: We'll start scripting with Redis by using the
+          - link [ref=e131] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e132]: EVAL
+          - text: command.
+        - paragraph [ref=e133]: "Here's our first example:"
+        - code [ref=e135]: "> EVAL \"return 'Hello, scripting!'\" 0 \"Hello, scripting!\""
+        - paragraph [ref=e136]:
+          - text: In this example,
+          - link [ref=e137] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e138]: EVAL
+          - text: takes two arguments. The first argument is a string that consists of the script's Lua source code. The script doesn't need to include any definitions of Lua function. It is just a Lua program that will run in the Redis engine's context.
+        - paragraph [ref=e139]:
+          - text: The second argument is the number of arguments that follow the script's body, starting from the third argument, representing Redis key names. In this example, we used the value
+          - emphasis [ref=e140]: "0"
+          - text: because we didn't provide the script with any arguments, whether the names of keys or not.
+        - heading [level=2] [ref=e141]:
+          - text: Script parameterization
+          - link "Link to this section" [ref=e142] [cursor=pointer]:
+            - /url: "#script-parameterization"
+        - paragraph [ref=e145]: "It is possible, although highly ill-advised, to have the application dynamically generate script source code per its needs. For example, the application could send these two entirely different, but at the same time perfectly identical scripts:"
+        - code [ref=e147]: redis> EVAL "return 'Hello'" 0 "Hello" redis> EVAL "return 'Scripting!'" 0 "Scripting!"
+        - paragraph [ref=e148]: Although this mode of operation isn't blocked by Redis, it is an anti-pattern due to script cache considerations (more on the topic below). Instead of having your application generate subtle variations of the same scripts, you can parametrize them and pass any arguments needed for to execute them.
+        - paragraph [ref=e149]: "The following example demonstrates how to achieve the same effects as above, but via parameterization:"
+        - code [ref=e151]: redis> EVAL "return ARGV[1]" 0 Hello "Hello" redis> EVAL "return ARGV[1]" 0 Parameterization! "Parameterization!"
+        - paragraph [ref=e152]: At this point, it is essential to understand the distinction Redis makes between input arguments that are names of keys and those that aren't.
+        - paragraph [ref=e153]: While key names in Redis are just strings, unlike any other string values, these represent keys in the database. The name of a key is a fundamental concept in Redis and is the basis for operating the Redis Cluster.
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: "Important:"
+          - text: to ensure the correct execution of scripts, both in standalone and clustered deployments, all names of keys that a script accesses must be explicitly provided as input key arguments. The script
+          - strong [ref=e156]: should only
+          - text: access keys whose names are given as input arguments. Scripts
+          - strong [ref=e157]: should never
+          - text: access keys with programmatically-generated names or based on the contents of data structures stored in the database.
+        - paragraph [ref=e158]: Any input to the function that isn't the name of a key is a regular input argument.
+        - paragraph [ref=e159]:
+          - text: In the example above, both
+          - emphasis [ref=e160]: Hello
+          - text: and
+          - emphasis [ref=e161]: Parameterization!
+          - text: regular input arguments for the script. Because the script doesn't touch any keys, we use the numerical argument
+          - emphasis [ref=e162]: "0"
+          - text: to specify there are no key name arguments. The execution context makes arguments available to the script through
+          - link [ref=e163] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#the-keys-global-variable
+            - emphasis [ref=e164]: KEYS
+          - text: and
+          - link [ref=e165] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#the-argv-global-variable
+            - emphasis [ref=e166]: ARGV
+          - text: global runtime variables. The
+          - emphasis [ref=e167]: KEYS
+          - text: table is pre-populated with all key name arguments provided to the script before its execution, whereas the
+          - emphasis [ref=e168]: ARGV
+          - text: table serves a similar purpose but for regular arguments.
+        - paragraph [ref=e169]:
+          - text: The following attempts to demonstrate the distribution of input arguments between the scripts
+          - emphasis [ref=e170]: KEYS
+          - text: and
+          - emphasis [ref=e171]: ARGV
+          - text: "runtime global variables:"
+        - code [ref=e173]: "redis> EVAL \"return { KEYS[1], KEYS[2], ARGV[1], ARGV[2], ARGV[3] }\" 2 key1 key2 arg1 arg2 arg3 1) \"key1\" 2) \"key2\" 3) \"arg1\" 4) \"arg2\" 5) \"arg3\""
+        - paragraph [ref=e174]:
+          - strong [ref=e175]: "Note:"
+          - text: as can been seen above, Lua's table arrays are returned as
+          - link "RESP2 array replies" [ref=e176] [cursor=pointer]:
+            - /url: /docs/latest/develop/reference/protocol-spec/#resp-arrays
+          - text: ", so it is likely that your client's library will convert it to the native array data type in your programming language. Please refer to the rules that govern"
+          - link "data type conversion" [ref=e177] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#data-type-conversion
+          - text: for more pertinent information.
+        - heading [level=2] [ref=e178]:
+          - text: Interacting with Redis from a script
+          - link "Link to this section" [ref=e179] [cursor=pointer]:
+            - /url: "#interacting-with-redis-from-a-script"
+        - paragraph [ref=e182]:
+          - text: It is possible to call Redis commands from a Lua script either via
+          - link [ref=e183] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#redis.call
+            - code [ref=e184]: redis.call()
+          - text: or
+          - link [ref=e185] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#redis.pcall
+            - code [ref=e186]: redis.pcall()
+          - text: .
+        - paragraph [ref=e187]:
+          - text: The two are nearly identical. Both execute a Redis command along with its provided arguments, if these represent a well-formed command. However, the difference between the two functions lies in the manner in which runtime errors (such as syntax errors, for example) are handled. Errors raised from calling
+          - code [ref=e188]: redis.call()
+          - text: function are returned directly to the client that had executed it. Conversely, errors encountered when calling the
+          - code [ref=e189]: redis.pcall()
+          - text: function are returned to the script's execution context instead for possible handling.
+        - paragraph [ref=e190]: "For example, consider the following:"
+        - code [ref=e192]: "> EVAL \"return redis.call('SET', KEYS[1], ARGV[1])\" 1 foo bar OK"
+        - paragraph [ref=e193]:
+          - text: The above script accepts one key name and one value as its input arguments. When executed, the script calls the
+          - link [ref=e194] [cursor=pointer]:
+            - /url: /docs/latest/commands/set/
+            - code [ref=e195]: SET
+          - text: command to set the input key,
+          - emphasis [ref=e196]: foo
+          - text: ", with the string value \"bar\"."
+        - heading [level=2] [ref=e197]:
+          - text: Script cache
+          - link "Link to this section" [ref=e198] [cursor=pointer]:
+            - /url: "#script-cache"
+        - paragraph [ref=e201]:
+          - text: Until this point, we've used the
+          - link [ref=e202] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e203]: EVAL
+          - text: command to run our script.
+        - paragraph [ref=e204]:
+          - text: Whenever we call
+          - link [ref=e205] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e206]: EVAL
+          - text: ", we also include the script's source code with the request. Repeatedly calling"
+          - link [ref=e207] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e208]: EVAL
+          - text: to execute the same set of parameterized scripts, wastes both network bandwidth and also has some overheads in Redis. Naturally, saving on network and compute resources is key, so, instead, Redis provides a caching mechanism for scripts.
+        - paragraph [ref=e209]:
+          - text: Every script you execute with
+          - link [ref=e210] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e211]: EVAL
+          - text: is stored in a dedicated cache that the server keeps. The cache's contents are organized by the scripts' SHA1 digest sums, so the SHA1 digest sum of a script uniquely identifies it in the cache. You can verify this behavior by running
+          - link [ref=e212] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e213]: EVAL
+          - text: and calling
+          - link [ref=e214] [cursor=pointer]:
+            - /url: /docs/latest/commands/info/
+            - code [ref=e215]: INFO
+          - text: afterward. You'll notice that the
+          - emphasis [ref=e216]: used_memory_scripts_eval
+          - text: and
+          - emphasis [ref=e217]: number_of_cached_scripts
+          - text: metrics grow with every new script that's executed.
+        - paragraph [ref=e218]: As mentioned above, dynamically-generated scripts are an anti-pattern. Generating scripts during the application's runtime may, and probably will, exhaust the host's memory resources for caching them. Instead, scripts should be as generic as possible and provide customized execution via their arguments.
+        - paragraph [ref=e219]:
+          - text: A script is loaded to the server's cache by calling the
+          - link [ref=e220] [cursor=pointer]:
+            - /url: /docs/latest/commands/script-load/
+            - code [ref=e221]: SCRIPT LOAD
+          - text: command and providing its source code. The server doesn't execute the script, but instead just compiles and loads it to the server's cache. Once loaded, you can execute the cached script with the SHA1 digest returned from the server.
+        - paragraph [ref=e222]: "Here's an example of loading and then executing a cached script:"
+        - code [ref=e224]: redis> SCRIPT LOAD "return 'Immabe a cached script'" "c664a3bf70bd1d45c4284ffebb65a6f2299bfc9f" redis> EVALSHA c664a3bf70bd1d45c4284ffebb65a6f2299bfc9f 0 "Immabe a cached script"
+        - heading [level=3] [ref=e225]:
+          - text: Cache volatility
+          - link "Link to this section" [ref=e226] [cursor=pointer]:
+            - /url: "#cache-volatility"
+        - paragraph [ref=e229]:
+          - text: The Redis script cache is
+          - strong [ref=e230]: always volatile
+          - text: . It isn't considered as a part of the database and is
+          - strong [ref=e231]: not persisted
+          - text: . The cache may be cleared when the server restarts, during fail-over when a replica assumes the master role, or explicitly by
+          - link [ref=e232] [cursor=pointer]:
+            - /url: /docs/latest/commands/script-flush/
+            - code [ref=e233]: SCRIPT FLUSH
+          - text: . That means that cached scripts are ephemeral, and the cache's contents can be lost at any time.
+        - paragraph [ref=e234]:
+          - text: Applications that use scripts should always call
+          - link [ref=e235] [cursor=pointer]:
+            - /url: /docs/latest/commands/evalsha/
+            - code [ref=e236]: EVALSHA
+          - text: "to execute them. The server returns an error if the script's SHA1 digest is not in the cache. For example:"
+        - code [ref=e238]: redis> EVALSHA ffffffffffffffffffffffffffffffffffffffff 0 (error) NOSCRIPT No matching script
+        - paragraph [ref=e239]:
+          - text: In this case, the application should first load it with
+          - link [ref=e240] [cursor=pointer]:
+            - /url: /docs/latest/commands/script-load/
+            - code [ref=e241]: SCRIPT LOAD
+          - text: and then call
+          - link [ref=e242] [cursor=pointer]:
+            - /url: /docs/latest/commands/evalsha/
+            - code [ref=e243]: EVALSHA
+          - text: once more to run the cached script by its SHA1 sum. Most of Redis' clients already provide utility APIs for doing that automatically. Please consult your client's documentation regarding the specific details.
+        - heading [level=3] [ref=e244]:
+          - code [ref=e245]: EVALSHA
+          - text: in the context of pipelining
+          - link "Link to this section" [ref=e246] [cursor=pointer]:
+            - /url: "#evalsha-in-the-context-of-pipelining"
+        - paragraph [ref=e249]:
+          - text: Special care should be given executing
+          - link [ref=e250] [cursor=pointer]:
+            - /url: /docs/latest/commands/evalsha/
+            - code [ref=e251]: EVALSHA
+          - text: in the context of a
+          - link "pipelined request" [ref=e252] [cursor=pointer]:
+            - /url: /docs/latest/develop/using-commands/pipelining/
+          - text: . The commands in a pipelined request run in the order they are sent, but other clients' commands may be interleaved for execution between these. Because of that, the
+          - code [ref=e253]: NOSCRIPT
+          - text: error can return from a pipelined request but can't be handled.
+        - paragraph [ref=e254]:
+          - text: Therefore, a client library's implementation should revert to using plain
+          - link [ref=e255] [cursor=pointer]:
+            - /url: /docs/latest/commands/eval/
+            - code [ref=e256]: EVAL
+          - text: of parameterized in the context of a pipeline.
+        - heading [level=3] [ref=e257]:
+          - text: Script cache semantics
+          - link "Link to this section" [ref=e258] [cursor=pointer]:
+            - /url: "#script-cache-semantics"
+        - paragraph [ref=e261]: During normal operation, an application's scripts are meant to stay indefinitely in the cache (that is, until the server is restarted or the cache being flushed). The underlying reasoning is that the script cache contents of a well-written application are unlikely to grow continuously. Even large applications that use hundreds of cached scripts shouldn't be an issue in terms of cache memory usage.
+        - paragraph [ref=e262]:
+          - text: The only way to flush the script cache is by explicitly calling the
+          - link [ref=e263] [cursor=pointer]:
+            - /url: /docs/latest/commands/script-flush/
+            - code [ref=e264]: SCRIPT FLUSH
+          - text: command. Running the command will
+          - emphasis [ref=e265]: completely flush
+          - text: the scripts cache, removing all the scripts executed so far. Typically, this is only needed when the instance is going to be instantiated for another customer or application in a cloud environment.
+        - paragraph [ref=e266]: "Also, as already mentioned, restarting a Redis instance flushes the non-persistent script cache. However, from the point of view of the Redis client, there are only two ways to make sure that a Redis instance was not restarted between two different commands:"
+        - list [ref=e267]:
+          - listitem [ref=e268]: The connection we have with the server is persistent and was never closed so far.
+          - listitem [ref=e269]:
+            - text: The client explicitly checks the
+            - code [ref=e270]: run_id
+            - text: field in the
+            - link [ref=e271] [cursor=pointer]:
+              - /url: /docs/latest/commands/info/
+              - code [ref=e272]: INFO
+            - text: command to ensure the server was not restarted and is still the same process.
+        - paragraph [ref=e273]:
+          - text: Practically speaking, it is much simpler for the client to assume that in the context of a given connection, cached scripts are guaranteed to be there unless the administrator explicitly invoked the
+          - link [ref=e274] [cursor=pointer]:
+            - /url: /docs/latest/commands/script-flush/
+            - code [ref=e275]: SCRIPT FLUSH
+          - text: command. The fact that the user can count on Redis to retain cached scripts is semantically helpful in the context of pipelining.
+        - heading [level=2] [ref=e276]:
+          - text: The
+          - code [ref=e277]: SCRIPT
+          - text: command
+          - link "Link to this section" [ref=e278] [cursor=pointer]:
+            - /url: "#the-script-command"
+        - paragraph [ref=e281]:
+          - text: The Redis
+          - link [ref=e282] [cursor=pointer]:
+            - /url: /docs/latest/commands/script/
+            - code [ref=e283]: SCRIPT
+          - text: "provides several ways for controlling the scripting subsystem. These are:"
+        - list [ref=e284]:
+          - listitem [ref=e285]:
+            - paragraph [ref=e286]:
+              - link [ref=e287] [cursor=pointer]:
+                - /url: /docs/latest/commands/script-flush/
+                - code [ref=e288]: SCRIPT FLUSH
+              - text: ": this command is the only way to force Redis to flush the scripts cache. It is most useful in environments where the same Redis instance is reassigned to different uses. It is also helpful for testing client libraries' implementations of the scripting feature."
+          - listitem [ref=e289]:
+            - paragraph [ref=e290]:
+              - link [ref=e291] [cursor=pointer]:
+                - /url: /docs/latest/commands/script-exists/
+                - code [ref=e292]: SCRIPT EXISTS
+              - text: ": given one or more SHA1 digests as arguments, this command returns an array of"
+              - emphasis [ref=e293]: "1"
+              - text: "'s and"
+              - emphasis [ref=e294]: "0"
+              - text: "'s."
+              - emphasis [ref=e295]: "1"
+              - text: means the specific SHA1 is recognized as a script already present in the scripting cache.
+              - emphasis [ref=e296]: "0"
+              - text: "'s meaning is that a script with this SHA1 wasn't loaded before (or at least never since the latest call to"
+              - link [ref=e297] [cursor=pointer]:
+                - /url: /docs/latest/commands/script-flush/
+                - code [ref=e298]: SCRIPT FLUSH
+              - text: ).
+          - listitem [ref=e299]:
+            - paragraph [ref=e300]:
+              - code [ref=e301]: SCRIPT LOAD script
+              - text: ": this command registers the specified script in the Redis script cache. It is a useful command in all the contexts where we want to ensure that"
+              - link [ref=e302] [cursor=pointer]:
+                - /url: /docs/latest/commands/evalsha/
+                - code [ref=e303]: EVALSHA
+              - text: doesn't not fail (for instance, in a pipeline or when called from a
+              - link [ref=e304] [cursor=pointer]:
+                - /url: /docs/latest/commands/multi/
+                - code [ref=e305]: MULTI
+              - text: /
+              - link [ref=e306] [cursor=pointer]:
+                - /url: /docs/latest/commands/exec/
+                - code [ref=e307]: EXEC
+              - link "transaction" [ref=e308] [cursor=pointer]:
+                - /url: /docs/latest/develop/using-commands/transactions/
+              - text: ", without the need to execute the script."
+          - listitem [ref=e309]:
+            - paragraph [ref=e310]:
+              - link [ref=e311] [cursor=pointer]:
+                - /url: /docs/latest/commands/script-kill/
+                - code [ref=e312]: SCRIPT KILL
+              - text: ": this command is the only way to interrupt a long-running script (a.k.a slow script), short of shutting down the server. A script is deemed as slow once its execution's duration exceeds the configured"
+              - link "maximum execution time" [ref=e313] [cursor=pointer]:
+                - /url: /docs/latest/develop/programmability/#maximum-execution-time
+              - text: threshold. The
+              - link [ref=e314] [cursor=pointer]:
+                - /url: /docs/latest/commands/script-kill/
+                - code [ref=e315]: SCRIPT KILL
+              - text: command can be used only with scripts that did not modify the dataset during their execution (since stopping a read-only script does not violate the scripting engine's guaranteed atomicity).
+          - listitem [ref=e316]:
+            - paragraph [ref=e317]:
+              - link [ref=e318] [cursor=pointer]:
+                - /url: /docs/latest/commands/script-debug/
+                - code [ref=e319]: SCRIPT DEBUG
+              - text: ": controls use of the built-in"
+              - link "Redis Lua scripts debugger" [ref=e320] [cursor=pointer]:
+                - /url: /docs/latest/develop/programmability/lua-debugging/
+              - text: .
+        - heading [level=2] [ref=e321]:
+          - text: Script replication
+          - link "Link to this section" [ref=e322] [cursor=pointer]:
+            - /url: "#script-replication"
+        - paragraph [ref=e325]:
+          - text: In standalone deployments, a single Redis instance called
+          - emphasis [ref=e326]: master
+          - text: manages the entire database. A
+          - link "clustered deployment" [ref=e327] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/management/scaling/
+          - text: has at least three masters managing the sharded database. Redis uses
+          - link "replication" [ref=e328] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/management/replication/
+          - text: to maintain one or more replicas, or exact copies, for any given master.
+        - paragraph [ref=e329]: "Because scripts can modify the data, Redis ensures all write operations performed by a script are also sent to replicas to maintain consistency. There are two conceptual approaches when it comes to script replication:"
+        - list [ref=e330]:
+          - listitem [ref=e331]:
+            - text: "Verbatim replication: the master sends the script's source code to the replicas. Replicas then execute the script and apply the write effects. This mode can save on replication bandwidth in cases where short scripts generate many commands (for example, a"
+            - emphasis [ref=e332]: for
+            - text: loop). However, this replication mode means that replicas redo the same work done by the master, which is wasteful. More importantly, it also requires
+            - link "all write scripts to be deterministic" [ref=e333] [cursor=pointer]:
+              - /url: "#scripts-with-deterministic-writes"
+            - text: .
+          - listitem [ref=e334]: "Effects replication: only the script's data-modifying commands are replicated. Replicas then run the commands without executing any scripts. While potentially lengthier in terms of network traffic, this replication mode is deterministic by definition and therefore doesn't require special consideration."
+        - paragraph [ref=e335]:
+          - text: Verbatim script replication was the only mode supported until Redis 3.2, in which effects replication was added. The
+          - emphasis [ref=e336]: lua-replicate-commands
+          - text: configuration directive and
+          - link [ref=e337] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#redis.replicate_commands
+            - code [ref=e338]: redis.replicate_commands()
+          - text: Lua API can be used to enable it.
+        - paragraph [ref=e339]: In Redis 5.0, effects replication became the default mode. As of Redis 7.0, verbatim replication is no longer supported.
+        - heading [level=3] [ref=e340]:
+          - text: Replicating commands instead of scripts
+          - link "Link to this section" [ref=e341] [cursor=pointer]:
+            - /url: "#replicating-commands-instead-of-scripts"
+        - paragraph [ref=e344]:
+          - text: Starting with Redis 3.2, it is possible to select an alternative replication method. Instead of replicating whole scripts, we can replicate the write commands generated by the script. We call this
+          - strong [ref=e345]: script effects replication
+          - text: .
+        - paragraph [ref=e346]:
+          - strong [ref=e347]: "Note:"
+          - text: starting with Redis 5.0, script effects replication is the default mode and does not need to be explicitly enabled.
+        - paragraph [ref=e348]:
+          - text: In this replication mode, while Lua scripts are executed, Redis collects all the commands executed by the Lua scripting engine that actually modify the dataset. When the script execution finishes, the sequence of commands that the script generated are wrapped into a
+          - link [ref=e349] [cursor=pointer]:
+            - /url: /docs/latest/commands/multi/
+            - code [ref=e350]: MULTI
+          - text: /
+          - link [ref=e351] [cursor=pointer]:
+            - /url: /docs/latest/commands/exec/
+            - code [ref=e352]: EXEC
+          - link "transaction" [ref=e353] [cursor=pointer]:
+            - /url: /docs/latest/develop/using-commands/transactions/
+          - text: and are sent to the replicas and AOF.
+        - paragraph [ref=e354]: "This is useful in several ways depending on the use case:"
+        - list [ref=e355]:
+          - listitem [ref=e356]: When the script is slow to compute, but the effects can be summarized by a few write commands, it is a shame to re-compute the script on the replicas or when reloading the AOF. In this case, it is much better to replicate just the effects of the script.
+          - listitem [ref=e357]:
+            - text: When script effects replication is enabled, the restrictions on non-deterministic functions are removed. You can, for example, use the
+            - link [ref=e358] [cursor=pointer]:
+              - /url: /docs/latest/commands/time/
+              - code [ref=e359]: TIME
+            - text: or
+            - link [ref=e360] [cursor=pointer]:
+              - /url: /docs/latest/commands/srandmember/
+              - code [ref=e361]: SRANDMEMBER
+            - text: commands inside your scripts freely at any place.
+          - listitem [ref=e362]: The Lua PRNG in this mode is seeded randomly on every call.
+        - paragraph [ref=e363]: "Unless already enabled by the server's configuration or defaults (before Redis 7.0), you need to issue the following Lua command before the script performs a write:"
+        - generic [ref=e364]:
+          - code [ref=e366]:
+            - generic [ref=e367]: redis.replicate_commands()
+          - button "Copy to clipboard" [ref=e370] [cursor=pointer]
+        - paragraph [ref=e373]:
+          - text: The
+          - link [ref=e374] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#redis.replicate_commands
+            - code [ref=e375]: redis.replicate_commands()
+          - text: function returns _true) if script effects replication was enabled; otherwise, if the function was called after the script already called a write command, it returns
+          - emphasis [ref=e376]: "false"
+          - text: ", and normal whole script replication is used."
+        - paragraph [ref=e377]: This function is deprecated as of Redis 7.0, and while you can still call it, it will always succeed.
+        - heading [level=3] [ref=e378]:
+          - text: Scripts with deterministic writes
+          - link "Link to this section" [ref=e379] [cursor=pointer]:
+            - /url: "#scripts-with-deterministic-writes"
+        - paragraph [ref=e382]:
+          - strong [ref=e383]: "Note:"
+          - text: Starting with Redis 5.0, script replication is by default effect-based rather than verbatim. In Redis 7.0, verbatim script replication had been removed entirely. The following section only applies to versions lower than Redis 7.0 when not using effect-based script replication.
+        - paragraph [ref=e384]: An important part of scripting is writing scripts that only change the database in a deterministic way. Scripts executed in a Redis instance are, by default until version 5.0, propagated to replicas and to the AOF file by sending the script itself -- not the resulting commands. Since the script will be re-run on the remote host (or when reloading the AOF file), its changes to the database must be reproducible.
+        - paragraph [ref=e385]: The reason for sending the script is that it is often much faster than sending the multiple commands that the script generates. If the client is sending many scripts to the master, converting the scripts into individual commands for the replica / AOF would result in too much bandwidth for the replication link or the Append Only File (and also too much CPU since dispatching a command received via the network is a lot more work for Redis compared to dispatching a command invoked by Lua scripts).
+        - paragraph [ref=e386]: Normally replicating scripts instead of the effects of the scripts makes sense, however not in all the cases. So starting with Redis 3.2, the scripting engine is able to, alternatively, replicate the sequence of write commands resulting from the script execution, instead of replication the script itself.
+        - paragraph [ref=e387]:
+          - text: In this section, we'll assume that scripts are replicated verbatim by sending the whole script. Let's call this replication mode
+          - strong [ref=e388]: verbatim scripts replication
+          - text: .
+        - paragraph [ref=e389]:
+          - text: The main drawback with the
+          - emphasis [ref=e390]: whole scripts replication
+          - text: "approach is that scripts are required to have the following property: the script"
+          - strong [ref=e391]: always must
+          - text: execute the same Redis
+          - emphasis [ref=e392]: write
+          - text: commands with the same arguments given the same input data set. Operations performed by the script can't depend on any hidden (non-explicit) information or state that may change as the script execution proceeds or between different executions of the script. Nor can it depend on any external input from I/O devices.
+        - paragraph [ref=e393]:
+          - text: Acts such as using the system time, calling Redis commands that return random values (e.g.,
+          - link [ref=e394] [cursor=pointer]:
+            - /url: /docs/latest/commands/randomkey/
+            - code [ref=e395]: RANDOMKEY
+          - text: ), or using Lua's random number generator, could result in scripts that will not evaluate consistently.
+        - paragraph [ref=e396]: "To enforce the deterministic behavior of scripts, Redis does the following:"
+        - list [ref=e397]:
+          - listitem [ref=e398]: Lua does not export commands to access the system time or other external states.
+          - listitem [ref=e399]:
+            - text: Redis will block the script with an error if a script calls a Redis command able to alter the data set
+            - strong [ref=e400]: after
+            - text: a Redis
+            - emphasis [ref=e401]: random
+            - text: command like
+            - link [ref=e402] [cursor=pointer]:
+              - /url: /docs/latest/commands/randomkey/
+              - code [ref=e403]: RANDOMKEY
+            - text: ","
+            - link [ref=e404] [cursor=pointer]:
+              - /url: /docs/latest/commands/srandmember/
+              - code [ref=e405]: SRANDMEMBER
+            - text: ","
+            - link [ref=e406] [cursor=pointer]:
+              - /url: /docs/latest/commands/time/
+              - code [ref=e407]: TIME
+            - text: . That means that read-only scripts that don't modify the dataset can call those commands. Note that a
+            - emphasis [ref=e408]: random command
+            - text: "does not necessarily mean a command that uses random numbers: any non-deterministic command is considered as a random command (the best example in this regard is the"
+            - link [ref=e409] [cursor=pointer]:
+              - /url: /docs/latest/commands/time/
+              - code [ref=e410]: TIME
+            - text: command).
+          - listitem [ref=e411]:
+            - text: In Redis version 4.0, commands that may return elements in random order, such as
+            - link [ref=e412] [cursor=pointer]:
+              - /url: /docs/latest/commands/smembers/
+              - code [ref=e413]: SMEMBERS
+            - text: (because Redis Sets are
+            - emphasis [ref=e414]: unordered
+            - text: ), exhibit a different behavior when called from Lua, and undergo a silent lexicographical sorting filter before returning data to Lua scripts. So
+            - code [ref=e415]: redis.call("SMEMBERS",KEYS[1])
+            - text: will always return the Set elements in the same order, while the same command invoked by normal clients may return different results even if the key contains exactly the same elements. However, starting with Redis 5.0, this ordering is no longer performed because replicating effects circumvents this type of non-determinism. In general, even when developing for Redis 4.0, never assume that certain commands in Lua will be ordered, but instead rely on the documentation of the original command you call to see the properties it provides.
+          - listitem [ref=e416]:
+            - text: Lua's pseudo-random number generation function
+            - code [ref=e417]: math.random
+            - text: is modified and always uses the same seed for every execution. This means that calling
+            - link [ref=e418] [cursor=pointer]:
+              - /url: /docs/latest/develop/programmability/lua-api/#runtime-libraries
+              - code [ref=e419]: math.random
+            - text: will always generate the same sequence of numbers every time a script is executed (unless
+            - code [ref=e420]: math.randomseed
+            - text: is used).
+        - paragraph [ref=e421]: All that said, you can still use commands that write and random behavior with a simple trick. Imagine that you want to write a Redis script that will populate a list with N random integers.
+        - paragraph [ref=e422]: "The initial implementation in Ruby could look like this:"
+        - code [ref=e424]: require 'rubygems' require 'redis' r = Redis.new RandomPushScript = <<EOF local i = tonumber(ARGV[1]) local res while (i > 0) do res = redis.call('LPUSH',KEYS[1],math.random()) i = i-1 end return res EOF r.del(:mylist) puts r.eval(RandomPushScript,[:mylist],[10,rand(2**32)])
+        - paragraph [ref=e425]: "Every time this code runs, the resulting list will have exactly the following elements:"
+        - code [ref=e427]: redis> LRANGE mylist 0 -1 1) "0.74509509873814" 2) "0.87390407681181" 3) "0.36876626981831" 4) "0.6921941534114" 5) "0.7857992587545" 6) "0.57730350670279" 7) "0.87046522734243" 8) "0.09637165539729" 9) "0.74990198051087" 10) "0.17082803611217"
+        - paragraph [ref=e428]: "To make the script both deterministic and still have it produce different random elements, we can add an extra argument to the script that's the seed to Lua's pseudo-random number generator. The new script is as follows:"
+        - code [ref=e430]: RandomPushScript = <<EOF local i = tonumber(ARGV[1]) local res math.randomseed(tonumber(ARGV[2])) while (i > 0) do res = redis.call('LPUSH',KEYS[1],math.random()) i = i-1 end return res EOF r.del(:mylist) puts r.eval(RandomPushScript,1,:mylist,10,rand(2**32))
+        - paragraph [ref=e431]: What we are doing here is sending the seed of the PRNG as one of the arguments. The script output will always be the same given the same arguments (our requirement) but we are changing one of the arguments at every invocation, generating the random seed client-side. The seed will be propagated as one of the arguments both in the replication link and in the Append Only File, guaranteeing that the same changes will be generated when the AOF is reloaded or when the replica processes the script.
+        - paragraph [ref=e432]:
+          - text: "Note: an important part of this behavior is that the PRNG that Redis implements as"
+          - code [ref=e433]: math.random
+          - text: and
+          - code [ref=e434]: math.randomseed
+          - text: is guaranteed to have the same output regardless of the architecture of the system running Redis. 32-bit, 64-bit, big-endian and little-endian systems will all produce the same output.
+        - heading [level=2] [ref=e435]:
+          - text: Debugging Eval scripts
+          - link "Link to this section" [ref=e436] [cursor=pointer]:
+            - /url: "#debugging-eval-scripts"
+        - paragraph [ref=e439]:
+          - text: Starting with Redis 3.2, Redis has support for native Lua debugging. The Redis Lua debugger is a remote debugger consisting of a server, which is Redis itself, and a client, which is by default
+          - link [ref=e440] [cursor=pointer]:
+            - /url: /docs/latest/develop/tools/cli/
+            - code [ref=e441]: redis-cli
+          - text: .
+        - paragraph [ref=e442]:
+          - text: The Lua debugger is described in the
+          - link "Lua scripts debugging" [ref=e443] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-debugging/
+          - text: section of the Redis documentation.
+        - heading [level=2] [ref=e444]:
+          - text: Execution under low memory conditions
+          - link "Link to this section" [ref=e445] [cursor=pointer]:
+            - /url: "#execution-under-low-memory-conditions"
+        - paragraph [ref=e448]:
+          - text: When memory usage in Redis exceeds the
+          - code [ref=e449]: maxmemory
+          - text: limit, the first write command encountered in the script that uses additional memory will cause the script to abort (unless
+          - link [ref=e450] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#redis.pcall
+            - code [ref=e451]: redis.pcall
+          - text: was used).
+        - paragraph [ref=e452]:
+          - text: However, an exception to the above is when the script's first write command does not use additional memory, as is the case with (for example,
+          - link [ref=e453] [cursor=pointer]:
+            - /url: /docs/latest/commands/del/
+            - code [ref=e454]: DEL
+          - text: and
+          - link [ref=e455] [cursor=pointer]:
+            - /url: /docs/latest/commands/lrem/
+            - code [ref=e456]: LREM
+          - text: ). In this case, Redis will allow all commands in the script to run to ensure atomicity. If subsequent writes in the script consume additional memory, Redis' memory usage can exceed the threshold set by the
+          - code [ref=e457]: maxmemory
+          - text: configuration directive.
+        - paragraph [ref=e458]:
+          - text: Another scenario in which a script can cause memory usage to cross the
+          - code [ref=e459]: maxmemory
+          - text: threshold is when the execution begins when Redis is slightly below
+          - code [ref=e460]: maxmemory
+          - text: ", so the script's first write command is allowed. As the script executes, subsequent write commands consume more memory leading to the server using more RAM than the configured"
+          - code [ref=e461]: maxmemory
+          - text: directive.
+        - paragraph [ref=e462]:
+          - text: In those scenarios, you should consider setting the
+          - code [ref=e463]: maxmemory-policy
+          - text: configuration directive to any values other than
+          - code [ref=e464]: noeviction
+          - text: . In addition, Lua scripts should be as fast as possible so that eviction can kick in between executions.
+        - paragraph [ref=e465]:
+          - text: Note that you can change this behaviour by using
+          - link "flags" [ref=e466] [cursor=pointer]:
+            - /url: "#eval-flags"
+        - heading [level=2] [ref=e467]:
+          - text: Eval flags
+          - link "Link to this section" [ref=e468] [cursor=pointer]:
+            - /url: "#eval-flags"
+        - paragraph [ref=e471]: Normally, when you run an Eval script, the server does not know how it accesses the database. By default, Redis assumes that all scripts read and write data. However, starting with Redis 7.0, there's a way to declare flags when creating a script in order to tell Redis how it should behave.
+        - paragraph [ref=e472]: "The way to do that is by using a Shebang statement on the first line of the script like so:"
+        - code [ref=e474]: "#!lua flags=no-writes,allow-stale local x = redis.call('get','x') return x"
+        - paragraph [ref=e475]:
+          - text: Note that as soon as Redis sees the
+          - code [ref=e476]: "#!"
+          - text: comment, it'll treat the script as if it declares flags, even if no flags are defined, it still has a different set of defaults compared to a script without a
+          - code [ref=e477]: "#!"
+          - text: line.
+        - paragraph [ref=e478]:
+          - text: Another difference is that scripts without
+          - code [ref=e479]: "#!"
+          - text: can run commands that access keys belonging to different cluster hash slots, but ones with
+          - code [ref=e480]: "#!"
+          - text: inherit the default flags, so they cannot.
+        - paragraph [ref=e481]:
+          - text: Please refer to
+          - link "Script flags" [ref=e482] [cursor=pointer]:
+            - /url: /docs/latest/develop/programmability/lua-api/#script_flags
+          - text: to learn about the various scripts and the defaults.
+        - generic [ref=e484]:
+          - generic [ref=e485]:
+            - generic [ref=e486]: RATE THIS PAGE
+            - generic [ref=e487]:
+              - generic [ref=e488] [cursor=pointer]: ★
+              - generic [ref=e489] [cursor=pointer]: ★
+              - generic [ref=e490] [cursor=pointer]: ★
+              - generic [ref=e491] [cursor=pointer]: ★
+              - generic [ref=e492] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e493] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e494]:
+      - navigation [ref=e495]:
+        - link "Edit this page" [ref=e496] [cursor=pointer]:
+          - /url: https://github.com/redis/docs/edit/main/content/develop/programmability/eval-intro.md
+        - link "Create an issue" [ref=e499] [cursor=pointer]:
+          - /url: "https://github.com/redis/docs/issues/new?title=Feedback: Scripting with Lua&body=Page https://redis.io/docs/latest/develop/programmability/eval-intro"
+        - link "Download Markdown" [ref=e502] [cursor=pointer]:
+          - /url: "#"
+      - heading "On this page" [level=2] [ref=e505]
+      - navigation [ref=e506]:
+        - navigation [ref=e507]:
+          - list [ref=e508]:
+            - listitem [ref=e509]:
+              - link "Getting started" [ref=e510] [cursor=pointer]:
+                - /url: "#getting-started"
+            - listitem [ref=e511]:
+              - link "Script parameterization" [ref=e512] [cursor=pointer]:
+                - /url: "#script-parameterization"
+            - listitem [ref=e513]:
+              - link "Interacting with Redis from a script" [ref=e514] [cursor=pointer]:
+                - /url: "#interacting-with-redis-from-a-script"
+            - listitem [ref=e515]:
+              - link "Script cache" [ref=e516] [cursor=pointer]:
+                - /url: "#script-cache"
+              - list [ref=e517]:
+                - listitem [ref=e518]:
+                  - link "Cache volatility" [ref=e519] [cursor=pointer]:
+                    - /url: "#cache-volatility"
+                - listitem [ref=e520]:
+                  - link [ref=e521] [cursor=pointer]:
+                    - /url: "#evalsha-in-the-context-of-pipelining"
+                    - code [ref=e522]: EVALSHA
+                    - text: in the context of pipelining
+                - listitem [ref=e523]:
+                  - link "Script cache semantics" [ref=e524] [cursor=pointer]:
+                    - /url: "#script-cache-semantics"
+            - listitem [ref=e525]:
+              - link [ref=e526] [cursor=pointer]:
+                - /url: "#the-script-command"
+                - text: The
+                - code [ref=e527]: SCRIPT
+                - text: command
+            - listitem [ref=e528]:
+              - link "Script replication" [ref=e529] [cursor=pointer]:
+                - /url: "#script-replication"
+              - list [ref=e530]:
+                - listitem [ref=e531]:
+                  - link "Replicating commands instead of scripts" [ref=e532] [cursor=pointer]:
+                    - /url: "#replicating-commands-instead-of-scripts"
+                - listitem [ref=e533]:
+                  - link "Scripts with deterministic writes" [ref=e534] [cursor=pointer]:
+                    - /url: "#scripts-with-deterministic-writes"
+            - listitem [ref=e535]:
+              - link "Debugging Eval scripts" [ref=e536] [cursor=pointer]:
+                - /url: "#debugging-eval-scripts"
+            - listitem [ref=e537]:
+              - link "Execution under low memory conditions" [ref=e538] [cursor=pointer]:
+                - /url: "#execution-under-low-memory-conditions"
+            - listitem [ref=e539]:
+              - link "Eval flags" [ref=e540] [cursor=pointer]:
+                - /url: "#eval-flags"
+  - contentinfo [ref=e541]:
+    - generic [ref=e542]:
+      - generic [ref=e543]:
+        - link [ref=e544] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e549]:
+          - link [ref=e550] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e554] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e557] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e560] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e563] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e566] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e569]:
+          - link "Trust" [ref=e570] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e571] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e572] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e573] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e574]:
+        - generic [ref=e575]:
+          - heading "Compare" [level=3] [ref=e576]
+          - generic [ref=e577]:
+            - link "Redis vs Elasticache" [ref=e578] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e579] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e580] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e581] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e582]:
+          - heading "Company" [level=3] [ref=e583]
+          - generic [ref=e584]:
+            - link "Mission & values" [ref=e585] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e586] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e587] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e588]:
+          - heading "Partners" [level=3] [ref=e589]
+          - generic [ref=e590]:
+            - link "Amazon Web Services" [ref=e591] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e592] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e593] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e594] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e595]:
+          - heading "Support" [level=3] [ref=e596]
+          - generic [ref=e597]:
+            - link "Professional services" [ref=e598] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e599] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e600]:
+    - generic [ref=e601]:
+      - banner [ref=e602]:
+        - generic [ref=e603]:
+          - textbox [ref=e604]:
+            - /placeholder: Search…
+          - combobox [ref=e605]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e606] [cursor=pointer]: ESC
+      - listbox [ref=e607]

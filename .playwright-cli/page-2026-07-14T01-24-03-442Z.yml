@@ -1,0 +1,325 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Framework
+            - generic [ref=e34]: 7.0.8
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../../overview.html
+                - listitem [ref=e51]:
+                  - button [ref=e52] [cursor=pointer]
+                  - link "Core Technologies" [ref=e53] [cursor=pointer]:
+                    - /url: ../../../core.html
+                - listitem [ref=e54]:
+                  - button [ref=e55] [cursor=pointer]
+                  - link "Data Access" [ref=e56] [cursor=pointer]:
+                    - /url: ../../../data-access.html
+                  - list [ref=e57]:
+                    - listitem [ref=e58]:
+                      - button [ref=e59] [cursor=pointer]
+                      - link "Transaction Management" [ref=e60] [cursor=pointer]:
+                        - /url: ../../transaction.html
+                      - list [ref=e61]:
+                        - listitem [ref=e62]:
+                          - link "Advantages of the Spring Framework’s Transaction Support Model" [ref=e63] [cursor=pointer]:
+                            - /url: ../motivation.html
+                        - listitem [ref=e64]:
+                          - link "Understanding the Spring Framework Transaction Abstraction" [ref=e65] [cursor=pointer]:
+                            - /url: ../strategies.html
+                        - listitem [ref=e66]:
+                          - link "Synchronizing Resources with Transactions" [ref=e67] [cursor=pointer]:
+                            - /url: ../tx-resource-synchronization.html
+                        - listitem [ref=e68]:
+                          - button [ref=e69] [cursor=pointer]
+                          - link "Declarative Transaction Management" [ref=e70] [cursor=pointer]:
+                            - /url: ../declarative.html
+                          - list [ref=e71]:
+                            - listitem [ref=e72]:
+                              - link "Understanding the Spring Framework’s Declarative Transaction Implementation" [ref=e73] [cursor=pointer]:
+                                - /url: tx-decl-explained.html
+                            - listitem [ref=e74]:
+                              - link "Example of Declarative Transaction Implementation" [ref=e75] [cursor=pointer]:
+                                - /url: first-example.html
+                            - listitem [ref=e76]:
+                              - link "Rolling Back a Declarative Transaction" [ref=e77] [cursor=pointer]:
+                                - /url: rolling-back.html
+                            - listitem [ref=e78]:
+                              - link "Configuring Different Transactional Semantics for Different Beans" [ref=e79] [cursor=pointer]:
+                                - /url: diff-tx.html
+                            - listitem [ref=e80]:
+                              - link "<tx:advice/> Settings" [ref=e81] [cursor=pointer]:
+                                - /url: txadvice-settings.html
+                            - listitem [ref=e82]:
+                              - link [ref=e83] [cursor=pointer]:
+                                - /url: annotations.html
+                                - text: Using
+                                - code [ref=e84]: "@Transactional"
+                            - listitem [ref=e85]:
+                              - link "Transaction Propagation" [ref=e86] [cursor=pointer]:
+                                - /url: tx-propagation.html
+                            - listitem [ref=e87]:
+                              - link "Advising Transactional Operations" [ref=e88] [cursor=pointer]:
+                                - /url: applying-more-than-just-tx-advice.html
+                            - listitem [ref=e89]:
+                              - link [ref=e90] [cursor=pointer]:
+                                - /url: aspectj.html
+                                - text: Using
+                                - code [ref=e91]: "@Transactional"
+                                - text: with AspectJ
+                        - listitem [ref=e92]:
+                          - link "Programmatic Transaction Management" [ref=e93] [cursor=pointer]:
+                            - /url: ../programmatic.html
+                        - listitem [ref=e94]:
+                          - link "Choosing Between Programmatic and Declarative Transaction Management" [ref=e95] [cursor=pointer]:
+                            - /url: ../tx-decl-vs-prog.html
+                        - listitem [ref=e96]:
+                          - link "Transaction-bound Events" [ref=e97] [cursor=pointer]:
+                            - /url: ../event.html
+                        - listitem [ref=e98]:
+                          - link "Application server-specific integration" [ref=e99] [cursor=pointer]:
+                            - /url: ../application-server-integration.html
+                        - listitem [ref=e100]:
+                          - link "Solutions to Common Problems" [ref=e101] [cursor=pointer]:
+                            - /url: ../solutions-to-common-problems.html
+                        - listitem [ref=e102]:
+                          - link "Further Resources" [ref=e103] [cursor=pointer]:
+                            - /url: ../resources.html
+                    - listitem [ref=e104]:
+                      - link "DAO Support" [ref=e105] [cursor=pointer]:
+                        - /url: ../../dao.html
+                    - listitem [ref=e106]:
+                      - button [ref=e107] [cursor=pointer]
+                      - link "Data Access with JDBC" [ref=e108] [cursor=pointer]:
+                        - /url: ../../jdbc.html
+                    - listitem [ref=e109]:
+                      - link "Data Access with R2DBC" [ref=e110] [cursor=pointer]:
+                        - /url: ../../r2dbc.html
+                    - listitem [ref=e111]:
+                      - button [ref=e112] [cursor=pointer]
+                      - link "Object Relational Mapping (ORM) Data Access" [ref=e113] [cursor=pointer]:
+                        - /url: ../../orm.html
+                    - listitem [ref=e114]:
+                      - link "Marshalling XML by Using Object-XML Mappers" [ref=e115] [cursor=pointer]:
+                        - /url: ../../oxm.html
+                    - listitem [ref=e116]:
+                      - link "Appendix" [ref=e117] [cursor=pointer]:
+                        - /url: ../../appendix.html
+                - listitem [ref=e118]:
+                  - button [ref=e119] [cursor=pointer]
+                  - link "Web on Servlet Stack" [ref=e120] [cursor=pointer]:
+                    - /url: ../../../web.html
+                - listitem [ref=e121]:
+                  - button [ref=e122] [cursor=pointer]
+                  - link "Web on Reactive Stack" [ref=e123] [cursor=pointer]:
+                    - /url: ../../../web-reactive.html
+                - listitem [ref=e124]:
+                  - button [ref=e125] [cursor=pointer]
+                  - link "Testing" [ref=e126] [cursor=pointer]:
+                    - /url: ../../../testing.html
+                - listitem [ref=e127]:
+                  - button [ref=e128] [cursor=pointer]
+                  - link "Integration" [ref=e129] [cursor=pointer]:
+                    - /url: ../../../integration.html
+                - listitem [ref=e130]:
+                  - button [ref=e131] [cursor=pointer]
+                  - link "Language Support" [ref=e132] [cursor=pointer]:
+                    - /url: ../../../languages.html
+                - listitem [ref=e133]:
+                  - link "Appendix" [ref=e134] [cursor=pointer]:
+                    - /url: ../../../appendix.html
+                - listitem [ref=e135]:
+                  - link "Java API" [ref=e136] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/
+                - listitem [ref=e137]:
+                  - link "Kotlin API" [ref=e138] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/kdoc-api/
+                - listitem [ref=e139]:
+                  - link "Wiki" [ref=e140] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-framework/wiki
+        - button [ref=e142] [cursor=pointer]
+    - main [ref=e145]:
+      - generic [ref=e146]:
+        - complementary [ref=e147]:
+          - generic [ref=e149]:
+            - link "Edit this Page" [ref=e150] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-framework/blob/v7.0.8/framework-docs/modules/ROOT/pages/data-access/transaction/declarative/tx-decl-explained.adoc
+            - link "GitHub Project" [ref=e153] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-framework
+            - link "Stack Overflow" [ref=e157] [cursor=pointer]:
+              - /url: https://stackoverflow.com/questions/tagged/spring
+        - article [ref=e160]:
+          - navigation "breadcrumbs" [ref=e162]:
+            - list [ref=e163]:
+              - listitem "Copy versioned URL" [ref=e164]
+              - listitem [ref=e165]:
+                - link "Spring Framework" [ref=e166] [cursor=pointer]:
+                  - /url: ../../../index.html
+                - text: /
+              - listitem [ref=e167]:
+                - link "Data Access" [ref=e168] [cursor=pointer]:
+                  - /url: ../../../data-access.html
+                - text: /
+              - listitem [ref=e169]:
+                - link "Transaction Management" [ref=e170] [cursor=pointer]:
+                  - /url: ../../transaction.html
+                - text: /
+              - listitem [ref=e171]:
+                - link "Declarative Transaction Management" [ref=e172] [cursor=pointer]:
+                  - /url: ../declarative.html
+                - text: /
+              - listitem [ref=e173]:
+                - link "Understanding the Spring Framework’s Declarative Transaction Implementation" [ref=e174] [cursor=pointer]:
+                  - /url: tx-decl-explained.html
+          - heading "Understanding the Spring Framework’s Declarative Transaction Implementation" [level=1] [ref=e175]
+          - paragraph [ref=e177]:
+            - text: It is not sufficient merely to tell you to annotate your classes with the
+            - code [ref=e178]: "@Transactional"
+            - text: annotation, add
+            - code [ref=e179]: "@EnableTransactionManagement"
+            - text: to your configuration, and expect you to understand how it all works. To provide a deeper understanding, this section explains the inner workings of the Spring Framework’s declarative transaction infrastructure in the context of transaction-related issues.
+          - paragraph [ref=e181]:
+            - text: The most important concepts to grasp with regard to the Spring Framework’s declarative transaction support are that this support is enabled
+            - link "via AOP proxies" [ref=e182] [cursor=pointer]:
+              - /url: ../../../core/aop/proxying.html#aop-understanding-aop-proxies
+            - text: and that the transactional advice is driven by metadata (currently XML- or annotation-based). The combination of AOP with transactional metadata yields an AOP proxy that uses a
+            - code [ref=e183]: TransactionInterceptor
+            - text: in conjunction with an appropriate
+            - code [ref=e184]: TransactionManager
+            - text: implementation to drive transactions around method invocations.
+          - table [ref=e186]:
+            - rowgroup [ref=e187]:
+              - row [ref=e188]:
+                - cell "Note" [ref=e189]
+                - cell [ref=e191]:
+                  - text: Spring AOP is covered in
+                  - link "the AOP section" [ref=e192] [cursor=pointer]:
+                    - /url: ../../../core/aop.html
+                  - text: .
+          - paragraph [ref=e194]:
+            - text: Spring Framework’s
+            - code [ref=e195]: TransactionInterceptor
+            - text: provides transaction management for imperative and reactive programming models. The interceptor detects the desired flavor of transaction management by inspecting the method return type. Methods returning a reactive type such as
+            - code [ref=e196]: Publisher
+            - text: or Kotlin
+            - code [ref=e197]: Flow
+            - text: (or a subtype of those) qualify for reactive transaction management. All other return types including
+            - code [ref=e198]: void
+            - text: use the code path for imperative transaction management.
+          - paragraph [ref=e200]:
+            - text: Transaction management flavors impact which transaction manager is required. Imperative transactions require a
+            - code [ref=e201]: PlatformTransactionManager
+            - text: ", while reactive transactions use"
+            - code [ref=e202]: ReactiveTransactionManager
+            - text: implementations.
+          - table [ref=e204]:
+            - rowgroup [ref=e205]:
+              - row [ref=e206]:
+                - cell "Note" [ref=e207]
+                - cell [ref=e209]:
+                  - paragraph [ref=e211]:
+                    - code [ref=e212]: "@Transactional"
+                    - text: commonly works with thread-bound transactions managed by
+                    - code [ref=e213]: PlatformTransactionManager
+                    - text: ", exposing a transaction to all data access operations within the current execution thread. Note: This does"
+                    - emphasis [ref=e214]: not
+                    - text: propagate to newly started threads within the method.
+                  - paragraph [ref=e216]:
+                    - text: A reactive transaction managed by
+                    - code [ref=e217]: ReactiveTransactionManager
+                    - text: uses the Reactor context instead of thread-local attributes. As a consequence, all participating data access operations need to execute within the same Reactor context in the same reactive pipeline.
+                  - paragraph [ref=e219]:
+                    - text: When configured with a
+                    - code [ref=e220]: ReactiveTransactionManager
+                    - text: ", all transaction-demarcated methods are expected to return a reactive pipeline. Void methods or regular return types need to be associated with a regular"
+                    - code [ref=e221]: PlatformTransactionManager
+                    - text: ", for example, through the"
+                    - code [ref=e222]: transactionManager
+                    - text: attribute of the corresponding
+                    - code [ref=e223]: "@Transactional"
+                    - text: declarations.
+          - paragraph [ref=e225]: "The following image shows a conceptual view of calling a method on a transactional proxy:"
+          - img "tx" [ref=e228]
+          - navigation [ref=e229]:
+            - generic [ref=e230]:
+              - text: Prev
+              - link "‹ Declarative Transaction Management" [ref=e231] [cursor=pointer]:
+                - /url: ../declarative.html
+            - generic [ref=e232]:
+              - text: Next
+              - link "Example of Declarative Transaction Implementation ›" [ref=e233] [cursor=pointer]:
+                - /url: first-example.html
+    - text:   
+  - contentinfo [ref=e234]:
+    - generic [ref=e235]:
+      - img "Spring" [ref=e236]
+      - paragraph [ref=e237]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e238] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e239] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e240] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e241]:
+          - text: •
+          - link "Thank you" [ref=e242] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e243] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e244]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e245]:
+      - link "Youtube" [ref=e246] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e250] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e254] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e259]:
+      - generic [ref=e260]:
+        - button "Close" [ref=e262] [cursor=pointer]
+        - generic [ref=e263]:
+          - generic [ref=e265]:
+            - heading "Cookies" [level=2] [ref=e266]
+            - generic [ref=e267]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e268] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e272] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

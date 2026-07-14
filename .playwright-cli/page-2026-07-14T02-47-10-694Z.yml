@@ -1,0 +1,751 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - link "Libraries and tools" [ref=e48] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e49] [cursor=pointer]:
+          - /url: /docs/latest/operate
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Redis Software" [ref=e52] [cursor=pointer]:
+              - /url: /docs/latest/operate/rs/
+          - listitem [ref=e54]:
+            - link "Redis Cloud" [ref=e55] [cursor=pointer]:
+              - /url: /docs/latest/operate/rc/
+          - listitem [ref=e57]:
+            - link "Redis for Kubernetes" [ref=e58] [cursor=pointer]:
+              - /url: /docs/latest/operate/kubernetes/
+          - listitem [ref=e60]:
+            - link "Redis Open Source" [ref=e61] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/
+            - list [ref=e63]:
+              - listitem [ref=e64]:
+                - link "Install and upgrade" [ref=e65] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/install/
+              - listitem [ref=e67]:
+                - link "Manage Redis" [ref=e68] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/management/
+                - list [ref=e70]:
+                  - listitem [ref=e71]:
+                    - link "Administration" [ref=e72] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/admin/
+                  - listitem [ref=e74]:
+                    - link "Security" [ref=e75] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/security/
+                  - listitem [ref=e77]:
+                    - link "Configuration" [ref=e78] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/config/
+                  - listitem [ref=e80]:
+                    - link "High availability with Sentinel" [ref=e81] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/sentinel/
+                  - listitem [ref=e83]:
+                    - link "Replication" [ref=e84] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/replication/
+                  - listitem [ref=e86]:
+                    - link "Scale with Redis Cluster" [ref=e87] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/scaling/
+                  - listitem [ref=e89]:
+                    - link "Persistence":
+                      - /url: /docs/latest/operate/oss_and_stack/management/persistence/
+                  - listitem [ref=e90]:
+                    - link "Optimization" [ref=e91] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/optimization/
+                  - listitem [ref=e93]:
+                    - link "Troubleshooting" [ref=e94] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/troubleshooting/
+                  - listitem [ref=e96]:
+                    - link "Debugging" [ref=e97] [cursor=pointer]:
+                      - /url: /docs/latest/operate/oss_and_stack/management/debugging/
+              - listitem [ref=e99]:
+                - link "Redis Open Source and Redis Software" [ref=e100] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/stack-with-enterprise/
+              - listitem [ref=e102]:
+                - link "Reference" [ref=e103] [cursor=pointer]:
+                  - /url: /docs/latest/operate/oss_and_stack/reference/
+          - listitem [ref=e105]:
+            - link "Redis Feature Form" [ref=e106] [cursor=pointer]:
+              - /url: /docs/latest/operate/featureform/
+          - listitem [ref=e108]:
+            - link "Redis Insight" [ref=e109] [cursor=pointer]:
+              - /url: /docs/latest/operate/redisinsight/
+          - listitem [ref=e111]:
+            - link "Redis Data Integration (RDI)" [ref=e112] [cursor=pointer]:
+              - /url: /docs/latest/operate/rdi/
+      - link "Commands" [ref=e115] [cursor=pointer]:
+        - /url: /docs/latest/commands
+    - generic [ref=e116]:
+      - navigation "Breadcrumb" [ref=e117]:
+        - list [ref=e118]:
+          - listitem [ref=e119]:
+            - link "Docs Docs" [ref=e120] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e121]: Docs
+          - listitem [ref=e122]:
+            - generic [ref=e123]: →
+            - link "Redis products" [ref=e124] [cursor=pointer]:
+              - /url: /docs/latest/operate/
+          - listitem [ref=e125]:
+            - generic [ref=e126]: →
+            - link "Redis Open Source" [ref=e127] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/
+          - listitem [ref=e128]:
+            - generic [ref=e129]: →
+            - link "Manage Redis" [ref=e130] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/management/
+          - listitem:
+            - generic: →
+            - link "Redis persistence":
+              - /url: /docs/latest/operate/oss_and_stack/management/persistence/
+      - generic [ref=e131]:
+        - heading "Redis persistence" [level=1] [ref=e132]
+        - paragraph [ref=e133]: How Redis writes data to disk
+        - table [ref=e135]:
+          - rowgroup [ref=e136]:
+            - row "Redis Open Source" [ref=e137]
+          - rowgroup
+        - paragraph [ref=e139]: "Persistence refers to the writing of data to durable storage, such as a solid-state disk (SSD). Redis provides a range of persistence options. These include:"
+        - list [ref=e140]:
+          - listitem [ref=e141]:
+            - strong [ref=e142]: RDB
+            - text: "(Redis Database): RDB persistence performs point-in-time snapshots of your dataset at specified intervals."
+          - listitem [ref=e143]:
+            - strong [ref=e144]: AOF
+            - text: "(Append Only File): AOF persistence logs every write operation received by the server. These operations can then be replayed again at server startup, reconstructing the original dataset. Commands are logged using the same format as the Redis protocol itself."
+          - listitem [ref=e145]:
+            - strong [ref=e146]: No persistence
+            - text: ": You can disable persistence completely. This is sometimes used when caching."
+          - listitem [ref=e147]:
+            - strong [ref=e148]: RDB + AOF
+            - text: ": You can also combine both AOF and RDB in the same instance."
+        - paragraph [ref=e149]:
+          - text: If you'd rather not think about the tradeoffs between these different persistence strategies, you may want to consider
+          - link "Redis Software's persistence options" [ref=e150] [cursor=pointer]:
+            - /url: /docs/latest/operate/rs/databases/configure/database-persistence/
+          - text: ", which can be pre-configured using a UI."
+        - paragraph [ref=e151]: To learn more about how to evaluate your Redis persistence strategy, read on.
+        - heading [level=2] [ref=e152]:
+          - text: RDB advantages
+          - link "Link to this section" [ref=e153] [cursor=pointer]:
+            - /url: "#rdb-advantages"
+        - list [ref=e156]:
+          - listitem [ref=e157]: RDB is a very compact single-file point-in-time representation of your Redis data. RDB files are perfect for backups. For instance you may want to archive your RDB files every hour for the latest 24 hours, and to save an RDB snapshot every day for 30 days. This allows you to easily restore different versions of the data set in case of disasters.
+          - listitem [ref=e158]: RDB is very good for disaster recovery, being a single compact file that can be transferred to far data centers, or onto Amazon S3 (possibly encrypted).
+          - listitem [ref=e159]: RDB maximizes Redis performances since the only work the Redis parent process needs to do in order to persist is forking a child that will do all the rest. The parent process will never perform disk I/O or alike.
+          - listitem [ref=e160]: RDB allows faster restarts with big datasets compared to AOF.
+          - listitem [ref=e161]:
+            - text: On replicas, RDB supports
+            - link "partial resynchronizations after restarts and failovers" [ref=e162] [cursor=pointer]:
+              - /url: /docs/latest/operate/oss_and_stack/management/replication/#partial-resynchronizations-after-restarts-and-failovers
+            - text: .
+        - heading [level=2] [ref=e163]:
+          - text: RDB disadvantages
+          - link "Link to this section" [ref=e164] [cursor=pointer]:
+            - /url: "#rdb-disadvantages"
+        - list [ref=e167]:
+          - listitem [ref=e168]:
+            - text: RDB is NOT good if you need to minimize the chance of data loss in case Redis stops working (for example after a power outage). You can configure different
+            - emphasis [ref=e169]: save points
+            - text: where an RDB is produced (for instance after at least five minutes and 100 writes against the data set, you can have multiple save points). However you'll usually create an RDB snapshot every five minutes or more, so in case of Redis stopping working without a correct shutdown for any reason you should be prepared to lose the latest minutes of data.
+          - listitem [ref=e170]: RDB needs to fork() often in order to persist on disk using a child process. fork() can be time consuming if the dataset is big, and may result in Redis stopping serving clients for some milliseconds or even for one second if the dataset is very big and the CPU performance is not great. AOF also needs to fork() but less frequently and you can tune how often you want to rewrite your logs without any trade-off on durability.
+        - heading [level=2] [ref=e171]:
+          - text: AOF advantages
+          - link "Link to this section" [ref=e172] [cursor=pointer]:
+            - /url: "#aof-advantages"
+        - list [ref=e175]:
+          - listitem [ref=e176]: "Using AOF Redis is much more durable: you can have different fsync policies: no fsync at all, fsync every second, fsync at every query. With the default policy of fsync every second, write performance is still great. fsync is performed using a background thread and the main thread will try hard to perform writes when no fsync is in progress, so you can only lose one second worth of writes."
+          - listitem [ref=e177]: The AOF log is an append-only log, so there are no seeks, nor corruption problems if there is a power outage. Even if the log ends with a half-written command for some reason (disk full or other reasons) the redis-check-aof tool is able to fix it easily.
+          - listitem [ref=e178]: Redis is able to automatically rewrite the AOF in background when it gets too big. The rewrite is completely safe as while Redis continues appending to the old file, a completely new one is produced with the minimal set of operations needed to create the current data set, and once this second file is ready Redis switches the two and starts appending to the new one.
+          - listitem [ref=e179]:
+            - text: AOF contains a log of all the operations one after the other in an easy to understand and parse format. You can even easily export an AOF file. For instance even if you've accidentally flushed everything using the
+            - link [ref=e180] [cursor=pointer]:
+              - /url: /commands/flushall
+              - code [ref=e181]: FLUSHALL
+            - text: command, as long as no rewrite of the log was performed in the meantime, you can still save your data set just by stopping the server, removing the latest command, and restarting Redis again.
+        - heading [level=2] [ref=e182]:
+          - text: AOF disadvantages
+          - link "Link to this section" [ref=e183] [cursor=pointer]:
+            - /url: "#aof-disadvantages"
+        - list [ref=e186]:
+          - listitem [ref=e187]: AOF files are usually bigger than the equivalent RDB files for the same dataset.
+          - listitem [ref=e188]:
+            - text: AOF can be slower than RDB depending on the exact fsync policy. In general with fsync set to
+            - emphasis [ref=e189]: every second
+            - text: performance is still very high, and with fsync disabled it should be exactly as fast as RDB even under high load. Still RDB is able to provide more guarantees about the maximum latency even in the case of a huge write load.
+        - paragraph [ref=e190]:
+          - strong [ref=e191]: Redis < 7.0
+        - list [ref=e192]:
+          - listitem [ref=e193]: AOF can use a lot of memory if there are writes to the database during a rewrite (these are buffered in memory and written to the new AOF at the end).
+          - listitem [ref=e194]: All write commands that arrive during rewrite are written to disk twice.
+          - listitem [ref=e195]: Redis could freeze writing and fsyncing these write commands to the new AOF file at the end of the rewrite.
+        - heading [level=2] [ref=e196]:
+          - text: Ok, so what should I use?
+          - link "Link to this section" [ref=e197] [cursor=pointer]:
+            - /url: "#ok-so-what-should-i-use"
+        - paragraph [ref=e200]: The general indication you should use both persistence methods is if you want a degree of data safety comparable to what PostgreSQL can provide you.
+        - paragraph [ref=e201]: If you care a lot about your data, but still can live with a few minutes of data loss in case of disasters, you can simply use RDB alone.
+        - paragraph [ref=e202]: There are many users using AOF alone, but we discourage it since to have an RDB snapshot from time to time is a great idea for doing database backups, for faster restarts, and in the event of bugs in the AOF engine.
+        - paragraph [ref=e203]: The following sections will illustrate a few more details about the two persistence models.
+        - heading [level=2] [ref=e204]:
+          - text: Snapshotting
+          - link "Link to this section" [ref=e205] [cursor=pointer]:
+            - /url: "#snapshotting"
+        - paragraph [ref=e208]:
+          - text: By default Redis saves snapshots of the dataset on disk, in a binary file called
+          - code [ref=e209]: dump.rdb
+          - text: . You can configure Redis to have it save the dataset every N seconds if there are at least M changes in the dataset, or you can manually call the
+          - link [ref=e210] [cursor=pointer]:
+            - /url: /commands/save
+            - code [ref=e211]: SAVE
+          - text: or
+          - link [ref=e212] [cursor=pointer]:
+            - /url: /commands/bgsave
+            - code [ref=e213]: BGSAVE
+          - text: commands.
+        - paragraph [ref=e214]: "For example, this configuration will make Redis automatically dump the dataset to disk every 60 seconds if at least 1000 keys changed:"
+        - code [ref=e216]: save 60 1000
+        - paragraph [ref=e217]:
+          - text: This strategy is known as
+          - emphasis [ref=e218]: snapshotting
+          - text: .
+        - heading [level=3] [ref=e219]:
+          - text: How it works
+          - link "Link to this section" [ref=e220] [cursor=pointer]:
+            - /url: "#how-it-works"
+        - paragraph [ref=e223]: "Whenever Redis needs to dump the dataset to disk, this is what happens:"
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - paragraph [ref=e226]:
+              - text: Redis
+              - link "forks" [ref=e227] [cursor=pointer]:
+                - /url: http://linux.die.net/man/2/fork
+              - text: . We now have a child and a parent process.
+          - listitem [ref=e228]:
+            - paragraph [ref=e229]: The child starts to write the dataset to a temporary RDB file.
+          - listitem [ref=e230]:
+            - paragraph [ref=e231]: When the child is done writing the new RDB file, it replaces the old one.
+        - paragraph [ref=e232]: This method allows Redis to benefit from copy-on-write semantics.
+        - heading [level=2] [ref=e233]:
+          - text: Append-only file
+          - link "Link to this section" [ref=e234] [cursor=pointer]:
+            - /url: "#append-only-file"
+        - paragraph [ref=e237]:
+          - text: Snapshotting is not very durable. If your computer running Redis stops, your power line fails, or you accidentally
+          - code [ref=e238]: kill -9
+          - text: your instance, the latest data written to Redis will be lost. While this may not be a big deal for some applications, there are use cases for full durability, and in these cases Redis snapshotting alone is not a viable option.
+        - paragraph [ref=e239]:
+          - text: The
+          - emphasis [ref=e240]: append-only file
+          - text: is an alternative, fully-durable strategy for Redis. It became available in version 1.1.
+        - paragraph [ref=e241]: "You can turn on the AOF in your configuration file:"
+        - code [ref=e243]: appendonly yes
+        - paragraph [ref=e244]:
+          - text: From now on, every time Redis receives a command that changes the dataset (e.g.
+          - link [ref=e245] [cursor=pointer]:
+            - /url: /commands/set
+            - code [ref=e246]: SET
+          - text: ) it will append it to the AOF. When you restart Redis it will re-play the AOF to rebuild the state.
+        - paragraph [ref=e247]:
+          - text: Since Redis 7.0.0, Redis uses a multi part AOF mechanism. That is, the original single AOF file is split into base file (at most one) and incremental files (there may be more than one). The base file represents an initial (RDB or AOF format) snapshot of the data present when the AOF is
+          - link "rewritten" [ref=e248] [cursor=pointer]:
+            - /url: "#log-rewriting"
+          - text: . The incremental files contains incremental changes since the last base AOF file was created. All these files are put in a separate directory and are tracked by a manifest file.
+        - heading [level=3] [ref=e249]:
+          - text: Log rewriting
+          - link "Link to this section" [ref=e250] [cursor=pointer]:
+            - /url: "#log-rewriting"
+        - paragraph [ref=e253]: The AOF gets bigger and bigger as write operations are performed. For example, if you are incrementing a counter 100 times, you'll end up with a single key in your dataset containing the final value, but 100 entries in your AOF. 99 of those entries are not needed to rebuild the current state.
+        - paragraph [ref=e254]: The rewrite is completely safe. While Redis continues appending to the old file, a completely new one is produced with the minimal set of operations needed to create the current data set, and once this second file is ready Redis switches the two and starts appending to the new one.
+        - paragraph [ref=e255]:
+          - text: "So Redis supports an interesting feature: it is able to rebuild the AOF in the background without interrupting service to clients. Whenever you issue a"
+          - link [ref=e256] [cursor=pointer]:
+            - /url: /commands/bgrewriteaof
+            - code [ref=e257]: BGREWRITEAOF
+          - text: ", Redis will write the shortest sequence of commands needed to rebuild the current dataset in memory. If you're using the AOF with Redis 2.2 you'll need to run"
+          - link [ref=e258] [cursor=pointer]:
+            - /url: /commands/bgrewriteaof
+            - code [ref=e259]: BGREWRITEAOF
+          - text: from time to time. Since Redis 2.4 is able to trigger log rewriting automatically (see the example configuration file for more information).
+        - paragraph [ref=e260]: Since Redis 7.0.0, when an AOF rewrite is scheduled, the Redis parent process opens a new incremental AOF file to continue writing. The child process executes the rewrite logic and generates a new base AOF. Redis will use a temporary manifest file to track the newly generated base file and incremental file. When they are ready, Redis will perform an atomic replacement operation to make this temporary manifest file take effect. In order to avoid the problem of creating many incremental files in case of repeated failures and retries of an AOF rewrite, Redis introduces an AOF rewrite limiting mechanism to ensure that failed AOF rewrites are retried at a slower and slower rate.
+        - heading [level=3] [ref=e261]:
+          - text: How durable is the append only file?
+          - link "Link to this section" [ref=e262] [cursor=pointer]:
+            - /url: "#how-durable-is-the-append-only-file"
+        - paragraph [ref=e265]:
+          - text: You can configure how many times Redis will
+          - link [ref=e266] [cursor=pointer]:
+            - /url: http://linux.die.net/man/2/fsync
+            - code [ref=e267]: fsync
+          - text: "data on disk. There are three options:"
+        - list [ref=e268]:
+          - listitem [ref=e269]:
+            - code [ref=e270]: appendfsync always
+            - text: ":"
+            - code [ref=e271]: fsync
+            - text: every time new commands are appended to the AOF. Very very slow, very safe. Note that the commands are appended to the AOF after a batch of commands from multiple clients or a pipeline are executed, so it means a single write and a single fsync (before sending the replies).
+          - listitem [ref=e272]:
+            - code [ref=e273]: appendfsync everysec
+            - text: ":"
+            - code [ref=e274]: fsync
+            - text: every second. Fast enough (since version 2.4 likely to be as fast as snapshotting), and you may lose 1 second of data if there is a disaster.
+          - listitem [ref=e275]:
+            - code [ref=e276]: appendfsync no
+            - text: ": Never"
+            - code [ref=e277]: fsync
+            - text: ", just put your data in the hands of the Operating System. The faster and less safe method. Normally Linux will flush data every 30 seconds with this configuration, but it's up to the kernel's exact tuning."
+        - paragraph [ref=e278]:
+          - text: The suggested (and default) policy is to
+          - code [ref=e279]: fsync
+          - text: every second. It is both fast and relatively safe. The
+          - code [ref=e280]: always
+          - text: policy is very slow in practice, but it supports group commit, so if there are multiple parallel writes Redis will try to perform a single
+          - code [ref=e281]: fsync
+          - text: operation.
+        - heading [level=3] [ref=e282]:
+          - text: What should I do if my AOF gets truncated?
+          - link "Link to this section" [ref=e283] [cursor=pointer]:
+            - /url: "#what-should-i-do-if-my-aof-gets-truncated"
+        - paragraph [ref=e286]: "It is possible the server crashed while writing the AOF file, or the volume where the AOF file is stored was full at the time of writing. When this happens the AOF still contains consistent data representing a given point-in-time version of the dataset (that may be old up to one second with the default AOF fsync policy), but the last command in the AOF could be truncated. The latest major versions of Redis will be able to load the AOF anyway, just discarding the last non well formed command in the file. In this case the server will emit a log like the following:"
+        - code [ref=e288]: "* Reading RDB preamble from AOF file... * Reading the remaining AOF tail... # !!! Warning: short read while loading the AOF file !!! # !!! Truncating the AOF at offset 439 !!! # AOF loaded anyway because aof-load-truncated is enabled"
+        - paragraph [ref=e289]: You can change the default configuration to force Redis to stop in such cases if you want, but the default configuration is to continue regardless of the fact the last command in the file is not well-formed, in order to guarantee availability after a restart.
+        - paragraph [ref=e290]: "Older versions of Redis may not recover, and may require the following steps:"
+        - list [ref=e291]:
+          - listitem [ref=e292]:
+            - paragraph [ref=e293]: Make a backup copy of your AOF file.
+          - listitem [ref=e294]:
+            - paragraph [ref=e295]:
+              - text: Fix the original file using the
+              - code [ref=e296]: redis-check-aof
+              - text: "tool that ships with Redis:"
+            - code [ref=e298]: $ redis-check-aof --fix <filename>
+          - listitem [ref=e299]:
+            - paragraph [ref=e300]:
+              - text: Optionally use
+              - code [ref=e301]: diff -u
+              - text: to check what is the difference between two files.
+          - listitem [ref=e302]:
+            - paragraph [ref=e303]: Restart the server with the fixed file.
+        - heading [level=3] [ref=e304]:
+          - text: What should I do if my AOF gets corrupted?
+          - link "Link to this section" [ref=e305] [cursor=pointer]:
+            - /url: "#what-should-i-do-if-my-aof-gets-corrupted"
+        - paragraph [ref=e308]: "If the AOF file is not just truncated, but corrupted with invalid byte sequences in the middle, things are more complex. Redis will complain at startup and will abort:"
+        - code [ref=e310]: "* Reading the remaining AOF tail... # Bad file format reading the append only file: make a backup of your AOF file, then use ./redis-check-aof --fix <filename>"
+        - paragraph [ref=e311]:
+          - text: The best thing to do is to run the
+          - code [ref=e312]: redis-check-aof
+          - text: utility, initially without the
+          - code [ref=e313]: "--fix"
+          - text: "option, then understand the problem, jump to the given offset in the file, and see if it is possible to manually repair the file: The AOF uses the same format of the Redis protocol and is quite simple to fix manually. Otherwise it is possible to let the utility fix the file for us, but in that case all the AOF portion from the invalid part to the end of the file may be discarded, leading to a massive amount of data loss if the corruption happened to be in the initial part of the file."
+        - heading [level=3] [ref=e314]:
+          - text: How it works
+          - link "Link to this section" [ref=e315] [cursor=pointer]:
+            - /url: "#how-it-works-1"
+        - paragraph [ref=e318]: "Log rewriting uses the same copy-on-write trick already in use for snapshotting. This is how it works:"
+        - paragraph [ref=e319]:
+          - strong [ref=e320]: Redis >= 7.0
+        - list [ref=e321]:
+          - listitem [ref=e322]:
+            - paragraph [ref=e323]:
+              - text: Redis
+              - link "forks" [ref=e324] [cursor=pointer]:
+                - /url: http://linux.die.net/man/2/fork
+              - text: ", so now we have a child and a parent process."
+          - listitem [ref=e325]:
+            - paragraph [ref=e326]: The child starts writing the new base AOF in a temporary file.
+          - listitem [ref=e327]:
+            - paragraph [ref=e328]: The parent opens a new increments AOF file to continue writing updates. If the rewriting fails, the old base and increment files (if there are any) plus this newly opened increment file represent the complete updated dataset, so we are safe.
+          - listitem [ref=e329]:
+            - paragraph [ref=e330]: When the child is done rewriting the base file, the parent gets a signal, and uses the newly opened increment file and child generated base file to build a temp manifest, and persist it.
+          - listitem [ref=e331]:
+            - paragraph [ref=e332]: Profit! Now Redis does an atomic exchange of the manifest files so that the result of this AOF rewrite takes effect. Redis also cleans up the old base file and any unused increment files.
+        - paragraph [ref=e333]:
+          - strong [ref=e334]: Redis < 7.0
+        - list [ref=e335]:
+          - listitem [ref=e336]:
+            - paragraph [ref=e337]:
+              - text: Redis
+              - link "forks" [ref=e338] [cursor=pointer]:
+                - /url: http://linux.die.net/man/2/fork
+              - text: ", so now we have a child and a parent process."
+          - listitem [ref=e339]:
+            - paragraph [ref=e340]: The child starts writing the new AOF in a temporary file.
+          - listitem [ref=e341]:
+            - paragraph [ref=e342]: The parent accumulates all the new changes in an in-memory buffer (but at the same time it writes the new changes in the old append-only file, so if the rewriting fails, we are safe).
+          - listitem [ref=e343]:
+            - paragraph [ref=e344]: When the child is done rewriting the file, the parent gets a signal, and appends the in-memory buffer at the end of the file generated by the child.
+          - listitem [ref=e345]:
+            - paragraph [ref=e346]: Now Redis atomically renames the new file into the old one, and starts appending new data into the new file.
+        - heading [level=3] [ref=e347]:
+          - text: How I can switch to AOF, if I'm currently using dump.rdb snapshots?
+          - link "Link to this section" [ref=e348] [cursor=pointer]:
+            - /url: "#how-i-can-switch-to-aof-if-im-currently-using-dumprdb-snapshots"
+        - paragraph [ref=e351]: If you want to enable AOF in a server that is currently using RDB snapshots, you need to convert the data by enabling AOF via CONFIG command on the live server first.
+        - paragraph [ref=e352]:
+          - strong [ref=e353]: "IMPORTANT:"
+          - text: not following this procedure (e.g. just changing the config and restarting the server) can result in data loss!
+        - paragraph [ref=e354]:
+          - strong [ref=e355]: Redis >= 2.2
+        - paragraph [ref=e356]: "Preparations:"
+        - list [ref=e357]:
+          - listitem [ref=e358]: Make a backup of your latest dump.rdb file.
+          - listitem [ref=e359]: Transfer this backup to a safe place.
+        - paragraph [ref=e360]: "Switch to AOF on live database:"
+        - list [ref=e361]:
+          - listitem [ref=e362]:
+            - text: "Enable AOF:"
+            - code [ref=e363]: redis-cli config set appendonly yes
+          - listitem [ref=e364]:
+            - text: "Optionally disable RDB:"
+            - code [ref=e365]: redis-cli config set save ""
+          - listitem [ref=e366]: Make sure writes are appended to the append only file correctly.
+          - listitem [ref=e367]:
+            - strong [ref=e368]: "IMPORTANT:"
+            - text: Update your
+            - code [ref=e369]: redis.conf
+            - text: (potentially through
+            - link [ref=e370] [cursor=pointer]:
+              - /url: /commands/config-rewrite
+              - code [ref=e371]: CONFIG REWRITE
+            - text: ) and ensure that it matches the configuration above. If you forget this step, when you restart the server, the configuration changes will be lost and the server will start again with the old configuration, resulting in a loss of your data.
+        - paragraph [ref=e372]: "Next time you restart the server:"
+        - list [ref=e373]:
+          - listitem [ref=e374]:
+            - text: Before restarting the server, wait for AOF rewrite to finish persisting the data. You can do that by watching
+            - code [ref=e375]: INFO persistence
+            - text: ", waiting for"
+            - code [ref=e376]: aof_rewrite_in_progress
+            - text: and
+            - code [ref=e377]: aof_rewrite_scheduled
+            - text: to be
+            - code [ref=e378]: "0"
+            - text: ", and validating that"
+            - code [ref=e379]: aof_last_bgrewrite_status
+            - text: is
+            - code [ref=e380]: ok
+            - text: .
+          - listitem [ref=e381]: After restarting the server, check that your database contains the same number of keys it contained previously.
+        - paragraph [ref=e382]:
+          - strong [ref=e383]: Redis 2.0
+        - list [ref=e384]:
+          - listitem [ref=e385]: Make a backup of your latest dump.rdb file.
+          - listitem [ref=e386]: Transfer this backup into a safe place.
+          - listitem [ref=e387]: Stop all the writes against the database!
+          - listitem [ref=e388]:
+            - text: Issue a
+            - code [ref=e389]: redis-cli BGREWRITEAOF
+            - text: . This will create the append only file.
+          - listitem [ref=e390]: Stop the server when Redis finished generating the AOF dump.
+          - listitem [ref=e391]: Edit redis.conf end enable append only file persistence.
+          - listitem [ref=e392]: Restart the server.
+          - listitem [ref=e393]: Make sure that your database contains the same number of keys it contained before the switch.
+          - listitem [ref=e394]: Make sure that writes are appended to the append only file correctly.
+        - heading [level=2] [ref=e395]:
+          - text: Interactions between AOF and RDB persistence
+          - link "Link to this section" [ref=e396] [cursor=pointer]:
+            - /url: "#interactions-between-aof-and-rdb-persistence"
+        - paragraph [ref=e399]:
+          - text: Redis >= 2.4 makes sure to avoid triggering an AOF rewrite when an RDB snapshotting operation is already in progress, or allowing a
+          - link [ref=e400] [cursor=pointer]:
+            - /url: /commands/bgsave
+            - code [ref=e401]: BGSAVE
+          - text: while the AOF rewrite is in progress. This prevents two Redis background processes from doing heavy disk I/O at the same time.
+        - paragraph [ref=e402]:
+          - text: When snapshotting is in progress and the user explicitly requests a log rewrite operation using
+          - link [ref=e403] [cursor=pointer]:
+            - /url: /commands/bgrewriteaof
+            - code [ref=e404]: BGREWRITEAOF
+          - text: the server will reply with an OK status code telling the user the operation is scheduled, and the rewrite will start once the snapshotting is completed.
+        - paragraph [ref=e405]: In the case both AOF and RDB persistence are enabled and Redis restarts the AOF file will be used to reconstruct the original dataset since it is guaranteed to be the most complete.
+        - heading [level=2] [ref=e406]:
+          - text: Backing up Redis data
+          - link "Link to this section" [ref=e407] [cursor=pointer]:
+            - /url: "#backing-up-redis-data"
+        - paragraph [ref=e410]:
+          - text: "Before starting this section, make sure to read the following sentence:"
+          - strong [ref=e411]: Make Sure to Backup Your Database
+          - text: ". Disks break, instances in the cloud disappear, and so forth: no backups means huge risk of data disappearing into /dev/null."
+        - paragraph [ref=e412]: "Redis is very data backup friendly since you can copy RDB files while the database is running: the RDB is never modified once produced, and while it gets produced it uses a temporary name and is renamed into its final destination atomically using rename(2) only when the new snapshot is complete."
+        - paragraph [ref=e413]: "This means that copying the RDB file is completely safe while the server is running. This is what we suggest:"
+        - list [ref=e414]:
+          - listitem [ref=e415]: Create a cron job in your server creating hourly snapshots of the RDB file in one directory, and daily snapshots in a different directory.
+          - listitem [ref=e416]:
+            - text: Every time the cron script runs, make sure to call the
+            - code [ref=e417]: find
+            - text: "command to make sure too old snapshots are deleted: for instance you can take hourly snapshots for the latest 48 hours, and daily snapshots for one or two months. Make sure to name the snapshots with date and time information."
+          - listitem [ref=e418]:
+            - text: At least one time every day make sure to transfer an RDB snapshot
+            - emphasis [ref=e419]: outside your data center
+            - text: or at least
+            - emphasis [ref=e420]: outside the physical machine
+            - text: running your Redis instance.
+        - heading [level=3] [ref=e421]:
+          - text: Backing up AOF persistence
+          - link "Link to this section" [ref=e422] [cursor=pointer]:
+            - /url: "#backing-up-aof-persistence"
+        - paragraph [ref=e425]:
+          - text: If you run a Redis instance with only AOF persistence enabled, you can still perform backups. Since Redis 7.0.0, AOF files are split into multiple files which reside in a single directory determined by the
+          - code [ref=e426]: appenddirname
+          - text: configuration. During normal operation all you need to do is copy/tar the files in this directory to achieve a backup. However, if this is done during a
+          - link "rewrite" [ref=e427] [cursor=pointer]:
+            - /url: "#log-rewriting"
+          - text: ", you might end up with an invalid backup. To work around this you must disable AOF rewrites during the backup:"
+        - list [ref=e428]:
+          - listitem [ref=e429]:
+            - text: Turn off automatic rewrites with
+            - link [ref=e430] [cursor=pointer]:
+              - /url: /commands/config-set
+              - code [ref=e431]: CONFIG SET
+            - code [ref=e432]: auto-aof-rewrite-percentage 0
+            - text: Make sure you don't manually start a rewrite (using
+            - link [ref=e433] [cursor=pointer]:
+              - /url: /commands/bgrewriteaof
+              - code [ref=e434]: BGREWRITEAOF
+            - text: ) during this time.
+          - listitem [ref=e435]:
+            - text: Check there's no current rewrite in progress using
+            - link [ref=e436] [cursor=pointer]:
+              - /url: /commands/info
+              - code [ref=e437]: INFO
+            - code [ref=e438]: persistence
+            - text: and verifying
+            - code [ref=e439]: aof_rewrite_in_progress
+            - text: is 0. If it's 1, then you'll need to wait for the rewrite to complete.
+          - listitem [ref=e440]:
+            - text: Now you can safely copy the files in the
+            - code [ref=e441]: appenddirname
+            - text: directory.
+          - listitem [ref=e442]:
+            - text: "Re-enable rewrites when done:"
+            - link [ref=e443] [cursor=pointer]:
+              - /url: /commands/config-set
+              - code [ref=e444]: CONFIG SET
+            - code [ref=e445]: auto-aof-rewrite-percentage <prev-value>
+        - paragraph [ref=e446]:
+          - strong [ref=e447]: "Note:"
+          - text: If you want to minimize the time AOF rewrites are disabled you may create hard links to the files in
+          - code [ref=e448]: appenddirname
+          - text: (in step 3 above) and then re-enable rewrites (step 4) after the hard links are created. Now you can copy/tar the hardlinks and delete them when done. This works because Redis guarantees that it only appends to files in this directory, or completely replaces them if necessary, so the content should be consistent at any given point in time.
+        - paragraph [ref=e449]:
+          - strong [ref=e450]: "Note:"
+          - text: If you want to handle the case of the server being restarted during the backup and make sure no rewrite will automatically start after the restart you can change step 1 above to also persist the updated configuration via
+          - link [ref=e451] [cursor=pointer]:
+            - /url: /commands/config-rewrite
+            - code [ref=e452]: CONFIG REWRITE
+          - text: . Just make sure to re-enable automatic rewrites when done (step 4) and persist it with another
+          - link [ref=e453] [cursor=pointer]:
+            - /url: /commands/config-rewrite
+            - code [ref=e454]: CONFIG REWRITE
+          - text: .
+        - paragraph [ref=e455]:
+          - text: Prior to version 7.0.0 backing up the AOF file can be done simply by copying the aof file (like backing up the RDB snapshot). The file may lack the final part but Redis will still be able to load it (see the previous sections about
+          - link "truncated AOF files" [ref=e456] [cursor=pointer]:
+            - /url: "#what-should-i-do-if-my-aof-gets-truncated"
+          - text: ).
+        - heading [level=2] [ref=e457]:
+          - text: Disaster recovery
+          - link "Link to this section" [ref=e458] [cursor=pointer]:
+            - /url: "#disaster-recovery"
+        - paragraph [ref=e461]: Disaster recovery in the context of Redis is basically the same story as backups, plus the ability to transfer those backups in many different external data centers. This way data is secured even in the case of some catastrophic event affecting the main data center where Redis is running and producing its snapshots.
+        - paragraph [ref=e462]: We'll review the most interesting disaster recovery techniques that don't have too high costs.
+        - list [ref=e463]:
+          - listitem [ref=e464]:
+            - text: Amazon S3 and other similar services are a good way for implementing your disaster recovery system. Simply transfer your daily or hourly RDB snapshot to S3 in an encrypted form. You can encrypt your data using
+            - code [ref=e465]: gpg -c
+            - text: (in symmetric encryption mode). Make sure to store your password in many different safe places (for instance give a copy to the most important people of your organization). It is recommended to use multiple storage services for improved data safety.
+          - listitem [ref=e466]:
+            - text: "Transfer your snapshots using SCP (part of SSH) to far servers. This is a fairly simple and safe route: get a small VPS in a place that is very far from you, install ssh there, and generate a ssh client key without passphrase, then add it in the"
+            - code [ref=e467]: authorized_keys
+            - text: file of your small VPS. You are ready to transfer backups in an automated fashion. Get at least two VPS in two different providers for best results.
+        - paragraph [ref=e468]: It is important to understand that this system can easily fail if not implemented in the right way. At least, make absolutely sure that after the transfer is completed you are able to verify the file size (that should match the one of the file you copied) and possibly the SHA1 digest, if you are using a VPS.
+        - paragraph [ref=e469]: You also need some kind of independent alert system if the transfer of fresh backups is not working for some reason.
+        - generic [ref=e471]:
+          - generic [ref=e472]:
+            - generic [ref=e473]: RATE THIS PAGE
+            - generic [ref=e474]:
+              - generic [ref=e475] [cursor=pointer]: ★
+              - generic [ref=e476] [cursor=pointer]: ★
+              - generic [ref=e477] [cursor=pointer]: ★
+              - generic [ref=e478] [cursor=pointer]: ★
+              - generic [ref=e479] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e480] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e481]:
+      - navigation [ref=e482]:
+        - link "Edit this page" [ref=e483] [cursor=pointer]:
+          - /url: https://github.com/redis/docs/edit/main/content/operate/oss_and_stack/management/persistence.md
+        - link "Create an issue" [ref=e486] [cursor=pointer]:
+          - /url: "https://github.com/redis/docs/issues/new?title=Feedback: Redis persistence&body=Page https://redis.io/docs/latest/operate/oss_and_stack/management/persistence"
+        - link "Download Markdown" [ref=e489] [cursor=pointer]:
+          - /url: "#"
+      - heading "On this page" [level=2] [ref=e492]
+      - navigation [ref=e493]:
+        - navigation [ref=e494]:
+          - list [ref=e495]:
+            - listitem [ref=e496]:
+              - link "RDB advantages" [ref=e497] [cursor=pointer]:
+                - /url: "#rdb-advantages"
+            - listitem [ref=e498]:
+              - link "RDB disadvantages" [ref=e499] [cursor=pointer]:
+                - /url: "#rdb-disadvantages"
+            - listitem [ref=e500]:
+              - link "AOF advantages" [ref=e501] [cursor=pointer]:
+                - /url: "#aof-advantages"
+            - listitem [ref=e502]:
+              - link "AOF disadvantages" [ref=e503] [cursor=pointer]:
+                - /url: "#aof-disadvantages"
+            - listitem [ref=e504]:
+              - link "Ok, so what should I use?" [ref=e505] [cursor=pointer]:
+                - /url: "#ok-so-what-should-i-use"
+            - listitem [ref=e506]:
+              - link "Snapshotting" [ref=e507] [cursor=pointer]:
+                - /url: "#snapshotting"
+              - list [ref=e508]:
+                - listitem [ref=e509]:
+                  - link "How it works" [ref=e510] [cursor=pointer]:
+                    - /url: "#how-it-works"
+            - listitem [ref=e511]:
+              - link "Append-only file" [ref=e512] [cursor=pointer]:
+                - /url: "#append-only-file"
+              - list [ref=e513]:
+                - listitem [ref=e514]:
+                  - link "Log rewriting" [ref=e515] [cursor=pointer]:
+                    - /url: "#log-rewriting"
+                - listitem [ref=e516]:
+                  - link "How durable is the append only file?" [ref=e517] [cursor=pointer]:
+                    - /url: "#how-durable-is-the-append-only-file"
+                - listitem [ref=e518]:
+                  - link "What should I do if my AOF gets truncated?" [ref=e519] [cursor=pointer]:
+                    - /url: "#what-should-i-do-if-my-aof-gets-truncated"
+                - listitem [ref=e520]:
+                  - link "What should I do if my AOF gets corrupted?" [ref=e521] [cursor=pointer]:
+                    - /url: "#what-should-i-do-if-my-aof-gets-corrupted"
+                - listitem [ref=e522]:
+                  - link "How it works" [ref=e523] [cursor=pointer]:
+                    - /url: "#how-it-works-1"
+                - listitem [ref=e524]:
+                  - link "How I can switch to AOF, if I'm currently using dump.rdb snapshots?" [ref=e525] [cursor=pointer]:
+                    - /url: "#how-i-can-switch-to-aof-if-im-currently-using-dumprdb-snapshots"
+            - listitem [ref=e526]:
+              - link "Interactions between AOF and RDB persistence" [ref=e527] [cursor=pointer]:
+                - /url: "#interactions-between-aof-and-rdb-persistence"
+            - listitem [ref=e528]:
+              - link "Backing up Redis data" [ref=e529] [cursor=pointer]:
+                - /url: "#backing-up-redis-data"
+              - list [ref=e530]:
+                - listitem [ref=e531]:
+                  - link "Backing up AOF persistence" [ref=e532] [cursor=pointer]:
+                    - /url: "#backing-up-aof-persistence"
+            - listitem [ref=e533]:
+              - link "Disaster recovery" [ref=e534] [cursor=pointer]:
+                - /url: "#disaster-recovery"
+  - contentinfo [ref=e535]:
+    - generic [ref=e536]:
+      - generic [ref=e537]:
+        - link [ref=e538] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e543]:
+          - link [ref=e544] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e548] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e551] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e554] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e557] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e560] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e563]:
+          - link "Trust" [ref=e564] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e565] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e566] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e567] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e568]:
+        - generic [ref=e569]:
+          - heading "Compare" [level=3] [ref=e570]
+          - generic [ref=e571]:
+            - link "Redis vs Elasticache" [ref=e572] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e573] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e574] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e575] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e576]:
+          - heading "Company" [level=3] [ref=e577]
+          - generic [ref=e578]:
+            - link "Mission & values" [ref=e579] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e580] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e581] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e582]:
+          - heading "Partners" [level=3] [ref=e583]
+          - generic [ref=e584]:
+            - link "Amazon Web Services" [ref=e585] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e586] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e587] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e588] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e589]:
+          - heading "Support" [level=3] [ref=e590]
+          - generic [ref=e591]:
+            - link "Professional services" [ref=e592] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e593] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e594]:
+    - generic [ref=e595]:
+      - banner [ref=e596]:
+        - generic [ref=e597]:
+          - textbox [ref=e598]:
+            - /placeholder: Search…
+          - combobox [ref=e599]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e600] [cursor=pointer]: ESC
+      - listbox [ref=e601]

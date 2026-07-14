@@ -1,0 +1,574 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Academy" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Solutions" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Data Redis
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - button [ref=e50] [cursor=pointer]
+                  - link "Overview" [ref=e51] [cursor=pointer]:
+                    - /url: ../index.html
+                - listitem [ref=e52]:
+                  - button [ref=e53] [cursor=pointer]
+                  - link "Redis" [ref=e54] [cursor=pointer]:
+                    - /url: ../redis.html
+                  - list [ref=e55]:
+                    - listitem [ref=e56]:
+                      - link "Getting Started" [ref=e57] [cursor=pointer]:
+                        - /url: getting-started.html
+                    - listitem [ref=e58]:
+                      - link "Drivers" [ref=e59] [cursor=pointer]:
+                        - /url: drivers.html
+                    - listitem [ref=e60]:
+                      - link "Connection Modes" [ref=e61] [cursor=pointer]:
+                        - /url: connection-modes.html
+                    - listitem [ref=e62]:
+                      - link "RedisTemplate" [ref=e63] [cursor=pointer]:
+                        - /url: template.html
+                    - listitem [ref=e64]:
+                      - link "Redis Cache" [ref=e65] [cursor=pointer]:
+                        - /url: redis-cache.html
+                    - listitem [ref=e66]:
+                      - link "Redis Cluster" [ref=e67] [cursor=pointer]:
+                        - /url: cluster.html
+                    - listitem [ref=e68]:
+                      - link "Hash Mapping" [ref=e69] [cursor=pointer]:
+                        - /url: hash-mappers.html
+                    - listitem [ref=e70]:
+                      - button [ref=e71] [cursor=pointer]
+                      - link "Pub/Sub Messaging" [ref=e72] [cursor=pointer]:
+                        - /url: pubsub.html
+                    - listitem [ref=e73]:
+                      - link "Redis Streams" [ref=e74] [cursor=pointer]:
+                        - /url: redis-streams.html
+                    - listitem [ref=e75]:
+                      - link "Scripting" [ref=e76] [cursor=pointer]:
+                        - /url: scripting.html
+                    - listitem [ref=e77]:
+                      - link "Redis Transactions" [ref=e78] [cursor=pointer]:
+                        - /url: transactions.html
+                    - listitem [ref=e79]:
+                      - link "Pipelining" [ref=e80] [cursor=pointer]:
+                        - /url: pipelining.html
+                    - listitem [ref=e81]:
+                      - link "Support Classes" [ref=e82] [cursor=pointer]:
+                        - /url: support-classes.html
+                - listitem [ref=e83]:
+                  - button [ref=e84] [cursor=pointer]
+                  - link "Redis Repositories" [ref=e85] [cursor=pointer]:
+                    - /url: ../repositories.html
+                - listitem [ref=e86]:
+                  - link "Observability" [ref=e87] [cursor=pointer]:
+                    - /url: ../observability.html
+                - listitem [ref=e88]:
+                  - link "Appendix" [ref=e89] [cursor=pointer]:
+                    - /url: ../appendix.html
+                - listitem [ref=e90]:
+                  - link "Javadoc" [ref=e91] [cursor=pointer]:
+                    - /url: ../api/java/index.html
+                - listitem [ref=e92]:
+                  - link "Wiki" [ref=e93] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-data-commons/wiki
+        - button [ref=e95] [cursor=pointer]
+    - main [ref=e98]:
+      - generic [ref=e99]:
+        - complementary [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e103]:
+              - heading "Redis Cache" [level=3] [ref=e104]
+              - list [ref=e105]:
+                - listitem [ref=e106]:
+                  - link "Redis Cache Expiration" [ref=e107] [cursor=pointer]:
+                    - /url: "#redis:support:cache-abstraction:expiration"
+                - listitem [ref=e108]:
+                  - link "Time-To-Live (TTL) Expiration" [ref=e109] [cursor=pointer]:
+                    - /url: "#redis:support:cache-abstraction:expiration:tti"
+                - listitem [ref=e110]:
+                  - link "Time-To-Idle (TTI) Expiration" [ref=e111] [cursor=pointer]:
+                    - /url: "#redis:support:cache-abstraction:expiration:tti2"
+            - generic [ref=e112]:
+              - link "Edit this Page" [ref=e113] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-data-redis/blob/4.1.0/src/main/antora/modules/ROOT/pages/redis/redis-cache.adoc
+              - link "GitHub Project" [ref=e116] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-data-redis
+              - link "Stack Overflow" [ref=e120] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/spring-data-redis
+        - article [ref=e123]:
+          - navigation "breadcrumbs" [ref=e125]:
+            - list [ref=e126]:
+              - listitem "Copy versioned URL" [ref=e127]
+              - listitem [ref=e128]:
+                - link "Spring Data Redis" [ref=e129] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e130]:
+                - link "Redis" [ref=e131] [cursor=pointer]:
+                  - /url: ../redis.html
+                - text: /
+              - listitem [ref=e132]:
+                - link "Redis Cache" [ref=e133] [cursor=pointer]:
+                  - /url: redis-cache.html
+          - heading "Redis Cache" [level=1] [ref=e134]
+          - generic [ref=e136]:
+            - paragraph [ref=e138]:
+              - text: Spring Data Redis provides an implementation of Spring Framework’s
+              - link "Cache Abstraction" [ref=e139] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-framework/reference/7.0/integration.html#cache
+              - text: in the
+              - code [ref=e140]: org.springframework.data.redis.cache
+              - text: package. To use Redis as a backing implementation, add
+              - link [ref=e141] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/cache/RedisCacheManager.html
+                - code [ref=e142]: RedisCacheManager
+              - text: "to your configuration, as follows:"
+            - generic [ref=e145]:
+              - code [ref=e146]:
+                - text: java @Bean
+                - generic [ref=e147]: public RedisCacheManager cacheManager(RedisConnectionFactory connectionFactory)
+                - text: "{ return RedisCacheManager.create(connectionFactory); }"
+              - button "Copied!" [ref=e149] [cursor=pointer]
+            - paragraph [ref=e152]:
+              - code [ref=e153]: RedisCacheManager
+              - text: behavior can be configured with
+              - link [ref=e154] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/cache/RedisCacheManager.RedisCacheManagerBuilder.html
+                - code [ref=e155]: RedisCacheManager.RedisCacheManagerBuilder
+              - text: ", letting you set the default"
+              - link [ref=e156] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/cache/RedisCacheManager.html
+                - code [ref=e157]: RedisCacheManager
+              - text: ", transaction behavior, and predefined caches."
+            - generic [ref=e160]:
+              - code [ref=e161]: java RedisCacheManager cacheManager = RedisCacheManager.builder(connectionFactory) .cacheDefaults(RedisCacheConfiguration.defaultCacheConfig()) .transactionAware() .withInitialCacheConfigurations(Collections.singletonMap("predefined", RedisCacheConfiguration.defaultCacheConfig().disableCachingNullValues())) .build();
+              - button "Copied!" [ref=e163] [cursor=pointer]
+            - paragraph [ref=e166]:
+              - text: As shown in the preceding example,
+              - code [ref=e167]: RedisCacheManager
+              - text: allows custom configuration on a per-cache basis.
+            - paragraph [ref=e169]:
+              - text: The behavior of
+              - link [ref=e170] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/cache/RedisCache.html
+                - code [ref=e171]: RedisCache
+              - text: created by
+              - link [ref=e172] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/cache/RedisCacheManager.html
+                - code [ref=e173]: RedisCacheManager
+              - text: is defined with
+              - code [ref=e174]: RedisCacheConfiguration
+              - text: . The configuration lets you set key expiration times, prefixes, and
+              - code [ref=e175]: RedisSerializer
+              - text: "implementations for converting to and from the binary storage format, as shown in the following example:"
+            - generic [ref=e178]:
+              - code [ref=e179]: java RedisCacheConfiguration cacheConfiguration = RedisCacheConfiguration.defaultCacheConfig() .entryTtl(Duration.ofSeconds(1)) .disableCachingNullValues();
+              - button "Copied!" [ref=e181] [cursor=pointer]
+            - paragraph [ref=e184]:
+              - link [ref=e185] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/cache/RedisCacheManager.html
+                - code [ref=e186]: RedisCacheManager
+              - text: defaults to a lock-free
+              - link [ref=e187] [cursor=pointer]:
+                - /url: ../api/java/org/springframework/data/redis/cache/RedisCacheWriter.html
+                - code [ref=e188]: RedisCacheWriter
+              - text: for reading and writing binary values. Lock-free caching improves throughput. The lack of entry locking can lead to overlapping, non-atomic commands for the
+              - code [ref=e189]: Cache
+              - code [ref=e190]: putIfAbsent
+              - text: and
+              - code [ref=e191]: clean
+              - text: operations, as those require multiple commands to be sent to Redis. The locking counterpart prevents command overlap by setting an explicit lock key and checking against presence of this key, which leads to additional requests and potential command wait times.
+            - paragraph [ref=e193]:
+              - text: Locking applies on the
+              - strong [ref=e194]: cache level
+              - text: ", not per"
+              - strong [ref=e195]: cache entry
+              - text: .
+            - paragraph [ref=e197]: "It is possible to opt in to the locking behavior as follows:"
+            - generic [ref=e200]:
+              - code [ref=e201]: java RedisCacheManager cacheManager = RedisCacheManager .builder(RedisCacheWriter.lockingRedisCacheWriter(connectionFactory)) .cacheDefaults(RedisCacheConfiguration.defaultCacheConfig()) ...
+              - button "Copied!" [ref=e203] [cursor=pointer]
+            - paragraph [ref=e206]:
+              - text: By default, any
+              - code [ref=e207]: key
+              - text: for a cache entry gets prefixed with the actual cache name followed by two colons (
+              - code [ref=e208]: "::"
+              - text: ). This behavior can be changed to a static as well as a computed prefix.
+            - paragraph [ref=e210]: "The following example shows how to set a static prefix:"
+            - generic [ref=e213]:
+              - code [ref=e214]: "java // static key prefix RedisCacheConfiguration.defaultCacheConfig().prefixCacheNameWith(\"(͡° ᴥ ͡°)\"); The following example shows how to set a computed prefix: // computed key prefix RedisCacheConfiguration.defaultCacheConfig() .computePrefixWith(cacheName -> \"¯\\_(ツ)_/¯\" + cacheName);"
+              - button "Copied!" [ref=e216] [cursor=pointer]
+            - paragraph [ref=e219]:
+              - text: The cache implementation defaults to use
+              - code [ref=e220]: KEYS
+              - text: and
+              - code [ref=e221]: DEL
+              - text: to clear the cache.
+              - code [ref=e222]: KEYS
+              - text: can cause performance issues with large keyspaces. Therefore, the default
+              - code [ref=e223]: RedisCacheWriter
+              - text: can be created with a
+              - code [ref=e224]: BatchStrategy
+              - text: to switch to a
+              - code [ref=e225]: SCAN
+              - text: "-based batch strategy. The"
+              - code [ref=e226]: SCAN
+              - text: "strategy requires a batch size to avoid excessive Redis command round trips:"
+            - generic [ref=e229]:
+              - code [ref=e230]: java RedisCacheManager cacheManager = RedisCacheManager .builder(RedisCacheWriter.nonLockingRedisCacheWriter(connectionFactory, BatchStrategies.scan(1000))) .cacheDefaults(RedisCacheConfiguration.defaultCacheConfig()) ...
+              - button "Copied!" [ref=e232] [cursor=pointer]
+            - table [ref=e235]:
+              - rowgroup [ref=e236]:
+                - row [ref=e237]:
+                  - cell "Note" [ref=e238]
+                  - cell [ref=e240]:
+                    - paragraph [ref=e242]:
+                      - text: The
+                      - code [ref=e243]: KEYS
+                      - text: batch strategy is fully supported using any driver and Redis operation mode (Standalone, Clustered).
+                      - code [ref=e244]: SCAN
+                      - text: is fully supported when using the Lettuce driver. Jedis supports
+                      - code [ref=e245]: SCAN
+                      - text: only in non-clustered modes.
+            - paragraph [ref=e247]:
+              - text: The following table lists the default settings for
+              - code [ref=e248]: RedisCacheManager
+              - text: ":"
+            - table [ref=e249]:
+              - caption [ref=e250]:
+                - text: Table 1.
+                - code [ref=e251]: RedisCacheManager
+                - text: defaults
+              - rowgroup [ref=e255]:
+                - row [ref=e256]:
+                  - columnheader "Setting" [ref=e257]
+                  - columnheader "Value" [ref=e258]
+              - rowgroup [ref=e259]:
+                - row [ref=e260]:
+                  - cell [ref=e261]:
+                    - paragraph [ref=e262]: Cache Writer
+                  - cell [ref=e263]:
+                    - paragraph [ref=e264]:
+                      - text: Non-locking,
+                      - code [ref=e265]: KEYS
+                      - text: batch strategy
+                - row [ref=e266]:
+                  - cell [ref=e267]:
+                    - paragraph [ref=e268]: Cache Configuration
+                  - cell [ref=e269]:
+                    - paragraph [ref=e270]:
+                      - code [ref=e271]: RedisCacheConfiguration#defaultConfiguration
+                - row [ref=e272]:
+                  - cell [ref=e273]:
+                    - paragraph [ref=e274]: Initial Caches
+                  - cell [ref=e275]:
+                    - paragraph [ref=e276]: None
+                - row [ref=e277]:
+                  - cell [ref=e278]:
+                    - paragraph [ref=e279]: Transaction Aware
+                  - cell [ref=e280]:
+                    - paragraph [ref=e281]: "No"
+            - paragraph [ref=e283]:
+              - text: The following table lists the default settings for
+              - code [ref=e284]: RedisCacheConfiguration
+              - text: ":"
+            - table [ref=e285]:
+              - caption [ref=e286]: Table 2. RedisCacheConfiguration defaults
+              - rowgroup [ref=e290]:
+                - row [ref=e291]:
+                  - columnheader "Key Expiration" [ref=e292]
+                  - columnheader "None" [ref=e293]
+              - rowgroup [ref=e294]:
+                - row [ref=e295]:
+                  - cell [ref=e296]:
+                    - paragraph [ref=e297]:
+                      - text: Cache
+                      - code [ref=e298]: "null"
+                  - cell [ref=e299]:
+                    - paragraph [ref=e300]: "Yes"
+                - row [ref=e301]:
+                  - cell [ref=e302]:
+                    - paragraph [ref=e303]: Prefix Keys
+                  - cell [ref=e304]:
+                    - paragraph [ref=e305]: "Yes"
+                - row [ref=e306]:
+                  - cell [ref=e307]:
+                    - paragraph [ref=e308]: Default Prefix
+                  - cell [ref=e309]:
+                    - paragraph [ref=e310]: The actual cache name
+                - row [ref=e311]:
+                  - cell [ref=e312]:
+                    - paragraph [ref=e313]: Key Serializer
+                  - cell [ref=e314]:
+                    - paragraph [ref=e315]:
+                      - code [ref=e316]: StringRedisSerializer
+                - row [ref=e317]:
+                  - cell [ref=e318]:
+                    - paragraph [ref=e319]: Value Serializer
+                  - cell [ref=e320]:
+                    - paragraph [ref=e321]:
+                      - code [ref=e322]: JdkSerializationRedisSerializer
+                - row [ref=e323]:
+                  - cell [ref=e324]:
+                    - paragraph [ref=e325]: Conversion Service
+                  - cell [ref=e326]:
+                    - paragraph [ref=e327]:
+                      - code [ref=e328]: DefaultFormattingConversionService
+                      - text: with default cache key converters
+            - table [ref=e330]:
+              - rowgroup [ref=e331]:
+                - row [ref=e332]:
+                  - cell "Note" [ref=e333]
+                  - cell [ref=e335]:
+                    - paragraph [ref=e337]:
+                      - text: By default
+                      - code [ref=e338]: RedisCache
+                      - text: ", statistics are disabled. Use"
+                      - code [ref=e339]: RedisCacheManagerBuilder.enableStatistics()
+                      - text: to collect local
+                      - emphasis [ref=e340]: hits
+                      - text: and
+                      - emphasis [ref=e341]: misses
+                      - text: through
+                      - code [ref=e342]: RedisCache#getStatistics()
+                      - text: ", returning a snapshot of the collected data."
+          - generic [ref=e343]:
+            - heading "Redis Cache Expiration" [level=2] [ref=e344]
+            - generic [ref=e345]:
+              - paragraph [ref=e347]: The implementation of time-to-idle (TTI) as well as time-to-live (TTL) varies in definition and behavior even across different data stores.
+              - paragraph [ref=e349]: "In general:"
+              - list [ref=e351]:
+                - listitem [ref=e352]:
+                  - paragraph [ref=e353]:
+                    - emphasis [ref=e354]: time-to-live
+                    - text: (TTL)
+                    - emphasis [ref=e355]: expiration
+                    - text: "- TTL is only set and reset by a create or update data access operation. As long as the entry is written before the TTL expiration timeout, including on creation, an entry’s timeout will reset to the configured duration of the TTL expiration timeout. For example, if the TTL expiration timeout is set to 5 minutes, then the timeout will be set to 5 minutes on entry creation and reset to 5 minutes anytime the entry is updated thereafter and before the 5-minute interval expires. If no update occurs within 5 minutes, even if the entry was read several times, or even just read once during the 5-minute interval, the entry will still expire. The entry must be written to prevent the entry from expiring when declaring a TTL expiration policy."
+                - listitem [ref=e356]:
+                  - paragraph [ref=e357]:
+                    - emphasis [ref=e358]: time-to-idle
+                    - text: (TTI)
+                    - emphasis [ref=e359]: expiration
+                    - text: "- TTI is reset anytime the entry is also read as well as for entry updates, and is effectively and extension to the TTL expiration policy."
+              - table [ref=e361]:
+                - rowgroup [ref=e362]:
+                  - row [ref=e363]:
+                    - cell "Note" [ref=e364]
+                    - cell [ref=e366]:
+                      - paragraph [ref=e368]: "Some data stores expire an entry when TTL is configured no matter what type of data access operation occurs on the entry (reads, writes, or otherwise). After the set, configured TTL expiration timeout, the entry is evicted from the data store regardless. Eviction actions (for example: destroy, invalidate, overflow-to-disk (for persistent stores), etc.) are data store specific."
+              - generic [ref=e369]:
+                - heading "Time-To-Live (TTL) Expiration" [level=3] [ref=e370]
+                - paragraph [ref=e372]:
+                  - text: Spring Data Redis’s
+                  - code [ref=e373]: Cache
+                  - text: implementation supports
+                  - emphasis [ref=e374]: time-to-live
+                  - text: (TTL) expiration on cache entries. Users can either configure the TTL expiration timeout with a fixed
+                  - code [ref=e375]: Duration
+                  - text: or a dynamically computed
+                  - code [ref=e376]: Duration
+                  - text: per cache entry by supplying an implementation of the new
+                  - code [ref=e377]: RedisCacheWriter.TtlFunction
+                  - text: interface.
+                - table [ref=e379]:
+                  - rowgroup [ref=e380]:
+                    - row [ref=e381]:
+                      - cell "Tip" [ref=e382]
+                      - cell [ref=e384]:
+                        - paragraph [ref=e386]:
+                          - text: The
+                          - code [ref=e387]: RedisCacheWriter.TtlFunction
+                          - text: interface was introduced in Spring Data Redis
+                          - code [ref=e388]: 3.2.0
+                          - text: .
+                - paragraph [ref=e390]:
+                  - text: If all cache entries should expire after a set duration of time, then simply configure a TTL expiration timeout with a fixed
+                  - code [ref=e391]: Duration
+                  - text: ", as follows:"
+                - generic [ref=e394]:
+                  - code [ref=e395]: java RedisCacheConfiguration fiveMinuteTtlExpirationDefaults = RedisCacheConfiguration.defaultCacheConfig().enableTtl(Duration.ofMinutes(5));
+                  - button "Copied!" [ref=e397] [cursor=pointer]
+                - paragraph [ref=e400]:
+                  - text: However, if the TTL expiration timeout should vary by cache entry, then you must provide a custom implementation of the
+                  - code [ref=e401]: RedisCacheWriter.TtlFunction
+                  - text: "interface:"
+                - generic [ref=e404]:
+                  - code [ref=e405]:
+                    - text: "java enum MyCustomTtlFunction implements TtlFunction { INSTANCE; @Override"
+                    - generic [ref=e406]: public Duration getTimeToLive(Object key, @Nullable Object value)
+                    - text: "{ // compute a TTL expiration timeout (Duration) based on the cache entry key and/or value } }"
+                  - button "Copied!" [ref=e408] [cursor=pointer]
+                - table [ref=e411]:
+                  - rowgroup [ref=e412]:
+                    - row [ref=e413]:
+                      - cell "Note" [ref=e414]
+                      - cell [ref=e416]:
+                        - paragraph [ref=e418]:
+                          - text: Under-the-hood, a fixed
+                          - code [ref=e419]: Duration
+                          - text: TTL expiration is wrapped in a
+                          - code [ref=e420]: TtlFunction
+                          - text: implementation returning the provided
+                          - code [ref=e421]: Duration
+                          - text: .
+                - paragraph [ref=e423]:
+                  - text: Then, you can either configure the fixed
+                  - code [ref=e424]: Duration
+                  - text: or the dynamic, per-cache entry
+                  - code [ref=e425]: Duration
+                  - text: "TTL expiration on a global basis using:"
+                - generic [ref=e426]:
+                  - generic [ref=e427]: Global fixed Duration TTL expiration timeout
+                  - generic [ref=e429]:
+                    - code [ref=e430]: java RedisCacheManager cacheManager = RedisCacheManager.builder(redisConnectionFactory) .cacheDefaults(fiveMinuteTtlExpirationDefaults) .build();
+                    - button "Copied!" [ref=e432] [cursor=pointer]
+                - paragraph [ref=e435]: "Or, alternatively:"
+                - generic [ref=e436]:
+                  - generic [ref=e437]: Global, dynamically computed per-cache entry Duration TTL expiration timeout
+                  - generic [ref=e439]:
+                    - code [ref=e440]: java RedisCacheConfiguration defaults = RedisCacheConfiguration.defaultCacheConfig() .entryTtl(MyCustomTtlFunction.INSTANCE); RedisCacheManager cacheManager = RedisCacheManager.builder(redisConnectionFactory) .cacheDefaults(defaults) .build();
+                    - button "Copied!" [ref=e442] [cursor=pointer]
+                - paragraph [ref=e445]: "Of course, you can combine both global and per-cache configuration using:"
+                - generic [ref=e446]:
+                  - generic [ref=e447]: Global fixed Duration TTL expiration timeout
+                  - generic [ref=e449]:
+                    - code [ref=e450]: java RedisCacheConfiguration predefined = RedisCacheConfiguration.defaultCacheConfig() .entryTtl(MyCustomTtlFunction.INSTANCE); Map<String, RedisCacheConfiguration> initialCaches = Collections.singletonMap("predefined", predefined); RedisCacheManager cacheManager = RedisCacheManager.builder(redisConnectionFactory) .cacheDefaults(fiveMinuteTtlExpirationDefaults) .withInitialCacheConfigurations(initialCaches) .build();
+                    - button "Copied!" [ref=e452] [cursor=pointer]
+              - generic [ref=e454]:
+                - heading "Time-To-Idle (TTI) Expiration" [level=3] [ref=e455]
+                - paragraph [ref=e457]: Redis itself does not support the concept of true, time-to-idle (TTI) expiration. Still, using Spring Data Redis’s Cache implementation, it is possible to achieve time-to-idle (TTI) expiration-like behavior.
+                - paragraph [ref=e459]:
+                  - text: The configuration of TTI in Spring Data Redis’s Cache implementation must be explicitly enabled, that is, is opt-in. Additionally, you must also provide TTL configuration using either a fixed
+                  - code [ref=e460]: Duration
+                  - text: or a custom implementation of the
+                  - code [ref=e461]: TtlFunction
+                  - text: interface as described above in
+                  - link "Redis Cache Expiration" [ref=e462] [cursor=pointer]:
+                    - /url: "#redis:support:cache-abstraction:expiration"
+                  - text: .
+                - paragraph [ref=e464]: "For example:"
+                - generic [ref=e467]:
+                  - code [ref=e468]:
+                    - text: java @Configuration @EnableCaching
+                    - generic [ref=e469]: class RedisConfiguration
+                    - text: "{ @Bean"
+                    - generic [ref=e470]: RedisConnectionFactory redisConnectionFactory()
+                    - text: "{ // ... } @Bean"
+                    - generic [ref=e471]: RedisCacheManager cacheManager(RedisConnectionFactory connectionFactory)
+                    - text: "{ RedisCacheConfiguration defaults = RedisCacheConfiguration.defaultCacheConfig() .entryTtl(Duration.ofMinutes(5)) .enableTimeToIdle(); return RedisCacheManager.builder(connectionFactory) .cacheDefaults(defaults) .build(); } }"
+                  - button "Copied!" [ref=e473] [cursor=pointer]
+                - paragraph [ref=e476]:
+                  - text: Because Redis servers do not implement a proper notion of TTI, then TTI can only be achieved with Redis commands accepting expiration options. In Redis, the "expiration" is technically a time-to-live (TTL) policy. However, TTL expiration can be passed when reading the value of a key thereby effectively resetting the TTL expiration timeout, as is now the case in Spring Data Redis’s
+                  - code [ref=e477]: Cache.get(key)
+                  - text: operation.
+                - paragraph [ref=e479]:
+                  - code [ref=e480]: RedisCache.get(key)
+                  - text: is implemented by calling the Redis
+                  - code [ref=e481]: GETEX
+                  - text: command.
+                - table [ref=e483]:
+                  - rowgroup [ref=e484]:
+                    - row [ref=e485]:
+                      - cell "Warning" [ref=e486]
+                      - cell [ref=e488]:
+                        - paragraph [ref=e490]:
+                          - text: The Redis
+                          - link [ref=e491] [cursor=pointer]:
+                            - /url: https://redis.io/commands/getex
+                            - code [ref=e492]: GETEX
+                          - text: command is only available in Redis version
+                          - code [ref=e493]: 6.2.0
+                          - text: and later. Therefore, if you are not using Redis
+                          - code [ref=e494]: 6.2.0
+                          - text: or later, then it is not possible to use Spring Data Redis’s TTI expiration. A command execution exception will be thrown if you enable TTI against an incompatible Redis (server) version. No attempt is made to determine if the Redis server version is correct and supports the
+                          - code [ref=e495]: GETEX
+                          - text: command.
+                - table [ref=e497]:
+                  - rowgroup [ref=e498]:
+                    - row [ref=e499]:
+                      - cell "Warning" [ref=e500]
+                      - cell [ref=e502]:
+                        - paragraph [ref=e504]:
+                          - text: "In order to achieve true time-to-idle (TTI) expiration-like behavior in your Spring Data Redis application, then an entry must be consistently accessed with (TTL) expiration on every read or write operation. There are no exceptions to this rule. If you are mixing and matching different data access patterns across your Spring Data Redis application (for example: caching, invoking operations using"
+                          - code [ref=e505]: RedisTemplate
+                          - text: and possibly, or especially when using Spring Data Repository CRUD operations), then accessing an entry may not necessarily prevent the entry from expiring if TTL expiration was set. For example, an entry maybe "put" in (written to) the cache during a
+                          - code [ref=e506]: "@Cacheable"
+                          - text: service method invocation with a TTL expiration (i.e.
+                          - code [ref=e507]: SET <expiration options>
+                          - text: ) and later read using a Spring Data Redis Repository before the expiration timeout (using
+                          - code [ref=e508]: GET
+                          - text: without expiration options). A simple
+                          - code [ref=e509]: GET
+                          - text: without specifying expiration options will not reset the TTL expiration timeout on an entry. Therefore, the entry may expire before the next data access operation, even though it was just read. Since this cannot be enforced in the Redis server, then it is the responsibility of your application to consistently access an entry when time-to-idle expiration is configured, in and outside of caching, where appropriate.
+    - text: 
+  - contentinfo [ref=e510]:
+    - generic [ref=e511]:
+      - img "Spring" [ref=e512]
+      - paragraph [ref=e513]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e514] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e515] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e516] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e517]:
+          - text: •
+          - link "Thank you" [ref=e518] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e519] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e520]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e521]:
+      - link "Youtube" [ref=e522] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e526] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e530] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e535]:
+      - generic [ref=e536]:
+        - button "Close" [ref=e538] [cursor=pointer]
+        - generic [ref=e539]:
+          - generic [ref=e541]:
+            - heading "Cookies" [level=2] [ref=e542]
+            - generic [ref=e543]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e544] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e548] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

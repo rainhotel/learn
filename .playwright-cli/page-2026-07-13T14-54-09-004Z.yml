@@ -1,0 +1,725 @@
+- generic [active] [ref=e1]:
+  - link "Skip to Main Content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link "MySQL Home" [ref=e5] [cursor=pointer]:
+        - /url: https://dev.mysql.com/
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]: The world's most popular open source database
+          - searchbox "Search" [ref=e12] [cursor=pointer]: A
+          - navigation "Contact/Login Navigation" [ref=e14]:
+            - link "Contact MySQL" [ref=e15] [cursor=pointer]:
+              - /url: https://www.mysql.com/about/contact/
+            - text: "|"
+            - link "Login" [ref=e16] [cursor=pointer]:
+              - /url: https://dev.mysql.com/auth/login/?dest=https%3A%2F%2Fdev.mysql.com%2Fdoc%2Frefman%2F8.4%2Fen%2Finnodb-index-types.html
+            - text: "|"
+            - link "Register" [ref=e17] [cursor=pointer]:
+              - /url: https://dev.mysql.com/auth/register/
+        - generic [ref=e18]:
+          - navigation "Primary Navigation" [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "MySQL.com" [ref=e22] [cursor=pointer]:
+                  - /url: https://www.mysql.com/
+              - listitem [ref=e23]:
+                - link "Downloads" [ref=e24] [cursor=pointer]:
+                  - /url: https://www.mysql.com/downloads/
+              - listitem [ref=e25]:
+                - link "Documentation" [ref=e26] [cursor=pointer]:
+                  - /url: /doc/
+              - listitem [ref=e27]:
+                - link "Developer Zone" [ref=e28] [cursor=pointer]:
+                  - /url: /
+          - navigation "Social Navigation" [ref=e30]:
+            - link "Join us on Facebook" [ref=e31] [cursor=pointer]:
+              - /url: http://www.facebook.com/mysql
+              - generic [ref=e32]: h
+            - link "Follow us on X" [ref=e33] [cursor=pointer]:
+              - /url: https://x.com/mysql
+              - generic [ref=e34]: "3"
+            - link "Follow us on LinkedIn" [ref=e35] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/mysql
+              - generic [ref=e36]: "0"
+            - link "Visit our YouTube channel" [ref=e37] [cursor=pointer]:
+              - /url: http://www.youtube.com/mysqlchannel
+              - generic [ref=e38]: j
+      - generic [ref=e40]:
+        - text: z G F I A H
+        - navigation "Secondary Navigation" [ref=e41]:
+          - list [ref=e42]:
+            - listitem [ref=e43]:
+              - link "MySQL Server" [ref=e44] [cursor=pointer]:
+                - /url: /doc/refman/en/
+            - listitem [ref=e45]:
+              - link "MySQL Enterprise" [ref=e46] [cursor=pointer]:
+                - /url: /doc/index-enterprise.html
+            - listitem [ref=e47]:
+              - link "Workbench" [ref=e48] [cursor=pointer]:
+                - /url: /doc/workbench/en/
+            - listitem [ref=e49]:
+              - link "InnoDB Cluster" [ref=e50] [cursor=pointer]:
+                - /url: /doc/mysql-shell/en/mysql-innodb-cluster.html
+            - listitem [ref=e51]:
+              - link "MySQL NDB Cluster" [ref=e52] [cursor=pointer]:
+                - /url: /doc/index-cluster.html
+            - listitem [ref=e53]:
+              - link "Connectors" [ref=e54] [cursor=pointer]:
+                - /url: /doc/index-connectors.html
+            - listitem [ref=e55]:
+              - link "More" [ref=e56] [cursor=pointer]:
+                - /url: /doc/index-other.html
+    - main [ref=e58]:
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - link "Hide Sidebar" [ref=e63] [cursor=pointer]:
+              - /url: ""
+              - generic [ref=e64]: s
+            - generic [ref=e65]:
+              - link "Previous" [ref=e66] [cursor=pointer]:
+                - /url: innodb-indexes.html
+                - generic [ref=e67]: o
+              - link "Start" [ref=e68] [cursor=pointer]:
+                - /url: index.html
+                - generic [ref=e69]: "N"
+              - link "Up" [ref=e70] [cursor=pointer]:
+                - /url: innodb-indexes.html
+                - generic [ref=e71]: q
+              - link "Next" [ref=e72] [cursor=pointer]:
+                - /url: innodb-physical-structure.html
+                - generic [ref=e73]: v
+          - generic [ref=e76]:
+            - textbox "Search this Manual" [ref=e77]
+            - button "Search" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: A
+          - generic [ref=e80]:
+            - link "E Documentation Home" [ref=e81] [cursor=pointer]:
+              - /url: /doc/
+              - generic [ref=e82]: E
+              - text: Documentation Home
+            - separator [ref=e83]
+            - generic [ref=e84]: MySQL 8.4 Reference Manual
+            - navigation [ref=e85]:
+              - list [ref=e86]:
+                - listitem [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: w
+                    - link "Preface and Legal Notices" [ref=e92] [cursor=pointer]:
+                      - /url: preface.html
+                - listitem [ref=e93]:
+                  - generic [ref=e94]:
+                    - link "Subnav" [ref=e96] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e97]: v
+                    - link "General Information" [ref=e99] [cursor=pointer]:
+                      - /url: introduction.html
+                - listitem [ref=e100]:
+                  - generic [ref=e101]:
+                    - link "Subnav" [ref=e103] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e104]: v
+                    - link "Installing MySQL" [ref=e106] [cursor=pointer]:
+                      - /url: installing.html
+                - listitem [ref=e107]:
+                  - generic [ref=e108]:
+                    - link "Subnav" [ref=e110] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e111]: v
+                    - link "Upgrading MySQL" [ref=e113] [cursor=pointer]:
+                      - /url: upgrading.html
+                - listitem [ref=e114]:
+                  - generic [ref=e115]:
+                    - generic [ref=e116]: w
+                    - link "Downgrading MySQL" [ref=e119] [cursor=pointer]:
+                      - /url: downgrading.html
+                - listitem [ref=e120]:
+                  - generic [ref=e121]:
+                    - link "Subnav" [ref=e123] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e124]: v
+                    - link "Tutorial" [ref=e126] [cursor=pointer]:
+                      - /url: tutorial.html
+                - listitem [ref=e127]:
+                  - generic [ref=e128]:
+                    - link "Subnav" [ref=e130] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e131]: v
+                    - link "MySQL Programs" [ref=e133] [cursor=pointer]:
+                      - /url: programs.html
+                - listitem [ref=e134]:
+                  - generic [ref=e135]:
+                    - link "Subnav" [ref=e137] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e138]: v
+                    - link "MySQL Server Administration" [ref=e140] [cursor=pointer]:
+                      - /url: server-administration.html
+                - listitem [ref=e141]:
+                  - generic [ref=e142]:
+                    - link "Subnav" [ref=e144] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e145]: v
+                    - link "Security" [ref=e147] [cursor=pointer]:
+                      - /url: security.html
+                - listitem [ref=e148]:
+                  - generic [ref=e149]:
+                    - link "Subnav" [ref=e151] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e152]: v
+                    - link "Backup and Recovery" [ref=e154] [cursor=pointer]:
+                      - /url: backup-and-recovery.html
+                - listitem [ref=e155]:
+                  - generic [ref=e156]:
+                    - link "Subnav" [ref=e158] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e159]: v
+                    - link "Optimization" [ref=e161] [cursor=pointer]:
+                      - /url: optimization.html
+                - listitem [ref=e162]:
+                  - generic [ref=e163]:
+                    - link "Subnav" [ref=e165] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e166]: v
+                    - link "Language Structure" [ref=e168] [cursor=pointer]:
+                      - /url: language-structure.html
+                - listitem [ref=e169]:
+                  - generic [ref=e170]:
+                    - link "Subnav" [ref=e172] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e173]: v
+                    - link "Character Sets, Collations, Unicode" [ref=e175] [cursor=pointer]:
+                      - /url: charset.html
+                - listitem [ref=e176]:
+                  - generic [ref=e177]:
+                    - link "Subnav" [ref=e179] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e180]: v
+                    - link "Data Types" [ref=e182] [cursor=pointer]:
+                      - /url: data-types.html
+                - listitem [ref=e183]:
+                  - generic [ref=e184]:
+                    - link "Subnav" [ref=e186] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e187]: v
+                    - link "Functions and Operators" [ref=e189] [cursor=pointer]:
+                      - /url: functions.html
+                - listitem [ref=e190]:
+                  - generic [ref=e191]:
+                    - link "Subnav" [ref=e193] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e194]: v
+                    - link "SQL Statements" [ref=e196] [cursor=pointer]:
+                      - /url: sql-statements.html
+                - listitem [ref=e197]:
+                  - generic [ref=e198]:
+                    - link "Subnav" [ref=e200] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e201]: v
+                    - link "MySQL Data Dictionary" [ref=e203] [cursor=pointer]:
+                      - /url: data-dictionary.html
+                - listitem [ref=e204]:
+                  - generic [ref=e205]:
+                    - link "Subnav" [ref=e207] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e208]: "n"
+                    - link "The InnoDB Storage Engine" [ref=e210] [cursor=pointer]:
+                      - /url: innodb-storage-engine.html
+                  - list [ref=e212]:
+                    - listitem [ref=e213]:
+                      - generic [ref=e214]:
+                        - link "Subnav" [ref=e216] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e217]: v
+                        - link "Introduction to InnoDB" [ref=e219] [cursor=pointer]:
+                          - /url: innodb-introduction.html
+                      - text: w w w w
+                    - listitem [ref=e220]:
+                      - generic [ref=e221]:
+                        - generic [ref=e222]: w
+                        - link "InnoDB and the ACID Model" [ref=e225] [cursor=pointer]:
+                          - /url: mysql-acid.html
+                    - listitem [ref=e226]:
+                      - generic [ref=e227]:
+                        - generic [ref=e228]: w
+                        - link "InnoDB Multi-Versioning" [ref=e231] [cursor=pointer]:
+                          - /url: innodb-multi-versioning.html
+                    - listitem [ref=e232]:
+                      - generic [ref=e233]:
+                        - generic [ref=e234]: w
+                        - link "InnoDB Architecture" [ref=e237] [cursor=pointer]:
+                          - /url: innodb-architecture.html
+                    - listitem [ref=e238]:
+                      - generic [ref=e239]:
+                        - link "Subnav" [ref=e241] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e242]: v
+                        - link "InnoDB In-Memory Structures" [ref=e244] [cursor=pointer]:
+                          - /url: innodb-in-memory-structures.html
+                      - text: w w w w
+                    - listitem [ref=e245]:
+                      - generic [ref=e246]:
+                        - link "Subnav" [ref=e248] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e249]: "n"
+                        - link "InnoDB On-Disk Structures" [ref=e251] [cursor=pointer]:
+                          - /url: innodb-on-disk-structures.html
+                      - list [ref=e253]:
+                        - listitem [ref=e254]:
+                          - generic [ref=e255]:
+                            - link "Subnav" [ref=e257] [cursor=pointer]:
+                              - /url: ""
+                              - generic [ref=e258]: v
+                            - link "Tables" [ref=e260] [cursor=pointer]:
+                              - /url: innodb-tables.html
+                          - text: w w w w w w
+                        - listitem [ref=e261]:
+                          - generic [ref=e262]:
+                            - link "Subnav" [ref=e264] [cursor=pointer]:
+                              - /url: ""
+                              - generic [ref=e265]: "n"
+                            - link "Indexes" [ref=e267] [cursor=pointer]:
+                              - /url: innodb-indexes.html
+                          - list [ref=e269]:
+                            - listitem [ref=e270]:
+                              - generic [ref=e271]:
+                                - generic [ref=e272]: w
+                                - link "Clustered and Secondary Indexes" [ref=e275] [cursor=pointer]:
+                                  - /url: innodb-index-types.html
+                            - listitem [ref=e276]:
+                              - generic [ref=e277]:
+                                - generic [ref=e278]: w
+                                - link "The Physical Structure of an InnoDB Index" [ref=e281] [cursor=pointer]:
+                                  - /url: innodb-physical-structure.html
+                            - listitem [ref=e282]:
+                              - generic [ref=e283]:
+                                - generic [ref=e284]: w
+                                - link "Sorted Index Builds" [ref=e287] [cursor=pointer]:
+                                  - /url: sorted-index-builds.html
+                            - listitem [ref=e288]:
+                              - generic [ref=e289]:
+                                - generic [ref=e290]: w
+                                - link "InnoDB Full-Text Indexes" [ref=e293] [cursor=pointer]:
+                                  - /url: innodb-fulltext-index.html
+                        - listitem [ref=e294]:
+                          - generic [ref=e295]:
+                            - link "Subnav" [ref=e297] [cursor=pointer]:
+                              - /url: ""
+                              - generic [ref=e298]: v
+                            - link "Tablespaces" [ref=e300] [cursor=pointer]:
+                              - /url: innodb-tablespace.html
+                          - text: w w w w w w w w w
+                        - listitem [ref=e301]:
+                          - generic [ref=e302]:
+                            - generic [ref=e303]: w
+                            - link "Doublewrite Buffer" [ref=e306] [cursor=pointer]:
+                              - /url: innodb-doublewrite-buffer.html
+                        - listitem [ref=e307]:
+                          - generic [ref=e308]:
+                            - generic [ref=e309]: w
+                            - link "Redo Log" [ref=e312] [cursor=pointer]:
+                              - /url: innodb-redo-log.html
+                        - listitem [ref=e313]:
+                          - generic [ref=e314]:
+                            - generic [ref=e315]: w
+                            - link "Undo Logs" [ref=e318] [cursor=pointer]:
+                              - /url: innodb-undo-logs.html
+                    - listitem [ref=e319]:
+                      - generic [ref=e320]:
+                        - link "Subnav" [ref=e322] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e323]: v
+                        - link "InnoDB Locking and Transaction Model" [ref=e325] [cursor=pointer]:
+                          - /url: innodb-locking-transaction-model.html
+                      - text: w v w w w w w w v w w w w
+                    - listitem [ref=e326]:
+                      - generic [ref=e327]:
+                        - link "Subnav" [ref=e329] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e330]: v
+                        - link "InnoDB Configuration" [ref=e332] [cursor=pointer]:
+                          - /url: innodb-configuration.html
+                      - text: w w v w w w w w w w w w w w w w v w w w w w
+                    - listitem [ref=e333]:
+                      - generic [ref=e334]:
+                        - link "Subnav" [ref=e336] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e337]: v
+                        - link "InnoDB Table and Page Compression" [ref=e339] [cursor=pointer]:
+                          - /url: innodb-compression.html
+                      - text: v w w w w w w w w
+                    - listitem [ref=e340]:
+                      - generic [ref=e341]:
+                        - generic [ref=e342]: w
+                        - link "InnoDB Row Formats" [ref=e345] [cursor=pointer]:
+                          - /url: innodb-row-format.html
+                    - listitem [ref=e346]:
+                      - generic [ref=e347]:
+                        - link "Subnav" [ref=e349] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e350]: v
+                        - link "InnoDB Disk I/O and File Space Management" [ref=e352] [cursor=pointer]:
+                          - /url: innodb-disk-management.html
+                      - text: w w w w w
+                    - listitem [ref=e353]:
+                      - generic [ref=e354]:
+                        - link "Subnav" [ref=e356] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e357]: v
+                        - link "InnoDB and Online DDL" [ref=e359] [cursor=pointer]:
+                          - /url: innodb-online-ddl.html
+                      - text: w w w w w w w w
+                    - listitem [ref=e360]:
+                      - generic [ref=e361]:
+                        - generic [ref=e362]: w
+                        - link "InnoDB Data-at-Rest Encryption" [ref=e365] [cursor=pointer]:
+                          - /url: innodb-data-encryption.html
+                    - listitem [ref=e366]:
+                      - generic [ref=e367]:
+                        - generic [ref=e368]: w
+                        - link "InnoDB Startup Options and System Variables" [ref=e371] [cursor=pointer]:
+                          - /url: innodb-parameters.html
+                    - listitem [ref=e372]:
+                      - generic [ref=e373]:
+                        - link "Subnav" [ref=e375] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e376]: v
+                        - link "InnoDB INFORMATION_SCHEMA Tables" [ref=e378] [cursor=pointer]:
+                          - /url: innodb-information-schema.html
+                      - text: v w w w v w w w w w w w w w
+                    - listitem [ref=e379]:
+                      - generic [ref=e380]:
+                        - link "Subnav" [ref=e382] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e383]: v
+                        - link "InnoDB Integration with MySQL Performance Schema" [ref=e385] [cursor=pointer]:
+                          - /url: innodb-performance-schema.html
+                      - text: w w
+                    - listitem [ref=e386]:
+                      - generic [ref=e387]:
+                        - link "Subnav" [ref=e389] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e390]: v
+                        - link "InnoDB Monitors" [ref=e392] [cursor=pointer]:
+                          - /url: innodb-monitors.html
+                      - text: w w w
+                    - listitem [ref=e393]:
+                      - generic [ref=e394]:
+                        - link "Subnav" [ref=e396] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e397]: v
+                        - link "InnoDB Backup and Recovery" [ref=e399] [cursor=pointer]:
+                          - /url: innodb-backup-recovery.html
+                      - text: w w
+                    - listitem [ref=e400]:
+                      - generic [ref=e401]:
+                        - generic [ref=e402]: w
+                        - link "InnoDB and MySQL Replication" [ref=e405] [cursor=pointer]:
+                          - /url: innodb-and-mysql-replication.html
+                    - listitem [ref=e406]:
+                      - generic [ref=e407]:
+                        - link "Subnav" [ref=e409] [cursor=pointer]:
+                          - /url: ""
+                          - generic [ref=e410]: v
+                        - link "InnoDB Troubleshooting" [ref=e412] [cursor=pointer]:
+                          - /url: innodb-troubleshooting.html
+                      - text: w w w w w
+                    - listitem [ref=e413]:
+                      - generic [ref=e414]:
+                        - generic [ref=e415]: w
+                        - link "InnoDB Limits" [ref=e418] [cursor=pointer]:
+                          - /url: innodb-limits.html
+                    - listitem [ref=e419]:
+                      - generic [ref=e420]:
+                        - generic [ref=e421]: w
+                        - link "InnoDB Restrictions and Limitations" [ref=e424] [cursor=pointer]:
+                          - /url: innodb-restrictions-limitations.html
+                - listitem [ref=e425]:
+                  - generic [ref=e426]:
+                    - link "Subnav" [ref=e428] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e429]: v
+                    - link "Alternative Storage Engines" [ref=e431] [cursor=pointer]:
+                      - /url: storage-engines.html
+                - listitem [ref=e432]:
+                  - generic [ref=e433]:
+                    - link "Subnav" [ref=e435] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e436]: v
+                    - link "Replication" [ref=e438] [cursor=pointer]:
+                      - /url: replication.html
+                - listitem [ref=e439]:
+                  - generic [ref=e440]:
+                    - link "Subnav" [ref=e442] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e443]: v
+                    - link "Group Replication" [ref=e445] [cursor=pointer]:
+                      - /url: group-replication.html
+                - listitem [ref=e446]:
+                  - generic [ref=e447]:
+                    - generic [ref=e448]: w
+                    - link "MySQL Shell" [ref=e451] [cursor=pointer]:
+                      - /url: mysql-shell-userguide.html
+                - listitem [ref=e452]:
+                  - generic [ref=e453]:
+                    - link "Subnav" [ref=e455] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e456]: v
+                    - link "Using MySQL as a Document Store" [ref=e458] [cursor=pointer]:
+                      - /url: document-store.html
+                - listitem [ref=e459]:
+                  - generic [ref=e460]:
+                    - generic [ref=e461]: w
+                    - link "InnoDB Cluster" [ref=e464] [cursor=pointer]:
+                      - /url: mysql-innodb-cluster-introduction.html
+                - listitem [ref=e465]:
+                  - generic [ref=e466]:
+                    - generic [ref=e467]: w
+                    - link "InnoDB ReplicaSet" [ref=e470] [cursor=pointer]:
+                      - /url: mysql-innodb-replicaset-introduction.html
+                - listitem [ref=e471]:
+                  - generic [ref=e472]:
+                    - link "Subnav" [ref=e474] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e475]: v
+                    - link "MySQL NDB Cluster 8.4" [ref=e477] [cursor=pointer]:
+                      - /url: mysql-cluster.html
+                - listitem [ref=e478]:
+                  - generic [ref=e479]:
+                    - link "Subnav" [ref=e481] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e482]: v
+                    - link "Partitioning" [ref=e484] [cursor=pointer]:
+                      - /url: partitioning.html
+                - listitem [ref=e485]:
+                  - generic [ref=e486]:
+                    - link "Subnav" [ref=e488] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e489]: v
+                    - link "Stored Objects" [ref=e491] [cursor=pointer]:
+                      - /url: stored-objects.html
+                - listitem [ref=e492]:
+                  - generic [ref=e493]:
+                    - link "Subnav" [ref=e495] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e496]: v
+                    - link "INFORMATION_SCHEMA Tables" [ref=e498] [cursor=pointer]:
+                      - /url: information-schema.html
+                - listitem [ref=e499]:
+                  - generic [ref=e500]:
+                    - link "Subnav" [ref=e502] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e503]: v
+                    - link "MySQL Performance Schema" [ref=e505] [cursor=pointer]:
+                      - /url: performance-schema.html
+                - listitem [ref=e506]:
+                  - generic [ref=e507]:
+                    - link "Subnav" [ref=e509] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e510]: v
+                    - link "MySQL sys Schema" [ref=e512] [cursor=pointer]:
+                      - /url: sys-schema.html
+                - listitem [ref=e513]:
+                  - generic [ref=e514]:
+                    - link "Subnav" [ref=e516] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e517]: v
+                    - link "Connectors and APIs" [ref=e519] [cursor=pointer]:
+                      - /url: connectors-apis.html
+                - listitem [ref=e520]:
+                  - generic [ref=e521]:
+                    - link "Subnav" [ref=e523] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e524]: v
+                    - link "MySQL Enterprise Edition" [ref=e526] [cursor=pointer]:
+                      - /url: mysql-enterprise.html
+                - listitem [ref=e527]:
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: w
+                    - link "MySQL Workbench" [ref=e532] [cursor=pointer]:
+                      - /url: workbench.html
+                - listitem [ref=e533]:
+                  - generic [ref=e534]:
+                    - link "Subnav" [ref=e536] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e537]: v
+                    - link "MySQL on OCI Marketplace" [ref=e539] [cursor=pointer]:
+                      - /url: mysql-oci-marketplace.html
+                - listitem [ref=e540]:
+                  - generic [ref=e541]:
+                    - link "Subnav" [ref=e543] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e544]: v
+                    - link "Telemetry" [ref=e546] [cursor=pointer]:
+                      - /url: telemetry.html
+                - listitem [ref=e547]:
+                  - generic [ref=e548]:
+                    - link "Subnav" [ref=e550] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e551]: v
+                    - link "MySQL 8.4 Frequently Asked Questions" [ref=e553] [cursor=pointer]:
+                      - /url: faqs.html
+                - listitem [ref=e554]:
+                  - generic [ref=e555]:
+                    - link "Subnav" [ref=e557] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e558]: v
+                    - link "Error Messages and Common Problems" [ref=e560] [cursor=pointer]:
+                      - /url: error-handling.html
+                - listitem [ref=e561]:
+                  - generic [ref=e562]:
+                    - link "Subnav" [ref=e564] [cursor=pointer]:
+                      - /url: ""
+                      - generic [ref=e565]: v
+                    - link "Indexes" [ref=e567] [cursor=pointer]:
+                      - /url: indexes.html
+                - listitem [ref=e568]:
+                  - generic [ref=e569]:
+                    - generic [ref=e570]: w
+                    - link "MySQL Glossary" [ref=e573] [cursor=pointer]:
+                      - /url: glossary.html
+          - link "T Related Documentation" [ref=e574] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e575]: T
+            - generic [ref=e576]: Related Documentation
+          - link "MySQL 8.4 Release Notes" [ref=e579] [cursor=pointer]:
+            - /url: /doc/relnotes/mysql/8.4/en/
+          - link "F Download this Manual" [ref=e580] [cursor=pointer]:
+            - /url: ""
+            - generic [ref=e581]: F
+            - generic [ref=e582]: Download this Manual
+          - generic [ref=e584]:
+            - link "PDF (US Ltr)" [ref=e585] [cursor=pointer]:
+              - /url: https://downloads.mysql.com/docs/refman-8.4-en.pdf
+            - text: "- 40.2Mb"
+            - link "PDF (A4)" [ref=e586] [cursor=pointer]:
+              - /url: https://downloads.mysql.com/docs/refman-8.4-en.a4.pdf
+            - text: "- 40.3Mb"
+            - link "Man Pages (TGZ)" [ref=e587] [cursor=pointer]:
+              - /url: https://downloads.mysql.com/docs/refman-8.4-en.man-gpl.tar.gz
+            - text: "- 262.1Kb"
+            - link "Man Pages (Zip)" [ref=e588] [cursor=pointer]:
+              - /url: https://downloads.mysql.com/docs/refman-8.4-en.man-gpl.zip
+            - text: "- 367.7Kb"
+            - link "Info (Gzip)" [ref=e589] [cursor=pointer]:
+              - /url: https://downloads.mysql.com/docs/mysql-8.4.info.gz
+            - text: "- 4.0Mb"
+            - link "Info (Zip)" [ref=e590] [cursor=pointer]:
+              - /url: https://downloads.mysql.com/docs/mysql-8.4.info.zip
+            - text: "- 4.0Mb"
+        - generic [ref=e592]:
+          - link "version 8.4 n" [ref=e594] [cursor=pointer]:
+            - /url: ""
+            - text: version 8.4
+            - generic [ref=e595]: "n"
+          - text: a
+          - generic [ref=e596]:
+            - link "MySQL 8.4 Reference Manual" [ref=e597] [cursor=pointer]:
+              - /url: /doc/refman/8.4/en/
+            - text: /
+            - generic [ref=e598]:
+              - link "..." [ref=e599] [cursor=pointer]:
+                - /url: ""
+              - text: /
+            - text: Clustered and Secondary Indexes
+          - generic [ref=e601]:
+            - heading "17.6.2.1 Clustered and Secondary Indexes" [level=4] [ref=e605]
+            - paragraph [ref=e606]:
+              - text: Each
+              - code [ref=e607]: InnoDB
+              - text: table has a special index called the clustered index that stores row data. Typically, the clustered index is synonymous with the primary key. To get the best performance from queries, inserts, and other database operations, it is important to understand how
+              - code [ref=e608]: InnoDB
+              - text: uses the clustered index to optimize the common lookup and DML operations.
+            - list [ref=e610]:
+              - listitem [ref=e611]:
+                - paragraph [ref=e612]:
+                  - text: When you define a
+                  - code [ref=e613]: PRIMARY KEY
+                  - text: on a table,
+                  - code [ref=e614]: InnoDB
+                  - text: uses it as the clustered index. A primary key should be defined for each table. If there is no logical unique and non-null column or set of columns to use a the primary key, add an auto-increment column. Auto-increment column values are unique and are added automatically as new rows are inserted.
+              - listitem [ref=e615]:
+                - paragraph [ref=e616]:
+                  - text: If you do not define a
+                  - code [ref=e617]: PRIMARY KEY
+                  - text: for a table,
+                  - code [ref=e618]: InnoDB
+                  - text: uses the first
+                  - code [ref=e619]: UNIQUE
+                  - text: index with all key columns defined as
+                  - code [ref=e620]: NOT NULL
+                  - text: as the clustered index.
+              - listitem [ref=e621]:
+                - paragraph [ref=e622]:
+                  - text: If a table has no
+                  - code [ref=e623]: PRIMARY KEY
+                  - text: or suitable
+                  - code [ref=e624]: UNIQUE
+                  - text: index,
+                  - code [ref=e625]: InnoDB
+                  - text: generates a hidden clustered index named
+                  - code [ref=e626]: GEN_CLUST_INDEX
+                  - text: on a synthetic column that contains row ID values. The rows are ordered by the row ID that
+                  - code [ref=e627]: InnoDB
+                  - text: assigns. The row ID is a 6-byte field that increases monotonically as new rows are inserted. Thus, the rows ordered by the row ID are physically in order of insertion.
+            - generic [ref=e628]:
+              - heading "How the Clustered Index Speeds Up Queries" [level=5] [ref=e632]
+              - paragraph [ref=e633]: Accessing a row through the clustered index is fast because the index search leads directly to the page that contains the row data. If a table is large, the clustered index architecture often saves a disk I/O operation when compared to storage organizations that store row data using a different page from the index record.
+            - generic [ref=e634]:
+              - heading "How Secondary Indexes Relate to the Clustered Index" [level=5] [ref=e638]
+              - paragraph [ref=e639]:
+                - text: Indexes other than the clustered index are known as secondary indexes. In
+                - code [ref=e640]: InnoDB
+                - text: ", each record in a secondary index contains the primary key columns for the row, as well as the columns specified for the secondary index."
+                - code [ref=e641]: InnoDB
+                - text: uses this primary key value to search for the row in the clustered index.
+              - paragraph [ref=e642]: If the primary key is long, the secondary indexes use more space, so it is advantageous to have a short primary key.
+              - paragraph [ref=e643]:
+                - text: For guidelines to take advantage of
+                - code [ref=e644]: InnoDB
+                - text: clustered and secondary indexes, see
+                - link "Section 10.3, “Optimization and Indexes”" [ref=e645] [cursor=pointer]:
+                  - /url: optimization-indexes.html
+                - text: .
+          - generic [ref=e647]:
+            - link "Previous" [ref=e648] [cursor=pointer]:
+              - /url: innodb-indexes.html
+              - generic [ref=e649]: o
+              - text: PREV
+            - link "Start" [ref=e650] [cursor=pointer]:
+              - /url: index.html
+              - text: HOME
+            - link "Up" [ref=e651] [cursor=pointer]:
+              - /url: innodb-indexes.html
+              - text: UP
+            - link "Next" [ref=e652] [cursor=pointer]:
+              - /url: innodb-physical-structure.html
+              - text: NEXT
+              - generic [ref=e653]: v
+          - text: T F
+    - contentinfo [ref=e654]:
+      - generic [ref=e655]:
+        - link "Expand Footer" [ref=e657] [cursor=pointer]:
+          - /url: ""
+          - generic [ref=e658]: C
+        - generic [ref=e659]:
+          - text: p
+          - generic [ref=e660]:
+            - link "Oracle" [ref=e661] [cursor=pointer]:
+              - /url: http://www.oracle.com/
+            - link "© 2026 Oracle" [ref=e663] [cursor=pointer]:
+              - /url: https://www.oracle.com/legal/copyright.html
+        - generic [ref=e664]:
+          - link "Join us on Facebook" [ref=e665] [cursor=pointer]:
+            - /url: http://www.facebook.com/mysql
+            - generic [ref=e666]: f
+          - link "Follow us on X" [ref=e667] [cursor=pointer]:
+            - /url: https://x.com/mysql
+            - generic [ref=e668]: "4"
+          - link "Follow us on LinkedIn" [ref=e669] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/mysql
+            - generic [ref=e670]: "1"
+          - link "Visit our YouTube channel" [ref=e671] [cursor=pointer]:
+            - /url: http://www.youtube.com/mysqlchannel
+            - generic [ref=e672]: "y"

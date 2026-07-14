@@ -1,0 +1,650 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "What's new?" [ref=e50] [cursor=pointer]:
+              - /url: /docs/latest/develop/whats-new/
+          - listitem [ref=e52]:
+            - link "Quick starts" [ref=e53] [cursor=pointer]:
+              - /url: /docs/latest/develop/get-started/
+          - listitem [ref=e55]:
+            - link "Client tools" [ref=e56] [cursor=pointer]:
+              - /url: /docs/latest/develop/tools/
+          - listitem [ref=e58]:
+            - link "Client APIs" [ref=e59] [cursor=pointer]:
+              - /url: /docs/latest/develop/clients/
+          - listitem [ref=e61]:
+            - link "Using commands" [ref=e62] [cursor=pointer]:
+              - /url: /docs/latest/develop/using-commands/
+          - listitem [ref=e64]:
+            - link "Data types" [ref=e65] [cursor=pointer]:
+              - /url: /docs/latest/develop/data-types/
+          - listitem [ref=e67]:
+            - link "Redis for AI and search" [ref=e68] [cursor=pointer]:
+              - /url: /docs/latest/develop/ai/
+          - listitem [ref=e70]:
+            - link "Programmability" [ref=e71] [cursor=pointer]:
+              - /url: /docs/latest/develop/programmability/
+          - listitem [ref=e73]:
+            - link "Use cases" [ref=e74] [cursor=pointer]:
+              - /url: /docs/latest/develop/use-cases/
+          - listitem [ref=e76]:
+            - link "Pub/sub" [ref=e77] [cursor=pointer]:
+              - /url: /docs/latest/develop/pubsub/
+          - listitem [ref=e79]:
+            - link "Reference" [ref=e80] [cursor=pointer]:
+              - /url: /docs/latest/develop/reference/
+            - list [ref=e82]:
+              - listitem [ref=e83]:
+                - link "Command tips" [ref=e84] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/command-tips/
+              - listitem [ref=e86]:
+                - link "Client-side caching" [ref=e87] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/client-side-caching/
+              - listitem [ref=e89]:
+                - link "Modules API" [ref=e90] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/modules/
+              - listitem [ref=e92]:
+                - link "Sentinel clients" [ref=e93] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/sentinel-clients/
+              - listitem [ref=e95]:
+                - link "Command key specifications" [ref=e96] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/key-specs/
+              - listitem [ref=e98]:
+                - link "Protocol spec" [ref=e99] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/protocol-spec/
+              - listitem [ref=e101]:
+                - link "Client handling" [ref=e102] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/clients/
+              - listitem [ref=e104]:
+                - link "Eviction":
+                  - /url: /docs/latest/develop/reference/eviction/
+              - listitem [ref=e105]:
+                - link "Command arguments" [ref=e106] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/command-arguments/
+              - listitem [ref=e108]:
+                - link "Gopher protocol" [ref=e109] [cursor=pointer]:
+                  - /url: /docs/latest/develop/reference/gopher/
+        - link "Libraries and tools" [ref=e111] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e112] [cursor=pointer]:
+          - /url: /docs/latest/operate
+      - link "Commands" [ref=e114] [cursor=pointer]:
+        - /url: /docs/latest/commands
+    - generic [ref=e115]:
+      - navigation "Breadcrumb" [ref=e116]:
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - link "Docs Docs" [ref=e119] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e120]: Docs
+          - listitem [ref=e121]:
+            - generic [ref=e122]: →
+            - link "Develop with Redis" [ref=e123] [cursor=pointer]:
+              - /url: /docs/latest/develop/
+          - listitem [ref=e124]:
+            - generic [ref=e125]: →
+            - link "Redis reference" [ref=e126] [cursor=pointer]:
+              - /url: /docs/latest/develop/reference/
+          - listitem:
+            - generic: →
+            - link "Key eviction":
+              - /url: /docs/latest/develop/reference/eviction/
+      - generic [ref=e127]:
+        - heading "Key eviction" [level=1] [ref=e128]
+        - paragraph [ref=e129]: Overview of Redis key eviction policies (LRU, LFU, etc.)
+        - paragraph [ref=e130]: Redis is commonly used as a cache to speed up read accesses to a slower server or database. Since cache entries are copies of persistently-stored data, it is usually safe to evict them when the cache runs out of memory (they can be cached again in the future if necessary).
+        - paragraph [ref=e131]: Redis lets you specify an eviction policy to evict keys automatically when the size of the cache exceeds a set memory limit. Whenever a client runs a new command that adds more data to the cache, Redis checks the memory usage. If it is greater than the limit, Redis evicts keys according to the chosen eviction policy until the total memory used is back below the limit.
+        - paragraph [ref=e132]: Note that when a command adds a lot of data to the cache (for example, a big set intersection stored into a new key), this might temporarily exceed the limit by a large amount.
+        - paragraph [ref=e133]:
+          - text: The sections below explain how to
+          - link "configure the memory limit" [ref=e134] [cursor=pointer]:
+            - /url: "#maxmem"
+          - text: for the cache and also describe the available
+          - link "eviction policies" [ref=e135] [cursor=pointer]:
+            - /url: "#eviction-policies"
+          - text: and when to use them.
+        - heading [level=2] [ref=e136]:
+          - text: Using the
+          - code [ref=e137]: maxmemory
+          - text: configuration directive
+          - link "Link to this section" [ref=e138] [cursor=pointer]:
+            - /url: "#maxmem"
+        - paragraph [ref=e141]:
+          - text: The
+          - code [ref=e142]: maxmemory
+          - text: configuration directive specifies the maximum amount of memory to use for the cache data. You can set
+          - code [ref=e143]: maxmemory
+          - text: with the
+          - link [ref=e144] [cursor=pointer]:
+            - /url: https://github.com/redis/redis/blob/7.4.0/redis.conf
+            - code [ref=e145]: redis.conf
+          - text: file at startup time. For example, to configure a memory limit of 100 megabytes, you can use the following directive inside
+          - code [ref=e146]: redis.conf
+          - text: ":"
+        - code [ref=e148]: maxmemory 100mb
+        - paragraph [ref=e149]:
+          - text: You can also use
+          - link [ref=e150] [cursor=pointer]:
+            - /url: /docs/latest/commands/config-set/
+            - code [ref=e151]: CONFIG SET
+          - text: to set
+          - code [ref=e152]: maxmemory
+          - text: at runtime using
+          - link [ref=e153] [cursor=pointer]:
+            - /url: /docs/latest/develop/tools/cli/
+            - code [ref=e154]: redis-cli
+          - text: ":"
+        - generic [ref=e155]:
+          - code [ref=e157]:
+            - generic [ref=e158]: "> CONFIG SET maxmemory 100mb"
+          - button "Copy to clipboard" [ref=e161] [cursor=pointer]
+        - paragraph [ref=e164]:
+          - text: Set
+          - code [ref=e165]: maxmemory
+          - text: to zero to specify that you don't want to limit the memory for the dataset. This is the default behavior for 64-bit systems, while 32-bit systems use an implicit memory limit of 3GB.
+        - paragraph [ref=e166]:
+          - text: When the size of your cache exceeds the limit set by
+          - code [ref=e167]: maxmemory
+          - text: ", Redis will enforce your chosen"
+          - link "eviction policy" [ref=e168] [cursor=pointer]:
+            - /url: "#eviction-policies"
+          - text: to prevent any further growth of the cache.
+        - heading [level=3] [ref=e169]:
+          - text: Setting
+          - code [ref=e170]: maxmemory
+          - text: for a replicated or persisted instance
+          - link "Link to this section" [ref=e171] [cursor=pointer]:
+            - /url: "#setting-maxmemory-for-a-replicated-or-persisted-instance"
+        - paragraph [ref=e174]:
+          - text: If you are using
+          - link "replication" [ref=e175] [cursor=pointer]:
+            - /url: /docs/latest/operate/rs/databases/durability-ha/replication/
+          - text: or
+          - link "persistence" [ref=e176] [cursor=pointer]:
+            - /url: /docs/latest/operate/rs/databases/configure/database-persistence/
+          - text: for a server, Redis will use some RAM as a buffer to store the set of updates waiting to be written to the replicas or AOF files. The memory used by this buffer is not included in the total that is compared to
+          - code [ref=e177]: maxmemory
+          - text: to see if eviction is required.
+        - paragraph [ref=e178]: This is because the key evictions themselves generate updates that must be added to the buffer. If the updates were counted among the used memory then in some circumstances, the memory saved by evicting keys would be immediately used up by the update data added to the buffer. This, in turn, would trigger even more evictions and the resulting feedback loop could evict many items from the cache unnecessarily.
+        - paragraph [ref=e179]:
+          - text: If you are using replication or persistence, we recommend that you set
+          - code [ref=e180]: maxmemory
+          - text: to leave a little RAM free to store the buffers. Note that this is not necessary for the
+          - code [ref=e181]: noeviction
+          - text: policy (see
+          - link "the section below" [ref=e182] [cursor=pointer]:
+            - /url: "#eviction-policies"
+          - text: for more information about eviction policies).
+        - paragraph [ref=e183]:
+          - text: The
+          - link [ref=e184] [cursor=pointer]:
+            - /url: /docs/latest/commands/info/
+            - code [ref=e185]: INFO
+          - text: command returns a
+          - code [ref=e186]: mem_not_counted_for_evict
+          - text: value in the
+          - code [ref=e187]: memory
+          - text: section (you can use the
+          - code [ref=e188]: INFO memory
+          - text: option to see just this section). This is the amount of memory currently used by the buffers. Although the exact amount will vary, you can use it to estimate how much to subtract from the total available RAM before setting
+          - code [ref=e189]: maxmemory
+          - text: .
+        - heading [level=2] [ref=e190]:
+          - text: Eviction policies
+          - link "Link to this section" [ref=e191] [cursor=pointer]:
+            - /url: "#eviction-policies"
+        - paragraph [ref=e194]:
+          - text: Use the
+          - code [ref=e195]: maxmemory-policy
+          - text: configuration directive to select the eviction policy you want to use when the limit set by
+          - code [ref=e196]: maxmemory
+          - text: is reached.
+        - paragraph [ref=e197]: "The following policies are available:"
+        - list [ref=e198]:
+          - listitem [ref=e199]:
+            - code [ref=e200]: noeviction
+            - text: ": Keys are not evicted but the server will return an error when you try to execute commands that cache new data. If your database uses replication then this condition only applies to the primary database. Note that commands that only read existing data still work as normal."
+          - listitem [ref=e201]:
+            - code [ref=e202]: allkeys-lru
+            - text: ": Evict the"
+            - link "least recently used" [ref=e203] [cursor=pointer]:
+              - /url: "#apx-lru"
+            - text: (LRU) keys.
+          - listitem [ref=e204]:
+            - code [ref=e205]: allkeys-lrm
+            - text: ": Evict the"
+            - link "least recently modified" [ref=e206] [cursor=pointer]:
+              - /url: "#lrm-eviction"
+            - text: (LRM) keys.
+          - listitem [ref=e207]:
+            - code [ref=e208]: allkeys-lfu
+            - text: ": Evict the"
+            - link "least frequently used" [ref=e209] [cursor=pointer]:
+              - /url: "#lfu-eviction"
+            - text: (LFU) keys.
+          - listitem [ref=e210]:
+            - code [ref=e211]: allkeys-random
+            - text: ": Evict keys at random."
+          - listitem [ref=e212]:
+            - code [ref=e213]: volatile-lru
+            - text: ": Evict the least recently used keys that have an associated expiration (TTL)."
+          - listitem [ref=e214]:
+            - code [ref=e215]: volatile-lrm
+            - text: ": Evict the least recently modified keys that have an associated expiration (TTL)."
+          - listitem [ref=e216]:
+            - code [ref=e217]: volatile-lfu
+            - text: ": Evict the least frequently used keys that have an associated expiration (TTL)."
+          - listitem [ref=e218]:
+            - code [ref=e219]: volatile-random
+            - text: ": Evicts random keys that have an associated expiration (TTL)."
+          - listitem [ref=e220]:
+            - code [ref=e221]: volatile-ttl
+            - text: ": Evict keys with an associated expiration (TTL) that have the shortest remaining TTL value."
+        - paragraph [ref=e222]:
+          - text: The
+          - code [ref=e223]: volatile-xxx
+          - text: policies behave like
+          - code [ref=e224]: noeviction
+          - text: if no keys have an associated expiration.
+        - paragraph [ref=e225]:
+          - text: You should choose an eviction policy that fits the way your app accesses keys. You may be able to predict the access pattern in advance but you can also use information from the
+          - code [ref=e226]: INFO
+          - text: command at runtime to check or improve your choice of policy (see
+          - link [ref=e227] [cursor=pointer]:
+            - /url: "#using-the-info-command"
+            - text: Using the
+            - code [ref=e228]: INFO
+            - text: command
+          - text: below for more information).
+        - paragraph [ref=e229]: "As a rule of thumb:"
+        - list [ref=e230]:
+          - listitem [ref=e231]:
+            - text: Use
+            - code [ref=e232]: allkeys-lru
+            - text: when you expect that a subset of elements will be accessed far more often than the rest. This is a very common case according to the
+            - link "Pareto principle" [ref=e233] [cursor=pointer]:
+              - /url: https://en.wikipedia.org/wiki/Pareto_principle
+            - text: ", so"
+            - code [ref=e234]: allkeys-lru
+            - text: is a good default option if you have no reason to prefer any others.
+          - listitem [ref=e235]:
+            - text: Use
+            - code [ref=e236]: allkeys-lrm
+            - text: when you want to preserve frequently read data but evict data that hasn't been modified recently. This is useful for read-heavy workloads where you want to distinguish between data that's actively being updated versus data that's only being read.
+          - listitem [ref=e237]:
+            - text: Use
+            - code [ref=e238]: allkeys-random
+            - text: when you expect all keys to be accessed with roughly equal frequency. An example of this is when your app reads data items in a repeating cycle.
+          - listitem [ref=e239]:
+            - text: Use
+            - code [ref=e240]: volatile-ttl
+            - text: if your code can estimate which keys are good candidates for eviction and assign short TTLs to them. Note also that if you make good use of key expiration, then you are less likely to run into the cache memory limit because keys will often expire before they need to be evicted.
+        - paragraph [ref=e241]:
+          - text: The
+          - code [ref=e242]: volatile-lru
+          - text: ","
+          - code [ref=e243]: volatile-lrm
+          - text: ", and"
+          - code [ref=e244]: volatile-random
+          - text: policies are mainly useful when you want to use a single Redis instance for both caching and for a set of persistent keys. However, you should consider running two separate Redis instances in a case like this, if possible.
+        - paragraph [ref=e245]:
+          - text: Also note that setting an
+          - code [ref=e246]: expire
+          - text: value for a key costs memory, so a policy like
+          - code [ref=e247]: allkeys-lru
+          - text: is more memory efficient since it doesn't need an
+          - code [ref=e248]: expire
+          - text: value to operate.
+        - heading [level=3] [ref=e249]:
+          - text: Using the
+          - code [ref=e250]: INFO
+          - text: command
+          - link "Link to this section" [ref=e251] [cursor=pointer]:
+            - /url: "#using-the-info-command"
+        - paragraph [ref=e254]:
+          - text: The
+          - link [ref=e255] [cursor=pointer]:
+            - /url: /docs/latest/commands/info/
+            - code [ref=e256]: INFO
+          - text: command provides several pieces of data that are useful for checking the performance of your cache. In particular, the
+          - code [ref=e257]: INFO stats
+          - text: section includes two important entries,
+          - code [ref=e258]: keyspace_hits
+          - text: (the number of times keys were successfully found in the cache) and
+          - code [ref=e259]: keyspace_misses
+          - text: "(the number of times a key was requested but was not in the cache). The calculation below gives the percentage of attempted accesses that were satisfied from the cache:"
+        - code [ref=e261]: keyspace_hits / (keyspace_hits + keyspace_misses) * 100
+        - paragraph [ref=e262]: Check that this is roughly equal to what you would expect for your app (naturally, a higher percentage indicates better cache performance).
+        - generic [ref=e267]:
+          - generic [ref=e268]: "Note:"
+          - text: When the
+          - link [ref=e269] [cursor=pointer]:
+            - /url: /docs/latest/commands/exists/
+            - code [ref=e270]: EXISTS
+          - text: command reports that a key is absent then this is counted as a keyspace miss.
+        - paragraph [ref=e271]:
+          - text: If the percentage of hits is lower than expected, then this might mean you are not using the best eviction policy. For example, if you believe that a small subset of "hot" data (that will easily fit into the cache) should account for about 75% of accesses, you could reasonably expect the percentage of keyspace hits to be around 75%. If the actual percentage is lower, check the value of
+          - code [ref=e272]: evicted_keys
+          - text: (also returned by
+          - code [ref=e273]: INFO stats
+          - text: ). A high proportion of evictions would suggest that the wrong keys are being evicted too often by your chosen policy (so
+          - code [ref=e274]: allkeys-lru
+          - text: might be a good option here). If the value of
+          - code [ref=e275]: evicted_keys
+          - text: is low and you are using key expiration, check
+          - code [ref=e276]: expired_keys
+          - text: to see how many keys have expired. If this number is high, you might be using a TTL that is too low or you are choosing the wrong keys to expire and this is causing keys to disappear from the cache before they should.
+        - paragraph [ref=e277]:
+          - text: Other useful pieces of information returned by
+          - code [ref=e278]: INFO
+          - text: "include:"
+        - list [ref=e279]:
+          - listitem [ref=e280]:
+            - code [ref=e281]: used_memory_dataset
+            - text: ": ("
+            - code [ref=e282]: memory
+            - text: section) The amount of memory used for cached data. If this is greater than
+            - code [ref=e283]: maxmemory
+            - text: ", then the difference is the amount by which"
+            - code [ref=e284]: maxmemory
+            - text: has been exceeded.
+          - listitem [ref=e285]:
+            - code [ref=e286]: current_eviction_exceeded_time
+            - text: ": ("
+            - code [ref=e287]: stats
+            - text: section) The time since the cache last started to exceed
+            - code [ref=e288]: maxmemory
+            - text: .
+          - listitem [ref=e289]:
+            - code [ref=e290]: commandstats
+            - text: "section: Among other things, this reports the number of times each command issued to the server has been rejected. If you are using"
+            - code [ref=e291]: noeviction
+            - text: or one of the
+            - code [ref=e292]: volatile_xxx
+            - text: policies, you can use this to find which commands are being stopped by the
+            - code [ref=e293]: maxmemory
+            - text: limit and how often it is happening.
+        - heading [level=2] [ref=e294]:
+          - text: Approximated LRU algorithm
+          - link "Link to this section" [ref=e295] [cursor=pointer]:
+            - /url: "#apx-lru"
+        - paragraph [ref=e298]: The Redis LRU algorithm uses an approximation of the least recently used keys rather than calculating them exactly. It samples a small number of keys at random and then evicts the ones with the longest time since last access.
+        - paragraph [ref=e299]: From Redis 3.0 onwards, the algorithm also tracks a pool of good candidates for eviction. This improves the performance of the algorithm, making it a close approximation to a true LRU algorithm.
+        - paragraph [ref=e300]:
+          - text: (Redis Open Source only) You can tune the performance of the algorithm by changing the number of samples to check before every eviction with the
+          - code [ref=e301]: maxmemory-samples
+          - text: "configuration directive:"
+        - code [ref=e303]: maxmemory-samples 5
+        - paragraph [ref=e304]:
+          - text: "See these pages for information on eviction policies in: (1)"
+          - link "Redis Software" [ref=e305] [cursor=pointer]:
+            - /url: /docs/latest/operate/rs/databases/memory-performance/eviction-policy/
+          - text: and (2)
+          - link "Redis Cloud" [ref=e306] [cursor=pointer]:
+            - /url: /docs/latest/operate/rc/databases/configuration/data-eviction-policies/
+          - text: .
+        - paragraph [ref=e307]: The reason Redis does not use a true LRU implementation is because it costs more memory. However, the approximation is virtually equivalent for an application using Redis. This figure compares the LRU approximation used by Redis with true LRU.
+        - paragraph [ref=e308]:
+          - img "LRU comparison" [ref=e309] [cursor=pointer]
+        - paragraph [ref=e310]: The test to generate the above graphs filled a Redis server with a given number of keys. The keys were accessed from the first to the last. The first keys are the best candidates for eviction using an LRU algorithm. Later more 50% of keys are added, in order to force half of the old keys to be evicted.
+        - paragraph [ref=e311]: You can see three kind of dots in the graphs, forming three distinct bands.
+        - list [ref=e312]:
+          - listitem [ref=e313]: The light gray band are objects that were evicted.
+          - listitem [ref=e314]: The gray band are objects that were not evicted.
+          - listitem [ref=e315]: The green band are objects that were added.
+        - paragraph [ref=e316]:
+          - text: In a theoretical LRU implementation we expect that, among the old keys, the first half will be expired. The Redis LRU algorithm will instead only
+          - emphasis [ref=e317]: probabilistically
+          - text: expire the older keys.
+        - paragraph [ref=e318]: As you can see Redis 3.0 does a better job with 5 samples compared to Redis 2.8, however most objects that are among the latest accessed are still retained by Redis 2.8. Using a sample size of 10 in Redis 3.0 the approximation is very close to the theoretical performance of Redis 3.0.
+        - paragraph [ref=e319]: Note that LRU is just a model to predict how likely a given key will be accessed in the future. Moreover, if your data access pattern closely resembles the power law, most of the accesses will be in the set of keys the LRU approximated algorithm can handle well.
+        - paragraph [ref=e320]: In simulations we found that using a power law access pattern, the difference between true LRU and Redis approximation were minimal or non-existent.
+        - paragraph [ref=e321]: However you can raise the sample size to 10 at the cost of some additional CPU usage to closely approximate true LRU, and check if this makes a difference in your cache misses rate.
+        - paragraph [ref=e322]:
+          - text: To experiment in production with different values for the sample size by using the
+          - code [ref=e323]: CONFIG SET maxmemory-samples <count>
+          - text: command, is very simple.
+        - heading [level=2] [ref=e324]:
+          - text: LFU eviction
+          - link "Link to this section" [ref=e325] [cursor=pointer]:
+            - /url: "#lfu-eviction"
+        - paragraph [ref=e328]:
+          - text: Starting with Redis 4.0, the
+          - link "Least Frequently Used eviction mode" [ref=e329] [cursor=pointer]:
+            - /url: http://antirez.com/news/109
+          - text: is available. This mode may work better (provide a better hits/misses ratio) in certain cases. In LFU mode, Redis will try to track the frequency of access of items, so the ones used rarely are evicted. This means the keys used often have a higher chance of remaining in memory.
+        - paragraph [ref=e330]: "To configure the LFU mode, the following policies are available:"
+        - list [ref=e331]:
+          - listitem [ref=e332]:
+            - code [ref=e333]: volatile-lfu
+            - text: Evict using approximated LFU among the keys with an expire set.
+          - listitem [ref=e334]:
+            - code [ref=e335]: allkeys-lfu
+            - text: Evict any key using approximated LFU.
+        - paragraph [ref=e336]:
+          - text: "LFU is approximated like LRU: it uses a probabilistic counter, called a"
+          - link "Morris counter" [ref=e337] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/Approximate_counting_algorithm
+          - text: to estimate the object access frequency using just a few bits per object, combined with a decay period so that the counter is reduced over time. At some point we no longer want to consider keys as frequently accessed, even if they were in the past, so that the algorithm can adapt to a shift in the access pattern.
+        - paragraph [ref=e338]: That information is sampled similarly to what happens for LRU (as explained in the previous section of this documentation) to select a candidate for eviction.
+        - paragraph [ref=e339]: "However unlike LRU, LFU has certain tunable parameters: for example, how fast should a frequent item lower in rank if it gets no longer accessed? It is also possible to tune the Morris counters range to better adapt the algorithm to specific use cases."
+        - paragraph [ref=e340]: "By default Redis is configured to:"
+        - list [ref=e341]:
+          - listitem [ref=e342]: Saturate the counter at, around, one million requests.
+          - listitem [ref=e343]: Decay the counter every one minute.
+        - paragraph [ref=e344]: Those should be reasonable values and were tested experimentally, but the user may want to play with these configuration settings to pick optimal values.
+        - paragraph [ref=e345]:
+          - text: Instructions about how to tune these parameters can be found inside the example
+          - code [ref=e346]: redis.conf
+          - text: "file in the source distribution. Briefly, they are:"
+        - code [ref=e348]: lfu-log-factor 10 lfu-decay-time 1
+        - paragraph [ref=e349]:
+          - text: The decay time is the obvious one, it is the amount of minutes a counter should be decayed, when sampled and found to be older than that value. A special value of
+          - code [ref=e350]: "0"
+          - text: "means: we will never decay the counter."
+        - paragraph [ref=e351]:
+          - text: The counter
+          - emphasis [ref=e352]: logarithm factor
+          - text: "changes how many hits are needed to saturate the frequency counter, which is just in the range 0-255. The higher the factor, the more accesses are needed to reach the maximum. The lower the factor, the better is the resolution of the counter for low accesses, according to the following table:"
+        - code [ref=e354]: +--------+------------+------------+------------+------------+------------+ | factor | 100 hits | 1000 hits | 100K hits | 1M hits | 10M hits | +--------+------------+------------+------------+------------+------------+ | 0 | 104 | 255 | 255 | 255 | 255 | +--------+------------+------------+------------+------------+------------+ | 1 | 18 | 49 | 255 | 255 | 255 | +--------+------------+------------+------------+------------+------------+ | 10 | 10 | 18 | 142 | 255 | 255 | +--------+------------+------------+------------+------------+------------+ | 100 | 8 | 11 | 49 | 143 | 255 | +--------+------------+------------+------------+------------+------------+
+        - paragraph [ref=e355]:
+          - text: So basically the factor is a trade off between better distinguishing items with low accesses VS distinguishing items with high accesses. More information is available in the example
+          - code [ref=e356]: redis.conf
+          - text: file.
+        - heading [level=2] [ref=e357]:
+          - text: LRM eviction
+          - link "Link to this section" [ref=e358] [cursor=pointer]:
+            - /url: "#lrm-eviction"
+        - paragraph [ref=e361]: Starting with Redis 8.6, the Least Recently Modified (LRM) eviction policy is available. LRM is similar to LRU but only updates the timestamp on write operations, not read operations. This makes it useful for evicting keys that haven't been modified recently, regardless of how frequently they are read.
+        - paragraph [ref=e362]: "The key difference between LRU and LRM is:"
+        - list [ref=e363]:
+          - listitem [ref=e364]:
+            - strong [ref=e365]: LRU (Least Recently Used)
+            - text: ": Updates the access timestamp on both read and write operations"
+          - listitem [ref=e366]:
+            - strong [ref=e367]: LRM (Least Recently Modified)
+            - text: ": Updates the access timestamp only on write operations"
+        - paragraph [ref=e368]: "This distinction makes LRM particularly useful in scenarios where:"
+        - list [ref=e369]:
+          - listitem [ref=e370]: Your application has a clear distinction between read-heavy and write-heavy workloads
+          - listitem [ref=e371]: You want to evict stale data that hasn't been updated, regardless of read activity
+        - paragraph [ref=e372]: "To configure LRM eviction, the following policies are available:"
+        - list [ref=e373]:
+          - listitem [ref=e374]:
+            - code [ref=e375]: volatile-lrm
+            - text: Evict using LRM among the keys with an an associated expiration (TTL).
+          - listitem [ref=e376]:
+            - code [ref=e377]: allkeys-lrm
+            - text: Evict any key using LRM.
+        - paragraph [ref=e378]:
+          - text: Like LRU, LRM uses an approximation algorithm that samples a small number of keys at random and evicts the ones with the longest time since last modification. The same
+          - code [ref=e379]: maxmemory-samples
+          - text: configuration directive that affects LRU performance also applies to LRM.
+        - generic [ref=e381]:
+          - generic [ref=e382]:
+            - generic [ref=e383]: RATE THIS PAGE
+            - generic [ref=e384]:
+              - generic [ref=e385] [cursor=pointer]: ★
+              - generic [ref=e386] [cursor=pointer]: ★
+              - generic [ref=e387] [cursor=pointer]: ★
+              - generic [ref=e388] [cursor=pointer]: ★
+              - generic [ref=e389] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e390] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e391]:
+      - navigation [ref=e392]:
+        - link "Edit this page" [ref=e393] [cursor=pointer]:
+          - /url: https://github.com/redis/docs/edit/main/content/develop/reference/eviction/index.md
+        - link "Create an issue" [ref=e396] [cursor=pointer]:
+          - /url: "https://github.com/redis/docs/issues/new?title=Feedback: Key eviction&body=Page https://redis.io/docs/latest/develop/reference/eviction/"
+        - link "Download Markdown" [ref=e399] [cursor=pointer]:
+          - /url: "#"
+      - heading "On this page" [level=2] [ref=e402]
+      - navigation [ref=e403]:
+        - navigation [ref=e404]:
+          - list [ref=e405]:
+            - listitem [ref=e406]:
+              - link [ref=e407] [cursor=pointer]:
+                - /url: "#maxmem"
+                - text: Using the
+                - code [ref=e408]: maxmemory
+                - text: configuration directive
+              - list [ref=e409]:
+                - listitem [ref=e410]:
+                  - link [ref=e411] [cursor=pointer]:
+                    - /url: "#setting-maxmemory-for-a-replicated-or-persisted-instance"
+                    - text: Setting
+                    - code [ref=e412]: maxmemory
+                    - text: for a replicated or persisted instance
+            - listitem [ref=e413]:
+              - link "Eviction policies" [ref=e414] [cursor=pointer]:
+                - /url: "#eviction-policies"
+              - list [ref=e415]:
+                - listitem [ref=e416]:
+                  - link [ref=e417] [cursor=pointer]:
+                    - /url: "#using-the-info-command"
+                    - text: Using the
+                    - code [ref=e418]: INFO
+                    - text: command
+            - listitem [ref=e419]:
+              - link "Approximated LRU algorithm" [ref=e420] [cursor=pointer]:
+                - /url: "#apx-lru"
+            - listitem [ref=e421]:
+              - link "LFU eviction" [ref=e422] [cursor=pointer]:
+                - /url: "#lfu-eviction"
+            - listitem [ref=e423]:
+              - link "LRM eviction" [ref=e424] [cursor=pointer]:
+                - /url: "#lrm-eviction"
+  - contentinfo [ref=e425]:
+    - generic [ref=e426]:
+      - generic [ref=e427]:
+        - link [ref=e428] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e433]:
+          - link [ref=e434] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e438] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e441] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e444] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e447] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e450] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e453]:
+          - link "Trust" [ref=e454] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e455] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e456] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e457] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - heading "Compare" [level=3] [ref=e460]
+          - generic [ref=e461]:
+            - link "Redis vs Elasticache" [ref=e462] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e463] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e464] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e465] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e466]:
+          - heading "Company" [level=3] [ref=e467]
+          - generic [ref=e468]:
+            - link "Mission & values" [ref=e469] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e470] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e471] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e472]:
+          - heading "Partners" [level=3] [ref=e473]
+          - generic [ref=e474]:
+            - link "Amazon Web Services" [ref=e475] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e476] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e477] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e478] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e479]:
+          - heading "Support" [level=3] [ref=e480]
+          - generic [ref=e481]:
+            - link "Professional services" [ref=e482] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e483] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e484]:
+    - generic [ref=e485]:
+      - banner [ref=e486]:
+        - generic [ref=e487]:
+          - textbox [ref=e488]:
+            - /placeholder: Search…
+          - combobox [ref=e489]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e490] [cursor=pointer]: ESC
+      - listbox [ref=e491]

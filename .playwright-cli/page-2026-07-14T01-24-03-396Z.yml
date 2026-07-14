@@ -1,0 +1,468 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Framework
+            - generic [ref=e34]: 7.0.8
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../../overview.html
+                - listitem [ref=e51]:
+                  - button [ref=e52] [cursor=pointer]
+                  - link "Core Technologies" [ref=e53] [cursor=pointer]:
+                    - /url: ../../../core.html
+                - listitem [ref=e54]:
+                  - button [ref=e55] [cursor=pointer]
+                  - link "Data Access" [ref=e56] [cursor=pointer]:
+                    - /url: ../../../data-access.html
+                  - list [ref=e57]:
+                    - listitem [ref=e58]:
+                      - button [ref=e59] [cursor=pointer]
+                      - link "Transaction Management" [ref=e60] [cursor=pointer]:
+                        - /url: ../../transaction.html
+                      - list [ref=e61]:
+                        - listitem [ref=e62]:
+                          - link "Advantages of the Spring Framework’s Transaction Support Model" [ref=e63] [cursor=pointer]:
+                            - /url: ../motivation.html
+                        - listitem [ref=e64]:
+                          - link "Understanding the Spring Framework Transaction Abstraction" [ref=e65] [cursor=pointer]:
+                            - /url: ../strategies.html
+                        - listitem [ref=e66]:
+                          - link "Synchronizing Resources with Transactions" [ref=e67] [cursor=pointer]:
+                            - /url: ../tx-resource-synchronization.html
+                        - listitem [ref=e68]:
+                          - button [ref=e69] [cursor=pointer]
+                          - link "Declarative Transaction Management" [ref=e70] [cursor=pointer]:
+                            - /url: ../declarative.html
+                          - list [ref=e71]:
+                            - listitem [ref=e72]:
+                              - link "Understanding the Spring Framework’s Declarative Transaction Implementation" [ref=e73] [cursor=pointer]:
+                                - /url: tx-decl-explained.html
+                            - listitem [ref=e74]:
+                              - link "Example of Declarative Transaction Implementation" [ref=e75] [cursor=pointer]:
+                                - /url: first-example.html
+                            - listitem [ref=e76]:
+                              - link "Rolling Back a Declarative Transaction" [ref=e77] [cursor=pointer]:
+                                - /url: rolling-back.html
+                            - listitem [ref=e78]:
+                              - link "Configuring Different Transactional Semantics for Different Beans" [ref=e79] [cursor=pointer]:
+                                - /url: diff-tx.html
+                            - listitem [ref=e80]:
+                              - link "<tx:advice/> Settings" [ref=e81] [cursor=pointer]:
+                                - /url: txadvice-settings.html
+                            - listitem [ref=e82]:
+                              - link [ref=e83] [cursor=pointer]:
+                                - /url: annotations.html
+                                - text: Using
+                                - code [ref=e84]: "@Transactional"
+                            - listitem [ref=e85]:
+                              - link "Transaction Propagation" [ref=e86] [cursor=pointer]:
+                                - /url: tx-propagation.html
+                            - listitem [ref=e87]:
+                              - link "Advising Transactional Operations" [ref=e88] [cursor=pointer]:
+                                - /url: applying-more-than-just-tx-advice.html
+                            - listitem [ref=e89]:
+                              - link [ref=e90] [cursor=pointer]:
+                                - /url: aspectj.html
+                                - text: Using
+                                - code [ref=e91]: "@Transactional"
+                                - text: with AspectJ
+                        - listitem [ref=e92]:
+                          - link "Programmatic Transaction Management" [ref=e93] [cursor=pointer]:
+                            - /url: ../programmatic.html
+                        - listitem [ref=e94]:
+                          - link "Choosing Between Programmatic and Declarative Transaction Management" [ref=e95] [cursor=pointer]:
+                            - /url: ../tx-decl-vs-prog.html
+                        - listitem [ref=e96]:
+                          - link "Transaction-bound Events" [ref=e97] [cursor=pointer]:
+                            - /url: ../event.html
+                        - listitem [ref=e98]:
+                          - link "Application server-specific integration" [ref=e99] [cursor=pointer]:
+                            - /url: ../application-server-integration.html
+                        - listitem [ref=e100]:
+                          - link "Solutions to Common Problems" [ref=e101] [cursor=pointer]:
+                            - /url: ../solutions-to-common-problems.html
+                        - listitem [ref=e102]:
+                          - link "Further Resources" [ref=e103] [cursor=pointer]:
+                            - /url: ../resources.html
+                    - listitem [ref=e104]:
+                      - link "DAO Support" [ref=e105] [cursor=pointer]:
+                        - /url: ../../dao.html
+                    - listitem [ref=e106]:
+                      - button [ref=e107] [cursor=pointer]
+                      - link "Data Access with JDBC" [ref=e108] [cursor=pointer]:
+                        - /url: ../../jdbc.html
+                    - listitem [ref=e109]:
+                      - link "Data Access with R2DBC" [ref=e110] [cursor=pointer]:
+                        - /url: ../../r2dbc.html
+                    - listitem [ref=e111]:
+                      - button [ref=e112] [cursor=pointer]
+                      - link "Object Relational Mapping (ORM) Data Access" [ref=e113] [cursor=pointer]:
+                        - /url: ../../orm.html
+                    - listitem [ref=e114]:
+                      - link "Marshalling XML by Using Object-XML Mappers" [ref=e115] [cursor=pointer]:
+                        - /url: ../../oxm.html
+                    - listitem [ref=e116]:
+                      - link "Appendix" [ref=e117] [cursor=pointer]:
+                        - /url: ../../appendix.html
+                - listitem [ref=e118]:
+                  - button [ref=e119] [cursor=pointer]
+                  - link "Web on Servlet Stack" [ref=e120] [cursor=pointer]:
+                    - /url: ../../../web.html
+                - listitem [ref=e121]:
+                  - button [ref=e122] [cursor=pointer]
+                  - link "Web on Reactive Stack" [ref=e123] [cursor=pointer]:
+                    - /url: ../../../web-reactive.html
+                - listitem [ref=e124]:
+                  - button [ref=e125] [cursor=pointer]
+                  - link "Testing" [ref=e126] [cursor=pointer]:
+                    - /url: ../../../testing.html
+                - listitem [ref=e127]:
+                  - button [ref=e128] [cursor=pointer]
+                  - link "Integration" [ref=e129] [cursor=pointer]:
+                    - /url: ../../../integration.html
+                - listitem [ref=e130]:
+                  - button [ref=e131] [cursor=pointer]
+                  - link "Language Support" [ref=e132] [cursor=pointer]:
+                    - /url: ../../../languages.html
+                - listitem [ref=e133]:
+                  - link "Appendix" [ref=e134] [cursor=pointer]:
+                    - /url: ../../../appendix.html
+                - listitem [ref=e135]:
+                  - link "Java API" [ref=e136] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/javadoc-api/
+                - listitem [ref=e137]:
+                  - link "Kotlin API" [ref=e138] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.8/kdoc-api/
+                - listitem [ref=e139]:
+                  - link "Wiki" [ref=e140] [cursor=pointer]:
+                    - /url: https://github.com/spring-projects/spring-framework/wiki
+        - button [ref=e142] [cursor=pointer]
+    - main [ref=e145]:
+      - generic [ref=e146]:
+        - complementary [ref=e147]:
+          - generic [ref=e149]:
+            - link "Edit this Page" [ref=e150] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-framework/blob/v7.0.8/framework-docs/modules/ROOT/pages/data-access/transaction/declarative/rolling-back.adoc
+            - link "GitHub Project" [ref=e153] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-framework
+            - link "Stack Overflow" [ref=e157] [cursor=pointer]:
+              - /url: https://stackoverflow.com/questions/tagged/spring
+        - article [ref=e160]:
+          - navigation "breadcrumbs" [ref=e162]:
+            - list [ref=e163]:
+              - listitem "Copy versioned URL" [ref=e164]
+              - listitem [ref=e165]:
+                - link "Spring Framework" [ref=e166] [cursor=pointer]:
+                  - /url: ../../../index.html
+                - text: /
+              - listitem [ref=e167]:
+                - link "Data Access" [ref=e168] [cursor=pointer]:
+                  - /url: ../../../data-access.html
+                - text: /
+              - listitem [ref=e169]:
+                - link "Transaction Management" [ref=e170] [cursor=pointer]:
+                  - /url: ../../transaction.html
+                - text: /
+              - listitem [ref=e171]:
+                - link "Declarative Transaction Management" [ref=e172] [cursor=pointer]:
+                  - /url: ../declarative.html
+                - text: /
+              - listitem [ref=e173]:
+                - link "Rolling Back a Declarative Transaction" [ref=e174] [cursor=pointer]:
+                  - /url: rolling-back.html
+          - heading "Rolling Back a Declarative Transaction" [level=1] [ref=e175]
+          - paragraph [ref=e177]:
+            - text: The previous section outlined the basics of how to specify transactional settings for classes, typically service layer classes, declaratively in your application. This section describes how you can control the rollback of transactions in a simple, declarative fashion in XML configuration. For details on controlling rollback semantics declaratively with the
+            - code [ref=e178]: "@Transactional"
+            - text: annotation, see
+            - link [ref=e179] [cursor=pointer]:
+              - /url: annotations.html#transaction-declarative-attransactional-settings
+              - code [ref=e180]: "@Transactional"
+              - text: Settings
+            - text: .
+          - paragraph [ref=e182]:
+            - text: The recommended way to indicate to the Spring Framework’s transaction infrastructure that a transaction’s work is to be rolled back is to throw an
+            - code [ref=e183]: Exception
+            - text: from code that is currently executing in the context of a transaction. The Spring Framework’s transaction infrastructure code catches any unhandled
+            - code [ref=e184]: Exception
+            - text: as it bubbles up the call stack and makes a determination whether to mark the transaction for rollback.
+          - paragraph [ref=e186]:
+            - text: In its default configuration, the Spring Framework’s transaction infrastructure code marks a transaction for rollback only in the case of runtime, unchecked exceptions. That is, when the thrown exception is an instance or subclass of
+            - code [ref=e187]: RuntimeException
+            - text: . (
+            - code [ref=e188]: Error
+            - text: instances also, by default, result in a rollback).
+          - paragraph [ref=e190]:
+            - text: The default configuration also provides support for Vavr’s
+            - code [ref=e191]: Try
+            - text: method to trigger transaction rollbacks when it returns a 'Failure'. This allows you to handle functional-style errors using Try and have the transaction automatically rolled back in case of a failure. For more information on Vavr’s Try, refer to the
+            - link "official Vavr documentation" [ref=e192] [cursor=pointer]:
+              - /url: https://vavr-io.github.io/vavr-docs/#_try
+            - text: ". Here’s an example of how to use Vavr’s Try with a transactional method:"
+          - generic [ref=e194]:
+            - tablist [ref=e196]:
+              - tab [selected] [ref=e197] [cursor=pointer]:
+                - paragraph [ref=e198]: Java
+            - tabpanel "Java" [ref=e199]:
+              - generic [ref=e202]:
+                - code [ref=e203]:
+                  - text: java @Transactional
+                  - generic [ref=e204]: public Try<String> myTransactionalMethod()
+                  - text: "{ // If myDataAccessOperation throws an exception, it will be caught by the // Try instance created with Try.of() and wrapped inside the Failure class // which can be checked using the isFailure() method on the Try instance. return Try.of(delegate::myDataAccessOperation); }"
+                - button "Copied!" [ref=e206] [cursor=pointer]
+          - paragraph [ref=e209]:
+            - text: As of Spring Framework 6.1, there is also special treatment of
+            - code [ref=e210]: CompletableFuture
+            - text: (and general
+            - code [ref=e211]: Future
+            - text: ) return values, triggering a rollback for such a handle if it was exceptionally completed at the time of being returned from the original method. This is intended for
+            - code [ref=e212]: "@Async"
+            - text: methods where the actual method implementation may need to comply with a
+            - code [ref=e213]: CompletableFuture
+            - text: signature (auto-adapted to an actual asynchronous handle for a call to the proxy by
+            - code [ref=e214]: "@Async"
+            - text: "processing at runtime), preferring exposure in the returned handle rather than rethrowing an exception:"
+          - generic [ref=e216]:
+            - tablist [ref=e218]:
+              - tab [selected] [ref=e219] [cursor=pointer]:
+                - paragraph [ref=e220]: Java
+            - tabpanel "Java" [ref=e221]:
+              - generic [ref=e224]:
+                - code [ref=e225]:
+                  - text: java @Transactional @Async
+                  - generic [ref=e226]: public CompletableFuture<String> myTransactionalMethod()
+                  - text: "{ try { return CompletableFuture.completedFuture(delegate.myDataAccessOperation()); } catch (DataAccessException ex) { return CompletableFuture.failedFuture(ex); } }"
+                - button "Copied!" [ref=e228] [cursor=pointer]
+          - paragraph [ref=e231]:
+            - text: Checked exceptions that are thrown from a transactional method do not result in a rollback in the default configuration. You can configure exactly which
+            - code [ref=e232]: Exception
+            - text: types mark a transaction for rollback, including checked exceptions by specifying
+            - emphasis [ref=e233]: rollback rules
+            - text: .
+          - table [ref=e235]:
+            - rowgroup [ref=e236]:
+              - row [ref=e237]:
+                - cell "Note" [ref=e238]
+                - cell [ref=e240]:
+                  - generic [ref=e241]: Rollback rules
+                  - paragraph [ref=e243]: Rollback rules determine if a transaction should be rolled back when a given exception is thrown, and the rules are based on exception types or exception patterns.
+                  - paragraph [ref=e245]:
+                    - text: Rollback rules may be configured in XML via the
+                    - code [ref=e246]: rollback-for
+                    - text: and
+                    - code [ref=e247]: no-rollback-for
+                    - text: attributes, which allow rules to be defined as patterns. When using
+                    - link [ref=e248] [cursor=pointer]:
+                      - /url: annotations.html#transaction-declarative-attransactional-settings
+                      - code [ref=e249]: "@Transactional"
+                    - text: ", rollback rules may be configured via the"
+                    - code [ref=e250]: rollbackFor
+                    - text: /
+                    - code [ref=e251]: noRollbackFor
+                    - text: and
+                    - code [ref=e252]: rollbackForClassName
+                    - text: /
+                    - code [ref=e253]: noRollbackForClassName
+                    - text: attributes, which allow rules to be defined based on exception types or patterns, respectively.
+                  - paragraph [ref=e255]:
+                    - text: When a rollback rule is defined with an exception type – for example, via
+                    - code [ref=e256]: rollbackFor
+                    - text: – that type will be used to match against the type of a thrown exception. Specifically, given a configured exception type
+                    - code [ref=e257]: C
+                    - text: ", a thrown exception of type"
+                    - code [ref=e258]: T
+                    - text: will be considered a match against
+                    - code [ref=e259]: C
+                    - text: if
+                    - code [ref=e260]: T
+                    - text: is equal to
+                    - code [ref=e261]: C
+                    - text: or a subclass of
+                    - code [ref=e262]: C
+                    - text: . This provides type safety and avoids any unintentional matches that may occur when using a pattern. For example, a value of
+                    - code [ref=e263]: jakarta.servlet.ServletException.class
+                    - text: will only match thrown exceptions of type
+                    - code [ref=e264]: jakarta.servlet.ServletException
+                    - text: and its subclasses.
+                  - paragraph [ref=e266]:
+                    - text: When a rollback rule is defined with an exception pattern, the pattern can be a fully qualified class name or a substring of a fully qualified class name for an exception type (which must be a subclass of
+                    - code [ref=e267]: Throwable
+                    - text: ), with no wildcard support at present. For example, a value of
+                    - code [ref=e268]: "\"jakarta.servlet.ServletException\""
+                    - text: or
+                    - code [ref=e269]: "\"ServletException\""
+                    - text: will match
+                    - code [ref=e270]: jakarta.servlet.ServletException
+                    - text: and its subclasses.
+                  - table [ref=e272]:
+                    - rowgroup [ref=e273]:
+                      - row [ref=e274]:
+                        - cell "Warning" [ref=e275]
+                        - cell [ref=e277]:
+                          - paragraph [ref=e279]:
+                            - text: You must carefully consider how specific a pattern is and whether to include package information (which isn’t mandatory). For example,
+                            - code [ref=e280]: "\"Exception\""
+                            - text: will match nearly anything and will probably hide other rules.
+                            - code [ref=e281]: "\"java.lang.Exception\""
+                            - text: would be correct if
+                            - code [ref=e282]: "\"Exception\""
+                            - text: were meant to define a rule for all checked exceptions. With more unique exception names such as
+                            - code [ref=e283]: "\"BaseBusinessException\""
+                            - text: there is likely no need to use the fully qualified class name for the exception pattern.
+                          - paragraph [ref=e285]:
+                            - text: Furthermore, pattern-based rollback rules may result in unintentional matches for similarly named exceptions and nested classes. This is due to the fact that a thrown exception is considered to be a match for a given pattern-based rollback rule if the name of the thrown exception contains the exception pattern configured for the rollback rule. For example, given a rule configured to match on
+                            - code [ref=e286]: "\"com.example.CustomException\""
+                            - text: ", that rule will match against an exception named"
+                            - code [ref=e287]: com.example.CustomExceptionV2
+                            - text: (an exception in the same package as
+                            - code [ref=e288]: CustomException
+                            - text: but with an additional suffix) or an exception named
+                            - code [ref=e289]: com.example.CustomException$AnotherException
+                            - text: (an exception declared as a nested class in
+                            - code [ref=e290]: CustomException
+                            - text: ).
+          - paragraph [ref=e292]:
+            - text: The following XML snippet demonstrates how to configure rollback for a checked, application-specific
+            - code [ref=e293]: Exception
+            - text: type by supplying an
+            - emphasis [ref=e294]: exception pattern
+            - text: via the
+            - code [ref=e295]: rollback-for
+            - text: "attribute:"
+          - generic [ref=e298]:
+            - code [ref=e299]:
+              - text: xml
+              - generic [ref=e300]: <tx:advice id="txAdvice" transaction-manager="txManager">
+              - generic [ref=e301]: <tx:attributes>
+              - generic [ref=e302]: <tx:method name="get*" read-only="true" rollback-for="NoProductInStockException"/>
+              - generic [ref=e303]: <tx:method name="*"/>
+              - generic [ref=e304]: </tx:attributes>
+              - generic [ref=e305]: </tx:advice>
+            - button "Copied!" [ref=e307] [cursor=pointer]
+          - paragraph [ref=e310]:
+            - text: If you do not want a transaction rolled back when an exception is thrown, you can also specify 'no rollback' rules. The following example tells the Spring Framework’s transaction infrastructure to commit the attendant transaction even in the face of an unhandled
+            - code [ref=e311]: InstrumentNotFoundException
+            - text: ":"
+          - generic [ref=e314]:
+            - code [ref=e315]:
+              - text: xml
+              - generic [ref=e316]: <tx:advice id="txAdvice">
+              - generic [ref=e317]: <tx:attributes>
+              - generic [ref=e318]: <tx:method name="updateStock" no-rollback-for="InstrumentNotFoundException"/>
+              - generic [ref=e319]: <tx:method name="*"/>
+              - generic [ref=e320]: </tx:attributes>
+              - generic [ref=e321]: </tx:advice>
+            - button "Copied!" [ref=e323] [cursor=pointer]
+          - paragraph [ref=e326]:
+            - text: When the Spring Framework’s transaction infrastructure catches an exception and consults the configured rollback rules to determine whether to mark the transaction for rollback, the strongest matching rule wins. So, in the case of the following configuration, any exception other than an
+            - code [ref=e327]: InstrumentNotFoundException
+            - text: "results in a rollback of the attendant transaction:"
+          - generic [ref=e330]:
+            - code [ref=e331]:
+              - text: xml
+              - generic [ref=e332]: <tx:advice id="txAdvice">
+              - generic [ref=e333]: <tx:attributes>
+              - generic [ref=e334]: <tx:method name="*" rollback-for="Throwable" no-rollback-for="InstrumentNotFoundException"/>
+              - generic [ref=e335]: </tx:attributes>
+              - generic [ref=e336]: </tx:advice>
+            - button "Copied!" [ref=e338] [cursor=pointer]
+          - paragraph [ref=e341]: "You can also indicate a required rollback programmatically. Although simple, this process is quite invasive and tightly couples your code to the Spring Framework’s transaction infrastructure. The following example shows how to programmatically indicate a required rollback:"
+          - generic [ref=e343]:
+            - tablist [ref=e345]:
+              - tab [selected] [ref=e346] [cursor=pointer]:
+                - paragraph [ref=e347]: Java
+              - tab [ref=e348] [cursor=pointer]:
+                - paragraph [ref=e349]: Kotlin
+            - tabpanel "Java" [ref=e350]:
+              - generic [ref=e353]:
+                - code [ref=e354]:
+                  - text: java
+                  - generic [ref=e355]: public void resolvePosition()
+                  - text: "{ try { // some business logic... } catch (NoProductInStockException ex) { // trigger rollback programmatically TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); } }"
+                - button "Copied!" [ref=e357] [cursor=pointer]
+            - text: kotlin
+          - paragraph [ref=e360]: You are strongly encouraged to use the declarative approach to rollback, if at all possible. Programmatic rollback is available should you absolutely need it, but its usage flies in the face of achieving a clean POJO-based architecture.
+          - navigation [ref=e361]:
+            - generic [ref=e362]:
+              - text: Prev
+              - link "‹ Example of Declarative Transaction Implementation" [ref=e363] [cursor=pointer]:
+                - /url: first-example.html
+            - generic [ref=e364]:
+              - text: Next
+              - link "Configuring Different Transactional Semantics for Different Beans ›" [ref=e365] [cursor=pointer]:
+                - /url: diff-tx.html
+    - text:   
+  - contentinfo [ref=e366]:
+    - generic [ref=e367]:
+      - img "Spring" [ref=e368]
+      - paragraph [ref=e369]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e370] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e371] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e372] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e373]:
+          - text: •
+          - link "Thank you" [ref=e374] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e375] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e376]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e377]:
+      - link "Youtube" [ref=e378] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e382] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e386] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e391]:
+      - generic [ref=e392]:
+        - button "Close" [ref=e394] [cursor=pointer]
+        - generic [ref=e395]:
+          - generic [ref=e397]:
+            - heading "Cookies" [level=2] [ref=e398]
+            - generic [ref=e399]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e400] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e404] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

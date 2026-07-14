@@ -1,0 +1,974 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "Skip navigation links" [ref=e7] [cursor=pointer]:
+          - /url: "#skip-navbar-top"
+        - list "Navigation" [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Overview" [ref=e10] [cursor=pointer]:
+              - /url: ../../../../index.html
+          - listitem [ref=e11]: Class
+          - listitem [ref=e12]:
+            - link "Use" [ref=e13] [cursor=pointer]:
+              - /url: class-use/Transactional.html
+          - listitem [ref=e14]:
+            - link "Tree" [ref=e15] [cursor=pointer]:
+              - /url: package-tree.html
+          - listitem [ref=e16]:
+            - link "Deprecated" [ref=e17] [cursor=pointer]:
+              - /url: ../../../../deprecated-list.html
+          - listitem [ref=e18]:
+            - link "Index" [ref=e19] [cursor=pointer]:
+              - /url: ../../../../index-files/index-1.html
+          - listitem [ref=e20]:
+            - link "Search" [ref=e21] [cursor=pointer]:
+              - /url: ../../../../search.html
+          - listitem [ref=e22]:
+            - link "Help" [ref=e23] [cursor=pointer]:
+              - /url: ../../../../help-doc.html#class
+        - generic [ref=e24]: Spring Framework
+      - generic [ref=e26]:
+        - list [ref=e27]:
+          - listitem [ref=e28]:
+            - link "org.springframework.transaction.annotation" [ref=e29] [cursor=pointer]:
+              - /url: package-summary.html
+          - listitem [ref=e30]:
+            - link "Transactional" [ref=e31] [cursor=pointer]:
+              - /url: Transactional.html
+        - textbox "Search in documentation" [ref=e33]:
+          - /placeholder: Search documentation (type /)
+  - generic [ref=e34]:
+    - navigation "Table of contents" [ref=e35]:
+      - generic [ref=e36]:
+        - text: Contents
+        - textbox "Filter table of contents" [ref=e37]:
+          - /placeholder: Filter contents (type .)
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link "Description" [ref=e40] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e41]:
+          - link "Optional Element Summary" [ref=e42] [cursor=pointer]:
+            - /url: "#annotation-interface-optional-element-summary"
+        - listitem [ref=e43]:
+          - link "Element Details" [ref=e44] [cursor=pointer]:
+            - /url: "#annotation-interface-element-detail"
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "value" [ref=e47] [cursor=pointer]:
+                - /url: "#value()"
+            - listitem [ref=e48]:
+              - link "transactionManager" [ref=e49] [cursor=pointer]:
+                - /url: "#transactionManager()"
+            - listitem [ref=e50]:
+              - link "label" [ref=e51] [cursor=pointer]:
+                - /url: "#label()"
+            - listitem [ref=e52]:
+              - link "propagation" [ref=e53] [cursor=pointer]:
+                - /url: "#propagation()"
+            - listitem [ref=e54]:
+              - link "isolation" [ref=e55] [cursor=pointer]:
+                - /url: "#isolation()"
+            - listitem [ref=e56]:
+              - link "timeout" [ref=e57] [cursor=pointer]:
+                - /url: "#timeout()"
+            - listitem [ref=e58]:
+              - link "timeoutString" [ref=e59] [cursor=pointer]:
+                - /url: "#timeoutString()"
+            - listitem [ref=e60]:
+              - link "readOnly" [ref=e61] [cursor=pointer]:
+                - /url: "#readOnly()"
+            - listitem [ref=e62]:
+              - link "rollbackFor" [ref=e63] [cursor=pointer]:
+                - /url: "#rollbackFor()"
+            - listitem [ref=e64]:
+              - link "rollbackForClassName" [ref=e65] [cursor=pointer]:
+                - /url: "#rollbackForClassName()"
+            - listitem [ref=e66]:
+              - link "noRollbackFor" [ref=e67] [cursor=pointer]:
+                - /url: "#noRollbackFor()"
+            - listitem [ref=e68]:
+              - link "noRollbackForClassName" [ref=e69] [cursor=pointer]:
+                - /url: "#noRollbackForClassName()"
+      - button [ref=e70] [cursor=pointer]:
+        - img "Hide sidebar" [ref=e71]
+    - main [ref=e72]:
+      - heading "Annotation Interface Transactional" [level=1] [ref=e74]
+      - generic [ref=e75]:
+        - separator [ref=e76]
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - link "@Target" [ref=e80] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/Target.html
+              - text: "({"
+              - link "TYPE" [ref=e81] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/ElementType.html#TYPE
+              - text: ","
+              - link "METHOD" [ref=e82] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/ElementType.html#METHOD
+              - text: "})"
+              - link "@Retention" [ref=e83] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/Retention.html
+              - text: (
+              - link "RUNTIME" [ref=e84] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/RetentionPolicy.html#RUNTIME
+              - text: )
+              - link "@Inherited" [ref=e85] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/Inherited.html
+              - link "@Documented" [ref=e86] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/annotation/Documented.html
+              - link "@Reflective" [ref=e87] [cursor=pointer]:
+                - /url: ../../aot/hint/annotation/Reflective.html
+            - text: public @interface Transactional
+          - generic [ref=e88]:
+            - text: Describes a transaction attribute on an individual method or on a class.
+            - paragraph [ref=e89]:
+              - text: When this annotation is declared at the class level, it applies as a default to all methods of the declaring class and its subclasses. Note that it does not apply to ancestor classes up the class hierarchy; inherited methods need to be locally redeclared in order to participate in a subclass-level annotation. For details on method visibility constraints, consult the
+              - link "Transaction Management" [ref=e90] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-framework/reference/data-access/transaction/declarative/annotations.html#transaction-declarative-annotations-method-visibility
+              - text: section of the reference manual.
+            - paragraph [ref=e91]:
+              - text: This annotation is generally directly comparable to Spring's
+              - link [ref=e92] [cursor=pointer]:
+                - /url: ../interceptor/RuleBasedTransactionAttribute.html
+                - code [ref=e93]: RuleBasedTransactionAttribute
+              - text: class, and in fact
+              - link [ref=e94] [cursor=pointer]:
+                - /url: AnnotationTransactionAttributeSource.html
+                - code [ref=e95]: AnnotationTransactionAttributeSource
+              - text: will directly convert this annotation's attributes to properties in
+              - code [ref=e96]: RuleBasedTransactionAttribute
+              - text: ", so that Spring's transaction support code does not have to know about annotations."
+            - heading [level=3] [ref=e97]:
+              - text: Attribute Semantics
+              - link "Link to this section" [ref=e98] [cursor=pointer]:
+                - /url: "#attribute-semantics-heading"
+                - img "Link icon" [ref=e99]
+            - paragraph [ref=e100]:
+              - text: If no custom rollback rules are configured in this annotation, the transaction will roll back on
+              - link [ref=e101] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/RuntimeException.html
+                - code [ref=e102]: RuntimeException
+              - text: and
+              - link [ref=e103] [cursor=pointer]:
+                - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Error.html
+                - code [ref=e104]: Error
+              - text: but not on checked exceptions.
+            - paragraph [ref=e105]:
+              - text: Rollback rules determine if a transaction should be rolled back when a given exception is thrown, and the rules are based on types or patterns. Custom rules may be configured via
+              - link [ref=e106] [cursor=pointer]:
+                - /url: "#rollbackFor()"
+                - code [ref=e107]: rollbackFor()
+              - text: /
+              - link [ref=e108] [cursor=pointer]:
+                - /url: "#noRollbackFor()"
+                - code [ref=e109]: noRollbackFor()
+              - text: and
+              - link [ref=e110] [cursor=pointer]:
+                - /url: "#rollbackForClassName()"
+                - code [ref=e111]: rollbackForClassName()
+              - text: /
+              - link [ref=e112] [cursor=pointer]:
+                - /url: "#noRollbackForClassName()"
+                - code [ref=e113]: noRollbackForClassName()
+              - text: ", which allow rules to be specified as types or patterns, respectively."
+            - paragraph [ref=e114]:
+              - text: When a rollback rule is defined with an exception type — for example, via
+              - link [ref=e115] [cursor=pointer]:
+                - /url: "#rollbackFor()"
+                - code [ref=e116]: rollbackFor()
+              - text: — that type will be used to match against the type of a thrown exception. Specifically, given a configured exception type
+              - code [ref=e117]: C
+              - text: ", a thrown exception of type"
+              - code [ref=e118]: T
+              - text: will be considered a match against
+              - code [ref=e119]: C
+              - text: if
+              - code [ref=e120]: T
+              - text: is equal to
+              - code [ref=e121]: C
+              - text: or a subclass of
+              - code [ref=e122]: C
+              - text: . This provides type safety and avoids any unintentional matches that may occur when using a pattern. For example, a value of
+              - code [ref=e123]: jakarta.servlet.ServletException.class
+              - text: will only match thrown exceptions of type
+              - code [ref=e124]: jakarta.servlet.ServletException
+              - text: and its subclasses.
+            - paragraph [ref=e125]:
+              - text: When a rollback rule is defined with an exception pattern, the pattern can be a fully qualified class name or a substring of a fully qualified class name for an exception type (which must be a subclass of
+              - code [ref=e126]: Throwable
+              - text: ), with no wildcard support at present. For example, a value of
+              - code [ref=e127]: "\"jakarta.servlet.ServletException\""
+              - text: or
+              - code [ref=e128]: "\"ServletException\""
+              - text: will match
+              - code [ref=e129]: jakarta.servlet.ServletException
+              - text: and its subclasses.
+            - paragraph [ref=e130]:
+              - strong [ref=e131]: "WARNING:"
+              - text: You must carefully consider how specific a pattern is and whether to include package information (which isn't mandatory). For example,
+              - code [ref=e132]: "\"Exception\""
+              - text: will match nearly anything and will probably hide other rules.
+              - code [ref=e133]: "\"java.lang.Exception\""
+              - text: would be correct if
+              - code [ref=e134]: "\"Exception\""
+              - text: were meant to define a rule for all checked exceptions. With more unique exception names such as
+              - code [ref=e135]: "\"BaseBusinessException\""
+              - text: there is likely no need to use the fully qualified class name for the exception pattern. Furthermore, rollback rules defined via patterns may result in unintentional matches for similarly named exceptions and nested classes. This is due to the fact that a thrown exception is considered to be a match for a given pattern-based rollback rule if the name of thrown exception contains the exception pattern configured for the rollback rule. For example, given a rule configured to match against
+              - code [ref=e136]: "\"com.example.CustomException\""
+              - text: ", that rule will match against an exception named"
+              - code [ref=e137]: com.example.CustomExceptionV2
+              - text: (an exception in the same package as
+              - code [ref=e138]: CustomException
+              - text: but with an additional suffix) or an exception named
+              - code [ref=e139]: com.example.CustomException$AnotherException
+              - text: (an exception declared as a nested class in
+              - code [ref=e140]: CustomException
+              - text: ).
+            - paragraph [ref=e141]:
+              - text: For specific information about the semantics of other attributes in this annotation, consult the
+              - link [ref=e142] [cursor=pointer]:
+                - /url: ../TransactionDefinition.html
+                - code [ref=e143]: TransactionDefinition
+              - text: and
+              - link [ref=e144] [cursor=pointer]:
+                - /url: ../interceptor/TransactionAttribute.html
+                - code [ref=e145]: TransactionAttribute
+              - text: javadocs.
+            - heading [level=3] [ref=e146]:
+              - text: Transaction Management
+              - link "Link to this section" [ref=e147] [cursor=pointer]:
+                - /url: "#transaction-management-heading"
+                - img "Link icon" [ref=e148]
+            - paragraph [ref=e149]:
+              - text: This annotation commonly works with thread-bound transactions managed by a
+              - link [ref=e150] [cursor=pointer]:
+                - /url: ../PlatformTransactionManager.html
+                - code [ref=e151]: PlatformTransactionManager
+              - text: ", exposing a transaction to all data access operations within the current execution thread. Note: This does NOT propagate to newly started threads within the method."
+            - paragraph [ref=e152]:
+              - text: Alternatively, this annotation may demarcate a reactive transaction managed by a
+              - link [ref=e153] [cursor=pointer]:
+                - /url: ../ReactiveTransactionManager.html
+                - code [ref=e154]: ReactiveTransactionManager
+              - text: which uses the Reactor context instead of thread-local variables. As a consequence, all participating data access operations need to execute within the same Reactor context in the same reactive pipeline.
+            - paragraph [ref=e155]:
+              - generic [ref=e156]:
+                - text: "Note: When configured with a"
+                - code [ref=e157]: ReactiveTransactionManager
+                - text: ", all transaction-demarcated methods are expected to return a reactive pipeline."
+              - text: Void methods or regular return types need to be associated with a regular
+              - code [ref=e158]: PlatformTransactionManager
+              - text: ", for example, through"
+              - link [ref=e159] [cursor=pointer]:
+                - /url: "#transactionManager()"
+                - code [ref=e160]: transactionManager()
+              - text: .
+          - generic [ref=e161]:
+            - term [ref=e162]: "Since:"
+            - definition [ref=e163]: "1.2"
+            - term [ref=e164]: "Author:"
+            - definition [ref=e165]: Colin Sampaleanu, Juergen Hoeller, Sam Brannen, Mark Paluch
+            - term [ref=e166]: "See Also:"
+            - definition [ref=e167]:
+              - list [ref=e168]:
+                - listitem [ref=e169]:
+                  - link [ref=e170] [cursor=pointer]:
+                    - /url: ../interceptor/TransactionAttribute.html
+                    - code [ref=e171]: TransactionAttribute
+                  - text: ","
+                - listitem [ref=e172]:
+                  - link [ref=e173] [cursor=pointer]:
+                    - /url: ../interceptor/DefaultTransactionAttribute.html
+                    - code [ref=e174]: DefaultTransactionAttribute
+                  - text: ","
+                - listitem [ref=e175]:
+                  - link [ref=e176] [cursor=pointer]:
+                    - /url: ../interceptor/RuleBasedTransactionAttribute.html
+                    - code [ref=e177]: RuleBasedTransactionAttribute
+      - list [ref=e179]:
+        - listitem [ref=e180]:
+          - generic [ref=e181]:
+            - heading [level=2] [ref=e182]:
+              - text: Optional Element Summary
+              - link "Link to this section" [ref=e183] [cursor=pointer]:
+                - /url: "#annotation-interface-optional-element-summary"
+                - img "Link icon" [ref=e184]
+            - generic [ref=e185]: Optional Elements
+            - generic [ref=e187]:
+              - generic [ref=e188]: Modifier and Type
+              - generic [ref=e189]: Optional Element
+              - generic [ref=e190]: Description
+              - code [ref=e192]:
+                - link "Isolation" [ref=e193] [cursor=pointer]:
+                  - /url: Isolation.html
+              - code [ref=e195]:
+                - link "isolation" [ref=e196] [cursor=pointer]:
+                  - /url: "#isolation()"
+              - generic [ref=e197]: The transaction isolation level.
+              - code [ref=e200]:
+                - link "String" [ref=e201] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                - text: "[]"
+              - code [ref=e203]:
+                - link "label" [ref=e204] [cursor=pointer]:
+                  - /url: "#label()"
+              - generic [ref=e205]: Defines zero (0) or more transaction labels.
+              - code [ref=e208]:
+                - link "Class" [ref=e209] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                - text: <? extends
+                - link "Throwable" [ref=e210] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                - text: ">[]"
+              - code [ref=e212]:
+                - link "noRollbackFor" [ref=e213] [cursor=pointer]:
+                  - /url: "#noRollbackFor()"
+              - generic [ref=e215]:
+                - text: Defines zero (0) or more exception
+                - link [ref=e216] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                  - code [ref=e217]: types
+                - text: ", which must be subclasses of"
+                - link [ref=e218] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                  - code [ref=e219]: Throwable
+                - text: ", indicating which exception types must not cause a transaction rollback."
+              - code [ref=e221]:
+                - link "String" [ref=e222] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                - text: "[]"
+              - code [ref=e224]:
+                - link "noRollbackForClassName" [ref=e225] [cursor=pointer]:
+                  - /url: "#noRollbackForClassName()"
+              - generic [ref=e227]:
+                - text: Defines zero (0) or more exception name patterns (for exceptions which must be a subclass of
+                - link [ref=e228] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                  - code [ref=e229]: Throwable
+                - text: ) indicating which exception types must not cause a transaction rollback.
+              - code [ref=e231]:
+                - link "Propagation" [ref=e232] [cursor=pointer]:
+                  - /url: Propagation.html
+              - code [ref=e234]:
+                - link "propagation" [ref=e235] [cursor=pointer]:
+                  - /url: "#propagation()"
+              - generic [ref=e236]: The transaction propagation type.
+              - code [ref=e239]: boolean
+              - code [ref=e241]:
+                - link "readOnly" [ref=e242] [cursor=pointer]:
+                  - /url: "#readOnly()"
+              - generic [ref=e244]:
+                - text: A boolean flag that can be set to
+                - code [ref=e245]: "true"
+                - text: if the transaction is effectively read-only, allowing for corresponding optimizations at runtime.
+              - code [ref=e247]:
+                - link "Class" [ref=e248] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                - text: <? extends
+                - link "Throwable" [ref=e249] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                - text: ">[]"
+              - code [ref=e251]:
+                - link "rollbackFor" [ref=e252] [cursor=pointer]:
+                  - /url: "#rollbackFor()"
+              - generic [ref=e254]:
+                - text: Defines zero (0) or more exception
+                - link "types" [ref=e255] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                - text: ", which must be subclasses of"
+                - link [ref=e256] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                  - code [ref=e257]: Throwable
+                - text: ", indicating which exception types must cause a transaction rollback."
+              - code [ref=e259]:
+                - link "String" [ref=e260] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                - text: "[]"
+              - code [ref=e262]:
+                - link "rollbackForClassName" [ref=e263] [cursor=pointer]:
+                  - /url: "#rollbackForClassName()"
+              - generic [ref=e265]:
+                - text: Defines zero (0) or more exception name patterns (for exceptions which must be a subclass of
+                - link [ref=e266] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                  - code [ref=e267]: Throwable
+                - text: ), indicating which exception types must cause a transaction rollback.
+              - code [ref=e269]: int
+              - code [ref=e271]:
+                - link "timeout" [ref=e272] [cursor=pointer]:
+                  - /url: "#timeout()"
+              - generic [ref=e273]: The timeout for this transaction (in seconds).
+              - code [ref=e276]:
+                - link "String" [ref=e277] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+              - code [ref=e279]:
+                - link "timeoutString" [ref=e280] [cursor=pointer]:
+                  - /url: "#timeoutString()"
+              - generic [ref=e281]: The timeout for this transaction (in seconds).
+              - code [ref=e284]:
+                - link "String" [ref=e285] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+              - code [ref=e287]:
+                - link "transactionManager" [ref=e288] [cursor=pointer]:
+                  - /url: "#transactionManager()"
+              - generic [ref=e290]:
+                - text: A
+                - emphasis [ref=e291]: qualifier
+                - text: value for the specified transaction.
+              - code [ref=e293]:
+                - link "String" [ref=e294] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+              - code [ref=e296]:
+                - link "value" [ref=e297] [cursor=pointer]:
+                  - /url: "#value()"
+              - generic [ref=e299]:
+                - text: Alias for
+                - link [ref=e300] [cursor=pointer]:
+                  - /url: "#transactionManager()"
+                  - code [ref=e301]: transactionManager()
+                - text: .
+      - list [ref=e303]:
+        - listitem [ref=e304]:
+          - generic [ref=e305]:
+            - heading "Element Details" [level=2] [ref=e306]
+            - list [ref=e307]:
+              - listitem [ref=e308]:
+                - generic [ref=e309]:
+                  - heading [level=3] [ref=e310]:
+                    - text: value
+                    - link "Link to this section" [ref=e311] [cursor=pointer]:
+                      - /url: "#value()"
+                      - img "Link icon" [ref=e312]
+                  - generic [ref=e313]:
+                    - generic [ref=e314]:
+                      - generic [ref=e315]:
+                        - link "@AliasFor" [ref=e316] [cursor=pointer]:
+                          - /url: ../../core/annotation/AliasFor.html
+                        - text: ("transactionManager")
+                      - link "String" [ref=e318] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                      - text: value
+                    - generic [ref=e319]:
+                      - text: Alias for
+                      - link [ref=e320] [cursor=pointer]:
+                        - /url: "#transactionManager()"
+                        - code [ref=e321]: transactionManager()
+                      - text: .
+                    - generic [ref=e322]:
+                      - term [ref=e323]: "See Also:"
+                      - definition [ref=e324]:
+                        - list [ref=e325]:
+                          - listitem [ref=e326]:
+                            - link [ref=e327] [cursor=pointer]:
+                              - /url: "#transactionManager()"
+                              - code [ref=e328]: transactionManager()
+                    - generic [ref=e329]:
+                      - term [ref=e330]: "Default:"
+                      - definition [ref=e331]:
+                        - code [ref=e332]: "\"\""
+              - listitem [ref=e333]:
+                - generic [ref=e334]:
+                  - heading [level=3] [ref=e335]:
+                    - text: transactionManager
+                    - link "Link to this section" [ref=e336] [cursor=pointer]:
+                      - /url: "#transactionManager()"
+                      - img "Link icon" [ref=e337]
+                  - generic [ref=e338]:
+                    - generic [ref=e339]:
+                      - generic [ref=e340]:
+                        - link "@AliasFor" [ref=e341] [cursor=pointer]:
+                          - /url: ../../core/annotation/AliasFor.html
+                        - text: ("value")
+                      - link "String" [ref=e343] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                      - text: transactionManager
+                    - generic [ref=e344]:
+                      - text: A
+                      - emphasis [ref=e345]: qualifier
+                      - text: value for the specified transaction.
+                      - paragraph [ref=e346]:
+                        - text: May be used to determine the target transaction manager, matching the qualifier value (or the bean name) of a specific
+                        - link [ref=e347] [cursor=pointer]:
+                          - /url: ../TransactionManager.html
+                          - code [ref=e348]: TransactionManager
+                        - text: bean definition.
+                      - paragraph [ref=e349]:
+                        - text: Alternatively, as of 6.2, a type-level bean qualifier annotation with a
+                        - link [ref=e350] [cursor=pointer]:
+                          - /url: ../../beans/factory/annotation/Qualifier.html#value()
+                          - code [ref=e351]: qualifier value
+                        - text: is also taken into account. If it matches the qualifier value (or bean name) of a specific transaction manager, that transaction manager is going to be used for transaction definitions without a specific qualifier on this attribute here. Such a type-level qualifier can be declared on the concrete class, applying to transaction definitions from a base class as well, effectively overriding the default transaction manager choice for any unqualified base class methods.
+                    - generic [ref=e352]:
+                      - term [ref=e353]: "Since:"
+                      - definition [ref=e354]: "4.2"
+                      - term [ref=e355]: "See Also:"
+                      - definition [ref=e356]:
+                        - list [ref=e357]:
+                          - listitem [ref=e358]:
+                            - link [ref=e359] [cursor=pointer]:
+                              - /url: "#value()"
+                              - code [ref=e360]: value()
+                            - text: ","
+                          - listitem [ref=e361]:
+                            - link [ref=e362] [cursor=pointer]:
+                              - /url: ../PlatformTransactionManager.html
+                              - code [ref=e363]: PlatformTransactionManager
+                            - text: ","
+                          - listitem [ref=e364]:
+                            - link [ref=e365] [cursor=pointer]:
+                              - /url: ../ReactiveTransactionManager.html
+                              - code [ref=e366]: ReactiveTransactionManager
+                    - generic [ref=e367]:
+                      - term [ref=e368]: "Default:"
+                      - definition [ref=e369]:
+                        - code [ref=e370]: "\"\""
+              - listitem [ref=e371]:
+                - generic [ref=e372]:
+                  - heading [level=3] [ref=e373]:
+                    - text: label
+                    - link "Link to this section" [ref=e374] [cursor=pointer]:
+                      - /url: "#label()"
+                      - img "Link icon" [ref=e375]
+                  - generic [ref=e376]:
+                    - generic [ref=e377]:
+                      - generic [ref=e378]:
+                        - link "String" [ref=e379] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                        - text: "[]"
+                      - text: label
+                    - generic [ref=e380]:
+                      - text: Defines zero (0) or more transaction labels.
+                      - paragraph [ref=e381]: Labels may be used to describe a transaction, and they can be evaluated by individual transaction managers. Labels may serve a solely descriptive purpose or map to pre-defined transaction manager-specific options.
+                      - paragraph [ref=e382]: See the documentation of the actual transaction manager implementation for details on how it evaluates transaction labels.
+                    - generic [ref=e383]:
+                      - term [ref=e384]: "Since:"
+                      - definition [ref=e385]: "5.3"
+                      - term [ref=e386]: "See Also:"
+                      - definition [ref=e387]:
+                        - list [ref=e388]:
+                          - listitem [ref=e389]:
+                            - link [ref=e390] [cursor=pointer]:
+                              - /url: ../interceptor/DefaultTransactionAttribute.html#getLabels()
+                              - code [ref=e391]: DefaultTransactionAttribute.getLabels()
+                    - generic [ref=e392]:
+                      - term [ref=e393]: "Default:"
+                      - definition [ref=e394]:
+                        - code [ref=e395]: "{}"
+              - listitem [ref=e396]:
+                - generic [ref=e397]:
+                  - heading [level=3] [ref=e398]:
+                    - text: propagation
+                    - link "Link to this section" [ref=e399] [cursor=pointer]:
+                      - /url: "#propagation()"
+                      - img "Link icon" [ref=e400]
+                  - generic [ref=e401]:
+                    - generic [ref=e402]:
+                      - link "Propagation" [ref=e404] [cursor=pointer]:
+                        - /url: Propagation.html
+                      - text: propagation
+                    - generic [ref=e405]:
+                      - text: The transaction propagation type.
+                      - paragraph [ref=e406]:
+                        - text: Defaults to
+                        - link [ref=e407] [cursor=pointer]:
+                          - /url: Propagation.html#REQUIRED
+                          - code [ref=e408]: Propagation.REQUIRED
+                        - text: .
+                    - generic [ref=e409]:
+                      - term [ref=e410]: "See Also:"
+                      - definition [ref=e411]:
+                        - list [ref=e412]:
+                          - listitem [ref=e413]:
+                            - link [ref=e414] [cursor=pointer]:
+                              - /url: ../TransactionDefinition.html#getPropagationBehavior()
+                              - code [ref=e415]: TransactionDefinition.getPropagationBehavior()
+                    - generic [ref=e416]:
+                      - term [ref=e417]: "Default:"
+                      - definition [ref=e418]:
+                        - code [ref=e419]: REQUIRED
+              - listitem [ref=e420]:
+                - generic [ref=e421]:
+                  - heading [level=3] [ref=e422]:
+                    - text: isolation
+                    - link "Link to this section" [ref=e423] [cursor=pointer]:
+                      - /url: "#isolation()"
+                      - img "Link icon" [ref=e424]
+                  - generic [ref=e425]:
+                    - generic [ref=e426]:
+                      - link "Isolation" [ref=e428] [cursor=pointer]:
+                        - /url: Isolation.html
+                      - text: isolation
+                    - generic [ref=e429]:
+                      - text: The transaction isolation level.
+                      - paragraph [ref=e430]:
+                        - text: Defaults to
+                        - link [ref=e431] [cursor=pointer]:
+                          - /url: Isolation.html#DEFAULT
+                          - code [ref=e432]: Isolation.DEFAULT
+                        - text: .
+                      - paragraph [ref=e433]:
+                        - text: Exclusively designed for use with
+                        - link [ref=e434] [cursor=pointer]:
+                          - /url: Propagation.html#REQUIRED
+                          - code [ref=e435]: Propagation.REQUIRED
+                        - text: or
+                        - link [ref=e436] [cursor=pointer]:
+                          - /url: Propagation.html#REQUIRES_NEW
+                          - code [ref=e437]: Propagation.REQUIRES_NEW
+                        - text: since it only applies to newly started transactions. Consider switching the "validateExistingTransaction" flag to "true" on your transaction manager if you'd like isolation level declarations to get rejected when participating in an existing transaction with a different isolation level.
+                    - generic [ref=e438]:
+                      - term [ref=e439]: "See Also:"
+                      - definition [ref=e440]:
+                        - list [ref=e441]:
+                          - listitem [ref=e442]:
+                            - link [ref=e443] [cursor=pointer]:
+                              - /url: ../TransactionDefinition.html#getIsolationLevel()
+                              - code [ref=e444]: TransactionDefinition.getIsolationLevel()
+                            - text: ","
+                          - listitem [ref=e445]:
+                            - link [ref=e446] [cursor=pointer]:
+                              - /url: ../support/AbstractPlatformTransactionManager.html#setValidateExistingTransaction(boolean)
+                              - code [ref=e447]: AbstractPlatformTransactionManager.setValidateExistingTransaction(boolean)
+                    - generic [ref=e448]:
+                      - term [ref=e449]: "Default:"
+                      - definition [ref=e450]:
+                        - code [ref=e451]: DEFAULT
+              - listitem [ref=e452]:
+                - generic [ref=e453]:
+                  - heading [level=3] [ref=e454]:
+                    - text: timeout
+                    - link "Link to this section" [ref=e455] [cursor=pointer]:
+                      - /url: "#timeout()"
+                      - img "Link icon" [ref=e456]
+                  - generic [ref=e457]:
+                    - generic [ref=e458]: int timeout
+                    - generic [ref=e459]:
+                      - text: The timeout for this transaction (in seconds).
+                      - paragraph [ref=e460]: Defaults to the default timeout of the underlying transaction system.
+                      - paragraph [ref=e461]:
+                        - text: Exclusively designed for use with
+                        - link [ref=e462] [cursor=pointer]:
+                          - /url: Propagation.html#REQUIRED
+                          - code [ref=e463]: Propagation.REQUIRED
+                        - text: or
+                        - link [ref=e464] [cursor=pointer]:
+                          - /url: Propagation.html#REQUIRES_NEW
+                          - code [ref=e465]: Propagation.REQUIRES_NEW
+                        - text: since it only applies to newly started transactions.
+                    - generic [ref=e466]:
+                      - term [ref=e467]: "Returns:"
+                      - definition [ref=e468]: the timeout in seconds
+                      - term [ref=e469]: "See Also:"
+                      - definition [ref=e470]:
+                        - list [ref=e471]:
+                          - listitem [ref=e472]:
+                            - link [ref=e473] [cursor=pointer]:
+                              - /url: ../TransactionDefinition.html#getTimeout()
+                              - code [ref=e474]: TransactionDefinition.getTimeout()
+                    - generic [ref=e475]:
+                      - term [ref=e476]: "Default:"
+                      - definition [ref=e477]:
+                        - code [ref=e478]: "-1"
+              - listitem [ref=e479]:
+                - generic [ref=e480]:
+                  - heading [level=3] [ref=e481]:
+                    - text: timeoutString
+                    - link "Link to this section" [ref=e482] [cursor=pointer]:
+                      - /url: "#timeoutString()"
+                      - img "Link icon" [ref=e483]
+                  - generic [ref=e484]:
+                    - generic [ref=e485]:
+                      - link "String" [ref=e487] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                      - text: timeoutString
+                    - generic [ref=e488]:
+                      - text: The timeout for this transaction (in seconds).
+                      - paragraph [ref=e489]: Defaults to the default timeout of the underlying transaction system.
+                      - paragraph [ref=e490]:
+                        - text: Exclusively designed for use with
+                        - link [ref=e491] [cursor=pointer]:
+                          - /url: Propagation.html#REQUIRED
+                          - code [ref=e492]: Propagation.REQUIRED
+                        - text: or
+                        - link [ref=e493] [cursor=pointer]:
+                          - /url: Propagation.html#REQUIRES_NEW
+                          - code [ref=e494]: Propagation.REQUIRES_NEW
+                        - text: since it only applies to newly started transactions.
+                    - generic [ref=e495]:
+                      - term [ref=e496]: "Returns:"
+                      - definition [ref=e497]: the timeout in seconds as a String value, for example, a placeholder
+                      - term [ref=e498]: "Since:"
+                      - definition [ref=e499]: "5.3"
+                      - term [ref=e500]: "See Also:"
+                      - definition [ref=e501]:
+                        - list [ref=e502]:
+                          - listitem [ref=e503]:
+                            - link [ref=e504] [cursor=pointer]:
+                              - /url: ../TransactionDefinition.html#getTimeout()
+                              - code [ref=e505]: TransactionDefinition.getTimeout()
+                    - generic [ref=e506]:
+                      - term [ref=e507]: "Default:"
+                      - definition [ref=e508]:
+                        - code [ref=e509]: "\"\""
+              - listitem [ref=e510]:
+                - generic [ref=e511]:
+                  - heading [level=3] [ref=e512]:
+                    - text: readOnly
+                    - link "Link to this section" [ref=e513] [cursor=pointer]:
+                      - /url: "#readOnly()"
+                      - img "Link icon" [ref=e514]
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: boolean readOnly
+                    - generic [ref=e517]:
+                      - text: A boolean flag that can be set to
+                      - code [ref=e518]: "true"
+                      - text: if the transaction is effectively read-only, allowing for corresponding optimizations at runtime.
+                      - paragraph [ref=e519]:
+                        - text: Defaults to
+                        - code [ref=e520]: "false"
+                        - text: .
+                      - paragraph [ref=e521]: This just serves as a hint for the actual transaction subsystem; it will not necessarily cause failure of write access attempts. A transaction manager which cannot interpret the read-only hint will not throw an exception when asked for a read-only transaction but rather silently ignore the hint.
+                    - generic [ref=e522]:
+                      - term [ref=e523]: "See Also:"
+                      - definition [ref=e524]:
+                        - list [ref=e525]:
+                          - listitem [ref=e526]:
+                            - link [ref=e527] [cursor=pointer]:
+                              - /url: ../TransactionDefinition.html#isReadOnly()
+                              - code [ref=e528]: TransactionDefinition.isReadOnly()
+                            - text: ","
+                          - listitem [ref=e529]:
+                            - link [ref=e530] [cursor=pointer]:
+                              - /url: ../support/TransactionSynchronizationManager.html#isCurrentTransactionReadOnly()
+                              - code [ref=e531]: TransactionSynchronizationManager.isCurrentTransactionReadOnly()
+                    - generic [ref=e532]:
+                      - term [ref=e533]: "Default:"
+                      - definition [ref=e534]:
+                        - code [ref=e535]: "false"
+              - listitem [ref=e536]:
+                - generic [ref=e537]:
+                  - heading [level=3] [ref=e538]:
+                    - text: rollbackFor
+                    - link "Link to this section" [ref=e539] [cursor=pointer]:
+                      - /url: "#rollbackFor()"
+                      - img "Link icon" [ref=e540]
+                  - generic [ref=e541]:
+                    - generic [ref=e542]:
+                      - generic [ref=e543]:
+                        - link "Class" [ref=e544] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                        - text: <? extends
+                        - link "Throwable" [ref=e545] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                        - text: ">[]"
+                      - text: rollbackFor
+                    - generic [ref=e546]:
+                      - text: Defines zero (0) or more exception
+                      - link "types" [ref=e547] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                      - text: ", which must be subclasses of"
+                      - link [ref=e548] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                        - code [ref=e549]: Throwable
+                      - text: ", indicating which exception types must cause a transaction rollback."
+                      - paragraph [ref=e550]:
+                        - text: By default, a transaction will be rolled back on
+                        - link [ref=e551] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/RuntimeException.html
+                          - code [ref=e552]: RuntimeException
+                        - text: and
+                        - link [ref=e553] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Error.html
+                          - code [ref=e554]: Error
+                        - text: but not on checked exceptions (business exceptions). See
+                        - link [ref=e555] [cursor=pointer]:
+                          - /url: ../interceptor/DefaultTransactionAttribute.html#rollbackOn(java.lang.Throwable)
+                          - code [ref=e556]: DefaultTransactionAttribute.rollbackOn(Throwable)
+                        - text: for a detailed explanation.
+                      - paragraph [ref=e557]:
+                        - text: This is the preferred way to construct a rollback rule (in contrast to
+                        - link [ref=e558] [cursor=pointer]:
+                          - /url: "#rollbackForClassName()"
+                          - code [ref=e559]: rollbackForClassName()
+                        - text: ), matching the exception type and its subclasses in a type-safe manner. See the
+                        - link "class-level javadocs" [ref=e560] [cursor=pointer]:
+                          - /url: Transactional.html
+                        - text: for further details on rollback rule semantics.
+                    - generic [ref=e561]:
+                      - term [ref=e562]: "See Also:"
+                      - definition [ref=e563]:
+                        - list [ref=e564]:
+                          - listitem [ref=e565]:
+                            - link [ref=e566] [cursor=pointer]:
+                              - /url: "#rollbackForClassName()"
+                              - code [ref=e567]: rollbackForClassName()
+                            - text: ","
+                          - listitem [ref=e568]:
+                            - link [ref=e569] [cursor=pointer]:
+                              - /url: ../interceptor/RollbackRuleAttribute.html#%3Cinit%3E(java.lang.Class)
+                              - code [ref=e570]: RollbackRuleAttribute(Class)
+                            - text: ","
+                          - listitem [ref=e571]:
+                            - link [ref=e572] [cursor=pointer]:
+                              - /url: ../interceptor/DefaultTransactionAttribute.html#rollbackOn(java.lang.Throwable)
+                              - code [ref=e573]: DefaultTransactionAttribute.rollbackOn(Throwable)
+                    - generic [ref=e574]:
+                      - term [ref=e575]: "Default:"
+                      - definition [ref=e576]:
+                        - code [ref=e577]: "{}"
+              - listitem [ref=e578]:
+                - generic [ref=e579]:
+                  - heading [level=3] [ref=e580]:
+                    - text: rollbackForClassName
+                    - link "Link to this section" [ref=e581] [cursor=pointer]:
+                      - /url: "#rollbackForClassName()"
+                      - img "Link icon" [ref=e582]
+                  - generic [ref=e583]:
+                    - generic [ref=e584]:
+                      - generic [ref=e585]:
+                        - link "String" [ref=e586] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                        - text: "[]"
+                      - text: rollbackForClassName
+                    - generic [ref=e587]:
+                      - text: Defines zero (0) or more exception name patterns (for exceptions which must be a subclass of
+                      - link [ref=e588] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                        - code [ref=e589]: Throwable
+                      - text: ), indicating which exception types must cause a transaction rollback.
+                      - paragraph [ref=e590]:
+                        - text: See the
+                        - link "class-level javadocs" [ref=e591] [cursor=pointer]:
+                          - /url: Transactional.html
+                        - text: for further details on rollback rule semantics, patterns, and warnings regarding possible unintentional matches.
+                    - generic [ref=e592]:
+                      - term [ref=e593]: "See Also:"
+                      - definition [ref=e594]:
+                        - list [ref=e595]:
+                          - listitem [ref=e596]:
+                            - link [ref=e597] [cursor=pointer]:
+                              - /url: "#rollbackFor()"
+                              - code [ref=e598]: rollbackFor()
+                            - text: ","
+                          - listitem [ref=e599]:
+                            - link [ref=e600] [cursor=pointer]:
+                              - /url: ../interceptor/RollbackRuleAttribute.html#%3Cinit%3E(java.lang.String)
+                              - code [ref=e601]: RollbackRuleAttribute(String)
+                            - text: ","
+                          - listitem [ref=e602]:
+                            - link [ref=e603] [cursor=pointer]:
+                              - /url: ../interceptor/DefaultTransactionAttribute.html#rollbackOn(java.lang.Throwable)
+                              - code [ref=e604]: DefaultTransactionAttribute.rollbackOn(Throwable)
+                    - generic [ref=e605]:
+                      - term [ref=e606]: "Default:"
+                      - definition [ref=e607]:
+                        - code [ref=e608]: "{}"
+              - listitem [ref=e609]:
+                - generic [ref=e610]:
+                  - heading [level=3] [ref=e611]:
+                    - text: noRollbackFor
+                    - link "Link to this section" [ref=e612] [cursor=pointer]:
+                      - /url: "#noRollbackFor()"
+                      - img "Link icon" [ref=e613]
+                  - generic [ref=e614]:
+                    - generic [ref=e615]:
+                      - generic [ref=e616]:
+                        - link "Class" [ref=e617] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                        - text: <? extends
+                        - link "Throwable" [ref=e618] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                        - text: ">[]"
+                      - text: noRollbackFor
+                    - generic [ref=e619]:
+                      - text: Defines zero (0) or more exception
+                      - link [ref=e620] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html
+                        - code [ref=e621]: types
+                      - text: ", which must be subclasses of"
+                      - link [ref=e622] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                        - code [ref=e623]: Throwable
+                      - text: ", indicating which exception types must not cause a transaction rollback."
+                      - paragraph [ref=e624]:
+                        - text: This is the preferred way to construct a rollback rule (in contrast to
+                        - link [ref=e625] [cursor=pointer]:
+                          - /url: "#noRollbackForClassName()"
+                          - code [ref=e626]: noRollbackForClassName()
+                        - text: ), matching the exception type and its subclasses in a type-safe manner. See the
+                        - link "class-level javadocs" [ref=e627] [cursor=pointer]:
+                          - /url: Transactional.html
+                        - text: for further details on rollback rule semantics.
+                    - generic [ref=e628]:
+                      - term [ref=e629]: "See Also:"
+                      - definition [ref=e630]:
+                        - list [ref=e631]:
+                          - listitem [ref=e632]:
+                            - link [ref=e633] [cursor=pointer]:
+                              - /url: "#noRollbackForClassName()"
+                              - code [ref=e634]: noRollbackForClassName()
+                            - text: ","
+                          - listitem [ref=e635]:
+                            - link [ref=e636] [cursor=pointer]:
+                              - /url: ../interceptor/NoRollbackRuleAttribute.html#%3Cinit%3E(java.lang.Class)
+                              - code [ref=e637]: NoRollbackRuleAttribute(Class)
+                            - text: ","
+                          - listitem [ref=e638]:
+                            - link [ref=e639] [cursor=pointer]:
+                              - /url: ../interceptor/DefaultTransactionAttribute.html#rollbackOn(java.lang.Throwable)
+                              - code [ref=e640]: DefaultTransactionAttribute.rollbackOn(Throwable)
+                    - generic [ref=e641]:
+                      - term [ref=e642]: "Default:"
+                      - definition [ref=e643]:
+                        - code [ref=e644]: "{}"
+              - listitem [ref=e645]:
+                - generic [ref=e646]:
+                  - heading [level=3] [ref=e647]:
+                    - text: noRollbackForClassName
+                    - link "Link to this section" [ref=e648] [cursor=pointer]:
+                      - /url: "#noRollbackForClassName()"
+                      - img "Link icon" [ref=e649]
+                  - generic [ref=e650]:
+                    - generic [ref=e651]:
+                      - generic [ref=e652]:
+                        - link "String" [ref=e653] [cursor=pointer]:
+                          - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
+                        - text: "[]"
+                      - text: noRollbackForClassName
+                    - generic [ref=e654]:
+                      - text: Defines zero (0) or more exception name patterns (for exceptions which must be a subclass of
+                      - link [ref=e655] [cursor=pointer]:
+                        - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Throwable.html
+                        - code [ref=e656]: Throwable
+                      - text: ) indicating which exception types must not cause a transaction rollback.
+                      - paragraph [ref=e657]:
+                        - text: See the
+                        - link "class-level javadocs" [ref=e658] [cursor=pointer]:
+                          - /url: Transactional.html
+                        - text: for further details on rollback rule semantics, patterns, and warnings regarding possible unintentional matches.
+                    - generic [ref=e659]:
+                      - term [ref=e660]: "See Also:"
+                      - definition [ref=e661]:
+                        - list [ref=e662]:
+                          - listitem [ref=e663]:
+                            - link [ref=e664] [cursor=pointer]:
+                              - /url: "#noRollbackFor()"
+                              - code [ref=e665]: noRollbackFor()
+                            - text: ","
+                          - listitem [ref=e666]:
+                            - link [ref=e667] [cursor=pointer]:
+                              - /url: ../interceptor/NoRollbackRuleAttribute.html#%3Cinit%3E(java.lang.String)
+                              - code [ref=e668]: NoRollbackRuleAttribute(String)
+                            - text: ","
+                          - listitem [ref=e669]:
+                            - link [ref=e670] [cursor=pointer]:
+                              - /url: ../interceptor/DefaultTransactionAttribute.html#rollbackOn(java.lang.Throwable)
+                              - code [ref=e671]: DefaultTransactionAttribute.rollbackOn(Throwable)
+                    - generic [ref=e672]:
+                      - term [ref=e673]: "Default:"
+                      - definition [ref=e674]:
+                        - code [ref=e675]: "{}"
+  - status [ref=e676]

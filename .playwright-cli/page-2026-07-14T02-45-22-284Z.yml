@@ -1,0 +1,2222 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://redis.io/
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - link "AI agent builder" [ref=e16] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/agent-builder/
+          - link "Redis install" [ref=e17] [cursor=pointer]:
+            - /url: /docs/latest/operate/oss_and_stack/install/install-stack/
+          - link "Data types" [ref=e22] [cursor=pointer]:
+            - /url: /docs/latest/develop/data-types/
+        - link "Tools" [ref=e27] [cursor=pointer]:
+          - /url: /docs/latest/develop/tools/
+        - link "Community" [ref=e32] [cursor=pointer]:
+          - /url: /docs/latest/operate/oss_and_stack/
+        - link "Docs" [ref=e34] [cursor=pointer]:
+          - /url: https://redis.io/docs/
+      - generic [ref=e36]:
+        - button "Search" [ref=e37] [cursor=pointer]
+        - link "Login" [ref=e41] [cursor=pointer]:
+          - /url: https://cloud.redis.io/
+        - link "Sign up" [ref=e42] [cursor=pointer]:
+          - /url: https://redis.io/try-free/
+  - main [ref=e43]:
+    - navigation [ref=e45]:
+      - generic [ref=e46]:
+        - link "Develop with Redis" [ref=e47] [cursor=pointer]:
+          - /url: /docs/latest/develop
+        - link "Libraries and tools" [ref=e48] [cursor=pointer]:
+          - /url: /docs/latest/integrate
+        - link "Redis products" [ref=e49] [cursor=pointer]:
+          - /url: /docs/latest/operate
+      - generic [ref=e50]:
+        - link "Commands" [ref=e51] [cursor=pointer]:
+          - /url: /docs/latest/commands
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - link "Redis 8.8 Commands" [ref=e54] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-8-8-commands/
+          - listitem [ref=e56]:
+            - link "Redis 8.6 Commands" [ref=e57] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-8-6-commands/
+          - listitem [ref=e59]:
+            - link "Redis 8.4 Commands" [ref=e60] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-8-4-commands/
+          - listitem [ref=e62]:
+            - link "Redis 8.2 Commands" [ref=e63] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-8-2-commands/
+          - listitem [ref=e65]:
+            - link "Redis 8.0 Commands" [ref=e66] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-8-0-commands/
+          - listitem [ref=e68]:
+            - link "Redis 7.4 Commands" [ref=e69] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-7-4-commands/
+          - listitem [ref=e71]:
+            - link "Redis 7.2 Commands" [ref=e72] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-7-2-commands/
+          - listitem [ref=e74]:
+            - link "Redis 6.2 Commands" [ref=e75] [cursor=pointer]:
+              - /url: /docs/latest/commands/redis-6-2-commands/
+          - listitem [ref=e77]:
+            - link "ACL CAT" [ref=e78] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-cat/
+          - listitem [ref=e80]:
+            - link "ACL DELUSER" [ref=e81] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-deluser/
+          - listitem [ref=e83]:
+            - link "ACL DRYRUN" [ref=e84] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-dryrun/
+          - listitem [ref=e86]:
+            - link "ACL GENPASS" [ref=e87] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-genpass/
+          - listitem [ref=e89]:
+            - link "ACL GETUSER" [ref=e90] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-getuser/
+          - listitem [ref=e92]:
+            - link "ACL LIST" [ref=e93] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-list/
+          - listitem [ref=e95]:
+            - link "ACL LOAD" [ref=e96] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-load/
+          - listitem [ref=e98]:
+            - link "ACL LOG" [ref=e99] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-log/
+          - listitem [ref=e101]:
+            - link "ACL SAVE" [ref=e102] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-save/
+          - listitem [ref=e104]:
+            - link "ACL SETUSER" [ref=e105] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-setuser/
+          - listitem [ref=e107]:
+            - link "ACL USERS" [ref=e108] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-users/
+          - listitem [ref=e110]:
+            - link "ACL WHOAMI" [ref=e111] [cursor=pointer]:
+              - /url: /docs/latest/commands/acl-whoami/
+          - listitem [ref=e113]:
+            - link "APPEND" [ref=e114] [cursor=pointer]:
+              - /url: /docs/latest/commands/append/
+          - listitem [ref=e116]:
+            - link "ARCOUNT" [ref=e117] [cursor=pointer]:
+              - /url: /docs/latest/commands/arcount/
+          - listitem [ref=e119]:
+            - link "ARDEL" [ref=e120] [cursor=pointer]:
+              - /url: /docs/latest/commands/ardel/
+          - listitem [ref=e122]:
+            - link "ARDELRANGE" [ref=e123] [cursor=pointer]:
+              - /url: /docs/latest/commands/ardelrange/
+          - listitem [ref=e125]:
+            - link "ARGET" [ref=e126] [cursor=pointer]:
+              - /url: /docs/latest/commands/arget/
+          - listitem [ref=e128]:
+            - link "ARGETRANGE" [ref=e129] [cursor=pointer]:
+              - /url: /docs/latest/commands/argetrange/
+          - listitem [ref=e131]:
+            - link "ARGREP" [ref=e132] [cursor=pointer]:
+              - /url: /docs/latest/commands/argrep/
+          - listitem [ref=e134]:
+            - link "ARINFO" [ref=e135] [cursor=pointer]:
+              - /url: /docs/latest/commands/arinfo/
+          - listitem [ref=e137]:
+            - link "ARINSERT" [ref=e138] [cursor=pointer]:
+              - /url: /docs/latest/commands/arinsert/
+          - listitem [ref=e140]:
+            - link "ARLASTITEMS" [ref=e141] [cursor=pointer]:
+              - /url: /docs/latest/commands/arlastitems/
+          - listitem [ref=e143]:
+            - link "ARLEN" [ref=e144] [cursor=pointer]:
+              - /url: /docs/latest/commands/arlen/
+          - listitem [ref=e146]:
+            - link "ARMGET" [ref=e147] [cursor=pointer]:
+              - /url: /docs/latest/commands/armget/
+          - listitem [ref=e149]:
+            - link "ARMSET" [ref=e150] [cursor=pointer]:
+              - /url: /docs/latest/commands/armset/
+          - listitem [ref=e152]:
+            - link "ARNEXT" [ref=e153] [cursor=pointer]:
+              - /url: /docs/latest/commands/arnext/
+          - listitem [ref=e155]:
+            - link "AROP" [ref=e156] [cursor=pointer]:
+              - /url: /docs/latest/commands/arop/
+          - listitem [ref=e158]:
+            - link "ARRING" [ref=e159] [cursor=pointer]:
+              - /url: /docs/latest/commands/arring/
+          - listitem [ref=e161]:
+            - link "ARSCAN" [ref=e162] [cursor=pointer]:
+              - /url: /docs/latest/commands/arscan/
+          - listitem [ref=e164]:
+            - link "ARSEEK" [ref=e165] [cursor=pointer]:
+              - /url: /docs/latest/commands/arseek/
+          - listitem [ref=e167]:
+            - link "ARSET" [ref=e168] [cursor=pointer]:
+              - /url: /docs/latest/commands/arset/
+          - listitem [ref=e170]:
+            - link "ASKING" [ref=e171] [cursor=pointer]:
+              - /url: /docs/latest/commands/asking/
+          - listitem [ref=e173]:
+            - link "AUTH" [ref=e174] [cursor=pointer]:
+              - /url: /docs/latest/commands/auth/
+          - listitem [ref=e176]:
+            - link "BF.ADD" [ref=e177] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.add/
+          - listitem [ref=e179]:
+            - link "BF.CARD" [ref=e180] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.card/
+          - listitem [ref=e182]:
+            - link "BF.EXISTS" [ref=e183] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.exists/
+          - listitem [ref=e185]:
+            - link "BF.INFO" [ref=e186] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.info/
+          - listitem [ref=e188]:
+            - link "BF.INSERT" [ref=e189] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.insert/
+          - listitem [ref=e191]:
+            - link "BF.LOADCHUNK" [ref=e192] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.loadchunk/
+          - listitem [ref=e194]:
+            - link "BF.MADD" [ref=e195] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.madd/
+          - listitem [ref=e197]:
+            - link "BF.MEXISTS" [ref=e198] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.mexists/
+          - listitem [ref=e200]:
+            - link "BF.RESERVE" [ref=e201] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.reserve/
+          - listitem [ref=e203]:
+            - link "BF.SCANDUMP" [ref=e204] [cursor=pointer]:
+              - /url: /docs/latest/commands/bf.scandump/
+          - listitem [ref=e206]:
+            - link "BGREWRITEAOF" [ref=e207] [cursor=pointer]:
+              - /url: /docs/latest/commands/bgrewriteaof/
+          - listitem [ref=e209]:
+            - link "BGSAVE" [ref=e210] [cursor=pointer]:
+              - /url: /docs/latest/commands/bgsave/
+          - listitem [ref=e212]:
+            - link "BITCOUNT" [ref=e213] [cursor=pointer]:
+              - /url: /docs/latest/commands/bitcount/
+          - listitem [ref=e215]:
+            - link "BITFIELD" [ref=e216] [cursor=pointer]:
+              - /url: /docs/latest/commands/bitfield/
+          - listitem [ref=e218]:
+            - link "BITFIELD_RO" [ref=e219] [cursor=pointer]:
+              - /url: /docs/latest/commands/bitfield_ro/
+          - listitem [ref=e221]:
+            - link "BITOP" [ref=e222] [cursor=pointer]:
+              - /url: /docs/latest/commands/bitop/
+          - listitem [ref=e224]:
+            - link "BITPOS" [ref=e225] [cursor=pointer]:
+              - /url: /docs/latest/commands/bitpos/
+          - listitem [ref=e227]:
+            - link "BLMOVE" [ref=e228] [cursor=pointer]:
+              - /url: /docs/latest/commands/blmove/
+          - listitem [ref=e230]:
+            - link "BLMPOP" [ref=e231] [cursor=pointer]:
+              - /url: /docs/latest/commands/blmpop/
+          - listitem [ref=e233]:
+            - link "BLPOP" [ref=e234] [cursor=pointer]:
+              - /url: /docs/latest/commands/blpop/
+          - listitem [ref=e236]:
+            - link "BRPOP" [ref=e237] [cursor=pointer]:
+              - /url: /docs/latest/commands/brpop/
+          - listitem [ref=e239]:
+            - link "BRPOPLPUSH" [ref=e240] [cursor=pointer]:
+              - /url: /docs/latest/commands/brpoplpush/
+          - listitem [ref=e242]:
+            - link "BZMPOP" [ref=e243] [cursor=pointer]:
+              - /url: /docs/latest/commands/bzmpop/
+          - listitem [ref=e245]:
+            - link "BZPOPMAX" [ref=e246] [cursor=pointer]:
+              - /url: /docs/latest/commands/bzpopmax/
+          - listitem [ref=e248]:
+            - link "BZPOPMIN" [ref=e249] [cursor=pointer]:
+              - /url: /docs/latest/commands/bzpopmin/
+          - listitem [ref=e251]:
+            - link "CF.ADD" [ref=e252] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.add/
+          - listitem [ref=e254]:
+            - link "CF.ADDNX" [ref=e255] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.addnx/
+          - listitem [ref=e257]:
+            - link "CF.COUNT" [ref=e258] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.count/
+          - listitem [ref=e260]:
+            - link "CF.DEL" [ref=e261] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.del/
+          - listitem [ref=e263]:
+            - link "CF.EXISTS" [ref=e264] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.exists/
+          - listitem [ref=e266]:
+            - link "CF.INFO" [ref=e267] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.info/
+          - listitem [ref=e269]:
+            - link "CF.INSERT" [ref=e270] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.insert/
+          - listitem [ref=e272]:
+            - link "CF.INSERTNX" [ref=e273] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.insertnx/
+          - listitem [ref=e275]:
+            - link "CF.LOADCHUNK" [ref=e276] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.loadchunk/
+          - listitem [ref=e278]:
+            - link "CF.MEXISTS" [ref=e279] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.mexists/
+          - listitem [ref=e281]:
+            - link "CF.RESERVE" [ref=e282] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.reserve/
+          - listitem [ref=e284]:
+            - link "CF.SCANDUMP" [ref=e285] [cursor=pointer]:
+              - /url: /docs/latest/commands/cf.scandump/
+          - listitem [ref=e287]:
+            - link "CLIENT CACHING" [ref=e288] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-caching/
+          - listitem [ref=e290]:
+            - link "CLIENT GETNAME" [ref=e291] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-getname/
+          - listitem [ref=e293]:
+            - link "CLIENT GETREDIR" [ref=e294] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-getredir/
+          - listitem [ref=e296]:
+            - link "CLIENT ID" [ref=e297] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-id/
+          - listitem [ref=e299]:
+            - link "CLIENT INFO" [ref=e300] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-info/
+          - listitem [ref=e302]:
+            - link "CLIENT KILL" [ref=e303] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-kill/
+          - listitem [ref=e305]:
+            - link "CLIENT LIST" [ref=e306] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-list/
+          - listitem [ref=e308]:
+            - link "CLIENT NO-EVICT" [ref=e309] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-no-evict/
+          - listitem [ref=e311]:
+            - link "CLIENT NO-TOUCH" [ref=e312] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-no-touch/
+          - listitem [ref=e314]:
+            - link "CLIENT PAUSE" [ref=e315] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-pause/
+          - listitem [ref=e317]:
+            - link "CLIENT REPLY" [ref=e318] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-reply/
+          - listitem [ref=e320]:
+            - link "CLIENT SETINFO" [ref=e321] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-setinfo/
+          - listitem [ref=e323]:
+            - link "CLIENT SETNAME" [ref=e324] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-setname/
+          - listitem [ref=e326]:
+            - link "CLIENT TRACKING" [ref=e327] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-tracking/
+          - listitem [ref=e329]:
+            - link "CLIENT TRACKINGINFO" [ref=e330] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-trackinginfo/
+          - listitem [ref=e332]:
+            - link "CLIENT UNBLOCK" [ref=e333] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-unblock/
+          - listitem [ref=e335]:
+            - link "CLIENT UNPAUSE" [ref=e336] [cursor=pointer]:
+              - /url: /docs/latest/commands/client-unpause/
+          - listitem [ref=e338]:
+            - link "CLUSTER ADDSLOTS" [ref=e339] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-addslots/
+          - listitem [ref=e341]:
+            - link "CLUSTER ADDSLOTSRANGE" [ref=e342] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-addslotsrange/
+          - listitem [ref=e344]:
+            - link "CLUSTER BUMPEPOCH" [ref=e345] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-bumpepoch/
+          - listitem [ref=e347]:
+            - link "CLUSTER COUNT-FAILURE-REPORTS" [ref=e348] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-count-failure-reports/
+          - listitem [ref=e350]:
+            - link "CLUSTER COUNTKEYSINSLOT" [ref=e351] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-countkeysinslot/
+          - listitem [ref=e353]:
+            - link "CLUSTER DELSLOTS" [ref=e354] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-delslots/
+          - listitem [ref=e356]:
+            - link "CLUSTER DELSLOTSRANGE" [ref=e357] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-delslotsrange/
+          - listitem [ref=e359]:
+            - link "CLUSTER FAILOVER" [ref=e360] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-failover/
+          - listitem [ref=e362]:
+            - link "CLUSTER FLUSHSLOTS" [ref=e363] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-flushslots/
+          - listitem [ref=e365]:
+            - link "CLUSTER FORGET" [ref=e366] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-forget/
+          - listitem [ref=e368]:
+            - link "CLUSTER GETKEYSINSLOT" [ref=e369] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-getkeysinslot/
+          - listitem [ref=e371]:
+            - link "CLUSTER INFO" [ref=e372] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-info/
+          - listitem [ref=e374]:
+            - link "CLUSTER KEYSLOT" [ref=e375] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-keyslot/
+          - listitem [ref=e377]:
+            - link "CLUSTER LINKS" [ref=e378] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-links/
+          - listitem [ref=e380]:
+            - link "CLUSTER MEET" [ref=e381] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-meet/
+          - listitem [ref=e383]:
+            - link "CLUSTER MIGRATION" [ref=e384] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-migration/
+          - listitem [ref=e386]:
+            - link "CLUSTER MYID" [ref=e387] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-myid/
+          - listitem [ref=e389]:
+            - link "CLUSTER MYSHARDID" [ref=e390] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-myshardid/
+          - listitem [ref=e392]:
+            - link "CLUSTER NODES" [ref=e393] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-nodes/
+          - listitem [ref=e395]:
+            - link "CLUSTER REPLICAS" [ref=e396] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-replicas/
+          - listitem [ref=e398]:
+            - link "CLUSTER REPLICATE" [ref=e399] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-replicate/
+          - listitem [ref=e401]:
+            - link "CLUSTER RESET" [ref=e402] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-reset/
+          - listitem [ref=e404]:
+            - link "CLUSTER SAVECONFIG" [ref=e405] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-saveconfig/
+          - listitem [ref=e407]:
+            - link "CLUSTER SET-CONFIG-EPOCH" [ref=e408] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-set-config-epoch/
+          - listitem [ref=e410]:
+            - link "CLUSTER SETSLOT" [ref=e411] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-setslot/
+          - listitem [ref=e413]:
+            - link "CLUSTER SHARDS" [ref=e414] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-shards/
+          - listitem [ref=e416]:
+            - link "CLUSTER SLAVES" [ref=e417] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-slaves/
+          - listitem [ref=e419]:
+            - link "CLUSTER SLOT-STATS" [ref=e420] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-slot-stats/
+          - listitem [ref=e422]:
+            - link "CLUSTER SLOTS" [ref=e423] [cursor=pointer]:
+              - /url: /docs/latest/commands/cluster-slots/
+          - listitem [ref=e425]:
+            - link "CMS.INCRBY" [ref=e426] [cursor=pointer]:
+              - /url: /docs/latest/commands/cms.incrby/
+          - listitem [ref=e428]:
+            - link "CMS.INFO" [ref=e429] [cursor=pointer]:
+              - /url: /docs/latest/commands/cms.info/
+          - listitem [ref=e431]:
+            - link "CMS.INITBYDIM" [ref=e432] [cursor=pointer]:
+              - /url: /docs/latest/commands/cms.initbydim/
+          - listitem [ref=e434]:
+            - link "CMS.INITBYPROB" [ref=e435] [cursor=pointer]:
+              - /url: /docs/latest/commands/cms.initbyprob/
+          - listitem [ref=e437]:
+            - link "CMS.MERGE" [ref=e438] [cursor=pointer]:
+              - /url: /docs/latest/commands/cms.merge/
+          - listitem [ref=e440]:
+            - link "CMS.QUERY" [ref=e441] [cursor=pointer]:
+              - /url: /docs/latest/commands/cms.query/
+          - listitem [ref=e443]:
+            - link "COMMAND" [ref=e444] [cursor=pointer]:
+              - /url: /docs/latest/commands/command/
+          - listitem [ref=e446]:
+            - link "COMMAND COUNT" [ref=e447] [cursor=pointer]:
+              - /url: /docs/latest/commands/command-count/
+          - listitem [ref=e449]:
+            - link "COMMAND DOCS" [ref=e450] [cursor=pointer]:
+              - /url: /docs/latest/commands/command-docs/
+          - listitem [ref=e452]:
+            - link "COMMAND GETKEYS" [ref=e453] [cursor=pointer]:
+              - /url: /docs/latest/commands/command-getkeys/
+          - listitem [ref=e455]:
+            - link "COMMAND GETKEYSANDFLAGS" [ref=e456] [cursor=pointer]:
+              - /url: /docs/latest/commands/command-getkeysandflags/
+          - listitem [ref=e458]:
+            - link "COMMAND INFO" [ref=e459] [cursor=pointer]:
+              - /url: /docs/latest/commands/command-info/
+          - listitem [ref=e461]:
+            - link "COMMAND LIST" [ref=e462] [cursor=pointer]:
+              - /url: /docs/latest/commands/command-list/
+          - listitem [ref=e464]:
+            - link "CONFIG GET" [ref=e465] [cursor=pointer]:
+              - /url: /docs/latest/commands/config-get/
+          - listitem [ref=e467]:
+            - link "CONFIG RESETSTAT" [ref=e468] [cursor=pointer]:
+              - /url: /docs/latest/commands/config-resetstat/
+          - listitem [ref=e470]:
+            - link "CONFIG REWRITE" [ref=e471] [cursor=pointer]:
+              - /url: /docs/latest/commands/config-rewrite/
+          - listitem [ref=e473]:
+            - link "CONFIG SET" [ref=e474] [cursor=pointer]:
+              - /url: /docs/latest/commands/config-set/
+          - listitem [ref=e476]:
+            - link "COPY" [ref=e477] [cursor=pointer]:
+              - /url: /docs/latest/commands/copy/
+          - listitem [ref=e479]:
+            - link "DBSIZE" [ref=e480] [cursor=pointer]:
+              - /url: /docs/latest/commands/dbsize/
+          - listitem [ref=e482]:
+            - link "DECR" [ref=e483] [cursor=pointer]:
+              - /url: /docs/latest/commands/decr/
+          - listitem [ref=e485]:
+            - link "DECRBY" [ref=e486] [cursor=pointer]:
+              - /url: /docs/latest/commands/decrby/
+          - listitem [ref=e488]:
+            - link "DEL" [ref=e489] [cursor=pointer]:
+              - /url: /docs/latest/commands/del/
+          - listitem [ref=e491]:
+            - link "DELEX" [ref=e492] [cursor=pointer]:
+              - /url: /docs/latest/commands/delex/
+          - listitem [ref=e494]:
+            - link "DIGEST" [ref=e495] [cursor=pointer]:
+              - /url: /docs/latest/commands/digest/
+          - listitem [ref=e497]:
+            - link "DISCARD" [ref=e498] [cursor=pointer]:
+              - /url: /docs/latest/commands/discard/
+          - listitem [ref=e500]:
+            - link "DUMP" [ref=e501] [cursor=pointer]:
+              - /url: /docs/latest/commands/dump/
+          - listitem [ref=e503]:
+            - link "ECHO" [ref=e504] [cursor=pointer]:
+              - /url: /docs/latest/commands/echo/
+          - listitem [ref=e506]:
+            - link "EVAL" [ref=e507] [cursor=pointer]:
+              - /url: /docs/latest/commands/eval/
+          - listitem [ref=e509]:
+            - link "EVAL_RO" [ref=e510] [cursor=pointer]:
+              - /url: /docs/latest/commands/eval_ro/
+          - listitem [ref=e512]:
+            - link "EVALSHA" [ref=e513] [cursor=pointer]:
+              - /url: /docs/latest/commands/evalsha/
+          - listitem [ref=e515]:
+            - link "EVALSHA_RO" [ref=e516] [cursor=pointer]:
+              - /url: /docs/latest/commands/evalsha_ro/
+          - listitem [ref=e518]:
+            - link "EXEC" [ref=e519] [cursor=pointer]:
+              - /url: /docs/latest/commands/exec/
+          - listitem [ref=e521]:
+            - link "EXISTS" [ref=e522] [cursor=pointer]:
+              - /url: /docs/latest/commands/exists/
+          - listitem [ref=e524]:
+            - link "EXPIRE" [ref=e525] [cursor=pointer]:
+              - /url: /docs/latest/commands/expire/
+          - listitem [ref=e527]:
+            - link "EXPIREAT" [ref=e528] [cursor=pointer]:
+              - /url: /docs/latest/commands/expireat/
+          - listitem [ref=e530]:
+            - link "EXPIRETIME" [ref=e531] [cursor=pointer]:
+              - /url: /docs/latest/commands/expiretime/
+          - listitem [ref=e533]:
+            - link "FAILOVER" [ref=e534] [cursor=pointer]:
+              - /url: /docs/latest/commands/failover/
+          - listitem [ref=e536]:
+            - link "FCALL" [ref=e537] [cursor=pointer]:
+              - /url: /docs/latest/commands/fcall/
+          - listitem [ref=e539]:
+            - link "FCALL_RO" [ref=e540] [cursor=pointer]:
+              - /url: /docs/latest/commands/fcall_ro/
+          - listitem [ref=e542]:
+            - link "FLUSHALL" [ref=e543] [cursor=pointer]:
+              - /url: /docs/latest/commands/flushall/
+          - listitem [ref=e545]:
+            - link "FLUSHDB" [ref=e546] [cursor=pointer]:
+              - /url: /docs/latest/commands/flushdb/
+          - listitem [ref=e548]:
+            - link "FT._LIST" [ref=e549] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft._list/
+          - listitem [ref=e551]:
+            - link "FT.AGGREGATE" [ref=e552] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.aggregate/
+          - listitem [ref=e554]:
+            - link "FT.ALIASADD" [ref=e555] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.aliasadd/
+          - listitem [ref=e557]:
+            - link "FT.ALIASDEL" [ref=e558] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.aliasdel/
+          - listitem [ref=e560]:
+            - link "FT.ALIASUPDATE" [ref=e561] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.aliasupdate/
+          - listitem [ref=e563]:
+            - link "FT.ALTER" [ref=e564] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.alter/
+          - listitem [ref=e566]:
+            - link "FT.CONFIG GET" [ref=e567] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.config-get/
+          - listitem [ref=e569]:
+            - link "FT.CONFIG SET" [ref=e570] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.config-set/
+          - listitem [ref=e572]:
+            - link "FT.CREATE" [ref=e573] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.create/
+          - listitem [ref=e575]:
+            - link "FT.CURSOR DEL" [ref=e576] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.cursor-del/
+          - listitem [ref=e578]:
+            - link "FT.CURSOR READ" [ref=e579] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.cursor-read/
+          - listitem [ref=e581]:
+            - link "FT.DICTADD" [ref=e582] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.dictadd/
+          - listitem [ref=e584]:
+            - link "FT.DICTDEL" [ref=e585] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.dictdel/
+          - listitem [ref=e587]:
+            - link "FT.DICTDUMP" [ref=e588] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.dictdump/
+          - listitem [ref=e590]:
+            - link "FT.DROPINDEX" [ref=e591] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.dropindex/
+          - listitem [ref=e593]:
+            - link "FT.EXPLAIN" [ref=e594] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.explain/
+          - listitem [ref=e596]:
+            - link "FT.EXPLAINCLI" [ref=e597] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.explaincli/
+          - listitem [ref=e599]:
+            - link "FT.HYBRID" [ref=e600] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.hybrid/
+          - listitem [ref=e602]:
+            - link "FT.INFO" [ref=e603] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.info/
+          - listitem [ref=e605]:
+            - link "FT.PROFILE" [ref=e606] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.profile/
+          - listitem [ref=e608]:
+            - link "FT.SEARCH" [ref=e609] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.search/
+          - listitem [ref=e611]:
+            - link "FT.SPELLCHECK" [ref=e612] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.spellcheck/
+          - listitem [ref=e614]:
+            - link "FT.SUGADD" [ref=e615] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.sugadd/
+          - listitem [ref=e617]:
+            - link "FT.SUGDEL" [ref=e618] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.sugdel/
+          - listitem [ref=e620]:
+            - link "FT.SUGGET" [ref=e621] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.sugget/
+          - listitem [ref=e623]:
+            - link "FT.SUGLEN" [ref=e624] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.suglen/
+          - listitem [ref=e626]:
+            - link "FT.SYNDUMP" [ref=e627] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.syndump/
+          - listitem [ref=e629]:
+            - link "FT.SYNUPDATE" [ref=e630] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.synupdate/
+          - listitem [ref=e632]:
+            - link "FT.TAGVALS" [ref=e633] [cursor=pointer]:
+              - /url: /docs/latest/commands/ft.tagvals/
+          - listitem [ref=e635]:
+            - link "FUNCTION DELETE" [ref=e636] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-delete/
+          - listitem [ref=e638]:
+            - link "FUNCTION DUMP" [ref=e639] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-dump/
+          - listitem [ref=e641]:
+            - link "FUNCTION FLUSH" [ref=e642] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-flush/
+          - listitem [ref=e644]:
+            - link "FUNCTION KILL" [ref=e645] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-kill/
+          - listitem [ref=e647]:
+            - link "FUNCTION LIST" [ref=e648] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-list/
+          - listitem [ref=e650]:
+            - link "FUNCTION LOAD" [ref=e651] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-load/
+          - listitem [ref=e653]:
+            - link "FUNCTION RESTORE" [ref=e654] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-restore/
+          - listitem [ref=e656]:
+            - link "FUNCTION STATS" [ref=e657] [cursor=pointer]:
+              - /url: /docs/latest/commands/function-stats/
+          - listitem [ref=e659]:
+            - link "GEOADD" [ref=e660] [cursor=pointer]:
+              - /url: /docs/latest/commands/geoadd/
+          - listitem [ref=e662]:
+            - link "GEODIST" [ref=e663] [cursor=pointer]:
+              - /url: /docs/latest/commands/geodist/
+          - listitem [ref=e665]:
+            - link "GEOHASH" [ref=e666] [cursor=pointer]:
+              - /url: /docs/latest/commands/geohash/
+          - listitem [ref=e668]:
+            - link "GEOPOS" [ref=e669] [cursor=pointer]:
+              - /url: /docs/latest/commands/geopos/
+          - listitem [ref=e671]:
+            - link "GEORADIUS" [ref=e672] [cursor=pointer]:
+              - /url: /docs/latest/commands/georadius/
+          - listitem [ref=e674]:
+            - link "GEORADIUS_RO" [ref=e675] [cursor=pointer]:
+              - /url: /docs/latest/commands/georadius_ro/
+          - listitem [ref=e677]:
+            - link "GEORADIUSBYMEMBER" [ref=e678] [cursor=pointer]:
+              - /url: /docs/latest/commands/georadiusbymember/
+          - listitem [ref=e680]:
+            - link "GEORADIUSBYMEMBER_RO" [ref=e681] [cursor=pointer]:
+              - /url: /docs/latest/commands/georadiusbymember_ro/
+          - listitem [ref=e683]:
+            - link "GEOSEARCH" [ref=e684] [cursor=pointer]:
+              - /url: /docs/latest/commands/geosearch/
+          - listitem [ref=e686]:
+            - link "GEOSEARCHSTORE" [ref=e687] [cursor=pointer]:
+              - /url: /docs/latest/commands/geosearchstore/
+          - listitem [ref=e689]:
+            - link "GET" [ref=e690] [cursor=pointer]:
+              - /url: /docs/latest/commands/get/
+          - listitem [ref=e692]:
+            - link "GETBIT" [ref=e693] [cursor=pointer]:
+              - /url: /docs/latest/commands/getbit/
+          - listitem [ref=e695]:
+            - link "GETDEL" [ref=e696] [cursor=pointer]:
+              - /url: /docs/latest/commands/getdel/
+          - listitem [ref=e698]:
+            - link "GETEX" [ref=e699] [cursor=pointer]:
+              - /url: /docs/latest/commands/getex/
+          - listitem [ref=e701]:
+            - link "GETRANGE" [ref=e702] [cursor=pointer]:
+              - /url: /docs/latest/commands/getrange/
+          - listitem [ref=e704]:
+            - link "GETSET" [ref=e705] [cursor=pointer]:
+              - /url: /docs/latest/commands/getset/
+          - listitem [ref=e707]:
+            - link "HDEL" [ref=e708] [cursor=pointer]:
+              - /url: /docs/latest/commands/hdel/
+          - listitem [ref=e710]:
+            - link "HELLO" [ref=e711] [cursor=pointer]:
+              - /url: /docs/latest/commands/hello/
+          - listitem [ref=e713]:
+            - link "HEXISTS" [ref=e714] [cursor=pointer]:
+              - /url: /docs/latest/commands/hexists/
+          - listitem [ref=e716]:
+            - link "HEXPIRE" [ref=e717] [cursor=pointer]:
+              - /url: /docs/latest/commands/hexpire/
+          - listitem [ref=e719]:
+            - link "HEXPIREAT" [ref=e720] [cursor=pointer]:
+              - /url: /docs/latest/commands/hexpireat/
+          - listitem [ref=e722]:
+            - link "HEXPIRETIME" [ref=e723] [cursor=pointer]:
+              - /url: /docs/latest/commands/hexpiretime/
+          - listitem [ref=e725]:
+            - link "HGET" [ref=e726] [cursor=pointer]:
+              - /url: /docs/latest/commands/hget/
+          - listitem [ref=e728]:
+            - link "HGETALL" [ref=e729] [cursor=pointer]:
+              - /url: /docs/latest/commands/hgetall/
+          - listitem [ref=e731]:
+            - link "HGETDEL" [ref=e732] [cursor=pointer]:
+              - /url: /docs/latest/commands/hgetdel/
+          - listitem [ref=e734]:
+            - link "HGETEX" [ref=e735] [cursor=pointer]:
+              - /url: /docs/latest/commands/hgetex/
+          - listitem [ref=e737]:
+            - link "HINCRBY" [ref=e738] [cursor=pointer]:
+              - /url: /docs/latest/commands/hincrby/
+          - listitem [ref=e740]:
+            - link "HINCRBYFLOAT" [ref=e741] [cursor=pointer]:
+              - /url: /docs/latest/commands/hincrbyfloat/
+          - listitem [ref=e743]:
+            - link "HKEYS" [ref=e744] [cursor=pointer]:
+              - /url: /docs/latest/commands/hkeys/
+          - listitem [ref=e746]:
+            - link "HLEN" [ref=e747] [cursor=pointer]:
+              - /url: /docs/latest/commands/hlen/
+          - listitem [ref=e749]:
+            - link "HMGET" [ref=e750] [cursor=pointer]:
+              - /url: /docs/latest/commands/hmget/
+          - listitem [ref=e752]:
+            - link "HMSET" [ref=e753] [cursor=pointer]:
+              - /url: /docs/latest/commands/hmset/
+          - listitem [ref=e755]:
+            - link "HOTKEYS" [ref=e756] [cursor=pointer]:
+              - /url: /docs/latest/commands/hotkeys/
+          - listitem [ref=e758]:
+            - link "HOTKEYS GET" [ref=e759] [cursor=pointer]:
+              - /url: /docs/latest/commands/hotkeys-get/
+          - listitem [ref=e761]:
+            - link "HOTKEYS RESET" [ref=e762] [cursor=pointer]:
+              - /url: /docs/latest/commands/hotkeys-reset/
+          - listitem [ref=e764]:
+            - link "HOTKEYS START" [ref=e765] [cursor=pointer]:
+              - /url: /docs/latest/commands/hotkeys-start/
+          - listitem [ref=e767]:
+            - link "HOTKEYS STOP" [ref=e768] [cursor=pointer]:
+              - /url: /docs/latest/commands/hotkeys-stop/
+          - listitem [ref=e770]:
+            - link "HPERSIST" [ref=e771] [cursor=pointer]:
+              - /url: /docs/latest/commands/hpersist/
+          - listitem [ref=e773]:
+            - link "HPEXPIRE" [ref=e774] [cursor=pointer]:
+              - /url: /docs/latest/commands/hpexpire/
+          - listitem [ref=e776]:
+            - link "HPEXPIREAT" [ref=e777] [cursor=pointer]:
+              - /url: /docs/latest/commands/hpexpireat/
+          - listitem [ref=e779]:
+            - link "HPEXPIRETIME" [ref=e780] [cursor=pointer]:
+              - /url: /docs/latest/commands/hpexpiretime/
+          - listitem [ref=e782]:
+            - link "HPTTL" [ref=e783] [cursor=pointer]:
+              - /url: /docs/latest/commands/hpttl/
+          - listitem [ref=e785]:
+            - link "HRANDFIELD" [ref=e786] [cursor=pointer]:
+              - /url: /docs/latest/commands/hrandfield/
+          - listitem [ref=e788]:
+            - link "HSCAN" [ref=e789] [cursor=pointer]:
+              - /url: /docs/latest/commands/hscan/
+          - listitem [ref=e791]:
+            - link "HSET" [ref=e792] [cursor=pointer]:
+              - /url: /docs/latest/commands/hset/
+          - listitem [ref=e794]:
+            - link "HSETEX" [ref=e795] [cursor=pointer]:
+              - /url: /docs/latest/commands/hsetex/
+          - listitem [ref=e797]:
+            - link "HSETNX" [ref=e798] [cursor=pointer]:
+              - /url: /docs/latest/commands/hsetnx/
+          - listitem [ref=e800]:
+            - link "HSTRLEN" [ref=e801] [cursor=pointer]:
+              - /url: /docs/latest/commands/hstrlen/
+          - listitem [ref=e803]:
+            - link "HTTL" [ref=e804] [cursor=pointer]:
+              - /url: /docs/latest/commands/httl/
+          - listitem [ref=e806]:
+            - link "HVALS" [ref=e807] [cursor=pointer]:
+              - /url: /docs/latest/commands/hvals/
+          - listitem [ref=e809]:
+            - link "INCR" [ref=e810] [cursor=pointer]:
+              - /url: /docs/latest/commands/incr/
+          - listitem [ref=e812]:
+            - link "INCRBY" [ref=e813] [cursor=pointer]:
+              - /url: /docs/latest/commands/incrby/
+          - listitem [ref=e815]:
+            - link "INCRBYFLOAT" [ref=e816] [cursor=pointer]:
+              - /url: /docs/latest/commands/incrbyfloat/
+          - listitem [ref=e818]:
+            - link "INCREX" [ref=e819] [cursor=pointer]:
+              - /url: /docs/latest/commands/increx/
+          - listitem [ref=e821]:
+            - link "INFO" [ref=e822] [cursor=pointer]:
+              - /url: /docs/latest/commands/info/
+          - listitem [ref=e824]:
+            - link "JSON.ARRAPPEND" [ref=e825] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.arrappend/
+          - listitem [ref=e827]:
+            - link "JSON.ARRINDEX" [ref=e828] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.arrindex/
+          - listitem [ref=e830]:
+            - link "JSON.ARRINSERT" [ref=e831] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.arrinsert/
+          - listitem [ref=e833]:
+            - link "JSON.ARRLEN" [ref=e834] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.arrlen/
+          - listitem [ref=e836]:
+            - link "JSON.ARRPOP" [ref=e837] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.arrpop/
+          - listitem [ref=e839]:
+            - link "JSON.ARRTRIM" [ref=e840] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.arrtrim/
+          - listitem [ref=e842]:
+            - link "JSON.CLEAR" [ref=e843] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.clear/
+          - listitem [ref=e845]:
+            - link "JSON.DEBUG" [ref=e846] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.debug/
+          - listitem [ref=e848]:
+            - link "JSON.DEBUG MEMORY" [ref=e849] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.debug-memory/
+          - listitem [ref=e851]:
+            - link "JSON.DEL" [ref=e852] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.del/
+          - listitem [ref=e854]:
+            - link "JSON.FORGET" [ref=e855] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.forget/
+          - listitem [ref=e857]:
+            - link "JSON.GET" [ref=e858] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.get/
+          - listitem [ref=e860]:
+            - link "JSON.MERGE" [ref=e861] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.merge/
+          - listitem [ref=e863]:
+            - link "JSON.MGET" [ref=e864] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.mget/
+          - listitem [ref=e866]:
+            - link "JSON.MSET" [ref=e867] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.mset/
+          - listitem [ref=e869]:
+            - link "JSON.NUMINCRBY" [ref=e870] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.numincrby/
+          - listitem [ref=e872]:
+            - link "JSON.NUMMULTBY" [ref=e873] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.nummultby/
+          - listitem [ref=e875]:
+            - link "JSON.OBJKEYS" [ref=e876] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.objkeys/
+          - listitem [ref=e878]:
+            - link "JSON.OBJLEN" [ref=e879] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.objlen/
+          - listitem [ref=e881]:
+            - link "JSON.RESP" [ref=e882] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.resp/
+          - listitem [ref=e884]:
+            - link "JSON.SET" [ref=e885] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.set/
+          - listitem [ref=e887]:
+            - link "JSON.STRAPPEND" [ref=e888] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.strappend/
+          - listitem [ref=e890]:
+            - link "JSON.STRLEN" [ref=e891] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.strlen/
+          - listitem [ref=e893]:
+            - link "JSON.TOGGLE" [ref=e894] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.toggle/
+          - listitem [ref=e896]:
+            - link "JSON.TYPE" [ref=e897] [cursor=pointer]:
+              - /url: /docs/latest/commands/json.type/
+          - listitem [ref=e899]:
+            - link "KEYS" [ref=e900] [cursor=pointer]:
+              - /url: /docs/latest/commands/keys/
+          - listitem [ref=e902]:
+            - link "LASTSAVE" [ref=e903] [cursor=pointer]:
+              - /url: /docs/latest/commands/lastsave/
+          - listitem [ref=e905]:
+            - link "LATENCY DOCTOR" [ref=e906] [cursor=pointer]:
+              - /url: /docs/latest/commands/latency-doctor/
+          - listitem [ref=e908]:
+            - link "LATENCY GRAPH" [ref=e909] [cursor=pointer]:
+              - /url: /docs/latest/commands/latency-graph/
+          - listitem [ref=e911]:
+            - link "LATENCY HISTOGRAM" [ref=e912] [cursor=pointer]:
+              - /url: /docs/latest/commands/latency-histogram/
+          - listitem [ref=e914]:
+            - link "LATENCY HISTORY" [ref=e915] [cursor=pointer]:
+              - /url: /docs/latest/commands/latency-history/
+          - listitem [ref=e917]:
+            - link "LATENCY LATEST" [ref=e918] [cursor=pointer]:
+              - /url: /docs/latest/commands/latency-latest/
+          - listitem [ref=e920]:
+            - link "LATENCY RESET" [ref=e921] [cursor=pointer]:
+              - /url: /docs/latest/commands/latency-reset/
+          - listitem [ref=e923]:
+            - link "LCS" [ref=e924] [cursor=pointer]:
+              - /url: /docs/latest/commands/lcs/
+          - listitem [ref=e926]:
+            - link "LINDEX" [ref=e927] [cursor=pointer]:
+              - /url: /docs/latest/commands/lindex/
+          - listitem [ref=e929]:
+            - link "LINSERT" [ref=e930] [cursor=pointer]:
+              - /url: /docs/latest/commands/linsert/
+          - listitem [ref=e932]:
+            - link "LLEN" [ref=e933] [cursor=pointer]:
+              - /url: /docs/latest/commands/llen/
+          - listitem [ref=e935]:
+            - link "LMOVE" [ref=e936] [cursor=pointer]:
+              - /url: /docs/latest/commands/lmove/
+          - listitem [ref=e938]:
+            - link "LMPOP" [ref=e939] [cursor=pointer]:
+              - /url: /docs/latest/commands/lmpop/
+          - listitem [ref=e941]:
+            - link "LOLWUT" [ref=e942] [cursor=pointer]:
+              - /url: /docs/latest/commands/lolwut/
+          - listitem [ref=e944]:
+            - link "LPOP" [ref=e945] [cursor=pointer]:
+              - /url: /docs/latest/commands/lpop/
+          - listitem [ref=e947]:
+            - link "LPOS" [ref=e948] [cursor=pointer]:
+              - /url: /docs/latest/commands/lpos/
+          - listitem [ref=e950]:
+            - link "LPUSH" [ref=e951] [cursor=pointer]:
+              - /url: /docs/latest/commands/lpush/
+          - listitem [ref=e953]:
+            - link "LPUSHX" [ref=e954] [cursor=pointer]:
+              - /url: /docs/latest/commands/lpushx/
+          - listitem [ref=e956]:
+            - link "LRANGE" [ref=e957] [cursor=pointer]:
+              - /url: /docs/latest/commands/lrange/
+          - listitem [ref=e959]:
+            - link "LREM" [ref=e960] [cursor=pointer]:
+              - /url: /docs/latest/commands/lrem/
+          - listitem [ref=e962]:
+            - link "LSET" [ref=e963] [cursor=pointer]:
+              - /url: /docs/latest/commands/lset/
+          - listitem [ref=e965]:
+            - link "LTRIM" [ref=e966] [cursor=pointer]:
+              - /url: /docs/latest/commands/ltrim/
+          - listitem [ref=e968]:
+            - link "MEMORY DOCTOR" [ref=e969] [cursor=pointer]:
+              - /url: /docs/latest/commands/memory-doctor/
+          - listitem [ref=e971]:
+            - link "MEMORY MALLOC-STATS" [ref=e972] [cursor=pointer]:
+              - /url: /docs/latest/commands/memory-malloc-stats/
+          - listitem [ref=e974]:
+            - link "MEMORY PURGE" [ref=e975] [cursor=pointer]:
+              - /url: /docs/latest/commands/memory-purge/
+          - listitem [ref=e977]:
+            - link "MEMORY STATS" [ref=e978] [cursor=pointer]:
+              - /url: /docs/latest/commands/memory-stats/
+          - listitem [ref=e980]:
+            - link "MEMORY USAGE" [ref=e981] [cursor=pointer]:
+              - /url: /docs/latest/commands/memory-usage/
+          - listitem [ref=e983]:
+            - link "MGET" [ref=e984] [cursor=pointer]:
+              - /url: /docs/latest/commands/mget/
+          - listitem [ref=e986]:
+            - link "MIGRATE" [ref=e987] [cursor=pointer]:
+              - /url: /docs/latest/commands/migrate/
+          - listitem [ref=e989]:
+            - link "MODULE LIST" [ref=e990] [cursor=pointer]:
+              - /url: /docs/latest/commands/module-list/
+          - listitem [ref=e992]:
+            - link "MODULE LOAD" [ref=e993] [cursor=pointer]:
+              - /url: /docs/latest/commands/module-load/
+          - listitem [ref=e995]:
+            - link "MODULE LOADEX" [ref=e996] [cursor=pointer]:
+              - /url: /docs/latest/commands/module-loadex/
+          - listitem [ref=e998]:
+            - link "MODULE UNLOAD" [ref=e999] [cursor=pointer]:
+              - /url: /docs/latest/commands/module-unload/
+          - listitem [ref=e1001]:
+            - link "MONITOR" [ref=e1002] [cursor=pointer]:
+              - /url: /docs/latest/commands/monitor/
+          - listitem [ref=e1004]:
+            - link "MOVE" [ref=e1005] [cursor=pointer]:
+              - /url: /docs/latest/commands/move/
+          - listitem [ref=e1007]:
+            - link "MSET" [ref=e1008] [cursor=pointer]:
+              - /url: /docs/latest/commands/mset/
+          - listitem [ref=e1010]:
+            - link "MSETEX" [ref=e1011] [cursor=pointer]:
+              - /url: /docs/latest/commands/msetex/
+          - listitem [ref=e1013]:
+            - link "MSETNX" [ref=e1014] [cursor=pointer]:
+              - /url: /docs/latest/commands/msetnx/
+          - listitem [ref=e1016]:
+            - link "MULTI" [ref=e1017] [cursor=pointer]:
+              - /url: /docs/latest/commands/multi/
+          - listitem [ref=e1019]:
+            - link "OBJECT ENCODING" [ref=e1020] [cursor=pointer]:
+              - /url: /docs/latest/commands/object-encoding/
+          - listitem [ref=e1022]:
+            - link "OBJECT FREQ" [ref=e1023] [cursor=pointer]:
+              - /url: /docs/latest/commands/object-freq/
+          - listitem [ref=e1025]:
+            - link "OBJECT IDLETIME" [ref=e1026] [cursor=pointer]:
+              - /url: /docs/latest/commands/object-idletime/
+          - listitem [ref=e1028]:
+            - link "OBJECT REFCOUNT" [ref=e1029] [cursor=pointer]:
+              - /url: /docs/latest/commands/object-refcount/
+          - listitem [ref=e1031]:
+            - link "PERSIST" [ref=e1032] [cursor=pointer]:
+              - /url: /docs/latest/commands/persist/
+          - listitem [ref=e1034]:
+            - link "PEXPIRE" [ref=e1035] [cursor=pointer]:
+              - /url: /docs/latest/commands/pexpire/
+          - listitem [ref=e1037]:
+            - link "PEXPIREAT" [ref=e1038] [cursor=pointer]:
+              - /url: /docs/latest/commands/pexpireat/
+          - listitem [ref=e1040]:
+            - link "PEXPIRETIME" [ref=e1041] [cursor=pointer]:
+              - /url: /docs/latest/commands/pexpiretime/
+          - listitem [ref=e1043]:
+            - link "PFADD" [ref=e1044] [cursor=pointer]:
+              - /url: /docs/latest/commands/pfadd/
+          - listitem [ref=e1046]:
+            - link "PFCOUNT" [ref=e1047] [cursor=pointer]:
+              - /url: /docs/latest/commands/pfcount/
+          - listitem [ref=e1049]:
+            - link "PFDEBUG" [ref=e1050] [cursor=pointer]:
+              - /url: /docs/latest/commands/pfdebug/
+          - listitem [ref=e1052]:
+            - link "PFMERGE" [ref=e1053] [cursor=pointer]:
+              - /url: /docs/latest/commands/pfmerge/
+          - listitem [ref=e1055]:
+            - link "PFSELFTEST" [ref=e1056] [cursor=pointer]:
+              - /url: /docs/latest/commands/pfselftest/
+          - listitem [ref=e1058]:
+            - link "PING" [ref=e1059] [cursor=pointer]:
+              - /url: /docs/latest/commands/ping/
+          - listitem [ref=e1061]:
+            - link "PSETEX" [ref=e1062] [cursor=pointer]:
+              - /url: /docs/latest/commands/psetex/
+          - listitem [ref=e1064]:
+            - link "PSUBSCRIBE" [ref=e1065] [cursor=pointer]:
+              - /url: /docs/latest/commands/psubscribe/
+          - listitem [ref=e1067]:
+            - link "PSYNC" [ref=e1068] [cursor=pointer]:
+              - /url: /docs/latest/commands/psync/
+          - listitem [ref=e1070]:
+            - link "PTTL" [ref=e1071] [cursor=pointer]:
+              - /url: /docs/latest/commands/pttl/
+          - listitem [ref=e1073]:
+            - link "PUBLISH" [ref=e1074] [cursor=pointer]:
+              - /url: /docs/latest/commands/publish/
+          - listitem [ref=e1076]:
+            - link "PUBSUB CHANNELS" [ref=e1077] [cursor=pointer]:
+              - /url: /docs/latest/commands/pubsub-channels/
+          - listitem [ref=e1079]:
+            - link "PUBSUB NUMPAT" [ref=e1080] [cursor=pointer]:
+              - /url: /docs/latest/commands/pubsub-numpat/
+          - listitem [ref=e1082]:
+            - link "PUBSUB NUMSUB" [ref=e1083] [cursor=pointer]:
+              - /url: /docs/latest/commands/pubsub-numsub/
+          - listitem [ref=e1085]:
+            - link "PUBSUB SHARDCHANNELS" [ref=e1086] [cursor=pointer]:
+              - /url: /docs/latest/commands/pubsub-shardchannels/
+          - listitem [ref=e1088]:
+            - link "PUBSUB SHARDNUMSUB" [ref=e1089] [cursor=pointer]:
+              - /url: /docs/latest/commands/pubsub-shardnumsub/
+          - listitem [ref=e1091]:
+            - link "PUNSUBSCRIBE" [ref=e1092] [cursor=pointer]:
+              - /url: /docs/latest/commands/punsubscribe/
+          - listitem [ref=e1094]:
+            - link "QUIT" [ref=e1095] [cursor=pointer]:
+              - /url: /docs/latest/commands/quit/
+          - listitem [ref=e1097]:
+            - link "RANDOMKEY" [ref=e1098] [cursor=pointer]:
+              - /url: /docs/latest/commands/randomkey/
+          - listitem [ref=e1100]:
+            - link "READONLY" [ref=e1101] [cursor=pointer]:
+              - /url: /docs/latest/commands/readonly/
+          - listitem [ref=e1103]:
+            - link "READWRITE" [ref=e1104] [cursor=pointer]:
+              - /url: /docs/latest/commands/readwrite/
+          - listitem [ref=e1106]:
+            - link "RENAME" [ref=e1107] [cursor=pointer]:
+              - /url: /docs/latest/commands/rename/
+          - listitem [ref=e1109]:
+            - link "RENAMENX" [ref=e1110] [cursor=pointer]:
+              - /url: /docs/latest/commands/renamenx/
+          - listitem [ref=e1112]:
+            - link "REPLCONF" [ref=e1113] [cursor=pointer]:
+              - /url: /docs/latest/commands/replconf/
+          - listitem [ref=e1115]:
+            - link "REPLICAOF" [ref=e1116] [cursor=pointer]:
+              - /url: /docs/latest/commands/replicaof/
+          - listitem [ref=e1118]:
+            - link "RESET" [ref=e1119] [cursor=pointer]:
+              - /url: /docs/latest/commands/reset/
+          - listitem [ref=e1121]:
+            - link "RESTORE" [ref=e1122] [cursor=pointer]:
+              - /url: /docs/latest/commands/restore/
+          - listitem [ref=e1124]:
+            - link "RESTORE-ASKING" [ref=e1125] [cursor=pointer]:
+              - /url: /docs/latest/commands/restore-asking/
+          - listitem [ref=e1127]:
+            - link "ROLE" [ref=e1128] [cursor=pointer]:
+              - /url: /docs/latest/commands/role/
+          - listitem [ref=e1130]:
+            - link "RPOP" [ref=e1131] [cursor=pointer]:
+              - /url: /docs/latest/commands/rpop/
+          - listitem [ref=e1133]:
+            - link "RPOPLPUSH" [ref=e1134] [cursor=pointer]:
+              - /url: /docs/latest/commands/rpoplpush/
+          - listitem [ref=e1136]:
+            - link "RPUSH" [ref=e1137] [cursor=pointer]:
+              - /url: /docs/latest/commands/rpush/
+          - listitem [ref=e1139]:
+            - link "RPUSHX" [ref=e1140] [cursor=pointer]:
+              - /url: /docs/latest/commands/rpushx/
+          - listitem [ref=e1142]:
+            - link "SADD" [ref=e1143] [cursor=pointer]:
+              - /url: /docs/latest/commands/sadd/
+          - listitem [ref=e1145]:
+            - link "SAVE" [ref=e1146] [cursor=pointer]:
+              - /url: /docs/latest/commands/save/
+          - listitem [ref=e1148]:
+            - link "SCAN" [ref=e1149] [cursor=pointer]:
+              - /url: /docs/latest/commands/scan/
+          - listitem [ref=e1151]:
+            - link "SCARD" [ref=e1152] [cursor=pointer]:
+              - /url: /docs/latest/commands/scard/
+          - listitem [ref=e1154]:
+            - link "SCRIPT DEBUG" [ref=e1155] [cursor=pointer]:
+              - /url: /docs/latest/commands/script-debug/
+          - listitem [ref=e1157]:
+            - link "SCRIPT EXISTS" [ref=e1158] [cursor=pointer]:
+              - /url: /docs/latest/commands/script-exists/
+          - listitem [ref=e1160]:
+            - link "SCRIPT FLUSH" [ref=e1161] [cursor=pointer]:
+              - /url: /docs/latest/commands/script-flush/
+          - listitem [ref=e1163]:
+            - link "SCRIPT KILL" [ref=e1164] [cursor=pointer]:
+              - /url: /docs/latest/commands/script-kill/
+          - listitem [ref=e1166]:
+            - link "SCRIPT LOAD" [ref=e1167] [cursor=pointer]:
+              - /url: /docs/latest/commands/script-load/
+          - listitem [ref=e1169]:
+            - link "SDIFF" [ref=e1170] [cursor=pointer]:
+              - /url: /docs/latest/commands/sdiff/
+          - listitem [ref=e1172]:
+            - link "SDIFFSTORE" [ref=e1173] [cursor=pointer]:
+              - /url: /docs/latest/commands/sdiffstore/
+          - listitem [ref=e1175]:
+            - link "SELECT" [ref=e1176] [cursor=pointer]:
+              - /url: /docs/latest/commands/select/
+          - listitem [ref=e1178]:
+            - link "SET" [ref=e1179] [cursor=pointer]:
+              - /url: /docs/latest/commands/set/
+          - listitem [ref=e1181]:
+            - link "SETBIT" [ref=e1182] [cursor=pointer]:
+              - /url: /docs/latest/commands/setbit/
+          - listitem [ref=e1184]:
+            - link "SETEX" [ref=e1185] [cursor=pointer]:
+              - /url: /docs/latest/commands/setex/
+          - listitem [ref=e1187]:
+            - link "SETNX" [ref=e1188] [cursor=pointer]:
+              - /url: /docs/latest/commands/setnx/
+          - listitem [ref=e1190]:
+            - link "SETRANGE" [ref=e1191] [cursor=pointer]:
+              - /url: /docs/latest/commands/setrange/
+          - listitem [ref=e1193]:
+            - link "SHUTDOWN" [ref=e1194] [cursor=pointer]:
+              - /url: /docs/latest/commands/shutdown/
+          - listitem [ref=e1196]:
+            - link "SINTER" [ref=e1197] [cursor=pointer]:
+              - /url: /docs/latest/commands/sinter/
+          - listitem [ref=e1199]:
+            - link "SINTERCARD" [ref=e1200] [cursor=pointer]:
+              - /url: /docs/latest/commands/sintercard/
+          - listitem [ref=e1202]:
+            - link "SINTERSTORE" [ref=e1203] [cursor=pointer]:
+              - /url: /docs/latest/commands/sinterstore/
+          - listitem [ref=e1205]:
+            - link "SISMEMBER" [ref=e1206] [cursor=pointer]:
+              - /url: /docs/latest/commands/sismember/
+          - listitem [ref=e1208]:
+            - link "SLAVEOF" [ref=e1209] [cursor=pointer]:
+              - /url: /docs/latest/commands/slaveof/
+          - listitem [ref=e1211]:
+            - link "SLOWLOG GET" [ref=e1212] [cursor=pointer]:
+              - /url: /docs/latest/commands/slowlog-get/
+          - listitem [ref=e1214]:
+            - link "SLOWLOG LEN" [ref=e1215] [cursor=pointer]:
+              - /url: /docs/latest/commands/slowlog-len/
+          - listitem [ref=e1217]:
+            - link "SLOWLOG RESET" [ref=e1218] [cursor=pointer]:
+              - /url: /docs/latest/commands/slowlog-reset/
+          - listitem [ref=e1220]:
+            - link "SMEMBERS" [ref=e1221] [cursor=pointer]:
+              - /url: /docs/latest/commands/smembers/
+          - listitem [ref=e1223]:
+            - link "SMISMEMBER" [ref=e1224] [cursor=pointer]:
+              - /url: /docs/latest/commands/smismember/
+          - listitem [ref=e1226]:
+            - link "SMOVE" [ref=e1227] [cursor=pointer]:
+              - /url: /docs/latest/commands/smove/
+          - listitem [ref=e1229]:
+            - link "SORT" [ref=e1230] [cursor=pointer]:
+              - /url: /docs/latest/commands/sort/
+          - listitem [ref=e1232]:
+            - link "SORT_RO" [ref=e1233] [cursor=pointer]:
+              - /url: /docs/latest/commands/sort_ro/
+          - listitem [ref=e1235]:
+            - link "SPOP" [ref=e1236] [cursor=pointer]:
+              - /url: /docs/latest/commands/spop/
+          - listitem [ref=e1238]:
+            - link "SPUBLISH" [ref=e1239] [cursor=pointer]:
+              - /url: /docs/latest/commands/spublish/
+          - listitem [ref=e1241]:
+            - link "SRANDMEMBER" [ref=e1242] [cursor=pointer]:
+              - /url: /docs/latest/commands/srandmember/
+          - listitem [ref=e1244]:
+            - link "SREM" [ref=e1245] [cursor=pointer]:
+              - /url: /docs/latest/commands/srem/
+          - listitem [ref=e1247]:
+            - link "SSCAN" [ref=e1248] [cursor=pointer]:
+              - /url: /docs/latest/commands/sscan/
+          - listitem [ref=e1250]:
+            - link "SSUBSCRIBE" [ref=e1251] [cursor=pointer]:
+              - /url: /docs/latest/commands/ssubscribe/
+          - listitem [ref=e1253]:
+            - link "STRLEN" [ref=e1254] [cursor=pointer]:
+              - /url: /docs/latest/commands/strlen/
+          - listitem [ref=e1256]:
+            - link "SUBSCRIBE" [ref=e1257] [cursor=pointer]:
+              - /url: /docs/latest/commands/subscribe/
+          - listitem [ref=e1259]:
+            - link "SUBSTR" [ref=e1260] [cursor=pointer]:
+              - /url: /docs/latest/commands/substr/
+          - listitem [ref=e1262]:
+            - link "SUNION" [ref=e1263] [cursor=pointer]:
+              - /url: /docs/latest/commands/sunion/
+          - listitem [ref=e1265]:
+            - link "SUNIONSTORE" [ref=e1266] [cursor=pointer]:
+              - /url: /docs/latest/commands/sunionstore/
+          - listitem [ref=e1268]:
+            - link "SUNSUBSCRIBE" [ref=e1269] [cursor=pointer]:
+              - /url: /docs/latest/commands/sunsubscribe/
+          - listitem [ref=e1271]:
+            - link "SWAPDB" [ref=e1272] [cursor=pointer]:
+              - /url: /docs/latest/commands/swapdb/
+          - listitem [ref=e1274]:
+            - link "SYNC" [ref=e1275] [cursor=pointer]:
+              - /url: /docs/latest/commands/sync/
+          - listitem [ref=e1277]:
+            - link "TDIGEST.ADD" [ref=e1278] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.add/
+          - listitem [ref=e1280]:
+            - link "TDIGEST.BYRANK" [ref=e1281] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.byrank/
+          - listitem [ref=e1283]:
+            - link "TDIGEST.BYREVRANK" [ref=e1284] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.byrevrank/
+          - listitem [ref=e1286]:
+            - link "TDIGEST.CDF" [ref=e1287] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.cdf/
+          - listitem [ref=e1289]:
+            - link "TDIGEST.CREATE" [ref=e1290] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.create/
+          - listitem [ref=e1292]:
+            - link "TDIGEST.INFO" [ref=e1293] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.info/
+          - listitem [ref=e1295]:
+            - link "TDIGEST.MAX" [ref=e1296] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.max/
+          - listitem [ref=e1298]:
+            - link "TDIGEST.MERGE" [ref=e1299] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.merge/
+          - listitem [ref=e1301]:
+            - link "TDIGEST.MIN" [ref=e1302] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.min/
+          - listitem [ref=e1304]:
+            - link "TDIGEST.QUANTILE" [ref=e1305] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.quantile/
+          - listitem [ref=e1307]:
+            - link "TDIGEST.RANK" [ref=e1308] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.rank/
+          - listitem [ref=e1310]:
+            - link "TDIGEST.RESET" [ref=e1311] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.reset/
+          - listitem [ref=e1313]:
+            - link "TDIGEST.REVRANK" [ref=e1314] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.revrank/
+          - listitem [ref=e1316]:
+            - link "TDIGEST.TRIMMED_MEAN" [ref=e1317] [cursor=pointer]:
+              - /url: /docs/latest/commands/tdigest.trimmed_mean/
+          - listitem [ref=e1319]:
+            - link "TIME" [ref=e1320] [cursor=pointer]:
+              - /url: /docs/latest/commands/time/
+          - listitem [ref=e1322]:
+            - link "TOPK.ADD" [ref=e1323] [cursor=pointer]:
+              - /url: /docs/latest/commands/topk.add/
+          - listitem [ref=e1325]:
+            - link "TOPK.COUNT" [ref=e1326] [cursor=pointer]:
+              - /url: /docs/latest/commands/topk.count/
+          - listitem [ref=e1328]:
+            - link "TOPK.INCRBY" [ref=e1329] [cursor=pointer]:
+              - /url: /docs/latest/commands/topk.incrby/
+          - listitem [ref=e1331]:
+            - link "TOPK.INFO" [ref=e1332] [cursor=pointer]:
+              - /url: /docs/latest/commands/topk.info/
+          - listitem [ref=e1334]:
+            - link "TOPK.LIST" [ref=e1335] [cursor=pointer]:
+              - /url: /docs/latest/commands/topk.list/
+          - listitem [ref=e1337]:
+            - link "TOPK.QUERY" [ref=e1338] [cursor=pointer]:
+              - /url: /docs/latest/commands/topk.query/
+          - listitem [ref=e1340]:
+            - link "TOPK.RESERVE" [ref=e1341] [cursor=pointer]:
+              - /url: /docs/latest/commands/topk.reserve/
+          - listitem [ref=e1343]:
+            - link "TOUCH" [ref=e1344] [cursor=pointer]:
+              - /url: /docs/latest/commands/touch/
+          - listitem [ref=e1346]:
+            - link "TS.ADD" [ref=e1347] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.add/
+          - listitem [ref=e1349]:
+            - link "TS.ALTER" [ref=e1350] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.alter/
+          - listitem [ref=e1352]:
+            - link "TS.CREATE" [ref=e1353] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.create/
+          - listitem [ref=e1355]:
+            - link "TS.CREATERULE" [ref=e1356] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.createrule/
+          - listitem [ref=e1358]:
+            - link "TS.DECRBY" [ref=e1359] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.decrby/
+          - listitem [ref=e1361]:
+            - link "TS.DEL" [ref=e1362] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.del/
+          - listitem [ref=e1364]:
+            - link "TS.DELETERULE" [ref=e1365] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.deleterule/
+          - listitem [ref=e1367]:
+            - link "TS.GET" [ref=e1368] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.get/
+          - listitem [ref=e1370]:
+            - link "TS.INCRBY" [ref=e1371] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.incrby/
+          - listitem [ref=e1373]:
+            - link "TS.INFO" [ref=e1374] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.info/
+          - listitem [ref=e1376]:
+            - link "TS.MADD" [ref=e1377] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.madd/
+          - listitem [ref=e1379]:
+            - link "TS.MGET" [ref=e1380] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.mget/
+          - listitem [ref=e1382]:
+            - link "TS.MRANGE" [ref=e1383] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.mrange/
+          - listitem [ref=e1385]:
+            - link "TS.MREVRANGE" [ref=e1386] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.mrevrange/
+          - listitem [ref=e1388]:
+            - link "TS.QUERYINDEX" [ref=e1389] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.queryindex/
+          - listitem [ref=e1391]:
+            - link "TS.RANGE" [ref=e1392] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.range/
+          - listitem [ref=e1394]:
+            - link "TS.REVRANGE" [ref=e1395] [cursor=pointer]:
+              - /url: /docs/latest/commands/ts.revrange/
+          - listitem [ref=e1397]:
+            - link "TTL" [ref=e1398] [cursor=pointer]:
+              - /url: /docs/latest/commands/ttl/
+          - listitem [ref=e1400]:
+            - link "TYPE" [ref=e1401] [cursor=pointer]:
+              - /url: /docs/latest/commands/type/
+          - listitem [ref=e1403]:
+            - link "UNLINK" [ref=e1404] [cursor=pointer]:
+              - /url: /docs/latest/commands/unlink/
+          - listitem [ref=e1406]:
+            - link "UNSUBSCRIBE" [ref=e1407] [cursor=pointer]:
+              - /url: /docs/latest/commands/unsubscribe/
+          - listitem [ref=e1409]:
+            - link "UNWATCH" [ref=e1410] [cursor=pointer]:
+              - /url: /docs/latest/commands/unwatch/
+          - listitem [ref=e1412]:
+            - link "VADD" [ref=e1413] [cursor=pointer]:
+              - /url: /docs/latest/commands/vadd/
+          - listitem [ref=e1415]:
+            - link "VCARD" [ref=e1416] [cursor=pointer]:
+              - /url: /docs/latest/commands/vcard/
+          - listitem [ref=e1418]:
+            - link "VDIM" [ref=e1419] [cursor=pointer]:
+              - /url: /docs/latest/commands/vdim/
+          - listitem [ref=e1421]:
+            - link "VEMB" [ref=e1422] [cursor=pointer]:
+              - /url: /docs/latest/commands/vemb/
+          - listitem [ref=e1424]:
+            - link "VGETATTR" [ref=e1425] [cursor=pointer]:
+              - /url: /docs/latest/commands/vgetattr/
+          - listitem [ref=e1427]:
+            - link "VINFO" [ref=e1428] [cursor=pointer]:
+              - /url: /docs/latest/commands/vinfo/
+          - listitem [ref=e1430]:
+            - link "VISMEMBER" [ref=e1431] [cursor=pointer]:
+              - /url: /docs/latest/commands/vismember/
+          - listitem [ref=e1433]:
+            - link "VLINKS" [ref=e1434] [cursor=pointer]:
+              - /url: /docs/latest/commands/vlinks/
+          - listitem [ref=e1436]:
+            - link "VRANDMEMBER" [ref=e1437] [cursor=pointer]:
+              - /url: /docs/latest/commands/vrandmember/
+          - listitem [ref=e1439]:
+            - link "VRANGE" [ref=e1440] [cursor=pointer]:
+              - /url: /docs/latest/commands/vrange/
+          - listitem [ref=e1442]:
+            - link "VREM" [ref=e1443] [cursor=pointer]:
+              - /url: /docs/latest/commands/vrem/
+          - listitem [ref=e1445]:
+            - link "VSETATTR" [ref=e1446] [cursor=pointer]:
+              - /url: /docs/latest/commands/vsetattr/
+          - listitem [ref=e1448]:
+            - link "VSIM" [ref=e1449] [cursor=pointer]:
+              - /url: /docs/latest/commands/vsim/
+          - listitem [ref=e1451]:
+            - link "WAIT" [ref=e1452] [cursor=pointer]:
+              - /url: /docs/latest/commands/wait/
+          - listitem [ref=e1454]:
+            - link "WAITAOF" [ref=e1455] [cursor=pointer]:
+              - /url: /docs/latest/commands/waitaof/
+          - listitem [ref=e1457]:
+            - link "WATCH" [ref=e1458] [cursor=pointer]:
+              - /url: /docs/latest/commands/watch/
+          - listitem [ref=e1460]:
+            - link "XACK" [ref=e1461] [cursor=pointer]:
+              - /url: /docs/latest/commands/xack/
+          - listitem [ref=e1463]:
+            - link "XACKDEL" [ref=e1464] [cursor=pointer]:
+              - /url: /docs/latest/commands/xackdel/
+          - listitem [ref=e1466]:
+            - link "XADD" [ref=e1467] [cursor=pointer]:
+              - /url: /docs/latest/commands/xadd/
+          - listitem [ref=e1469]:
+            - link "XAUTOCLAIM" [ref=e1470] [cursor=pointer]:
+              - /url: /docs/latest/commands/xautoclaim/
+          - listitem [ref=e1472]:
+            - link "XCFGSET" [ref=e1473] [cursor=pointer]:
+              - /url: /docs/latest/commands/xcfgset/
+          - listitem [ref=e1475]:
+            - link "XCLAIM" [ref=e1476] [cursor=pointer]:
+              - /url: /docs/latest/commands/xclaim/
+          - listitem [ref=e1478]:
+            - link "XDEL" [ref=e1479] [cursor=pointer]:
+              - /url: /docs/latest/commands/xdel/
+          - listitem [ref=e1481]:
+            - link "XDELEX" [ref=e1482] [cursor=pointer]:
+              - /url: /docs/latest/commands/xdelex/
+          - listitem [ref=e1484]:
+            - link "XGROUP CREATE" [ref=e1485] [cursor=pointer]:
+              - /url: /docs/latest/commands/xgroup-create/
+          - listitem [ref=e1487]:
+            - link "XGROUP CREATECONSUMER" [ref=e1488] [cursor=pointer]:
+              - /url: /docs/latest/commands/xgroup-createconsumer/
+          - listitem [ref=e1490]:
+            - link "XGROUP DELCONSUMER" [ref=e1491] [cursor=pointer]:
+              - /url: /docs/latest/commands/xgroup-delconsumer/
+          - listitem [ref=e1493]:
+            - link "XGROUP DESTROY" [ref=e1494] [cursor=pointer]:
+              - /url: /docs/latest/commands/xgroup-destroy/
+          - listitem [ref=e1496]:
+            - link "XGROUP SETID" [ref=e1497] [cursor=pointer]:
+              - /url: /docs/latest/commands/xgroup-setid/
+          - listitem [ref=e1499]:
+            - link "XIDMPRECORD" [ref=e1500] [cursor=pointer]:
+              - /url: /docs/latest/commands/xidmprecord/
+          - listitem [ref=e1502]:
+            - link "XINFO CONSUMERS" [ref=e1503] [cursor=pointer]:
+              - /url: /docs/latest/commands/xinfo-consumers/
+          - listitem [ref=e1505]:
+            - link "XINFO GROUPS" [ref=e1506] [cursor=pointer]:
+              - /url: /docs/latest/commands/xinfo-groups/
+          - listitem [ref=e1508]:
+            - link "XINFO STREAM" [ref=e1509] [cursor=pointer]:
+              - /url: /docs/latest/commands/xinfo-stream/
+          - listitem [ref=e1511]:
+            - link "XLEN" [ref=e1512] [cursor=pointer]:
+              - /url: /docs/latest/commands/xlen/
+          - listitem [ref=e1514]:
+            - link "XNACK" [ref=e1515] [cursor=pointer]:
+              - /url: /docs/latest/commands/xnack/
+          - listitem [ref=e1517]:
+            - link "XPENDING" [ref=e1518] [cursor=pointer]:
+              - /url: /docs/latest/commands/xpending/
+          - listitem [ref=e1520]:
+            - link "XRANGE" [ref=e1521] [cursor=pointer]:
+              - /url: /docs/latest/commands/xrange/
+          - listitem [ref=e1523]:
+            - link "XREAD" [ref=e1524] [cursor=pointer]:
+              - /url: /docs/latest/commands/xread/
+          - listitem [ref=e1526]:
+            - link "XREADGROUP" [ref=e1527] [cursor=pointer]:
+              - /url: /docs/latest/commands/xreadgroup/
+          - listitem [ref=e1529]:
+            - link "XREVRANGE" [ref=e1530] [cursor=pointer]:
+              - /url: /docs/latest/commands/xrevrange/
+          - listitem [ref=e1532]:
+            - link "XSETID" [ref=e1533] [cursor=pointer]:
+              - /url: /docs/latest/commands/xsetid/
+          - listitem [ref=e1535]:
+            - link "XTRIM" [ref=e1536] [cursor=pointer]:
+              - /url: /docs/latest/commands/xtrim/
+          - listitem [ref=e1538]:
+            - link "ZADD" [ref=e1539] [cursor=pointer]:
+              - /url: /docs/latest/commands/zadd/
+          - listitem [ref=e1541]:
+            - link "ZCARD" [ref=e1542] [cursor=pointer]:
+              - /url: /docs/latest/commands/zcard/
+          - listitem [ref=e1544]:
+            - link "ZCOUNT" [ref=e1545] [cursor=pointer]:
+              - /url: /docs/latest/commands/zcount/
+          - listitem [ref=e1547]:
+            - link "ZDIFF" [ref=e1548] [cursor=pointer]:
+              - /url: /docs/latest/commands/zdiff/
+          - listitem [ref=e1550]:
+            - link "ZDIFFSTORE" [ref=e1551] [cursor=pointer]:
+              - /url: /docs/latest/commands/zdiffstore/
+          - listitem [ref=e1553]:
+            - link "ZINCRBY" [ref=e1554] [cursor=pointer]:
+              - /url: /docs/latest/commands/zincrby/
+          - listitem [ref=e1556]:
+            - link "ZINTER" [ref=e1557] [cursor=pointer]:
+              - /url: /docs/latest/commands/zinter/
+          - listitem [ref=e1559]:
+            - link "ZINTERCARD" [ref=e1560] [cursor=pointer]:
+              - /url: /docs/latest/commands/zintercard/
+          - listitem [ref=e1562]:
+            - link "ZINTERSTORE" [ref=e1563] [cursor=pointer]:
+              - /url: /docs/latest/commands/zinterstore/
+          - listitem [ref=e1565]:
+            - link "ZLEXCOUNT" [ref=e1566] [cursor=pointer]:
+              - /url: /docs/latest/commands/zlexcount/
+          - listitem [ref=e1568]:
+            - link "ZMPOP" [ref=e1569] [cursor=pointer]:
+              - /url: /docs/latest/commands/zmpop/
+          - listitem [ref=e1571]:
+            - link "ZMSCORE" [ref=e1572] [cursor=pointer]:
+              - /url: /docs/latest/commands/zmscore/
+          - listitem [ref=e1574]:
+            - link "ZPOPMAX" [ref=e1575] [cursor=pointer]:
+              - /url: /docs/latest/commands/zpopmax/
+          - listitem [ref=e1577]:
+            - link "ZPOPMIN" [ref=e1578] [cursor=pointer]:
+              - /url: /docs/latest/commands/zpopmin/
+          - listitem [ref=e1580]:
+            - link "ZRANDMEMBER" [ref=e1581] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrandmember/
+          - listitem [ref=e1583]:
+            - link "ZRANGE" [ref=e1584] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrange/
+          - listitem [ref=e1586]:
+            - link "ZRANGEBYLEX" [ref=e1587] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrangebylex/
+          - listitem [ref=e1589]:
+            - link "ZRANGEBYSCORE" [ref=e1590] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrangebyscore/
+          - listitem [ref=e1592]:
+            - link "ZRANGESTORE" [ref=e1593] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrangestore/
+          - listitem [ref=e1595]:
+            - link "ZRANK" [ref=e1596] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrank/
+          - listitem [ref=e1598]:
+            - link "ZREM" [ref=e1599] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrem/
+          - listitem [ref=e1601]:
+            - link "ZREMRANGEBYLEX" [ref=e1602] [cursor=pointer]:
+              - /url: /docs/latest/commands/zremrangebylex/
+          - listitem [ref=e1604]:
+            - link "ZREMRANGEBYRANK" [ref=e1605] [cursor=pointer]:
+              - /url: /docs/latest/commands/zremrangebyrank/
+          - listitem [ref=e1607]:
+            - link "ZREMRANGEBYSCORE" [ref=e1608] [cursor=pointer]:
+              - /url: /docs/latest/commands/zremrangebyscore/
+          - listitem [ref=e1610]:
+            - link "ZREVRANGE" [ref=e1611] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrevrange/
+          - listitem [ref=e1613]:
+            - link "ZREVRANGEBYLEX" [ref=e1614] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrevrangebylex/
+          - listitem [ref=e1616]:
+            - link "ZREVRANGEBYSCORE" [ref=e1617] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrevrangebyscore/
+          - listitem [ref=e1619]:
+            - link "ZREVRANK" [ref=e1620] [cursor=pointer]:
+              - /url: /docs/latest/commands/zrevrank/
+          - listitem [ref=e1622]:
+            - link "ZSCAN" [ref=e1623] [cursor=pointer]:
+              - /url: /docs/latest/commands/zscan/
+          - listitem [ref=e1625]:
+            - link "ZSCORE" [ref=e1626] [cursor=pointer]:
+              - /url: /docs/latest/commands/zscore/
+          - listitem [ref=e1628]:
+            - link "ZUNION" [ref=e1629] [cursor=pointer]:
+              - /url: /docs/latest/commands/zunion/
+          - listitem [ref=e1631]:
+            - link "ZUNIONSTORE" [ref=e1632] [cursor=pointer]:
+              - /url: /docs/latest/commands/zunionstore/
+    - generic [ref=e1634]:
+      - navigation "Breadcrumb" [ref=e1635]:
+        - list [ref=e1636]:
+          - listitem [ref=e1637]:
+            - link "Docs Docs" [ref=e1638] [cursor=pointer]:
+              - /url: /docs/latest/
+              - text: Docs
+              - generic [ref=e1639]: Docs
+          - listitem [ref=e1640]:
+            - generic [ref=e1641]: →
+            - link "Commands" [ref=e1642] [cursor=pointer]:
+              - /url: /docs/latest/commands/
+          - listitem:
+            - generic: →
+            - link "EXPIRE":
+              - /url: /docs/latest/commands/expire/
+      - generic [ref=e1643]:
+        - heading "EXPIRE" [level=1] [ref=e1644]
+        - generic [ref=e1646]:
+          - tablist "Tab navigation" [ref=e1647]:
+            - radio "Syntax text" [checked] [ref=e1648]
+            - tab "Syntax text" [selected] [ref=e1649] [cursor=pointer]
+            - radio "Syntax diagram" [ref=e1650]
+            - tab "Syntax diagram" [ref=e1651] [cursor=pointer]
+            - radio "API methods" [ref=e1652]
+            - tab "API methods" [ref=e1653] [cursor=pointer]
+          - tabpanel "Syntax text" [ref=e1655]:
+            - generic [ref=e1656]: EXPIRE key seconds [NX | XX | GT | LT]
+        - generic [ref=e1657]:
+          - term [ref=e1658]: "Available since:"
+          - definition [ref=e1659]: Redis Open Source 1.0.0
+          - term [ref=e1660]: "Time complexity:"
+          - definition [ref=e1661]: O(1)
+          - term [ref=e1662]: "ACL categories:"
+          - definition [ref=e1663]:
+            - code [ref=e1664]: "@keyspace"
+            - text: ","
+            - code [ref=e1665]: "@write"
+            - text: ","
+            - code [ref=e1666]: "@fast"
+          - term [ref=e1667]: "Compatibility:"
+          - definition [ref=e1668]:
+            - link "Redis Software and Redis Cloud compatibility" [ref=e1669] [cursor=pointer]:
+              - /url: "#redis-software-and-redis-cloud-compatibility"
+        - paragraph [ref=e1670]:
+          - text: Set a timeout on
+          - code [ref=e1671]: key
+          - text: . After the timeout has expired, the key will automatically be deleted. A key with an associated timeout is often said to be
+          - emphasis [ref=e1672]: volatile
+          - text: in Redis terminology.
+        - paragraph [ref=e1673]:
+          - text: The timeout will only be cleared by commands that delete or overwrite the contents of the key, including
+          - link [ref=e1674] [cursor=pointer]:
+            - /url: /docs/latest/commands/del/
+            - code [ref=e1675]: DEL
+          - text: ","
+          - link [ref=e1676] [cursor=pointer]:
+            - /url: /docs/latest/commands/set/
+            - code [ref=e1677]: SET
+          - text: ","
+          - link [ref=e1678] [cursor=pointer]:
+            - /url: /docs/latest/commands/getset/
+            - code [ref=e1679]: GETSET
+          - text: and all the
+          - code [ref=e1680]: "*STORE"
+          - text: commands. This means that all the operations that conceptually
+          - emphasis [ref=e1681]: alter
+          - text: the value stored at the key without replacing it with a new one will leave the timeout untouched. For instance, incrementing the value of a key with
+          - link [ref=e1682] [cursor=pointer]:
+            - /url: /docs/latest/commands/incr/
+            - code [ref=e1683]: INCR
+          - text: ", pushing a new value into a list with"
+          - link [ref=e1684] [cursor=pointer]:
+            - /url: /docs/latest/commands/lpush/
+            - code [ref=e1685]: LPUSH
+          - text: ", or altering the field value of a hash with"
+          - link [ref=e1686] [cursor=pointer]:
+            - /url: /docs/latest/commands/hset/
+            - code [ref=e1687]: HSET
+          - text: are all operations that will leave the timeout untouched.
+        - paragraph [ref=e1688]:
+          - text: The timeout can also be cleared, turning the key back into a persistent key, using the
+          - link [ref=e1689] [cursor=pointer]:
+            - /url: /docs/latest/commands/persist/
+            - code [ref=e1690]: PERSIST
+          - text: command.
+        - paragraph [ref=e1691]:
+          - text: If a key is renamed with
+          - link [ref=e1692] [cursor=pointer]:
+            - /url: /docs/latest/commands/rename/
+            - code [ref=e1693]: RENAME
+          - text: ", the associated time to live is transferred to the new key name."
+        - paragraph [ref=e1694]:
+          - text: If a key is overwritten by
+          - link [ref=e1695] [cursor=pointer]:
+            - /url: /docs/latest/commands/rename/
+            - code [ref=e1696]: RENAME
+          - text: ", like in the case of an existing key"
+          - code [ref=e1697]: Key_A
+          - text: that is overwritten by a call like
+          - code [ref=e1698]: RENAME Key_B Key_A
+          - text: ", it does not matter if the original"
+          - code [ref=e1699]: Key_A
+          - text: had a timeout associated or not, the new key
+          - code [ref=e1700]: Key_A
+          - text: will inherit all the characteristics of
+          - code [ref=e1701]: Key_B
+          - text: .
+        - paragraph [ref=e1702]:
+          - text: Note that calling
+          - code [ref=e1703]: EXPIRE
+          - text: /
+          - link [ref=e1704] [cursor=pointer]:
+            - /url: /docs/latest/commands/pexpire/
+            - code [ref=e1705]: PEXPIRE
+          - text: with a non-positive timeout or
+          - link [ref=e1706] [cursor=pointer]:
+            - /url: /docs/latest/commands/expireat/
+            - code [ref=e1707]: EXPIREAT
+          - text: /
+          - link [ref=e1708] [cursor=pointer]:
+            - /url: /docs/latest/commands/pexpireat/
+            - code [ref=e1709]: PEXPIREAT
+          - text: with a time in the past will result in the key being
+          - link "deleted" [ref=e1710] [cursor=pointer]:
+            - /url: /commands/del
+          - text: rather than expired (accordingly, the emitted
+          - link "key event" [ref=e1711] [cursor=pointer]:
+            - /url: /develop/use/keyspace-notifications
+          - text: will be
+          - code [ref=e1712]: del
+          - text: ", not"
+          - code [ref=e1713]: expired
+          - text: ).
+        - heading [level=2] [ref=e1714]:
+          - text: Required arguments
+          - link "Link to this section" [ref=e1715] [cursor=pointer]:
+            - /url: "#required-arguments"
+        - group [ref=e1718]:
+          - code [ref=e1720]: key
+          - paragraph [ref=e1721]: The name of the key.
+        - group [ref=e1722]:
+          - code [ref=e1724]: seconds
+          - paragraph [ref=e1725]: The time to live, in seconds. The key is deleted after this many seconds.
+        - heading [level=2] [ref=e1726]:
+          - text: Optional arguments
+          - link "Link to this section" [ref=e1727] [cursor=pointer]:
+            - /url: "#optional-arguments"
+        - paragraph [ref=e1730]: These options are mutually exclusive.
+        - group [ref=e1731]:
+          - code [ref=e1733]: NX
+          - paragraph [ref=e1734]: Set the expiry only when the key has no expiry.
+        - group [ref=e1735]:
+          - code [ref=e1737]: XX
+          - paragraph [ref=e1738]: Set the expiry only when the key already has an expiry.
+        - group [ref=e1739]:
+          - code [ref=e1741]: GT
+          - paragraph [ref=e1742]:
+            - text: Set the expiry only when the new expiry is greater than the current one. A non-volatile key is treated as an infinite TTL for the purpose of
+            - code [ref=e1743]: GT
+            - text: .
+        - group [ref=e1744]:
+          - code [ref=e1746]: LT
+          - paragraph [ref=e1747]:
+            - text: Set the expiry only when the new expiry is less than the current one. A non-volatile key is treated as an infinite TTL for the purpose of
+            - code [ref=e1748]: LT
+            - text: .
+        - heading [level=2] [ref=e1749]:
+          - text: Examples
+          - link "Link to this section" [ref=e1750] [cursor=pointer]:
+            - /url: "#examples"
+        - generic [ref=e1753]:
+          - generic [ref=e1754]:
+            - generic [ref=e1755]:
+              - generic [ref=e1756]:
+                - generic [ref=e1757]: "Language:"
+                - combobox "Language:" [ref=e1758] [cursor=pointer]:
+                  - option ">_ Redis CLI" [selected]
+                  - option "Python"
+                  - option "JavaScript (node-redis)"
+                  - option "JavaScript (ioredis)"
+                  - option "Java-Sync"
+                  - option "Java-Async"
+                  - option "Java-Reactive"
+                  - option "Go"
+                  - option "C"
+                  - option "C#-Sync (SE.Redis)"
+                  - option "PHP"
+                  - option "Rust-Sync"
+                  - option "Rust-Async"
+              - generic [ref=e1759]:
+                - button "Try these Redis commands in an interactive CLI" [ref=e1760] [cursor=pointer]:
+                  - generic [ref=e1763]: Try it
+                - button "Copied!" [ref=e1764] [cursor=pointer]
+                - button "Copy to clipboard" [ref=e1768] [cursor=pointer]
+            - generic [ref=e1771]: "Foundational: Set key expiration time using EXPIRE (supports conditional options NX/XX/GT/LT, returns 1 if set or 0 if not)"
+          - tabpanel ">_ Redis CLI" [ref=e1772]:
+            - generic [ref=e1773]:
+              - generic [ref=e1774]: redis> SET mykey "Hello" OK redis> EXPIRE mykey 10 (integer) 1 redis> TTL mykey (integer) 10 redis> SET mykey "Hello World" OK redis> TTL mykey (integer) -1 redis> EXPIRE mykey 10 XX (integer) 0 redis> TTL mykey (integer) -1 redis> EXPIRE mykey 10 NX (integer) 1 redis> TTL mykey (integer) 10
+              - generic [ref=e1775]:
+                - generic [ref=e1776]: redis>
+                - textbox [active] [ref=e1777]
+            - generic [ref=e1778]:
+              - 'button "▼ Commands: SET, EXPIRE, TTL" [ref=e1780] [cursor=pointer]':
+                - generic [ref=e1781]:
+                  - generic [ref=e1782]: ▼
+                  - generic [ref=e1783]: "Commands:"
+                  - generic [ref=e1784]: SET, EXPIRE, TTL
+              - generic [ref=e1785]:
+                - link "Redis CLI guide" [ref=e1786] [cursor=pointer]:
+                  - /url: https://redis.io/docs/latest/develop/tools/cli/
+                - generic [ref=e1787]:
+                  - text: Also, check out our other client tools
+                  - link [ref=e1788] [cursor=pointer]:
+                    - /url: https://redis.io/docs/latest/develop/tools/insight/
+                    - strong [ref=e1789]: Redis Insight
+                  - text: and
+                  - link [ref=e1790] [cursor=pointer]:
+                    - /url: https://redis.io/docs/latest/develop/tools/redis-for-vscode/
+                    - strong [ref=e1791]: Redis for VS Code
+                  - text: .
+        - heading [level=2] [ref=e1792]:
+          - text: Details
+          - link "Link to this section" [ref=e1793] [cursor=pointer]:
+            - /url: "#details"
+        - heading [level=3] [ref=e1796]:
+          - text: Refreshing expires
+          - link "Link to this section" [ref=e1797] [cursor=pointer]:
+            - /url: "#refreshing-expires"
+        - paragraph [ref=e1800]:
+          - text: It is possible to call
+          - code [ref=e1801]: EXPIRE
+          - text: using as argument a key that already has an existing expire set. In this case the time to live of a key is
+          - emphasis [ref=e1802]: updated
+          - text: to the new value. There are many useful applications for this, an example is documented in the
+          - emphasis [ref=e1803]: Navigation session
+          - text: pattern section below.
+        - heading [level=3] [ref=e1804]:
+          - text: Differences in Redis prior to 2.1.3
+          - link "Link to this section" [ref=e1805] [cursor=pointer]:
+            - /url: "#differences-in-redis-prior-to-213"
+        - paragraph [ref=e1808]: In Redis versions prior to 2.1.3 altering a key with an expire set using a command altering its value had the effect of removing the key entirely. This semantics was needed because of limitations in the replication layer that are now fixed.
+        - paragraph [ref=e1809]:
+          - code [ref=e1810]: EXPIRE
+          - text: would return 0 and not alter the timeout for a key with a timeout set.
+        - heading [level=3] [ref=e1811]:
+          - text: "Pattern: navigation session"
+          - link "Link to this section" [ref=e1812] [cursor=pointer]:
+            - /url: "#pattern-navigation-session"
+        - paragraph [ref=e1815]:
+          - text: Imagine you have a web service and you are interested in the latest N pages
+          - emphasis [ref=e1816]: recently
+          - text: visited by your users, such that each adjacent page view was not performed more than 60 seconds after the previous. Conceptually you may consider this set of page views as a
+          - emphasis [ref=e1817]: Navigation session
+          - text: of your user, that may contain interesting information about what kind of products he or she is looking for currently, so that you can recommend related products.
+        - paragraph [ref=e1818]: "You can easily model this pattern in Redis using the following strategy: every time the user does a page view you call the following commands:"
+        - code [ref=e1820]: MULTI RPUSH pagewviews.user:<userid> http://..... EXPIRE pagewviews.user:<userid> 60 EXEC
+        - paragraph [ref=e1821]: If the user will be idle more than 60 seconds, the key will be deleted and only subsequent page views that have less than 60 seconds of difference will be recorded.
+        - paragraph [ref=e1822]:
+          - text: This pattern is easily modified to use counters using
+          - link [ref=e1823] [cursor=pointer]:
+            - /url: /docs/latest/commands/incr/
+            - code [ref=e1824]: INCR
+          - text: instead of lists using
+          - link [ref=e1825] [cursor=pointer]:
+            - /url: /docs/latest/commands/rpush/
+            - code [ref=e1826]: RPUSH
+          - text: .
+        - heading [level=3] [ref=e1827]:
+          - text: "Appendix: Redis expires"
+          - link "Link to this section" [ref=e1828] [cursor=pointer]:
+            - /url: "#appendix-redis-expires"
+        - heading [level=4] [ref=e1831]:
+          - text: Keys with an expire
+          - link "Link to this section" [ref=e1832] [cursor=pointer]:
+            - /url: "#keys-with-an-expire"
+        - paragraph [ref=e1835]:
+          - text: Normally Redis keys are created without an associated time to live. The key will simply live forever, unless it is removed by the user in an explicit way, for instance using the
+          - link [ref=e1836] [cursor=pointer]:
+            - /url: /docs/latest/commands/del/
+            - code [ref=e1837]: DEL
+          - text: command.
+        - paragraph [ref=e1838]:
+          - text: The
+          - code [ref=e1839]: EXPIRE
+          - text: family of commands is able to associate an expire to a given key, at the cost of some additional memory used by the key. When a key has an expire set, Redis will make sure to remove the key when the specified amount of time elapsed.
+        - paragraph [ref=e1840]:
+          - text: The key time to live can be updated or entirely removed using the
+          - code [ref=e1841]: EXPIRE
+          - text: and
+          - link [ref=e1842] [cursor=pointer]:
+            - /url: /docs/latest/commands/persist/
+            - code [ref=e1843]: PERSIST
+          - text: command (or other strictly related commands).
+        - heading [level=4] [ref=e1844]:
+          - text: Expire accuracy
+          - link "Link to this section" [ref=e1845] [cursor=pointer]:
+            - /url: "#expire-accuracy"
+        - paragraph [ref=e1848]: In Redis 2.4 the expire might not be pin-point accurate, and it could be between zero to one seconds out.
+        - paragraph [ref=e1849]: Since Redis 2.6 the expire error is from 0 to 1 milliseconds.
+        - heading [level=4] [ref=e1850]:
+          - text: Expires and persistence
+          - link "Link to this section" [ref=e1851] [cursor=pointer]:
+            - /url: "#expires-and-persistence"
+        - paragraph [ref=e1854]: Keys expiring information is stored as absolute Unix timestamps (in milliseconds in case of Redis version 2.6 or greater). This means that the time is flowing even when the Redis instance is not active.
+        - paragraph [ref=e1855]: For expires to work well, the computer time must be taken stable. If you move an RDB file from two computers with a big desync in their clocks, funny things may happen (like all the keys loaded to be expired at loading time).
+        - paragraph [ref=e1856]: Even running instances will always check the computer clock, so for instance if you set a key with a time to live of 1000 seconds, and then set your computer time 2000 seconds in the future, the key will be expired immediately, instead of lasting for 1000 seconds.
+        - heading [level=4] [ref=e1857]:
+          - text: How Redis expires keys
+          - link "Link to this section" [ref=e1858] [cursor=pointer]:
+            - /url: "#how-redis-expires-keys"
+        - paragraph [ref=e1861]: "Redis keys are expired in two ways: a passive way and an active way."
+        - paragraph [ref=e1862]: A key is passively expired when a client tries to access it and the key is timed out.
+        - paragraph [ref=e1863]: However, this is not enough as there are expired keys that will never be accessed again. These keys should be expired anyway, so periodically, Redis tests a few keys at random amongst the set of keys with an expiration. All the keys that are already expired are deleted from the keyspace.
+        - heading [level=4] [ref=e1864]:
+          - text: How expires are handled in the replication link and AOF file
+          - link "Link to this section" [ref=e1865] [cursor=pointer]:
+            - /url: "#how-expires-are-handled-in-the-replication-link-and-aof-file"
+        - paragraph [ref=e1868]:
+          - text: In order to obtain a correct behavior without sacrificing consistency, when a key expires, a
+          - link [ref=e1869] [cursor=pointer]:
+            - /url: /docs/latest/commands/del/
+            - code [ref=e1870]: DEL
+          - text: operation is synthesized in both the AOF file and gains all the attached replicas nodes. This way the expiration process is centralized in the master instance, and there is no chance of consistency errors.
+        - paragraph [ref=e1871]:
+          - text: However while the replicas connected to a master will not expire keys independently (but will wait for the
+          - link [ref=e1872] [cursor=pointer]:
+            - /url: /docs/latest/commands/del/
+            - code [ref=e1873]: DEL
+          - text: coming from the master), they'll still take the full state of the expires existing in the dataset, so when a replica is elected to master it will be able to expire the keys independently, fully acting as a master.
+        - heading [level=4] [ref=e1874]:
+          - text: Redis Search and expiration
+          - link "Link to this section" [ref=e1875] [cursor=pointer]:
+            - /url: "#redis-search-and-expiration"
+        - paragraph [ref=e1878]:
+          - text: Starting with Redis 8, Redis Search has enhanced behavior when handling expiring keys. For detailed information about how
+          - link [ref=e1879] [cursor=pointer]:
+            - /url: /docs/latest/commands/ft.search/
+            - code [ref=e1880]: FT.SEARCH
+          - text: and
+          - link [ref=e1881] [cursor=pointer]:
+            - /url: /docs/latest/commands/ft.aggregate/
+            - code [ref=e1882]: FT.AGGREGATE
+          - text: commands interact with expiring keys, see
+          - link "Key and field expiration behavior" [ref=e1883] [cursor=pointer]:
+            - /url: /docs/latest/develop/ai/search-and-query/advanced-concepts/expiration/
+          - text: .
+        - heading [level=2] [ref=e1884]:
+          - text: Redis Software and Redis Cloud compatibility
+          - link "Link to this section" [ref=e1885] [cursor=pointer]:
+            - /url: "#redis-software-and-redis-cloud-compatibility"
+        - table [ref=e1888]:
+          - rowgroup [ref=e1889]:
+            - row [ref=e1890]:
+              - columnheader "Redis Software" [ref=e1891]: RedisSoftware
+              - columnheader "Redis Cloud" [ref=e1892]: RedisCloud
+              - columnheader "Notes" [ref=e1893]
+          - rowgroup [ref=e1895]:
+            - row [ref=e1896]:
+              - cell "✅ Standard ✅ Active-Active" [ref=e1897]:
+                - text: ✅ Standard
+                - generic "Supported" [ref=e1898]: ✅ Active-Active
+              - cell "✅ Standard ✅ Active-Active" [ref=e1899]:
+                - text: ✅ Standard
+                - generic "Supported" [ref=e1900]: ✅ Active-Active
+              - cell [ref=e1901]
+        - heading [level=2] [ref=e1902]:
+          - text: Return information
+          - link "Link to this section" [ref=e1903] [cursor=pointer]:
+            - /url: "#return-information"
+        - generic [ref=e1906]:
+          - tablist "Tab navigation" [ref=e1907]:
+            - radio "RESP2" [checked] [ref=e1908]
+            - tab "RESP2" [selected] [ref=e1909] [cursor=pointer]
+            - radio "RESP3" [ref=e1910]
+            - tab "RESP3" [ref=e1911] [cursor=pointer]
+          - tabpanel "RESP2" [ref=e1913]:
+            - paragraph [ref=e1914]: "One of the following:"
+            - list [ref=e1915]:
+              - listitem [ref=e1916]:
+                - link "Integer reply" [ref=e1917] [cursor=pointer]:
+                  - /url: ../../develop/reference/protocol-spec#integers
+                - text: ":"
+                - code [ref=e1918]: "0"
+                - text: if the timeout was not set; for example, the key doesn't exist, or the operation was skipped because of the provided arguments.
+              - listitem [ref=e1919]:
+                - link "Integer reply" [ref=e1920] [cursor=pointer]:
+                  - /url: ../../develop/reference/protocol-spec#integers
+                - text: ":"
+                - code [ref=e1921]: "1"
+                - text: if the timeout was set.
+        - heading "History" [level=2] [ref=e1922]
+        - list [ref=e1923]:
+          - listitem [ref=e1924]:
+            - text: "Starting with Redis version 7.0.0: Added options:"
+            - code [ref=e1925]: NX
+            - text: ","
+            - code [ref=e1926]: XX
+            - text: ","
+            - code [ref=e1927]: GT
+            - text: and
+            - code [ref=e1928]: LT
+            - text: .
+        - generic [ref=e1930]:
+          - generic [ref=e1931]:
+            - generic [ref=e1932]: RATE THIS PAGE
+            - generic [ref=e1933]:
+              - generic [ref=e1934] [cursor=pointer]: ★
+              - generic [ref=e1935] [cursor=pointer]: ★
+              - generic [ref=e1936] [cursor=pointer]: ★
+              - generic [ref=e1937] [cursor=pointer]: ★
+              - generic [ref=e1938] [cursor=pointer]: ★
+          - link "Back to top ↑" [ref=e1939] [cursor=pointer]:
+            - /url: "#"
+    - complementary:
+      - generic [ref=e1940]:
+        - navigation [ref=e1941]:
+          - link "Edit this page" [ref=e1942] [cursor=pointer]:
+            - /url: https://github.com/redis/docs/edit/main/content/commands/expire.md
+          - link "Create an issue" [ref=e1945] [cursor=pointer]:
+            - /url: "https://github.com/redis/docs/issues/new?title=Feedback: EXPIRE&body=Page https://redis.io/docs/latest/commands/expire"
+          - link "Download Markdown" [ref=e1948] [cursor=pointer]:
+            - /url: "#"
+        - term [ref=e1951]: See also
+        - definition [ref=e1952]:
+          - link "COPY" [ref=e1953] [cursor=pointer]:
+            - /url: /docs/latest/commands/copy/
+        - definition [ref=e1954]:
+          - link "DEL" [ref=e1955] [cursor=pointer]:
+            - /url: /docs/latest/commands/del/
+        - definition [ref=e1956]:
+          - link "DUMP" [ref=e1957] [cursor=pointer]:
+            - /url: /docs/latest/commands/dump/
+        - definition [ref=e1958]:
+          - link "EXISTS" [ref=e1959] [cursor=pointer]:
+            - /url: /docs/latest/commands/exists/
+        - definition [ref=e1960]:
+          - link "EXPIRE" [ref=e1961] [cursor=pointer]:
+            - /url: /docs/latest/commands/expire/
+        - definition [ref=e1962]:
+          - link "EXPIREAT" [ref=e1963] [cursor=pointer]:
+            - /url: /docs/latest/commands/expireat/
+        - definition [ref=e1964]:
+          - link "EXPIRETIME" [ref=e1965] [cursor=pointer]:
+            - /url: /docs/latest/commands/expiretime/
+        - definition [ref=e1966]:
+          - link "KEYS" [ref=e1967] [cursor=pointer]:
+            - /url: /docs/latest/commands/keys/
+        - definition [ref=e1968]:
+          - link "MIGRATE" [ref=e1969] [cursor=pointer]:
+            - /url: /docs/latest/commands/migrate/
+        - definition [ref=e1970]:
+          - link "MOVE" [ref=e1971] [cursor=pointer]:
+            - /url: /docs/latest/commands/move/
+        - definition [ref=e1972]:
+          - link "OBJECT ENCODING" [ref=e1973] [cursor=pointer]:
+            - /url: /docs/latest/commands/object-encoding/
+        - definition [ref=e1974]:
+          - link "OBJECT FREQ" [ref=e1975] [cursor=pointer]:
+            - /url: /docs/latest/commands/object-freq/
+        - definition [ref=e1976]:
+          - link "OBJECT IDLETIME" [ref=e1977] [cursor=pointer]:
+            - /url: /docs/latest/commands/object-idletime/
+        - definition [ref=e1978]:
+          - link "OBJECT REFCOUNT" [ref=e1979] [cursor=pointer]:
+            - /url: /docs/latest/commands/object-refcount/
+        - definition [ref=e1980]:
+          - link "PERSIST" [ref=e1981] [cursor=pointer]:
+            - /url: /docs/latest/commands/persist/
+        - definition [ref=e1982]:
+          - link "PEXPIRE" [ref=e1983] [cursor=pointer]:
+            - /url: /docs/latest/commands/pexpire/
+        - definition [ref=e1984]:
+          - link "PEXPIREAT" [ref=e1985] [cursor=pointer]:
+            - /url: /docs/latest/commands/pexpireat/
+        - definition [ref=e1986]:
+          - link "PEXPIRETIME" [ref=e1987] [cursor=pointer]:
+            - /url: /docs/latest/commands/pexpiretime/
+        - definition [ref=e1988]:
+          - link "PTTL" [ref=e1989] [cursor=pointer]:
+            - /url: /docs/latest/commands/pttl/
+        - definition [ref=e1990]:
+          - link "RANDOMKEY" [ref=e1991] [cursor=pointer]:
+            - /url: /docs/latest/commands/randomkey/
+        - definition [ref=e1992]:
+          - link "RENAME" [ref=e1993] [cursor=pointer]:
+            - /url: /docs/latest/commands/rename/
+        - definition [ref=e1994]:
+          - link "RENAMENX" [ref=e1995] [cursor=pointer]:
+            - /url: /docs/latest/commands/renamenx/
+        - definition [ref=e1996]:
+          - link "RESTORE" [ref=e1997] [cursor=pointer]:
+            - /url: /docs/latest/commands/restore/
+        - definition [ref=e1998]:
+          - link "SCAN" [ref=e1999] [cursor=pointer]:
+            - /url: /docs/latest/commands/scan/
+        - definition [ref=e2000]:
+          - link "SORT" [ref=e2001] [cursor=pointer]:
+            - /url: /docs/latest/commands/sort/
+        - definition [ref=e2002]:
+          - link "SORT_RO" [ref=e2003] [cursor=pointer]:
+            - /url: /docs/latest/commands/sort_ro/
+        - definition [ref=e2004]:
+          - link "TOUCH" [ref=e2005] [cursor=pointer]:
+            - /url: /docs/latest/commands/touch/
+        - definition [ref=e2006]:
+          - link "TTL" [ref=e2007] [cursor=pointer]:
+            - /url: /docs/latest/commands/ttl/
+        - definition [ref=e2008]:
+          - link "TYPE" [ref=e2009] [cursor=pointer]:
+            - /url: /docs/latest/commands/type/
+        - definition [ref=e2010]:
+          - link "UNLINK" [ref=e2011] [cursor=pointer]:
+            - /url: /docs/latest/commands/unlink/
+        - definition [ref=e2012]:
+          - link "WAIT" [ref=e2013] [cursor=pointer]:
+            - /url: /docs/latest/commands/wait/
+        - definition [ref=e2014]:
+          - link "WAITAOF" [ref=e2015] [cursor=pointer]:
+            - /url: /docs/latest/commands/waitaof/
+  - contentinfo [ref=e2016]:
+    - generic [ref=e2017]:
+      - generic [ref=e2018]:
+        - link [ref=e2019] [cursor=pointer]:
+          - /url: https://redis.io/
+        - generic [ref=e2024]:
+          - link [ref=e2025] [cursor=pointer]:
+            - /url: https://www.facebook.com/Redisinc
+          - link [ref=e2029] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/redisinc
+          - link [ref=e2032] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/redisinc/
+          - link [ref=e2035] [cursor=pointer]:
+            - /url: https://www.instagram.com/redisinc/
+          - link [ref=e2038] [cursor=pointer]:
+            - /url: https://twitter.com/Redisinc
+          - link [ref=e2041] [cursor=pointer]:
+            - /url: https://github.com/redis/
+        - generic [ref=e2044]:
+          - link "Trust" [ref=e2045] [cursor=pointer]:
+            - /url: https://trust.redis.io/
+          - link "Privacy" [ref=e2046] [cursor=pointer]:
+            - /url: https://redis.io/legal/privacy-policy/
+          - link "Terms of use" [ref=e2047] [cursor=pointer]:
+            - /url: https://redis.io/legal/redis-website-terms-of-use/
+          - link "Legal notices" [ref=e2048] [cursor=pointer]:
+            - /url: https://redis.io/legal/
+      - generic [ref=e2049]:
+        - generic [ref=e2050]:
+          - heading "Compare" [level=3] [ref=e2051]
+          - generic [ref=e2052]:
+            - link "Redis vs Elasticache" [ref=e2053] [cursor=pointer]:
+              - /url: https://redis.io/compare/elasticache/
+            - link "Redis vs Memcached" [ref=e2054] [cursor=pointer]:
+              - /url: https://redis.io/compare/memcached/
+            - link "Redis vs Memory Store" [ref=e2055] [cursor=pointer]:
+              - /url: https://redis.io/compare/memorystore/
+            - link "Redis vs. Open Source" [ref=e2056] [cursor=pointer]:
+              - /url: https://redis.io/compare/open-source
+        - generic [ref=e2057]:
+          - heading "Company" [level=3] [ref=e2058]
+          - generic [ref=e2059]:
+            - link "Mission & values" [ref=e2060] [cursor=pointer]:
+              - /url: https://redis.io/company/
+            - link "Leadership" [ref=e2061] [cursor=pointer]:
+              - /url: https://redis.io/company/team/
+            - link "Careers" [ref=e2062] [cursor=pointer]:
+              - /url: https://redis.io/careers/
+        - generic [ref=e2063]:
+          - heading "Partners" [level=3] [ref=e2064]
+          - generic [ref=e2065]:
+            - link "Amazon Web Services" [ref=e2066] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/aws/
+            - link "Google Cloud" [ref=e2067] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/google/
+            - link "Microsoft Azure" [ref=e2068] [cursor=pointer]:
+              - /url: https://redis.io/cloud-partners/azure/
+            - link "All partners" [ref=e2069] [cursor=pointer]:
+              - /url: https://redis.io/partners/
+        - generic [ref=e2070]:
+          - heading "Support" [level=3] [ref=e2071]
+          - generic [ref=e2072]:
+            - link "Professional services" [ref=e2073] [cursor=pointer]:
+              - /url: https://redis.io/services/professional-services/
+            - link "Support" [ref=e2074] [cursor=pointer]:
+              - /url: https://redis.io/support/
+  - button [expanded] [ref=e2075]:
+    - generic [ref=e2076]:
+      - banner [ref=e2077]:
+        - generic [ref=e2078]:
+          - textbox [ref=e2079]:
+            - /placeholder: Search…
+          - combobox [ref=e2080]:
+            - option "All products" [selected]
+            - option "Redis Software"
+            - option "Redis Cloud"
+            - option "Redis Open Source"
+            - option "Redis Insight"
+            - option "Redis Enterprise for K8s"
+            - option "Redis Data Integration"
+            - option "Client Libraries"
+        - button "Cancel" [ref=e2081] [cursor=pointer]: ESC
+      - listbox [ref=e2082]

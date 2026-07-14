@@ -1,0 +1,2223 @@
+- generic:
+  - generic [ref=e1]:
+    - banner [ref=e2]:
+      - navigation:
+        - generic [ref=e3]:
+          - link "Skip navigation links" [ref=e5] [cursor=pointer]:
+            - /url: "#skip-navbar-top"
+          - strong [ref=e8]: Java SE 21 & JDK 21
+          - list "Navigation":
+            - listitem [ref=e9]:
+              - link "Overview" [ref=e10] [cursor=pointer]:
+                - /url: ../../../../index.html
+            - listitem [ref=e11]:
+              - link "Module" [ref=e12] [cursor=pointer]:
+                - /url: ../../../module-summary.html
+            - listitem [ref=e13]:
+              - link "Package" [ref=e14] [cursor=pointer]:
+                - /url: package-summary.html
+            - listitem [ref=e15]: Class
+            - listitem [ref=e16]:
+              - link "Use" [ref=e17] [cursor=pointer]:
+                - /url: class-use/ThreadPoolExecutor.html
+            - listitem [ref=e18]:
+              - link "Tree" [ref=e19] [cursor=pointer]:
+                - /url: package-tree.html
+            - listitem [ref=e20]:
+              - link "Preview" [ref=e21] [cursor=pointer]:
+                - /url: ../../../../preview-list.html
+            - listitem [ref=e22]:
+              - link "New" [ref=e23] [cursor=pointer]:
+                - /url: ../../../../new-list.html
+            - listitem [ref=e24]:
+              - link "Deprecated" [ref=e25] [cursor=pointer]:
+                - /url: ../../../../deprecated-list.html
+            - listitem [ref=e26]:
+              - link "Index" [ref=e27] [cursor=pointer]:
+                - /url: ../../../../index-files/index-1.html
+            - listitem [ref=e28]:
+              - link "Help" [ref=e29] [cursor=pointer]:
+                - /url: ../../../../help-doc.html#class
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - list [ref=e32]:
+              - listitem [ref=e33]: "Summary:"
+              - listitem [ref=e34]:
+                - link "Nested" [ref=e35] [cursor=pointer]:
+                  - /url: "#nested-class-summary"
+                - text: "|"
+              - listitem [ref=e36]: Field |
+              - listitem [ref=e37]:
+                - link "Constr" [ref=e38] [cursor=pointer]:
+                  - /url: "#constructor-summary"
+                - text: "|"
+              - listitem [ref=e39]:
+                - link "Method" [ref=e40] [cursor=pointer]:
+                  - /url: "#method-summary"
+            - list [ref=e41]:
+              - listitem [ref=e42]: "Detail:"
+              - listitem [ref=e43]: Field |
+              - listitem [ref=e44]:
+                - link "Constr" [ref=e45] [cursor=pointer]:
+                  - /url: "#constructor-detail"
+                - text: "|"
+              - listitem [ref=e46]:
+                - link "Method" [ref=e47] [cursor=pointer]:
+                  - /url: "#method-detail"
+          - generic [ref=e48]:
+            - link "SEARCH" [ref=e49] [cursor=pointer]:
+              - /url: ../../../../search.html
+            - textbox "Search" [active] [ref=e50]
+            - button "reset" [ref=e51]
+    - generic [ref=e52]:
+      - main [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - text: Module
+            - link "java.base" [ref=e56] [cursor=pointer]:
+              - /url: ../../../module-summary.html
+          - generic [ref=e57]:
+            - text: Package
+            - link "java.util.concurrent" [ref=e58] [cursor=pointer]:
+              - /url: package-summary.html
+          - heading "Class ThreadPoolExecutor" [level=1] [ref=e59]
+        - generic "Inheritance Tree" [ref=e60]:
+          - link "java.lang.Object" [ref=e61] [cursor=pointer]:
+            - /url: ../../lang/Object.html
+          - generic [ref=e62]:
+            - link "java.util.concurrent.AbstractExecutorService" [ref=e63] [cursor=pointer]:
+              - /url: AbstractExecutorService.html
+            - generic [ref=e64]: java.util.concurrent.ThreadPoolExecutor
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - term [ref=e67]: "All Implemented Interfaces:"
+            - definition [ref=e68]:
+              - code [ref=e69]:
+                - link "AutoCloseable" [ref=e70] [cursor=pointer]:
+                  - /url: ../../lang/AutoCloseable.html
+              - text: ","
+              - code [ref=e71]:
+                - link "Executor" [ref=e72] [cursor=pointer]:
+                  - /url: Executor.html
+              - text: ","
+              - code [ref=e73]:
+                - link "ExecutorService" [ref=e74] [cursor=pointer]:
+                  - /url: ExecutorService.html
+          - generic [ref=e75]:
+            - term [ref=e76]: "Direct Known Subclasses:"
+            - definition [ref=e77]:
+              - code [ref=e78]:
+                - link "ScheduledThreadPoolExecutor" [ref=e79] [cursor=pointer]:
+                  - /url: ScheduledThreadPoolExecutor.html
+          - separator [ref=e80]
+          - generic [ref=e81]:
+            - text: public class ThreadPoolExecutor
+            - generic [ref=e82]:
+              - text: extends
+              - link "AbstractExecutorService" [ref=e83] [cursor=pointer]:
+                - /url: AbstractExecutorService.html
+          - generic [ref=e84]:
+            - text: An
+            - link [ref=e85] [cursor=pointer]:
+              - /url: ExecutorService.html
+              - code [ref=e86]: ExecutorService
+            - text: that executes each submitted task using one of possibly several pooled threads, normally configured using
+            - link [ref=e87] [cursor=pointer]:
+              - /url: Executors.html
+              - code [ref=e88]: Executors
+            - text: factory methods.
+            - paragraph [ref=e89]:
+              - text: "Thread pools address two different problems: they usually provide improved performance when executing large numbers of asynchronous tasks, due to reduced per-task invocation overhead, and they provide a means of bounding and managing the resources, including threads, consumed when executing a collection of tasks. Each"
+              - code [ref=e90]: ThreadPoolExecutor
+              - text: also maintains some basic statistics, such as the number of completed tasks.
+            - paragraph [ref=e91]:
+              - text: To be useful across a wide range of contexts, this class provides many adjustable parameters and extensibility hooks. However, programmers are urged to use the more convenient
+              - link [ref=e92] [cursor=pointer]:
+                - /url: Executors.html
+                - code [ref=e93]: Executors
+              - text: factory methods
+              - link [ref=e94] [cursor=pointer]:
+                - /url: Executors.html#newCachedThreadPool()
+                - code [ref=e95]: Executors.newCachedThreadPool()
+              - text: (unbounded thread pool, with automatic thread reclamation),
+              - link [ref=e96] [cursor=pointer]:
+                - /url: Executors.html#newFixedThreadPool(int)
+                - code [ref=e97]: Executors.newFixedThreadPool(int)
+              - text: (fixed size thread pool) and
+              - link [ref=e98] [cursor=pointer]:
+                - /url: Executors.html#newSingleThreadExecutor()
+                - code [ref=e99]: Executors.newSingleThreadExecutor()
+              - text: "(single background thread), that preconfigure settings for the most common usage scenarios. Otherwise, use the following guide when manually configuring and tuning this class:"
+            - generic [ref=e100]:
+              - term [ref=e101]: Core and maximum pool sizes
+              - definition [ref=e102]:
+                - text: A
+                - code [ref=e103]: ThreadPoolExecutor
+                - text: will automatically adjust the pool size (see
+                - link [ref=e104] [cursor=pointer]:
+                  - /url: "#getPoolSize()"
+                  - code [ref=e105]: getPoolSize()
+                - text: ) according to the bounds set by corePoolSize (see
+                - link [ref=e106] [cursor=pointer]:
+                  - /url: "#getCorePoolSize()"
+                  - code [ref=e107]: getCorePoolSize()
+                - text: ) and maximumPoolSize (see
+                - link [ref=e108] [cursor=pointer]:
+                  - /url: "#getMaximumPoolSize()"
+                  - code [ref=e109]: getMaximumPoolSize()
+                - text: ). When a new task is submitted in method
+                - link [ref=e110] [cursor=pointer]:
+                  - /url: "#execute(java.lang.Runnable)"
+                  - code [ref=e111]: execute(Runnable)
+                - text: ", if fewer than corePoolSize threads are running, a new thread is created to handle the request, even if other worker threads are idle. Else if fewer than maximumPoolSize threads are running, a new thread will be created to handle the request only if the queue is full. By setting corePoolSize and maximumPoolSize the same, you create a fixed-size thread pool. By setting maximumPoolSize to an essentially unbounded value such as"
+                - code [ref=e112]: Integer.MAX_VALUE
+                - text: ", you allow the pool to accommodate an arbitrary number of concurrent tasks. Most typically, core and maximum pool sizes are set only upon construction, but they may also be changed dynamically using"
+                - link [ref=e113] [cursor=pointer]:
+                  - /url: "#setCorePoolSize(int)"
+                  - code [ref=e114]: setCorePoolSize(int)
+                - text: and
+                - link [ref=e115] [cursor=pointer]:
+                  - /url: "#setMaximumPoolSize(int)"
+                  - code [ref=e116]: setMaximumPoolSize(int)
+                - text: .
+              - term [ref=e117]: On-demand construction
+              - definition [ref=e118]:
+                - text: By default, even core threads are initially created and started only when new tasks arrive, but this can be overridden dynamically using method
+                - link [ref=e119] [cursor=pointer]:
+                  - /url: "#prestartCoreThread()"
+                  - code [ref=e120]: prestartCoreThread()
+                - text: or
+                - link [ref=e121] [cursor=pointer]:
+                  - /url: "#prestartAllCoreThreads()"
+                  - code [ref=e122]: prestartAllCoreThreads()
+                - text: . You probably want to prestart threads if you construct the pool with a non-empty queue.
+              - term [ref=e123]: Creating new threads
+              - definition [ref=e124]:
+                - text: New threads are created using a
+                - link [ref=e125] [cursor=pointer]:
+                  - /url: ThreadFactory.html
+                  - code [ref=e126]: ThreadFactory
+                - text: . If not otherwise specified, a
+                - link [ref=e127] [cursor=pointer]:
+                  - /url: Executors.html#defaultThreadFactory()
+                  - code [ref=e128]: Executors.defaultThreadFactory()
+                - text: is used, that creates threads to all be in the same
+                - link [ref=e129] [cursor=pointer]:
+                  - /url: ../../lang/ThreadGroup.html
+                  - code [ref=e130]: ThreadGroup
+                - text: and with the same
+                - code [ref=e131]: NORM_PRIORITY
+                - text: priority and non-daemon status. By supplying a different ThreadFactory, you can alter the thread's name, thread group, priority, daemon status, etc. If a
+                - code [ref=e132]: ThreadFactory
+                - text: fails to create a thread when asked by returning null from
+                - code [ref=e133]: newThread
+                - text: ", the executor will continue, but might not be able to execute any tasks. Threads should possess the \"modifyThread\""
+                - code [ref=e134]: RuntimePermission
+                - text: ". If worker threads or other threads using the pool do not possess this permission, service may be degraded: configuration changes may not take effect in a timely manner, and a shutdown pool may remain in a state in which termination is possible but not completed."
+              - term [ref=e135]: Keep-alive times
+              - definition [ref=e136]:
+                - text: If the pool currently has more than corePoolSize threads, excess threads will be terminated if they have been idle for more than the keepAliveTime (see
+                - link [ref=e137] [cursor=pointer]:
+                  - /url: "#getKeepAliveTime(java.util.concurrent.TimeUnit)"
+                  - code [ref=e138]: getKeepAliveTime(TimeUnit)
+                - text: ). This provides a means of reducing resource consumption when the pool is not being actively used. If the pool becomes more active later, new threads will be constructed. This parameter can also be changed dynamically using method
+                - link [ref=e139] [cursor=pointer]:
+                  - /url: "#setKeepAliveTime(long,java.util.concurrent.TimeUnit)"
+                  - code [ref=e140]: setKeepAliveTime(long, TimeUnit)
+                - text: . Using a value of
+                - code [ref=e141]: Long.MAX_VALUE
+                - link [ref=e142] [cursor=pointer]:
+                  - /url: TimeUnit.html#NANOSECONDS
+                  - code [ref=e143]: TimeUnit.NANOSECONDS
+                - text: effectively disables idle threads from ever terminating prior to shut down. By default, the keep-alive policy applies only when there are more than corePoolSize threads, but method
+                - link [ref=e144] [cursor=pointer]:
+                  - /url: "#allowCoreThreadTimeOut(boolean)"
+                  - code [ref=e145]: allowCoreThreadTimeOut(boolean)
+                - text: can be used to apply this time-out policy to core threads as well, so long as the keepAliveTime value is non-zero.
+              - term [ref=e146]: Queuing
+              - definition [ref=e147]:
+                - text: Any
+                - link [ref=e148] [cursor=pointer]:
+                  - /url: BlockingQueue.html
+                  - code [ref=e149]: BlockingQueue
+                - text: "may be used to transfer and hold submitted tasks. The use of this queue interacts with pool sizing:"
+                - list [ref=e150]:
+                  - listitem [ref=e151]: If fewer than corePoolSize threads are running, the Executor always prefers adding a new thread rather than queuing.
+                  - listitem [ref=e152]: If corePoolSize or more threads are running, the Executor always prefers queuing a request rather than adding a new thread.
+                  - listitem [ref=e153]: If a request cannot be queued, a new thread is created unless this would exceed maximumPoolSize, in which case, the task will be rejected.
+                - text: "There are three general strategies for queuing:"
+                - list [ref=e154]:
+                  - listitem [ref=e155]:
+                    - emphasis [ref=e156]: Direct handoffs.
+                    - text: A good default choice for a work queue is a
+                    - link [ref=e157] [cursor=pointer]:
+                      - /url: SynchronousQueue.html
+                      - code [ref=e158]: SynchronousQueue
+                    - text: that hands off tasks to threads without otherwise holding them. Here, an attempt to queue a task will fail if no threads are immediately available to run it, so a new thread will be constructed. This policy avoids lockups when handling sets of requests that might have internal dependencies. Direct handoffs generally require unbounded maximumPoolSizes to avoid rejection of new submitted tasks. This in turn admits the possibility of unbounded thread growth when commands continue to arrive on average faster than they can be processed.
+                  - listitem [ref=e159]:
+                    - emphasis [ref=e160]: Unbounded queues.
+                    - text: Using an unbounded queue (for example a
+                    - link [ref=e161] [cursor=pointer]:
+                      - /url: LinkedBlockingQueue.html
+                      - code [ref=e162]: LinkedBlockingQueue
+                    - text: without a predefined capacity) will cause new tasks to wait in the queue when all corePoolSize threads are busy. Thus, no more than corePoolSize threads will ever be created. (And the value of the maximumPoolSize therefore doesn't have any effect.) This may be appropriate when each task is completely independent of others, so tasks cannot affect each others execution; for example, in a web page server. While this style of queuing can be useful in smoothing out transient bursts of requests, it admits the possibility of unbounded work queue growth when commands continue to arrive on average faster than they can be processed.
+                  - listitem [ref=e163]:
+                    - emphasis [ref=e164]: Bounded queues.
+                    - text: A bounded queue (for example, an
+                    - link [ref=e165] [cursor=pointer]:
+                      - /url: ArrayBlockingQueue.html
+                      - code [ref=e166]: ArrayBlockingQueue
+                    - text: ") helps prevent resource exhaustion when used with finite maximumPoolSizes, but can be more difficult to tune and control. Queue sizes and maximum pool sizes may be traded off for each other: Using large queues and small pools minimizes CPU usage, OS resources, and context-switching overhead, but can lead to artificially low throughput. If tasks frequently block (for example if they are I/O bound), a system may be able to schedule time for more threads than you otherwise allow. Use of small queues generally requires larger pool sizes, which keeps CPUs busier but may encounter unacceptable scheduling overhead, which also decreases throughput."
+              - term [ref=e167]: Rejected tasks
+              - definition [ref=e168]:
+                - text: New tasks submitted in method
+                - link [ref=e169] [cursor=pointer]:
+                  - /url: "#execute(java.lang.Runnable)"
+                  - code [ref=e170]: execute(Runnable)
+                - text: will be
+                - emphasis [ref=e171]: rejected
+                - text: when the Executor has been shut down, and also when the Executor uses finite bounds for both maximum threads and work queue capacity, and is saturated. In either case, the
+                - code [ref=e172]: execute
+                - text: method invokes the
+                - link [ref=e173] [cursor=pointer]:
+                  - /url: RejectedExecutionHandler.html#rejectedExecution(java.lang.Runnable,java.util.concurrent.ThreadPoolExecutor)
+                  - code [ref=e174]: RejectedExecutionHandler.rejectedExecution(Runnable, ThreadPoolExecutor)
+                - text: method of its
+                - link [ref=e175] [cursor=pointer]:
+                  - /url: RejectedExecutionHandler.html
+                  - code [ref=e176]: RejectedExecutionHandler
+                - text: ". Four predefined handler policies are provided:"
+                - list [ref=e177]:
+                  - listitem [ref=e178]:
+                    - text: In the default
+                    - link [ref=e179] [cursor=pointer]:
+                      - /url: ThreadPoolExecutor.AbortPolicy.html
+                      - code [ref=e180]: ThreadPoolExecutor.AbortPolicy
+                    - text: ", the handler throws a runtime"
+                    - link [ref=e181] [cursor=pointer]:
+                      - /url: RejectedExecutionException.html
+                      - code [ref=e182]: RejectedExecutionException
+                    - text: upon rejection.
+                  - listitem [ref=e183]:
+                    - text: In
+                    - link [ref=e184] [cursor=pointer]:
+                      - /url: ThreadPoolExecutor.CallerRunsPolicy.html
+                      - code [ref=e185]: ThreadPoolExecutor.CallerRunsPolicy
+                    - text: ", the thread that invokes"
+                    - code [ref=e186]: execute
+                    - text: itself runs the task. This provides a simple feedback control mechanism that will slow down the rate that new tasks are submitted.
+                  - listitem [ref=e187]:
+                    - text: In
+                    - link [ref=e188] [cursor=pointer]:
+                      - /url: ThreadPoolExecutor.DiscardPolicy.html
+                      - code [ref=e189]: ThreadPoolExecutor.DiscardPolicy
+                    - text: ", a task that cannot be executed is simply dropped. This policy is designed only for those rare cases in which task completion is never relied upon."
+                  - listitem [ref=e190]:
+                    - text: In
+                    - link [ref=e191] [cursor=pointer]:
+                      - /url: ThreadPoolExecutor.DiscardOldestPolicy.html
+                      - code [ref=e192]: ThreadPoolExecutor.DiscardOldestPolicy
+                    - text: ", if the executor is not shut down, the task at the head of the work queue is dropped, and then execution is retried (which can fail again, causing this to be repeated.) This policy is rarely acceptable. In nearly all cases, you should also cancel the task to cause an exception in any component waiting for its completion, and/or log the failure, as illustrated in"
+                    - link [ref=e193] [cursor=pointer]:
+                      - /url: ThreadPoolExecutor.DiscardOldestPolicy.html
+                      - code [ref=e194]: ThreadPoolExecutor.DiscardOldestPolicy
+                    - text: documentation.
+                - text: It is possible to define and use other kinds of
+                - link [ref=e195] [cursor=pointer]:
+                  - /url: RejectedExecutionHandler.html
+                  - code [ref=e196]: RejectedExecutionHandler
+                - text: classes. Doing so requires some care especially when policies are designed to work only under particular capacity or queuing policies.
+              - term [ref=e197]: Hook methods
+              - definition [ref=e198]:
+                - text: This class provides
+                - code [ref=e199]: protected
+                - text: overridable
+                - link [ref=e200] [cursor=pointer]:
+                  - /url: "#beforeExecute(java.lang.Thread,java.lang.Runnable)"
+                  - code [ref=e201]: beforeExecute(Thread, Runnable)
+                - text: and
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: "#afterExecute(java.lang.Runnable,java.lang.Throwable)"
+                  - code [ref=e203]: afterExecute(Runnable, Throwable)
+                - text: methods that are called before and after execution of each task. These can be used to manipulate the execution environment; for example, reinitializing ThreadLocals, gathering statistics, or adding log entries. Additionally, method
+                - link [ref=e204] [cursor=pointer]:
+                  - /url: "#terminated()"
+                  - code [ref=e205]: terminated()
+                - text: can be overridden to perform any special processing that needs to be done once the Executor has fully terminated.
+                - paragraph [ref=e206]: If hook, callback, or BlockingQueue methods throw exceptions, internal worker threads may in turn fail, abruptly terminate, and possibly be replaced.
+              - term [ref=e207]: Queue maintenance
+              - definition [ref=e208]:
+                - text: Method
+                - link [ref=e209] [cursor=pointer]:
+                  - /url: "#getQueue()"
+                  - code [ref=e210]: getQueue()
+                - text: allows access to the work queue for purposes of monitoring and debugging. Use of this method for any other purpose is strongly discouraged. Two supplied methods,
+                - link [ref=e211] [cursor=pointer]:
+                  - /url: "#remove(java.lang.Runnable)"
+                  - code [ref=e212]: remove(Runnable)
+                - text: and
+                - link [ref=e213] [cursor=pointer]:
+                  - /url: "#purge()"
+                  - code [ref=e214]: purge()
+                - text: are available to assist in storage reclamation when large numbers of queued tasks become cancelled.
+              - term [ref=e215]: Reclamation
+              - definition [ref=e216]:
+                - text: A pool that is no longer referenced in a program
+                - emphasis [ref=e217]: AND
+                - text: has no remaining threads may be reclaimed (garbage collected) without being explicitly shutdown. You can configure a pool to allow all unused threads to eventually die by setting appropriate keep-alive times, using a lower bound of zero core threads and/or setting
+                - link [ref=e218] [cursor=pointer]:
+                  - /url: "#allowCoreThreadTimeOut(boolean)"
+                  - code [ref=e219]: allowCoreThreadTimeOut(boolean)
+                - text: .
+            - paragraph
+            - paragraph [ref=e220]: "Extension example. Most extensions of this class override one or more of the protected hook methods. For example, here is a subclass that adds a simple pause/resume feature:"
+            - code [ref=e222]: "class PausableThreadPoolExecutor extends ThreadPoolExecutor { private boolean isPaused; private ReentrantLock pauseLock = new ReentrantLock(); private Condition unpaused = pauseLock.newCondition(); public PausableThreadPoolExecutor(...) { super(...); } protected void beforeExecute(Thread t, Runnable r) { super.beforeExecute(t, r); pauseLock.lock(); try { while (isPaused) unpaused.await(); } catch (InterruptedException ie) { t.interrupt(); } finally { pauseLock.unlock(); } } public void pause() { pauseLock.lock(); try { isPaused = true; } finally { pauseLock.unlock(); } } public void resume() { pauseLock.lock(); try { isPaused = false; unpaused.signalAll(); } finally { pauseLock.unlock(); } } }"
+            - paragraph
+          - generic [ref=e223]:
+            - term [ref=e224]: "Since:"
+            - definition [ref=e225]: "1.5"
+        - list [ref=e227]:
+          - listitem [ref=e228]:
+            - generic [ref=e229]:
+              - heading [level=2] [ref=e230]:
+                - text: Nested Class Summary
+                - link "Link to this section" [ref=e231] [cursor=pointer]:
+                  - /url: "#nested-class-summary"
+                  - img "Link icon" [ref=e232]
+              - generic [ref=e233]: Nested Classes
+              - generic [ref=e235]:
+                - generic [ref=e236]: Modifier and Type
+                - generic [ref=e237]: Class
+                - generic [ref=e238]: Description
+                - code [ref=e240]: static class
+                - code [ref=e242]:
+                  - link "ThreadPoolExecutor.AbortPolicy" [ref=e243] [cursor=pointer]:
+                    - /url: ThreadPoolExecutor.AbortPolicy.html
+                - generic [ref=e245]:
+                  - text: A handler for rejected tasks that throws a
+                  - link [ref=e246] [cursor=pointer]:
+                    - /url: RejectedExecutionException.html
+                    - code [ref=e247]: RejectedExecutionException
+                  - text: .
+                - code [ref=e249]: static class
+                - code [ref=e251]:
+                  - link "ThreadPoolExecutor.CallerRunsPolicy" [ref=e252] [cursor=pointer]:
+                    - /url: ThreadPoolExecutor.CallerRunsPolicy.html
+                - generic [ref=e254]:
+                  - text: A handler for rejected tasks that runs the rejected task directly in the calling thread of the
+                  - code [ref=e255]: execute
+                  - text: method, unless the executor has been shut down, in which case the task is discarded.
+                - code [ref=e257]: static class
+                - code [ref=e259]:
+                  - link "ThreadPoolExecutor.DiscardOldestPolicy" [ref=e260] [cursor=pointer]:
+                    - /url: ThreadPoolExecutor.DiscardOldestPolicy.html
+                - generic [ref=e262]:
+                  - text: A handler for rejected tasks that discards the oldest unhandled request and then retries
+                  - code [ref=e263]: execute
+                  - text: ", unless the executor is shut down, in which case the task is discarded."
+                - code [ref=e265]: static class
+                - code [ref=e267]:
+                  - link "ThreadPoolExecutor.DiscardPolicy" [ref=e268] [cursor=pointer]:
+                    - /url: ThreadPoolExecutor.DiscardPolicy.html
+                - generic [ref=e269]: A handler for rejected tasks that silently discards the rejected task.
+          - listitem [ref=e271]:
+            - generic [ref=e272]:
+              - heading [level=2] [ref=e273]:
+                - text: Constructor Summary
+                - link "Link to this section" [ref=e274] [cursor=pointer]:
+                  - /url: "#constructor-summary"
+                  - img "Link icon" [ref=e275]
+              - generic [ref=e276]: Constructors
+              - generic [ref=e278]:
+                - generic [ref=e279]: Constructor
+                - generic [ref=e280]: Description
+                - code [ref=e282]:
+                  - link "ThreadPoolExecutor" [ref=e283] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue)"
+                  - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                  - link "TimeUnit" [ref=e284] [cursor=pointer]:
+                    - /url: TimeUnit.html
+                  - text: unit,
+                  - link "BlockingQueue" [ref=e285] [cursor=pointer]:
+                    - /url: BlockingQueue.html
+                  - text: <
+                  - link "Runnable" [ref=e286] [cursor=pointer]:
+                    - /url: ../../lang/Runnable.html
+                  - text: "> workQueue)"
+                - generic [ref=e288]:
+                  - text: Creates a new
+                  - code [ref=e289]: ThreadPoolExecutor
+                  - text: with the given initial parameters, the
+                  - link "default thread factory" [ref=e290] [cursor=pointer]:
+                    - /url: Executors.html#defaultThreadFactory()
+                  - text: and the
+                  - link "default rejected execution handler" [ref=e291] [cursor=pointer]:
+                    - /url: ThreadPoolExecutor.AbortPolicy.html
+                  - text: .
+                - code [ref=e293]:
+                  - link "ThreadPoolExecutor" [ref=e294] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler)"
+                  - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                  - link "TimeUnit" [ref=e295] [cursor=pointer]:
+                    - /url: TimeUnit.html
+                  - text: unit,
+                  - link "BlockingQueue" [ref=e296] [cursor=pointer]:
+                    - /url: BlockingQueue.html
+                  - text: <
+                  - link "Runnable" [ref=e297] [cursor=pointer]:
+                    - /url: ../../lang/Runnable.html
+                  - text: "> workQueue,"
+                  - link "RejectedExecutionHandler" [ref=e298] [cursor=pointer]:
+                    - /url: RejectedExecutionHandler.html
+                  - text: handler)
+                - generic [ref=e300]:
+                  - text: Creates a new
+                  - code [ref=e301]: ThreadPoolExecutor
+                  - text: with the given initial parameters and the
+                  - link "default thread factory" [ref=e302] [cursor=pointer]:
+                    - /url: Executors.html#defaultThreadFactory()
+                  - text: .
+                - code [ref=e304]:
+                  - link "ThreadPoolExecutor" [ref=e305] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory)"
+                  - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                  - link "TimeUnit" [ref=e306] [cursor=pointer]:
+                    - /url: TimeUnit.html
+                  - text: unit,
+                  - link "BlockingQueue" [ref=e307] [cursor=pointer]:
+                    - /url: BlockingQueue.html
+                  - text: <
+                  - link "Runnable" [ref=e308] [cursor=pointer]:
+                    - /url: ../../lang/Runnable.html
+                  - text: "> workQueue,"
+                  - link "ThreadFactory" [ref=e309] [cursor=pointer]:
+                    - /url: ThreadFactory.html
+                  - text: threadFactory)
+                - generic [ref=e311]:
+                  - text: Creates a new
+                  - code [ref=e312]: ThreadPoolExecutor
+                  - text: with the given initial parameters and the
+                  - link "default rejected execution handler" [ref=e313] [cursor=pointer]:
+                    - /url: ThreadPoolExecutor.AbortPolicy.html
+                  - text: .
+                - code [ref=e315]:
+                  - link "ThreadPoolExecutor" [ref=e316] [cursor=pointer]:
+                    - /url: "#%3Cinit%3E(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)"
+                  - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                  - link "TimeUnit" [ref=e317] [cursor=pointer]:
+                    - /url: TimeUnit.html
+                  - text: unit,
+                  - link "BlockingQueue" [ref=e318] [cursor=pointer]:
+                    - /url: BlockingQueue.html
+                  - text: <
+                  - link "Runnable" [ref=e319] [cursor=pointer]:
+                    - /url: ../../lang/Runnable.html
+                  - text: "> workQueue,"
+                  - link "ThreadFactory" [ref=e320] [cursor=pointer]:
+                    - /url: ThreadFactory.html
+                  - text: threadFactory,
+                  - link "RejectedExecutionHandler" [ref=e321] [cursor=pointer]:
+                    - /url: RejectedExecutionHandler.html
+                  - text: handler)
+                - generic [ref=e323]:
+                  - text: Creates a new
+                  - code [ref=e324]: ThreadPoolExecutor
+                  - text: with the given initial parameters.
+          - listitem [ref=e325]:
+            - generic [ref=e326]:
+              - heading [level=2] [ref=e327]:
+                - text: Method Summary
+                - link "Link to this section" [ref=e328] [cursor=pointer]:
+                  - /url: "#method-summary"
+                  - img "Link icon" [ref=e329]
+              - generic [ref=e330]:
+                - tablist [ref=e331]:
+                  - tab "All Methods" [selected] [ref=e332] [cursor=pointer]
+                  - tab "Instance Methods" [ref=e333] [cursor=pointer]
+                  - tab "Concrete Methods" [ref=e334] [cursor=pointer]
+                  - tab "Deprecated Methods" [ref=e335] [cursor=pointer]
+                - tabpanel [ref=e336]:
+                  - generic "All Methods" [ref=e337]:
+                    - generic [ref=e338]: Modifier and Type
+                    - generic [ref=e339]: Method
+                    - generic [ref=e340]: Description
+                    - code [ref=e342]: protected void
+                    - code [ref=e344]:
+                      - link "afterExecute" [ref=e345] [cursor=pointer]:
+                        - /url: "#afterExecute(java.lang.Runnable,java.lang.Throwable)"
+                      - text: (
+                      - link "Runnable" [ref=e346] [cursor=pointer]:
+                        - /url: ../../lang/Runnable.html
+                      - text: r,
+                      - link "Throwable" [ref=e347] [cursor=pointer]:
+                        - /url: ../../lang/Throwable.html
+                      - text: t)
+                    - generic [ref=e348]: Method invoked upon completion of execution of the given Runnable.
+                    - code [ref=e351]: void
+                    - code [ref=e353]:
+                      - link "allowCoreThreadTimeOut" [ref=e354] [cursor=pointer]:
+                        - /url: "#allowCoreThreadTimeOut(boolean)"
+                      - text: (boolean value)
+                    - generic [ref=e355]: Sets the policy governing whether core threads may time out and terminate if no tasks arrive within the keep-alive time, being replaced if needed when new tasks arrive.
+                    - code [ref=e358]: boolean
+                    - code [ref=e360]:
+                      - link "allowsCoreThreadTimeOut" [ref=e361] [cursor=pointer]:
+                        - /url: "#allowsCoreThreadTimeOut()"
+                      - text: ()
+                    - generic [ref=e362]: Returns true if this pool allows core threads to time out and terminate if no tasks arrive within the keepAlive time, being replaced if needed when new tasks arrive.
+                    - code [ref=e365]: boolean
+                    - code [ref=e367]:
+                      - link "awaitTermination" [ref=e368] [cursor=pointer]:
+                        - /url: "#awaitTermination(long,java.util.concurrent.TimeUnit)"
+                      - text: (long timeout,
+                      - link "TimeUnit" [ref=e369] [cursor=pointer]:
+                        - /url: TimeUnit.html
+                      - text: unit)
+                    - generic [ref=e370]: Blocks until all tasks have completed execution after a shutdown request, or the timeout occurs, or the current thread is interrupted, whichever happens first.
+                    - code [ref=e373]: protected void
+                    - code [ref=e375]:
+                      - link "beforeExecute" [ref=e376] [cursor=pointer]:
+                        - /url: "#beforeExecute(java.lang.Thread,java.lang.Runnable)"
+                      - text: (
+                      - link "Thread" [ref=e377] [cursor=pointer]:
+                        - /url: ../../lang/Thread.html
+                      - text: t,
+                      - link "Runnable" [ref=e378] [cursor=pointer]:
+                        - /url: ../../lang/Runnable.html
+                      - text: r)
+                    - generic [ref=e379]: Method invoked prior to executing the given Runnable in the given thread.
+                    - code [ref=e382]: void
+                    - code [ref=e384]:
+                      - link "execute" [ref=e385] [cursor=pointer]:
+                        - /url: "#execute(java.lang.Runnable)"
+                      - text: (
+                      - link "Runnable" [ref=e386] [cursor=pointer]:
+                        - /url: ../../lang/Runnable.html
+                      - text: command)
+                    - generic [ref=e387]: Executes the given task sometime in the future.
+                    - code [ref=e390]: protected void
+                    - code [ref=e392]:
+                      - link "finalize" [ref=e393] [cursor=pointer]:
+                        - /url: "#finalize()"
+                      - text: ()
+                    - generic [ref=e395]:
+                      - text: "Deprecated, for removal: This API element is subject to removal in a future version."
+                      - generic [ref=e396]: Finalization has been deprecated for removal.
+                    - code [ref=e398]: int
+                    - code [ref=e400]:
+                      - link "getActiveCount" [ref=e401] [cursor=pointer]:
+                        - /url: "#getActiveCount()"
+                      - text: ()
+                    - generic [ref=e402]: Returns the approximate number of threads that are actively executing tasks.
+                    - code [ref=e405]: long
+                    - code [ref=e407]:
+                      - link "getCompletedTaskCount" [ref=e408] [cursor=pointer]:
+                        - /url: "#getCompletedTaskCount()"
+                      - text: ()
+                    - generic [ref=e409]: Returns the approximate total number of tasks that have completed execution.
+                    - code [ref=e412]: int
+                    - code [ref=e414]:
+                      - link "getCorePoolSize" [ref=e415] [cursor=pointer]:
+                        - /url: "#getCorePoolSize()"
+                      - text: ()
+                    - generic [ref=e416]: Returns the core number of threads.
+                    - code [ref=e419]: long
+                    - code [ref=e421]:
+                      - link "getKeepAliveTime" [ref=e422] [cursor=pointer]:
+                        - /url: "#getKeepAliveTime(java.util.concurrent.TimeUnit)"
+                      - text: (
+                      - link "TimeUnit" [ref=e423] [cursor=pointer]:
+                        - /url: TimeUnit.html
+                      - text: unit)
+                    - generic [ref=e424]: Returns the thread keep-alive time, which is the amount of time that threads may remain idle before being terminated.
+                    - code [ref=e427]: int
+                    - code [ref=e429]:
+                      - link "getLargestPoolSize" [ref=e430] [cursor=pointer]:
+                        - /url: "#getLargestPoolSize()"
+                      - text: ()
+                    - generic [ref=e431]: Returns the largest number of threads that have ever simultaneously been in the pool.
+                    - code [ref=e434]: int
+                    - code [ref=e436]:
+                      - link "getMaximumPoolSize" [ref=e437] [cursor=pointer]:
+                        - /url: "#getMaximumPoolSize()"
+                      - text: ()
+                    - generic [ref=e438]: Returns the maximum allowed number of threads.
+                    - code [ref=e441]: int
+                    - code [ref=e443]:
+                      - link "getPoolSize" [ref=e444] [cursor=pointer]:
+                        - /url: "#getPoolSize()"
+                      - text: ()
+                    - generic [ref=e445]: Returns the current number of threads in the pool.
+                    - code [ref=e448]:
+                      - link "BlockingQueue" [ref=e449] [cursor=pointer]:
+                        - /url: BlockingQueue.html
+                      - text: <
+                      - link "Runnable" [ref=e450] [cursor=pointer]:
+                        - /url: ../../lang/Runnable.html
+                      - text: ">"
+                    - code [ref=e452]:
+                      - link "getQueue" [ref=e453] [cursor=pointer]:
+                        - /url: "#getQueue()"
+                      - text: ()
+                    - generic [ref=e454]: Returns the task queue used by this executor.
+                    - code [ref=e457]:
+                      - link "RejectedExecutionHandler" [ref=e458] [cursor=pointer]:
+                        - /url: RejectedExecutionHandler.html
+                    - code [ref=e460]:
+                      - link "getRejectedExecutionHandler" [ref=e461] [cursor=pointer]:
+                        - /url: "#getRejectedExecutionHandler()"
+                      - text: ()
+                    - generic [ref=e462]: Returns the current handler for unexecutable tasks.
+                    - code [ref=e465]: long
+                    - code [ref=e467]:
+                      - link "getTaskCount" [ref=e468] [cursor=pointer]:
+                        - /url: "#getTaskCount()"
+                      - text: ()
+                    - generic [ref=e469]: Returns the approximate total number of tasks that have ever been scheduled for execution.
+                    - code [ref=e472]:
+                      - link "ThreadFactory" [ref=e473] [cursor=pointer]:
+                        - /url: ThreadFactory.html
+                    - code [ref=e475]:
+                      - link "getThreadFactory" [ref=e476] [cursor=pointer]:
+                        - /url: "#getThreadFactory()"
+                      - text: ()
+                    - generic [ref=e477]: Returns the thread factory used to create new threads.
+                    - code [ref=e480]: boolean
+                    - code [ref=e482]:
+                      - link "isShutdown" [ref=e483] [cursor=pointer]:
+                        - /url: "#isShutdown()"
+                      - text: ()
+                    - generic [ref=e485]:
+                      - text: Returns
+                      - code [ref=e486]: "true"
+                      - text: if this executor has been shut down.
+                    - code [ref=e488]: boolean
+                    - code [ref=e490]:
+                      - link "isTerminated" [ref=e491] [cursor=pointer]:
+                        - /url: "#isTerminated()"
+                      - text: ()
+                    - generic [ref=e493]:
+                      - text: Returns
+                      - code [ref=e494]: "true"
+                      - text: if all tasks have completed following shut down.
+                    - code [ref=e496]: boolean
+                    - code [ref=e498]:
+                      - link "isTerminating" [ref=e499] [cursor=pointer]:
+                        - /url: "#isTerminating()"
+                      - text: ()
+                    - generic [ref=e501]:
+                      - text: Returns true if this executor is in the process of terminating after
+                      - link [ref=e502] [cursor=pointer]:
+                        - /url: "#shutdown()"
+                        - code [ref=e503]: shutdown()
+                      - text: or
+                      - link [ref=e504] [cursor=pointer]:
+                        - /url: "#shutdownNow()"
+                        - code [ref=e505]: shutdownNow()
+                      - text: but has not completely terminated.
+                    - code [ref=e507]: int
+                    - code [ref=e509]:
+                      - link "prestartAllCoreThreads" [ref=e510] [cursor=pointer]:
+                        - /url: "#prestartAllCoreThreads()"
+                      - text: ()
+                    - generic [ref=e511]: Starts all core threads, causing them to idly wait for work.
+                    - code [ref=e514]: boolean
+                    - code [ref=e516]:
+                      - link "prestartCoreThread" [ref=e517] [cursor=pointer]:
+                        - /url: "#prestartCoreThread()"
+                      - text: ()
+                    - generic [ref=e518]: Starts a core thread, causing it to idly wait for work.
+                    - code [ref=e521]: void
+                    - code [ref=e523]:
+                      - link "purge" [ref=e524] [cursor=pointer]:
+                        - /url: "#purge()"
+                      - text: ()
+                    - generic [ref=e526]:
+                      - text: Tries to remove from the work queue all
+                      - link [ref=e527] [cursor=pointer]:
+                        - /url: Future.html
+                        - code [ref=e528]: Future
+                      - text: tasks that have been cancelled.
+                    - code [ref=e530]: boolean
+                    - code [ref=e532]:
+                      - link "remove" [ref=e533] [cursor=pointer]:
+                        - /url: "#remove(java.lang.Runnable)"
+                      - text: (
+                      - link "Runnable" [ref=e534] [cursor=pointer]:
+                        - /url: ../../lang/Runnable.html
+                      - text: task)
+                    - generic [ref=e535]: Removes this task from the executor's internal queue if it is present, thus causing it not to be run if it has not already started.
+                    - code [ref=e538]: void
+                    - code [ref=e540]:
+                      - link "setCorePoolSize" [ref=e541] [cursor=pointer]:
+                        - /url: "#setCorePoolSize(int)"
+                      - text: (int corePoolSize)
+                    - generic [ref=e542]: Sets the core number of threads.
+                    - code [ref=e545]: void
+                    - code [ref=e547]:
+                      - link "setKeepAliveTime" [ref=e548] [cursor=pointer]:
+                        - /url: "#setKeepAliveTime(long,java.util.concurrent.TimeUnit)"
+                      - text: (long time,
+                      - link "TimeUnit" [ref=e549] [cursor=pointer]:
+                        - /url: TimeUnit.html
+                      - text: unit)
+                    - generic [ref=e550]: Sets the thread keep-alive time, which is the amount of time that threads may remain idle before being terminated.
+                    - code [ref=e553]: void
+                    - code [ref=e555]:
+                      - link "setMaximumPoolSize" [ref=e556] [cursor=pointer]:
+                        - /url: "#setMaximumPoolSize(int)"
+                      - text: (int maximumPoolSize)
+                    - generic [ref=e557]: Sets the maximum allowed number of threads.
+                    - code [ref=e560]: void
+                    - code [ref=e562]:
+                      - link "setRejectedExecutionHandler" [ref=e563] [cursor=pointer]:
+                        - /url: "#setRejectedExecutionHandler(java.util.concurrent.RejectedExecutionHandler)"
+                      - text: (
+                      - link "RejectedExecutionHandler" [ref=e564] [cursor=pointer]:
+                        - /url: RejectedExecutionHandler.html
+                      - text: handler)
+                    - generic [ref=e565]: Sets a new handler for unexecutable tasks.
+                    - code [ref=e568]: void
+                    - code [ref=e570]:
+                      - link "setThreadFactory" [ref=e571] [cursor=pointer]:
+                        - /url: "#setThreadFactory(java.util.concurrent.ThreadFactory)"
+                      - text: (
+                      - link "ThreadFactory" [ref=e572] [cursor=pointer]:
+                        - /url: ThreadFactory.html
+                      - text: threadFactory)
+                    - generic [ref=e573]: Sets the thread factory used to create new threads.
+                    - code [ref=e576]: void
+                    - code [ref=e578]:
+                      - link "shutdown" [ref=e579] [cursor=pointer]:
+                        - /url: "#shutdown()"
+                      - text: ()
+                    - generic [ref=e580]: Initiates an orderly shutdown in which previously submitted tasks are executed, but no new tasks will be accepted.
+                    - code [ref=e583]:
+                      - link "List" [ref=e584] [cursor=pointer]:
+                        - /url: ../List.html
+                      - text: <
+                      - link "Runnable" [ref=e585] [cursor=pointer]:
+                        - /url: ../../lang/Runnable.html
+                      - text: ">"
+                    - code [ref=e587]:
+                      - link "shutdownNow" [ref=e588] [cursor=pointer]:
+                        - /url: "#shutdownNow()"
+                      - text: ()
+                    - generic [ref=e589]: Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution.
+                    - code [ref=e592]: protected void
+                    - code [ref=e594]:
+                      - link "terminated" [ref=e595] [cursor=pointer]:
+                        - /url: "#terminated()"
+                      - text: ()
+                    - generic [ref=e596]: Method invoked when the Executor has terminated.
+                    - code [ref=e599]:
+                      - link "String" [ref=e600] [cursor=pointer]:
+                        - /url: ../../lang/String.html
+                    - code [ref=e602]:
+                      - link "toString" [ref=e603] [cursor=pointer]:
+                        - /url: "#toString()"
+                      - text: ()
+                    - generic [ref=e604]: Returns a string identifying this pool, as well as its state, including indications of run state and estimated worker and task counts.
+              - generic [ref=e606]:
+                - heading [level=3] [ref=e607]:
+                  - text: Methods declared in class java.util.concurrent.
+                  - link "AbstractExecutorService" [ref=e608] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html
+                  - link "Link to this section" [ref=e609] [cursor=pointer]:
+                    - /url: "#methods-inherited-from-class-java.util.concurrent.AbstractExecutorService"
+                    - img "Link icon" [ref=e610]
+                - code [ref=e611]:
+                  - link "invokeAll" [ref=e612] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#invokeAll(java.util.Collection)
+                  - text: ","
+                  - link "invokeAll" [ref=e613] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#invokeAll(java.util.Collection,long,java.util.concurrent.TimeUnit)
+                  - text: ","
+                  - link "invokeAny" [ref=e614] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#invokeAny(java.util.Collection)
+                  - text: ","
+                  - link "invokeAny" [ref=e615] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#invokeAny(java.util.Collection,long,java.util.concurrent.TimeUnit)
+                  - text: ","
+                  - link "newTaskFor" [ref=e616] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#newTaskFor(java.lang.Runnable,T)
+                  - text: ","
+                  - link "newTaskFor" [ref=e617] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#newTaskFor(java.util.concurrent.Callable)
+                  - text: ","
+                  - link "submit" [ref=e618] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#submit(java.lang.Runnable)
+                  - text: ","
+                  - link "submit" [ref=e619] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#submit(java.lang.Runnable,T)
+                  - text: ","
+                  - link "submit" [ref=e620] [cursor=pointer]:
+                    - /url: AbstractExecutorService.html#submit(java.util.concurrent.Callable)
+              - generic [ref=e621]:
+                - heading [level=3] [ref=e622]:
+                  - text: Methods declared in class java.lang.
+                  - link "Object" [ref=e623] [cursor=pointer]:
+                    - /url: ../../lang/Object.html
+                  - link "Link to this section" [ref=e624] [cursor=pointer]:
+                    - /url: "#methods-inherited-from-class-java.lang.Object"
+                    - img "Link icon" [ref=e625]
+                - code [ref=e626]:
+                  - link "clone" [ref=e627] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#clone()
+                  - text: ","
+                  - link "equals" [ref=e628] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#equals(java.lang.Object)
+                  - text: ","
+                  - link "getClass" [ref=e629] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#getClass()
+                  - text: ","
+                  - link "hashCode" [ref=e630] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#hashCode()
+                  - text: ","
+                  - link "notify" [ref=e631] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#notify()
+                  - text: ","
+                  - link "notifyAll" [ref=e632] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#notifyAll()
+                  - text: ","
+                  - link "wait" [ref=e633] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#wait()
+                  - text: ","
+                  - link "wait" [ref=e634] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#wait(long)
+                  - text: ","
+                  - link "wait" [ref=e635] [cursor=pointer]:
+                    - /url: ../../lang/Object.html#wait(long,int)
+              - generic [ref=e636]:
+                - heading [level=3] [ref=e637]:
+                  - text: Methods declared in interface java.util.concurrent.
+                  - link "ExecutorService" [ref=e638] [cursor=pointer]:
+                    - /url: ExecutorService.html
+                  - link "Link to this section" [ref=e639] [cursor=pointer]:
+                    - /url: "#methods-inherited-from-class-java.util.concurrent.ExecutorService"
+                    - img "Link icon" [ref=e640]
+                - code [ref=e641]:
+                  - link "close" [ref=e642] [cursor=pointer]:
+                    - /url: ExecutorService.html#close()
+        - list [ref=e644]:
+          - listitem [ref=e645]:
+            - generic [ref=e646]:
+              - heading [level=2] [ref=e647]:
+                - text: Constructor Details
+                - link "Link to this section" [ref=e648] [cursor=pointer]:
+                  - /url: "#constructor-detail"
+                  - img "Link icon" [ref=e649]
+              - list [ref=e650]:
+                - listitem [ref=e651]:
+                  - generic [ref=e652]:
+                    - heading [level=3] [ref=e653]:
+                      - text: ThreadPoolExecutor
+                      - link "Link to this section" [ref=e654] [cursor=pointer]:
+                        - /url: "#<init>(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue)"
+                        - img "Link icon" [ref=e655]
+                    - generic [ref=e656]:
+                      - text: public ThreadPoolExecutor
+                      - generic [ref=e657]:
+                        - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                        - link "TimeUnit" [ref=e658] [cursor=pointer]:
+                          - /url: TimeUnit.html
+                        - text: unit,
+                        - link "BlockingQueue" [ref=e659] [cursor=pointer]:
+                          - /url: BlockingQueue.html
+                        - text: <
+                        - link "Runnable" [ref=e660] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: "> workQueue)"
+                    - generic [ref=e661]:
+                      - text: Creates a new
+                      - code [ref=e662]: ThreadPoolExecutor
+                      - text: with the given initial parameters, the
+                      - link "default thread factory" [ref=e663] [cursor=pointer]:
+                        - /url: Executors.html#defaultThreadFactory()
+                      - text: and the
+                      - link "default rejected execution handler" [ref=e664] [cursor=pointer]:
+                        - /url: ThreadPoolExecutor.AbortPolicy.html
+                      - text: .
+                      - paragraph [ref=e665]:
+                        - text: It may be more convenient to use one of the
+                        - link [ref=e666] [cursor=pointer]:
+                          - /url: Executors.html
+                          - code [ref=e667]: Executors
+                        - text: factory methods instead of this general purpose constructor.
+                    - generic [ref=e668]:
+                      - term [ref=e669]: "Parameters:"
+                      - definition [ref=e670]:
+                        - code [ref=e671]: corePoolSize
+                        - text: "- the number of threads to keep in the pool, even if they are idle, unless"
+                        - code [ref=e672]: allowCoreThreadTimeOut
+                        - text: is set
+                      - definition [ref=e673]:
+                        - code [ref=e674]: maximumPoolSize
+                        - text: "- the maximum number of threads to allow in the pool"
+                      - definition [ref=e675]:
+                        - code [ref=e676]: keepAliveTime
+                        - text: "- when the number of threads is greater than the core, this is the maximum time that excess idle threads will wait for new tasks before terminating."
+                      - definition [ref=e677]:
+                        - code [ref=e678]: unit
+                        - text: "- the time unit for the"
+                        - code [ref=e679]: keepAliveTime
+                        - text: argument
+                      - definition [ref=e680]:
+                        - code [ref=e681]: workQueue
+                        - text: "- the queue to use for holding tasks before they are executed. This queue will hold only the"
+                        - code [ref=e682]: Runnable
+                        - text: tasks submitted by the
+                        - code [ref=e683]: execute
+                        - text: method.
+                      - term [ref=e684]: "Throws:"
+                      - definition [ref=e685]:
+                        - code [ref=e686]:
+                          - link "IllegalArgumentException" [ref=e687] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if one of the following holds:"
+                        - code [ref=e688]: corePoolSize < 0
+                        - code [ref=e689]: keepAliveTime < 0
+                        - code [ref=e690]: maximumPoolSize <= 0
+                        - code [ref=e691]: maximumPoolSize < corePoolSize
+                      - definition [ref=e692]:
+                        - code [ref=e693]:
+                          - link "NullPointerException" [ref=e694] [cursor=pointer]:
+                            - /url: ../../lang/NullPointerException.html
+                        - text: "- if"
+                        - code [ref=e695]: workQueue
+                        - text: is null
+                - listitem [ref=e696]:
+                  - generic [ref=e697]:
+                    - heading [level=3] [ref=e698]:
+                      - text: ThreadPoolExecutor
+                      - link "Link to this section" [ref=e699] [cursor=pointer]:
+                        - /url: "#<init>(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory)"
+                        - img "Link icon" [ref=e700]
+                    - generic [ref=e701]:
+                      - text: public ThreadPoolExecutor
+                      - generic [ref=e702]:
+                        - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                        - link "TimeUnit" [ref=e703] [cursor=pointer]:
+                          - /url: TimeUnit.html
+                        - text: unit,
+                        - link "BlockingQueue" [ref=e704] [cursor=pointer]:
+                          - /url: BlockingQueue.html
+                        - text: <
+                        - link "Runnable" [ref=e705] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: "> workQueue,"
+                        - link "ThreadFactory" [ref=e706] [cursor=pointer]:
+                          - /url: ThreadFactory.html
+                        - text: threadFactory)
+                    - generic [ref=e707]:
+                      - text: Creates a new
+                      - code [ref=e708]: ThreadPoolExecutor
+                      - text: with the given initial parameters and the
+                      - link "default rejected execution handler" [ref=e709] [cursor=pointer]:
+                        - /url: ThreadPoolExecutor.AbortPolicy.html
+                      - text: .
+                    - generic [ref=e710]:
+                      - term [ref=e711]: "Parameters:"
+                      - definition [ref=e712]:
+                        - code [ref=e713]: corePoolSize
+                        - text: "- the number of threads to keep in the pool, even if they are idle, unless"
+                        - code [ref=e714]: allowCoreThreadTimeOut
+                        - text: is set
+                      - definition [ref=e715]:
+                        - code [ref=e716]: maximumPoolSize
+                        - text: "- the maximum number of threads to allow in the pool"
+                      - definition [ref=e717]:
+                        - code [ref=e718]: keepAliveTime
+                        - text: "- when the number of threads is greater than the core, this is the maximum time that excess idle threads will wait for new tasks before terminating."
+                      - definition [ref=e719]:
+                        - code [ref=e720]: unit
+                        - text: "- the time unit for the"
+                        - code [ref=e721]: keepAliveTime
+                        - text: argument
+                      - definition [ref=e722]:
+                        - code [ref=e723]: workQueue
+                        - text: "- the queue to use for holding tasks before they are executed. This queue will hold only the"
+                        - code [ref=e724]: Runnable
+                        - text: tasks submitted by the
+                        - code [ref=e725]: execute
+                        - text: method.
+                      - definition [ref=e726]:
+                        - code [ref=e727]: threadFactory
+                        - text: "- the factory to use when the executor creates a new thread"
+                      - term [ref=e728]: "Throws:"
+                      - definition [ref=e729]:
+                        - code [ref=e730]:
+                          - link "IllegalArgumentException" [ref=e731] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if one of the following holds:"
+                        - code [ref=e732]: corePoolSize < 0
+                        - code [ref=e733]: keepAliveTime < 0
+                        - code [ref=e734]: maximumPoolSize <= 0
+                        - code [ref=e735]: maximumPoolSize < corePoolSize
+                      - definition [ref=e736]:
+                        - code [ref=e737]:
+                          - link "NullPointerException" [ref=e738] [cursor=pointer]:
+                            - /url: ../../lang/NullPointerException.html
+                        - text: "- if"
+                        - code [ref=e739]: workQueue
+                        - text: or
+                        - code [ref=e740]: threadFactory
+                        - text: is null
+                - listitem [ref=e741]:
+                  - generic [ref=e742]:
+                    - heading [level=3] [ref=e743]:
+                      - text: ThreadPoolExecutor
+                      - link "Link to this section" [ref=e744] [cursor=pointer]:
+                        - /url: "#<init>(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.RejectedExecutionHandler)"
+                        - img "Link icon" [ref=e745]
+                    - generic [ref=e746]:
+                      - text: public ThreadPoolExecutor
+                      - generic [ref=e747]:
+                        - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                        - link "TimeUnit" [ref=e748] [cursor=pointer]:
+                          - /url: TimeUnit.html
+                        - text: unit,
+                        - link "BlockingQueue" [ref=e749] [cursor=pointer]:
+                          - /url: BlockingQueue.html
+                        - text: <
+                        - link "Runnable" [ref=e750] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: "> workQueue,"
+                        - link "RejectedExecutionHandler" [ref=e751] [cursor=pointer]:
+                          - /url: RejectedExecutionHandler.html
+                        - text: handler)
+                    - generic [ref=e752]:
+                      - text: Creates a new
+                      - code [ref=e753]: ThreadPoolExecutor
+                      - text: with the given initial parameters and the
+                      - link "default thread factory" [ref=e754] [cursor=pointer]:
+                        - /url: Executors.html#defaultThreadFactory()
+                      - text: .
+                    - generic [ref=e755]:
+                      - term [ref=e756]: "Parameters:"
+                      - definition [ref=e757]:
+                        - code [ref=e758]: corePoolSize
+                        - text: "- the number of threads to keep in the pool, even if they are idle, unless"
+                        - code [ref=e759]: allowCoreThreadTimeOut
+                        - text: is set
+                      - definition [ref=e760]:
+                        - code [ref=e761]: maximumPoolSize
+                        - text: "- the maximum number of threads to allow in the pool"
+                      - definition [ref=e762]:
+                        - code [ref=e763]: keepAliveTime
+                        - text: "- when the number of threads is greater than the core, this is the maximum time that excess idle threads will wait for new tasks before terminating."
+                      - definition [ref=e764]:
+                        - code [ref=e765]: unit
+                        - text: "- the time unit for the"
+                        - code [ref=e766]: keepAliveTime
+                        - text: argument
+                      - definition [ref=e767]:
+                        - code [ref=e768]: workQueue
+                        - text: "- the queue to use for holding tasks before they are executed. This queue will hold only the"
+                        - code [ref=e769]: Runnable
+                        - text: tasks submitted by the
+                        - code [ref=e770]: execute
+                        - text: method.
+                      - definition [ref=e771]:
+                        - code [ref=e772]: handler
+                        - text: "- the handler to use when execution is blocked because the thread bounds and queue capacities are reached"
+                      - term [ref=e773]: "Throws:"
+                      - definition [ref=e774]:
+                        - code [ref=e775]:
+                          - link "IllegalArgumentException" [ref=e776] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if one of the following holds:"
+                        - code [ref=e777]: corePoolSize < 0
+                        - code [ref=e778]: keepAliveTime < 0
+                        - code [ref=e779]: maximumPoolSize <= 0
+                        - code [ref=e780]: maximumPoolSize < corePoolSize
+                      - definition [ref=e781]:
+                        - code [ref=e782]:
+                          - link "NullPointerException" [ref=e783] [cursor=pointer]:
+                            - /url: ../../lang/NullPointerException.html
+                        - text: "- if"
+                        - code [ref=e784]: workQueue
+                        - text: or
+                        - code [ref=e785]: handler
+                        - text: is null
+                - listitem [ref=e786]:
+                  - generic [ref=e787]:
+                    - heading [level=3] [ref=e788]:
+                      - text: ThreadPoolExecutor
+                      - link "Link to this section" [ref=e789] [cursor=pointer]:
+                        - /url: "#<init>(int,int,long,java.util.concurrent.TimeUnit,java.util.concurrent.BlockingQueue,java.util.concurrent.ThreadFactory,java.util.concurrent.RejectedExecutionHandler)"
+                        - img "Link icon" [ref=e790]
+                    - generic [ref=e791]:
+                      - text: public ThreadPoolExecutor
+                      - generic [ref=e792]:
+                        - text: (int corePoolSize, int maximumPoolSize, long keepAliveTime,
+                        - link "TimeUnit" [ref=e793] [cursor=pointer]:
+                          - /url: TimeUnit.html
+                        - text: unit,
+                        - link "BlockingQueue" [ref=e794] [cursor=pointer]:
+                          - /url: BlockingQueue.html
+                        - text: <
+                        - link "Runnable" [ref=e795] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: "> workQueue,"
+                        - link "ThreadFactory" [ref=e796] [cursor=pointer]:
+                          - /url: ThreadFactory.html
+                        - text: threadFactory,
+                        - link "RejectedExecutionHandler" [ref=e797] [cursor=pointer]:
+                          - /url: RejectedExecutionHandler.html
+                        - text: handler)
+                    - generic [ref=e798]:
+                      - text: Creates a new
+                      - code [ref=e799]: ThreadPoolExecutor
+                      - text: with the given initial parameters.
+                    - generic [ref=e800]:
+                      - term [ref=e801]: "Parameters:"
+                      - definition [ref=e802]:
+                        - code [ref=e803]: corePoolSize
+                        - text: "- the number of threads to keep in the pool, even if they are idle, unless"
+                        - code [ref=e804]: allowCoreThreadTimeOut
+                        - text: is set
+                      - definition [ref=e805]:
+                        - code [ref=e806]: maximumPoolSize
+                        - text: "- the maximum number of threads to allow in the pool"
+                      - definition [ref=e807]:
+                        - code [ref=e808]: keepAliveTime
+                        - text: "- when the number of threads is greater than the core, this is the maximum time that excess idle threads will wait for new tasks before terminating."
+                      - definition [ref=e809]:
+                        - code [ref=e810]: unit
+                        - text: "- the time unit for the"
+                        - code [ref=e811]: keepAliveTime
+                        - text: argument
+                      - definition [ref=e812]:
+                        - code [ref=e813]: workQueue
+                        - text: "- the queue to use for holding tasks before they are executed. This queue will hold only the"
+                        - code [ref=e814]: Runnable
+                        - text: tasks submitted by the
+                        - code [ref=e815]: execute
+                        - text: method.
+                      - definition [ref=e816]:
+                        - code [ref=e817]: threadFactory
+                        - text: "- the factory to use when the executor creates a new thread"
+                      - definition [ref=e818]:
+                        - code [ref=e819]: handler
+                        - text: "- the handler to use when execution is blocked because the thread bounds and queue capacities are reached"
+                      - term [ref=e820]: "Throws:"
+                      - definition [ref=e821]:
+                        - code [ref=e822]:
+                          - link "IllegalArgumentException" [ref=e823] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if one of the following holds:"
+                        - code [ref=e824]: corePoolSize < 0
+                        - code [ref=e825]: keepAliveTime < 0
+                        - code [ref=e826]: maximumPoolSize <= 0
+                        - code [ref=e827]: maximumPoolSize < corePoolSize
+                      - definition [ref=e828]:
+                        - code [ref=e829]:
+                          - link "NullPointerException" [ref=e830] [cursor=pointer]:
+                            - /url: ../../lang/NullPointerException.html
+                        - text: "- if"
+                        - code [ref=e831]: workQueue
+                        - text: or
+                        - code [ref=e832]: threadFactory
+                        - text: or
+                        - code [ref=e833]: handler
+                        - text: is null
+          - listitem [ref=e834]:
+            - generic [ref=e835]:
+              - heading [level=2] [ref=e836]:
+                - text: Method Details
+                - link "Link to this section" [ref=e837] [cursor=pointer]:
+                  - /url: "#method-detail"
+                  - img "Link icon" [ref=e838]
+              - list [ref=e839]:
+                - listitem [ref=e840]:
+                  - generic [ref=e841]:
+                    - heading [level=3] [ref=e842]:
+                      - text: execute
+                      - link "Link to this section" [ref=e843] [cursor=pointer]:
+                        - /url: "#execute(java.lang.Runnable)"
+                        - img "Link icon" [ref=e844]
+                    - generic [ref=e845]:
+                      - text: public void execute
+                      - generic [ref=e846]:
+                        - text: (
+                        - link "Runnable" [ref=e847] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: command)
+                    - generic [ref=e848]:
+                      - text: Executes the given task sometime in the future. The task may execute in a new thread or in an existing pooled thread. If the task cannot be submitted for execution, either because this executor has been shutdown or because its capacity has been reached, the task is handled by the current
+                      - link [ref=e849] [cursor=pointer]:
+                        - /url: RejectedExecutionHandler.html
+                        - code [ref=e850]: RejectedExecutionHandler
+                      - text: .
+                    - generic [ref=e851]:
+                      - term [ref=e852]: "Parameters:"
+                      - definition [ref=e853]:
+                        - code [ref=e854]: command
+                        - text: "- the task to execute"
+                      - term [ref=e855]: "Throws:"
+                      - definition [ref=e856]:
+                        - code [ref=e857]:
+                          - link "RejectedExecutionException" [ref=e858] [cursor=pointer]:
+                            - /url: RejectedExecutionException.html
+                        - text: "- at discretion of"
+                        - code [ref=e859]: RejectedExecutionHandler
+                        - text: ", if the task cannot be accepted for execution"
+                      - definition [ref=e860]:
+                        - code [ref=e861]:
+                          - link "NullPointerException" [ref=e862] [cursor=pointer]:
+                            - /url: ../../lang/NullPointerException.html
+                        - text: "- if"
+                        - code [ref=e863]: command
+                        - text: is null
+                - listitem [ref=e864]:
+                  - generic [ref=e865]:
+                    - heading [level=3] [ref=e866]:
+                      - text: shutdown
+                      - link "Link to this section" [ref=e867] [cursor=pointer]:
+                        - /url: "#shutdown()"
+                        - img "Link icon" [ref=e868]
+                    - generic [ref=e869]: public void shutdown()
+                    - generic [ref=e870]:
+                      - text: Initiates an orderly shutdown in which previously submitted tasks are executed, but no new tasks will be accepted. Invocation has no additional effect if already shut down.
+                      - paragraph [ref=e871]:
+                        - text: This method does not wait for previously submitted tasks to complete execution. Use
+                        - link [ref=e872] [cursor=pointer]:
+                          - /url: "#awaitTermination(long,java.util.concurrent.TimeUnit)"
+                          - code [ref=e873]: awaitTermination
+                        - text: to do that.
+                    - generic [ref=e874]:
+                      - term [ref=e875]: "Throws:"
+                      - definition [ref=e876]:
+                        - code [ref=e877]:
+                          - link "SecurityException" [ref=e878] [cursor=pointer]:
+                            - /url: ../../lang/SecurityException.html
+                        - text: "- if a security manager exists and shutting down this ExecutorService may manipulate threads that the caller is not permitted to modify because it does not hold"
+                        - link [ref=e879] [cursor=pointer]:
+                          - /url: ../../lang/RuntimePermission.html
+                          - code [ref=e880]: RuntimePermission
+                        - code [ref=e881]: ("modifyThread")
+                        - text: ", or the security manager's"
+                        - code [ref=e882]: checkAccess
+                        - text: method denies access.
+                - listitem [ref=e883]:
+                  - generic [ref=e884]:
+                    - heading [level=3] [ref=e885]:
+                      - text: shutdownNow
+                      - link "Link to this section" [ref=e886] [cursor=pointer]:
+                        - /url: "#shutdownNow()"
+                        - img "Link icon" [ref=e887]
+                    - generic [ref=e888]:
+                      - text: public
+                      - generic [ref=e889]:
+                        - link "List" [ref=e890] [cursor=pointer]:
+                          - /url: ../List.html
+                        - text: <
+                        - link "Runnable" [ref=e891] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: ">"
+                      - text: shutdownNow()
+                    - generic [ref=e892]:
+                      - text: Attempts to stop all actively executing tasks, halts the processing of waiting tasks, and returns a list of the tasks that were awaiting execution. These tasks are drained (removed) from the task queue upon return from this method.
+                      - paragraph [ref=e893]:
+                        - text: This method does not wait for actively executing tasks to terminate. Use
+                        - link [ref=e894] [cursor=pointer]:
+                          - /url: "#awaitTermination(long,java.util.concurrent.TimeUnit)"
+                          - code [ref=e895]: awaitTermination
+                        - text: to do that.
+                      - paragraph [ref=e896]:
+                        - text: There are no guarantees beyond best-effort attempts to stop processing actively executing tasks. This implementation interrupts tasks via
+                        - link [ref=e897] [cursor=pointer]:
+                          - /url: ../../lang/Thread.html#interrupt()
+                          - code [ref=e898]: Thread.interrupt()
+                        - text: ; any task that fails to respond to interrupts may never terminate.
+                    - generic [ref=e899]:
+                      - term [ref=e900]: "Returns:"
+                      - definition [ref=e901]: list of tasks that never commenced execution
+                      - term [ref=e902]: "Throws:"
+                      - definition [ref=e903]:
+                        - code [ref=e904]:
+                          - link "SecurityException" [ref=e905] [cursor=pointer]:
+                            - /url: ../../lang/SecurityException.html
+                        - text: "- if a security manager exists and shutting down this ExecutorService may manipulate threads that the caller is not permitted to modify because it does not hold"
+                        - link [ref=e906] [cursor=pointer]:
+                          - /url: ../../lang/RuntimePermission.html
+                          - code [ref=e907]: RuntimePermission
+                        - code [ref=e908]: ("modifyThread")
+                        - text: ", or the security manager's"
+                        - code [ref=e909]: checkAccess
+                        - text: method denies access.
+                - listitem [ref=e910]:
+                  - generic [ref=e911]:
+                    - heading [level=3] [ref=e912]:
+                      - text: isShutdown
+                      - link "Link to this section" [ref=e913] [cursor=pointer]:
+                        - /url: "#isShutdown()"
+                        - img "Link icon" [ref=e914]
+                    - generic [ref=e915]: public boolean isShutdown()
+                    - generic [ref=e917]:
+                      - text: "Description copied from interface:"
+                      - code [ref=e918]:
+                        - link "ExecutorService" [ref=e919] [cursor=pointer]:
+                          - /url: ExecutorService.html#isShutdown()
+                    - generic [ref=e920]:
+                      - text: Returns
+                      - code [ref=e921]: "true"
+                      - text: if this executor has been shut down.
+                    - generic [ref=e922]:
+                      - term [ref=e923]: "Returns:"
+                      - definition [ref=e924]:
+                        - code [ref=e925]: "true"
+                        - text: if this executor has been shut down
+                - listitem [ref=e926]:
+                  - generic [ref=e927]:
+                    - heading [level=3] [ref=e928]:
+                      - text: isTerminating
+                      - link "Link to this section" [ref=e929] [cursor=pointer]:
+                        - /url: "#isTerminating()"
+                        - img "Link icon" [ref=e930]
+                    - generic [ref=e931]: public boolean isTerminating()
+                    - generic [ref=e932]:
+                      - text: Returns true if this executor is in the process of terminating after
+                      - link [ref=e933] [cursor=pointer]:
+                        - /url: "#shutdown()"
+                        - code [ref=e934]: shutdown()
+                      - text: or
+                      - link [ref=e935] [cursor=pointer]:
+                        - /url: "#shutdownNow()"
+                        - code [ref=e936]: shutdownNow()
+                      - text: but has not completely terminated. This method may be useful for debugging. A return of
+                      - code [ref=e937]: "true"
+                      - text: reported a sufficient period after shutdown may indicate that submitted tasks have ignored or suppressed interruption, causing this executor not to properly terminate.
+                    - generic [ref=e938]:
+                      - term [ref=e939]: "Returns:"
+                      - definition [ref=e940]:
+                        - code [ref=e941]: "true"
+                        - text: if terminating but not yet terminated
+                - listitem [ref=e942]:
+                  - generic [ref=e943]:
+                    - heading [level=3] [ref=e944]:
+                      - text: isTerminated
+                      - link "Link to this section" [ref=e945] [cursor=pointer]:
+                        - /url: "#isTerminated()"
+                        - img "Link icon" [ref=e946]
+                    - generic [ref=e947]: public boolean isTerminated()
+                    - generic [ref=e949]:
+                      - text: "Description copied from interface:"
+                      - code [ref=e950]:
+                        - link "ExecutorService" [ref=e951] [cursor=pointer]:
+                          - /url: ExecutorService.html#isTerminated()
+                    - generic [ref=e952]:
+                      - text: Returns
+                      - code [ref=e953]: "true"
+                      - text: if all tasks have completed following shut down. Note that
+                      - code [ref=e954]: isTerminated
+                      - text: is never
+                      - code [ref=e955]: "true"
+                      - text: unless either
+                      - code [ref=e956]: shutdown
+                      - text: or
+                      - code [ref=e957]: shutdownNow
+                      - text: was called first.
+                    - generic [ref=e958]:
+                      - term [ref=e959]: "Returns:"
+                      - definition [ref=e960]:
+                        - code [ref=e961]: "true"
+                        - text: if all tasks have completed following shut down
+                - listitem [ref=e962]:
+                  - generic [ref=e963]:
+                    - heading [level=3] [ref=e964]:
+                      - text: awaitTermination
+                      - link "Link to this section" [ref=e965] [cursor=pointer]:
+                        - /url: "#awaitTermination(long,java.util.concurrent.TimeUnit)"
+                        - img "Link icon" [ref=e966]
+                    - generic [ref=e967]:
+                      - text: public boolean awaitTermination
+                      - generic [ref=e968]:
+                        - text: (long timeout,
+                        - link "TimeUnit" [ref=e969] [cursor=pointer]:
+                          - /url: TimeUnit.html
+                        - text: unit)
+                      - text: throws
+                      - link "InterruptedException" [ref=e971] [cursor=pointer]:
+                        - /url: ../../lang/InterruptedException.html
+                    - generic [ref=e973]:
+                      - text: "Description copied from interface:"
+                      - code [ref=e974]:
+                        - link "ExecutorService" [ref=e975] [cursor=pointer]:
+                          - /url: ExecutorService.html#awaitTermination(long,java.util.concurrent.TimeUnit)
+                    - generic [ref=e976]: Blocks until all tasks have completed execution after a shutdown request, or the timeout occurs, or the current thread is interrupted, whichever happens first.
+                    - generic [ref=e977]:
+                      - term [ref=e978]: "Parameters:"
+                      - definition [ref=e979]:
+                        - code [ref=e980]: timeout
+                        - text: "- the maximum time to wait"
+                      - definition [ref=e981]:
+                        - code [ref=e982]: unit
+                        - text: "- the time unit of the timeout argument"
+                      - term [ref=e983]: "Returns:"
+                      - definition [ref=e984]:
+                        - code [ref=e985]: "true"
+                        - text: if this executor terminated and
+                        - code [ref=e986]: "false"
+                        - text: if the timeout elapsed before termination
+                      - term [ref=e987]: "Throws:"
+                      - definition [ref=e988]:
+                        - code [ref=e989]:
+                          - link "InterruptedException" [ref=e990] [cursor=pointer]:
+                            - /url: ../../lang/InterruptedException.html
+                        - text: "- if interrupted while waiting"
+                - listitem [ref=e991]:
+                  - generic [ref=e992]:
+                    - heading [level=3] [ref=e993]:
+                      - text: finalize
+                      - link "Link to this section" [ref=e994] [cursor=pointer]:
+                        - /url: "#finalize()"
+                        - img "Link icon" [ref=e995]
+                    - generic [ref=e996]:
+                      - generic [ref=e997]:
+                        - link "@Deprecated" [ref=e998] [cursor=pointer]:
+                          - /url: ../../lang/Deprecated.html
+                        - text: (
+                        - link "since" [ref=e999] [cursor=pointer]:
+                          - /url: ../../lang/Deprecated.html#since()
+                        - text: ="9",
+                        - link "forRemoval" [ref=e1000] [cursor=pointer]:
+                          - /url: ../../lang/Deprecated.html#forRemoval()
+                        - text: =true)
+                      - text: protected void finalize()
+                    - generic [ref=e1001]:
+                      - text: "Deprecated, for removal: This API element is subject to removal in a future version."
+                      - generic [ref=e1002]:
+                        - text: Finalization has been deprecated for removal. See
+                        - link [ref=e1003] [cursor=pointer]:
+                          - /url: ../../lang/Object.html#finalize()
+                          - code [ref=e1004]: Object.finalize()
+                        - text: for background information and details about migration options.
+                    - generic [ref=e1006]:
+                      - text: "Description copied from class:"
+                      - code [ref=e1007]:
+                        - link "Object" [ref=e1008] [cursor=pointer]:
+                          - /url: ../../lang/Object.html#finalize()
+                    - generic [ref=e1009]:
+                      - text: Called by the garbage collector on an object when garbage collection determines that there are no more references to the object. A subclass overrides the
+                      - code [ref=e1010]: finalize
+                      - text: method to dispose of system resources or to perform other cleanup.
+                      - paragraph [ref=e1011]:
+                        - generic [ref=e1012]:
+                          - text: When running in a Java virtual machine in which finalization has been disabled or removed, the garbage collector will never call
+                          - code [ref=e1013]: finalize()
+                          - text: . In a Java virtual machine in which finalization is enabled, the garbage collector might call
+                          - code [ref=e1014]: finalize
+                          - text: only after an indefinite delay.
+                      - paragraph [ref=e1015]:
+                        - text: The general contract of
+                        - code [ref=e1016]: finalize
+                        - text: is that it is invoked if and when the Java virtual machine has determined that there is no longer any means by which this object can be accessed by any thread that has not yet died, except as a result of an action taken by the finalization of some other object or class which is ready to be finalized. The
+                        - code [ref=e1017]: finalize
+                        - text: method may take any action, including making this object available again to other threads; the usual purpose of
+                        - code [ref=e1018]: finalize
+                        - text: ", however, is to perform cleanup actions before the object is irrevocably discarded. For example, the finalize method for an object that represents an input/output connection might perform explicit I/O transactions to break the connection before the object is permanently discarded."
+                      - paragraph [ref=e1019]:
+                        - text: The
+                        - code [ref=e1020]: finalize
+                        - text: method of class
+                        - code [ref=e1021]: Object
+                        - text: performs no special action; it simply returns normally. Subclasses of
+                        - code [ref=e1022]: Object
+                        - text: may override this definition.
+                      - paragraph [ref=e1023]:
+                        - text: The Java programming language does not guarantee which thread will invoke the
+                        - code [ref=e1024]: finalize
+                        - text: method for any given object. It is guaranteed, however, that the thread that invokes finalize will not be holding any user-visible synchronization locks when finalize is invoked. If an uncaught exception is thrown by the finalize method, the exception is ignored and finalization of that object terminates.
+                      - paragraph [ref=e1025]:
+                        - text: After the
+                        - code [ref=e1026]: finalize
+                        - text: method has been invoked for an object, no further action is taken until the Java virtual machine has again determined that there is no longer any means by which this object can be accessed by any thread that has not yet died, including possible actions by other objects or classes which are ready to be finalized, at which point the object may be discarded.
+                      - paragraph [ref=e1027]:
+                        - text: The
+                        - code [ref=e1028]: finalize
+                        - text: method is never invoked more than once by a Java virtual machine for any given object.
+                      - paragraph [ref=e1029]:
+                        - text: Any exception thrown by the
+                        - code [ref=e1030]: finalize
+                        - text: method causes the finalization of this object to be halted, but is otherwise ignored.
+                    - generic [ref=e1031]:
+                      - term [ref=e1032]: "Overrides:"
+                      - definition [ref=e1033]:
+                        - code [ref=e1034]:
+                          - link "finalize" [ref=e1035] [cursor=pointer]:
+                            - /url: ../../lang/Object.html#finalize()
+                        - text: in class
+                        - code [ref=e1036]:
+                          - link "Object" [ref=e1037] [cursor=pointer]:
+                            - /url: ../../lang/Object.html
+                      - term [ref=e1038]: "Implementation Note:"
+                      - definition [ref=e1039]: Previous versions of this class had a finalize method that shut down this executor, but in this version, finalize does nothing.
+                      - term [ref=e1040]: "See Also:"
+                      - definition [ref=e1041]:
+                        - list [ref=e1042]:
+                          - listitem [ref=e1043]:
+                            - link [ref=e1044] [cursor=pointer]:
+                              - /url: ../../lang/ref/WeakReference.html
+                              - code [ref=e1045]: WeakReference
+                            - text: ","
+                          - listitem [ref=e1046]:
+                            - link [ref=e1047] [cursor=pointer]:
+                              - /url: ../../lang/ref/PhantomReference.html
+                              - code [ref=e1048]: PhantomReference
+                - listitem [ref=e1049]:
+                  - generic [ref=e1050]:
+                    - heading [level=3] [ref=e1051]:
+                      - text: setThreadFactory
+                      - link "Link to this section" [ref=e1052] [cursor=pointer]:
+                        - /url: "#setThreadFactory(java.util.concurrent.ThreadFactory)"
+                        - img "Link icon" [ref=e1053]
+                    - generic [ref=e1054]:
+                      - text: public void setThreadFactory
+                      - generic [ref=e1055]:
+                        - text: (
+                        - link "ThreadFactory" [ref=e1056] [cursor=pointer]:
+                          - /url: ThreadFactory.html
+                        - text: threadFactory)
+                    - generic [ref=e1057]: Sets the thread factory used to create new threads.
+                    - generic [ref=e1058]:
+                      - term [ref=e1059]: "Parameters:"
+                      - definition [ref=e1060]:
+                        - code [ref=e1061]: threadFactory
+                        - text: "- the new thread factory"
+                      - term [ref=e1062]: "Throws:"
+                      - definition [ref=e1063]:
+                        - code [ref=e1064]:
+                          - link "NullPointerException" [ref=e1065] [cursor=pointer]:
+                            - /url: ../../lang/NullPointerException.html
+                        - text: "- if threadFactory is null"
+                      - term [ref=e1066]: "See Also:"
+                      - definition [ref=e1067]:
+                        - list [ref=e1068]:
+                          - listitem [ref=e1069]:
+                            - link [ref=e1070] [cursor=pointer]:
+                              - /url: "#getThreadFactory()"
+                              - code [ref=e1071]: getThreadFactory()
+                - listitem [ref=e1072]:
+                  - generic [ref=e1073]:
+                    - heading [level=3] [ref=e1074]:
+                      - text: getThreadFactory
+                      - link "Link to this section" [ref=e1075] [cursor=pointer]:
+                        - /url: "#getThreadFactory()"
+                        - img "Link icon" [ref=e1076]
+                    - generic [ref=e1077]:
+                      - text: public
+                      - link "ThreadFactory" [ref=e1079] [cursor=pointer]:
+                        - /url: ThreadFactory.html
+                      - text: getThreadFactory()
+                    - generic [ref=e1080]: Returns the thread factory used to create new threads.
+                    - generic [ref=e1081]:
+                      - term [ref=e1082]: "Returns:"
+                      - definition [ref=e1083]: the current thread factory
+                      - term [ref=e1084]: "See Also:"
+                      - definition [ref=e1085]:
+                        - list [ref=e1086]:
+                          - listitem [ref=e1087]:
+                            - link [ref=e1088] [cursor=pointer]:
+                              - /url: "#setThreadFactory(java.util.concurrent.ThreadFactory)"
+                              - code [ref=e1089]: setThreadFactory(ThreadFactory)
+                - listitem [ref=e1090]:
+                  - generic [ref=e1091]:
+                    - heading [level=3] [ref=e1092]:
+                      - text: setRejectedExecutionHandler
+                      - link "Link to this section" [ref=e1093] [cursor=pointer]:
+                        - /url: "#setRejectedExecutionHandler(java.util.concurrent.RejectedExecutionHandler)"
+                        - img "Link icon" [ref=e1094]
+                    - generic [ref=e1095]:
+                      - text: public void setRejectedExecutionHandler
+                      - generic [ref=e1096]:
+                        - text: (
+                        - link "RejectedExecutionHandler" [ref=e1097] [cursor=pointer]:
+                          - /url: RejectedExecutionHandler.html
+                        - text: handler)
+                    - generic [ref=e1098]: Sets a new handler for unexecutable tasks.
+                    - generic [ref=e1099]:
+                      - term [ref=e1100]: "Parameters:"
+                      - definition [ref=e1101]:
+                        - code [ref=e1102]: handler
+                        - text: "- the new handler"
+                      - term [ref=e1103]: "Throws:"
+                      - definition [ref=e1104]:
+                        - code [ref=e1105]:
+                          - link "NullPointerException" [ref=e1106] [cursor=pointer]:
+                            - /url: ../../lang/NullPointerException.html
+                        - text: "- if handler is null"
+                      - term [ref=e1107]: "See Also:"
+                      - definition [ref=e1108]:
+                        - list [ref=e1109]:
+                          - listitem [ref=e1110]:
+                            - link [ref=e1111] [cursor=pointer]:
+                              - /url: "#getRejectedExecutionHandler()"
+                              - code [ref=e1112]: getRejectedExecutionHandler()
+                - listitem [ref=e1113]:
+                  - generic [ref=e1114]:
+                    - heading [level=3] [ref=e1115]:
+                      - text: getRejectedExecutionHandler
+                      - link "Link to this section" [ref=e1116] [cursor=pointer]:
+                        - /url: "#getRejectedExecutionHandler()"
+                        - img "Link icon" [ref=e1117]
+                    - generic [ref=e1118]:
+                      - text: public
+                      - link "RejectedExecutionHandler" [ref=e1120] [cursor=pointer]:
+                        - /url: RejectedExecutionHandler.html
+                      - text: getRejectedExecutionHandler()
+                    - generic [ref=e1121]: Returns the current handler for unexecutable tasks.
+                    - generic [ref=e1122]:
+                      - term [ref=e1123]: "Returns:"
+                      - definition [ref=e1124]: the current handler
+                      - term [ref=e1125]: "See Also:"
+                      - definition [ref=e1126]:
+                        - list [ref=e1127]:
+                          - listitem [ref=e1128]:
+                            - link [ref=e1129] [cursor=pointer]:
+                              - /url: "#setRejectedExecutionHandler(java.util.concurrent.RejectedExecutionHandler)"
+                              - code [ref=e1130]: setRejectedExecutionHandler(RejectedExecutionHandler)
+                - listitem [ref=e1131]:
+                  - generic [ref=e1132]:
+                    - heading [level=3] [ref=e1133]:
+                      - text: setCorePoolSize
+                      - link "Link to this section" [ref=e1134] [cursor=pointer]:
+                        - /url: "#setCorePoolSize(int)"
+                        - img "Link icon" [ref=e1135]
+                    - generic [ref=e1136]:
+                      - text: public void setCorePoolSize
+                      - generic [ref=e1137]: (int corePoolSize)
+                    - generic [ref=e1138]: Sets the core number of threads. This overrides any value set in the constructor. If the new value is smaller than the current value, excess existing threads will be terminated when they next become idle. If larger, new threads will, if needed, be started to execute any queued tasks.
+                    - generic [ref=e1139]:
+                      - term [ref=e1140]: "Parameters:"
+                      - definition [ref=e1141]:
+                        - code [ref=e1142]: corePoolSize
+                        - text: "- the new core size"
+                      - term [ref=e1143]: "Throws:"
+                      - definition [ref=e1144]:
+                        - code [ref=e1145]:
+                          - link "IllegalArgumentException" [ref=e1146] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if"
+                        - code [ref=e1147]: corePoolSize < 0
+                        - text: or
+                        - code [ref=e1148]: corePoolSize
+                        - text: is greater than the
+                        - link "maximum pool size" [ref=e1149] [cursor=pointer]:
+                          - /url: "#getMaximumPoolSize()"
+                      - term [ref=e1150]: "See Also:"
+                      - definition [ref=e1151]:
+                        - list [ref=e1152]:
+                          - listitem [ref=e1153]:
+                            - link [ref=e1154] [cursor=pointer]:
+                              - /url: "#getCorePoolSize()"
+                              - code [ref=e1155]: getCorePoolSize()
+                - listitem [ref=e1156]:
+                  - generic [ref=e1157]:
+                    - heading [level=3] [ref=e1158]:
+                      - text: getCorePoolSize
+                      - link "Link to this section" [ref=e1159] [cursor=pointer]:
+                        - /url: "#getCorePoolSize()"
+                        - img "Link icon" [ref=e1160]
+                    - generic [ref=e1161]: public int getCorePoolSize()
+                    - generic [ref=e1162]: Returns the core number of threads.
+                    - generic [ref=e1163]:
+                      - term [ref=e1164]: "Returns:"
+                      - definition [ref=e1165]: the core number of threads
+                      - term [ref=e1166]: "See Also:"
+                      - definition [ref=e1167]:
+                        - list [ref=e1168]:
+                          - listitem [ref=e1169]:
+                            - link [ref=e1170] [cursor=pointer]:
+                              - /url: "#setCorePoolSize(int)"
+                              - code [ref=e1171]: setCorePoolSize(int)
+                - listitem [ref=e1172]:
+                  - generic [ref=e1173]:
+                    - heading [level=3] [ref=e1174]:
+                      - text: prestartCoreThread
+                      - link "Link to this section" [ref=e1175] [cursor=pointer]:
+                        - /url: "#prestartCoreThread()"
+                        - img "Link icon" [ref=e1176]
+                    - generic [ref=e1177]: public boolean prestartCoreThread()
+                    - generic [ref=e1178]:
+                      - text: Starts a core thread, causing it to idly wait for work. This overrides the default policy of starting core threads only when new tasks are executed. This method will return
+                      - code [ref=e1179]: "false"
+                      - text: if all core threads have already been started.
+                    - generic [ref=e1180]:
+                      - term [ref=e1181]: "Returns:"
+                      - definition [ref=e1182]:
+                        - code [ref=e1183]: "true"
+                        - text: if a thread was started
+                - listitem [ref=e1184]:
+                  - generic [ref=e1185]:
+                    - heading [level=3] [ref=e1186]:
+                      - text: prestartAllCoreThreads
+                      - link "Link to this section" [ref=e1187] [cursor=pointer]:
+                        - /url: "#prestartAllCoreThreads()"
+                        - img "Link icon" [ref=e1188]
+                    - generic [ref=e1189]: public int prestartAllCoreThreads()
+                    - generic [ref=e1190]: Starts all core threads, causing them to idly wait for work. This overrides the default policy of starting core threads only when new tasks are executed.
+                    - generic [ref=e1191]:
+                      - term [ref=e1192]: "Returns:"
+                      - definition [ref=e1193]: the number of threads started
+                - listitem [ref=e1194]:
+                  - generic [ref=e1195]:
+                    - heading [level=3] [ref=e1196]:
+                      - text: allowsCoreThreadTimeOut
+                      - link "Link to this section" [ref=e1197] [cursor=pointer]:
+                        - /url: "#allowsCoreThreadTimeOut()"
+                        - img "Link icon" [ref=e1198]
+                    - generic [ref=e1199]: public boolean allowsCoreThreadTimeOut()
+                    - generic [ref=e1200]: Returns true if this pool allows core threads to time out and terminate if no tasks arrive within the keepAlive time, being replaced if needed when new tasks arrive. When true, the same keep-alive policy applying to non-core threads applies also to core threads. When false (the default), core threads are never terminated due to lack of incoming tasks.
+                    - generic [ref=e1201]:
+                      - term [ref=e1202]: "Returns:"
+                      - definition [ref=e1203]:
+                        - code [ref=e1204]: "true"
+                        - text: if core threads are allowed to time out, else
+                        - code [ref=e1205]: "false"
+                      - term [ref=e1206]: "Since:"
+                      - definition [ref=e1207]: "1.6"
+                - listitem [ref=e1208]:
+                  - generic [ref=e1209]:
+                    - heading [level=3] [ref=e1210]:
+                      - text: allowCoreThreadTimeOut
+                      - link "Link to this section" [ref=e1211] [cursor=pointer]:
+                        - /url: "#allowCoreThreadTimeOut(boolean)"
+                        - img "Link icon" [ref=e1212]
+                    - generic [ref=e1213]:
+                      - text: public void allowCoreThreadTimeOut
+                      - generic [ref=e1214]: (boolean value)
+                    - generic [ref=e1215]:
+                      - text: Sets the policy governing whether core threads may time out and terminate if no tasks arrive within the keep-alive time, being replaced if needed when new tasks arrive. When false, core threads are never terminated due to lack of incoming tasks. When true, the same keep-alive policy applying to non-core threads applies also to core threads. To avoid continual thread replacement, the keep-alive time must be greater than zero when setting
+                      - code [ref=e1216]: "true"
+                      - text: . This method should in general be called before the pool is actively used.
+                    - generic [ref=e1217]:
+                      - term [ref=e1218]: "Parameters:"
+                      - definition [ref=e1219]:
+                        - code [ref=e1220]: value
+                        - text: "-"
+                        - code [ref=e1221]: "true"
+                        - text: if should time out, else
+                        - code [ref=e1222]: "false"
+                      - term [ref=e1223]: "Throws:"
+                      - definition [ref=e1224]:
+                        - code [ref=e1225]:
+                          - link "IllegalArgumentException" [ref=e1226] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if value is"
+                        - code [ref=e1227]: "true"
+                        - text: and the current keep-alive time is not greater than zero
+                      - term [ref=e1228]: "Since:"
+                      - definition [ref=e1229]: "1.6"
+                - listitem [ref=e1230]:
+                  - generic [ref=e1231]:
+                    - heading [level=3] [ref=e1232]:
+                      - text: setMaximumPoolSize
+                      - link "Link to this section" [ref=e1233] [cursor=pointer]:
+                        - /url: "#setMaximumPoolSize(int)"
+                        - img "Link icon" [ref=e1234]
+                    - generic [ref=e1235]:
+                      - text: public void setMaximumPoolSize
+                      - generic [ref=e1236]: (int maximumPoolSize)
+                    - generic [ref=e1237]: Sets the maximum allowed number of threads. This overrides any value set in the constructor. If the new value is smaller than the current value, excess existing threads will be terminated when they next become idle.
+                    - generic [ref=e1238]:
+                      - term [ref=e1239]: "Parameters:"
+                      - definition [ref=e1240]:
+                        - code [ref=e1241]: maximumPoolSize
+                        - text: "- the new maximum"
+                      - term [ref=e1242]: "Throws:"
+                      - definition [ref=e1243]:
+                        - code [ref=e1244]:
+                          - link "IllegalArgumentException" [ref=e1245] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if the new maximum is less than or equal to zero, or less than the"
+                        - link "core pool size" [ref=e1246] [cursor=pointer]:
+                          - /url: "#getCorePoolSize()"
+                      - term [ref=e1247]: "See Also:"
+                      - definition [ref=e1248]:
+                        - list [ref=e1249]:
+                          - listitem [ref=e1250]:
+                            - link [ref=e1251] [cursor=pointer]:
+                              - /url: "#getMaximumPoolSize()"
+                              - code [ref=e1252]: getMaximumPoolSize()
+                - listitem [ref=e1253]:
+                  - generic [ref=e1254]:
+                    - heading [level=3] [ref=e1255]:
+                      - text: getMaximumPoolSize
+                      - link "Link to this section" [ref=e1256] [cursor=pointer]:
+                        - /url: "#getMaximumPoolSize()"
+                        - img "Link icon" [ref=e1257]
+                    - generic [ref=e1258]: public int getMaximumPoolSize()
+                    - generic [ref=e1259]: Returns the maximum allowed number of threads.
+                    - generic [ref=e1260]:
+                      - term [ref=e1261]: "Returns:"
+                      - definition [ref=e1262]: the maximum allowed number of threads
+                      - term [ref=e1263]: "See Also:"
+                      - definition [ref=e1264]:
+                        - list [ref=e1265]:
+                          - listitem [ref=e1266]:
+                            - link [ref=e1267] [cursor=pointer]:
+                              - /url: "#setMaximumPoolSize(int)"
+                              - code [ref=e1268]: setMaximumPoolSize(int)
+                - listitem [ref=e1269]:
+                  - generic [ref=e1270]:
+                    - heading [level=3] [ref=e1271]:
+                      - text: setKeepAliveTime
+                      - link "Link to this section" [ref=e1272] [cursor=pointer]:
+                        - /url: "#setKeepAliveTime(long,java.util.concurrent.TimeUnit)"
+                        - img "Link icon" [ref=e1273]
+                    - generic [ref=e1274]:
+                      - text: public void setKeepAliveTime
+                      - generic [ref=e1275]:
+                        - text: (long time,
+                        - link "TimeUnit" [ref=e1276] [cursor=pointer]:
+                          - /url: TimeUnit.html
+                        - text: unit)
+                    - generic [ref=e1277]:
+                      - text: Sets the thread keep-alive time, which is the amount of time that threads may remain idle before being terminated. Threads that wait this amount of time without processing a task will be terminated if there are more than the core number of threads currently in the pool, or if this pool
+                      - link "allows core thread timeout" [ref=e1278] [cursor=pointer]:
+                        - /url: "#allowsCoreThreadTimeOut()"
+                      - text: . This overrides any value set in the constructor.
+                    - generic [ref=e1279]:
+                      - term [ref=e1280]: "Parameters:"
+                      - definition [ref=e1281]:
+                        - code [ref=e1282]: time
+                        - text: "- the time to wait. A time value of zero will cause excess threads to terminate immediately after executing tasks."
+                      - definition [ref=e1283]:
+                        - code [ref=e1284]: unit
+                        - text: "- the time unit of the"
+                        - code [ref=e1285]: time
+                        - text: argument
+                      - term [ref=e1286]: "Throws:"
+                      - definition [ref=e1287]:
+                        - code [ref=e1288]:
+                          - link "IllegalArgumentException" [ref=e1289] [cursor=pointer]:
+                            - /url: ../../lang/IllegalArgumentException.html
+                        - text: "- if"
+                        - code [ref=e1290]: time
+                        - text: less than zero or if
+                        - code [ref=e1291]: time
+                        - text: is zero and
+                        - code [ref=e1292]: allowsCoreThreadTimeOut
+                      - term [ref=e1293]: "See Also:"
+                      - definition [ref=e1294]:
+                        - list [ref=e1295]:
+                          - listitem [ref=e1296]:
+                            - link [ref=e1297] [cursor=pointer]:
+                              - /url: "#getKeepAliveTime(java.util.concurrent.TimeUnit)"
+                              - code [ref=e1298]: getKeepAliveTime(TimeUnit)
+                - listitem [ref=e1299]:
+                  - generic [ref=e1300]:
+                    - heading [level=3] [ref=e1301]:
+                      - text: getKeepAliveTime
+                      - link "Link to this section" [ref=e1302] [cursor=pointer]:
+                        - /url: "#getKeepAliveTime(java.util.concurrent.TimeUnit)"
+                        - img "Link icon" [ref=e1303]
+                    - generic [ref=e1304]:
+                      - text: public long getKeepAliveTime
+                      - generic [ref=e1305]:
+                        - text: (
+                        - link "TimeUnit" [ref=e1306] [cursor=pointer]:
+                          - /url: TimeUnit.html
+                        - text: unit)
+                    - generic [ref=e1307]:
+                      - text: Returns the thread keep-alive time, which is the amount of time that threads may remain idle before being terminated. Threads that wait this amount of time without processing a task will be terminated if there are more than the core number of threads currently in the pool, or if this pool
+                      - link "allows core thread timeout" [ref=e1308] [cursor=pointer]:
+                        - /url: "#allowsCoreThreadTimeOut()"
+                      - text: .
+                    - generic [ref=e1309]:
+                      - term [ref=e1310]: "Parameters:"
+                      - definition [ref=e1311]:
+                        - code [ref=e1312]: unit
+                        - text: "- the desired time unit of the result"
+                      - term [ref=e1313]: "Returns:"
+                      - definition [ref=e1314]: the time limit
+                      - term [ref=e1315]: "See Also:"
+                      - definition [ref=e1316]:
+                        - list [ref=e1317]:
+                          - listitem [ref=e1318]:
+                            - link [ref=e1319] [cursor=pointer]:
+                              - /url: "#setKeepAliveTime(long,java.util.concurrent.TimeUnit)"
+                              - code [ref=e1320]: setKeepAliveTime(long, TimeUnit)
+                - listitem [ref=e1321]:
+                  - generic [ref=e1322]:
+                    - heading [level=3] [ref=e1323]:
+                      - text: getQueue
+                      - link "Link to this section" [ref=e1324] [cursor=pointer]:
+                        - /url: "#getQueue()"
+                        - img "Link icon" [ref=e1325]
+                    - generic [ref=e1326]:
+                      - text: public
+                      - generic [ref=e1327]:
+                        - link "BlockingQueue" [ref=e1328] [cursor=pointer]:
+                          - /url: BlockingQueue.html
+                        - text: <
+                        - link "Runnable" [ref=e1329] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: ">"
+                      - text: getQueue()
+                    - generic [ref=e1330]: Returns the task queue used by this executor. Access to the task queue is intended primarily for debugging and monitoring. This queue may be in active use. Retrieving the task queue does not prevent queued tasks from executing.
+                    - generic [ref=e1331]:
+                      - term [ref=e1332]: "Returns:"
+                      - definition [ref=e1333]: the task queue
+                - listitem [ref=e1334]:
+                  - generic [ref=e1335]:
+                    - heading [level=3] [ref=e1336]:
+                      - text: remove
+                      - link "Link to this section" [ref=e1337] [cursor=pointer]:
+                        - /url: "#remove(java.lang.Runnable)"
+                        - img "Link icon" [ref=e1338]
+                    - generic [ref=e1339]:
+                      - text: public boolean remove
+                      - generic [ref=e1340]:
+                        - text: (
+                        - link "Runnable" [ref=e1341] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: task)
+                    - generic [ref=e1342]:
+                      - text: Removes this task from the executor's internal queue if it is present, thus causing it not to be run if it has not already started.
+                      - paragraph [ref=e1343]:
+                        - text: This method may be useful as one part of a cancellation scheme. It may fail to remove tasks that have been converted into other forms before being placed on the internal queue. For example, a task entered using
+                        - code [ref=e1344]: submit
+                        - text: might be converted into a form that maintains
+                        - code [ref=e1345]: Future
+                        - text: status. However, in such cases, method
+                        - link [ref=e1346] [cursor=pointer]:
+                          - /url: "#purge()"
+                          - code [ref=e1347]: purge()
+                        - text: may be used to remove those Futures that have been cancelled.
+                    - generic [ref=e1348]:
+                      - term [ref=e1349]: "Parameters:"
+                      - definition [ref=e1350]:
+                        - code [ref=e1351]: task
+                        - text: "- the task to remove"
+                      - term [ref=e1352]: "Returns:"
+                      - definition [ref=e1353]:
+                        - code [ref=e1354]: "true"
+                        - text: if the task was removed
+                - listitem [ref=e1355]:
+                  - generic [ref=e1356]:
+                    - heading [level=3] [ref=e1357]:
+                      - text: purge
+                      - link "Link to this section" [ref=e1358] [cursor=pointer]:
+                        - /url: "#purge()"
+                        - img "Link icon" [ref=e1359]
+                    - generic [ref=e1360]: public void purge()
+                    - generic [ref=e1361]:
+                      - text: Tries to remove from the work queue all
+                      - link [ref=e1362] [cursor=pointer]:
+                        - /url: Future.html
+                        - code [ref=e1363]: Future
+                      - text: tasks that have been cancelled. This method can be useful as a storage reclamation operation, that has no other impact on functionality. Cancelled tasks are never executed, but may accumulate in work queues until worker threads can actively remove them. Invoking this method instead tries to remove them now. However, this method may fail to remove tasks in the presence of interference by other threads.
+                - listitem [ref=e1364]:
+                  - generic [ref=e1365]:
+                    - heading [level=3] [ref=e1366]:
+                      - text: getPoolSize
+                      - link "Link to this section" [ref=e1367] [cursor=pointer]:
+                        - /url: "#getPoolSize()"
+                        - img "Link icon" [ref=e1368]
+                    - generic [ref=e1369]: public int getPoolSize()
+                    - generic [ref=e1370]: Returns the current number of threads in the pool.
+                    - generic [ref=e1371]:
+                      - term [ref=e1372]: "Returns:"
+                      - definition [ref=e1373]: the number of threads
+                - listitem [ref=e1374]:
+                  - generic [ref=e1375]:
+                    - heading [level=3] [ref=e1376]:
+                      - text: getActiveCount
+                      - link "Link to this section" [ref=e1377] [cursor=pointer]:
+                        - /url: "#getActiveCount()"
+                        - img "Link icon" [ref=e1378]
+                    - generic [ref=e1379]: public int getActiveCount()
+                    - generic [ref=e1380]: Returns the approximate number of threads that are actively executing tasks.
+                    - generic [ref=e1381]:
+                      - term [ref=e1382]: "Returns:"
+                      - definition [ref=e1383]: the number of threads
+                - listitem [ref=e1384]:
+                  - generic [ref=e1385]:
+                    - heading [level=3] [ref=e1386]:
+                      - text: getLargestPoolSize
+                      - link "Link to this section" [ref=e1387] [cursor=pointer]:
+                        - /url: "#getLargestPoolSize()"
+                        - img "Link icon" [ref=e1388]
+                    - generic [ref=e1389]: public int getLargestPoolSize()
+                    - generic [ref=e1390]: Returns the largest number of threads that have ever simultaneously been in the pool.
+                    - generic [ref=e1391]:
+                      - term [ref=e1392]: "Returns:"
+                      - definition [ref=e1393]: the number of threads
+                - listitem [ref=e1394]:
+                  - generic [ref=e1395]:
+                    - heading [level=3] [ref=e1396]:
+                      - text: getTaskCount
+                      - link "Link to this section" [ref=e1397] [cursor=pointer]:
+                        - /url: "#getTaskCount()"
+                        - img "Link icon" [ref=e1398]
+                    - generic [ref=e1399]: public long getTaskCount()
+                    - generic [ref=e1400]: Returns the approximate total number of tasks that have ever been scheduled for execution. Because the states of tasks and threads may change dynamically during computation, the returned value is only an approximation.
+                    - generic [ref=e1401]:
+                      - term [ref=e1402]: "Returns:"
+                      - definition [ref=e1403]: the number of tasks
+                - listitem [ref=e1404]:
+                  - generic [ref=e1405]:
+                    - heading [level=3] [ref=e1406]:
+                      - text: getCompletedTaskCount
+                      - link "Link to this section" [ref=e1407] [cursor=pointer]:
+                        - /url: "#getCompletedTaskCount()"
+                        - img "Link icon" [ref=e1408]
+                    - generic [ref=e1409]: public long getCompletedTaskCount()
+                    - generic [ref=e1410]: Returns the approximate total number of tasks that have completed execution. Because the states of tasks and threads may change dynamically during computation, the returned value is only an approximation, but one that does not ever decrease across successive calls.
+                    - generic [ref=e1411]:
+                      - term [ref=e1412]: "Returns:"
+                      - definition [ref=e1413]: the number of tasks
+                - listitem [ref=e1414]:
+                  - generic [ref=e1415]:
+                    - heading [level=3] [ref=e1416]:
+                      - text: toString
+                      - link "Link to this section" [ref=e1417] [cursor=pointer]:
+                        - /url: "#toString()"
+                        - img "Link icon" [ref=e1418]
+                    - generic [ref=e1419]:
+                      - text: public
+                      - link "String" [ref=e1421] [cursor=pointer]:
+                        - /url: ../../lang/String.html
+                      - text: toString()
+                    - generic [ref=e1422]: Returns a string identifying this pool, as well as its state, including indications of run state and estimated worker and task counts.
+                    - generic [ref=e1423]:
+                      - term [ref=e1424]: "Overrides:"
+                      - definition [ref=e1425]:
+                        - code [ref=e1426]:
+                          - link "toString" [ref=e1427] [cursor=pointer]:
+                            - /url: ../../lang/Object.html#toString()
+                        - text: in class
+                        - code [ref=e1428]:
+                          - link "Object" [ref=e1429] [cursor=pointer]:
+                            - /url: ../../lang/Object.html
+                      - term [ref=e1430]: "Returns:"
+                      - definition [ref=e1431]: a string identifying this pool, as well as its state
+                - listitem [ref=e1432]:
+                  - generic [ref=e1433]:
+                    - heading [level=3] [ref=e1434]:
+                      - text: beforeExecute
+                      - link "Link to this section" [ref=e1435] [cursor=pointer]:
+                        - /url: "#beforeExecute(java.lang.Thread,java.lang.Runnable)"
+                        - img "Link icon" [ref=e1436]
+                    - generic [ref=e1437]:
+                      - text: protected void beforeExecute
+                      - generic [ref=e1438]:
+                        - text: (
+                        - link "Thread" [ref=e1439] [cursor=pointer]:
+                          - /url: ../../lang/Thread.html
+                        - text: t,
+                        - link "Runnable" [ref=e1440] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: r)
+                    - generic [ref=e1441]:
+                      - text: Method invoked prior to executing the given Runnable in the given thread. This method is invoked by thread
+                      - code [ref=e1442]: t
+                      - text: that will execute task
+                      - code [ref=e1443]: r
+                      - text: ", and may be used to re-initialize ThreadLocals, or to perform logging."
+                      - paragraph [ref=e1444]:
+                        - text: "This implementation does nothing, but may be customized in subclasses. Note: To properly nest multiple overridings, subclasses should generally invoke"
+                        - code [ref=e1445]: super.beforeExecute
+                        - text: at the end of this method.
+                    - generic [ref=e1446]:
+                      - term [ref=e1447]: "Parameters:"
+                      - definition [ref=e1448]:
+                        - code [ref=e1449]: t
+                        - text: "- the thread that will run task"
+                        - code [ref=e1450]: r
+                      - definition [ref=e1451]:
+                        - code [ref=e1452]: r
+                        - text: "- the task that will be executed"
+                - listitem [ref=e1453]:
+                  - generic [ref=e1454]:
+                    - heading [level=3] [ref=e1455]:
+                      - text: afterExecute
+                      - link "Link to this section" [ref=e1456] [cursor=pointer]:
+                        - /url: "#afterExecute(java.lang.Runnable,java.lang.Throwable)"
+                        - img "Link icon" [ref=e1457]
+                    - generic [ref=e1458]:
+                      - text: protected void afterExecute
+                      - generic [ref=e1459]:
+                        - text: (
+                        - link "Runnable" [ref=e1460] [cursor=pointer]:
+                          - /url: ../../lang/Runnable.html
+                        - text: r,
+                        - link "Throwable" [ref=e1461] [cursor=pointer]:
+                          - /url: ../../lang/Throwable.html
+                        - text: t)
+                    - generic [ref=e1462]:
+                      - text: Method invoked upon completion of execution of the given Runnable. This method is invoked by the thread that executed the task. If non-null, the Throwable is the uncaught
+                      - code [ref=e1463]: RuntimeException
+                      - text: or
+                      - code [ref=e1464]: Error
+                      - text: that caused execution to terminate abruptly.
+                      - paragraph [ref=e1465]:
+                        - text: "This implementation does nothing, but may be customized in subclasses. Note: To properly nest multiple overridings, subclasses should generally invoke"
+                        - code [ref=e1466]: super.afterExecute
+                        - text: at the beginning of this method.
+                      - paragraph [ref=e1467]:
+                        - text: "Note: When actions are enclosed in tasks (such as"
+                        - link [ref=e1468] [cursor=pointer]:
+                          - /url: FutureTask.html
+                          - code [ref=e1469]: FutureTask
+                        - text: ) either explicitly or via methods such as
+                        - code [ref=e1470]: submit
+                        - text: ", these task objects catch and maintain computational exceptions, and so they do not cause abrupt termination, and the internal exceptions are"
+                        - emphasis [ref=e1471]: not
+                        - text: "passed to this method. If you would like to trap both kinds of failures in this method, you can further probe for such cases, as in this sample subclass that prints either the direct cause or the underlying exception if a task has been aborted:"
+                      - code [ref=e1473]: "class ExtendedExecutor extends ThreadPoolExecutor { // ... protected void afterExecute(Runnable r, Throwable t) { super.afterExecute(r, t); if (t == null && r instanceof Future<?> && ((Future<?>)r).isDone()) { try { Object result = ((Future<?>) r).get(); } catch (CancellationException ce) { t = ce; } catch (ExecutionException ee) { t = ee.getCause(); } catch (InterruptedException ie) { // ignore/reset Thread.currentThread().interrupt(); } } if (t != null) System.out.println(t); } }"
+                      - paragraph
+                    - generic [ref=e1474]:
+                      - term [ref=e1475]: "Parameters:"
+                      - definition [ref=e1476]:
+                        - code [ref=e1477]: r
+                        - text: "- the runnable that has completed"
+                      - definition [ref=e1478]:
+                        - code [ref=e1479]: t
+                        - text: "- the exception that caused termination, or null if execution completed normally"
+                - listitem [ref=e1480]:
+                  - generic [ref=e1481]:
+                    - heading [level=3] [ref=e1482]:
+                      - text: terminated
+                      - link "Link to this section" [ref=e1483] [cursor=pointer]:
+                        - /url: "#terminated()"
+                        - img "Link icon" [ref=e1484]
+                    - generic [ref=e1485]: protected void terminated()
+                    - generic [ref=e1486]:
+                      - text: "Method invoked when the Executor has terminated. Default implementation does nothing. Note: To properly nest multiple overridings, subclasses should generally invoke"
+                      - code [ref=e1487]: super.terminated
+                      - text: within this method.
+      - contentinfo [ref=e1488]:
+        - separator [ref=e1489]
+        - paragraph [ref=e1490]:
+          - generic [ref=e1491]:
+            - link "Report a bug or suggest an enhancement" [ref=e1492] [cursor=pointer]:
+              - /url: https://bugreport.java.com/bugreport/
+            - text: For further API reference and developer documentation see the
+            - link "Java SE Documentation" [ref=e1493] [cursor=pointer]:
+              - /url: https://docs.oracle.com/pls/topic/lookup?ctx=javase21&id=homepage
+            - text: ", which contains more detailed, developer-targeted descriptions with conceptual overviews, definitions of terms, workarounds, and working code examples."
+            - link "Other versions." [ref=e1494] [cursor=pointer]:
+              - /url: https://docs.oracle.com/en/java/javase/index.html
+            - text: Java is a trademark or registered trademark of Oracle and/or its affiliates in the US and other countries.
+            - link "Copyright" [ref=e1495] [cursor=pointer]:
+              - /url: ../../../../../legal/copyright.html
+            - text: © 1993, 2025, Oracle and/or its affiliates, 500 Oracle Parkway, Redwood Shores, CA 94065 USA.All rights reserved. Use is subject to
+            - link "license terms" [ref=e1496] [cursor=pointer]:
+              - /url: https://www.oracle.com/java/javase/terms/license/java21speclicense.html
+            - text: and the
+            - link "documentation redistribution policy" [ref=e1497] [cursor=pointer]:
+              - /url: https://www.oracle.com/technetwork/java/redist-137594.html
+            - text: .
+            - generic [ref=e1498]:
+              - text: Modify
+              - link:
+                - /url: "#"
+              - text: . Modify
+              - link "Ad Choices" [ref=e1499] [cursor=pointer]:
+                - /url: https://www.oracle.com/legal/privacy/marketing-cloud-data-cloud-privacy-policy.html#12
+              - text: .
+  - status [ref=e1500]

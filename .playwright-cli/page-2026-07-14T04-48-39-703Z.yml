@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "Apache Kafka" [ref=e5]
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Get Started" [ref=e9] [cursor=pointer]:
+              - /url: /43/getting-started/
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /documentation
+          - listitem [ref=e12]:
+            - link "Powered By" [ref=e13] [cursor=pointer]:
+              - /url: /powered-by/
+          - listitem [ref=e14]:
+            - link "Community" [ref=e15] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e16]:
+            - link "Apache" [ref=e17] [cursor=pointer]:
+              - /url: https://www.apache.org/
+          - listitem [ref=e18]:
+            - button "Releases" [ref=e19] [cursor=pointer]
+          - listitem [ref=e20]:
+            - link "DOWNLOAD KAFKA" [ref=e21] [cursor=pointer]:
+              - /url: /community/downloads/
+        - generic [ref=e22]:
+          - button "Toggle search" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 
+          - generic:
+            - generic:
+              - generic: 
+              - searchbox "Search this site…"
+  - generic [ref=e25]:
+    - generic [ref=e27]:
+      - complementary [ref=e28]:
+        - generic [ref=e31]:
+          - text:  
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "AK 4.3.X" [ref=e35] [cursor=pointer]:
+                  - /url: /43/
+                - list [ref=e36]:
+                  - listitem [ref=e37]:
+                    - generic [ref=e38]:
+                      - text: 
+                      - link "Getting Started" [ref=e39] [cursor=pointer]:
+                        - /url: /43/getting-started/
+                  - listitem [ref=e40]:
+                    - link "API" [ref=e42] [cursor=pointer]:
+                      - /url: /43/apis/
+                  - listitem [ref=e43]:
+                    - generic [ref=e44]:
+                      - text: 
+                      - link "Configuration" [ref=e45] [cursor=pointer]:
+                        - /url: /43/configuration/
+                  - listitem [ref=e46]:
+                    - generic [ref=e47]:
+                      - text: 
+                      - link "Design" [ref=e48] [cursor=pointer]:
+                        - /url: /43/design/
+                    - list [ref=e49]:
+                      - listitem [ref=e50]:
+                        - link "Design" [ref=e52] [cursor=pointer]:
+                          - /url: /43/design/design/
+                      - listitem [ref=e53]:
+                        - link "Protocol" [ref=e55] [cursor=pointer]:
+                          - /url: /43/design/protocol/
+                  - listitem [ref=e56]:
+                    - generic [ref=e57]:
+                      - text: 
+                      - link "Implementation" [ref=e58] [cursor=pointer]:
+                        - /url: /43/implementation/
+                  - listitem [ref=e59]:
+                    - generic [ref=e60]:
+                      - text: 
+                      - link "Operations" [ref=e61] [cursor=pointer]:
+                        - /url: /43/operations/
+                  - listitem [ref=e62]:
+                    - generic [ref=e63]:
+                      - text: 
+                      - link "Security" [ref=e64] [cursor=pointer]:
+                        - /url: /43/security/
+                  - listitem [ref=e65]:
+                    - generic [ref=e66]:
+                      - text: 
+                      - link "Kafka Connect" [ref=e67] [cursor=pointer]:
+                        - /url: /43/kafka-connect/
+                  - listitem [ref=e68]:
+                    - generic [ref=e69]:
+                      - text: 
+                      - link "Kafka Streams" [ref=e70] [cursor=pointer]:
+                        - /url: /43/streams/
+                    - text: 
+      - complementary [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e74]:
+            - link " View page source" [ref=e75] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//tree/markdown/content/en/43/design/_index.md
+              - generic [ref=e76]: 
+              - text: View page source
+            - link " Edit this page" [ref=e77] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//edit/markdown/content/en/43/design/_index.md
+              - generic [ref=e78]: 
+              - text: Edit this page
+            - link " Create child page" [ref=e79] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//new/markdown/content/en/43/design?filename=change-me.md&value=---%0Atitle%3A+%22Long+Page+Title%22%0AlinkTitle%3A+%22Short+Nav+Title%22%0Aweight%3A+100%0Adescription%3A+%3E-%0A+++++Page+description+for+heading+and+indexes.%0A---%0A%0A%23%23+Heading%0A%0AEdit+this+template+to+create+your+new+page.%0A%0A%2A+Give+it+a+good+name%2C+ending+in+%60.md%60+-+e.g.+%60getting-started.md%60%0A%2A+Edit+the+%22front+matter%22+section+at+the+top+of+the+page+%28weight+controls+how+its+ordered+amongst+other+pages+in+the+same+directory%3B+lowest+number+first%29.%0A%2A+Add+a+good+commit+message+at+the+bottom+of+the+page+%28%3C80+characters%3B+use+the+extended+description+field+for+more+detail%29.%0A%2A+Create+a+new+branch+so+you+can+preview+your+new+file+and+request+a+review+via+Pull+Request.%0A
+              - generic [ref=e80]: 
+              - text: Create child page
+            - link " Create documentation issue" [ref=e81] [cursor=pointer]:
+              - /url: https://github.com/apache/kafka-site//issues/new?title=Design
+              - generic [ref=e82]: 
+              - text: Create documentation issue
+            - link " Print entire section" [ref=e83] [cursor=pointer]:
+              - /url: /43/design/_print/
+              - generic [ref=e84]: 
+              - text: Print entire section
+          - generic [ref=e86]:
+            - heading "Tag Cloud" [level=5] [ref=e87]
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - link "Apis 1" [ref=e90] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/apis/
+                  - text: Apis
+                  - generic [ref=e91]: "1"
+              - listitem [ref=e92]:
+                - link "Configuration 34" [ref=e93] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/configuration/
+                  - text: Configuration
+                  - generic [ref=e94]: "34"
+              - listitem [ref=e95]:
+                - link "Connect 34" [ref=e96] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/connect/
+                  - text: Connect
+                  - generic [ref=e97]: "34"
+              - listitem [ref=e98]:
+                - link "Design 34" [ref=e99] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/design/
+                  - text: Design
+                  - generic [ref=e100]: "34"
+              - listitem [ref=e101]:
+                - link "Developer-Guide 34" [ref=e102] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/developer-guide/
+                  - text: Developer-Guide
+                  - generic [ref=e103]: "34"
+              - listitem [ref=e104]:
+                - link "Docs 2106" [ref=e105] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/docs/
+                  - text: Docs
+                  - generic [ref=e106]: "2106"
+              - listitem [ref=e107]:
+                - link "Getting-Started 34" [ref=e108] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/getting-started/
+                  - text: Getting-Started
+                  - generic [ref=e109]: "34"
+              - listitem [ref=e110]:
+                - link "Implementation 34" [ref=e111] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/implementation/
+                  - text: Implementation
+                  - generic [ref=e112]: "34"
+              - listitem [ref=e113]:
+                - link "Kafka 2106" [ref=e114] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/kafka/
+                  - text: Kafka
+                  - generic [ref=e115]: "2106"
+              - listitem [ref=e116]:
+                - link "Ops 34" [ref=e117] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/ops/
+                  - text: Ops
+                  - generic [ref=e118]: "34"
+              - listitem [ref=e119]:
+                - link "Security 34" [ref=e120] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/security/
+                  - text: Security
+                  - generic [ref=e121]: "34"
+              - listitem [ref=e122]:
+                - link "Streams 68" [ref=e123] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/streams/
+                  - text: Streams
+                  - generic [ref=e124]: "68"
+      - main [ref=e125]:
+        - navigation "breadcrumb" [ref=e126]:
+          - list [ref=e127]:
+            - listitem [ref=e128]:
+              - link "AK 4.3.X" [ref=e129] [cursor=pointer]:
+                - /url: /43/
+            - listitem [ref=e130]: / Design
+        - generic [ref=e131]:
+          - heading "Design" [level=1] [ref=e132]
+          - generic [ref=e134]:
+            - heading "Tags:" [level=5] [ref=e135]
+            - list [ref=e136]:
+              - listitem [ref=e137]:
+                - link "Kafka" [ref=e138] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/kafka/
+              - listitem [ref=e139]:
+                - link "Docs" [ref=e140] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/docs/
+              - listitem [ref=e141]:
+                - link "Design" [ref=e142] [cursor=pointer]:
+                  - /url: https://kafka.apache.org/tags/design/
+          - generic [ref=e143]:
+            - separator [ref=e144]
+            - generic [ref=e145]:
+              - heading [level=5] [ref=e146]:
+                - link "Design" [ref=e147] [cursor=pointer]:
+                  - /url: /43/design/design/
+              - paragraph
+            - generic [ref=e148]:
+              - heading [level=5] [ref=e149]:
+                - link "Protocol" [ref=e150] [cursor=pointer]:
+                  - /url: /43/design/protocol/
+              - paragraph
+          - generic [ref=e151]:
+            - text: "Last modified May 22, 2026:"
+            - 'link "MINOR: Add 4.3 docs and javadoc (#853) (dde051e342)" [ref=e152] [cursor=pointer]':
+              - /url: https://github.com/apache/kafka-site//commit/dde051e342850dadc1aefef27899a50c1a6fc3e9
+    - contentinfo [ref=e153]:
+      - generic [ref=e155]:
+        - generic [ref=e157]:
+          - link "Contact" [ref=e158] [cursor=pointer]:
+            - /url: /community/contact/
+            - generic [ref=e159]: 
+          - link "Twitter" [ref=e160] [cursor=pointer]:
+            - /url: https://twitter.com/apachekafka
+            - generic [ref=e161]: 
+          - link "Stack Overflow" [ref=e162] [cursor=pointer]:
+            - /url: https://stackoverflow.com/questions/tagged/apache-kafka
+            - generic [ref=e163]: 
+          - link "GitHub" [ref=e164] [cursor=pointer]:
+            - /url: https://github.com/apache/kafka
+            - generic [ref=e165]: 
+          - link "Developer mailing list" [ref=e166] [cursor=pointer]:
+            - /url: mailto:dev@kafka.apache.org
+            - generic [ref=e167]: 
+        - generic [ref=e168]:
+          - generic [ref=e169]:
+            - text: The contents of this website are © 2026 Apache Software Foundation under the terms of the
+            - link "Apache License v2" [ref=e170] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/LICENSE-2.0
+            - text: . Apache Kafka, Kafka, and the Kafka logo are either registered trademarks or trademarks of The Apache Software Foundation in the United States and other countries.
+          - generic [ref=e171]:
+            - link "Security" [ref=e172] [cursor=pointer]:
+              - /url: https://www.apache.org/security/
+            - text: "|"
+            - link "Donate" [ref=e173] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/contributing.html
+            - text: "|"
+            - link "Thanks" [ref=e174] [cursor=pointer]:
+              - /url: https://www.apache.org/foundation/thanks.html
+            - text: "|"
+            - link "Events" [ref=e175] [cursor=pointer]:
+              - /url: https://www.apache.org/events/current-event.html
+            - text: "|"
+            - link "License" [ref=e176] [cursor=pointer]:
+              - /url: https://www.apache.org/licenses/
+            - text: "|"
+            - link "Privacy" [ref=e177] [cursor=pointer]:
+              - /url: https://privacy.apache.org/policies/privacy-policy-public.html
+        - link [ref=e179] [cursor=pointer]:
+          - /url: https://www.apache.org/
+          - img "Apache Software Foundation" [ref=e180]
