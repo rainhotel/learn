@@ -1,0 +1,1353 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Boot
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../index.html
+                - listitem [ref=e51]:
+                  - link "Documentation" [ref=e52] [cursor=pointer]:
+                    - /url: ../../documentation.html
+                - listitem [ref=e53]:
+                  - link "Community" [ref=e54] [cursor=pointer]:
+                    - /url: ../../community.html
+                - listitem [ref=e55]:
+                  - link "System Requirements" [ref=e56] [cursor=pointer]:
+                    - /url: ../../system-requirements.html
+                - listitem [ref=e57]:
+                  - link "Installing Spring Boot" [ref=e58] [cursor=pointer]:
+                    - /url: ../../installing.html
+                - listitem [ref=e59]:
+                  - link "Upgrading Spring Boot" [ref=e60] [cursor=pointer]:
+                    - /url: ../../upgrading.html
+                - listitem [ref=e61]:
+                  - button [ref=e62] [cursor=pointer]
+                  - link "Tutorials" [ref=e63] [cursor=pointer]:
+                    - /url: ../../tutorial/index.html
+                - listitem [ref=e64]:
+                  - button [ref=e65] [cursor=pointer]
+                  - link "Reference" [ref=e66] [cursor=pointer]:
+                    - /url: ../index.html
+                  - list [ref=e67]:
+                    - listitem [ref=e68]:
+                      - button [ref=e69] [cursor=pointer]
+                      - link "Developing with Spring Boot" [ref=e70] [cursor=pointer]:
+                        - /url: ../using/index.html
+                    - listitem [ref=e71]:
+                      - button [ref=e72] [cursor=pointer]
+                      - link "Core Features" [ref=e73] [cursor=pointer]:
+                        - /url: ../features/index.html
+                    - listitem [ref=e74]:
+                      - button [ref=e75] [cursor=pointer]
+                      - link "Web" [ref=e76] [cursor=pointer]:
+                        - /url: ../web/index.html
+                    - listitem [ref=e77]:
+                      - button [ref=e78] [cursor=pointer]
+                      - link "Data" [ref=e79] [cursor=pointer]:
+                        - /url: ../data/index.html
+                    - listitem [ref=e80]:
+                      - button [ref=e81] [cursor=pointer]
+                      - link "IO" [ref=e82] [cursor=pointer]:
+                        - /url: ../io/index.html
+                    - listitem [ref=e83]:
+                      - button [ref=e84] [cursor=pointer]
+                      - link "Messaging" [ref=e85] [cursor=pointer]:
+                        - /url: ../messaging/index.html
+                    - listitem [ref=e86]:
+                      - button [ref=e87] [cursor=pointer]
+                      - link "Security" [ref=e88] [cursor=pointer]:
+                        - /url: ../security/index.html
+                    - listitem [ref=e89]:
+                      - button [ref=e90] [cursor=pointer]
+                      - link "Testing" [ref=e91] [cursor=pointer]:
+                        - /url: ../testing/index.html
+                    - listitem [ref=e92]:
+                      - button [ref=e93] [cursor=pointer]
+                      - link "Packaging Spring Boot Applications" [ref=e94] [cursor=pointer]:
+                        - /url: ../packaging/index.html
+                    - listitem [ref=e95]:
+                      - button [ref=e96] [cursor=pointer]
+                      - link "Production-ready Features" [ref=e97] [cursor=pointer]:
+                        - /url: index.html
+                      - list [ref=e98]:
+                        - listitem [ref=e99]:
+                          - link "Enabling Production-ready Features" [ref=e100] [cursor=pointer]:
+                            - /url: enabling.html
+                        - listitem [ref=e101]:
+                          - link "Endpoints" [ref=e102] [cursor=pointer]:
+                            - /url: endpoints.html
+                        - listitem [ref=e103]:
+                          - link "Monitoring and Management Over HTTP" [ref=e104] [cursor=pointer]:
+                            - /url: monitoring.html
+                        - listitem [ref=e105]:
+                          - link "Monitoring and Management over JMX" [ref=e106] [cursor=pointer]:
+                            - /url: jmx.html
+                        - listitem [ref=e107]:
+                          - link "Observability" [ref=e108] [cursor=pointer]:
+                            - /url: observability.html
+                        - listitem [ref=e109]:
+                          - link "Loggers" [ref=e110] [cursor=pointer]:
+                            - /url: loggers.html
+                        - listitem [ref=e111]:
+                          - link "Metrics" [ref=e112] [cursor=pointer]:
+                            - /url: metrics.html
+                        - listitem [ref=e113]:
+                          - link "Tracing" [ref=e114] [cursor=pointer]:
+                            - /url: tracing.html
+                        - listitem [ref=e115]:
+                          - link "Auditing" [ref=e116] [cursor=pointer]:
+                            - /url: auditing.html
+                        - listitem [ref=e117]:
+                          - link "Recording HTTP Exchanges" [ref=e118] [cursor=pointer]:
+                            - /url: http-exchanges.html
+                        - listitem [ref=e119]:
+                          - link "Process Monitoring" [ref=e120] [cursor=pointer]:
+                            - /url: process-monitoring.html
+                        - listitem [ref=e121]:
+                          - link "Cloud Foundry Support" [ref=e122] [cursor=pointer]:
+                            - /url: cloud-foundry.html
+                - listitem [ref=e123]:
+                  - button [ref=e124] [cursor=pointer]
+                  - link "How-to Guides" [ref=e125] [cursor=pointer]:
+                    - /url: ../../how-to/index.html
+                - listitem [ref=e126]:
+                  - button [ref=e127] [cursor=pointer]
+                  - link "Build Tool Plugins" [ref=e128] [cursor=pointer]:
+                    - /url: ../../build-tool-plugin/index.html
+                - listitem [ref=e129]:
+                  - button [ref=e130] [cursor=pointer]
+                  - link "Spring Boot CLI" [ref=e131] [cursor=pointer]:
+                    - /url: ../../cli/index.html
+                - listitem [ref=e132]:
+                  - button [ref=e133] [cursor=pointer]
+                  - generic [ref=e134] [cursor=pointer]: Rest APIs
+                - listitem [ref=e135]:
+                  - button [ref=e136] [cursor=pointer]
+                  - generic [ref=e137] [cursor=pointer]: Java APIs
+                - listitem [ref=e138]:
+                  - button [ref=e139] [cursor=pointer]
+                  - generic [ref=e140] [cursor=pointer]: Kotlin APIs
+                - listitem [ref=e141]:
+                  - button [ref=e142] [cursor=pointer]
+                  - generic [ref=e143] [cursor=pointer]: Specifications
+                - listitem [ref=e144]:
+                  - button [ref=e145] [cursor=pointer]
+                  - generic [ref=e146] [cursor=pointer]: Appendix
+        - button [ref=e148] [cursor=pointer]
+    - main [ref=e151]:
+      - generic [ref=e152]:
+        - complementary [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - heading "Observability" [level=3] [ref=e157]
+              - list [ref=e158]:
+                - listitem [ref=e159]:
+                  - link "Context Propagation" [ref=e160] [cursor=pointer]:
+                    - /url: "#actuator.observability.context-propagation"
+                - listitem [ref=e161]:
+                  - link "Common Tags" [ref=e162] [cursor=pointer]:
+                    - /url: "#actuator.observability.common-tags"
+                - listitem [ref=e163]:
+                  - link "Preventing Observations" [ref=e164] [cursor=pointer]:
+                    - /url: "#actuator.observability.preventing-observations"
+                - listitem [ref=e165]:
+                  - link "Micrometer Observation Annotations support" [ref=e166] [cursor=pointer]:
+                    - /url: "#actuator.observability.annotations"
+                - listitem [ref=e167]:
+                  - link "OpenTelemetry Support" [ref=e168] [cursor=pointer]:
+                    - /url: "#actuator.observability.opentelemetry"
+                - listitem [ref=e169]:
+                  - link "Disabling OpenTelemetry" [ref=e170] [cursor=pointer]:
+                    - /url: "#actuator.observability.opentelemetry.disabling"
+                - listitem [ref=e171]:
+                  - link "Environment variables" [ref=e172] [cursor=pointer]:
+                    - /url: "#actuator.observability.opentelemetry.environment-variables"
+                - listitem [ref=e173]:
+                  - link "Logging" [ref=e174] [cursor=pointer]:
+                    - /url: "#actuator.observability.opentelemetry.logging"
+                - listitem [ref=e175]:
+                  - link "Metrics" [ref=e176] [cursor=pointer]:
+                    - /url: "#actuator.observability.opentelemetry.metrics"
+                - listitem [ref=e177]:
+                  - link "Tracing" [ref=e178] [cursor=pointer]:
+                    - /url: "#actuator.observability.opentelemetry.tracing"
+            - generic [ref=e179]:
+              - link "Edit this Page" [ref=e180] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-boot/blob/v4.1.0/documentation/spring-boot-docs/src/docs/antora/modules/reference/pages/actuator/observability.adoc
+              - link "GitHub Project" [ref=e183] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-boot
+              - link "Stack Overflow" [ref=e187] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/spring-boot
+        - article [ref=e190]:
+          - navigation "breadcrumbs" [ref=e192]:
+            - list [ref=e193]:
+              - listitem "Copy versioned URL" [ref=e194]
+              - listitem [ref=e195]:
+                - link "Spring Boot" [ref=e196] [cursor=pointer]:
+                  - /url: ../../index.html
+                - text: /
+              - listitem [ref=e197]:
+                - link "Reference" [ref=e198] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e199]:
+                - link "Production-ready Features" [ref=e200] [cursor=pointer]:
+                  - /url: index.html
+                - text: /
+              - listitem [ref=e201]:
+                - link "Observability" [ref=e202] [cursor=pointer]:
+                  - /url: observability.html
+          - heading "Observability" [level=1] [ref=e203]
+          - generic [ref=e205]:
+            - paragraph [ref=e207]: "Observability is the ability to observe the internal state of a running system from the outside. It consists of the three pillars: logging, metrics and traces."
+            - paragraph [ref=e209]:
+              - text: For metrics and traces, Spring Boot uses
+              - link "Micrometer Observation" [ref=e210] [cursor=pointer]:
+                - /url: https://docs.micrometer.io/micrometer/reference/1.17/observation
+              - text: . To create your own observations (which will lead to metrics and traces), you can inject an
+              - link [ref=e211] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationRegistry.html
+                - code [ref=e212]: ObservationRegistry
+              - text: .
+            - generic [ref=e214]:
+              - tablist [ref=e216]:
+                - tab [selected] [ref=e217] [cursor=pointer]:
+                  - paragraph [ref=e218]: Java
+                - tab [ref=e219] [cursor=pointer]:
+                  - paragraph [ref=e220]: Kotlin
+              - tabpanel "Java" [ref=e221]:
+                - generic [ref=e224]:
+                  - code [ref=e225]:
+                    - text: java
+                    - generic: import io.micrometer.observation.Observation; import io.micrometer.observation.ObservationRegistry; import org.springframework.stereotype.Component;
+                    - generic [ref=e226]:
+                      - text: "@Component public"
+                      - generic [ref=e227]: class MyCustomObservation
+                      - text: "{ private final ObservationRegistry observationRegistry;"
+                      - generic [ref=e228]: public MyCustomObservation(ObservationRegistry observationRegistry)
+                      - text: "{ this.observationRegistry = observationRegistry; }"
+                      - generic [ref=e229]: public void doSomething()
+                      - text: "{ Observation.createNotStarted(\"doSomething\", this.observationRegistry) .lowCardinalityKeyValue(\"locale\", \"en-US\") .highCardinalityKeyValue(\"userId\", \"42\") .observe(() -> { // Execute business logic here }); } }"
+                  - generic [ref=e230]:
+                    - button "Expand foldable text" [ref=e231] [cursor=pointer]
+                    - button "Copied!" [ref=e232] [cursor=pointer]
+              - text: kotlin
+            - table [ref=e235]:
+              - rowgroup [ref=e236]:
+                - row [ref=e237]:
+                  - cell "Note" [ref=e238]
+                  - cell "Low cardinality tags will be added to metrics and traces, while high cardinality tags will only be added to traces." [ref=e240]
+            - paragraph [ref=e242]:
+              - text: Beans of type
+              - link [ref=e243] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationPredicate.html
+                - code [ref=e244]: ObservationPredicate
+              - text: ","
+              - link [ref=e245] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/GlobalObservationConvention.html
+                - code [ref=e246]: GlobalObservationConvention
+              - text: ","
+              - link [ref=e247] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationFilter.html
+                - code [ref=e248]: ObservationFilter
+              - text: and
+              - link [ref=e249] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationHandler.html
+                - code [ref=e250]: ObservationHandler
+              - text: will be automatically registered on the
+              - link [ref=e251] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationRegistry.html
+                - code [ref=e252]: ObservationRegistry
+              - text: . You can additionally register any number of
+              - link [ref=e253] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/observation/autoconfigure/ObservationRegistryCustomizer.html
+                - code [ref=e254]: ObservationRegistryCustomizer
+              - text: beans to further configure the registry.
+            - table [ref=e256]:
+              - rowgroup [ref=e257]:
+                - row [ref=e258]:
+                  - cell "Tip" [ref=e259]
+                  - cell [ref=e261]:
+                    - text: Observability for JDBC can be configured using a separate project. The
+                    - link "Datasource Micrometer project" [ref=e262] [cursor=pointer]:
+                      - /url: https://github.com/jdbc-observations/datasource-micrometer
+                    - text: provides a Spring Boot starter which automatically creates observations when JDBC operations are invoked. Read more about it
+                    - link "in the reference documentation" [ref=e263] [cursor=pointer]:
+                      - /url: https://jdbc-observations.github.io/datasource-micrometer/docs/current/docs/html/
+                    - text: .
+            - table [ref=e265]:
+              - rowgroup [ref=e266]:
+                - row [ref=e267]:
+                  - cell "Tip" [ref=e268]
+                  - cell [ref=e270]:
+                    - text: Observability for R2DBC is built into Spring Boot. To enable it, add the
+                    - code [ref=e271]: io.r2dbc:r2dbc-proxy
+                    - text: dependency to your project.
+          - generic [ref=e272]:
+            - heading "Context Propagation" [level=2] [ref=e273]
+            - generic [ref=e274]:
+              - paragraph [ref=e276]:
+                - text: Observability support relies on the
+                - link "Context Propagation library" [ref=e277] [cursor=pointer]:
+                  - /url: https://github.com/micrometer-metrics/context-propagation
+                - text: for forwarding the current observation across threads and reactive pipelines. By default,
+                - link [ref=e278] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/ThreadLocal.html
+                  - code [ref=e279]: ThreadLocal
+                - text: values are not automatically reinstated in reactive operators. This behavior is controlled with the
+                - code [ref=e280]: spring.reactor.context-propagation
+                - text: property, which can be set to
+                - code [ref=e281]: auto
+                - text: to enable automatic propagation.
+              - paragraph [ref=e283]:
+                - text: If you’re working with
+                - link [ref=e284] [cursor=pointer]:
+                  - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/scheduling/annotation/Async.html
+                  - code [ref=e285]: "@Async"
+                - text: methods and the
+                - link [ref=e286] [cursor=pointer]:
+                  - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/core/task/AsyncTaskExecutor.html
+                  - code [ref=e287]: AsyncTaskExecutor
+                - text: is auto-configured, you have to opt-in for context propagation using the
+                - code [ref=e288]: spring.task.execution.propagate-context
+                - text: property.
+              - paragraph [ref=e290]:
+                - text: If you are configuring the
+                - link [ref=e291] [cursor=pointer]:
+                  - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/core/task/AsyncTaskExecutor.html
+                  - code [ref=e292]: AsyncTaskExecutor
+                - text: yourself, then you need to register a
+                - link [ref=e293] [cursor=pointer]:
+                  - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/core/task/support/ContextPropagatingTaskDecorator.html
+                  - code [ref=e294]: ContextPropagatingTaskDecorator
+                - text: "bean, as shown in the following example:"
+              - generic [ref=e296]:
+                - tablist [ref=e298]:
+                  - tab [selected] [ref=e299] [cursor=pointer]:
+                    - paragraph [ref=e300]: Java
+                  - tab [ref=e301] [cursor=pointer]:
+                    - paragraph [ref=e302]: Kotlin
+                - tabpanel "Java" [ref=e303]:
+                  - generic [ref=e306]:
+                    - code [ref=e307]:
+                      - text: java
+                      - generic: import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration; import org.springframework.core.task.support.ContextPropagatingTaskDecorator;
+                      - generic [ref=e308]:
+                        - text: "@Configuration(proxyBeanMethods = false)"
+                        - generic [ref=e309]: class ContextPropagationConfiguration
+                        - text: "{ @Bean"
+                        - generic [ref=e310]: ContextPropagatingTaskDecorator contextPropagatingTaskDecorator()
+                        - text: "{ return new ContextPropagatingTaskDecorator(); } }"
+                    - generic [ref=e311]:
+                      - button "Expand foldable text" [ref=e312] [cursor=pointer]
+                      - button "Copied!" [ref=e313] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e316]:
+                - text: For more details about observations please see the
+                - link "Micrometer Observation documentation" [ref=e317] [cursor=pointer]:
+                  - /url: https://docs.micrometer.io/micrometer/reference/1.17/observation
+                - text: .
+          - generic [ref=e318]:
+            - heading "Common Tags" [level=2] [ref=e319]
+            - generic [ref=e320]:
+              - paragraph [ref=e322]: "Common tags are generally used for dimensional drill-down on the operating environment, such as host, instance, region, stack, and others. Common tags are applied to all observations as low cardinality tags and can be configured, as the following example shows:"
+              - generic [ref=e324]:
+                - tablist [ref=e326]:
+                  - tab [selected] [ref=e327] [cursor=pointer]:
+                    - paragraph [ref=e328]: Properties
+                  - tab [ref=e329] [cursor=pointer]:
+                    - paragraph [ref=e330]: YAML
+                - tabpanel "Properties" [ref=e331]:
+                  - generic [ref=e334]:
+                    - code [ref=e335]: properties management.observations.key-values.region=us-east-1 management.observations.key-values.stack=prod
+                    - button "Copied!" [ref=e337] [cursor=pointer]
+                - text: yaml
+              - paragraph [ref=e340]:
+                - text: The preceding example adds
+                - code [ref=e341]: region
+                - text: and
+                - code [ref=e342]: stack
+                - text: tags to all observations with a value of
+                - code [ref=e343]: us-east-1
+                - text: and
+                - code [ref=e344]: prod
+                - text: ", respectively."
+          - generic [ref=e345]:
+            - heading "Preventing Observations" [level=2] [ref=e346]
+            - generic [ref=e347]:
+              - paragraph [ref=e349]:
+                - text: If you’d like to prevent some observations from being reported, you can use the
+                - code [ref=e350]: management.observations.enable
+                - text: "properties:"
+              - generic [ref=e352]:
+                - tablist [ref=e354]:
+                  - tab [selected] [ref=e355] [cursor=pointer]:
+                    - paragraph [ref=e356]: Properties
+                  - tab [ref=e357] [cursor=pointer]:
+                    - paragraph [ref=e358]: YAML
+                - tabpanel "Properties" [ref=e359]:
+                  - generic [ref=e362]:
+                    - code [ref=e363]: properties management.observations.enable.denied.prefix=false management.observations.enable.another.denied.prefix=false
+                    - button "Copied!" [ref=e365] [cursor=pointer]
+                - text: yaml
+              - paragraph [ref=e368]:
+                - text: The preceding example will prevent all observations with a name starting with
+                - code [ref=e369]: denied.prefix
+                - text: or
+                - code [ref=e370]: another.denied.prefix
+                - text: .
+              - table [ref=e372]:
+                - rowgroup [ref=e373]:
+                  - row [ref=e374]:
+                    - cell "Tip" [ref=e375]
+                    - cell [ref=e377]:
+                      - text: If you want to prevent Spring Security from reporting observations, set the property
+                      - code [ref=e378]: management.observations.enable.spring.security
+                      - text: to
+                      - code [ref=e379]: "false"
+                      - text: .
+              - paragraph [ref=e381]:
+                - text: If you need greater control over the prevention of observations, you can register beans of type
+                - link [ref=e382] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationPredicate.html
+                  - code [ref=e383]: ObservationPredicate
+                - text: . Observations are only reported if all the
+                - link [ref=e384] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationPredicate.html
+                  - code [ref=e385]: ObservationPredicate
+                - text: beans return
+                - code [ref=e386]: "true"
+                - text: for that observation.
+              - generic [ref=e388]:
+                - tablist [ref=e390]:
+                  - tab [selected] [ref=e391] [cursor=pointer]:
+                    - paragraph [ref=e392]: Java
+                  - tab [ref=e393] [cursor=pointer]:
+                    - paragraph [ref=e394]: Kotlin
+                - tabpanel "Java" [ref=e395]:
+                  - generic [ref=e398]:
+                    - code [ref=e399]:
+                      - text: java
+                      - generic: import io.micrometer.observation.Observation.Context; import io.micrometer.observation.ObservationPredicate; import org.springframework.stereotype.Component;
+                      - generic [ref=e400]:
+                        - text: "@Component"
+                        - generic [ref=e401]: class MyObservationPredicate implements ObservationPredicate
+                        - text: "{ @Override"
+                        - generic [ref=e402]: public boolean test(String name, Context context)
+                        - text: "{ return !name.contains(\"denied\"); } }"
+                    - generic [ref=e403]:
+                      - button "Expand foldable text" [ref=e404] [cursor=pointer]
+                      - button "Copied!" [ref=e405] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e408]: The preceding example will prevent all observations whose name contains "denied".
+          - generic [ref=e409]:
+            - heading "Micrometer Observation Annotations support" [level=2] [ref=e410]
+            - generic [ref=e411]:
+              - paragraph [ref=e413]:
+                - text: To enable scanning of observability annotations like
+                - link [ref=e414] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/annotation/Observed.html
+                  - code [ref=e415]: "@Observed"
+                - text: ","
+                - link [ref=e416] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/annotation/Timed.html
+                  - code [ref=e417]: "@Timed"
+                - text: ","
+                - link [ref=e418] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/annotation/Counted.html
+                  - code [ref=e419]: "@Counted"
+                - text: ","
+                - link [ref=e420] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/aop/MeterTag.html
+                  - code [ref=e421]: "@MeterTag"
+                - text: and
+                - link [ref=e422] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-tracing/1.7.0/io/micrometer/tracing/annotation/NewSpan.html
+                  - code [ref=e423]: "@NewSpan"
+                - text: ", set the"
+                - code [ref=e424]: management.observations.annotations.enabled
+                - text: property to
+                - code [ref=e425]: "true"
+                - text: . A dependency on
+                - code [ref=e426]: org.aspectj:aspectjweaver
+                - text: ", which is part of"
+                - code [ref=e427]: spring-boot-starter-aspectj
+                - text: ", is also required. This feature is supported by Micrometer directly. Please refer to the"
+                - link "Micrometer" [ref=e428] [cursor=pointer]:
+                  - /url: https://docs.micrometer.io/micrometer/reference/1.17/concepts/timers.html#_the_timed_annotation
+                - text: ","
+                - link "Micrometer Observation" [ref=e429] [cursor=pointer]:
+                  - /url: https://docs.micrometer.io/micrometer/reference/1.17/observation/components.html#micrometer-observation-annotations
+                - text: and
+                - link "Micrometer Tracing" [ref=e430] [cursor=pointer]:
+                  - /url: https://docs.micrometer.io/tracing/reference/1.7/api.html#_aspect_oriented_programming
+                - text: reference docs.
+              - table [ref=e432]:
+                - rowgroup [ref=e433]:
+                  - row [ref=e434]:
+                    - cell "Note" [ref=e435]
+                    - cell [ref=e437]:
+                      - text: When you annotate methods or classes which are already instrumented (for example,
+                      - link "Spring Data repositories" [ref=e438] [cursor=pointer]:
+                        - /url: metrics.html#actuator.metrics.supported.spring-data-repository
+                      - text: or
+                      - link "Spring MVC controllers" [ref=e439] [cursor=pointer]:
+                        - /url: metrics.html#actuator.metrics.supported.spring-mvc
+                      - text: ), you will get duplicate observations. In that case you can either disable the automatic instrumentation using
+                      - link "properties" [ref=e440] [cursor=pointer]:
+                        - /url: "#actuator.observability.preventing-observations"
+                      - text: or an
+                      - link [ref=e441] [cursor=pointer]:
+                        - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationPredicate.html
+                        - code [ref=e442]: ObservationPredicate
+                      - text: and rely on your annotations, or you can remove your annotations.
+          - generic [ref=e443]:
+            - heading "OpenTelemetry Support" [level=2] [ref=e444]
+            - generic [ref=e445]:
+              - table [ref=e447]:
+                - rowgroup [ref=e448]:
+                  - row [ref=e449]:
+                    - cell "Note" [ref=e450]
+                    - cell [ref=e452]:
+                      - text: There are several ways to support
+                      - link "OpenTelemetry" [ref=e453] [cursor=pointer]:
+                        - /url: https://opentelemetry.io/
+                      - text: in your application. You can use the
+                      - link "OpenTelemetry Java Agent" [ref=e454] [cursor=pointer]:
+                        - /url: https://opentelemetry.io/docs/zero-code/java/agent/
+                      - text: or the
+                      - link "OpenTelemetry Spring Boot Starter" [ref=e455] [cursor=pointer]:
+                        - /url: https://opentelemetry.io/docs/zero-code/java/spring-boot-starter/
+                      - text: ", which are supported by the OTel community; the metrics and traces use the semantic conventions defined by OTel libraries. This documentation describes OpenTelemetry as officially supported by the Spring team, using Micrometer and the OTLP exporter; the metrics and traces use the semantic conventions described in the Spring projects documentation, such as"
+                      - link "Spring Framework" [ref=e456] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/reference/7.0/integration/observability.html
+                      - text: .
+              - paragraph [ref=e458]: Spring Boot’s actuator module includes basic support for OpenTelemetry.
+              - paragraph [ref=e460]:
+                - text: It provides a bean of type
+                - link [ref=e461] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-api/1.62.0/io/opentelemetry/api/OpenTelemetry.html
+                  - code [ref=e462]: OpenTelemetry
+                - text: ", and if there are beans of type"
+                - link [ref=e463] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-trace/1.62.0/io/opentelemetry/sdk/trace/SdkTracerProvider.html
+                  - code [ref=e464]: SdkTracerProvider
+                - text: ","
+                - link [ref=e465] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-context/1.62.0/io/opentelemetry/context/propagation/ContextPropagators.html
+                  - code [ref=e466]: ContextPropagators
+                - text: ","
+                - link [ref=e467] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-logs/1.62.0/io/opentelemetry/sdk/logs/SdkLoggerProvider.html
+                  - code [ref=e468]: SdkLoggerProvider
+                - text: or
+                - link [ref=e469] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-metrics/1.62.0/io/opentelemetry/sdk/metrics/SdkMeterProvider.html
+                  - code [ref=e470]: SdkMeterProvider
+                - text: in the application context, they automatically get registered. Additionally, it provides a
+                - link [ref=e471] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-common/1.62.0/io/opentelemetry/sdk/resources/Resource.html
+                  - code [ref=e472]: Resource
+                - text: bean. The attributes of the auto-configured
+                - link [ref=e473] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-common/1.62.0/io/opentelemetry/sdk/resources/Resource.html
+                  - code [ref=e474]: Resource
+                - text: can be configured via the
+                - code [ref=e475]: management.opentelemetry.resource-attributes
+                - text: configuration property. Auto-configured attributes will be merged with attributes from the
+                - code [ref=e476]: OTEL_RESOURCE_ATTRIBUTES
+                - text: and
+                - code [ref=e477]: OTEL_SERVICE_NAME
+                - text: environment variables, with attributes configured through the configuration property taking precedence over those from the environment variables.
+              - paragraph [ref=e479]:
+                - text: If you have defined your own
+                - link [ref=e480] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-common/1.62.0/io/opentelemetry/sdk/resources/Resource.html
+                  - code [ref=e481]: Resource
+                - text: bean, this will no longer be the case.
+              - table [ref=e483]:
+                - rowgroup [ref=e484]:
+                  - row [ref=e485]:
+                    - cell "Note" [ref=e486]
+                    - cell [ref=e488]:
+                      - text: Spring Boot does not provide automatic exporting of OpenTelemetry metrics or logs. Exporting OpenTelemetry traces is only auto-configured when used together with
+                      - link "Micrometer Tracing" [ref=e489] [cursor=pointer]:
+                        - /url: tracing.html
+                      - text: .
+              - generic [ref=e490]:
+                - heading "Disabling OpenTelemetry" [level=3] [ref=e491]
+                - paragraph [ref=e493]:
+                  - text: The OpenTelemetry support can be disabled by setting the
+                  - code [ref=e494]: management.opentelemetry.enabled
+                  - text: property to
+                  - code [ref=e495]: "false"
+                  - text: . This behaves similarly to the
+                  - link [ref=e496] [cursor=pointer]:
+                    - /url: https://opentelemetry.io/docs/specs/otel/configuration/sdk-environment-variables/#general-sdk-configuration
+                    - code [ref=e497]: OTEL_SDK_DISABLED
+                  - text: "environment variable (but negated): when the SDK is disabled, metrics, traces, and logging will use no-op implementations. Context propagators are not affected and continue to function normally."
+                - table [ref=e499]:
+                  - rowgroup [ref=e500]:
+                    - row [ref=e501]:
+                      - cell "Note" [ref=e502]
+                      - cell "Keep in mind that Spring Boot doesn’t use OpenTelemetry’s metrics functionality, so metrics might still be enabled even when disabling OpenTelemetry." [ref=e504]
+              - generic [ref=e505]:
+                - heading "Environment variables" [level=3] [ref=e506]
+                - paragraph [ref=e508]:
+                  - text: Spring Boot supports a subset of the
+                  - link "OpenTelemetry SDK environment variables" [ref=e509] [cursor=pointer]:
+                    - /url: https://opentelemetry.io/docs/specs/otel/configuration/sdk-environment-variables/
+                  - text: . These environment variables are automatically mapped to Spring Boot configuration properties at startup. When an environment variable has a signal-specific variant (for example,
+                  - code [ref=e510]: OTEL_EXPORTER_OTLP_TRACES_ENDPOINT
+                  - text: ) and a general variant (
+                  - code [ref=e511]: OTEL_EXPORTER_OTLP_ENDPOINT
+                  - text: ), the signal-specific variant takes precedence and is used as-is. When the general variant is used as a fallback, the signal-specific path (
+                  - code [ref=e512]: v1/traces
+                  - text: ","
+                  - code [ref=e513]: v1/metrics
+                  - text: ", or"
+                  - code [ref=e514]: v1/logs
+                  - text: ) is appended to it. For example, setting
+                  - code [ref=e515]: OTEL_EXPORTER_OTLP_ENDPOINT=http://collector:4318
+                  - text: results in
+                  - code [ref=e516]:
+                    - link "collector:4318/v1/traces" [ref=e517] [cursor=pointer]:
+                      - /url: http://collector:4318/v1/traces
+                  - text: for traces.
+                - paragraph [ref=e519]:
+                  - text: This mapping can be disabled by setting
+                  - code [ref=e520]: management.opentelemetry.map-environment-variables
+                  - text: to
+                  - code [ref=e521]: "false"
+                  - text: .
+                - generic [ref=e522]:
+                  - heading "General" [level=4] [ref=e523]
+                  - table [ref=e524]:
+                    - rowgroup [ref=e528]:
+                      - row [ref=e529]:
+                        - columnheader "Environment Variable" [ref=e530]
+                        - columnheader "Spring Boot Property" [ref=e531]
+                    - rowgroup [ref=e532]:
+                      - row [ref=e533]:
+                        - cell [ref=e534]:
+                          - paragraph [ref=e535]:
+                            - code [ref=e536]: OTEL_SDK_DISABLED
+                        - cell [ref=e537]:
+                          - paragraph [ref=e538]:
+                            - code [ref=e539]: management.opentelemetry.enabled
+                            - text: (inverted)
+                      - row [ref=e540]:
+                        - cell [ref=e541]:
+                          - paragraph [ref=e542]:
+                            - code [ref=e543]: OTEL_PROPAGATORS
+                        - cell [ref=e544]:
+                          - paragraph [ref=e545]:
+                            - code [ref=e546]: management.tracing.propagation.type
+                            - text: and
+                            - code [ref=e547]: management.tracing.baggage.enabled
+                      - row [ref=e548]:
+                        - cell [ref=e549]:
+                          - paragraph [ref=e550]:
+                            - code [ref=e551]: OTEL_TRACES_SAMPLER
+                        - cell [ref=e552]:
+                          - paragraph [ref=e553]:
+                            - code [ref=e554]: management.opentelemetry.tracing.sampler
+                      - row [ref=e555]:
+                        - cell [ref=e556]:
+                          - paragraph [ref=e557]:
+                            - code [ref=e558]: OTEL_TRACES_SAMPLER_ARG
+                        - cell [ref=e559]:
+                          - paragraph [ref=e560]:
+                            - code [ref=e561]: management.tracing.sampling.probability
+                      - row [ref=e562]:
+                        - cell [ref=e563]:
+                          - paragraph [ref=e564]:
+                            - code [ref=e565]: OTEL_METRICS_EXEMPLAR_FILTER
+                        - cell [ref=e566]:
+                          - paragraph [ref=e567]:
+                            - code [ref=e568]: management.tracing.exemplars.include
+                - generic [ref=e569]:
+                  - heading "Metrics Exporter" [level=4] [ref=e570]
+                  - table [ref=e571]:
+                    - rowgroup [ref=e575]:
+                      - row [ref=e576]:
+                        - columnheader "Environment Variable" [ref=e577]
+                        - columnheader "Spring Boot Property" [ref=e578]
+                    - rowgroup [ref=e579]:
+                      - row [ref=e580]:
+                        - cell [ref=e581]:
+                          - paragraph [ref=e582]:
+                            - code [ref=e583]: OTEL_EXPORTER_OTLP_METRICS_ENDPOINT
+                            - text: /
+                            - code [ref=e584]: OTEL_EXPORTER_OTLP_ENDPOINT
+                        - cell [ref=e585]:
+                          - paragraph [ref=e586]:
+                            - code [ref=e587]: management.otlp.metrics.export.url
+                      - row [ref=e588]:
+                        - cell [ref=e589]:
+                          - paragraph [ref=e590]:
+                            - code [ref=e591]: OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE
+                        - cell [ref=e592]:
+                          - paragraph [ref=e593]:
+                            - code [ref=e594]: management.otlp.metrics.export.aggregation-temporality
+                      - row [ref=e595]:
+                        - cell [ref=e596]:
+                          - paragraph [ref=e597]:
+                            - code [ref=e598]: OTEL_EXPORTER_OTLP_METRICS_DEFAULT_HISTOGRAM_AGGREGATION
+                        - cell [ref=e599]:
+                          - paragraph [ref=e600]:
+                            - code [ref=e601]: management.otlp.metrics.export.histogram-flavor
+                      - row [ref=e602]:
+                        - cell [ref=e603]:
+                          - paragraph [ref=e604]:
+                            - code [ref=e605]: OTEL_EXPORTER_OTLP_METRICS_COMPRESSION
+                            - text: /
+                            - code [ref=e606]: OTEL_EXPORTER_OTLP_COMPRESSION
+                        - cell [ref=e607]:
+                          - paragraph [ref=e608]:
+                            - code [ref=e609]: management.otlp.metrics.export.compression-mode
+                      - row [ref=e610]:
+                        - cell [ref=e611]:
+                          - paragraph [ref=e612]:
+                            - code [ref=e613]: OTEL_EXPORTER_OTLP_METRICS_TIMEOUT
+                            - text: /
+                            - code [ref=e614]: OTEL_EXPORTER_OTLP_TIMEOUT
+                        - cell [ref=e615]:
+                          - paragraph [ref=e616]:
+                            - code [ref=e617]: management.otlp.metrics.export.read-timeout
+                      - row [ref=e618]:
+                        - cell [ref=e619]:
+                          - paragraph [ref=e620]:
+                            - code [ref=e621]: OTEL_EXPORTER_OTLP_METRICS_HEADERS
+                            - text: /
+                            - code [ref=e622]: OTEL_EXPORTER_OTLP_HEADERS
+                        - cell [ref=e623]:
+                          - paragraph [ref=e624]:
+                            - code [ref=e625]: management.otlp.metrics.export.headers
+                      - row [ref=e626]:
+                        - cell [ref=e627]:
+                          - paragraph [ref=e628]:
+                            - code [ref=e629]: OTEL_METRIC_EXPORT_INTERVAL
+                        - cell [ref=e630]:
+                          - paragraph [ref=e631]:
+                            - code [ref=e632]: management.otlp.metrics.export.step
+                      - row [ref=e633]:
+                        - cell [ref=e634]:
+                          - paragraph [ref=e635]:
+                            - code [ref=e636]: OTEL_METRICS_EXPORTER
+                        - cell [ref=e637]:
+                          - paragraph [ref=e638]:
+                            - code [ref=e639]: management.otlp.metrics.export.enabled
+                            - text: (only
+                            - code [ref=e640]: otlp
+                            - text: enables OTLP export; other values disable it but do not enable alternative exporters)
+                      - row [ref=e641]:
+                        - cell [ref=e642]:
+                          - paragraph [ref=e643]:
+                            - code [ref=e644]: OTEL_EXPORTER_OTLP_METRICS_CERTIFICATE
+                            - text: /
+                            - code [ref=e645]: OTEL_EXPORTER_OTLP_CERTIFICATE
+                        - cell [ref=e646]:
+                          - paragraph [ref=e647]:
+                            - code [ref=e648]: management.otlp.metrics.export.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                      - row [ref=e649]:
+                        - cell [ref=e650]:
+                          - paragraph [ref=e651]:
+                            - code [ref=e652]: OTEL_EXPORTER_OTLP_METRICS_CLIENT_KEY
+                            - text: /
+                            - code [ref=e653]: OTEL_EXPORTER_OTLP_CLIENT_KEY
+                        - cell [ref=e654]:
+                          - paragraph [ref=e655]:
+                            - code [ref=e656]: management.otlp.metrics.export.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                      - row [ref=e657]:
+                        - cell [ref=e658]:
+                          - paragraph [ref=e659]:
+                            - code [ref=e660]: OTEL_EXPORTER_OTLP_METRICS_CLIENT_CERTIFICATE
+                            - text: /
+                            - code [ref=e661]: OTEL_EXPORTER_OTLP_CLIENT_CERTIFICATE
+                        - cell [ref=e662]:
+                          - paragraph [ref=e663]:
+                            - code [ref=e664]: management.otlp.metrics.export.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                - generic [ref=e665]:
+                  - heading "Traces Exporter" [level=4] [ref=e666]
+                  - table [ref=e667]:
+                    - rowgroup [ref=e671]:
+                      - row [ref=e672]:
+                        - columnheader "Environment Variable" [ref=e673]
+                        - columnheader "Spring Boot Property" [ref=e674]
+                    - rowgroup [ref=e675]:
+                      - row [ref=e676]:
+                        - cell [ref=e677]:
+                          - paragraph [ref=e678]:
+                            - code [ref=e679]: OTEL_EXPORTER_OTLP_TRACES_ENDPOINT
+                            - text: /
+                            - code [ref=e680]: OTEL_EXPORTER_OTLP_ENDPOINT
+                        - cell [ref=e681]:
+                          - paragraph [ref=e682]:
+                            - code [ref=e683]: management.opentelemetry.tracing.export.otlp.endpoint
+                      - row [ref=e684]:
+                        - cell [ref=e685]:
+                          - paragraph [ref=e686]:
+                            - code [ref=e687]: OTEL_EXPORTER_OTLP_TRACES_COMPRESSION
+                            - text: /
+                            - code [ref=e688]: OTEL_EXPORTER_OTLP_COMPRESSION
+                        - cell [ref=e689]:
+                          - paragraph [ref=e690]:
+                            - code [ref=e691]: management.opentelemetry.tracing.export.otlp.compression
+                      - row [ref=e692]:
+                        - cell [ref=e693]:
+                          - paragraph [ref=e694]:
+                            - code [ref=e695]: OTEL_EXPORTER_OTLP_TRACES_TIMEOUT
+                            - text: /
+                            - code [ref=e696]: OTEL_EXPORTER_OTLP_TIMEOUT
+                        - cell [ref=e697]:
+                          - paragraph [ref=e698]:
+                            - code [ref=e699]: management.opentelemetry.tracing.export.otlp.timeout
+                      - row [ref=e700]:
+                        - cell [ref=e701]:
+                          - paragraph [ref=e702]:
+                            - code [ref=e703]: OTEL_EXPORTER_OTLP_TRACES_PROTOCOL
+                            - text: /
+                            - code [ref=e704]: OTEL_EXPORTER_OTLP_PROTOCOL
+                        - cell [ref=e705]:
+                          - paragraph [ref=e706]:
+                            - code [ref=e707]: management.opentelemetry.tracing.export.otlp.transport
+                      - row [ref=e708]:
+                        - cell [ref=e709]:
+                          - paragraph [ref=e710]:
+                            - code [ref=e711]: OTEL_EXPORTER_OTLP_TRACES_HEADERS
+                            - text: /
+                            - code [ref=e712]: OTEL_EXPORTER_OTLP_HEADERS
+                        - cell [ref=e713]:
+                          - paragraph [ref=e714]:
+                            - code [ref=e715]: management.opentelemetry.tracing.export.otlp.headers
+                      - row [ref=e716]:
+                        - cell [ref=e717]:
+                          - paragraph [ref=e718]:
+                            - code [ref=e719]: OTEL_BSP_SCHEDULE_DELAY
+                        - cell [ref=e720]:
+                          - paragraph [ref=e721]:
+                            - code [ref=e722]: management.opentelemetry.tracing.export.schedule-delay
+                      - row [ref=e723]:
+                        - cell [ref=e724]:
+                          - paragraph [ref=e725]:
+                            - code [ref=e726]: OTEL_BSP_EXPORT_TIMEOUT
+                        - cell [ref=e727]:
+                          - paragraph [ref=e728]:
+                            - code [ref=e729]: management.opentelemetry.tracing.export.timeout
+                      - row [ref=e730]:
+                        - cell [ref=e731]:
+                          - paragraph [ref=e732]:
+                            - code [ref=e733]: OTEL_BSP_MAX_QUEUE_SIZE
+                        - cell [ref=e734]:
+                          - paragraph [ref=e735]:
+                            - code [ref=e736]: management.opentelemetry.tracing.export.max-queue-size
+                      - row [ref=e737]:
+                        - cell [ref=e738]:
+                          - paragraph [ref=e739]:
+                            - code [ref=e740]: OTEL_BSP_MAX_EXPORT_BATCH_SIZE
+                        - cell [ref=e741]:
+                          - paragraph [ref=e742]:
+                            - code [ref=e743]: management.opentelemetry.tracing.export.max-batch-size
+                      - row [ref=e744]:
+                        - cell [ref=e745]:
+                          - paragraph [ref=e746]:
+                            - code [ref=e747]: OTEL_TRACES_EXPORTER
+                        - cell [ref=e748]:
+                          - paragraph [ref=e749]:
+                            - code [ref=e750]: management.tracing.export.otlp.enabled
+                            - text: (only
+                            - code [ref=e751]: otlp
+                            - text: enables OTLP export; other values disable it but do not enable alternative exporters)
+                      - row [ref=e752]:
+                        - cell [ref=e753]:
+                          - paragraph [ref=e754]:
+                            - code [ref=e755]: OTEL_SPAN_ATTRIBUTE_VALUE_LENGTH_LIMIT
+                            - text: /
+                            - code [ref=e756]: OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT
+                        - cell [ref=e757]:
+                          - paragraph [ref=e758]:
+                            - code [ref=e759]: management.opentelemetry.tracing.limits.max-attribute-value-length
+                      - row [ref=e760]:
+                        - cell [ref=e761]:
+                          - paragraph [ref=e762]:
+                            - code [ref=e763]: OTEL_SPAN_ATTRIBUTE_COUNT_LIMIT
+                            - text: /
+                            - code [ref=e764]: OTEL_ATTRIBUTE_COUNT_LIMIT
+                        - cell [ref=e765]:
+                          - paragraph [ref=e766]:
+                            - code [ref=e767]: management.opentelemetry.tracing.limits.max-attributes
+                      - row [ref=e768]:
+                        - cell [ref=e769]:
+                          - paragraph [ref=e770]:
+                            - code [ref=e771]: OTEL_SPAN_EVENT_COUNT_LIMIT
+                        - cell [ref=e772]:
+                          - paragraph [ref=e773]:
+                            - code [ref=e774]: management.opentelemetry.tracing.limits.max-events
+                      - row [ref=e775]:
+                        - cell [ref=e776]:
+                          - paragraph [ref=e777]:
+                            - code [ref=e778]: OTEL_SPAN_LINK_COUNT_LIMIT
+                        - cell [ref=e779]:
+                          - paragraph [ref=e780]:
+                            - code [ref=e781]: management.opentelemetry.tracing.limits.max-links
+                      - row [ref=e782]:
+                        - cell [ref=e783]:
+                          - paragraph [ref=e784]:
+                            - code [ref=e785]: OTEL_EVENT_ATTRIBUTE_COUNT_LIMIT
+                        - cell [ref=e786]:
+                          - paragraph [ref=e787]:
+                            - code [ref=e788]: management.opentelemetry.tracing.limits.max-attributes-per-event
+                      - row [ref=e789]:
+                        - cell [ref=e790]:
+                          - paragraph [ref=e791]:
+                            - code [ref=e792]: OTEL_LINK_ATTRIBUTE_COUNT_LIMIT
+                        - cell [ref=e793]:
+                          - paragraph [ref=e794]:
+                            - code [ref=e795]: management.opentelemetry.tracing.limits.max-attributes-per-link
+                      - row [ref=e796]:
+                        - cell [ref=e797]:
+                          - paragraph [ref=e798]:
+                            - code [ref=e799]: OTEL_EXPORTER_OTLP_TRACES_CERTIFICATE
+                            - text: /
+                            - code [ref=e800]: OTEL_EXPORTER_OTLP_CERTIFICATE
+                        - cell [ref=e801]:
+                          - paragraph [ref=e802]:
+                            - code [ref=e803]: management.opentelemetry.tracing.export.otlp.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                      - row [ref=e804]:
+                        - cell [ref=e805]:
+                          - paragraph [ref=e806]:
+                            - code [ref=e807]: OTEL_EXPORTER_OTLP_TRACES_CLIENT_KEY
+                            - text: /
+                            - code [ref=e808]: OTEL_EXPORTER_OTLP_CLIENT_KEY
+                        - cell [ref=e809]:
+                          - paragraph [ref=e810]:
+                            - code [ref=e811]: management.opentelemetry.tracing.export.otlp.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                      - row [ref=e812]:
+                        - cell [ref=e813]:
+                          - paragraph [ref=e814]:
+                            - code [ref=e815]: OTEL_EXPORTER_OTLP_TRACES_CLIENT_CERTIFICATE
+                            - text: /
+                            - code [ref=e816]: OTEL_EXPORTER_OTLP_CLIENT_CERTIFICATE
+                        - cell [ref=e817]:
+                          - paragraph [ref=e818]:
+                            - code [ref=e819]: management.opentelemetry.tracing.export.otlp.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                - generic [ref=e820]:
+                  - heading "Logs Exporter" [level=4] [ref=e821]
+                  - table [ref=e822]:
+                    - rowgroup [ref=e826]:
+                      - row [ref=e827]:
+                        - columnheader "Environment Variable" [ref=e828]
+                        - columnheader "Spring Boot Property" [ref=e829]
+                    - rowgroup [ref=e830]:
+                      - row [ref=e831]:
+                        - cell [ref=e832]:
+                          - paragraph [ref=e833]:
+                            - code [ref=e834]: OTEL_EXPORTER_OTLP_LOGS_ENDPOINT
+                            - text: /
+                            - code [ref=e835]: OTEL_EXPORTER_OTLP_ENDPOINT
+                        - cell [ref=e836]:
+                          - paragraph [ref=e837]:
+                            - code [ref=e838]: management.opentelemetry.logging.export.otlp.endpoint
+                      - row [ref=e839]:
+                        - cell [ref=e840]:
+                          - paragraph [ref=e841]:
+                            - code [ref=e842]: OTEL_EXPORTER_OTLP_LOGS_COMPRESSION
+                            - text: /
+                            - code [ref=e843]: OTEL_EXPORTER_OTLP_COMPRESSION
+                        - cell [ref=e844]:
+                          - paragraph [ref=e845]:
+                            - code [ref=e846]: management.opentelemetry.logging.export.otlp.compression
+                      - row [ref=e847]:
+                        - cell [ref=e848]:
+                          - paragraph [ref=e849]:
+                            - code [ref=e850]: OTEL_EXPORTER_OTLP_LOGS_TIMEOUT
+                            - text: /
+                            - code [ref=e851]: OTEL_EXPORTER_OTLP_TIMEOUT
+                        - cell [ref=e852]:
+                          - paragraph [ref=e853]:
+                            - code [ref=e854]: management.opentelemetry.logging.export.otlp.timeout
+                      - row [ref=e855]:
+                        - cell [ref=e856]:
+                          - paragraph [ref=e857]:
+                            - code [ref=e858]: OTEL_EXPORTER_OTLP_LOGS_PROTOCOL
+                            - text: /
+                            - code [ref=e859]: OTEL_EXPORTER_OTLP_PROTOCOL
+                        - cell [ref=e860]:
+                          - paragraph [ref=e861]:
+                            - code [ref=e862]: management.opentelemetry.logging.export.otlp.transport
+                      - row [ref=e863]:
+                        - cell [ref=e864]:
+                          - paragraph [ref=e865]:
+                            - code [ref=e866]: OTEL_EXPORTER_OTLP_LOGS_HEADERS
+                            - text: /
+                            - code [ref=e867]: OTEL_EXPORTER_OTLP_HEADERS
+                        - cell [ref=e868]:
+                          - paragraph [ref=e869]:
+                            - code [ref=e870]: management.opentelemetry.logging.export.otlp.headers
+                      - row [ref=e871]:
+                        - cell [ref=e872]:
+                          - paragraph [ref=e873]:
+                            - code [ref=e874]: OTEL_BLRP_SCHEDULE_DELAY
+                        - cell [ref=e875]:
+                          - paragraph [ref=e876]:
+                            - code [ref=e877]: management.opentelemetry.logging.export.schedule-delay
+                      - row [ref=e878]:
+                        - cell [ref=e879]:
+                          - paragraph [ref=e880]:
+                            - code [ref=e881]: OTEL_BLRP_EXPORT_TIMEOUT
+                        - cell [ref=e882]:
+                          - paragraph [ref=e883]:
+                            - code [ref=e884]: management.opentelemetry.logging.export.timeout
+                      - row [ref=e885]:
+                        - cell [ref=e886]:
+                          - paragraph [ref=e887]:
+                            - code [ref=e888]: OTEL_BLRP_MAX_QUEUE_SIZE
+                        - cell [ref=e889]:
+                          - paragraph [ref=e890]:
+                            - code [ref=e891]: management.opentelemetry.logging.export.max-queue-size
+                      - row [ref=e892]:
+                        - cell [ref=e893]:
+                          - paragraph [ref=e894]:
+                            - code [ref=e895]: OTEL_BLRP_MAX_EXPORT_BATCH_SIZE
+                        - cell [ref=e896]:
+                          - paragraph [ref=e897]:
+                            - code [ref=e898]: management.opentelemetry.logging.export.max-batch-size
+                      - row [ref=e899]:
+                        - cell [ref=e900]:
+                          - paragraph [ref=e901]:
+                            - code [ref=e902]: OTEL_LOGS_EXPORTER
+                        - cell [ref=e903]:
+                          - paragraph [ref=e904]:
+                            - code [ref=e905]: management.logging.export.otlp.enabled
+                            - text: (only
+                            - code [ref=e906]: otlp
+                            - text: enables OTLP export; other values disable it but do not enable alternative exporters)
+                      - row [ref=e907]:
+                        - cell [ref=e908]:
+                          - paragraph [ref=e909]:
+                            - code [ref=e910]: OTEL_LOGRECORD_ATTRIBUTE_VALUE_LENGTH_LIMIT
+                            - text: /
+                            - code [ref=e911]: OTEL_ATTRIBUTE_VALUE_LENGTH_LIMIT
+                        - cell [ref=e912]:
+                          - paragraph [ref=e913]:
+                            - code [ref=e914]: management.opentelemetry.logging.limits.max-attribute-value-length
+                      - row [ref=e915]:
+                        - cell [ref=e916]:
+                          - paragraph [ref=e917]:
+                            - code [ref=e918]: OTEL_LOGRECORD_ATTRIBUTE_COUNT_LIMIT
+                            - text: /
+                            - code [ref=e919]: OTEL_ATTRIBUTE_COUNT_LIMIT
+                        - cell [ref=e920]:
+                          - paragraph [ref=e921]:
+                            - code [ref=e922]: management.opentelemetry.logging.limits.max-attributes
+                      - row [ref=e923]:
+                        - cell [ref=e924]:
+                          - paragraph [ref=e925]:
+                            - code [ref=e926]: OTEL_EXPORTER_OTLP_LOGS_CERTIFICATE
+                            - text: /
+                            - code [ref=e927]: OTEL_EXPORTER_OTLP_CERTIFICATE
+                        - cell [ref=e928]:
+                          - paragraph [ref=e929]:
+                            - code [ref=e930]: management.opentelemetry.logging.export.otlp.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                      - row [ref=e931]:
+                        - cell [ref=e932]:
+                          - paragraph [ref=e933]:
+                            - code [ref=e934]: OTEL_EXPORTER_OTLP_LOGS_CLIENT_KEY
+                            - text: /
+                            - code [ref=e935]: OTEL_EXPORTER_OTLP_CLIENT_KEY
+                        - cell [ref=e936]:
+                          - paragraph [ref=e937]:
+                            - code [ref=e938]: management.opentelemetry.logging.export.otlp.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                      - row [ref=e939]:
+                        - cell [ref=e940]:
+                          - paragraph [ref=e941]:
+                            - code [ref=e942]: OTEL_EXPORTER_OTLP_LOGS_CLIENT_CERTIFICATE
+                            - text: /
+                            - code [ref=e943]: OTEL_EXPORTER_OTLP_CLIENT_CERTIFICATE
+                        - cell [ref=e944]:
+                          - paragraph [ref=e945]:
+                            - code [ref=e946]: management.opentelemetry.logging.export.otlp.ssl.bundle
+                            - text: (auto-configured SSL bundle)
+                - generic [ref=e947]:
+                  - heading "Resource" [level=4] [ref=e948]
+                  - paragraph [ref=e950]: "The following environment variables configure the OpenTelemetry resource:"
+                  - list [ref=e952]:
+                    - listitem [ref=e953]:
+                      - paragraph [ref=e954]:
+                        - link [ref=e955] [cursor=pointer]:
+                          - /url: https://opentelemetry.io/docs/specs/otel/configuration/sdk-environment-variables/#general-sdk-configuration
+                          - code [ref=e956]: OTEL_RESOURCE_ATTRIBUTES
+                    - listitem [ref=e957]:
+                      - paragraph [ref=e958]:
+                        - link [ref=e959] [cursor=pointer]:
+                          - /url: https://opentelemetry.io/docs/specs/otel/configuration/sdk-environment-variables/#general-sdk-configuration
+                          - code [ref=e960]: OTEL_SERVICE_NAME
+                  - table [ref=e962]:
+                    - rowgroup [ref=e963]:
+                      - row [ref=e964]:
+                        - cell "Note" [ref=e965]
+                        - cell [ref=e967]:
+                          - text: The
+                          - code [ref=e968]: OTEL_RESOURCE_ATTRIBUTES
+                          - text: "environment variable consists of a list of key-value pairs. For example:"
+                          - code [ref=e969]: key1=value1,key2=value2,key3=spring%20boot
+                          - text: . All attribute values are treated as strings, and any characters outside the baggage-octet range must be
+                          - strong [ref=e970]: percent-encoded
+                          - text: .
+                - generic [ref=e971]:
+                  - heading "Unsupported Environment Variables" [level=4] [ref=e972]
+                  - paragraph [ref=e974]:
+                    - text: Other environment variables as described in
+                    - link "the OpenTelemetry documentation" [ref=e975] [cursor=pointer]:
+                      - /url: https://opentelemetry.io/docs/specs/otel/configuration/sdk-environment-variables/
+                    - text: are not supported.
+                  - paragraph [ref=e977]:
+                    - text: If you want all environment variables specified by OpenTelemetry’s SDK to be effective, you have to supply your own
+                    - code [ref=e978]: OpenTelemetry
+                    - text: bean.
+                  - table [ref=e980]:
+                    - rowgroup [ref=e981]:
+                      - row [ref=e982]:
+                        - cell "Warning" [ref=e983]
+                        - cell "Doing this will switch off Spring Boot’s OpenTelemetry auto-configuration and may break the built-in observability functionality." [ref=e985]
+                  - paragraph [ref=e987]:
+                    - text: First, add a dependency to
+                    - code [ref=e988]: io.opentelemetry:opentelemetry-sdk-extension-autoconfigure
+                    - text: to get
+                    - link "OpenTelemetry’s zero-code SDK autoconfigure module" [ref=e989] [cursor=pointer]:
+                      - /url: https://opentelemetry.io/docs/languages/java/configuration/#zero-code-sdk-autoconfigure
+                    - text: ", then add this configuration:"
+                  - generic [ref=e992]:
+                    - code [ref=e993]:
+                      - text: java
+                      - generic: import io.opentelemetry.api.OpenTelemetry; import io.opentelemetry.sdk.autoconfigure.AutoConfiguredOpenTelemetrySdk; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                      - generic [ref=e994]:
+                        - text: "@Configuration(proxyBeanMethods = false)"
+                        - generic [ref=e995]: class AutoConfiguredOpenTelemetrySdkConfiguration
+                        - text: "{ @Bean"
+                        - generic [ref=e996]: OpenTelemetry autoConfiguredOpenTelemetrySdk()
+                        - text: "{ return AutoConfiguredOpenTelemetrySdk.initialize().getOpenTelemetrySdk(); } }"
+                    - generic [ref=e997]:
+                      - button "Expand foldable text" [ref=e998] [cursor=pointer]
+                      - button "Copied!" [ref=e999] [cursor=pointer]
+              - generic [ref=e1001]:
+                - heading "Logging" [level=3] [ref=e1002]
+                - paragraph [ref=e1004]:
+                  - text: The
+                  - link [ref=e1005] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/opentelemetry/autoconfigure/logging/OpenTelemetryLoggingAutoConfiguration.html
+                    - code [ref=e1006]: OpenTelemetryLoggingAutoConfiguration
+                  - text: configures OpenTelemetry’s
+                  - link [ref=e1007] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-logs/1.62.0/io/opentelemetry/sdk/logs/SdkLoggerProvider.html
+                    - code [ref=e1008]: SdkLoggerProvider
+                  - text: . Exporting logs via OTLP is supported through the
+                  - link [ref=e1009] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/opentelemetry/autoconfigure/logging/otlp/OtlpLoggingAutoConfiguration.html
+                    - code [ref=e1010]: OtlpLoggingAutoConfiguration
+                  - text: ", which enables OTLP log exporting over HTTP or gRPC."
+                - table [ref=e1012]:
+                  - rowgroup [ref=e1013]:
+                    - row [ref=e1014]:
+                      - cell "Note" [ref=e1015]
+                      - cell [ref=e1017]:
+                        - text: If you need to apply advanced customizations to OTLP log record exporters, consider registering
+                        - link [ref=e1018] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/opentelemetry/autoconfigure/logging/otlp/OtlpHttpLogRecordExporterBuilderCustomizer.html
+                          - code [ref=e1019]: OtlpHttpLogRecordExporterBuilderCustomizer
+                        - text: or
+                        - link [ref=e1020] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/opentelemetry/autoconfigure/logging/otlp/OtlpGrpcLogRecordExporterBuilderCustomizer.html
+                          - code [ref=e1021]: OtlpGrpcLogRecordExporterBuilderCustomizer
+                        - text: beans. These will be invoked before the creation of the
+                        - link [ref=e1022] [cursor=pointer]:
+                          - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-exporter-otlp/1.62.0/io/opentelemetry/exporter/otlp/http/logs/OtlpHttpLogRecordExporter.html
+                          - code [ref=e1023]: OtlpHttpLogRecordExporter
+                        - text: or
+                        - link [ref=e1024] [cursor=pointer]:
+                          - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-exporter-otlp/1.62.0/io/opentelemetry/exporter/otlp/logs/OtlpGrpcLogRecordExporter.html
+                          - code [ref=e1025]: OtlpGrpcLogRecordExporter
+                        - text: . The customizers take precedence over anything applied by the auto-configuration.
+                - paragraph [ref=e1027]:
+                  - text: However, while there is a
+                  - code [ref=e1028]: SdkLoggerProvider
+                  - text: bean, Spring Boot doesn’t support bridging logs to this bean out of the box. This can be done with 3rd-party log bridges, as described in the
+                  - link "Logging with OpenTelemetry" [ref=e1029] [cursor=pointer]:
+                    - /url: loggers.html#actuator.loggers.opentelemetry
+                  - text: section.
+              - generic [ref=e1030]:
+                - heading "Metrics" [level=3] [ref=e1031]
+                - paragraph [ref=e1033]:
+                  - text: The choice of metrics in the Spring portfolio is Micrometer, which means that metrics are not collected and exported through the OpenTelemetry’s
+                  - link [ref=e1034] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-metrics/1.62.0/io/opentelemetry/sdk/metrics/SdkMeterProvider.html
+                    - code [ref=e1035]: SdkMeterProvider
+                  - text: . Spring Boot doesn’t provide a
+                  - code [ref=e1036]: SdkMeterProvider
+                  - text: bean.
+                - paragraph [ref=e1038]:
+                  - text: However, Micrometer metrics can be exported via OTLP to any OpenTelemetry capable backend using the
+                  - link [ref=e1039] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-registry-otlp/1.17.0/io/micrometer/registry/otlp/OtlpMeterRegistry.html
+                    - code [ref=e1040]: OtlpMeterRegistry
+                  - text: ", as described in the"
+                  - link "Metrics with OTLP" [ref=e1041] [cursor=pointer]:
+                    - /url: metrics.html#actuator.metrics.export.otlp
+                  - text: section.
+                - table [ref=e1043]:
+                  - rowgroup [ref=e1044]:
+                    - row [ref=e1045]:
+                      - cell "Note" [ref=e1046]
+                      - cell [ref=e1048]:
+                        - text: Micrometer’s OTLP registry doesn’t use the
+                        - code [ref=e1049]: Resource
+                        - text: bean, but setting
+                        - code [ref=e1050]: OTEL_RESOURCE_ATTRIBUTES
+                        - text: ","
+                        - code [ref=e1051]: OTEL_SERVICE_NAME
+                        - text: or
+                        - code [ref=e1052]: management.opentelemetry.resource-attributes
+                        - text: works.
+                - generic [ref=e1053]:
+                  - heading "Metrics via the OpenTelemetry API and SDK" [level=4] [ref=e1054]
+                  - paragraph [ref=e1056]:
+                    - text: If you or a dependency you include make use of OpenTelemetry’s
+                    - link [ref=e1057] [cursor=pointer]:
+                      - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-api/1.62.0/io/opentelemetry/api/metrics/MeterProvider.html
+                      - code [ref=e1058]: MeterProvider
+                    - text: ", those metrics are not exported."
+                  - paragraph [ref=e1060]:
+                    - text: We strongly recommend that you report your metrics with Micrometer. If a dependency you include uses OpenTelemetry’s
+                    - code [ref=e1061]: MeterProvider
+                    - text: ", you can include this configuration in your application to configure a"
+                    - code [ref=e1062]: MeterProvider
+                    - text: "bean, which you then have to wire into your dependency:"
+                  - generic [ref=e1065]:
+                    - code [ref=e1066]:
+                      - text: java
+                      - generic: import java.time.Duration; import io.opentelemetry.exporter.otlp.http.metrics.OtlpHttpMetricExporter; import io.opentelemetry.sdk.metrics.SdkMeterProvider; import io.opentelemetry.sdk.metrics.export.MetricExporter; import io.opentelemetry.sdk.metrics.export.MetricReader; import io.opentelemetry.sdk.metrics.export.PeriodicMetricReader; import io.opentelemetry.sdk.resources.Resource; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                      - generic [ref=e1067]:
+                        - text: "@Configuration(proxyBeanMethods = false)"
+                        - generic [ref=e1068]: class OpenTelemetryMetricsConfiguration
+                        - text: "{ @Bean"
+                        - generic [ref=e1069]: OtlpHttpMetricExporter metricExporter()
+                        - text: "{ String endpoint = \"http://localhost:4318/v1/metrics\"; return OtlpHttpMetricExporter.builder().setEndpoint(endpoint).build(); } @Bean"
+                        - generic [ref=e1070]: PeriodicMetricReader metricReader(MetricExporter exporter)
+                        - text: "{ Duration interval = Duration.ofMinutes(1); return PeriodicMetricReader.builder(exporter).setInterval(interval).build(); } @Bean"
+                        - generic [ref=e1071]: SdkMeterProvider meterProvider(Resource resource, MetricReader metricReader)
+                        - text: "{ return SdkMeterProvider.builder().registerMetricReader(metricReader).setResource(resource).build(); } }"
+                    - generic [ref=e1072]:
+                      - button "Expand foldable text" [ref=e1073] [cursor=pointer]
+                      - button "Copied!" [ref=e1074] [cursor=pointer]
+                  - paragraph [ref=e1077]: This configuration also enables metrics export via OTLP over HTTP.
+              - generic [ref=e1078]:
+                - heading "Tracing" [level=3] [ref=e1079]
+                - paragraph [ref=e1081]:
+                  - text: If Micrometer tracing is used, the
+                  - link [ref=e1082] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/tracing/opentelemetry/autoconfigure/OpenTelemetryTracingAutoConfiguration.html
+                    - code [ref=e1083]: OpenTelemetryTracingAutoConfiguration
+                  - text: configures OpenTelemetry’s
+                  - link [ref=e1084] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-trace/1.62.0/io/opentelemetry/sdk/trace/SdkTracerProvider.html
+                    - code [ref=e1085]: SdkTracerProvider
+                  - text: . Exporting traces through OTLP is enabled by the
+                  - link [ref=e1086] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/tracing/opentelemetry/autoconfigure/otlp/OtlpTracingAutoConfiguration.html
+                    - code [ref=e1087]: OtlpTracingAutoConfiguration
+                  - text: ", which supports exporting traces with OTLP over HTTP or gRPC."
+                - paragraph [ref=e1089]: We strongly recommend using the Micrometer Observation or Tracing API instead of using the OpenTelemetry API directly.
+          - navigation [ref=e1090]:
+            - generic [ref=e1091]:
+              - text: Prev
+              - link "‹ Monitoring and Management over JMX" [ref=e1092] [cursor=pointer]:
+                - /url: jmx.html
+            - generic [ref=e1093]:
+              - text: Next
+              - link "Loggers ›" [ref=e1094] [cursor=pointer]:
+                - /url: loggers.html
+    - text:   
+  - contentinfo [ref=e1095]:
+    - generic [ref=e1096]:
+      - img "Spring" [ref=e1097]
+      - paragraph [ref=e1098]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e1099] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e1100] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e1101] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e1102]:
+          - text: •
+          - link "Thank you" [ref=e1103] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e1104] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e1105]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e1106]:
+      - link "Youtube" [ref=e1107] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e1111] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e1115] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e1120]:
+      - generic [ref=e1121]:
+        - button "Close" [ref=e1123] [cursor=pointer]
+        - generic [ref=e1124]:
+          - generic [ref=e1126]:
+            - heading "Cookies" [level=2] [ref=e1127]
+            - generic [ref=e1128]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e1129] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e1133] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

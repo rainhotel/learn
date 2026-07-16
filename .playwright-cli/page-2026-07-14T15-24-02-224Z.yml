@@ -1,0 +1,899 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FQuantumNous%2Fnew-api%2Fpull%2F6018
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fvoltron%2Fpull_requests_fragments%2Fpull_request_layout&source=header-repo&source_repo=QuantumNous%2Fnew-api
+            - button "Appearance settings" [ref=e58] [cursor=pointer]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - link "QuantumNous" [ref=e70] [cursor=pointer]:
+            - /url: /QuantumNous
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "new-api" [ref=e73] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 9.8k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Fork
+                - generic "9,781" [ref=e84]: 9.8k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Star
+                - generic "42212 users starred this repository" [ref=e90]: 42.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - listitem [ref=e98]:
+            - link "Issues 605" [ref=e99] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/issues
+              - generic [ref=e103]: Issues
+              - generic "605" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 412" [ref=e106] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulls
+              - generic [ref=e109]: Pull requests
+              - generic "412" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/actions
+          - listitem [ref=e121]:
+            - link "Security and quality 14" [ref=e122] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/security
+              - generic [ref=e125]: Security and quality
+              - generic "14" [ref=e126]
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulse
+    - generic [ref=e138]:
+      - generic [ref=e142]:
+        - 'heading "fix: sync codex responses passthrough fields #6018" [level=1] [ref=e144]':
+          - text: "fix: sync codex responses passthrough fields"
+          - generic [ref=e145]: "#6018"
+        - generic [ref=e148]:
+          - generic [ref=e150]:
+            - img "Pull request" [ref=e151]
+            - text: Merged
+          - generic [ref=e154]:
+            - link "Calcium-Ion" [ref=e155] [cursor=pointer]:
+              - /url: /Calcium-Ion
+            - text: merged 1 commit into
+            - generic [ref=e156]:
+              - link "QuantumNous:main" [ref=e157] [cursor=pointer]:
+                - /url: /QuantumNous/new-api/tree/main
+              - generic [ref=e158]: from
+              - generic [ref=e159]:
+                - link "seefs001:fix/codex-upstream-sync" [ref=e160] [cursor=pointer]:
+                  - /url: /seefs001/new-api-pr/tree/fix/codex-upstream-sync
+                - button "Copy head branch name to clipboard" [ref=e161] [cursor=pointer]
+            - generic "Jul 11, 2026, 11:04 GMT+8" [ref=e165]: Jul 11, 20264 days ago
+        - generic [ref=e166]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: "+162"
+            - generic [ref=e170]: "-14"
+            - generic [ref=e171]: "Lines changed: 162 additions & 14 deletions"
+          - navigation "Pull request navigation tabs" [ref=e180]:
+            - tablist [ref=e181]:
+              - tab "Conversation (6)" [selected] [ref=e182] [cursor=pointer]:
+                - text: Conversation
+                - generic [ref=e185]: "6"
+                - generic [ref=e186]: (6)
+              - tab "Commits (1)" [ref=e187] [cursor=pointer]:
+                - text: Commits
+                - generic [ref=e190]: "1"
+                - generic [ref=e191]: (1)
+              - tab "Checks (0)" [ref=e192] [cursor=pointer]:
+                - text: Checks
+                - generic [ref=e195]: "0"
+                - generic [ref=e196]: (0)
+              - tab "Files changed (9)" [ref=e197] [cursor=pointer]:
+                - text: Files changed
+                - generic [ref=e200]: "9"
+                - generic [ref=e201]: (9)
+      - generic [ref=e206]:
+        - generic [ref=e208]:
+          - heading "Conversation" [level=2] [ref=e209]
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - generic [ref=e213]:
+                - link [ref=e214] [cursor=pointer]:
+                  - /url: /seefs001
+                  - img "@seefs001" [ref=e215]
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - heading "seefs001 commented Jul 8, 2026last week •" [level=3] [ref=e219]:
+                      - generic [ref=e220]:
+                        - strong [ref=e221]:
+                          - link "seefs001" [ref=e222] [cursor=pointer]:
+                            - /url: /seefs001
+                        - text: commented
+                        - link "Jul 8, 2026last week" [ref=e223] [cursor=pointer]:
+                          - /url: "#issue-4837105138"
+                        - generic [ref=e224]:
+                          - generic [ref=e225]: •
+                          - group [ref=e226]:
+                            - button [ref=e227] [cursor=pointer]
+                    - generic [ref=e231]:
+                      - group [ref=e233]:
+                        - button [ref=e234] [cursor=pointer]:
+                          - img "Show options" [ref=e237]
+                      - generic "This user has been invited to collaborate on the new-api repository." [ref=e240]: Collaborator
+                  - generic [ref=e245]:
+                    - heading "⚠️ 提交说明 / PR Notice" [level=1] [ref=e246]:
+                      - generic [ref=e247]: ⚠️
+                      - text: 提交说明 / PR Notice
+                    - generic [ref=e248]:
+                      - paragraph [ref=e249]: Important
+                      - list [ref=e252]:
+                        - listitem [ref=e253]:
+                          - text: 请提供
+                          - strong [ref=e254]: 人工撰写
+                          - text: 的简洁摘要，避免直接粘贴未经整理的 AI 输出。
+                    - heading "📝 变更描述 / Description" [level=2] [ref=e255]
+                    - paragraph [ref=e256]: (简述：做了什么？为什么这样改能生效？请基于你对代码逻辑的理解来写，避免粘贴未经整理的内容)
+                    - paragraph [ref=e257]: 同步codex客户端传递的字段（request header和sse response header） compact的字段
+                    - heading "🚀 变更类型 / Type of change" [level=2] [ref=e258]
+                    - list [ref=e259]:
+                      - listitem [ref=e260]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e264]
+                        - text: 🐛 Bug 修复 (Bug fix) -
+                        - emphasis [ref=e265]: 请关联对应 Issue，避免将设计取舍、理解偏差或预期不一致直接归类为 bug
+                      - listitem [ref=e266]:
+                        - checkbox "Incomplete task" [disabled] [ref=e270]
+                        - text: ✨ 新功能 (New feature) -
+                        - emphasis [ref=e271]: 重大特性建议先通过 Issue 沟通
+                      - listitem [ref=e272]:
+                        - checkbox "Incomplete task" [disabled] [ref=e276]
+                        - text: ⚡ 性能优化 / 重构 (Refactor)
+                      - listitem [ref=e277]:
+                        - checkbox "Incomplete task" [disabled] [ref=e281]
+                        - text: 📝 文档更新 (Documentation)
+                    - heading "🔗 关联任务 / Related Issue" [level=2] [ref=e282]
+                    - list [ref=e283]:
+                      - listitem [ref=e284]:
+                        - text: Closes
+                        - 'link "新版本Codex 修改了报文HTTP头字段名称，导致缓存命中率非常低 #6016" [ref=e289] [cursor=pointer]':
+                          - /url: https://github.com/QuantumNous/new-api/issues/6016
+                    - heading "✅ 提交前检查项 / Checklist" [level=2] [ref=e290]
+                    - list [ref=e291]:
+                      - listitem [ref=e292]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e296]
+                        - strong [ref=e297]: "人工确认:"
+                        - text: 我已亲自整理并撰写此描述，没有直接粘贴未经处理的 AI 输出。
+                      - listitem [ref=e298]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e302]
+                        - strong [ref=e303]: "非重复提交:"
+                        - text: 我已搜索现有的
+                        - link "Issues" [ref=e304] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/issues
+                        - text: 与
+                        - link "PRs" [ref=e305] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pulls
+                        - text: ，确认不是重复提交。
+                      - listitem [ref=e306]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e310]
+                        - strong [ref=e311]: "Bug fix 说明:"
+                        - text: 若此 PR 标记为
+                        - code [ref=e312]: Bug fix
+                        - text: ，我已提交或关联对应 Issue，且不会将设计取舍、预期不一致或理解偏差直接归类为 bug。
+                      - listitem [ref=e313]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e317]
+                        - strong [ref=e318]: "变更理解:"
+                        - text: 我已理解这些更改的工作原理及可能影响。
+                      - listitem [ref=e319]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e323]
+                        - strong [ref=e324]: "范围聚焦:"
+                        - text: 本 PR 未包含任何与当前任务无关的代码改动。
+                      - listitem [ref=e325]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e329]
+                        - strong [ref=e330]: "本地验证:"
+                        - text: 已在本地运行并通过测试或手动验证，维护者可以据此复核结果。
+                      - listitem [ref=e331]:
+                        - checkbox "Completed task" [checked] [disabled] [ref=e335]
+                        - strong [ref=e336]: "安全合规:"
+                        - text: 代码中无敏感凭据，且符合项目代码规范。
+                    - heading "📸 运行证明 / Proof of Work" [level=2] [ref=e337]
+                    - paragraph [ref=e338]: (请在此粘贴截图、关键日志或测试报告，以证明变更生效)
+                    - heading "Summary by CodeRabbit" [level=2] [ref=e339]
+                    - list [ref=e340]:
+                      - listitem [ref=e341]:
+                        - strong [ref=e342]: New Features
+                        - list [ref=e343]:
+                          - listitem [ref=e344]:
+                            - text: Added client support for passing selected upstream SSE response headers, including a new
+                            - code [ref=e345]: pass_sse_headers
+                            - text: parameter override mode across the UI, templates, validation, and audit labeling.
+                          - listitem [ref=e346]: Expanded Codex-compatible request/SSE metadata passthrough and Response/compaction controls (client metadata, prompt caching options, reasoning mode/context).
+                      - listitem [ref=e347]:
+                        - strong [ref=e348]: Bug Fixes
+                        - list [ref=e349]:
+                          - listitem [ref=e350]: Preserved explicit zero/empty values and ensured header passthrough uses consistent casing.
+                          - listitem [ref=e351]: Improved token usage reporting (cached creation tokens) and updated service-tier handling.
+                      - listitem [ref=e352]:
+                        - strong [ref=e353]: Tests
+                        - list [ref=e354]:
+                          - listitem [ref=e355]: Added/expanded round-trip and pass-through coverage for Responses, compaction, and SSE header behavior.
+              - generic [ref=e356]:
+                - generic [ref=e358]:
+                  - link [ref=e360] [cursor=pointer]:
+                    - /url: /apps/coderabbitai
+                    - img "@coderabbitai" [ref=e361]
+                  - generic [ref=e363]:
+                    - generic [ref=e364]:
+                      - heading "coderabbitai Bot commented Jul 8, 2026last week •" [level=3] [ref=e365]:
+                        - generic [ref=e366]:
+                          - strong [ref=e367]:
+                            - link "coderabbitai" [ref=e368] [cursor=pointer]:
+                              - /url: /apps/coderabbitai
+                            - generic [ref=e369]: Bot
+                          - text: commented
+                          - link "Jul 8, 2026last week" [ref=e370] [cursor=pointer]:
+                            - /url: "#issuecomment-4914470906"
+                          - generic [ref=e371]:
+                            - generic [ref=e372]: •
+                            - group [ref=e373]:
+                              - button [ref=e374] [cursor=pointer]
+                      - generic [ref=e378]:
+                        - group [ref=e380]:
+                          - button [ref=e381] [cursor=pointer]:
+                            - img "Show options" [ref=e384]
+                        - generic "This user has previously committed to the new-api repository." [ref=e387]: Contributor
+                    - table [ref=e391]:
+                      - rowgroup [ref=e392]:
+                        - row [ref=e393]:
+                          - cell [ref=e394]:
+                            - paragraph [ref=e395]:
+                              - link [ref=e396] [cursor=pointer]:
+                                - /url: https://app.coderabbit.ai/change-stack/QuantumNous/new-api/pull/6018?utm_source=github_walkthrough&utm_medium=github&utm_campaign=change_stack
+                                - img "Review Change Stack" [ref=e397]
+                            - generic [ref=e398]:
+                              - paragraph [ref=e399]: Note
+                              - heading "Reviews paused" [level=2] [ref=e402]
+                              - paragraph [ref=e403]:
+                                - text: It looks like this branch is under active development. To avoid overwhelming you with review comments due to an influx of new commits, CodeRabbit has automatically paused this review. You can configure this behavior by changing the
+                                - code [ref=e404]: reviews.auto_review.auto_pause_after_reviewed_commits
+                                - text: setting.
+                              - paragraph [ref=e405]: "Use the following commands to manage reviews:"
+                              - list [ref=e406]:
+                                - listitem [ref=e407]:
+                                  - code [ref=e408]: "@coderabbitai resume"
+                                  - text: to resume automatic reviews.
+                                - listitem [ref=e409]:
+                                  - code [ref=e410]: "@coderabbitai review"
+                                  - text: to trigger a single review.
+                              - paragraph [ref=e411]: "Use the checkboxes below for quick actions:"
+                              - list [ref=e412]:
+                                - listitem [ref=e413]:
+                                  - checkbox "Incomplete task" [disabled] [ref=e414]
+                                  - generic [ref=e415]: ▶️
+                                  - text: Resume reviews
+                                - listitem [ref=e416]:
+                                  - checkbox "Incomplete task" [disabled] [ref=e417]
+                                  - text: 🔍 Trigger review
+                            - heading "Walkthrough" [level=2] [ref=e418]
+                            - paragraph [ref=e419]: Adds Codex request and SSE response-header passthrough support, expands OpenAI Responses and compaction DTO parity, preserves Codex metadata through conversion, and maps cache-write token usage details across relay handlers.
+                            - heading "Changes" [level=3] [ref=e420]
+                            - paragraph [ref=e421]:
+                              - strong [ref=e422]: Codex and Responses integration
+                            - table [ref=e424]:
+                              - rowgroup [ref=e425]:
+                                - row [ref=e426]:
+                                  - columnheader "Layer / File(s)" [ref=e427]
+                                  - columnheader "Summary" [ref=e428]
+                              - rowgroup [ref=e429]:
+                                - row [ref=e430]:
+                                  - cell [ref=e431]:
+                                    - strong [ref=e432]: Responses contracts and usage parity
+                                    - code [ref=e433]: dto/*
+                                    - text: ","
+                                    - code [ref=e434]: relay/responses_handler.go
+                                    - text: ","
+                                    - code [ref=e435]: service/relayconvert/*
+                                    - text: ","
+                                    - code [ref=e436]: relay/channel/*
+                                    - text: ","
+                                    - code [ref=e437]: setting/ratio_setting/cache_ratio.go
+                                  - cell "Responses and compaction requests preserve additional Codex fields, service-tier zero values, client metadata, and cache-write usage details." [ref=e438]
+                                - row [ref=e439]:
+                                  - cell [ref=e440]:
+                                    - strong [ref=e441]: Backend SSE header passthrough
+                                    - code [ref=e442]: relay/common/*
+                                    - text: ","
+                                    - code [ref=e443]: relay/helper/*
+                                    - text: ","
+                                    - code [ref=e444]: relay/channel/api_request_test.go
+                                    - text: ","
+                                    - code [ref=e445]: service/channel_affinity_template_test.go
+                                  - cell [ref=e446]:
+                                    - text: A
+                                    - code [ref=e447]: pass_sse_headers
+                                    - text: override stores validated header names in
+                                    - code [ref=e448]: RelayInfo
+                                    - text: ", and streaming responses copy selected upstream headers while excluding unsupported headers."
+                                - row [ref=e449]:
+                                  - cell [ref=e450]:
+                                    - strong [ref=e451]: Codex templates and editor support
+                                    - code [ref=e452]: setting/operation_setting/*
+                                    - text: ","
+                                    - code [ref=e453]: web/classic/src/*
+                                    - text: ","
+                                    - code [ref=e454]: web/default/src/*
+                                  - cell "Codex request/SSE allowlists, templates, editor modes, validation, labels, presets, and translations are updated for SSE header passthrough." [ref=e455]
+                            - paragraph [ref=e456]:
+                              - strong [ref=e457]: "Estimated code review effort:"
+                              - text: 4 (Complex) | ~60 minutes
+                            - heading "Sequence Diagram(s)" [level=3] [ref=e458]
+                            - region "mermaid rendered output container" [ref=e459]:
+                              - generic [ref=e460]:
+                                - generic [ref=e461]:
+                                  - group [ref=e462]:
+                                    - button "Open dialog" [ref=e463] [cursor=pointer]
+                                  - button "Copy mermaid code" [ref=e466] [cursor=pointer]
+                                - iframe [ref=e471]:
+                                  - generic [ref=f1e1]:
+                                    - document [ref=f1e5]:
+                                      - generic [ref=f1e6]: Client
+                                      - generic [ref=f1e9]: StreamScanner
+                                      - generic [ref=f1e12]: UpstreamResponses
+                                      - generic [ref=f1e15]: ParamOverride
+                                      - generic [ref=f1e18]: ChannelAffinity
+                                      - generic [ref=f1e21]: Codex
+                                      - generic [ref=f1e24]: Client
+                                      - generic [ref=f1e28]: StreamScanner
+                                      - generic [ref=f1e32]: UpstreamResponses
+                                      - generic [ref=f1e36]: ParamOverride
+                                      - generic [ref=f1e40]: ChannelAffinity
+                                      - generic [ref=f1e44]: Codex
+                                      - generic [ref=f1e48]: send request and session headers
+                                      - generic [ref=f1e49]: apply pass_headers and pass_sse_headers
+                                      - generic [ref=f1e50]: forward configured request headers
+                                      - generic [ref=f1e51]: return SSE response and headers
+                                      - generic [ref=f1e52]: stream events and selected SSE headers
+                                    - generic [ref=f1e53]:
+                                      - button "Zoom in" [ref=f1e54] [cursor=pointer]
+                                      - button "Zoom out" [ref=f1e58] [cursor=pointer]
+                                      - button "Reset view" [ref=f1e62] [cursor=pointer]
+                                      - button "Pan up" [ref=f1e65] [cursor=pointer]
+                                      - button "Pan down" [ref=f1e68] [cursor=pointer]
+                                      - button "Pan left" [ref=f1e71] [cursor=pointer]
+                                      - button "Pan right" [ref=f1e74] [cursor=pointer]
+                            - paragraph [ref=e472]:
+                              - strong [ref=e473]: Possibly related PRs
+                            - list [ref=e474]:
+                              - listitem [ref=e475]:
+                                - link "QuantumNous/new-api#1603" [ref=e476] [cursor=pointer]:
+                                  - /url: https://github.com/QuantumNous/new-api/pull/1603
+                                - text: — Extends the same parameter-override operation pipeline.
+                              - listitem [ref=e477]:
+                                - link "QuantumNous/new-api#2644" [ref=e478] [cursor=pointer]:
+                                  - /url: https://github.com/QuantumNous/new-api/pull/2644
+                                - text: — Modifies the Responses compaction request and response flow.
+                              - listitem [ref=e479]:
+                                - link "QuantumNous/new-api#3009" [ref=e480] [cursor=pointer]:
+                                  - /url: https://github.com/QuantumNous/new-api/pull/3009
+                                - text: — Extends the relay parameter-override and SSE passthrough pipeline.
+                            - paragraph [ref=e481]:
+                              - strong [ref=e482]: Poem
+                            - blockquote [ref=e483]:
+                              - paragraph [ref=e484]: A bunny hops through headers bright, SSE stars stream through the night. Codex fields retain their place, Cache-write tokens join the race. A carrot-powered merge takes flight!
+                            - group [ref=e485]:
+                              - generic "🚥 Pre-merge checks | ✅ 3 | ❌ 2" [ref=e486] [cursor=pointer]
+                            - group [ref=e487]:
+                              - generic "✨ Finishing Touches" [ref=e488] [cursor=pointer]
+                            - separator [ref=e489]
+                            - paragraph [ref=e490]:
+                              - text: Thanks for using
+                              - link "CodeRabbit" [ref=e491] [cursor=pointer]:
+                                - /url: https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=QuantumNous/new-api&utm_content=6018
+                              - text: "! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out."
+                            - group [ref=e492]:
+                              - generic "❤️ Share" [ref=e493] [cursor=pointer]
+                            - paragraph [ref=e494]:
+                              - subscript [ref=e495]:
+                                - text: Comment
+                                - code [ref=e496]: "@coderabbitai help"
+                                - text: to get the list of available commands.
+                - generic [ref=e502]:
+                  - link [ref=e503] [cursor=pointer]:
+                    - /url: /seefs001
+                    - img "@seefs001" [ref=e504]
+                  - link "seefs001" [ref=e505] [cursor=pointer]:
+                    - /url: /seefs001
+                  - text: marked this pull request as draft
+                  - link "July 9, 2026 04:325 days ago" [ref=e506] [cursor=pointer]:
+                    - /url: "#event-27747458555"
+                - generic [ref=e509]:
+                  - generic [ref=e510]:
+                    - link [ref=e511] [cursor=pointer]:
+                      - /url: /apps/coderabbitai
+                      - img "coderabbitai[bot]" [ref=e512]
+                    - generic [ref=e516]:
+                      - generic [ref=e517]:
+                        - strong [ref=e518]:
+                          - link "coderabbitai" [ref=e519] [cursor=pointer]:
+                            - /url: /apps/coderabbitai
+                          - generic [ref=e520]: Bot
+                        - text: reviewed
+                        - link "Jul 9, 20265 days ago" [ref=e522] [cursor=pointer]:
+                          - /url: "#pullrequestreview-4659848373"
+                      - link "View reviewed changes" [ref=e524] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/pull/6018/files
+                  - generic [ref=e529]:
+                    - generic [ref=e530]:
+                      - heading "coderabbitai Bot left a comment" [level=3] [ref=e531]:
+                        - generic [ref=e532]:
+                          - strong [ref=e533]:
+                            - link "coderabbitai" [ref=e534] [cursor=pointer]:
+                              - /url: /apps/coderabbitai
+                            - generic [ref=e535]: Bot
+                          - text: left a comment
+                      - generic [ref=e536]:
+                        - group [ref=e538]:
+                          - button [ref=e539] [cursor=pointer]:
+                            - img "Show options" [ref=e542]
+                        - generic "This user has previously committed to the new-api repository." [ref=e545]: Contributor
+                    - generic [ref=e549]:
+                      - paragraph [ref=e550]:
+                        - strong [ref=e551]: "Actionable comments posted: 2"
+                      - group [ref=e552]:
+                        - generic "🧹 Nitpick comments (3)" [ref=e553] [cursor=pointer]
+                      - group [ref=e554]:
+                        - generic "🤖 Prompt for all review comments with AI agents" [ref=e555] [cursor=pointer]
+                      - group [ref=e556]:
+                        - generic "🪄 Autofix (Beta)" [ref=e557] [cursor=pointer]
+                      - separator [ref=e558]
+                      - group [ref=e559]:
+                        - generic "ℹ️ Review info" [ref=e560] [cursor=pointer]
+                  - generic [ref=e562]:
+                    - generic [ref=e565]:
+                      - button "Comment thread" [ref=e566] [cursor=pointer]
+                      - generic [ref=e567]:
+                        - link "relay/common/override.go" [ref=e568] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/pull/6018/files#diff-4f141f4c713c6931b87c0d0418c489727eb7bc243523d1e1f344c5be299e4d5f
+                        - 'generic "Label: Outdated" [ref=e569]': Outdated
+                      - button "Show resolved" [ref=e570] [cursor=pointer]
+                    - generic [ref=e574]:
+                      - generic [ref=e575]:
+                        - button "Comment thread" [expanded] [ref=e576] [cursor=pointer]
+                        - generic [ref=e577]:
+                          - link "web/default/src/features/channels/components/dialogs/param-override-editor-dialog.tsx" [ref=e578] [cursor=pointer]:
+                            - /url: /QuantumNous/new-api/pull/6018/files#diff-9dfc92a34601ead23f7a58f9b1c84355ae9a0bdb04b8dea6b14ec8c6b5f4eb3b
+                          - 'generic "Label: Outdated" [ref=e579]': Outdated
+                      - generic [ref=e580]:
+                        - table [ref=e583]:
+                          - rowgroup [ref=e584]:
+                            - row [ref=e585]:
+                              - cell "114" [ref=e586] [cursor=pointer]
+                              - cell "114" [ref=e587] [cursor=pointer]
+                              - 'cell "{ label: ''Return Custom Error'', value: ''return_error'' }," [ref=e588]'
+                            - row [ref=e590]:
+                              - cell "115" [ref=e591] [cursor=pointer]
+                              - cell "115" [ref=e592] [cursor=pointer]
+                              - 'cell "{ label: ''Prune Object Items'', value: ''prune_objects'' }," [ref=e593]'
+                            - row [ref=e595]:
+                              - cell "116" [ref=e596] [cursor=pointer]
+                              - cell "116" [ref=e597] [cursor=pointer]
+                              - 'cell "{ label: ''Pass Through Headers'', value: ''pass_headers'' }," [ref=e598]'
+                            - row [ref=e600]:
+                              - cell [ref=e601] [cursor=pointer]
+                              - cell "117" [ref=e602] [cursor=pointer]
+                              - 'cell "+ { label: ''Pass Through Response Headers'', value: ''pass_response_headers'' }," [ref=e603]'
+                        - generic [ref=e608]:
+                          - generic [ref=e609]:
+                            - heading "@coderabbitai coderabbitai Bot Jul 9, 20265 days ago" [level=3] [ref=e610]:
+                              - generic [ref=e611]:
+                                - img "@coderabbitai" [ref=e613]
+                                - strong [ref=e614]:
+                                  - link "coderabbitai" [ref=e615] [cursor=pointer]:
+                                    - /url: /apps/coderabbitai
+                                  - generic [ref=e616]: Bot
+                                - link "Jul 9, 20265 days ago" [ref=e617] [cursor=pointer]:
+                                  - /url: "#discussion_r3548921251"
+                            - generic [ref=e618]:
+                              - group [ref=e620]:
+                                - button [ref=e621] [cursor=pointer]:
+                                  - img "Show options" [ref=e624]
+                              - generic "This user has previously committed to the new-api repository." [ref=e627]: Contributor
+                          - generic [ref=e632]:
+                            - paragraph [ref=e633]:
+                              - emphasis [ref=e634]: 📐 Maintainability & Code Quality
+                              - text: "|"
+                              - emphasis [ref=e635]: 🟡 Minor
+                              - text: "|"
+                              - emphasis [ref=e636]: ⚡ Quick win
+                            - group [ref=e637]:
+                              - generic "🧩 Analysis chain" [ref=e638] [cursor=pointer]
+                            - paragraph [ref=e639]:
+                              - strong [ref=e640]:
+                                - text: Wrap the new
+                                - code [ref=e641]: pass_response_headers
+                                - text: placeholder in
+                                - code [ref=e642]: t()
+                                - text: .
+                              - code [ref=e643]: OPERATION_MODE_OPTIONS
+                              - text: ","
+                              - code [ref=e644]: MODE_DESCRIPTIONS
+                              - text: ", and"
+                              - code [ref=e645]: getModeValueLabel()
+                              - text: already go through
+                              - code [ref=e646]: t()
+                              - text: at render time, but
+                              - code [ref=e647]: getModeValuePlaceholder('pass_response_headers')
+                              - text: is still passed straight to
+                              - code [ref=e648]: placeholder
+                              - text: ", so this new user-facing string remains hardcoded. Add a locale key and translate it here to keep the field language-reactive."
+                            - group [ref=e649]:
+                              - generic "🤖 Prompt for AI Agents" [ref=e650] [cursor=pointer]
+                            - paragraph [ref=e651]:
+                              - emphasis [ref=e652]: "Source: Coding guidelines"
+                - generic [ref=e653]:
+                  - generic [ref=e658]:
+                    - link [ref=e659] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e660]
+                    - link "seefs001" [ref=e661] [cursor=pointer]:
+                      - /url: /seefs001
+                    - text: marked this pull request as ready for review
+                    - link "July 10, 2026 00:275 days ago" [ref=e662] [cursor=pointer]:
+                      - /url: "#event-27791139974"
+                  - generic [ref=e667]:
+                    - link [ref=e668] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e669]
+                    - link "seefs001" [ref=e670] [cursor=pointer]:
+                      - /url: /seefs001
+                    - link "force-pushed" [ref=e671] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/compare/6c484620b307483e9f8a4b7619acb5ffe40bd11f..53a729eb364a8aece98c3e33d6a88b5d5390e169
+                    - text: the
+                    - generic [ref=e672]: fix/codex-upstream-sync
+                    - text: branch from
+                    - link [ref=e674] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/commit/6c484620b307483e9f8a4b7619acb5ffe40bd11f
+                      - code [ref=e675]: 6c48462
+                    - text: to
+                    - link [ref=e676] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/commit/53a729eb364a8aece98c3e33d6a88b5d5390e169
+                      - code [ref=e677]: 53a729e
+                    - link "Compare" [ref=e678] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/compare/6c484620b307483e9f8a4b7619acb5ffe40bd11f..53a729eb364a8aece98c3e33d6a88b5d5390e169
+                    - link "July 10, 2026 02:005 days ago" [ref=e681] [cursor=pointer]:
+                      - /url: "#event-27793315077"
+                  - generic [ref=e686]:
+                    - link [ref=e687] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e688]
+                    - link "seefs001" [ref=e689] [cursor=pointer]:
+                      - /url: /seefs001
+                    - text: marked this pull request as draft
+                    - link "July 10, 2026 02:025 days ago" [ref=e690] [cursor=pointer]:
+                      - /url: "#event-27793362623"
+                - generic [ref=e693]:
+                  - generic [ref=e694]:
+                    - link [ref=e695] [cursor=pointer]:
+                      - /url: /apps/coderabbitai
+                      - img "coderabbitai[bot]" [ref=e696]
+                    - generic [ref=e700]:
+                      - generic [ref=e701]:
+                        - strong [ref=e702]:
+                          - link "coderabbitai" [ref=e703] [cursor=pointer]:
+                            - /url: /apps/coderabbitai
+                          - generic [ref=e704]: Bot
+                        - text: reviewed
+                        - link "Jul 10, 20265 days ago" [ref=e706] [cursor=pointer]:
+                          - /url: "#pullrequestreview-4668055487"
+                      - link "View reviewed changes" [ref=e708] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/pull/6018/files
+                  - generic [ref=e713]:
+                    - generic [ref=e714]:
+                      - heading "coderabbitai Bot left a comment" [level=3] [ref=e715]:
+                        - generic [ref=e716]:
+                          - strong [ref=e717]:
+                            - link "coderabbitai" [ref=e718] [cursor=pointer]:
+                              - /url: /apps/coderabbitai
+                            - generic [ref=e719]: Bot
+                          - text: left a comment
+                      - generic [ref=e720]:
+                        - group [ref=e722]:
+                          - button [ref=e723] [cursor=pointer]:
+                            - img "Show options" [ref=e726]
+                        - generic "This user has previously committed to the new-api repository." [ref=e729]: Contributor
+                    - generic [ref=e733]:
+                      - group [ref=e734]:
+                        - generic "🧹 Nitpick comments (3)" [ref=e735] [cursor=pointer]
+                      - group [ref=e736]:
+                        - generic "🤖 Prompt for all review comments with AI agents" [ref=e737] [cursor=pointer]
+                      - separator [ref=e738]
+                      - group [ref=e739]:
+                        - generic "ℹ️ Review info" [ref=e740] [cursor=pointer]
+                - generic [ref=e746]:
+                  - generic [ref=e747]:
+                    - link [ref=e748] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e749]
+                    - link "seefs001" [ref=e750] [cursor=pointer]:
+                      - /url: /seefs001
+                    - text: mentioned this pull request
+                    - link "Jul 10, 20264 days ago" [ref=e751] [cursor=pointer]:
+                      - /url: "#ref-issue-4856326012"
+                  - generic [ref=e752]:
+                    - 'link "[Bug] Codex type 57 未适配 GPT-5.6 Responses Lite，返回 Model not found #6087" [ref=e754] [cursor=pointer]':
+                      - /url: /QuantumNous/new-api/issues/6087
+                    - 'generic "Status: Closed as not planned" [ref=e756]': Closed
+                  - generic [ref=e759]: 4 tasks
+                - generic [ref=e766]:
+                  - link [ref=e768] [cursor=pointer]:
+                    - /url: /jjcc123312
+                    - img "@jjcc123312" [ref=e769]
+                  - generic [ref=e771]:
+                    - generic [ref=e772]:
+                      - heading [level=3] [ref=e773]:
+                        - generic [ref=e774]:
+                          - strong [ref=e775]:
+                            - link "jjcc123312" [ref=e776] [cursor=pointer]:
+                              - /url: /jjcc123312
+                          - text: commented
+                          - link "Jul 10, 20264 days ago" [ref=e777] [cursor=pointer]:
+                            - /url: "#issuecomment-4937680431"
+                      - group [ref=e780]:
+                        - button [ref=e781] [cursor=pointer]:
+                          - img "Show options" [ref=e784]
+                    - table [ref=e788]:
+                      - rowgroup [ref=e789]:
+                        - row [ref=e790]:
+                          - cell [ref=e791]:
+                            - paragraph [ref=e792]: 请问这个pr是 fix了curl方式请求codex 5.6-luna “not fond model”的issue吗
+                - generic [ref=e794]:
+                  - link [ref=e796] [cursor=pointer]:
+                    - /url: /seefs001
+                    - img "@seefs001" [ref=e797]
+                  - generic [ref=e799]:
+                    - generic [ref=e800]:
+                      - heading [level=3] [ref=e801]:
+                        - generic [ref=e802]:
+                          - strong [ref=e803]:
+                            - link "seefs001" [ref=e804] [cursor=pointer]:
+                              - /url: /seefs001
+                          - text: commented
+                          - link "Jul 11, 20264 days ago" [ref=e805] [cursor=pointer]:
+                            - /url: "#issuecomment-4941035208"
+                      - generic [ref=e806]:
+                        - group [ref=e808]:
+                          - button [ref=e809] [cursor=pointer]:
+                            - img "Show options" [ref=e812]
+                        - generic [ref=e814]:
+                          - generic "This user has been invited to collaborate on the new-api repository." [ref=e815]: Collaborator
+                          - generic "This user is the author of this pull request." [ref=e817]: Author
+                    - table [ref=e821]:
+                      - rowgroup [ref=e822]:
+                        - row [ref=e823]:
+                          - cell [ref=e824]:
+                            - blockquote [ref=e825]:
+                              - paragraph [ref=e826]: 请问这个pr是 fix了curl方式请求codex 5.6-luna “not fond model”的issue吗
+                            - paragraph [ref=e827]: 不是，仅仅是按照codex的代码去补充一下使用codex时需要默认透传的请求头和sse响应头。
+                            - paragraph [ref=e828]: 至于找不到模型不属于该处理的问题，本项目不处理不通过codex cli使用codex渠道出现的错误，不对codex渠道使用提供技术支持。
+                - generic [ref=e839]:
+                  - link [ref=e842] [cursor=pointer]:
+                    - /url: /seefs001
+                    - img "@seefs001" [ref=e843]
+                  - code [ref=e845]:
+                    - 'link "fix: sync codex field" [ref=e846] [cursor=pointer]':
+                      - /url: /QuantumNous/new-api/pull/6018/commits/d1e79fb41dfc62c67f8be5b7022b40f7ea03876a
+                  - button "Verified" [ref=e848] [cursor=pointer]
+                  - group [ref=e853]:
+                    - img "1 / 1 checks OK" [ref=e855] [cursor=pointer]
+                  - code [ref=e858]:
+                    - link "d1e79fb" [ref=e859] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/pull/6018/commits/d1e79fb41dfc62c67f8be5b7022b40f7ea03876a
+                - generic [ref=e860]:
+                  - generic [ref=e865]:
+                    - link [ref=e866] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e867]
+                    - link "seefs001" [ref=e868] [cursor=pointer]:
+                      - /url: /seefs001
+                    - link "force-pushed" [ref=e869] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/compare/a326773860dd6ae3878cd504c3617dc50b8ded48..d1e79fb41dfc62c67f8be5b7022b40f7ea03876a
+                    - text: the
+                    - generic [ref=e870]: fix/codex-upstream-sync
+                    - text: branch from
+                    - link [ref=e872] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/commit/a326773860dd6ae3878cd504c3617dc50b8ded48
+                      - code [ref=e873]: a326773
+                    - text: to
+                    - link [ref=e874] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/commit/d1e79fb41dfc62c67f8be5b7022b40f7ea03876a
+                      - code [ref=e875]: d1e79fb
+                    - link "Compare" [ref=e876] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/compare/a326773860dd6ae3878cd504c3617dc50b8ded48..d1e79fb41dfc62c67f8be5b7022b40f7ea03876a
+                    - link "July 11, 2026 02:544 days ago" [ref=e879] [cursor=pointer]:
+                      - /url: "#event-27841643816"
+                  - generic [ref=e884]:
+                    - link [ref=e885] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e886]
+                    - link "seefs001" [ref=e887] [cursor=pointer]:
+                      - /url: /seefs001
+                    - text: marked this pull request as ready for review
+                    - link "July 11, 2026 02:554 days ago" [ref=e888] [cursor=pointer]:
+                      - /url: "#event-27841668154"
+                  - generic [ref=e893]:
+                    - button "View details" [ref=e894] [cursor=pointer]
+                    - link [ref=e895] [cursor=pointer]:
+                      - /url: /Calcium-Ion
+                      - img "@Calcium-Ion" [ref=e896]
+                    - link "Calcium-Ion" [ref=e897] [cursor=pointer]:
+                      - /url: /Calcium-Ion
+                    - text: merged commit
+                    - link [ref=e898] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/commit/dad57a6bb85becbb99cab26ade7a891508ed7c42
+                      - code [ref=e899]: dad57a6
+                    - text: into
+                    - generic [ref=e900]: QuantumNous:main
+                    - link "Jul 11, 20264 days ago" [ref=e902] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/pull/6018#event-27841845312
+                    - generic [ref=e903]: 1 check passed
+                  - generic [ref=e909]:
+                    - link "agogo233" [ref=e910] [cursor=pointer]:
+                      - /url: /agogo233
+                    - text: added a commit to agogo233/new-api that referenced this pull request
+                    - link "Jul 13, 20262 days ago" [ref=e911] [cursor=pointer]:
+                      - /url: "#ref-commit-b6553c5"
+                    - generic [ref=e915]:
+                      - link [ref=e918] [cursor=pointer]:
+                        - /url: /agogo233
+                        - img "@agogo233" [ref=e919]
+                      - generic [ref=e920]:
+                        - code [ref=e921]:
+                          - link "Merge remote-tracking branch 'upstream/main'" [ref=e922] [cursor=pointer]:
+                            - /url: /agogo233/new-api/commit/b6553c5e6acd7e9f0f933725e502e77faf10cc28
+                        - button "Commit message body" [ref=e924] [cursor=pointer]: …
+                      - code [ref=e928]:
+                        - link "b6553c5" [ref=e929] [cursor=pointer]:
+                          - /url: /agogo233/new-api/commit/b6553c5e6acd7e9f0f933725e502e77faf10cc28
+                  - generic [ref=e934]:
+                    - link "lansine" [ref=e935] [cursor=pointer]:
+                      - /url: /lansine
+                    - text: pushed a commit to evin-pubb/new-api-fork that referenced this pull request
+                    - link "Jul 14, 20269 hours ago" [ref=e936] [cursor=pointer]:
+                      - /url: "#ref-commit-1af6c81"
+                    - generic [ref=e940]:
+                      - link [ref=e943] [cursor=pointer]:
+                        - /url: /seefs001
+                        - img "@seefs001" [ref=e944]
+                      - code [ref=e946]:
+                        - 'link "fix: sync codex field (" [ref=e947] [cursor=pointer]':
+                          - /url: /evin-pubb/new-api-fork/commit/1af6c81ba8c060cc86ee39a0ba232acb86f6c9f8
+                        - link "QuantumNous#6018" [ref=e948] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6018
+                        - link ")" [ref=e949] [cursor=pointer]:
+                          - /url: /evin-pubb/new-api-fork/commit/1af6c81ba8c060cc86ee39a0ba232acb86f6c9f8
+                      - button "Unverified" [ref=e951] [cursor=pointer]
+                      - code [ref=e956]:
+                        - link "1af6c81" [ref=e957] [cursor=pointer]:
+                          - /url: /evin-pubb/new-api-fork/commit/1af6c81ba8c060cc86ee39a0ba232acb86f6c9f8
+            - generic [ref=e961]:
+              - link "Sign up for free" [ref=e962] [cursor=pointer]:
+                - /url: /join?source=comment-repo
+              - strong [ref=e963]: to join this conversation on GitHub
+              - text: . Already have an account?
+              - link "Sign in to comment" [ref=e964] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FQuantumNous%2Fnew-api%2Fpull%2F6018
+        - generic [ref=e968]:
+          - form "Select reviewers" [ref=e970]:
+            - heading "Reviewers" [level=3] [ref=e971]
+            - generic [ref=e973]:
+              - generic [ref=e974]:
+                - link [ref=e975] [cursor=pointer]:
+                  - /url: /apps/coderabbitai
+                  - img "@coderabbitai" [ref=e976]
+                - link "coderabbitai[bot]" [ref=e977] [cursor=pointer]:
+                  - /url: /apps/coderabbitai
+              - link "coderabbitai[bot] left review comments" [ref=e978] [cursor=pointer]:
+                - /url: /QuantumNous/new-api/pull/6018/files/53a729eb364a8aece98c3e33d6a88b5d5390e169
+          - form "Select assignees" [ref=e983]:
+            - heading "Assignees" [level=3] [ref=e984]
+            - text: No one assigned
+          - generic [ref=e985]:
+            - heading "Labels" [level=3] [ref=e986]
+            - generic [ref=e987]: None yet
+          - form "Select projects" [ref=e989]:
+            - heading "Projects" [level=3] [ref=e990]
+            - text: None yet
+          - form "Select milestones" [ref=e992]:
+            - heading "Milestone" [level=3] [ref=e993]
+            - text: No milestone
+          - form "Link issues" [ref=e999]:
+            - heading "Development" [level=3] [ref=e1000]
+            - paragraph [ref=e1001]: Successfully merging this pull request may close these issues.
+            - link [ref=e1003] [cursor=pointer]:
+              - /url: https://github.com/QuantumNous/new-api/issues/6016
+              - img "Closed issue" [ref=e1004]
+              - text: 新版本Codex 修改了报文HTTP头字段名称，导致缓存命中率非常低
+          - generic [ref=e1008]:
+            - heading "3 participants" [level=3] [ref=e1009]
+            - generic [ref=e1010]:
+              - link [ref=e1011] [cursor=pointer]:
+                - /url: /seefs001
+                - img "@seefs001" [ref=e1012]
+              - link [ref=e1013] [cursor=pointer]:
+                - /url: /jjcc123312
+                - img "@jjcc123312" [ref=e1014]
+              - link [ref=e1015] [cursor=pointer]:
+                - /url: /Calcium-Ion
+                - img "@Calcium-Ion" [ref=e1016]
+  - contentinfo [ref=e1017]:
+    - heading "Footer" [level=2] [ref=e1018]
+    - generic [ref=e1019]:
+      - generic [ref=e1020]:
+        - link "GitHub Homepage" [ref=e1021] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e1024]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1025]:
+        - heading "Footer navigation" [level=3] [ref=e1026]
+        - list "Footer navigation" [ref=e1027]:
+          - listitem [ref=e1028]:
+            - link "Terms" [ref=e1029] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1030]:
+            - link "Privacy" [ref=e1031] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1032]:
+            - link "Security" [ref=e1033] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1034]:
+            - link "Status" [ref=e1035] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1036]:
+            - link "Community" [ref=e1037] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1038]:
+            - link "Docs" [ref=e1039] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1040]:
+            - link "Contact" [ref=e1041] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1042]:
+            - button "Manage cookies" [ref=e1044] [cursor=pointer]
+          - listitem [ref=e1045]:
+            - button "Do not share my personal information" [ref=e1047] [cursor=pointer]

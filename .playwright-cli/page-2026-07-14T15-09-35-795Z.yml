@@ -1,0 +1,364 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "The OpenTelemetry Logo" [ref=e6]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /docs/
+          - listitem [ref=e12]:
+            - link "Ecosystem" [ref=e13] [cursor=pointer]:
+              - /url: /ecosystem/
+          - listitem [ref=e14]:
+            - link "Status" [ref=e15] [cursor=pointer]:
+              - /url: /status/
+          - listitem [ref=e16]:
+            - link "Community" [ref=e17] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e18]:
+            - link "Training" [ref=e19] [cursor=pointer]:
+              - /url: /training/
+          - listitem [ref=e20]:
+            - link "Blog" [ref=e21] [cursor=pointer]:
+              - /url: /blog/
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - button "English" [ref=e24] [cursor=pointer]
+              - text: 
+          - listitem [ref=e25]:
+            - button "Toggle theme (auto)" [ref=e27] [cursor=pointer]
+        - generic [ref=e31]:
+          - generic: 
+          - searchbox "Ask AI or search…" [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e35]:
+      - complementary [ref=e36]:
+        - generic [ref=e37]:
+          - text:  
+          - navigation [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - link "Docs" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/
+                - list [ref=e42]:
+                  - listitem [ref=e43]:
+                    - link "What is OpenTelemetry?" [ref=e45] [cursor=pointer]:
+                      - /url: /docs/what-is-opentelemetry/
+                  - listitem [ref=e46]:
+                    - generic [ref=e47]:
+                      - text: 
+                      - link "Getting Started" [ref=e48] [cursor=pointer]:
+                        - /url: /docs/getting-started/
+                  - listitem [ref=e49]:
+                    - generic [ref=e50]:
+                      - text: 
+                      - link "Concepts" [ref=e51] [cursor=pointer]:
+                        - /url: /docs/concepts/
+                    - list [ref=e52]:
+                      - listitem [ref=e53]:
+                        - link "Observability primer" [ref=e55] [cursor=pointer]:
+                          - /url: /docs/concepts/observability-primer/
+                      - listitem [ref=e56]:
+                        - link "Context propagation" [ref=e58] [cursor=pointer]:
+                          - /url: /docs/concepts/context-propagation/
+                      - listitem [ref=e59]:
+                        - generic [ref=e60]:
+                          - text: 
+                          - link "Signals" [ref=e61] [cursor=pointer]:
+                            - /url: /docs/concepts/signals/
+                        - list [ref=e62]:
+                          - listitem [ref=e63]:
+                            - link "Traces" [ref=e65] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/traces/
+                          - listitem [ref=e66]:
+                            - link "Metrics" [ref=e68] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/metrics/
+                          - listitem [ref=e69]:
+                            - link "Logs" [ref=e71] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/logs/
+                          - listitem [ref=e72]:
+                            - link "Baggage" [ref=e74] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/baggage/
+                          - listitem [ref=e75]:
+                            - link "Profiles" [ref=e77] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/profiles/
+                      - listitem [ref=e78]:
+                        - generic [ref=e79]:
+                          - text: 
+                          - link "Instrumentation" [ref=e80] [cursor=pointer]:
+                            - /url: /docs/concepts/instrumentation/
+                      - listitem [ref=e81]:
+                        - link "Components" [ref=e83] [cursor=pointer]:
+                          - /url: /docs/concepts/components/
+                      - listitem [ref=e84]:
+                        - link "Semantic Conventions" [ref=e86] [cursor=pointer]:
+                          - /url: /docs/concepts/semantic-conventions/
+                      - listitem [ref=e87]:
+                        - link "Resources" [ref=e89] [cursor=pointer]:
+                          - /url: /docs/concepts/resources/
+                      - listitem [ref=e90]:
+                        - link "Instrumentation scope" [ref=e92] [cursor=pointer]:
+                          - /url: /docs/concepts/instrumentation-scope/
+                      - listitem [ref=e93]:
+                        - link "Sampling" [ref=e95] [cursor=pointer]:
+                          - /url: /docs/concepts/sampling/
+                      - listitem [ref=e96]:
+                        - link "Distributions" [ref=e98] [cursor=pointer]:
+                          - /url: /docs/concepts/distributions/
+                      - listitem [ref=e99]:
+                        - link "Glossary" [ref=e101] [cursor=pointer]:
+                          - /url: /docs/concepts/glossary/
+                  - listitem [ref=e102]:
+                    - generic [ref=e103]:
+                      - text: 
+                      - link "Demo" [ref=e104] [cursor=pointer]:
+                        - /url: /docs/demo/
+                    - text:     
+                  - listitem [ref=e105]:
+                    - generic [ref=e106]:
+                      - text: 
+                      - link "Language APIs & SDKs" [ref=e107] [cursor=pointer]:
+                        - /url: /docs/languages/
+                    - text:                                       
+                  - listitem [ref=e108]:
+                    - generic [ref=e109]:
+                      - text: 
+                      - link "Platforms" [ref=e110] [cursor=pointer]:
+                        - /url: /docs/platforms/
+                    - text:       
+                  - listitem [ref=e111]:
+                    - generic [ref=e112]:
+                      - text: 
+                      - link "Zero-code Instrumentation" [ref=e113] [cursor=pointer]:
+                        - /url: /docs/zero-code/
+                    - text:             
+                  - listitem [ref=e114]:
+                    - generic [ref=e115]:
+                      - text: 
+                      - link "Collector" [ref=e116] [cursor=pointer]:
+                        - /url: /docs/collector/
+                    - text:        
+                  - listitem [ref=e117]:
+                    - generic [ref=e118]:
+                      - text: 
+                      - link "Blueprints and reference implementations" [ref=e119] [cursor=pointer]:
+                        - /url: /docs/guidance/
+                    - text:  
+                  - listitem [ref=e120]:
+                    - generic [ref=e121]:
+                      - text: 
+                      - link "Compatibility" [ref=e122] [cursor=pointer]:
+                        - /url: /docs/compatibility/
+                    - text:  
+                  - listitem [ref=e123]:
+                    - generic [ref=e124]:
+                      - text: 
+                      - link "Specs" [ref=e125] [cursor=pointer]:
+                        - /url: /docs/specs/
+                    - text:                                                          
+                  - listitem [ref=e126]:
+                    - generic [ref=e127]:
+                      - text: 
+                      - link "Security" [ref=e128] [cursor=pointer]:
+                        - /url: /docs/security/
+                  - listitem [ref=e129]:
+                    - generic [ref=e130]:
+                      - text: 
+                      - link "Contributing" [ref=e131] [cursor=pointer]:
+                        - /url: /docs/contributing/
+      - complementary [ref=e132]:
+        - generic [ref=e133]:
+          - link " View Markdown" [ref=e134] [cursor=pointer]:
+            - /url: /docs/concepts/signals/baggage/index.md
+            - generic [ref=e135]: 
+            - text: View Markdown
+          - link " View page source" [ref=e136] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/tree/main/content/en/docs/concepts/signals/baggage.md
+            - generic [ref=e137]: 
+            - text: View page source
+          - link " Edit this page" [ref=e138] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/edit/main/content/en/docs/concepts/signals/baggage.md
+            - generic [ref=e139]: 
+            - text: Edit this page
+          - text: 
+          - link " Create documentation issue" [ref=e140] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/issues/new?title=Baggage
+            - generic [ref=e141]: 
+            - text: Create documentation issue
+        - generic [ref=e142]:
+          - generic [ref=e143]: On this page
+          - navigation [ref=e144]:
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Example" [ref=e147] [cursor=pointer]:
+                  - /url: "#example"
+              - listitem [ref=e148]:
+                - link "What should OTel Baggage be used for?" [ref=e149] [cursor=pointer]:
+                  - /url: "#what-should-otel-baggage-be-used-for"
+              - listitem [ref=e150]:
+                - link "Baggage security considerations" [ref=e151] [cursor=pointer]:
+                  - /url: "#baggage-security-considerations"
+              - listitem [ref=e152]:
+                - link "Baggage is not the same as attributes" [ref=e153] [cursor=pointer]:
+                  - /url: "#baggage-is-not-the-same-as-attributes"
+      - main [ref=e154]:
+        - navigation "breadcrumb" [ref=e155]:
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Docs" [ref=e158] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e159]:
+              - text: /
+              - link "Concepts" [ref=e160] [cursor=pointer]:
+                - /url: /docs/concepts/
+            - listitem [ref=e161]:
+              - text: /
+              - link "Signals" [ref=e162] [cursor=pointer]:
+                - /url: /docs/concepts/signals/
+            - listitem [ref=e163]: / Baggage
+        - generic [ref=e164]:
+          - heading "Baggage" [level=1] [ref=e165]
+          - generic [ref=e166]: Contextual information that is passed between signals.
+          - paragraph [ref=e167]:
+            - text: In OpenTelemetry, Baggage is contextual information that resides next to context. Baggage is a key-value store, which means it lets you
+            - link "propagate" [ref=e168] [cursor=pointer]:
+              - /url: ../../context-propagation/#propagation
+            - text: any data you like alongside
+            - link "context" [ref=e169] [cursor=pointer]:
+              - /url: ../../context-propagation/#context
+            - text: .
+          - paragraph [ref=e170]:
+            - text: Baggage means you can pass data across services and processes, making it available to add to
+            - link "traces" [ref=e171] [cursor=pointer]:
+              - /url: ../traces/
+            - text: ","
+            - link "metrics" [ref=e172] [cursor=pointer]:
+              - /url: ../metrics/
+            - text: ", or"
+            - link "logs" [ref=e173] [cursor=pointer]:
+              - /url: ../logs/
+            - text: in those services.
+          - heading "Example" [level=2] [ref=e174]
+          - paragraph [ref=e175]: Baggage is often used in tracing to propagate additional data across services.
+          - paragraph [ref=e176]:
+            - text: For example, imagine you have a
+            - code [ref=e177]: clientId
+            - text: at the start of a request, but you’d like for that ID to be available on all spans in a trace, some metrics in another service, and some logs along the way. Because the trace may span multiple services, you need some way to propagate that data without copying the
+            - code [ref=e178]: clientId
+            - text: across many places in your codebase.
+          - paragraph [ref=e179]:
+            - text: By using
+            - link "Context Propagation" [ref=e180] [cursor=pointer]:
+              - /url: ../traces/#context-propagation
+            - text: to pass baggage across these services, the
+            - code [ref=e181]: clientId
+            - text: is available to add to any additional spans, metrics, or logs. Additionally, instrumentations automatically propagate baggage for you.
+          - button "OTel Baggage" [ref=e182]
+          - heading "What should OTel Baggage be used for?" [level=2] [ref=e183]
+          - paragraph [ref=e184]: Baggage is best used to include information typically available only at the start of a request further downstream. This can include things like Account Identification, User IDs, Product IDs, and origin IPs, for example.
+          - paragraph [ref=e185]: Propagating this information using baggage allows for deeper analysis of telemetry in a backend. For example, if you include information like a User ID on a span that tracks a database call, you can much more easily answer questions like “which users are experiencing the slowest database calls?” You can also log information about a downstream operation and include that same User ID in the log data.
+          - button "OTel Baggage" [ref=e186]
+          - heading "Baggage security considerations" [level=2] [ref=e187]
+          - paragraph [ref=e188]: Sensitive Baggage items can be shared with unintended resources, like third-party APIs. This is because automatic instrumentation includes Baggage in most of your service’s network requests. Specifically, Baggage and other parts of trace context are sent in HTTP headers, making it visible to anyone inspecting your network traffic. If traffic is restricted within your network, then this risk may not apply, but keep in mind that downstream services could propagate Baggage outside your network.
+          - paragraph [ref=e189]: Also, there are no built-in integrity checks to ensure that Baggage items are yours, so exercise caution when reading them.
+          - heading "Baggage is not the same as attributes" [level=2] [ref=e190]
+          - paragraph [ref=e191]: An important thing to note about baggage is that it is a separate key-value store and is unassociated with attributes on spans, metrics, or logs without explicitly adding them.
+          - paragraph [ref=e192]: To add baggage entries to attributes, you need to explicitly read the data from baggage and add it as attributes to your spans, metrics, or logs.
+          - paragraph [ref=e193]:
+            - text: Because a common use cases for Baggage is to add data to
+            - link "Span Attributes" [ref=e194] [cursor=pointer]:
+              - /url: ../traces/#attributes
+            - text: across a whole trace, several languages have Baggage Span Processors that add data from baggage as attributes on span creation.
+          - blockquote [ref=e195]:
+            - paragraph [ref=e196]:
+              - text: For more information, see the
+              - link "baggage specification" [ref=e197] [cursor=pointer]:
+                - /url: /docs/specs/otel/overview/#baggage-signal
+              - text: .
+          - generic [ref=e198]:
+            - heading "Feedback" [level=2] [ref=e199]
+            - paragraph [ref=e200]: Was this page helpful?
+            - button "Yes" [ref=e201] [cursor=pointer]
+            - button "No" [ref=e202] [cursor=pointer]
+            - text: 
+          - generic [ref=e203]:
+            - text: "Last modified February 22, 2026:"
+            - 'link "chore: convert all shortcut ref links to collapsed form, and fix links (#9252) (4b5381a2)" [ref=e204] [cursor=pointer]':
+              - /url: https://github.com/open-telemetry/opentelemetry.io/commit/4b5381a2e9f129651ab8658357ab846bd4c965f2
+    - contentinfo [ref=e205]:
+      - generic [ref=e207]:
+        - list [ref=e209]:
+          - listitem "Mailing Lists" [ref=e210]:
+            - link "Mailing Lists" [ref=e211] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/community#mailing-lists
+              - generic [ref=e212]: 
+          - listitem "Bluesky" [ref=e213]:
+            - link "Bluesky" [ref=e214] [cursor=pointer]:
+              - /url: https://bsky.app/profile/opentelemetry.io
+              - generic [ref=e215]: 
+          - listitem "Mastodon" [ref=e216]:
+            - link "Mastodon" [ref=e217] [cursor=pointer]:
+              - /url: https://fosstodon.org/@opentelemetry
+              - generic [ref=e218]: 
+          - listitem "Stack Overflow" [ref=e219]:
+            - link "Stack Overflow" [ref=e220] [cursor=pointer]:
+              - /url: https://stackoverflow.com/questions/tagged/open-telemetry
+              - generic [ref=e221]: 
+          - listitem "OTel logos" [ref=e222]:
+            - link "OTel logos" [ref=e223] [cursor=pointer]:
+              - /url: https://github.com/cncf/artwork/tree/master/projects/opentelemetry
+              - generic [ref=e224]: 
+          - listitem "Meeting Recordings" [ref=e225]:
+            - link "Meeting Recordings" [ref=e226] [cursor=pointer]:
+              - /url: https://docs.google.com/spreadsheets/d/1SYKfjYhZdm2Wh2Cl6KVQalKg_m4NhTPZqq-8SzEVO6s
+              - generic [ref=e227]: 
+          - listitem "Site analytics" [ref=e228]:
+            - link "Site analytics" [ref=e229] [cursor=pointer]:
+              - /url: https://lookerstudio.google.com/s/tSTKxK1ECeU
+              - generic [ref=e230]: 
+        - list [ref=e232]:
+          - listitem "GitHub" [ref=e233]:
+            - link "GitHub" [ref=e234] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry
+              - generic [ref=e235]: 
+          - 'listitem "Slack #opentelemetry-new-contributors" [ref=e236]':
+            - 'link "Slack #opentelemetry-new-contributors" [ref=e237] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/C09H3MNMBQV
+              - generic [ref=e238]: 
+          - 'listitem "Slack #opentelemetry" [ref=e239]':
+            - 'link "Slack #opentelemetry" [ref=e240] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/CJFCJHG4Q
+              - generic [ref=e241]: 
+          - listitem "CNCF DevStats" [ref=e242]:
+            - link "CNCF DevStats" [ref=e243] [cursor=pointer]:
+              - /url: https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m
+              - generic [ref=e244]: 
+          - listitem "Privacy Policy" [ref=e245]:
+            - link "Privacy Policy" [ref=e246] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/privacy-policy
+              - generic [ref=e247]: 
+          - listitem "Trademark Usage" [ref=e248]:
+            - link "Trademark Usage" [ref=e249] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/trademark-usage
+              - generic [ref=e250]: 
+          - listitem "Marketing Guidelines" [ref=e251]:
+            - link "Marketing Guidelines" [ref=e252] [cursor=pointer]:
+              - /url: /community/marketing-guidelines/
+              - generic [ref=e253]: 
+          - listitem "Site-build info" [ref=e254]:
+            - link "Site-build info" [ref=e255] [cursor=pointer]:
+              - /url: /site/
+              - generic [ref=e256]: 
+        - generic [ref=e258]:
+          - text: © 2019–present
+          - generic [ref=e259]:
+            - text: OpenTelemetry Authors | Docs
+            - link "CC BY 4.0" [ref=e260] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+  - button [ref=e261] [cursor=pointer]:
+    - generic [ref=e264]:
+      - img "Project Logo"
+      - paragraph [ref=e265]: Ask AI

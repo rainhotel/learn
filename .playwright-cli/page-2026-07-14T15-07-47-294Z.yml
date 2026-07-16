@@ -1,0 +1,248 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Boot
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../index.html
+                - listitem [ref=e51]:
+                  - link "Documentation" [ref=e52] [cursor=pointer]:
+                    - /url: ../../documentation.html
+                - listitem [ref=e53]:
+                  - link "Community" [ref=e54] [cursor=pointer]:
+                    - /url: ../../community.html
+                - listitem [ref=e55]:
+                  - link "System Requirements" [ref=e56] [cursor=pointer]:
+                    - /url: ../../system-requirements.html
+                - listitem [ref=e57]:
+                  - link "Installing Spring Boot" [ref=e58] [cursor=pointer]:
+                    - /url: ../../installing.html
+                - listitem [ref=e59]:
+                  - link "Upgrading Spring Boot" [ref=e60] [cursor=pointer]:
+                    - /url: ../../upgrading.html
+                - listitem [ref=e61]:
+                  - button [ref=e62] [cursor=pointer]
+                  - link "Tutorials" [ref=e63] [cursor=pointer]:
+                    - /url: ../../tutorial/index.html
+                - listitem [ref=e64]:
+                  - button [ref=e65] [cursor=pointer]
+                  - link "Reference" [ref=e66] [cursor=pointer]:
+                    - /url: ../index.html
+                  - list [ref=e67]:
+                    - listitem [ref=e68]:
+                      - button [ref=e69] [cursor=pointer]
+                      - link "Developing with Spring Boot" [ref=e70] [cursor=pointer]:
+                        - /url: ../using/index.html
+                    - listitem [ref=e71]:
+                      - button [ref=e72] [cursor=pointer]
+                      - link "Core Features" [ref=e73] [cursor=pointer]:
+                        - /url: ../features/index.html
+                    - listitem [ref=e74]:
+                      - button [ref=e75] [cursor=pointer]
+                      - link "Web" [ref=e76] [cursor=pointer]:
+                        - /url: ../web/index.html
+                    - listitem [ref=e77]:
+                      - button [ref=e78] [cursor=pointer]
+                      - link "Data" [ref=e79] [cursor=pointer]:
+                        - /url: ../data/index.html
+                    - listitem [ref=e80]:
+                      - button [ref=e81] [cursor=pointer]
+                      - link "IO" [ref=e82] [cursor=pointer]:
+                        - /url: ../io/index.html
+                    - listitem [ref=e83]:
+                      - button [ref=e84] [cursor=pointer]
+                      - link "Messaging" [ref=e85] [cursor=pointer]:
+                        - /url: ../messaging/index.html
+                    - listitem [ref=e86]:
+                      - button [ref=e87] [cursor=pointer]
+                      - link "Security" [ref=e88] [cursor=pointer]:
+                        - /url: ../security/index.html
+                    - listitem [ref=e89]:
+                      - button [ref=e90] [cursor=pointer]
+                      - link "Testing" [ref=e91] [cursor=pointer]:
+                        - /url: ../testing/index.html
+                    - listitem [ref=e92]:
+                      - button [ref=e93] [cursor=pointer]
+                      - link "Packaging Spring Boot Applications" [ref=e94] [cursor=pointer]:
+                        - /url: ../packaging/index.html
+                    - listitem [ref=e95]:
+                      - button [ref=e96] [cursor=pointer]
+                      - link "Production-ready Features" [ref=e97] [cursor=pointer]:
+                        - /url: index.html
+                      - list [ref=e98]:
+                        - listitem [ref=e99]:
+                          - link "Enabling Production-ready Features" [ref=e100] [cursor=pointer]:
+                            - /url: enabling.html
+                        - listitem [ref=e101]:
+                          - link "Endpoints" [ref=e102] [cursor=pointer]:
+                            - /url: endpoints.html
+                        - listitem [ref=e103]:
+                          - link "Monitoring and Management Over HTTP" [ref=e104] [cursor=pointer]:
+                            - /url: monitoring.html
+                        - listitem [ref=e105]:
+                          - link "Monitoring and Management over JMX" [ref=e106] [cursor=pointer]:
+                            - /url: jmx.html
+                        - listitem [ref=e107]:
+                          - link "Observability" [ref=e108] [cursor=pointer]:
+                            - /url: observability.html
+                        - listitem [ref=e109]:
+                          - link "Loggers" [ref=e110] [cursor=pointer]:
+                            - /url: loggers.html
+                        - listitem [ref=e111]:
+                          - link "Metrics" [ref=e112] [cursor=pointer]:
+                            - /url: metrics.html
+                        - listitem [ref=e113]:
+                          - link "Tracing" [ref=e114] [cursor=pointer]:
+                            - /url: tracing.html
+                        - listitem [ref=e115]:
+                          - link "Auditing" [ref=e116] [cursor=pointer]:
+                            - /url: auditing.html
+                        - listitem [ref=e117]:
+                          - link "Recording HTTP Exchanges" [ref=e118] [cursor=pointer]:
+                            - /url: http-exchanges.html
+                        - listitem [ref=e119]:
+                          - link "Process Monitoring" [ref=e120] [cursor=pointer]:
+                            - /url: process-monitoring.html
+                        - listitem [ref=e121]:
+                          - link "Cloud Foundry Support" [ref=e122] [cursor=pointer]:
+                            - /url: cloud-foundry.html
+                - listitem [ref=e123]:
+                  - button [ref=e124] [cursor=pointer]
+                  - link "How-to Guides" [ref=e125] [cursor=pointer]:
+                    - /url: ../../how-to/index.html
+                - listitem [ref=e126]:
+                  - button [ref=e127] [cursor=pointer]
+                  - link "Build Tool Plugins" [ref=e128] [cursor=pointer]:
+                    - /url: ../../build-tool-plugin/index.html
+                - listitem [ref=e129]:
+                  - button [ref=e130] [cursor=pointer]
+                  - link "Spring Boot CLI" [ref=e131] [cursor=pointer]:
+                    - /url: ../../cli/index.html
+                - listitem [ref=e132]:
+                  - button [ref=e133] [cursor=pointer]
+                  - generic [ref=e134] [cursor=pointer]: Rest APIs
+                - listitem [ref=e135]:
+                  - button [ref=e136] [cursor=pointer]
+                  - generic [ref=e137] [cursor=pointer]: Java APIs
+                - listitem [ref=e138]:
+                  - button [ref=e139] [cursor=pointer]
+                  - generic [ref=e140] [cursor=pointer]: Kotlin APIs
+                - listitem [ref=e141]:
+                  - button [ref=e142] [cursor=pointer]
+                  - generic [ref=e143] [cursor=pointer]: Specifications
+                - listitem [ref=e144]:
+                  - button [ref=e145] [cursor=pointer]
+                  - generic [ref=e146] [cursor=pointer]: Appendix
+        - button [ref=e148] [cursor=pointer]
+    - main [ref=e151]:
+      - generic [ref=e152]:
+        - complementary [ref=e153]:
+          - generic [ref=e155]:
+            - link "Edit this Page" [ref=e156] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-boot/blob/v4.1.0/documentation/spring-boot-docs/src/docs/antora/modules/reference/pages/actuator/index.adoc
+            - link "GitHub Project" [ref=e159] [cursor=pointer]:
+              - /url: https://github.com/spring-projects/spring-boot
+            - link "Stack Overflow" [ref=e163] [cursor=pointer]:
+              - /url: https://stackoverflow.com/tags/spring-boot
+        - article [ref=e166]:
+          - navigation "breadcrumbs" [ref=e168]:
+            - list [ref=e169]:
+              - listitem "Copy versioned URL" [ref=e170]
+              - listitem [ref=e171]:
+                - link "Spring Boot" [ref=e172] [cursor=pointer]:
+                  - /url: ../../index.html
+                - text: /
+              - listitem [ref=e173]:
+                - link "Reference" [ref=e174] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e175]:
+                - link "Production-ready Features" [ref=e176] [cursor=pointer]:
+                  - /url: index.html
+          - heading "Production-ready Features" [level=1] [ref=e177]
+          - paragraph [ref=e179]: Spring Boot includes a number of additional features to help you monitor and manage your application when you push it to production. You can choose to manage and monitor your application by using HTTP endpoints or with JMX. Auditing, health, and metrics gathering can also be automatically applied to your application.
+          - navigation [ref=e180]:
+            - generic [ref=e181]:
+              - text: Prev
+              - link "‹ Cloud Native Buildpacks" [ref=e182] [cursor=pointer]:
+                - /url: ../packaging/container-images/cloud-native-buildpacks.html
+            - generic [ref=e183]:
+              - text: Next
+              - link "Enabling Production-ready Features ›" [ref=e184] [cursor=pointer]:
+                - /url: enabling.html
+    - text:   
+  - contentinfo [ref=e185]:
+    - generic [ref=e186]:
+      - img "Spring" [ref=e187]
+      - paragraph [ref=e188]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e189] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e190] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e191] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e192]:
+          - text: •
+          - link "Thank you" [ref=e193] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e194] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e195]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e196]:
+      - link "Youtube" [ref=e197] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e201] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e205] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e210]:
+      - generic [ref=e211]:
+        - button "Close" [ref=e213] [cursor=pointer]
+        - generic [ref=e214]:
+          - generic [ref=e216]:
+            - heading "Cookies" [level=2] [ref=e217]
+            - generic [ref=e218]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e219] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e223] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

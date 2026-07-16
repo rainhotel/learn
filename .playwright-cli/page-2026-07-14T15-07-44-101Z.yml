@@ -1,0 +1,349 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "The OpenTelemetry Logo" [ref=e6]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /docs/
+          - listitem [ref=e12]:
+            - link "Ecosystem" [ref=e13] [cursor=pointer]:
+              - /url: /ecosystem/
+          - listitem [ref=e14]:
+            - link "Status" [ref=e15] [cursor=pointer]:
+              - /url: /status/
+          - listitem [ref=e16]:
+            - link "Community" [ref=e17] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e18]:
+            - link "Training" [ref=e19] [cursor=pointer]:
+              - /url: /training/
+          - listitem [ref=e20]:
+            - link "Blog" [ref=e21] [cursor=pointer]:
+              - /url: /blog/
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - button "English" [ref=e24] [cursor=pointer]
+              - text: 
+          - listitem [ref=e25]:
+            - button "Toggle theme (auto)" [ref=e27] [cursor=pointer]
+        - generic [ref=e31]:
+          - generic: 
+          - searchbox "Ask AI or search…" [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e35]:
+      - complementary [ref=e36]:
+        - generic [ref=e37]:
+          - text:  
+          - navigation [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - link "Docs" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/
+                - list [ref=e42]:
+                  - listitem [ref=e43]:
+                    - link "What is OpenTelemetry?" [ref=e45] [cursor=pointer]:
+                      - /url: /docs/what-is-opentelemetry/
+                  - listitem [ref=e46]:
+                    - generic [ref=e47]:
+                      - text: 
+                      - link "Getting Started" [ref=e48] [cursor=pointer]:
+                        - /url: /docs/getting-started/
+                  - listitem [ref=e49]:
+                    - generic [ref=e50]:
+                      - text: 
+                      - link "Concepts" [ref=e51] [cursor=pointer]:
+                        - /url: /docs/concepts/
+                    - list [ref=e52]:
+                      - listitem [ref=e53]:
+                        - link "Observability primer" [ref=e55] [cursor=pointer]:
+                          - /url: /docs/concepts/observability-primer/
+                      - listitem [ref=e56]:
+                        - link "Context propagation" [ref=e58] [cursor=pointer]:
+                          - /url: /docs/concepts/context-propagation/
+                      - listitem [ref=e59]:
+                        - generic [ref=e60]:
+                          - text: 
+                          - link "Signals" [ref=e61] [cursor=pointer]:
+                            - /url: /docs/concepts/signals/
+                        - list [ref=e62]:
+                          - listitem [ref=e63]:
+                            - link "Traces" [ref=e65] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/traces/
+                          - listitem [ref=e66]:
+                            - link "Metrics" [ref=e68] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/metrics/
+                          - listitem [ref=e69]:
+                            - link "Logs" [ref=e71] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/logs/
+                          - listitem [ref=e72]:
+                            - link "Baggage" [ref=e74] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/baggage/
+                          - listitem [ref=e75]:
+                            - link "Profiles" [ref=e77] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/profiles/
+                      - listitem [ref=e78]:
+                        - generic [ref=e79]:
+                          - text: 
+                          - link "Instrumentation" [ref=e80] [cursor=pointer]:
+                            - /url: /docs/concepts/instrumentation/
+                      - listitem [ref=e81]:
+                        - link "Components" [ref=e83] [cursor=pointer]:
+                          - /url: /docs/concepts/components/
+                      - listitem [ref=e84]:
+                        - link "Semantic Conventions" [ref=e86] [cursor=pointer]:
+                          - /url: /docs/concepts/semantic-conventions/
+                      - listitem [ref=e87]:
+                        - link "Resources" [ref=e89] [cursor=pointer]:
+                          - /url: /docs/concepts/resources/
+                      - listitem [ref=e90]:
+                        - link "Instrumentation scope" [ref=e92] [cursor=pointer]:
+                          - /url: /docs/concepts/instrumentation-scope/
+                      - listitem [ref=e93]:
+                        - link "Sampling" [ref=e95] [cursor=pointer]:
+                          - /url: /docs/concepts/sampling/
+                      - listitem [ref=e96]:
+                        - link "Distributions" [ref=e98] [cursor=pointer]:
+                          - /url: /docs/concepts/distributions/
+                      - listitem [ref=e99]:
+                        - link "Glossary" [ref=e101] [cursor=pointer]:
+                          - /url: /docs/concepts/glossary/
+                  - listitem [ref=e102]:
+                    - generic [ref=e103]:
+                      - text: 
+                      - link "Demo" [ref=e104] [cursor=pointer]:
+                        - /url: /docs/demo/
+                    - text:     
+                  - listitem [ref=e105]:
+                    - generic [ref=e106]:
+                      - text: 
+                      - link "Language APIs & SDKs" [ref=e107] [cursor=pointer]:
+                        - /url: /docs/languages/
+                    - text:                                       
+                  - listitem [ref=e108]:
+                    - generic [ref=e109]:
+                      - text: 
+                      - link "Platforms" [ref=e110] [cursor=pointer]:
+                        - /url: /docs/platforms/
+                    - text:       
+                  - listitem [ref=e111]:
+                    - generic [ref=e112]:
+                      - text: 
+                      - link "Zero-code Instrumentation" [ref=e113] [cursor=pointer]:
+                        - /url: /docs/zero-code/
+                    - text:             
+                  - listitem [ref=e114]:
+                    - generic [ref=e115]:
+                      - text: 
+                      - link "Collector" [ref=e116] [cursor=pointer]:
+                        - /url: /docs/collector/
+                    - text:        
+                  - listitem [ref=e117]:
+                    - generic [ref=e118]:
+                      - text: 
+                      - link "Blueprints and reference implementations" [ref=e119] [cursor=pointer]:
+                        - /url: /docs/guidance/
+                    - text:  
+                  - listitem [ref=e120]:
+                    - generic [ref=e121]:
+                      - text: 
+                      - link "Compatibility" [ref=e122] [cursor=pointer]:
+                        - /url: /docs/compatibility/
+                    - text:  
+                  - listitem [ref=e123]:
+                    - generic [ref=e124]:
+                      - text: 
+                      - link "Specs" [ref=e125] [cursor=pointer]:
+                        - /url: /docs/specs/
+                    - text:                                                          
+                  - listitem [ref=e126]:
+                    - generic [ref=e127]:
+                      - text: 
+                      - link "Security" [ref=e128] [cursor=pointer]:
+                        - /url: /docs/security/
+                  - listitem [ref=e129]:
+                    - generic [ref=e130]:
+                      - text: 
+                      - link "Contributing" [ref=e131] [cursor=pointer]:
+                        - /url: /docs/contributing/
+      - complementary [ref=e132]:
+        - generic [ref=e133]:
+          - link " View Markdown" [ref=e134] [cursor=pointer]:
+            - /url: /docs/concepts/signals/index.md
+            - generic [ref=e135]: 
+            - text: View Markdown
+          - link " View page source" [ref=e136] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/tree/main/content/en/docs/concepts/signals/_index.md
+            - generic [ref=e137]: 
+            - text: View page source
+          - link " Edit this page" [ref=e138] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/edit/main/content/en/docs/concepts/signals/_index.md
+            - generic [ref=e139]: 
+            - text: Edit this page
+          - text: 
+          - link " Create documentation issue" [ref=e140] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/issues/new?title=Signals
+            - generic [ref=e141]: 
+            - text: Create documentation issue
+      - main [ref=e142]:
+        - navigation "breadcrumb" [ref=e143]:
+          - list [ref=e144]:
+            - listitem [ref=e145]:
+              - link "Docs" [ref=e146] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e147]:
+              - text: /
+              - link "Concepts" [ref=e148] [cursor=pointer]:
+                - /url: /docs/concepts/
+            - listitem [ref=e149]: / Signals
+        - generic [ref=e150]:
+          - heading "Signals" [level=1] [ref=e151]
+          - generic [ref=e152]: Learn about the categories of telemetry supported by OpenTelemetry
+          - paragraph [ref=e153]:
+            - text: The purpose of OpenTelemetry is to collect, process, and export
+            - link "signals" [ref=e154] [cursor=pointer]:
+              - /url: /docs/specs/otel/glossary/#signals
+            - text: . Signals are system outputs that describe the underlying activity of the operating system and applications running on a platform. A signal can be something you want to measure at a specific point in time, like temperature or memory usage, or an event that goes through the components of your distributed system that you’d like to trace. You can group different signals together to observe the inner workings of the same piece of technology under different angles.
+          - paragraph [ref=e155]: "OpenTelemetry currently supports:"
+          - list [ref=e156]:
+            - listitem [ref=e157]:
+              - link "Traces" [ref=e158] [cursor=pointer]:
+                - /url: traces
+            - listitem [ref=e159]:
+              - link "Metrics" [ref=e160] [cursor=pointer]:
+                - /url: metrics
+            - listitem [ref=e161]:
+              - link "Logs" [ref=e162] [cursor=pointer]:
+                - /url: logs
+            - listitem [ref=e163]:
+              - link "Baggage" [ref=e164] [cursor=pointer]:
+                - /url: baggage
+          - paragraph [ref=e165]:
+            - text: Also under development or at the
+            - link "proposal " [ref=e166] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/opentelemetry-specification/tree/main/oteps/#readme
+            - text: "stage:"
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "Events" [ref=e169] [cursor=pointer]:
+                - /url: /docs/specs/otel/logs/data-model/#events
+              - text: ", a specific type of"
+              - link "log" [ref=e170] [cursor=pointer]:
+                - /url: logs
+            - listitem [ref=e171]:
+              - link "Profiles" [ref=e172] [cursor=pointer]:
+                - /url: profiles
+          - generic [ref=e173]:
+            - separator [ref=e174]
+            - generic [ref=e175]:
+              - heading [level=5] [ref=e176]:
+                - link "Traces" [ref=e177] [cursor=pointer]:
+                  - /url: /docs/concepts/signals/traces/
+              - paragraph [ref=e178]: The path of a request through your application.
+            - generic [ref=e179]:
+              - heading [level=5] [ref=e180]:
+                - link "Metrics" [ref=e181] [cursor=pointer]:
+                  - /url: /docs/concepts/signals/metrics/
+              - paragraph [ref=e182]: A measurement captured at runtime.
+            - generic [ref=e183]:
+              - heading [level=5] [ref=e184]:
+                - link "Logs" [ref=e185] [cursor=pointer]:
+                  - /url: /docs/concepts/signals/logs/
+              - paragraph [ref=e186]: A recording of an event.
+            - generic [ref=e187]:
+              - heading [level=5] [ref=e188]:
+                - link "Baggage" [ref=e189] [cursor=pointer]:
+                  - /url: /docs/concepts/signals/baggage/
+              - paragraph [ref=e190]: Contextual information that is passed between signals.
+            - generic [ref=e191]:
+              - heading [level=5] [ref=e192]:
+                - link "Profiles" [ref=e193] [cursor=pointer]:
+                  - /url: /docs/concepts/signals/profiles/
+              - paragraph [ref=e194]: A recording of resource usage at the code level.
+          - generic [ref=e195]:
+            - heading "Feedback" [level=2] [ref=e196]
+            - paragraph [ref=e197]: Was this page helpful?
+            - button "Yes" [ref=e198] [cursor=pointer]
+            - button "No" [ref=e199] [cursor=pointer]
+            - text: 
+          - generic [ref=e200]:
+            - text: "Last modified March 10, 2026:"
+            - link "Add Profiles concepts page (#9339) (274bf95a)" [ref=e201] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/opentelemetry.io/commit/274bf95abd0cbad3ad9f95b4426f282466cdaade
+    - contentinfo [ref=e202]:
+      - generic [ref=e204]:
+        - list [ref=e206]:
+          - listitem "Mailing Lists" [ref=e207]:
+            - link "Mailing Lists" [ref=e208] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/community#mailing-lists
+              - generic [ref=e209]: 
+          - listitem "Bluesky" [ref=e210]:
+            - link "Bluesky" [ref=e211] [cursor=pointer]:
+              - /url: https://bsky.app/profile/opentelemetry.io
+              - generic [ref=e212]: 
+          - listitem "Mastodon" [ref=e213]:
+            - link "Mastodon" [ref=e214] [cursor=pointer]:
+              - /url: https://fosstodon.org/@opentelemetry
+              - generic [ref=e215]: 
+          - listitem "Stack Overflow" [ref=e216]:
+            - link "Stack Overflow" [ref=e217] [cursor=pointer]:
+              - /url: https://stackoverflow.com/questions/tagged/open-telemetry
+              - generic [ref=e218]: 
+          - listitem "OTel logos" [ref=e219]:
+            - link "OTel logos" [ref=e220] [cursor=pointer]:
+              - /url: https://github.com/cncf/artwork/tree/master/projects/opentelemetry
+              - generic [ref=e221]: 
+          - listitem "Meeting Recordings" [ref=e222]:
+            - link "Meeting Recordings" [ref=e223] [cursor=pointer]:
+              - /url: https://docs.google.com/spreadsheets/d/1SYKfjYhZdm2Wh2Cl6KVQalKg_m4NhTPZqq-8SzEVO6s
+              - generic [ref=e224]: 
+          - listitem "Site analytics" [ref=e225]:
+            - link "Site analytics" [ref=e226] [cursor=pointer]:
+              - /url: https://lookerstudio.google.com/s/tSTKxK1ECeU
+              - generic [ref=e227]: 
+        - list [ref=e229]:
+          - listitem "GitHub" [ref=e230]:
+            - link "GitHub" [ref=e231] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry
+              - generic [ref=e232]: 
+          - 'listitem "Slack #opentelemetry-new-contributors" [ref=e233]':
+            - 'link "Slack #opentelemetry-new-contributors" [ref=e234] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/C09H3MNMBQV
+              - generic [ref=e235]: 
+          - 'listitem "Slack #opentelemetry" [ref=e236]':
+            - 'link "Slack #opentelemetry" [ref=e237] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/CJFCJHG4Q
+              - generic [ref=e238]: 
+          - listitem "CNCF DevStats" [ref=e239]:
+            - link "CNCF DevStats" [ref=e240] [cursor=pointer]:
+              - /url: https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m
+              - generic [ref=e241]: 
+          - listitem "Privacy Policy" [ref=e242]:
+            - link "Privacy Policy" [ref=e243] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/privacy-policy
+              - generic [ref=e244]: 
+          - listitem "Trademark Usage" [ref=e245]:
+            - link "Trademark Usage" [ref=e246] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/trademark-usage
+              - generic [ref=e247]: 
+          - listitem "Marketing Guidelines" [ref=e248]:
+            - link "Marketing Guidelines" [ref=e249] [cursor=pointer]:
+              - /url: /community/marketing-guidelines/
+              - generic [ref=e250]: 
+          - listitem "Site-build info" [ref=e251]:
+            - link "Site-build info" [ref=e252] [cursor=pointer]:
+              - /url: /site/
+              - generic [ref=e253]: 
+        - generic [ref=e255]:
+          - text: © 2019–present
+          - generic [ref=e256]:
+            - text: OpenTelemetry Authors | Docs
+            - link "CC BY 4.0" [ref=e257] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+  - button [ref=e258] [cursor=pointer]:
+    - generic [ref=e261]:
+      - img "Project Logo" [ref=e262]
+      - paragraph [ref=e263]: Ask AI

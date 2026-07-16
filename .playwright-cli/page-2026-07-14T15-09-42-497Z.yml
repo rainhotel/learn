@@ -1,0 +1,510 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://micrometer.io
+        - img "Micrometer" [ref=e5]
+      - generic [ref=e6] [cursor=pointer]:
+        - checkbox "light" [ref=e7]
+        - generic [ref=e11]: light
+  - generic [ref=e12]:
+    - complementary [ref=e14]:
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Micrometer
+            - generic [ref=e20]: 1.17.0
+            - button [ref=e21] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e28] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e31]: CTRL + k
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - list [ref=e34]:
+                - listitem [ref=e35]:
+                  - link "Overview" [ref=e36] [cursor=pointer]:
+                    - /url: ../overview.html
+                - listitem [ref=e37]:
+                  - link "Installing" [ref=e38] [cursor=pointer]:
+                    - /url: ../installing.html
+                - listitem [ref=e39]:
+                  - button [ref=e40] [cursor=pointer]
+                  - link "Concepts" [ref=e41] [cursor=pointer]:
+                    - /url: ../concepts.html
+                  - list [ref=e42]:
+                    - listitem [ref=e43]:
+                      - link "Supported Monitoring Systems" [ref=e44] [cursor=pointer]:
+                        - /url: implementations.html
+                    - listitem [ref=e45]:
+                      - link "Meters" [ref=e46] [cursor=pointer]:
+                        - /url: meters.html
+                    - listitem [ref=e47]:
+                      - link "Registry" [ref=e48] [cursor=pointer]:
+                        - /url: registry.html
+                    - listitem [ref=e49]:
+                      - link "Naming Meters" [ref=e50] [cursor=pointer]:
+                        - /url: naming.html
+                    - listitem [ref=e51]:
+                      - link "Meter Filters" [ref=e52] [cursor=pointer]:
+                        - /url: meter-filters.html
+                    - listitem [ref=e53]:
+                      - link "Rate Aggregation" [ref=e54] [cursor=pointer]:
+                        - /url: rate-aggregation.html
+                    - listitem [ref=e55]:
+                      - link "Counters" [ref=e56] [cursor=pointer]:
+                        - /url: counters.html
+                    - listitem [ref=e57]:
+                      - link "Gauges" [ref=e58] [cursor=pointer]:
+                        - /url: gauges.html
+                    - listitem [ref=e59]:
+                      - link "Timers" [ref=e60] [cursor=pointer]:
+                        - /url: timers.html
+                    - listitem [ref=e61]:
+                      - link "Distribution Summaries" [ref=e62] [cursor=pointer]:
+                        - /url: distribution-summaries.html
+                    - listitem [ref=e63]:
+                      - link "Long Task Timers" [ref=e64] [cursor=pointer]:
+                        - /url: long-task-timers.html
+                    - listitem [ref=e65]:
+                      - link "Histograms and Percentiles" [ref=e66] [cursor=pointer]:
+                        - /url: histogram-quantiles.html
+                    - listitem [ref=e67]:
+                      - link "Meter Provider" [ref=e68] [cursor=pointer]:
+                        - /url: meter-provider.html
+                    - listitem [ref=e69]:
+                      - link "Meter Convention" [ref=e70] [cursor=pointer]:
+                        - /url: meter-convention.html
+                    - listitem [ref=e71]:
+                      - link "High Cardinality Tags Detector" [ref=e72] [cursor=pointer]:
+                        - /url: high-cardinality-tags-detector.html
+                - listitem [ref=e73]:
+                  - button [ref=e74] [cursor=pointer]
+                  - link "Implementations" [ref=e75] [cursor=pointer]:
+                    - /url: ../implementations.html
+                - listitem [ref=e76]:
+                  - button [ref=e77] [cursor=pointer]
+                  - link "Reference Instrumentations" [ref=e78] [cursor=pointer]:
+                    - /url: ../reference.html
+                - listitem [ref=e79]:
+                  - button [ref=e80] [cursor=pointer]
+                  - link "Guides" [ref=e81] [cursor=pointer]:
+                    - /url: ../guides.html
+                - listitem [ref=e82]:
+                  - button [ref=e83] [cursor=pointer]
+                  - link "Micrometer Observation" [ref=e84] [cursor=pointer]:
+                    - /url: ../observation.html
+        - button [ref=e86] [cursor=pointer]
+    - main [ref=e89]:
+      - generic [ref=e90]:
+        - complementary [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - heading "High Cardinality Tags Detector" [level=3] [ref=e95]
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "Understand High Cardinality" [ref=e98] [cursor=pointer]:
+                    - /url: "#_understand_high_cardinality"
+                - listitem [ref=e99]:
+                  - link "How It Works" [ref=e100] [cursor=pointer]:
+                    - /url: "#_how_it_works"
+                - listitem [ref=e101]:
+                  - link "Usage" [ref=e102] [cursor=pointer]:
+                    - /url: "#_usage"
+                - listitem [ref=e103]:
+                  - link "Configure with the defaults" [ref=e104] [cursor=pointer]:
+                    - /url: "#_configure_with_the_defaults"
+                - listitem [ref=e105]:
+                  - link "Configure with a Factory" [ref=e106] [cursor=pointer]:
+                    - /url: "#_configure_with_a_factory"
+                - listitem [ref=e107]:
+                  - link "Configure with a Builder" [ref=e108] [cursor=pointer]:
+                    - /url: "#_configure_with_a_builder"
+                - listitem [ref=e109]:
+                  - link "One-Time Check" [ref=e110] [cursor=pointer]:
+                    - /url: "#_one_time_check"
+                - listitem [ref=e111]:
+                  - link "Scheduled Monitoring" [ref=e112] [cursor=pointer]:
+                    - /url: "#_scheduled_monitoring"
+                - listitem [ref=e113]:
+                  - link "Custom Consumer" [ref=e114] [cursor=pointer]:
+                    - /url: "#_custom_consumer"
+                - listitem [ref=e115]:
+                  - link "Preventing High Cardinality" [ref=e116] [cursor=pointer]:
+                    - /url: "#_preventing_high_cardinality"
+                - listitem [ref=e117]:
+                  - link "Remove Problematic Tags" [ref=e118] [cursor=pointer]:
+                    - /url: "#_remove_problematic_tags"
+                - listitem [ref=e119]:
+                  - link "Normalize Tag Values" [ref=e120] [cursor=pointer]:
+                    - /url: "#_normalize_tag_values"
+                - listitem [ref=e121]:
+                  - link "Use High Cardinality data with the Observation API" [ref=e122] [cursor=pointer]:
+                    - /url: "#_use_high_cardinality_data_with_the_observation_api"
+                - listitem [ref=e123]:
+                  - link "Use MeterFilters to Set Bounds" [ref=e124] [cursor=pointer]:
+                    - /url: "#_use_meterfilters_to_set_bounds"
+                - listitem [ref=e125]:
+                  - link "Best Practices" [ref=e126] [cursor=pointer]:
+                    - /url: "#_best_practices"
+                - listitem [ref=e127]:
+                  - link "Limitations" [ref=e128] [cursor=pointer]:
+                    - /url: "#_limitations"
+                - listitem [ref=e129]:
+                  - link "See Also" [ref=e130] [cursor=pointer]:
+                    - /url: "#_see_also"
+            - generic [ref=e131]:
+              - link "Edit this Page" [ref=e132] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer/blob/v1.17.0/docs/modules/ROOT/pages/concepts/high-cardinality-tags-detector.adoc
+              - link "GitHub Project" [ref=e135] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer
+              - link "Stack Overflow" [ref=e139] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/micrometer
+        - article [ref=e142]:
+          - navigation "breadcrumbs" [ref=e144]:
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Micrometer" [ref=e147] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e148]:
+                - link "Concepts" [ref=e149] [cursor=pointer]:
+                  - /url: ../concepts.html
+                - text: /
+              - listitem [ref=e150]:
+                - link "High Cardinality Tags Detector" [ref=e151] [cursor=pointer]:
+                  - /url: high-cardinality-tags-detector.html
+          - heading "High Cardinality Tags Detector" [level=1] [ref=e152]
+          - generic [ref=e154]:
+            - paragraph [ref=e156]: High cardinality tags can cause memory and performance issues in your application and your metrics backend. When tag values are unbounded (for example userID, requestID, traceID), each unique combination creates a new Meter, potentially leading to millions of time series and excessive memory consumption.
+            - paragraph [ref=e158]:
+              - code [ref=e159]: HighCardinalityTagsDetector
+              - text: helps you to identify Meters that may have high cardinality tags by monitoring the number of Meters that share the same name. When the count exceeds a configurable threshold, it indicates that the
+              - code [ref=e160]: Meter
+              - text: likely has high cardinality tags.
+            - table [ref=e162]:
+              - rowgroup [ref=e163]:
+                - row [ref=e164]:
+                  - cell "Note" [ref=e165]
+                  - cell [ref=e167]:
+                    - code [ref=e168]: HighCardinalityTagsDetector
+                    - text: detects potential high cardinality tags by counting Meters with the same name. It does not detect other issues, such as appending random values to Meter names. Its sole purpose is detecting the potential presence of high cardinality tags.
+          - generic [ref=e169]:
+            - heading "Understand High Cardinality" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - paragraph [ref=e173]: "High cardinality occurs when a tag has an unbounded or large number of possible values that does not fit in memory. Common examples include:"
+              - list [ref=e175]:
+                - listitem [ref=e176]:
+                  - paragraph [ref=e177]: UserID, Email, RequestID, SessionID, TraceID
+                - listitem [ref=e178]:
+                  - paragraph [ref=e179]: Timestamps
+                - listitem [ref=e180]:
+                  - paragraph [ref=e181]:
+                    - text: Full URLs (
+                    - code [ref=e182]: /users/123
+                    - text: )
+                - listitem [ref=e183]:
+                  - paragraph [ref=e184]: Any user input that is not validated/normalized
+              - paragraph [ref=e186]: "In contrast, low cardinality tags have a bounded, typically \"small\" set of values:"
+              - list [ref=e188]:
+                - listitem [ref=e189]:
+                  - paragraph [ref=e190]:
+                    - text: HTTP methods (
+                    - code [ref=e191]: method=GET
+                    - text: )
+                - listitem [ref=e192]:
+                  - paragraph [ref=e193]:
+                    - text: HTTP status codes (
+                    - code [ref=e194]: status=200
+                    - text: )
+                - listitem [ref=e195]:
+                  - paragraph [ref=e196]:
+                    - text: Application names (
+                    - code [ref=e197]: application=payments-app
+                    - text: )
+                - listitem [ref=e198]:
+                  - paragraph [ref=e199]:
+                    - text: Environment names (
+                    - code [ref=e200]: env=prod
+                    - text: )
+                - listitem [ref=e201]:
+                  - paragraph [ref=e202]:
+                    - text: Templated URLs (
+                    - code [ref=e203]: "/users/{id}"
+                    - text: )
+              - table [ref=e205]:
+                - rowgroup [ref=e206]:
+                  - row [ref=e207]:
+                    - cell "Tip" [ref=e208]
+                    - cell [ref=e210]:
+                      - text: For more information on tag naming best practices, see
+                      - link "Tag Naming" [ref=e211] [cursor=pointer]:
+                        - /url: naming.html#_tag_naming
+                      - text: .
+          - generic [ref=e212]:
+            - heading "How It Works" [level=2] [ref=e213]
+            - generic [ref=e214]:
+              - paragraph [ref=e216]: "The detector works by:"
+              - list [ref=e218]:
+                - listitem [ref=e219]:
+                  - paragraph [ref=e220]: Counting how many meters exist with the same name in the registry
+                - listitem [ref=e221]:
+                  - paragraph [ref=e222]: Comparing this count against a threshold
+                - listitem [ref=e223]:
+                  - paragraph [ref=e224]: Notifying you (via logging or custom consumer) when the threshold is exceeded
+          - generic [ref=e225]:
+            - heading "Usage" [level=2] [ref=e226]
+            - generic [ref=e227]:
+              - paragraph [ref=e229]:
+                - text: You can configure the detector through the
+                - code [ref=e230]: MeterRegistry
+                - text: ". In this case, the detector is automatically started and managed by the registry:"
+              - generic [ref=e231]:
+                - heading "Configure with the defaults" [level=3] [ref=e232]
+                - generic [ref=e235]:
+                  - code [ref=e236]: java registry.config().withHighCardinalityTagsDetector();
+                  - button "Copied!" [ref=e238] [cursor=pointer]
+              - generic [ref=e240]:
+                - heading "Configure with a Factory" [level=3] [ref=e241]
+                - paragraph [ref=e243]:
+                  - text: You can provide your own
+                  - code [ref=e244]: Function<MeterRegistry, HighCardinalityTagsDetector>
+                  - text: "that receives a registry and returns a detector:"
+                - generic [ref=e247]:
+                  - code [ref=e248]: java registry.config().withHighCardinalityTagsDetector(HighCardinalityTagsDetector::new);
+                  - button "Copied!" [ref=e250] [cursor=pointer]
+              - generic [ref=e252]:
+                - heading "Configure with a Builder" [level=3] [ref=e253]
+                - paragraph [ref=e255]:
+                  - code [ref=e256]: HighCardinalityTagsDetector.Builder
+                  - text: "can be used to conveniently set parameters:"
+                - generic [ref=e259]:
+                  - code [ref=e260]: java registry.config().withHighCardinalityTagsDetector(r -> new HighCardinalityTagsDetector.Builder(r) .threshold(1000) // 1000 different meters with the same name .delay(Duration.ofMinutes(5)) // check ~every 5 minutes .highCardinalityMeterInfoConsumer(info -> alert("Nooo!")) .build() );
+                  - button "Copied!" [ref=e262] [cursor=pointer]
+              - generic [ref=e264]:
+                - heading "One-Time Check" [level=3] [ref=e265]
+                - paragraph [ref=e267]: "You can perform a one-time check to see if any meters exceed the threshold:"
+                - generic [ref=e270]:
+                  - code [ref=e271]: "java try (HighCardinalityTagsDetector detector = new HighCardinalityTagsDetector.Builder(registry).threshold(10) .build()) { // Create meters with a high cardinality tag (uid) for (int i = 0; i < 15; i++) { registry.counter(\"requests\", \"uid\", String.valueOf(i)).increment(); } assertThat(detector.findFirst()).isNotEmpty().get().isEqualTo(\"requests\"); assertThat(detector.findFirstHighCardinalityMeterInfo()).isNotEmpty().get().satisfies(info -> { assertThat(info.getName()).isEqualTo(\"requests\"); assertThat(info.getCount()).isEqualTo(15); }); } // detector.close() is implicit here but don't forget to close it otherwise!"
+                  - button "Copied!" [ref=e273] [cursor=pointer]
+                - paragraph [ref=e276]: "This approach can be useful for:"
+                - list [ref=e278]:
+                  - listitem [ref=e279]:
+                    - paragraph [ref=e280]: Ad-hoc investigation of potential issues
+                  - listitem [ref=e281]:
+                    - paragraph [ref=e282]: Tests to verify your instrumentation
+              - generic [ref=e283]:
+                - heading "Scheduled Monitoring" [level=3] [ref=e284]
+                - paragraph [ref=e286]:
+                  - text: For continuous monitoring in production, you don’t need to create a scheduled job that periodically calls the detector. The detector has a built in scheduler, but you don’t need to manage that one either (by calling
+                  - code [ref=e287]: start()
+                  - text: and
+                  - code [ref=e288]: close()
+                  - text: ). Instead you can configure the detector through the
+                  - code [ref=e289]: MeterRegistry
+                  - text: so that the detector is automatically started and managed by the registry for you. See the various configuration options with the registry above.
+              - generic [ref=e290]:
+                - heading "Custom Consumer" [level=3] [ref=e291]
+                - paragraph [ref=e293]:
+                  - text: Instead of the default logging behavior, you can provide a
+                  - code [ref=e294]: Consumer<HighCardinalityMeterInfo>
+                  - text: "to handle high cardinality notifications:"
+                - generic [ref=e297]:
+                  - code [ref=e298]: java registry.config().withHighCardinalityTagsDetector(r -> new HighCardinalityTagsDetector.Builder(r).threshold(10) .highCardinalityMeterInfoConsumer(this::recordHighCardinalityEvent) .build() );
+                  - button "Copied!" [ref=e300] [cursor=pointer]
+                - paragraph [ref=e303]: "And here’s an example implementation:"
+                - generic [ref=e306]:
+                  - code [ref=e307]:
+                    - text: java
+                    - generic [ref=e308]: void recordHighCardinalityEvent(HighCardinalityTagsDetector.HighCardinalityMeterInfo info)
+                    - text: "{ alert(\"High cardinality detected in \" + info.getName() + \" with \" + info.getCount() + \" meters!\"); registry.counter(\"highCardinality.detections\", \"meter\", info.getName()).increment(); }"
+                  - button "Copied!" [ref=e310] [cursor=pointer]
+                - paragraph [ref=e313]: "This can be useful for:"
+                - list [ref=e315]:
+                  - listitem [ref=e316]:
+                    - paragraph [ref=e317]: Custom logging or reporting
+                  - listitem [ref=e318]:
+                    - paragraph [ref=e319]: Publishing alerts
+                  - listitem [ref=e320]:
+                    - paragraph [ref=e321]: Collecting metrics about high cardinality detections
+                  - listitem [ref=e322]:
+                    - paragraph [ref=e323]: Triggering any kind of custom actions
+          - generic [ref=e324]:
+            - heading "Preventing High Cardinality" [level=2] [ref=e325]
+            - generic [ref=e326]:
+              - paragraph [ref=e328]: "When the detector identifies high cardinality tags, consider the following possible solutions:"
+              - generic [ref=e329]:
+                - heading "Remove Problematic Tags" [level=3] [ref=e330]
+                - paragraph [ref=e332]:
+                  - text: If a tag provides little value but high cardinality, you should remove it. If you control the instrumentation, you should update it to not add the high cardinality tag. If you don’t control the instrumentation, you can remove the tag using a
+                  - code [ref=e333]: MeterFilter
+                  - text: ":"
+                - generic [ref=e336]:
+                  - code [ref=e337]: java registry.config().meterFilter(MeterFilter.ignoreTags("userId"));
+                  - button "Copied!" [ref=e339] [cursor=pointer]
+                - paragraph [ref=e342]:
+                  - text: See
+                  - link "Meter Filters" [ref=e343] [cursor=pointer]:
+                    - /url: meter-filters.html
+                  - text: for more information and configuration options.
+              - generic [ref=e344]:
+                - heading "Normalize Tag Values" [level=3] [ref=e345]
+                - paragraph [ref=e347]: "Instead of using \"raw\" values, normalize them to reduce cardinality:"
+                - list [ref=e349]:
+                  - listitem [ref=e350]:
+                    - paragraph [ref=e351]:
+                      - text: "Use templated URLs instead of actual URLs:"
+                      - code [ref=e352]: "/users/{id}"
+                      - text: instead of
+                      - code [ref=e353]: /users/123
+                  - listitem [ref=e354]:
+                    - paragraph [ref=e355]:
+                      - text: "Group values into ranges:"
+                      - code [ref=e356]: age.group=20-30
+                      - text: instead of
+                      - code [ref=e357]: age=25
+                  - listitem [ref=e358]:
+                    - paragraph [ref=e359]:
+                      - text: "Use categories:"
+                      - code [ref=e360]: outcome=CLIENT_ERROR
+                      - text: (or
+                      - code [ref=e361]: status=4xx
+                      - text: ) instead of
+                      - code [ref=e362]: status=404
+                  - listitem [ref=e363]:
+                    - paragraph [ref=e364]:
+                      - text: "Limit unknown/unexpected values to known values:"
+                      - code [ref=e365]: status=OTHER
+                - table [ref=e367]:
+                  - rowgroup [ref=e368]:
+                    - row [ref=e369]:
+                      - cell "Note" [ref=e370]
+                      - cell [ref=e372]:
+                        - code [ref=e373]: age
+                        - text: and
+                        - code [ref=e374]: status
+                        - text: are not necessarily high cardinality data since they are usually fall into a finite set of values (except if input is not validated and
+                        - code [ref=e375]: age=12345
+                        - text: and
+                        - code [ref=e376]: status=54321
+                        - text: are possible to send to the app). The normalization techniques to reduce cardinality are still valid though.
+              - generic [ref=e377]:
+                - heading "Use High Cardinality data with the Observation API" [level=3] [ref=e378]
+                - paragraph [ref=e380]: "If you are using Micrometer’s Observation API, you can mark certain metadata as high cardinality. These key-values should not be used for recording metrics. Typically they are only used in outputs that can handle high cardinality (for example: distributed tracing systems, logs):"
+                - generic [ref=e383]:
+                  - code [ref=e384]: java observation.highCardinalityKeyValue("userId", userId);
+                  - button "Copied!" [ref=e386] [cursor=pointer]
+                - paragraph [ref=e389]:
+                  - text: See
+                  - link "Observation API" [ref=e390] [cursor=pointer]:
+                    - /url: ../observation/introduction.html
+                  - text: for more information.
+              - generic [ref=e391]:
+                - heading "Use MeterFilters to Set Bounds" [level=3] [ref=e392]
+                - paragraph [ref=e394]:
+                  - text: If none of the above works, you can use
+                  - code [ref=e395]: maximumAllowableTags
+                  - text: and
+                  - code [ref=e396]: maximumAllowableMetrics
+                  - text: as a last resort to protect your application and your monitoring system. They are for situations in which you cannot fix the cardinality problem, for example with an HTTP client instrumentation that does not offer a way to tag the URI with a template (low cardinality) instead of the expanded URI (high cardinality). You can use
+                  - code [ref=e397]: MeterFilter
+                  - text: "to prevent high cardinality before it becomes a problem:"
+                - generic [ref=e400]:
+                  - code [ref=e401]: java registry.config().meterFilter(MeterFilter.maximumAllowableTags("http.requests", "uri", 100, MeterFilter.deny()));
+                  - button "Copied!" [ref=e403] [cursor=pointer]
+                - table [ref=e406]:
+                  - rowgroup [ref=e407]:
+                    - row [ref=e408]:
+                      - cell "Tip" [ref=e409]
+                      - cell [ref=e411]:
+                        - text: In the code above, instead of
+                        - code [ref=e412]: MeterFilter.deny()
+                        - text: ", you can implement your own logic that not only denies the registration of the"
+                        - code [ref=e413]: Meter
+                        - text: but also logs the event out. These logs can be overwhelming, it’s a good idea to limit them.
+                - paragraph [ref=e415]:
+                  - text: See
+                  - link "Meter Filters" [ref=e416] [cursor=pointer]:
+                    - /url: meter-filters.html
+                  - text: for more information.
+          - generic [ref=e417]:
+            - heading "Best Practices" [level=2] [ref=e418]
+            - list [ref=e421]:
+              - listitem [ref=e422]:
+                - paragraph [ref=e423]:
+                  - strong [ref=e424]: Enable in Production
+                  - text: ": Run the detector in production to catch issues that may not appear in testing."
+              - listitem [ref=e425]:
+                - paragraph [ref=e426]:
+                  - strong [ref=e427]: Monitor Regularly
+                  - text: ": Use the scheduled monitoring mode rather than one-time checks."
+              - listitem [ref=e428]:
+                - paragraph [ref=e429]:
+                  - strong [ref=e430]: Act on Warnings
+                  - text: ": When high cardinality is detected, investigate and fix the root cause rather than just increasing the threshold."
+              - listitem [ref=e431]:
+                - paragraph [ref=e432]:
+                  - strong [ref=e433]: Set Appropriate Thresholds
+                  - text: ": The default threshold might work for most applications, but adjust it based on your monitoring system’s capabilities and your application’s scale as needed."
+              - listitem [ref=e434]:
+                - paragraph [ref=e435]:
+                  - strong [ref=e436]: Test Your Instrumentation
+                  - text: ": Use the detector in integration tests to verify that your custom instrumentation doesn’t introduce high cardinality."
+          - generic [ref=e437]:
+            - heading "Limitations" [level=2] [ref=e438]
+            - list [ref=e441]:
+              - listitem [ref=e442]:
+                - paragraph [ref=e443]: "The detector only identifies high cardinality by counting Meters with the same name. It cannot detect:"
+                - list [ref=e445]:
+                  - listitem [ref=e446]:
+                    - paragraph [ref=e447]:
+                      - text: Random values appended to
+                      - code [ref=e448]: Meter
+                      - text: names
+                  - listitem [ref=e449]:
+                    - paragraph [ref=e450]: Memory leaks from other sources
+                  - listitem [ref=e451]:
+                    - paragraph [ref=e452]: High cardinality that hasn’t yet exceeded the threshold
+              - listitem [ref=e453]:
+                - paragraph [ref=e454]: The detector examines the first meter that exceeds the threshold. If multiple meters have high cardinality, you’ll need to fix them iteratively.
+              - listitem [ref=e455]:
+                - paragraph [ref=e456]: The threshold is a heuristic based on memory and may need adjustment for your specific use case.
+          - generic [ref=e457]:
+            - heading "See Also" [level=2] [ref=e458]
+            - list [ref=e461]:
+              - listitem [ref=e462]:
+                - paragraph [ref=e463]:
+                  - link "Meter Filters" [ref=e464] [cursor=pointer]:
+                    - /url: meter-filters.html
+                  - text: ": Using filters to control meter registration and tag cardinality"
+              - listitem [ref=e465]:
+                - paragraph [ref=e466]:
+                  - link "Observation API" [ref=e467] [cursor=pointer]:
+                    - /url: ../observation/introduction.html
+                  - text: ": Using high- and low cardinality tags with Observations"
+          - navigation [ref=e468]:
+            - generic [ref=e469]:
+              - text: Prev
+              - link "‹ Meter Convention" [ref=e470] [cursor=pointer]:
+                - /url: meter-convention.html
+            - generic [ref=e471]:
+              - text: Next
+              - link "Implementations ›" [ref=e472] [cursor=pointer]:
+                - /url: ../implementations.html
+  - contentinfo [ref=e473]:
+    - generic [ref=e474]:
+      - img "Micrometer" [ref=e475]
+      - paragraph [ref=e476]:
+        - text: © 2026
+        - link "VMware" [ref=e477] [cursor=pointer]:
+          - /url: https://www.vmware.com/
+        - text: ", Inc. or its affiliates."
+        - link "Terms of Use" [ref=e478] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e479] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+    - generic [ref=e480]:
+      - link "GitHub" [ref=e481] [cursor=pointer]:
+        - /url: https://github.com/micrometer-metrics
+      - link "Twitter" [ref=e485] [cursor=pointer]:
+        - /url: https://twitter.com/micrometerio

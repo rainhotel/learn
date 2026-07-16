@@ -3,14 +3,14 @@
 ## Snapshot
 
 - Current phase: Phase 0 - 事实核验与基线
-- Last updated: 2026-07-14
+- Last updated: 2026-07-15
 - Main language: Java
 
 ## Milestones
 
 - [x] 建立课程生产标准与章节模板
 - [x] 建立第一版权威资料地图
-- [ ] 完成课程术语表与风格指南
+- [x] 完成课程术语表与风格指南
 - [ ] 发布第一章“线程池与异步通知任务”
 - [ ] 发布第二章“HashMap 与集合选型”
 - [ ] 发布第三章“JMM、volatile 与 synchronized”
@@ -23,10 +23,20 @@
 - [ ] 完成 Redis 缓存与限流实验
 - [ ] 完成 MQ 可靠消息链路
 - [ ] 完成 JVM/生产排障报告
+- [ ] 完成网络、连接池、超时与容量实验
 - [ ] 完成 RAG 知识服务和评测集
 - [ ] 完成 80-100 道算法题
 - [ ] 完成 Java 后端简历
 - [ ] 完成 3 次模拟面试
+
+产品化基础设施：
+
+- [x] 定义 NotifyFlow MVP 最小纵切规格和 A01-A15 验收合同。
+- [x] 完成 NotifyFlow Phase 0-3 五模块源码初稿、Java 核心合同检查和 H2 V1 schema 验证。
+- [x] 建立学生包/教师包 allowlist 构建与答案隔离 smoke test。
+- [x] 建立 Internal Alpha `release-evidence` 证据包。
+- [ ] 实现并运行 NotifyFlow MVP。
+- [ ] 在干净环境构建最终 ZIP 并完成解压后二次校验。
 
 ## Weekly Evidence
 
@@ -71,6 +81,29 @@
 - 第八章核心设计：错误分类、单点重试预算、上限指数退避与抖动、retry token、DLT case、Unknown 对账、replay batch、权限审批和审计。
 - 第八章实验状态：重试放大和 Full Jitter 已通过 Java 21 TDD 验证，输出分别为 243/3 次调用与 10000/1044 峰值；其余六组 Pending。
 - 第八章发布前缺口：实现错误分类、Spring Kafka DLT、Unknown 对账、回调乱序、安全重放和分阶段恢复，完成恢复操作台和学习者试讲。
+- 第九章课程包：讲义、NotifyFlow 指标字典与压测方案、十组实验设计、练习答案、面试、来源和试讲稿已完成初稿。
+- 第九章资料核验：Google SRE 黄金信号、Spring Boot 4.1.0/Micrometer 1.17.0、OpenTelemetry signals、k6 开放/封闭模型与 threshold、JDK 21 JFR 官方资料已核对。
+- 第九章核心设计：用户 SLI/SLO、RED/USE、低基数指标、结构化日志和 Trace、开放到达负载、coordinated omission、容量拐点、故障爆炸半径和数据正确性。
+- 第九章实验状态：长尾、开放/封闭负载、指标 tag 基数和线程池容量四组基础验证已通过；真实有界 `ThreadPoolExecutor` 拒绝路径与实验 9 Phase A 自定义 JFR 事件也已通过。
+- 第九章真实结果：平均值 15.85 ms 对最大值 10000 ms；开放模型慢阶段丢弃 10500 次；`taskId` 将 6 条时序放大为 10000 条；线程池在 250/s 时队列达到 100、拒绝 2900 次、P99 600 ms，吞吐仍受限于约 200/s。
+- 第九章 Micrometer 状态：Boot 4.1.0/Micrometer 1.17.0 工程与测试已准备，但精确版本无缓存，Maven 写入失败且联网审批 403，尚无有效 RED/GREEN。
+- 第九章 JFR 真实结果：6 次提交中接受 4、拒绝 2、完成 4；113422 字节录制文件含 4 条 `com.notifyflow.ProviderCall`，`RecordingFile` 与 JFR CLI 结果一致。
+- 第九章 k6 状态：`open-load.js`、`closed-load.js`、`recovery-stages.js` 已创建，Node.js 语法检查均退出码 0；本机 `k6` 未安装，runtime/threshold 仍 Pending。
+- 第九章发布前缺口：运行 Micrometer Histogram/`MeterFilter`、实现真实 k6 threshold、JFR GC/分配/锁分析、数据库/Kafka/供应商/UNKNOWN/Soak 实验，获得 Dashboard、压测报告和故障恢复时间线。
+- 第十章 JVM 课程包：README、讲义、NotifyFlow 应用、实验设计、练习答案、面试、Teach-back 和来源已完成初稿；GC/OOM/NMT/heap dump/锁/虚拟线程实验均为 Pending。
+- 第十一章网络与容量课程包：八件套和十组实验矩阵已完成初稿；覆盖连接复用、分阶段 timeout/deadline、连接池、Little's Law、UNKNOWN 对账、retry budget、SSE 恢复和端口耗尽，全部运行实验仍为 Pending。
+- 第十二章 Docker/Kubernetes 课程包：八件套和八组实验矩阵已完成初稿；Docker Engine、Compose、集群部署、探针、回滚、资源/OOM、Service/DNS 和节点故障均为 Pending。
+- 第十三章系统设计与项目答辩课程包：八件套和十组评审/演练矩阵已完成初稿；端到端运行、故障演练、陌生评审与答辩录像均为 Pending。
+- 第十四章 LLM/RAG/Agent 课程包：八件套和十二组实验矩阵已完成初稿；Transformer、推理、Embedding、ANN、RAG 评测、Tool 安全和 Java Model Gateway 实验均为 Pending。
+- 第十五章文档 ingestion 课程包：八件套和十二组实验矩阵已完成初稿；解析、OCR、结构保留、chunk、metadata/ACL、版本删除、去重、幂等和失败恢复实验均为 Pending。
+- 第十六章检索工程课程包：八件套和十二组实验矩阵已完成初稿；hybrid、RRF、rerank、向量库索引、ACL、生命周期、Java 集成和容量实验均为 Pending。
+- 第十七章 RAG 评测与安全课程包：八件套和十二组评测/红队矩阵已完成初稿；真实评测集、引用验证、拒答、ACL、prompt injection、回归门禁和 Java Runner 实验均为 Pending。
+- 第十八章 Agent Runtime 课程包：八件套和十二组实验矩阵已完成初稿；Java 状态机、Tool schema/RBAC/幂等、UNKNOWN、审批、SSE、Memory、安全攻击和多 Agent 消融均为 Pending。
+- 第十九章多实例分布式课程包：八件套和十二组实验矩阵已完成初稿；SKIP LOCKED、lease/fencing、Kafka rebalance、分片、全局配额、网络分区、Kubernetes 下线和 Agent 事故分析实验均为 Pending。
+- 第二十章简历证据课程包：八件套已完成初稿；大烨实习边界、事实台账、量化证据和三类简历均待真实逐句审计。
+- 第二十一章技术面试课程包：八件套已完成初稿；闭卷口述、项目五层追问、系统设计和三轮模拟面试均为 Pending。
+- 第二十二章算法与学习验证课程包：八件套和 96 题路线已完成初稿；题量、正确率、Teach-back 和陌生读者验证均为 Pending。
+- 第二十三章岗位与发布课程包：八件套已完成初稿；实时 JD、投递批次、面试反馈、作品复现、版权和 Release Candidate 审计均为 Pending。
 
 ## Exit Criteria
 

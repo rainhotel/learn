@@ -1,0 +1,368 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://micrometer.io
+        - img "Micrometer" [ref=e5]
+      - generic [ref=e6] [cursor=pointer]:
+        - checkbox "light" [ref=e7]
+        - generic [ref=e11]: light
+  - generic [ref=e12]:
+    - complementary [ref=e14]:
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Micrometer
+            - generic [ref=e20]: 1.17.0
+            - button [ref=e21] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e28] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e31]: CTRL + k
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - list [ref=e34]:
+                - listitem [ref=e35]:
+                  - link "Overview" [ref=e36] [cursor=pointer]:
+                    - /url: ../overview.html
+                - listitem [ref=e37]:
+                  - link "Installing" [ref=e38] [cursor=pointer]:
+                    - /url: ../installing.html
+                - listitem [ref=e39]:
+                  - button [ref=e40] [cursor=pointer]
+                  - link "Concepts" [ref=e41] [cursor=pointer]:
+                    - /url: ../concepts.html
+                  - list [ref=e42]:
+                    - listitem [ref=e43]:
+                      - link "Supported Monitoring Systems" [ref=e44] [cursor=pointer]:
+                        - /url: implementations.html
+                    - listitem [ref=e45]:
+                      - link "Meters" [ref=e46] [cursor=pointer]:
+                        - /url: meters.html
+                    - listitem [ref=e47]:
+                      - link "Registry" [ref=e48] [cursor=pointer]:
+                        - /url: registry.html
+                    - listitem [ref=e49]:
+                      - link "Naming Meters" [ref=e50] [cursor=pointer]:
+                        - /url: naming.html
+                    - listitem [ref=e51]:
+                      - link "Meter Filters" [ref=e52] [cursor=pointer]:
+                        - /url: meter-filters.html
+                    - listitem [ref=e53]:
+                      - link "Rate Aggregation" [ref=e54] [cursor=pointer]:
+                        - /url: rate-aggregation.html
+                    - listitem [ref=e55]:
+                      - link "Counters" [ref=e56] [cursor=pointer]:
+                        - /url: counters.html
+                    - listitem [ref=e57]:
+                      - link "Gauges" [ref=e58] [cursor=pointer]:
+                        - /url: gauges.html
+                    - listitem [ref=e59]:
+                      - link "Timers" [ref=e60] [cursor=pointer]:
+                        - /url: timers.html
+                    - listitem [ref=e61]:
+                      - link "Distribution Summaries" [ref=e62] [cursor=pointer]:
+                        - /url: distribution-summaries.html
+                    - listitem [ref=e63]:
+                      - link "Long Task Timers" [ref=e64] [cursor=pointer]:
+                        - /url: long-task-timers.html
+                    - listitem [ref=e65]:
+                      - link "Histograms and Percentiles" [ref=e66] [cursor=pointer]:
+                        - /url: histogram-quantiles.html
+                    - listitem [ref=e67]:
+                      - link "Meter Provider" [ref=e68] [cursor=pointer]:
+                        - /url: meter-provider.html
+                    - listitem [ref=e69]:
+                      - link "Meter Convention" [ref=e70] [cursor=pointer]:
+                        - /url: meter-convention.html
+                    - listitem [ref=e71]:
+                      - link "High Cardinality Tags Detector" [ref=e72] [cursor=pointer]:
+                        - /url: high-cardinality-tags-detector.html
+                - listitem [ref=e73]:
+                  - button [ref=e74] [cursor=pointer]
+                  - link "Implementations" [ref=e75] [cursor=pointer]:
+                    - /url: ../implementations.html
+                - listitem [ref=e76]:
+                  - button [ref=e77] [cursor=pointer]
+                  - link "Reference Instrumentations" [ref=e78] [cursor=pointer]:
+                    - /url: ../reference.html
+                - listitem [ref=e79]:
+                  - button [ref=e80] [cursor=pointer]
+                  - link "Guides" [ref=e81] [cursor=pointer]:
+                    - /url: ../guides.html
+                - listitem [ref=e82]:
+                  - button [ref=e83] [cursor=pointer]
+                  - link "Micrometer Observation" [ref=e84] [cursor=pointer]:
+                    - /url: ../observation.html
+        - button [ref=e86] [cursor=pointer]
+    - main [ref=e89]:
+      - generic [ref=e90]:
+        - complementary [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - heading "Counters" [level=3] [ref=e95]
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "The @Counted Annotation" [ref=e98] [cursor=pointer]:
+                    - /url: "#_the_counted_annotation"
+                - listitem [ref=e99]:
+                  - link "@MeterTag on Method Parameters" [ref=e100] [cursor=pointer]:
+                    - /url: "#_metertag_on_method_parameters"
+                - listitem [ref=e101]:
+                  - link "Function-tracking Counters" [ref=e102] [cursor=pointer]:
+                    - /url: "#_function_tracking_counters"
+            - generic [ref=e103]:
+              - link "Edit this Page" [ref=e104] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer/blob/v1.17.0/docs/modules/ROOT/pages/concepts/counters.adoc
+              - link "GitHub Project" [ref=e107] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer
+              - link "Stack Overflow" [ref=e111] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/micrometer
+        - article [ref=e114]:
+          - navigation "breadcrumbs" [ref=e116]:
+            - list [ref=e117]:
+              - listitem [ref=e118]:
+                - link "Micrometer" [ref=e119] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e120]:
+                - link "Concepts" [ref=e121] [cursor=pointer]:
+                  - /url: ../concepts.html
+                - text: /
+              - listitem [ref=e122]:
+                - link "Counters" [ref=e123] [cursor=pointer]:
+                  - /url: counters.html
+          - heading "Counters" [level=1] [ref=e124]
+          - generic [ref=e126]:
+            - paragraph [ref=e128]:
+              - text: "Counters report a single metric: a count. The"
+              - code [ref=e129]: Counter
+              - text: interface lets you increment by a fixed amount, which must be positive.
+            - table [ref=e131]:
+              - rowgroup [ref=e132]:
+                - row [ref=e133]:
+                  - cell "Tip" [ref=e134]
+                  - cell [ref=e136]:
+                    - text: Never count something you can time with a
+                    - code [ref=e137]: Timer
+                    - text: or summarize with a
+                    - code [ref=e138]: DistributionSummary
+                    - text: "! Both"
+                    - code [ref=e139]: Timer
+                    - text: and
+                    - code [ref=e140]: DistributionSummary
+                    - text: always publish a count of events in addition to other measurements.
+            - paragraph [ref=e142]: When building graphs and alerts off of counters, you should generally be most interested in measuring the rate at which some event occurs over a given time interval. Consider a simple queue. You could use counters to measure various things, such as the rate at which items are being inserted and removed.
+            - paragraph [ref=e144]:
+              - text: It is tempting, at first, to conceive of visualizing absolute counts rather than a rate, but the absolute count is usually both a function of the rapidity with which something is used
+              - strong [ref=e145]: and
+              - text: the longevity of the application instance under instrumentation. Building dashboards and alerts of the rate of a counter per some interval of time disregards the longevity of the app, letting you see aberrant behavior long after the application has started.
+            - table [ref=e147]:
+              - rowgroup [ref=e148]:
+                - row [ref=e149]:
+                  - cell "Note" [ref=e150]
+                  - cell "Be sure to read through the timer section before jumping into using counters, as timers record a count of timed events as part of the suite of metrics that go into timing. For those pieces of code you intend to time, you do NOT need to add a separate counter." [ref=e152]
+            - paragraph [ref=e154]: "The following code simulates a real counter whose rate exhibits some perturbation over a short time window:"
+            - generic [ref=e157]:
+              - code [ref=e158]:
+                - text: java Normal rand = ...; // a random generator MeterRegistry registry = ... Counter counter = registry.counter("counter");
+                - generic [ref=e159]: "1"
+                - text: "Flux.interval(Duration.ofMillis(10)) .doOnEach(d -> { if (rand.nextDouble() + 0.1 > 0) {"
+                - generic [ref=e160]: "2"
+                - text: counter.increment();
+                - generic [ref=e161]: "3"
+                - text: "} }) .blockLast();"
+              - button "Copied!" [ref=e163] [cursor=pointer]
+            - table [ref=e166]:
+              - rowgroup [ref=e167]:
+                - row [ref=e168]:
+                  - cell "1" [ref=e169]
+                  - cell "Most counters can be created off of the registry itself with a name and, optionally, a set of tags." [ref=e171]
+                - row [ref=e172]:
+                  - cell "2" [ref=e173]
+                  - cell "A slightly positively biased random walk." [ref=e175]
+                - row [ref=e176]:
+                  - cell "3" [ref=e177]
+                  - cell [ref=e179]:
+                    - text: This is how you interact with a counter. You could also call
+                    - code [ref=e180]: counter.increment(n)
+                    - text: to increment by more than one in a single operation.
+            - paragraph [ref=e182]:
+              - text: A fluent builder for counters on the
+              - code [ref=e183]: Counter
+              - text: interface itself provides access to less frequently used options, such as base units and description. You can register the counter as the last step of its construction by calling
+              - code [ref=e184]: register
+              - text: ":"
+            - generic [ref=e187]:
+              - code [ref=e188]: java Counter counter = Counter .builder("counter") .baseUnit("beans") // optional .description("a description of what this counter does") // optional .tags("region", "test") // optional .register(registry);
+              - button "Copied!" [ref=e190] [cursor=pointer]
+          - generic [ref=e192]:
+            - heading [level=2] [ref=e193]:
+              - text: The
+              - code [ref=e194]: "@Counted"
+              - text: Annotation
+            - generic [ref=e195]:
+              - paragraph [ref=e197]:
+                - text: The
+                - code [ref=e198]: micrometer-core
+                - text: module contains a
+                - code [ref=e199]: "@Counted"
+                - text: annotation that frameworks can use to add counting support to either specific types of methods such as those serving web request endpoints or, more generally, to all methods.
+              - paragraph [ref=e201]:
+                - text: Also, an incubating AspectJ aspect is included in
+                - code [ref=e202]: micrometer-core
+                - text: ". You can use it in your application either through compile/load time AspectJ weaving or through framework facilities that interpret AspectJ aspects and proxy targeted methods in some other way, such as Spring AOP. Here is a sample Spring AOP configuration:"
+              - generic [ref=e205]:
+                - code [ref=e206]:
+                  - text: java @Configuration public
+                  - generic [ref=e207]: class CountedConfiguration
+                  - text: "{ @Bean"
+                  - generic [ref=e208]: public CountedAspect countedAspect(MeterRegistry registry)
+                  - text: "{ return new CountedAspect(registry); } }"
+                - button "Copied!" [ref=e210] [cursor=pointer]
+              - paragraph [ref=e213]:
+                - text: Applying
+                - code [ref=e214]: CountedAspect
+                - text: makes
+                - code [ref=e215]: "@Counted"
+                - text: "usable on any arbitrary method in an AspectJ proxied instance, as the following example shows:"
+              - generic [ref=e218]:
+                - code [ref=e219]:
+                  - text: java @Service public
+                  - generic [ref=e220]: class ExampleService
+                  - text: "{ @Counted"
+                  - generic [ref=e221]: public void sync()
+                  - text: "{ // @Counted will record the number of executions of this method ... } @Async @Counted public CompletableFuture<?> async() { // @Counted will record the number of executions of this method return CompletableFuture.supplyAsync(...); } }"
+                - button "Copied!" [ref=e223] [cursor=pointer]
+              - generic [ref=e225]:
+                - heading "@MeterTag on Method Parameters" [level=3] [ref=e226]
+                - paragraph [ref=e228]:
+                  - text: To support using the
+                  - code [ref=e229]: "@MeterTag"
+                  - text: annotation on method parameters, you need to configure the
+                  - code [ref=e230]: "@CountedAspect"
+                  - text: to add the
+                  - code [ref=e231]: CountedMeterTagAnnotationHandler
+                  - text: .
+                - generic [ref=e234]:
+                  - code [ref=e235]: java ValueResolver valueResolver = parameter -> "Value from myCustomTagValueResolver [" + parameter + "]"; // Example of a ValueExpressionResolver that uses Spring Expression Language ValueExpressionResolver valueExpressionResolver = new SpelValueExpressionResolver(); // Setting the handler on the aspect countedAspect.setMeterTagAnnotationHandler( new CountedMeterTagAnnotationHandler(aClass -> valueResolver, aClass -> valueExpressionResolver));
+                  - button "Copied!" [ref=e237] [cursor=pointer]
+                - paragraph [ref=e240]: Let’s assume that we have the following interface.
+                - generic [ref=e243]:
+                  - code [ref=e244]:
+                    - text: java
+                    - generic [ref=e245]: interface MeterTagClassInterface
+                    - text: "{ @Counted"
+                    - generic [ref=e246]:
+                      - text: void getAnnotationForTagValueResolver
+                      - generic [ref=e247]: (@MeterTag(key = "test", resolver = ValueResolver.class)
+                      - text: String test)
+                    - text: ; @Counted
+                    - generic [ref=e248]:
+                      - text: void getAnnotationForTagValueExpression
+                      - generic [ref=e249]: ( @MeterTag(key = "test", expression = "'hello' + ' characters'")
+                      - text: String test)
+                    - text: ; @Counted
+                    - generic [ref=e250]:
+                      - text: void getAnnotationForArgumentToString
+                      - generic [ref=e251]: (@MeterTag("test")
+                      - text: Long param)
+                    - text: ; @Counted
+                    - generic [ref=e252]:
+                      - text: void getMultipleAnnotationsForTagValueExpression
+                      - generic [ref=e253]: "( @MeterTag(key = \"value1\", expression = \"'value1: ' + value1\")"
+                      - text: "@MeterTag"
+                      - generic [ref=e254]: "(key = \"value2\", expression = \"'value2: ' + value2\")"
+                      - text: DataHolder param)
+                    - text: "; }"
+                  - button "Copied!" [ref=e256] [cursor=pointer]
+                - paragraph [ref=e259]:
+                  - text: When its implementations would be called with different arguments (remember that the implementation needs to be annotated with
+                  - code [ref=e260]: "@Counted"
+                  - text: "annotation too), the following counters would be created:"
+                - generic [ref=e263]:
+                  - code [ref=e264]: "java // Example for returning <toString()> on the parameter service.getAnnotationForArgumentToString(15L); assertThat(registry.get(\"method.counted\").tag(\"test\", \"15\").counter().count()).isEqualTo(1); // Example for calling the provided <ValueResolver> on the parameter service.getAnnotationForTagValueResolver(\"foo\"); assertThat(registry.get(\"method.counted\") .tag(\"test\", \"Value from myCustomTagValueResolver [foo]\") .counter() .count()).isEqualTo(1); // Example for calling the provided <ValueExpressionResolver> service.getAnnotationForTagValueExpression(\"15L\"); assertThat(registry.get(\"method.counted\").tag(\"test\", \"hello characters\").counter().count()).isEqualTo(1); // Example for using multiple @MeterTag annotations on the same parameter // @MeterTags({ @MeterTag(...), @MeterTag(...) }) can be also used service.getMultipleAnnotationsForTagValueExpression(new DataHolder(\"zxe\", \"qwe\")); assertThat(registry.get(\"method.counted\") .tag(\"value1\", \"value1: zxe\") .tag(\"value2\", \"value2: qwe\") .counter() .count()).isEqualTo(1);"
+                  - button "Copied!" [ref=e266] [cursor=pointer]
+                - table [ref=e269]:
+                  - rowgroup [ref=e270]:
+                    - row [ref=e271]:
+                      - cell "Note" [ref=e272]
+                      - cell [ref=e274]:
+                        - code [ref=e275]: CountedAspect
+                        - text: doesn’t support meta-annotations with
+                        - code [ref=e276]: "@Counted"
+                        - text: .
+          - generic [ref=e277]:
+            - heading "Function-tracking Counters" [level=2] [ref=e278]
+            - generic [ref=e279]:
+              - paragraph [ref=e281]: Micrometer also provides a more infrequently used counter pattern that tracks a monotonically increasing function (a function that stays the same or increases over time but never decreases). Some monitoring systems, such as Prometheus, push cumulative values for counters to the backend, but others publish the rate at which a counter is incrementing over the push interval. By employing this pattern, you let the Micrometer implementation for your monitoring system choose whether to rate-normalize the counter, and your counter remains portable across different types of monitoring systems.
+              - generic [ref=e284]:
+                - code [ref=e285]:
+                  - text: java Cache cache = ...; // suppose we have a Guava cache with stats recording on registry.more().counter("evictions", tags, cache, c -> c.stats().evictionCount());
+                  - generic [ref=e286]: "1"
+                - button "Copied!" [ref=e288] [cursor=pointer]
+              - table [ref=e291]:
+                - rowgroup [ref=e292]:
+                  - row [ref=e293]:
+                    - cell "1" [ref=e294]
+                    - cell [ref=e296]:
+                      - code [ref=e297]: evictionCount()
+                      - text: is a monotonically increasing function that increments with every cache eviction from the beginning of its life.
+              - paragraph [ref=e299]:
+                - text: The function-tracking counter, in concert with the monitoring system’s rate normalizing functionality (whether this is an artifact of the query language or the way data is pushed to the system), adds a layer of richness on top of the cumulative value of the function itself. You can reason about the
+                - emphasis [ref=e300]: rate
+                - text: at which the value is increasing, whether that rate is within an acceptable bound, is increasing or decreasing over time, and so on.
+              - table [ref=e302]:
+                - rowgroup [ref=e303]:
+                  - row [ref=e304]:
+                    - cell "Warning" [ref=e305]
+                    - cell "Micrometer cannot guarantee the monotonicity of the function for you. By using this signature, you assert its monotonicity based on what you know about its definition." [ref=e307]
+              - paragraph [ref=e309]:
+                - text: A fluent builder for function counters on the
+                - code [ref=e310]: FunctionCounter
+                - text: interface itself provides access to less frequently used options, such as base units and description. You can register the counter as the last step of its construction by calling
+                - code [ref=e311]: register(MeterRegistry)
+                - text: ":"
+              - generic [ref=e314]:
+                - code [ref=e315]: java MyCounterState state = ...; FunctionCounter counter = FunctionCounter .builder("counter", state, state -> state.count()) .baseUnit("beans") // optional .description("a description of what this counter does") // optional .tags("region", "test") // optional .register(registry);
+                - button "Copied!" [ref=e317] [cursor=pointer]
+              - table [ref=e320]:
+                - rowgroup [ref=e321]:
+                  - row [ref=e322]:
+                    - cell "Warning" [ref=e323]
+                    - cell [ref=e325]:
+                      - text: Attempting to construct a function-tracking counter with a primitive number or one of its
+                      - code [ref=e326]: java.lang
+                      - text: object forms is always incorrect. These numbers are immutable. Thus, the function-tracking counter cannot ever be changed. Attempting to "re-register" the function-tracking counter with a different number does not work, as the registry maintains only one meter for each unique combination of name and tags. "Re-registering" a function-tracking counter can happen indirectly for example as the result of a
+                      - code [ref=e327]: MeterFilter
+                      - text: modifying the name and/or the tags of two different function-tracking counters so that they will be the same after the filter is applied.
+              - paragraph [ref=e329]: "Attempting to \"re-register\" a function-tracking counter will result in a warning like this:"
+              - generic [ref=e332]:
+                - code [ref=e333]: "WARNING: This FunctionCounter has been already registered (MeterId{name='my.fc', tags=[]}), the registration will be ignored. Note that subsequent logs will be logged at debug level."
+                - button "Copied!" [ref=e335] [cursor=pointer]
+          - navigation [ref=e337]:
+            - generic [ref=e338]:
+              - text: Prev
+              - link "‹ Rate Aggregation" [ref=e339] [cursor=pointer]:
+                - /url: rate-aggregation.html
+            - generic [ref=e340]:
+              - text: Next
+              - link "Gauges ›" [ref=e341] [cursor=pointer]:
+                - /url: gauges.html
+  - contentinfo [ref=e342]:
+    - generic [ref=e343]:
+      - img "Micrometer" [ref=e344]
+      - paragraph [ref=e345]:
+        - text: © 2026
+        - link "VMware" [ref=e346] [cursor=pointer]:
+          - /url: https://www.vmware.com/
+        - text: ", Inc. or its affiliates."
+        - link "Terms of Use" [ref=e347] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e348] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+    - generic [ref=e349]:
+      - link "GitHub" [ref=e350] [cursor=pointer]:
+        - /url: https://github.com/micrometer-metrics
+      - link "Twitter" [ref=e354] [cursor=pointer]:
+        - /url: https://twitter.com/micrometerio

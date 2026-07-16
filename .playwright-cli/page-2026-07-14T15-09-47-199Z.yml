@@ -1,0 +1,2746 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Boot
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../index.html
+                - listitem [ref=e51]:
+                  - link "Documentation" [ref=e52] [cursor=pointer]:
+                    - /url: ../../documentation.html
+                - listitem [ref=e53]:
+                  - link "Community" [ref=e54] [cursor=pointer]:
+                    - /url: ../../community.html
+                - listitem [ref=e55]:
+                  - link "System Requirements" [ref=e56] [cursor=pointer]:
+                    - /url: ../../system-requirements.html
+                - listitem [ref=e57]:
+                  - link "Installing Spring Boot" [ref=e58] [cursor=pointer]:
+                    - /url: ../../installing.html
+                - listitem [ref=e59]:
+                  - link "Upgrading Spring Boot" [ref=e60] [cursor=pointer]:
+                    - /url: ../../upgrading.html
+                - listitem [ref=e61]:
+                  - button [ref=e62] [cursor=pointer]
+                  - link "Tutorials" [ref=e63] [cursor=pointer]:
+                    - /url: ../../tutorial/index.html
+                - listitem [ref=e64]:
+                  - button [ref=e65] [cursor=pointer]
+                  - link "Reference" [ref=e66] [cursor=pointer]:
+                    - /url: ../index.html
+                  - list [ref=e67]:
+                    - listitem [ref=e68]:
+                      - button [ref=e69] [cursor=pointer]
+                      - link "Developing with Spring Boot" [ref=e70] [cursor=pointer]:
+                        - /url: ../using/index.html
+                    - listitem [ref=e71]:
+                      - button [ref=e72] [cursor=pointer]
+                      - link "Core Features" [ref=e73] [cursor=pointer]:
+                        - /url: ../features/index.html
+                    - listitem [ref=e74]:
+                      - button [ref=e75] [cursor=pointer]
+                      - link "Web" [ref=e76] [cursor=pointer]:
+                        - /url: ../web/index.html
+                    - listitem [ref=e77]:
+                      - button [ref=e78] [cursor=pointer]
+                      - link "Data" [ref=e79] [cursor=pointer]:
+                        - /url: ../data/index.html
+                    - listitem [ref=e80]:
+                      - button [ref=e81] [cursor=pointer]
+                      - link "IO" [ref=e82] [cursor=pointer]:
+                        - /url: ../io/index.html
+                    - listitem [ref=e83]:
+                      - button [ref=e84] [cursor=pointer]
+                      - link "Messaging" [ref=e85] [cursor=pointer]:
+                        - /url: ../messaging/index.html
+                    - listitem [ref=e86]:
+                      - button [ref=e87] [cursor=pointer]
+                      - link "Security" [ref=e88] [cursor=pointer]:
+                        - /url: ../security/index.html
+                    - listitem [ref=e89]:
+                      - button [ref=e90] [cursor=pointer]
+                      - link "Testing" [ref=e91] [cursor=pointer]:
+                        - /url: ../testing/index.html
+                    - listitem [ref=e92]:
+                      - button [ref=e93] [cursor=pointer]
+                      - link "Packaging Spring Boot Applications" [ref=e94] [cursor=pointer]:
+                        - /url: ../packaging/index.html
+                    - listitem [ref=e95]:
+                      - button [ref=e96] [cursor=pointer]
+                      - link "Production-ready Features" [ref=e97] [cursor=pointer]:
+                        - /url: index.html
+                      - list [ref=e98]:
+                        - listitem [ref=e99]:
+                          - link "Enabling Production-ready Features" [ref=e100] [cursor=pointer]:
+                            - /url: enabling.html
+                        - listitem [ref=e101]:
+                          - link "Endpoints" [ref=e102] [cursor=pointer]:
+                            - /url: endpoints.html
+                        - listitem [ref=e103]:
+                          - link "Monitoring and Management Over HTTP" [ref=e104] [cursor=pointer]:
+                            - /url: monitoring.html
+                        - listitem [ref=e105]:
+                          - link "Monitoring and Management over JMX" [ref=e106] [cursor=pointer]:
+                            - /url: jmx.html
+                        - listitem [ref=e107]:
+                          - link "Observability" [ref=e108] [cursor=pointer]:
+                            - /url: observability.html
+                        - listitem [ref=e109]:
+                          - link "Loggers" [ref=e110] [cursor=pointer]:
+                            - /url: loggers.html
+                        - listitem [ref=e111]:
+                          - link "Metrics" [ref=e112] [cursor=pointer]:
+                            - /url: metrics.html
+                        - listitem [ref=e113]:
+                          - link "Tracing" [ref=e114] [cursor=pointer]:
+                            - /url: tracing.html
+                        - listitem [ref=e115]:
+                          - link "Auditing" [ref=e116] [cursor=pointer]:
+                            - /url: auditing.html
+                        - listitem [ref=e117]:
+                          - link "Recording HTTP Exchanges" [ref=e118] [cursor=pointer]:
+                            - /url: http-exchanges.html
+                        - listitem [ref=e119]:
+                          - link "Process Monitoring" [ref=e120] [cursor=pointer]:
+                            - /url: process-monitoring.html
+                        - listitem [ref=e121]:
+                          - link "Cloud Foundry Support" [ref=e122] [cursor=pointer]:
+                            - /url: cloud-foundry.html
+                - listitem [ref=e123]:
+                  - button [ref=e124] [cursor=pointer]
+                  - link "How-to Guides" [ref=e125] [cursor=pointer]:
+                    - /url: ../../how-to/index.html
+                - listitem [ref=e126]:
+                  - button [ref=e127] [cursor=pointer]
+                  - link "Build Tool Plugins" [ref=e128] [cursor=pointer]:
+                    - /url: ../../build-tool-plugin/index.html
+                - listitem [ref=e129]:
+                  - button [ref=e130] [cursor=pointer]
+                  - link "Spring Boot CLI" [ref=e131] [cursor=pointer]:
+                    - /url: ../../cli/index.html
+                - listitem [ref=e132]:
+                  - button [ref=e133] [cursor=pointer]
+                  - generic [ref=e134] [cursor=pointer]: Rest APIs
+                - listitem [ref=e135]:
+                  - button [ref=e136] [cursor=pointer]
+                  - generic [ref=e137] [cursor=pointer]: Java APIs
+                - listitem [ref=e138]:
+                  - button [ref=e139] [cursor=pointer]
+                  - generic [ref=e140] [cursor=pointer]: Kotlin APIs
+                - listitem [ref=e141]:
+                  - button [ref=e142] [cursor=pointer]
+                  - generic [ref=e143] [cursor=pointer]: Specifications
+                - listitem [ref=e144]:
+                  - button [ref=e145] [cursor=pointer]
+                  - generic [ref=e146] [cursor=pointer]: Appendix
+        - button [ref=e148] [cursor=pointer]
+    - main [ref=e151]:
+      - generic [ref=e152]:
+        - complementary [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - heading "Metrics" [level=3] [ref=e157]
+              - list [ref=e158]:
+                - listitem [ref=e159]:
+                  - link "Getting Started" [ref=e160] [cursor=pointer]:
+                    - /url: "#actuator.metrics.getting-started"
+                - listitem [ref=e161]:
+                  - link "Supported Monitoring Systems" [ref=e162] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export"
+                - listitem [ref=e163]:
+                  - link "AppOptics" [ref=e164] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.appoptics"
+                - listitem [ref=e165]:
+                  - link "Atlas" [ref=e166] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.atlas"
+                - listitem [ref=e167]:
+                  - link "Datadog" [ref=e168] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.datadog"
+                - listitem [ref=e169]:
+                  - link "Dynatrace" [ref=e170] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.dynatrace"
+                - listitem [ref=e171]:
+                  - link "Elastic" [ref=e172] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.elastic"
+                - listitem [ref=e173]:
+                  - link "Ganglia" [ref=e174] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.ganglia"
+                - listitem [ref=e175]:
+                  - link "Graphite" [ref=e176] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.graphite"
+                - listitem [ref=e177]:
+                  - link "Humio" [ref=e178] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.humio"
+                - listitem [ref=e179]:
+                  - link "Influx" [ref=e180] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.influx"
+                - listitem [ref=e181]:
+                  - link "JMX" [ref=e182] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.jmx"
+                - listitem [ref=e183]:
+                  - link "KairosDB" [ref=e184] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.kairos"
+                - listitem [ref=e185]:
+                  - link "New Relic" [ref=e186] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.newrelic"
+                - listitem [ref=e187]:
+                  - link "OTLP" [ref=e188] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.otlp"
+                - listitem [ref=e189]:
+                  - link "Prometheus" [ref=e190] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.prometheus"
+                - listitem [ref=e191]:
+                  - link "Simple" [ref=e192] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.simple"
+                - listitem [ref=e193]:
+                  - link "Stackdriver" [ref=e194] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.stackdriver"
+                - listitem [ref=e195]:
+                  - link "StatsD" [ref=e196] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.statsd"
+                - listitem [ref=e197]:
+                  - link "Supported Metrics and Meters" [ref=e198] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported"
+                - listitem [ref=e199]:
+                  - link "JVM Metrics" [ref=e200] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.jvm"
+                - listitem [ref=e201]:
+                  - link "System Metrics" [ref=e202] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.system"
+                - listitem [ref=e203]:
+                  - link "Application Startup Metrics" [ref=e204] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.application-startup"
+                - listitem [ref=e205]:
+                  - link "Logger Metrics" [ref=e206] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.logger"
+                - listitem [ref=e207]:
+                  - link "Task Execution and Scheduling Metrics" [ref=e208] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.tasks"
+                - listitem [ref=e209]:
+                  - link "JMS Metrics" [ref=e210] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.jms"
+                - listitem [ref=e211]:
+                  - link "Spring MVC Metrics" [ref=e212] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.spring-mvc"
+                - listitem [ref=e213]:
+                  - link "Spring WebFlux Metrics" [ref=e214] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.spring-webflux"
+                - listitem [ref=e215]:
+                  - link "Jersey Server Metrics" [ref=e216] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.jersey"
+                - listitem [ref=e217]:
+                  - link "SSL Bundle Metrics" [ref=e218] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.ssl"
+                - listitem [ref=e219]:
+                  - link "HTTP Client Metrics" [ref=e220] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.http-clients"
+                - listitem [ref=e221]:
+                  - link "Tomcat Metrics" [ref=e222] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.tomcat"
+                - listitem [ref=e223]:
+                  - link "Cache Metrics" [ref=e224] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.cache"
+                - listitem [ref=e225]:
+                  - link "Spring Batch Metrics" [ref=e226] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.spring-batch"
+                - listitem [ref=e227]:
+                  - link "Spring GraphQL Metrics" [ref=e228] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.spring-graphql"
+                - listitem [ref=e229]:
+                  - link "DataSource Metrics" [ref=e230] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.jdbc"
+                - listitem [ref=e231]:
+                  - link "Hibernate Metrics" [ref=e232] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.hibernate"
+                - listitem [ref=e233]:
+                  - link "Spring Data Repository Metrics" [ref=e234] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.spring-data-repository"
+                - listitem [ref=e235]:
+                  - link "RabbitMQ Metrics" [ref=e236] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.rabbitmq"
+                - listitem [ref=e237]:
+                  - link "Spring Integration Metrics" [ref=e238] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.spring-integration"
+                - listitem [ref=e239]:
+                  - link "Kafka Metrics" [ref=e240] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.kafka"
+                - listitem [ref=e241]:
+                  - link "MongoDB Metrics" [ref=e242] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.mongodb"
+                - listitem [ref=e243]:
+                  - link "Neo4j Metrics" [ref=e244] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.neo4j"
+                - listitem [ref=e245]:
+                  - link "Jetty Metrics" [ref=e246] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.jetty"
+                - listitem [ref=e247]:
+                  - link "Redis Metrics" [ref=e248] [cursor=pointer]:
+                    - /url: "#actuator.metrics.supported.redis"
+                - listitem [ref=e249]:
+                  - link "Registering Custom Metrics" [ref=e250] [cursor=pointer]:
+                    - /url: "#actuator.metrics.registering-custom"
+                - listitem [ref=e251]:
+                  - link "Customizing Individual Metrics" [ref=e252] [cursor=pointer]:
+                    - /url: "#actuator.metrics.customizing"
+                - listitem [ref=e253]:
+                  - link "Common Tags" [ref=e254] [cursor=pointer]:
+                    - /url: "#actuator.metrics.customizing.common-tags"
+                - listitem [ref=e255]:
+                  - link "Per-meter Properties" [ref=e256] [cursor=pointer]:
+                    - /url: "#actuator.metrics.customizing.per-meter-properties"
+                - listitem [ref=e257]:
+                  - link "Metrics Endpoint" [ref=e258] [cursor=pointer]:
+                    - /url: "#actuator.metrics.endpoint"
+                - listitem [ref=e259]:
+                  - link "Integration with Micrometer Observation" [ref=e260] [cursor=pointer]:
+                    - /url: "#actuator.metrics.micrometer-observation"
+            - generic [ref=e261]:
+              - link "Edit this Page" [ref=e262] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-boot/blob/v4.1.0/documentation/spring-boot-docs/src/docs/antora/modules/reference/pages/actuator/metrics.adoc
+              - link "GitHub Project" [ref=e265] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-boot
+              - link "Stack Overflow" [ref=e269] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/spring-boot
+        - article [ref=e272]:
+          - navigation "breadcrumbs" [ref=e274]:
+            - list [ref=e275]:
+              - listitem "Copy versioned URL" [ref=e276]
+              - listitem [ref=e277]:
+                - link "Spring Boot" [ref=e278] [cursor=pointer]:
+                  - /url: ../../index.html
+                - text: /
+              - listitem [ref=e279]:
+                - link "Reference" [ref=e280] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e281]:
+                - link "Production-ready Features" [ref=e282] [cursor=pointer]:
+                  - /url: index.html
+                - text: /
+              - listitem [ref=e283]:
+                - link "Metrics" [ref=e284] [cursor=pointer]:
+                  - /url: metrics.html
+          - heading "Metrics" [level=1] [ref=e285]
+          - generic [ref=e287]:
+            - paragraph [ref=e289]:
+              - text: Spring Boot Actuator provides dependency management and auto-configuration for
+              - link "Micrometer" [ref=e290] [cursor=pointer]:
+                - /url: https://micrometer.io
+              - text: ", an application metrics facade that supports"
+              - link "numerous monitoring systems" [ref=e291] [cursor=pointer]:
+                - /url: https://docs.micrometer.io/micrometer/reference/1.17
+              - text: ", including:"
+            - list [ref=e293]:
+              - listitem [ref=e294]:
+                - paragraph [ref=e295]:
+                  - link "AppOptics" [ref=e296] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.appoptics"
+              - listitem [ref=e297]:
+                - paragraph [ref=e298]:
+                  - link "Atlas" [ref=e299] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.atlas"
+              - listitem [ref=e300]:
+                - paragraph [ref=e301]:
+                  - link "Datadog" [ref=e302] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.datadog"
+              - listitem [ref=e303]:
+                - paragraph [ref=e304]:
+                  - link "Dynatrace" [ref=e305] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.dynatrace"
+              - listitem [ref=e306]:
+                - paragraph [ref=e307]:
+                  - link "Elastic" [ref=e308] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.elastic"
+              - listitem [ref=e309]:
+                - paragraph [ref=e310]:
+                  - link "Ganglia" [ref=e311] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.ganglia"
+              - listitem [ref=e312]:
+                - paragraph [ref=e313]:
+                  - link "Graphite" [ref=e314] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.graphite"
+              - listitem [ref=e315]:
+                - paragraph [ref=e316]:
+                  - link "Humio" [ref=e317] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.humio"
+              - listitem [ref=e318]:
+                - paragraph [ref=e319]:
+                  - link "Influx" [ref=e320] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.influx"
+              - listitem [ref=e321]:
+                - paragraph [ref=e322]:
+                  - link "JMX" [ref=e323] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.jmx"
+              - listitem [ref=e324]:
+                - paragraph [ref=e325]:
+                  - link "KairosDB" [ref=e326] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.kairos"
+              - listitem [ref=e327]:
+                - paragraph [ref=e328]:
+                  - link "New Relic" [ref=e329] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.newrelic"
+              - listitem [ref=e330]:
+                - paragraph [ref=e331]:
+                  - link "OTLP" [ref=e332] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.otlp"
+              - listitem [ref=e333]:
+                - paragraph [ref=e334]:
+                  - link "Prometheus" [ref=e335] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.prometheus"
+              - listitem [ref=e336]:
+                - paragraph [ref=e337]:
+                  - link "Simple" [ref=e338] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.simple"
+                  - text: (in-memory)
+              - listitem [ref=e339]:
+                - paragraph [ref=e340]:
+                  - link "Stackdriver" [ref=e341] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.stackdriver"
+              - listitem [ref=e342]:
+                - paragraph [ref=e343]:
+                  - link "StatsD" [ref=e344] [cursor=pointer]:
+                    - /url: "#actuator.metrics.export.statsd"
+            - table [ref=e346]:
+              - rowgroup [ref=e347]:
+                - row [ref=e348]:
+                  - cell "Tip" [ref=e349]
+                  - cell [ref=e351]:
+                    - text: To learn more about Micrometer’s capabilities, see its
+                    - link "reference documentation" [ref=e352] [cursor=pointer]:
+                      - /url: https://docs.micrometer.io/micrometer/reference/1.17
+                    - text: ", in particular the"
+                    - link "concepts section" [ref=e353] [cursor=pointer]:
+                      - /url: https://docs.micrometer.io/micrometer/reference/1.17/concepts
+                    - text: .
+          - generic [ref=e354]:
+            - heading "Getting Started" [level=2] [ref=e355]
+            - generic [ref=e356]:
+              - paragraph [ref=e358]:
+                - text: Spring Boot auto-configures a composite
+                - link [ref=e359] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/MeterRegistry.html
+                  - code [ref=e360]: MeterRegistry
+                - text: and adds a registry to the composite for each of the supported implementations that it finds on the classpath. Having a dependency on
+                - code [ref=e361]: "micrometer-registry-{system}"
+                - text: in your runtime classpath is enough for Spring Boot to configure the registry.
+              - paragraph [ref=e363]: "Most registries share common features. For instance, you can disable a particular registry even if the Micrometer registry implementation is on the classpath. The following example disables Datadog:"
+              - generic [ref=e365]:
+                - tablist [ref=e367]:
+                  - tab [selected] [ref=e368] [cursor=pointer]:
+                    - paragraph [ref=e369]: Properties
+                  - tab [ref=e370] [cursor=pointer]:
+                    - paragraph [ref=e371]: YAML
+                - tabpanel "Properties" [ref=e372]:
+                  - generic [ref=e375]:
+                    - code [ref=e376]: properties management.datadog.metrics.export.enabled=false
+                    - button "Copied!" [ref=e378] [cursor=pointer]
+                - text: yaml
+              - paragraph [ref=e381]: "You can also disable all registries unless stated otherwise by the registry-specific property, as the following example shows:"
+              - generic [ref=e383]:
+                - tablist [ref=e385]:
+                  - tab [selected] [ref=e386] [cursor=pointer]:
+                    - paragraph [ref=e387]: Properties
+                  - tab [ref=e388] [cursor=pointer]:
+                    - paragraph [ref=e389]: YAML
+                - tabpanel "Properties" [ref=e390]:
+                  - generic [ref=e393]:
+                    - code [ref=e394]: properties management.defaults.metrics.export.enabled=false
+                    - button "Copied!" [ref=e396] [cursor=pointer]
+                - text: yaml
+              - paragraph [ref=e399]:
+                - text: Spring Boot also adds any auto-configured registries to the global static composite registry on the
+                - link [ref=e400] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/Metrics.html
+                  - code [ref=e401]: Metrics
+                - text: "class, unless you explicitly tell it not to:"
+              - generic [ref=e403]:
+                - tablist [ref=e405]:
+                  - tab [selected] [ref=e406] [cursor=pointer]:
+                    - paragraph [ref=e407]: Properties
+                  - tab [ref=e408] [cursor=pointer]:
+                    - paragraph [ref=e409]: YAML
+                - tabpanel "Properties" [ref=e410]:
+                  - generic [ref=e413]:
+                    - code [ref=e414]: properties management.metrics.use-global-registry=false
+                    - button "Copied!" [ref=e416] [cursor=pointer]
+                - text: yaml
+              - paragraph [ref=e419]:
+                - text: You can register any number of
+                - link [ref=e420] [cursor=pointer]:
+                  - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/metrics/autoconfigure/MeterRegistryCustomizer.html
+                  - code [ref=e421]: MeterRegistryCustomizer
+                - text: "beans to further configure the registry, such as applying common tags, before any meters are registered with the registry:"
+              - generic [ref=e423]:
+                - tablist [ref=e425]:
+                  - tab [selected] [ref=e426] [cursor=pointer]:
+                    - paragraph [ref=e427]: Java
+                  - tab [ref=e428] [cursor=pointer]:
+                    - paragraph [ref=e429]: Kotlin
+                - tabpanel "Java" [ref=e430]:
+                  - generic [ref=e433]:
+                    - code [ref=e434]:
+                      - text: java
+                      - generic: import io.micrometer.core.instrument.MeterRegistry; import org.springframework.boot.micrometer.metrics.autoconfigure.MeterRegistryCustomizer; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                      - generic [ref=e435]:
+                        - text: "@Configuration(proxyBeanMethods = false) public"
+                        - generic [ref=e436]: class MyMeterRegistryConfiguration
+                        - text: "{ @Bean"
+                        - generic [ref=e437]: public MeterRegistryCustomizer<MeterRegistry> metricsCommonTags()
+                        - text: "{ return (registry) -> registry.config().commonTags(\"region\", \"us-east-1\"); } }"
+                    - generic [ref=e438]:
+                      - button "Expand foldable text" [ref=e439] [cursor=pointer]
+                      - button "Copied!" [ref=e440] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e443]: "You can apply customizations to particular registry implementations by being more specific about the generic type:"
+              - generic [ref=e445]:
+                - tablist [ref=e447]:
+                  - tab [selected] [ref=e448] [cursor=pointer]:
+                    - paragraph [ref=e449]: Java
+                  - tab [ref=e450] [cursor=pointer]:
+                    - paragraph [ref=e451]: Kotlin
+                - tabpanel "Java" [ref=e452]:
+                  - generic [ref=e455]:
+                    - code [ref=e456]:
+                      - text: java
+                      - generic: import io.micrometer.core.instrument.Meter; import io.micrometer.core.instrument.config.NamingConvention; import io.micrometer.graphite.GraphiteMeterRegistry; import org.springframework.boot.micrometer.metrics.autoconfigure.MeterRegistryCustomizer; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                      - generic [ref=e457]:
+                        - text: "@Configuration(proxyBeanMethods = false) public"
+                        - generic [ref=e458]: class MyMeterRegistryConfiguration
+                        - text: "{ @Bean"
+                        - generic [ref=e459]: public MeterRegistryCustomizer<GraphiteMeterRegistry> graphiteMetricsNamingConvention()
+                        - text: "{ return (registry) -> registry.config().namingConvention(this::name); }"
+                        - generic [ref=e460]: private String name(String name, Meter.Type type, String baseUnit)
+                        - text: "{ return ... } }"
+                    - generic [ref=e461]:
+                      - button "Expand foldable text" [ref=e462] [cursor=pointer]
+                      - button "Copied!" [ref=e463] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e466]:
+                - text: Spring Boot also
+                - link "configures built-in instrumentation" [ref=e467] [cursor=pointer]:
+                  - /url: "#actuator.metrics.supported"
+                - text: that you can control through configuration or dedicated annotation markers.
+          - generic [ref=e468]:
+            - heading "Supported Monitoring Systems" [level=2] [ref=e469]
+            - generic [ref=e470]:
+              - paragraph [ref=e472]: This section briefly describes each of the supported monitoring systems.
+              - generic [ref=e473]:
+                - heading "AppOptics" [level=3] [ref=e474]
+                - paragraph [ref=e476]:
+                  - text: By default, the AppOptics registry periodically pushes metrics to
+                  - code [ref=e477]:
+                    - link "api.appoptics.com/v1/measurements" [ref=e478] [cursor=pointer]:
+                      - /url: https://api.appoptics.com/v1/measurements
+                  - text: . To export metrics to SaaS
+                  - link "AppOptics" [ref=e479] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/appOptics
+                  - text: ", your API token must be provided:"
+                - generic [ref=e481]:
+                  - tablist [ref=e483]:
+                    - tab [selected] [ref=e484] [cursor=pointer]:
+                      - paragraph [ref=e485]: Properties
+                    - tab [ref=e486] [cursor=pointer]:
+                      - paragraph [ref=e487]: YAML
+                  - tabpanel "Properties" [ref=e488]:
+                    - generic [ref=e491]:
+                      - code [ref=e492]: properties management.appoptics.metrics.export.api-token=YOUR_TOKEN
+                      - button "Copied!" [ref=e494] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e496]:
+                - heading "Atlas" [level=3] [ref=e497]
+                - paragraph [ref=e499]:
+                  - text: By default, metrics are exported to
+                  - link "Atlas" [ref=e500] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/atlas
+                  - text: running on your local machine. You can provide the location of the
+                  - link "Atlas server" [ref=e501] [cursor=pointer]:
+                    - /url: https://github.com/Netflix/atlas
+                  - text: ":"
+                - generic [ref=e503]:
+                  - tablist [ref=e505]:
+                    - tab [selected] [ref=e506] [cursor=pointer]:
+                      - paragraph [ref=e507]: Properties
+                    - tab [ref=e508] [cursor=pointer]:
+                      - paragraph [ref=e509]: YAML
+                  - tabpanel "Properties" [ref=e510]:
+                    - generic [ref=e513]:
+                      - code [ref=e514]: properties management.atlas.metrics.export.uri=https://atlas.example.com:7101/api/v1/publish
+                      - button "Copied!" [ref=e516] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e518]:
+                - heading "Datadog" [level=3] [ref=e519]
+                - paragraph [ref=e521]:
+                  - text: A Datadog registry periodically pushes metrics to
+                  - link "datadoghq" [ref=e522] [cursor=pointer]:
+                    - /url: https://www.datadoghq.com
+                  - text: . To export metrics to
+                  - link "Datadog" [ref=e523] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/datadog
+                  - text: ", you must provide your API key:"
+                - generic [ref=e525]:
+                  - tablist [ref=e527]:
+                    - tab [selected] [ref=e528] [cursor=pointer]:
+                      - paragraph [ref=e529]: Properties
+                    - tab [ref=e530] [cursor=pointer]:
+                      - paragraph [ref=e531]: YAML
+                  - tabpanel "Properties" [ref=e532]:
+                    - generic [ref=e535]:
+                      - code [ref=e536]: properties management.datadog.metrics.export.api-key=YOUR_KEY
+                      - button "Copied!" [ref=e538] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e541]: "If you additionally provide an application key (optional), then metadata such as meter descriptions, types, and base units will also be exported:"
+                - generic [ref=e543]:
+                  - tablist [ref=e545]:
+                    - tab [selected] [ref=e546] [cursor=pointer]:
+                      - paragraph [ref=e547]: Properties
+                    - tab [ref=e548] [cursor=pointer]:
+                      - paragraph [ref=e549]: YAML
+                  - tabpanel "Properties" [ref=e550]:
+                    - generic [ref=e553]:
+                      - code [ref=e554]: properties management.datadog.metrics.export.api-key=YOUR_API_KEY management.datadog.metrics.export.application-key=YOUR_APPLICATION_KEY
+                      - button "Copied!" [ref=e556] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e559]:
+                  - text: By default, metrics are sent to the Datadog US
+                  - link "site" [ref=e560] [cursor=pointer]:
+                    - /url: https://docs.datadoghq.com/getting_started/site
+                  - text: (
+                  - code [ref=e561]:
+                    - link "api.datadoghq.com" [ref=e562] [cursor=pointer]:
+                      - /url: https://api.datadoghq.com
+                  - text: "). If your Datadog project is hosted on one of the other sites, or you need to send metrics through a proxy, configure the URI accordingly:"
+                - generic [ref=e564]:
+                  - tablist [ref=e566]:
+                    - tab [selected] [ref=e567] [cursor=pointer]:
+                      - paragraph [ref=e568]: Properties
+                    - tab [ref=e569] [cursor=pointer]:
+                      - paragraph [ref=e570]: YAML
+                  - tabpanel "Properties" [ref=e571]:
+                    - generic [ref=e574]:
+                      - code [ref=e575]: properties management.datadog.metrics.export.uri=https://api.datadoghq.eu
+                      - button "Copied!" [ref=e577] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e580]: "You can also change the interval at which metrics are sent to Datadog:"
+                - generic [ref=e582]:
+                  - tablist [ref=e584]:
+                    - tab [selected] [ref=e585] [cursor=pointer]:
+                      - paragraph [ref=e586]: Properties
+                    - tab [ref=e587] [cursor=pointer]:
+                      - paragraph [ref=e588]: YAML
+                  - tabpanel "Properties" [ref=e589]:
+                    - generic [ref=e592]:
+                      - code [ref=e593]: properties management.datadog.metrics.export.step=30s
+                      - button "Copied!" [ref=e595] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e597]:
+                - heading "Dynatrace" [level=3] [ref=e598]
+                - paragraph [ref=e600]:
+                  - text: Dynatrace offers two metrics ingest APIs, both of which are implemented for
+                  - link "Micrometer" [ref=e601] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/dynatrace
+                  - text: . You can find the Dynatrace documentation on Micrometer metrics ingest
+                  - link "here" [ref=e602] [cursor=pointer]:
+                    - /url: https://docs.dynatrace.com/docs/shortlink/micrometer-metrics-ingest
+                  - text: .
+                - paragraph [ref=e604]:
+                  - text: Configuration properties in the
+                  - code [ref=e605]: v1
+                  - text: namespace apply only when exporting to the
+                  - link "Timeseries v1 API" [ref=e606] [cursor=pointer]:
+                    - /url: https://docs.dynatrace.com/docs/shortlink/api-metrics
+                  - text: . Support for the V1 API is deprecated.
+                - paragraph [ref=e608]:
+                  - text: Configuration properties in the
+                  - code [ref=e609]: v2
+                  - text: namespace apply only when exporting to the
+                  - link "Metrics v2 API" [ref=e610] [cursor=pointer]:
+                    - /url: https://docs.dynatrace.com/docs/shortlink/api-metrics-v2-post-datapoints
+                  - text: .
+                - paragraph [ref=e612]:
+                  - text: Note that this integration can export only to either the
+                  - code [ref=e613]: v1
+                  - text: or
+                  - code [ref=e614]: v2
+                  - text: version of the API at a time, with
+                  - code [ref=e615]: v2
+                  - text: being strongly recommended due to the deprecation of the v1 API. If the
+                  - code [ref=e616]: device-id
+                  - text: (required for v1 but not used in v2) is set in the
+                  - code [ref=e617]: v1
+                  - text: namespace, metrics are exported to the
+                  - code [ref=e618]: v1
+                  - text: endpoint. Otherwise,
+                  - code [ref=e619]: v2
+                  - text: is assumed.
+                - generic [ref=e620]:
+                  - heading "v2 API" [level=4] [ref=e621]
+                  - paragraph [ref=e623]: You can use the v2 API in two ways.
+                  - generic [ref=e624]:
+                    - heading "Auto-configuration" [level=5] [ref=e625]
+                    - paragraph [ref=e627]: Dynatrace auto-configuration is available for hosts that are monitored by the OneAgent or by the Dynatrace Operator for Kubernetes.
+                    - paragraph [ref=e629]:
+                      - strong [ref=e630]: "Local OneAgent:"
+                      - text: If a OneAgent is running on the host, metrics are automatically exported to the
+                      - link "local OneAgent ingest endpoint" [ref=e631] [cursor=pointer]:
+                        - /url: https://docs.dynatrace.com/docs/shortlink/local-api
+                      - text: . The ingest endpoint forwards the metrics to the Dynatrace backend.
+                    - paragraph [ref=e633]:
+                      - strong [ref=e634]: "Dynatrace Kubernetes Operator:"
+                      - text: When running in Kubernetes with the Dynatrace Operator installed, the registry will automatically pick up your endpoint URI and API token from the operator instead.
+                    - paragraph [ref=e636]:
+                      - text: This is the default behavior and requires no special setup beyond a dependency on
+                      - code [ref=e637]: io.micrometer:micrometer-registry-dynatrace
+                      - text: .
+                  - generic [ref=e638]:
+                    - heading "Manual Configuration" [level=5] [ref=e639]
+                    - paragraph [ref=e641]:
+                      - text: If no auto-configuration is available, the endpoint of the
+                      - link "Metrics v2 API" [ref=e642] [cursor=pointer]:
+                        - /url: https://docs.dynatrace.com/docs/shortlink/api-metrics-v2-post-datapoints
+                      - text: and an API token are required. The
+                      - link "API token" [ref=e643] [cursor=pointer]:
+                        - /url: https://docs.dynatrace.com/docs/shortlink/api-authentication
+                      - text: must have the “Ingest metrics” (
+                      - code [ref=e644]: metrics.ingest
+                      - text: ) permission set. We recommend limiting the scope of the token to this one permission. You must ensure that the endpoint URI contains the path (for example,
+                      - code [ref=e645]: /api/v2/metrics/ingest
+                      - text: "):"
+                    - paragraph [ref=e647]: "The URL of the Metrics API v2 ingest endpoint is different according to your deployment option:"
+                    - list [ref=e649]:
+                      - listitem [ref=e650]:
+                        - paragraph [ref=e651]:
+                          - text: "SaaS:"
+                          - code [ref=e652]: "https://{your-environment-id}.live.dynatrace.com/api/v2/metrics/ingest"
+                      - listitem [ref=e653]:
+                        - paragraph [ref=e654]:
+                          - text: "Managed deployments:"
+                          - code [ref=e655]: "https://{your-domain}/e/{your-environment-id}/api/v2/metrics/ingest"
+                    - paragraph [ref=e657]:
+                      - text: The example below configures metrics export using the
+                      - code [ref=e658]: example
+                      - text: "environment id:"
+                    - generic [ref=e660]:
+                      - tablist [ref=e662]:
+                        - tab [selected] [ref=e663] [cursor=pointer]:
+                          - paragraph [ref=e664]: Properties
+                        - tab [ref=e665] [cursor=pointer]:
+                          - paragraph [ref=e666]: YAML
+                      - tabpanel "Properties" [ref=e667]:
+                        - generic [ref=e670]:
+                          - code [ref=e671]: properties management.dynatrace.metrics.export.uri=https://example.live.dynatrace.com/api/v2/metrics/ingest management.dynatrace.metrics.export.api-token=YOUR_TOKEN
+                          - button "Copied!" [ref=e673] [cursor=pointer]
+                      - text: yaml
+                    - paragraph [ref=e676]:
+                      - text: When using the Dynatrace v2 API, the following optional features are available (more details can be found in the
+                      - link "Dynatrace documentation" [ref=e677] [cursor=pointer]:
+                        - /url: https://docs.dynatrace.com/docs/shortlink/micrometer-metrics-ingest#dt-configuration-properties
+                      - text: "):"
+                    - list [ref=e679]:
+                      - listitem [ref=e680]:
+                        - paragraph [ref=e681]: "Metric key prefix: Sets a prefix that is prepended to all exported metric keys."
+                      - listitem [ref=e682]:
+                        - paragraph [ref=e683]: "Enrich with Dynatrace metadata: If a OneAgent or Dynatrace operator is running, enrich metrics with additional metadata (for example, about the host, process, or pod)."
+                      - listitem [ref=e684]:
+                        - paragraph [ref=e685]: "Default dimensions: Specify key-value pairs that are added to all exported metrics. If tags with the same key are specified with Micrometer, they overwrite the default dimensions."
+                      - listitem [ref=e686]:
+                        - paragraph [ref=e687]:
+                          - text: "Use Dynatrace Summary instruments: In some cases the Micrometer Dynatrace registry created metrics that were rejected. In Micrometer 1.9.x, this was fixed by introducing Dynatrace-specific summary instruments. Setting this toggle to"
+                          - code [ref=e688]: "false"
+                          - text: forces Micrometer to fall back to the behavior that was the default before 1.9.x. It should only be used when encountering problems while migrating from Micrometer 1.8.x to 1.9.x.
+                      - listitem [ref=e689]:
+                        - paragraph [ref=e690]:
+                          - text: "Export meter metadata: Starting from Micrometer 1.12.0, the Dynatrace exporter will also export meter metadata, such as unit and description by default. Use the"
+                          - code [ref=e691]: export-meter-metadata
+                          - text: toggle to turn this feature off.
+                    - paragraph [ref=e693]: "It is possible to not specify a URI and API token, as shown in the following example. In this scenario, the automatically configured endpoint is used:"
+                    - generic [ref=e695]:
+                      - tablist [ref=e697]:
+                        - tab [selected] [ref=e698] [cursor=pointer]:
+                          - paragraph [ref=e699]: Properties
+                        - tab [ref=e700] [cursor=pointer]:
+                          - paragraph [ref=e701]: YAML
+                      - tabpanel "Properties" [ref=e702]:
+                        - generic [ref=e705]:
+                          - code [ref=e706]: properties management.dynatrace.metrics.export.v2.metric-key-prefix=your.key.prefix management.dynatrace.metrics.export.v2.enrich-with-dynatrace-metadata=true management.dynatrace.metrics.export.v2.default-dimensions.key1=value1 management.dynatrace.metrics.export.v2.default-dimensions.key2=value2 management.dynatrace.metrics.export.v2.use-dynatrace-summary-instruments=true management.dynatrace.metrics.export.v2.export-meter-metadata=true
+                          - button "Copied!" [ref=e708] [cursor=pointer]
+                      - text: yaml
+                - generic [ref=e710]:
+                  - heading "v1 API (Deprecated)" [level=4] [ref=e711]
+                  - paragraph [ref=e713]:
+                    - text: The Dynatrace v1 API metrics registry pushes metrics to the configured URI periodically by using the
+                    - link "Timeseries v1 API" [ref=e714] [cursor=pointer]:
+                      - /url: https://docs.dynatrace.com/docs/shortlink/api-metrics
+                    - text: . For backwards-compatibility with existing setups, when
+                    - code [ref=e715]: device-id
+                    - text: is set (required for v1, but not used in v2), metrics are exported to the Timeseries v1 endpoint. To export metrics to
+                    - link "Dynatrace" [ref=e716] [cursor=pointer]:
+                      - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/dynatrace
+                    - text: ", your API token, device ID, and URI must be provided:"
+                  - generic [ref=e718]:
+                    - tablist [ref=e720]:
+                      - tab [selected] [ref=e721] [cursor=pointer]:
+                        - paragraph [ref=e722]: Properties
+                      - tab [ref=e723] [cursor=pointer]:
+                        - paragraph [ref=e724]: YAML
+                    - tabpanel "Properties" [ref=e725]:
+                      - generic [ref=e728]:
+                        - code [ref=e729]: "properties management.dynatrace.metrics.export.uri=https://{your-environment-id}.live.dynatrace.com management.dynatrace.metrics.export.api-token=YOUR_TOKEN management.dynatrace.metrics.export.v1.device-id=YOUR_DEVICE_ID"
+                        - button "Copied!" [ref=e731] [cursor=pointer]
+                    - text: yaml
+                  - paragraph [ref=e734]: For the v1 API, you must specify the base environment URI without a path, as the v1 endpoint path is added automatically.
+                - generic [ref=e735]:
+                  - heading "Version-independent Settings" [level=4] [ref=e736]
+                  - paragraph [ref=e738]:
+                    - text: In addition to the API endpoint and token, you can also change the interval at which metrics are sent to Dynatrace. The default export interval is
+                    - code [ref=e739]: 60s
+                    - text: ". The following example sets the export interval to 30 seconds:"
+                  - generic [ref=e741]:
+                    - tablist [ref=e743]:
+                      - tab [selected] [ref=e744] [cursor=pointer]:
+                        - paragraph [ref=e745]: Properties
+                      - tab [ref=e746] [cursor=pointer]:
+                        - paragraph [ref=e747]: YAML
+                    - tabpanel "Properties" [ref=e748]:
+                      - generic [ref=e751]:
+                        - code [ref=e752]: properties management.dynatrace.metrics.export.step=30s
+                        - button "Copied!" [ref=e754] [cursor=pointer]
+                    - text: yaml
+                  - paragraph [ref=e757]:
+                    - text: You can find more information on how to set up the Dynatrace exporter for Micrometer in the
+                    - link "Micrometer documentation" [ref=e758] [cursor=pointer]:
+                      - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/dynatrace
+                    - text: and the
+                    - link "Dynatrace documentation" [ref=e759] [cursor=pointer]:
+                      - /url: https://docs.dynatrace.com/docs/shortlink/micrometer-metrics-ingest
+                    - text: .
+              - generic [ref=e760]:
+                - heading "Elastic" [level=3] [ref=e761]
+                - paragraph [ref=e763]:
+                  - text: By default, metrics are exported to
+                  - link "Elastic" [ref=e764] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/elastic
+                  - text: "running on your local machine. You can provide the location of the Elastic server to use by using the following property:"
+                - generic [ref=e766]:
+                  - tablist [ref=e768]:
+                    - tab [selected] [ref=e769] [cursor=pointer]:
+                      - paragraph [ref=e770]: Properties
+                    - tab [ref=e771] [cursor=pointer]:
+                      - paragraph [ref=e772]: YAML
+                  - tabpanel "Properties" [ref=e773]:
+                    - generic [ref=e776]:
+                      - code [ref=e777]: properties management.elastic.metrics.export.host=https://elastic.example.com:8086
+                      - button "Copied!" [ref=e779] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e781]:
+                - heading "Ganglia" [level=3] [ref=e782]
+                - paragraph [ref=e784]:
+                  - text: By default, metrics are exported to
+                  - link "Ganglia" [ref=e785] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/ganglia
+                  - text: running on your local machine. You can provide the
+                  - link "Ganglia server" [ref=e786] [cursor=pointer]:
+                    - /url: http://ganglia.sourceforge.net
+                  - text: "host and port, as the following example shows:"
+                - generic [ref=e788]:
+                  - tablist [ref=e790]:
+                    - tab [selected] [ref=e791] [cursor=pointer]:
+                      - paragraph [ref=e792]: Properties
+                    - tab [ref=e793] [cursor=pointer]:
+                      - paragraph [ref=e794]: YAML
+                  - tabpanel "Properties" [ref=e795]:
+                    - generic [ref=e798]:
+                      - code [ref=e799]: properties management.ganglia.metrics.export.host=ganglia.example.com management.ganglia.metrics.export.port=9649
+                      - button "Copied!" [ref=e801] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e803]:
+                - heading "Graphite" [level=3] [ref=e804]
+                - paragraph [ref=e806]:
+                  - text: By default, metrics are exported to
+                  - link "Graphite" [ref=e807] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/graphite
+                  - text: running on your local machine. You can provide the
+                  - link "Graphite server" [ref=e808] [cursor=pointer]:
+                    - /url: https://graphiteapp.org
+                  - text: "host and port, as the following example shows:"
+                - generic [ref=e810]:
+                  - tablist [ref=e812]:
+                    - tab [selected] [ref=e813] [cursor=pointer]:
+                      - paragraph [ref=e814]: Properties
+                    - tab [ref=e815] [cursor=pointer]:
+                      - paragraph [ref=e816]: YAML
+                  - tabpanel "Properties" [ref=e817]:
+                    - generic [ref=e820]:
+                      - code [ref=e821]: properties management.graphite.metrics.export.host=graphite.example.com management.graphite.metrics.export.port=9004
+                      - button "Copied!" [ref=e823] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e826]:
+                  - text: Micrometer provides a default
+                  - link [ref=e827] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/util/HierarchicalNameMapper.html
+                    - code [ref=e828]: HierarchicalNameMapper
+                  - text: that governs how a dimensional meter ID is
+                  - link "mapped to flat hierarchical names" [ref=e829] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/graphite#_hierarchical_name_mapping
+                  - text: .
+                - table [ref=e831]:
+                  - rowgroup [ref=e832]:
+                    - row [ref=e833]:
+                      - cell "Tip" [ref=e834]
+                      - cell [ref=e836]:
+                        - paragraph [ref=e838]:
+                          - text: To take control over this behavior, define your
+                          - link [ref=e839] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-registry-graphite/1.17.0/io/micrometer/graphite/GraphiteMeterRegistry.html
+                            - code [ref=e840]: GraphiteMeterRegistry
+                          - text: and supply your own
+                          - link [ref=e841] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/util/HierarchicalNameMapper.html
+                            - code [ref=e842]: HierarchicalNameMapper
+                          - text: . Auto-configured
+                          - link [ref=e843] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-registry-graphite/1.17.0/io/micrometer/graphite/GraphiteConfig.html
+                            - code [ref=e844]: GraphiteConfig
+                          - text: and
+                          - link [ref=e845] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/Clock.html
+                            - code [ref=e846]: Clock
+                          - text: "beans are provided unless you define your own:"
+                        - generic [ref=e848]:
+                          - tablist [ref=e850]:
+                            - tab [selected] [ref=e851] [cursor=pointer]:
+                              - paragraph [ref=e852]: Java
+                            - tab [ref=e853] [cursor=pointer]:
+                              - paragraph [ref=e854]: Kotlin
+                          - tabpanel "Java" [ref=e855]:
+                            - generic [ref=e858]:
+                              - code [ref=e859]:
+                                - generic: import io.micrometer.core.instrument.Clock; import io.micrometer.core.instrument.Meter; import io.micrometer.core.instrument.config.NamingConvention; import io.micrometer.core.instrument.util.HierarchicalNameMapper; import io.micrometer.graphite.GraphiteConfig; import io.micrometer.graphite.GraphiteMeterRegistry; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                                - generic [ref=e860]:
+                                  - text: "@Configuration(proxyBeanMethods = false) public"
+                                  - generic [ref=e861]: class MyGraphiteConfiguration
+                                  - text: "{ @Bean"
+                                  - generic [ref=e862]: public GraphiteMeterRegistry graphiteMeterRegistry(GraphiteConfig config, Clock clock)
+                                  - text: "{ return new GraphiteMeterRegistry(config, clock, this::toHierarchicalName); }"
+                                  - generic [ref=e863]: private String toHierarchicalName(Meter.Id id, NamingConvention convention)
+                                  - text: "{ return ... } }"
+                              - generic [ref=e864]:
+                                - button "Expand foldable text" [ref=e865] [cursor=pointer]
+                                - button "Copied!" [ref=e866] [cursor=pointer]
+              - generic [ref=e868]:
+                - heading "Humio" [level=3] [ref=e869]
+                - paragraph [ref=e871]:
+                  - text: By default, the Humio registry periodically pushes metrics to
+                  - link "cloud.humio.com" [ref=e872] [cursor=pointer]:
+                    - /url: https://cloud.humio.com
+                  - text: . To export metrics to SaaS
+                  - link "Humio" [ref=e873] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/humio
+                  - text: ", you must provide your API token:"
+                - generic [ref=e875]:
+                  - tablist [ref=e877]:
+                    - tab [selected] [ref=e878] [cursor=pointer]:
+                      - paragraph [ref=e879]: Properties
+                    - tab [ref=e880] [cursor=pointer]:
+                      - paragraph [ref=e881]: YAML
+                  - tabpanel "Properties" [ref=e882]:
+                    - generic [ref=e885]:
+                      - code [ref=e886]: properties management.humio.metrics.export.api-token=YOUR_TOKEN
+                      - button "Copied!" [ref=e888] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e891]: "You should also configure one or more tags to identify the data source to which metrics are pushed:"
+                - generic [ref=e893]:
+                  - tablist [ref=e895]:
+                    - tab [selected] [ref=e896] [cursor=pointer]:
+                      - paragraph [ref=e897]: Properties
+                    - tab [ref=e898] [cursor=pointer]:
+                      - paragraph [ref=e899]: YAML
+                  - tabpanel "Properties" [ref=e900]:
+                    - generic [ref=e903]:
+                      - code [ref=e904]: properties management.humio.metrics.export.tags.alpha=a management.humio.metrics.export.tags.bravo=b
+                      - button "Copied!" [ref=e906] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e908]:
+                - heading "Influx" [level=3] [ref=e909]
+                - paragraph [ref=e911]:
+                  - text: By default, metrics are exported to an
+                  - link "Influx" [ref=e912] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/influx
+                  - text: v1 instance running on your local machine with the default configuration. To export metrics to InfluxDB v2, configure the
+                  - code [ref=e913]: org
+                  - text: ","
+                  - code [ref=e914]: bucket
+                  - text: ", and authentication"
+                  - code [ref=e915]: token
+                  - text: for writing metrics. You can provide the location of the
+                  - link "Influx server" [ref=e916] [cursor=pointer]:
+                    - /url: https://www.influxdata.com
+                  - text: "to use by using:"
+                - generic [ref=e918]:
+                  - tablist [ref=e920]:
+                    - tab [selected] [ref=e921] [cursor=pointer]:
+                      - paragraph [ref=e922]: Properties
+                    - tab [ref=e923] [cursor=pointer]:
+                      - paragraph [ref=e924]: YAML
+                  - tabpanel "Properties" [ref=e925]:
+                    - generic [ref=e928]:
+                      - code [ref=e929]: properties management.influx.metrics.export.uri=https://influx.example.com:8086
+                      - button "Copied!" [ref=e931] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e933]:
+                - heading "JMX" [level=3] [ref=e934]
+                - paragraph [ref=e936]:
+                  - text: Micrometer provides a hierarchical mapping to
+                  - link "JMX" [ref=e937] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/jmx
+                  - text: ", primarily as a cheap and portable way to view metrics locally. By default, metrics are exported to the"
+                  - code [ref=e938]: metrics
+                  - text: "JMX domain. You can provide the domain to use by using:"
+                - generic [ref=e940]:
+                  - tablist [ref=e942]:
+                    - tab [selected] [ref=e943] [cursor=pointer]:
+                      - paragraph [ref=e944]: Properties
+                    - tab [ref=e945] [cursor=pointer]:
+                      - paragraph [ref=e946]: YAML
+                  - tabpanel "Properties" [ref=e947]:
+                    - generic [ref=e950]:
+                      - code [ref=e951]: properties management.jmx.metrics.export.domain=com.example.app.metrics
+                      - button "Copied!" [ref=e953] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e956]:
+                  - text: Micrometer provides a default
+                  - link [ref=e957] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/util/HierarchicalNameMapper.html
+                    - code [ref=e958]: HierarchicalNameMapper
+                  - text: that governs how a dimensional meter ID is
+                  - link "mapped to flat hierarchical names" [ref=e959] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/jmx#_hierarchical_name_mapping
+                  - text: .
+                - table [ref=e961]:
+                  - rowgroup [ref=e962]:
+                    - row [ref=e963]:
+                      - cell "Tip" [ref=e964]
+                      - cell [ref=e966]:
+                        - paragraph [ref=e968]:
+                          - text: To take control over this behavior, define your
+                          - link [ref=e969] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-registry-jmx/1.17.0/io/micrometer/jmx/JmxMeterRegistry.html
+                            - code [ref=e970]: JmxMeterRegistry
+                          - text: and supply your own
+                          - link [ref=e971] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/util/HierarchicalNameMapper.html
+                            - code [ref=e972]: HierarchicalNameMapper
+                          - text: . Auto-configured
+                          - link [ref=e973] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-registry-jmx/1.17.0/io/micrometer/jmx/JmxConfig.html
+                            - code [ref=e974]: JmxConfig
+                          - text: and
+                          - link [ref=e975] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/Clock.html
+                            - code [ref=e976]: Clock
+                          - text: "beans are provided unless you define your own:"
+                        - generic [ref=e978]:
+                          - tablist [ref=e980]:
+                            - tab [selected] [ref=e981] [cursor=pointer]:
+                              - paragraph [ref=e982]: Java
+                            - tab [ref=e983] [cursor=pointer]:
+                              - paragraph [ref=e984]: Kotlin
+                          - tabpanel "Java" [ref=e985]:
+                            - generic [ref=e988]:
+                              - code [ref=e989]:
+                                - generic: import io.micrometer.core.instrument.Clock; import io.micrometer.core.instrument.Meter; import io.micrometer.core.instrument.config.NamingConvention; import io.micrometer.core.instrument.util.HierarchicalNameMapper; import io.micrometer.jmx.JmxConfig; import io.micrometer.jmx.JmxMeterRegistry; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                                - generic [ref=e990]:
+                                  - text: "@Configuration(proxyBeanMethods = false) public"
+                                  - generic [ref=e991]: class MyJmxConfiguration
+                                  - text: "{ @Bean"
+                                  - generic [ref=e992]: public JmxMeterRegistry jmxMeterRegistry(JmxConfig config, Clock clock)
+                                  - text: "{ return new JmxMeterRegistry(config, clock, this::toHierarchicalName); }"
+                                  - generic [ref=e993]: private String toHierarchicalName(Meter.Id id, NamingConvention convention)
+                                  - text: "{ return ... } }"
+                              - generic [ref=e994]:
+                                - button "Expand foldable text" [ref=e995] [cursor=pointer]
+                                - button "Copied!" [ref=e996] [cursor=pointer]
+              - generic [ref=e998]:
+                - heading "KairosDB" [level=3] [ref=e999]
+                - paragraph [ref=e1001]:
+                  - text: By default, metrics are exported to
+                  - link "KairosDB" [ref=e1002] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/kairos
+                  - text: running on your local machine. You can provide the location of the
+                  - link "KairosDB server" [ref=e1003] [cursor=pointer]:
+                    - /url: https://kairosdb.github.io/
+                  - text: "to use by using:"
+                - generic [ref=e1005]:
+                  - tablist [ref=e1007]:
+                    - tab [selected] [ref=e1008] [cursor=pointer]:
+                      - paragraph [ref=e1009]: Properties
+                    - tab [ref=e1010] [cursor=pointer]:
+                      - paragraph [ref=e1011]: YAML
+                  - tabpanel "Properties" [ref=e1012]:
+                    - generic [ref=e1015]:
+                      - code [ref=e1016]: properties management.kairos.metrics.export.uri=https://kairosdb.example.com:8080/api/v1/datapoints
+                      - button "Copied!" [ref=e1018] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e1020]:
+                - heading "New Relic" [level=3] [ref=e1021]
+                - paragraph [ref=e1023]:
+                  - text: A New Relic registry periodically pushes metrics to
+                  - link "New Relic" [ref=e1024] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/new-relic
+                  - text: . To export metrics to
+                  - link "New Relic" [ref=e1025] [cursor=pointer]:
+                    - /url: https://newrelic.com
+                  - text: ", you must provide your API key and account ID:"
+                - generic [ref=e1027]:
+                  - tablist [ref=e1029]:
+                    - tab [selected] [ref=e1030] [cursor=pointer]:
+                      - paragraph [ref=e1031]: Properties
+                    - tab [ref=e1032] [cursor=pointer]:
+                      - paragraph [ref=e1033]: YAML
+                  - tabpanel "Properties" [ref=e1034]:
+                    - generic [ref=e1037]:
+                      - code [ref=e1038]: properties management.newrelic.metrics.export.api-key=YOUR_KEY management.newrelic.metrics.export.account-id=YOUR_ACCOUNT_ID
+                      - button "Copied!" [ref=e1040] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e1043]: "You can also change the interval at which metrics are sent to New Relic:"
+                - generic [ref=e1045]:
+                  - tablist [ref=e1047]:
+                    - tab [selected] [ref=e1048] [cursor=pointer]:
+                      - paragraph [ref=e1049]: Properties
+                    - tab [ref=e1050] [cursor=pointer]:
+                      - paragraph [ref=e1051]: YAML
+                  - tabpanel "Properties" [ref=e1052]:
+                    - generic [ref=e1055]:
+                      - code [ref=e1056]: properties management.newrelic.metrics.export.step=30s
+                      - button "Copied!" [ref=e1058] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e1061]: "By default, metrics are published through REST calls, but you can also use the Java Agent API if you have it on the classpath:"
+                - generic [ref=e1063]:
+                  - tablist [ref=e1065]:
+                    - tab [selected] [ref=e1066] [cursor=pointer]:
+                      - paragraph [ref=e1067]: Properties
+                    - tab [ref=e1068] [cursor=pointer]:
+                      - paragraph [ref=e1069]: YAML
+                  - tabpanel "Properties" [ref=e1070]:
+                    - generic [ref=e1073]:
+                      - code [ref=e1074]: properties management.newrelic.metrics.export.client-provider-type=insights-agent
+                      - button "Copied!" [ref=e1076] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e1079]:
+                  - text: Finally, you can take full control by defining your own
+                  - link [ref=e1080] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-registry-new-relic/1.17.0/io/micrometer/newrelic/NewRelicClientProvider.html
+                    - code [ref=e1081]: NewRelicClientProvider
+                  - text: bean.
+              - generic [ref=e1082]:
+                - heading "OTLP" [level=3] [ref=e1083]
+                - paragraph [ref=e1085]:
+                  - text: By default, metrics are exported over the
+                  - link "OpenTelemetry protocol (OTLP)" [ref=e1086] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/otlp
+                  - text: to a consumer running on your local machine. To export to another location, provide the location of the
+                  - link "OTLP metrics endpoint" [ref=e1087] [cursor=pointer]:
+                    - /url: https://opentelemetry.io/
+                  - text: using
+                  - code [ref=e1088]: management.otlp.metrics.export.url
+                  - text: ":"
+                - generic [ref=e1090]:
+                  - tablist [ref=e1092]:
+                    - tab [selected] [ref=e1093] [cursor=pointer]:
+                      - paragraph [ref=e1094]: Properties
+                    - tab [ref=e1095] [cursor=pointer]:
+                      - paragraph [ref=e1096]: YAML
+                  - tabpanel "Properties" [ref=e1097]:
+                    - generic [ref=e1100]:
+                      - code [ref=e1101]: properties management.otlp.metrics.export.url=https://otlp.example.com:4318/v1/metrics
+                      - button "Copied!" [ref=e1103] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e1106]:
+                  - text: Custom headers, for example for authentication, can also be provided using
+                  - code [ref=e1107]: management.otlp.metrics.export.headers.*
+                  - text: properties.
+                - paragraph [ref=e1109]:
+                  - text: If an
+                  - code [ref=e1110]: OtlpMetricsSender
+                  - text: bean is available, it will be configured on the
+                  - code [ref=e1111]: OtlpMeterRegistry
+                  - text: that Spring Boot auto-configures.
+                - paragraph [ref=e1113]:
+                  - link "OTLP Exemplars" [ref=e1114] [cursor=pointer]:
+                    - /url: https://opentelemetry.io/docs/specs/otel/metrics/data-model/#exemplars
+                  - text: are also supported. To enable this feature, an
+                  - link [ref=e1115] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-registry-otlp/1.17.0/io/micrometer/registry/otlp/ExemplarContextProvider.html
+                    - code [ref=e1116]: ExemplarContextProvider
+                  - text: bean should be present. If you use
+                  - link "Micrometer Tracing" [ref=e1117] [cursor=pointer]:
+                    - /url: tracing.html
+                  - text: ", this will be auto-configured for you. By default, only sampled traces are included as exemplars. You can control this behavior using the"
+                  - code [ref=e1118]: management.tracing.exemplars.include
+                  - text: property.
+              - generic [ref=e1119]:
+                - heading "Prometheus" [level=3] [ref=e1120]
+                - paragraph [ref=e1122]:
+                  - link "Prometheus" [ref=e1123] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/prometheus
+                  - text: expects to scrape or poll individual application instances for metrics. Spring Boot provides an actuator endpoint at
+                  - code [ref=e1124]: /actuator/prometheus
+                  - text: to present a
+                  - link "Prometheus scrape" [ref=e1125] [cursor=pointer]:
+                    - /url: https://prometheus.io
+                  - text: with the appropriate format.
+                - table [ref=e1127]:
+                  - rowgroup [ref=e1128]:
+                    - row [ref=e1129]:
+                      - cell "Tip" [ref=e1130]
+                      - cell [ref=e1132]:
+                        - text: By default, the endpoint is not available and must be exposed. See
+                        - link "exposing endpoints" [ref=e1133] [cursor=pointer]:
+                          - /url: endpoints.html#actuator.endpoints.exposing
+                        - text: for more details.
+                - paragraph [ref=e1135]:
+                  - text: The following example
+                  - code [ref=e1136]: scrape_config
+                  - text: adds to
+                  - code [ref=e1137]: prometheus.yml
+                  - text: ":"
+                - generic [ref=e1140]:
+                  - code [ref=e1141]: "yaml scrape_configs: - job_name: \"spring\" metrics_path: \"/actuator/prometheus\" static_configs: - targets: [\"HOST:PORT\"]"
+                  - button "Copied!" [ref=e1143] [cursor=pointer]
+                - paragraph [ref=e1146]:
+                  - link "Prometheus Exemplars" [ref=e1147] [cursor=pointer]:
+                    - /url: https://prometheus.io/docs/prometheus/latest/feature_flags/#exemplars-storage
+                  - text: are also supported. To enable this feature, a
+                  - link [ref=e1148] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.prometheus/prometheus-metrics-tracer-common/1.5.1/io/prometheus/metrics/tracer/common/SpanContext.html
+                    - code [ref=e1149]: SpanContext
+                  - text: bean should be present. If you’re using the deprecated Prometheus simpleclient support and want to enable that feature, a
+                  - link [ref=e1150] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.prometheus/simpleclient_tracer_common/0.16.0/io/prometheus/client/exemplars/tracer/common/SpanContextSupplier.html
+                    - code [ref=e1151]: SpanContextSupplier
+                  - text: bean should be present. If you use
+                  - link "Micrometer Tracing" [ref=e1152] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/tracing/reference/1.7
+                  - text: ", this will be auto-configured for you, but you can always create your own if you want. By default, only sampled traces are included as exemplars. You can control this behavior using the"
+                  - code [ref=e1153]: management.tracing.exemplars.include
+                  - text: property. The value
+                  - code [ref=e1154]: all
+                  - text: is not supported with Prometheus. Please check the
+                  - link "Prometheus Docs" [ref=e1155] [cursor=pointer]:
+                    - /url: https://prometheus.io/docs/prometheus/latest/feature_flags/#exemplars-storage
+                  - text: ", since this feature needs to be explicitly enabled on Prometheus' side, and it is only supported using the"
+                  - link "OpenMetrics" [ref=e1156] [cursor=pointer]:
+                    - /url: https://github.com/OpenObservability/OpenMetrics/blob/v1.0.0/specification/OpenMetrics.md#exemplars
+                  - text: format.
+                - paragraph [ref=e1158]:
+                  - text: For ephemeral or batch jobs that may not exist long enough to be scraped, you can use
+                  - link "Prometheus Pushgateway" [ref=e1159] [cursor=pointer]:
+                    - /url: https://github.com/prometheus/pushgateway
+                  - text: support to expose the metrics to Prometheus.
+                - paragraph [ref=e1161]: "To enable Prometheus Pushgateway support, add the following dependency to your project:"
+                - generic [ref=e1164]:
+                  - code [ref=e1165]:
+                    - text: xml
+                    - generic [ref=e1166]: <dependency>
+                    - generic [ref=e1167]: <groupId>
+                    - text: io.prometheus
+                    - generic [ref=e1168]: </groupId>
+                    - generic [ref=e1169]: <artifactId>
+                    - text: prometheus-metrics-exporter-pushgateway
+                    - generic [ref=e1170]: </artifactId>
+                    - generic [ref=e1171]: </dependency>
+                  - button "Copied!" [ref=e1173] [cursor=pointer]
+                - paragraph [ref=e1176]:
+                  - text: When the Prometheus Pushgateway dependency is present on the classpath and the
+                  - code [ref=e1177]: management.prometheus.metrics.export.pushgateway.enabled
+                  - text: property is set to
+                  - code [ref=e1178]: "true"
+                  - text: ", a"
+                  - link [ref=e1179] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/metrics/export/prometheus/PrometheusPushGatewayManager.html
+                    - code [ref=e1180]: PrometheusPushGatewayManager
+                  - text: bean is auto-configured. This manages the pushing of metrics to a Prometheus Pushgateway.
+                - paragraph [ref=e1182]:
+                  - text: You can tune the
+                  - link [ref=e1183] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/metrics/export/prometheus/PrometheusPushGatewayManager.html
+                    - code [ref=e1184]: PrometheusPushGatewayManager
+                  - text: by using properties under
+                  - code [ref=e1185]: management.prometheus.metrics.export.pushgateway
+                  - text: . For advanced configuration, you can also provide your own
+                  - link [ref=e1186] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/metrics/export/prometheus/PrometheusPushGatewayManager.html
+                    - code [ref=e1187]: PrometheusPushGatewayManager
+                  - text: bean.
+              - generic [ref=e1188]:
+                - heading "Simple" [level=3] [ref=e1189]
+                - paragraph [ref=e1191]:
+                  - text: Micrometer ships with a simple, in-memory backend that is automatically used as a fallback if no other registry is configured. This lets you see what metrics are collected in the
+                  - link "metrics endpoint" [ref=e1192] [cursor=pointer]:
+                    - /url: "#actuator.metrics.endpoint"
+                  - text: .
+                - paragraph [ref=e1194]: "The in-memory backend disables itself as soon as you use any other available backend. You can also disable it explicitly:"
+                - generic [ref=e1196]:
+                  - tablist [ref=e1198]:
+                    - tab [selected] [ref=e1199] [cursor=pointer]:
+                      - paragraph [ref=e1200]: Properties
+                    - tab [ref=e1201] [cursor=pointer]:
+                      - paragraph [ref=e1202]: YAML
+                  - tabpanel "Properties" [ref=e1203]:
+                    - generic [ref=e1206]:
+                      - code [ref=e1207]: properties management.simple.metrics.export.enabled=false
+                      - button "Copied!" [ref=e1209] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e1211]:
+                - heading "Stackdriver" [level=3] [ref=e1212]
+                - paragraph [ref=e1214]:
+                  - text: The Stackdriver registry periodically pushes metrics to
+                  - link "Stackdriver" [ref=e1215] [cursor=pointer]:
+                    - /url: https://cloud.google.com/stackdriver/
+                  - text: . To export metrics to SaaS
+                  - link "Stackdriver" [ref=e1216] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/stackdriver
+                  - text: ", you must provide your Google Cloud project ID:"
+                - generic [ref=e1218]:
+                  - tablist [ref=e1220]:
+                    - tab [selected] [ref=e1221] [cursor=pointer]:
+                      - paragraph [ref=e1222]: Properties
+                    - tab [ref=e1223] [cursor=pointer]:
+                      - paragraph [ref=e1224]: YAML
+                  - tabpanel "Properties" [ref=e1225]:
+                    - generic [ref=e1228]:
+                      - code [ref=e1229]: properties management.stackdriver.metrics.export.project-id=my-project
+                      - button "Copied!" [ref=e1231] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e1234]: "You can also change the interval at which metrics are sent to Stackdriver:"
+                - generic [ref=e1236]:
+                  - tablist [ref=e1238]:
+                    - tab [selected] [ref=e1239] [cursor=pointer]:
+                      - paragraph [ref=e1240]: Properties
+                    - tab [ref=e1241] [cursor=pointer]:
+                      - paragraph [ref=e1242]: YAML
+                  - tabpanel "Properties" [ref=e1243]:
+                    - generic [ref=e1246]:
+                      - code [ref=e1247]: properties management.stackdriver.metrics.export.step=30s
+                      - button "Copied!" [ref=e1249] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e1251]:
+                - heading "StatsD" [level=3] [ref=e1252]
+                - paragraph [ref=e1254]:
+                  - text: The StatsD registry eagerly pushes metrics over UDP to a StatsD agent. By default, metrics are exported to a
+                  - link "StatsD" [ref=e1255] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/implementations/statsD
+                  - text: "agent running on your local machine. You can provide the StatsD agent host, port, and protocol to use by using:"
+                - generic [ref=e1257]:
+                  - tablist [ref=e1259]:
+                    - tab [selected] [ref=e1260] [cursor=pointer]:
+                      - paragraph [ref=e1261]: Properties
+                    - tab [ref=e1262] [cursor=pointer]:
+                      - paragraph [ref=e1263]: YAML
+                  - tabpanel "Properties" [ref=e1264]:
+                    - generic [ref=e1267]:
+                      - code [ref=e1268]: properties management.statsd.metrics.export.host=statsd.example.com management.statsd.metrics.export.port=9125 management.statsd.metrics.export.protocol=udp
+                      - button "Copied!" [ref=e1270] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e1273]: "You can also change the StatsD line protocol to use (it defaults to Datadog):"
+                - generic [ref=e1275]:
+                  - tablist [ref=e1277]:
+                    - tab [selected] [ref=e1278] [cursor=pointer]:
+                      - paragraph [ref=e1279]: Properties
+                    - tab [ref=e1280] [cursor=pointer]:
+                      - paragraph [ref=e1281]: YAML
+                  - tabpanel "Properties" [ref=e1282]:
+                    - generic [ref=e1285]:
+                      - code [ref=e1286]: properties management.statsd.metrics.export.flavor=etsy
+                      - button "Copied!" [ref=e1288] [cursor=pointer]
+                  - text: yaml
+          - generic [ref=e1290]:
+            - heading "Supported Metrics and Meters" [level=2] [ref=e1291]
+            - generic [ref=e1292]:
+              - paragraph [ref=e1294]: Spring Boot provides automatic meter registration for a wide variety of technologies. In most situations, the defaults provide sensible metrics that can be published to any of the supported monitoring systems.
+              - generic [ref=e1295]:
+                - heading "JVM Metrics" [level=3] [ref=e1296]
+                - paragraph [ref=e1298]:
+                  - text: Auto-configuration enables JVM Metrics by using core Micrometer classes. JVM metrics are published under the
+                  - code [ref=e1299]: jvm.
+                  - text: meter name.
+                - paragraph [ref=e1301]: "The following JVM metrics are provided:"
+                - list [ref=e1303]:
+                  - listitem [ref=e1304]:
+                    - paragraph [ref=e1305]: Various memory and buffer pool details
+                  - listitem [ref=e1306]:
+                    - paragraph [ref=e1307]: Statistics related to garbage collection
+                  - listitem [ref=e1308]:
+                    - paragraph [ref=e1309]: Thread utilization
+                  - listitem [ref=e1310]:
+                    - paragraph [ref=e1311]:
+                      - link "Virtual threads statistics" [ref=e1312] [cursor=pointer]:
+                        - /url: https://docs.micrometer.io/micrometer/reference/reference/jvm.html#_java_21_metrics
+                      - text: (for this,
+                      - code [ref=e1313]: io.micrometer:micrometer-java21
+                      - text: has to be on the classpath)
+                  - listitem [ref=e1314]:
+                    - paragraph [ref=e1315]: The number of classes loaded and unloaded
+                  - listitem [ref=e1316]:
+                    - paragraph [ref=e1317]: JVM version information
+                  - listitem [ref=e1318]:
+                    - paragraph [ref=e1319]: JIT compilation time
+              - generic [ref=e1320]:
+                - heading "System Metrics" [level=3] [ref=e1321]
+                - paragraph [ref=e1323]:
+                  - text: Auto-configuration enables system metrics by using core Micrometer classes. System metrics are published under the
+                  - code [ref=e1324]: system.
+                  - text: ","
+                  - code [ref=e1325]: process.
+                  - text: ", and"
+                  - code [ref=e1326]: disk.
+                  - text: meter names.
+                - paragraph [ref=e1328]: "The following system metrics are provided:"
+                - list [ref=e1330]:
+                  - listitem [ref=e1331]:
+                    - paragraph [ref=e1332]: CPU metrics
+                  - listitem [ref=e1333]:
+                    - paragraph [ref=e1334]: File descriptor metrics
+                  - listitem [ref=e1335]:
+                    - paragraph [ref=e1336]: Uptime metrics (both the amount of time the application has been running and a fixed gauge of the absolute start time)
+                  - listitem [ref=e1337]:
+                    - paragraph [ref=e1338]: Disk space available
+              - generic [ref=e1339]:
+                - heading "Application Startup Metrics" [level=3] [ref=e1340]
+                - paragraph [ref=e1342]: "Auto-configuration exposes application startup time metrics:"
+                - list [ref=e1344]:
+                  - listitem [ref=e1345]:
+                    - paragraph [ref=e1346]:
+                      - code [ref=e1347]: application.started.time
+                      - text: ": time taken to start the application."
+                  - listitem [ref=e1348]:
+                    - paragraph [ref=e1349]:
+                      - code [ref=e1350]: application.ready.time
+                      - text: ": time taken for the application to be ready to service requests."
+                - paragraph [ref=e1352]: Metrics are tagged by the fully qualified name of the application class.
+              - generic [ref=e1353]:
+                - heading "Logger Metrics" [level=3] [ref=e1354]
+                - paragraph [ref=e1356]:
+                  - text: Auto-configuration enables the event metrics for both Logback and Log4J2. The details are published under the
+                  - code [ref=e1357]: log4j2.events.
+                  - text: or
+                  - code [ref=e1358]: logback.events.
+                  - text: meter names.
+              - generic [ref=e1359]:
+                - heading "Task Execution and Scheduling Metrics" [level=3] [ref=e1360]
+                - paragraph [ref=e1362]:
+                  - text: Auto-configuration enables the instrumentation of all available
+                  - link [ref=e1363] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.html
+                    - code [ref=e1364]: ThreadPoolTaskExecutor
+                  - text: and
+                  - link [ref=e1365] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.html
+                    - code [ref=e1366]: ThreadPoolTaskScheduler
+                  - text: beans, as long as the underling
+                  - link [ref=e1367] [cursor=pointer]:
+                    - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/concurrent/ThreadPoolExecutor.html
+                    - code [ref=e1368]: ThreadPoolExecutor
+                  - text: is available. Metrics are tagged by the name of the executor, which is derived from the bean name.
+              - generic [ref=e1369]:
+                - heading "JMS Metrics" [level=3] [ref=e1370]
+                - paragraph [ref=e1372]:
+                  - text: Auto-configuration enables the instrumentation of all available
+                  - link [ref=e1373] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/jms/core/JmsTemplate.html
+                    - code [ref=e1374]: JmsTemplate
+                  - text: beans and
+                  - link [ref=e1375] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/jms/annotation/JmsListener.html
+                    - code [ref=e1376]: "@JmsListener"
+                  - text: annotated methods. This will produce
+                  - code [ref=e1377]: "\"jms.message.publish\""
+                  - text: and
+                  - code [ref=e1378]: "\"jms.message.process\""
+                  - text: metrics respectively. See the
+                  - link "Spring Framework reference documentation for more information on produced observations" [ref=e1379] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/reference/7.0/integration/observability.html#observability.jms
+                  - text: .
+                - table [ref=e1381]:
+                  - rowgroup [ref=e1382]:
+                    - row [ref=e1383]:
+                      - cell "Note" [ref=e1384]
+                      - cell [ref=e1386]:
+                        - link [ref=e1387] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/jms/core/JmsClient.html
+                          - code [ref=e1388]: JmsClient
+                        - text: and
+                        - link [ref=e1389] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/jms/core/JmsMessagingTemplate.html
+                          - code [ref=e1390]: JmsMessagingTemplate
+                        - text: that uses a
+                        - link [ref=e1391] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/jms/core/JmsTemplate.html
+                          - code [ref=e1392]: JmsTemplate
+                        - text: bean are also instrumented.
+              - generic [ref=e1393]:
+                - heading "Spring MVC Metrics" [level=3] [ref=e1394]
+                - paragraph [ref=e1396]:
+                  - text: Auto-configuration enables the instrumentation of all requests handled by Spring MVC controllers and functional handlers. By default, metrics are generated with the name,
+                  - code [ref=e1397]: http.server.requests
+                  - text: . You can customize the name by setting the
+                  - code [ref=e1398]: management.observations.http.server.requests.name
+                  - text: property.
+                - paragraph [ref=e1400]:
+                  - text: See the
+                  - link "Spring Framework reference documentation for more information on produced observations" [ref=e1401] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/reference/7.0/integration/observability.html#observability.http-server.servlet
+                  - text: .
+                - paragraph [ref=e1403]:
+                  - text: To add to the default tags, provide a
+                  - link [ref=e1404] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1405]: "@Bean"
+                  - text: that extends
+                  - link [ref=e1406] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/http/server/observation/DefaultServerRequestObservationConvention.html
+                    - code [ref=e1407]: DefaultServerRequestObservationConvention
+                  - text: from the
+                  - code [ref=e1408]: org.springframework.http.server.observation
+                  - text: package. To replace the default tags, provide a
+                  - link [ref=e1409] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1410]: "@Bean"
+                  - text: that implements
+                  - link [ref=e1411] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/http/server/observation/ServerRequestObservationConvention.html
+                    - code [ref=e1412]: ServerRequestObservationConvention
+                  - text: .
+                - table [ref=e1414]:
+                  - rowgroup [ref=e1415]:
+                    - row [ref=e1416]:
+                      - cell "Tip" [ref=e1417]
+                      - cell [ref=e1419]:
+                        - text: In some cases, exceptions handled in web controllers are not recorded as request metrics tags. Applications can opt in and record exceptions by
+                        - link "setting handled exceptions as request attributes" [ref=e1420] [cursor=pointer]:
+                          - /url: ../web/servlet.html#web.servlet.spring-mvc.error-handling
+                        - text: .
+                - paragraph [ref=e1422]:
+                  - text: By default, all requests are handled. To customize the filter, provide a
+                  - link [ref=e1423] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1424]: "@Bean"
+                  - text: that implements
+                  - code [ref=e1425]: FilterRegistrationBean<ServerHttpObservationFilter>
+                  - text: .
+              - generic [ref=e1426]:
+                - heading "Spring WebFlux Metrics" [level=3] [ref=e1427]
+                - paragraph [ref=e1429]:
+                  - text: Auto-configuration enables the instrumentation of all requests handled by Spring WebFlux controllers and functional handlers. By default, metrics are generated with the name,
+                  - code [ref=e1430]: http.server.requests
+                  - text: . You can customize the name by setting the
+                  - code [ref=e1431]: management.observations.http.server.requests.name
+                  - text: property.
+                - paragraph [ref=e1433]:
+                  - text: See the
+                  - link "Spring Framework reference documentation for more information on produced observations" [ref=e1434] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/reference/7.0/integration/observability.html#observability.http-server.reactive
+                  - text: .
+                - paragraph [ref=e1436]:
+                  - text: To add to the default tags, provide a
+                  - link [ref=e1437] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1438]: "@Bean"
+                  - text: that extends
+                  - link [ref=e1439] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/http/server/reactive/observation/DefaultServerRequestObservationConvention.html
+                    - code [ref=e1440]: DefaultServerRequestObservationConvention
+                  - text: from the
+                  - code [ref=e1441]: org.springframework.http.server.reactive.observation
+                  - text: package. To replace the default tags, provide a
+                  - link [ref=e1442] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1443]: "@Bean"
+                  - text: that implements
+                  - link [ref=e1444] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/http/server/reactive/observation/ServerRequestObservationConvention.html
+                    - code [ref=e1445]: ServerRequestObservationConvention
+                  - text: .
+                - table [ref=e1447]:
+                  - rowgroup [ref=e1448]:
+                    - row [ref=e1449]:
+                      - cell "Tip" [ref=e1450]
+                      - cell [ref=e1452]:
+                        - text: In some cases, exceptions handled in controllers and handler functions are not recorded as request metrics tags. Applications can opt in and record exceptions by
+                        - link "setting handled exceptions as request attributes" [ref=e1453] [cursor=pointer]:
+                          - /url: ../web/reactive.html#web.reactive.webflux.error-handling
+                        - text: .
+              - generic [ref=e1454]:
+                - heading "Jersey Server Metrics" [level=3] [ref=e1455]
+                - paragraph [ref=e1457]:
+                  - text: Auto-configuration enables the instrumentation of all requests handled by the Jersey JAX-RS implementation. By default, metrics are generated with the name,
+                  - code [ref=e1458]: http.server.requests
+                  - text: . You can customize the name by setting the
+                  - code [ref=e1459]: management.observations.http.server.requests.name
+                  - text: property.
+                - paragraph [ref=e1461]: "By default, Jersey server metrics are tagged with the following information:"
+                - table [ref=e1462]:
+                  - rowgroup [ref=e1466]:
+                    - row [ref=e1467]:
+                      - columnheader "Tag" [ref=e1468]
+                      - columnheader "Description" [ref=e1469]
+                  - rowgroup [ref=e1470]:
+                    - row [ref=e1471]:
+                      - cell [ref=e1472]:
+                        - paragraph [ref=e1473]:
+                          - code [ref=e1474]: exception
+                      - cell [ref=e1475]:
+                        - paragraph [ref=e1476]: The simple class name of any exception that was thrown while handling the request.
+                    - row [ref=e1477]:
+                      - cell [ref=e1478]:
+                        - paragraph [ref=e1479]:
+                          - code [ref=e1480]: method
+                      - cell [ref=e1481]:
+                        - paragraph [ref=e1482]:
+                          - text: The request’s method (for example,
+                          - code [ref=e1483]: GET
+                          - text: or
+                          - code [ref=e1484]: POST
+                          - text: )
+                    - row [ref=e1485]:
+                      - cell [ref=e1486]:
+                        - paragraph [ref=e1487]:
+                          - code [ref=e1488]: outcome
+                      - cell [ref=e1489]:
+                        - paragraph [ref=e1490]:
+                          - text: The request’s outcome, based on the status code of the response. 1xx is
+                          - code [ref=e1491]: INFORMATIONAL
+                          - text: ", 2xx is"
+                          - code [ref=e1492]: SUCCESS
+                          - text: ", 3xx is"
+                          - code [ref=e1493]: REDIRECTION
+                          - text: ", 4xx is"
+                          - code [ref=e1494]: CLIENT_ERROR
+                          - text: ", and 5xx is"
+                          - code [ref=e1495]: SERVER_ERROR
+                    - row [ref=e1496]:
+                      - cell [ref=e1497]:
+                        - paragraph [ref=e1498]:
+                          - code [ref=e1499]: status
+                      - cell [ref=e1500]:
+                        - paragraph [ref=e1501]:
+                          - text: The response’s HTTP status code (for example,
+                          - code [ref=e1502]: "200"
+                          - text: or
+                          - code [ref=e1503]: "500"
+                          - text: )
+                    - row [ref=e1504]:
+                      - cell [ref=e1505]:
+                        - paragraph [ref=e1506]:
+                          - code [ref=e1507]: uri
+                      - cell [ref=e1508]:
+                        - paragraph [ref=e1509]:
+                          - text: The request’s URI template prior to variable substitution, if possible (for example,
+                          - code [ref=e1510]: "/api/person/{id}"
+                          - text: )
+                - paragraph [ref=e1512]:
+                  - text: To customize the tags, provide a
+                  - link [ref=e1513] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1514]: "@Bean"
+                  - text: that implements
+                  - link [ref=e1515] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/jersey/server/JerseyObservationConvention.html
+                    - code [ref=e1516]: JerseyObservationConvention
+                  - text: .
+              - generic [ref=e1517]:
+                - heading "SSL Bundle Metrics" [level=3] [ref=e1518]
+                - paragraph [ref=e1520]:
+                  - text: Spring Boot Actuator publishes expiry metrics about SSL bundles. The metric
+                  - code [ref=e1521]: ssl.chain.expiry
+                  - text: "gauges the expiry date of each certificate chain in key stores and trust stores in seconds. This number will be negative if the chain has already expired. This metric is tagged with the following information:"
+                - table [ref=e1522]:
+                  - rowgroup [ref=e1526]:
+                    - row [ref=e1527]:
+                      - columnheader "Tag" [ref=e1528]
+                      - columnheader "Description" [ref=e1529]
+                  - rowgroup [ref=e1530]:
+                    - row [ref=e1531]:
+                      - cell [ref=e1532]:
+                        - paragraph [ref=e1533]:
+                          - code [ref=e1534]: bundle
+                      - cell [ref=e1535]:
+                        - paragraph [ref=e1536]: The name of the bundle which contains the certificate chain
+                    - row [ref=e1537]:
+                      - cell [ref=e1538]:
+                        - paragraph [ref=e1539]:
+                          - code [ref=e1540]: certificate
+                      - cell [ref=e1541]:
+                        - paragraph [ref=e1542]: The serial number (in hex format) of the certificate which is the soonest to expire in the chain
+                    - row [ref=e1543]:
+                      - cell [ref=e1544]:
+                        - paragraph [ref=e1545]:
+                          - code [ref=e1546]: chain
+                      - cell [ref=e1547]:
+                        - paragraph [ref=e1548]: The name of the certificate chain.
+                    - row [ref=e1549]:
+                      - cell [ref=e1550]:
+                        - paragraph [ref=e1551]:
+                          - code [ref=e1552]: source
+                      - cell [ref=e1553]:
+                        - paragraph [ref=e1554]:
+                          - text: Whether the certificate chain comes from the key store (
+                          - code [ref=e1555]: keystore
+                          - text: ) or trust store (
+                          - code [ref=e1556]: truststore
+                          - text: )
+              - generic [ref=e1557]:
+                - heading "HTTP Client Metrics" [level=3] [ref=e1558]
+                - paragraph [ref=e1560]:
+                  - text: Spring Boot Actuator manages the instrumentation of
+                  - link [ref=e1561] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestTemplate.html
+                    - code [ref=e1562]: RestTemplate
+                  - text: ","
+                  - link [ref=e1563] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/reactive/function/client/WebClient.html
+                    - code [ref=e1564]: WebClient
+                  - text: and
+                  - link [ref=e1565] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestClient.html
+                    - code [ref=e1566]: RestClient
+                  - text: ". For that, you have to inject the auto-configured builder and use it to create instances:"
+                - list [ref=e1568]:
+                  - listitem [ref=e1569]:
+                    - paragraph [ref=e1570]:
+                      - link [ref=e1571] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/restclient/RestTemplateBuilder.html
+                        - code [ref=e1572]: RestTemplateBuilder
+                      - text: for
+                      - link [ref=e1573] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestTemplate.html
+                        - code [ref=e1574]: RestTemplate
+                  - listitem [ref=e1575]:
+                    - paragraph [ref=e1576]:
+                      - link [ref=e1577] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/reactive/function/client/WebClient.Builder.html
+                        - code [ref=e1578]: WebClient.Builder
+                      - text: for
+                      - link [ref=e1579] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/reactive/function/client/WebClient.html
+                        - code [ref=e1580]: WebClient
+                  - listitem [ref=e1581]:
+                    - paragraph [ref=e1582]:
+                      - link [ref=e1583] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestClient.Builder.html
+                        - code [ref=e1584]: RestClient.Builder
+                      - text: for
+                      - link [ref=e1585] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestClient.html
+                        - code [ref=e1586]: RestClient
+                - paragraph [ref=e1588]:
+                  - text: You can also manually apply the customizers responsible for this instrumentation, namely
+                  - link [ref=e1589] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/restclient/observation/ObservationRestTemplateCustomizer.html
+                    - code [ref=e1590]: ObservationRestTemplateCustomizer
+                  - text: ","
+                  - link [ref=e1591] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/webclient/observation/ObservationWebClientCustomizer.html
+                    - code [ref=e1592]: ObservationWebClientCustomizer
+                  - text: and
+                  - link [ref=e1593] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/restclient/observation/ObservationRestClientCustomizer.html
+                    - code [ref=e1594]: ObservationRestClientCustomizer
+                  - text: .
+                - paragraph [ref=e1596]:
+                  - text: By default, metrics are generated with the name,
+                  - code [ref=e1597]: http.client.requests
+                  - text: . You can customize the name by setting the
+                  - code [ref=e1598]: management.observations.http.client.requests.name
+                  - text: property.
+                - paragraph [ref=e1600]:
+                  - text: See the
+                  - link "Spring Framework reference documentation for more information on produced observations" [ref=e1601] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/reference/7.0/integration/observability.html#observability.http-client
+                  - text: .
+                - paragraph [ref=e1603]:
+                  - text: To customize the tags when using
+                  - link [ref=e1604] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestTemplate.html
+                    - code [ref=e1605]: RestTemplate
+                  - text: or
+                  - link [ref=e1606] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestClient.html
+                    - code [ref=e1607]: RestClient
+                  - text: ", provide a"
+                  - link [ref=e1608] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1609]: "@Bean"
+                  - text: that implements
+                  - link [ref=e1610] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/http/client/observation/ClientRequestObservationConvention.html
+                    - code [ref=e1611]: ClientRequestObservationConvention
+                  - text: from the
+                  - code [ref=e1612]: org.springframework.http.client.observation
+                  - text: package. To customize the tags when using
+                  - link [ref=e1613] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/reactive/function/client/WebClient.html
+                    - code [ref=e1614]: WebClient
+                  - text: ", provide a"
+                  - link [ref=e1615] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1616]: "@Bean"
+                  - text: that implements
+                  - link [ref=e1617] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/reactive/function/client/ClientRequestObservationConvention.html
+                    - code [ref=e1618]: ClientRequestObservationConvention
+                  - text: from the
+                  - code [ref=e1619]: org.springframework.web.reactive.function.client
+                  - text: package.
+              - generic [ref=e1620]:
+                - heading "Tomcat Metrics" [level=3] [ref=e1621]
+                - paragraph [ref=e1623]:
+                  - text: Auto-configuration enables the instrumentation of Tomcat only when an MBean
+                  - link [ref=e1624] [cursor=pointer]:
+                    - /url: https://tomcat.apache.org/tomcat-11.0-doc/api/org/apache/tomcat/util/modeler/Registry.html
+                    - code [ref=e1625]: Registry
+                  - text: is enabled. By default, the MBean registry is disabled, but you can enable it by setting
+                  - code [ref=e1626]: server.tomcat.mbeanregistry.enabled
+                  - text: to
+                  - code [ref=e1627]: "true"
+                  - text: .
+                - paragraph [ref=e1629]:
+                  - text: Tomcat metrics are published under the
+                  - code [ref=e1630]: tomcat.
+                  - text: meter name.
+              - generic [ref=e1631]:
+                - heading "Cache Metrics" [level=3] [ref=e1632]
+                - paragraph [ref=e1634]:
+                  - text: Auto-configuration enables the instrumentation of all available
+                  - link [ref=e1635] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/cache/Cache.html
+                    - code [ref=e1636]: Cache
+                  - text: instances on startup, with metrics prefixed with
+                  - code [ref=e1637]: cache
+                  - text: . Cache instrumentation is standardized for a basic set of metrics. Additional, cache-specific metrics are also available.
+                - paragraph [ref=e1639]: "The following cache libraries are supported:"
+                - list [ref=e1641]:
+                  - listitem [ref=e1642]:
+                    - paragraph [ref=e1643]: Cache2k
+                  - listitem [ref=e1644]:
+                    - paragraph [ref=e1645]: Caffeine
+                  - listitem [ref=e1646]:
+                    - paragraph [ref=e1647]: Hazelcast
+                  - listitem [ref=e1648]:
+                    - paragraph [ref=e1649]: Any compliant JCache (JSR-107) implementation
+                  - listitem [ref=e1650]:
+                    - paragraph [ref=e1651]: Redis
+                - table [ref=e1653]:
+                  - rowgroup [ref=e1654]:
+                    - row [ref=e1655]:
+                      - cell "Warning" [ref=e1656]
+                      - cell "Metrics should be enabled for the auto-configuration to pick them up. Refer to the documentation of the cache library you are using for more details." [ref=e1658]
+                - paragraph [ref=e1660]:
+                  - text: Metrics are tagged by the name of the cache and by the name of the
+                  - link [ref=e1661] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/cache/CacheManager.html
+                    - code [ref=e1662]: CacheManager
+                  - text: ", which is derived from the bean name."
+                - table [ref=e1664]:
+                  - rowgroup [ref=e1665]:
+                    - row [ref=e1666]:
+                      - cell "Note" [ref=e1667]
+                      - cell [ref=e1669]:
+                        - text: Only caches that are configured on startup are bound to the registry. For caches not defined in the cache’s configuration, such as caches created on the fly or programmatically after the startup phase, an explicit registration is required. A
+                        - link [ref=e1670] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/cache/metrics/CacheMetricsRegistrar.html
+                          - code [ref=e1671]: CacheMetricsRegistrar
+                        - text: bean is made available to make that process easier.
+              - generic [ref=e1672]:
+                - heading "Spring Batch Metrics" [level=3] [ref=e1673]
+                - paragraph [ref=e1675]:
+                  - text: See the
+                  - link "Spring Batch reference documentation" [ref=e1676] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-batch/reference/6.0/monitoring-and-metrics.html
+                  - text: .
+              - generic [ref=e1677]:
+                - heading "Spring GraphQL Metrics" [level=3] [ref=e1678]
+                - paragraph [ref=e1680]:
+                  - text: See the
+                  - link "Spring GraphQL reference documentation" [ref=e1681] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-graphql/reference/2.0/observability.html
+                  - text: .
+              - generic [ref=e1682]:
+                - heading "DataSource Metrics" [level=3] [ref=e1683]
+                - paragraph [ref=e1685]:
+                  - text: Auto-configuration enables the instrumentation of all available
+                  - link [ref=e1686] [cursor=pointer]:
+                    - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.sql/javax/sql/DataSource.html
+                    - code [ref=e1687]: DataSource
+                  - text: objects with metrics prefixed with
+                  - code [ref=e1688]: jdbc.connections
+                  - text: . Data source instrumentation results in gauges that represent the currently active, idle, maximum allowed, and minimum allowed connections in the pool.
+                - paragraph [ref=e1690]:
+                  - text: Metrics are also tagged by the name of the
+                  - link [ref=e1691] [cursor=pointer]:
+                    - /url: https://docs.oracle.com/en/java/javase/17/docs/api/java.sql/javax/sql/DataSource.html
+                    - code [ref=e1692]: DataSource
+                  - text: computed based on the bean name.
+                - table [ref=e1694]:
+                  - rowgroup [ref=e1695]:
+                    - row [ref=e1696]:
+                      - cell "Tip" [ref=e1697]
+                      - cell [ref=e1699]:
+                        - text: By default, Spring Boot provides metadata for all supported data sources. You can add additional
+                        - link [ref=e1700] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/jdbc/metadata/DataSourcePoolMetadataProvider.html
+                          - code [ref=e1701]: DataSourcePoolMetadataProvider
+                        - text: beans if your favorite data source is not supported. See
+                        - link [ref=e1702] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/jdbc/autoconfigure/DataSourcePoolMetadataProvidersConfiguration.html
+                          - code [ref=e1703]: DataSourcePoolMetadataProvidersConfiguration
+                        - text: for examples.
+                - paragraph [ref=e1705]:
+                  - text: Also, Hikari-specific metrics are exposed with a
+                  - code [ref=e1706]: hikaricp
+                  - text: prefix. Each metric is tagged by the name of the pool (you can control it with
+                  - code [ref=e1707]: spring.datasource.name
+                  - text: ).
+              - generic [ref=e1708]:
+                - heading "Hibernate Metrics" [level=3] [ref=e1709]
+                - paragraph [ref=e1711]:
+                  - text: If
+                  - code [ref=e1712]: org.hibernate.orm:hibernate-micrometer
+                  - text: is on the classpath, all available Hibernate
+                  - link [ref=e1713] [cursor=pointer]:
+                    - /url: https://jakarta.ee/specifications/persistence/3.2/apidocs/jakarta.persistence/jakarta/persistence/EntityManagerFactory.html
+                    - code [ref=e1714]: EntityManagerFactory
+                  - text: instances that have statistics enabled are instrumented with a metric named
+                  - code [ref=e1715]: hibernate
+                  - text: .
+                - paragraph [ref=e1717]:
+                  - text: Metrics are also tagged by the name of the
+                  - link [ref=e1718] [cursor=pointer]:
+                    - /url: https://jakarta.ee/specifications/persistence/3.2/apidocs/jakarta.persistence/jakarta/persistence/EntityManagerFactory.html
+                    - code [ref=e1719]: EntityManagerFactory
+                  - text: ", which is derived from the bean name."
+                - paragraph [ref=e1721]:
+                  - text: To enable statistics, the standard JPA property
+                  - code [ref=e1722]: hibernate.generate_statistics
+                  - text: must be set to
+                  - code [ref=e1723]: "true"
+                  - text: . You can enable that on the auto-configured
+                  - link [ref=e1724] [cursor=pointer]:
+                    - /url: https://jakarta.ee/specifications/persistence/3.2/apidocs/jakarta.persistence/jakarta/persistence/EntityManagerFactory.html
+                    - code [ref=e1725]: EntityManagerFactory
+                  - text: ":"
+                - generic [ref=e1727]:
+                  - tablist [ref=e1729]:
+                    - tab [selected] [ref=e1730] [cursor=pointer]:
+                      - paragraph [ref=e1731]: Properties
+                    - tab [ref=e1732] [cursor=pointer]:
+                      - paragraph [ref=e1733]: YAML
+                  - tabpanel "Properties" [ref=e1734]:
+                    - generic [ref=e1737]:
+                      - code [ref=e1738]: properties spring.jpa.properties[hibernate.generate_statistics]=true
+                      - button "Copied!" [ref=e1740] [cursor=pointer]
+                  - text: yaml
+              - generic [ref=e1742]:
+                - heading "Spring Data Repository Metrics" [level=3] [ref=e1743]
+                - paragraph [ref=e1745]:
+                  - text: Auto-configuration enables the instrumentation of all Spring Data
+                  - link [ref=e1746] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-data/commons/docs/4.1.x/api/org/springframework/data/repository/Repository.html
+                    - code [ref=e1747]: Repository
+                  - text: method invocations. By default, metrics are generated with the name,
+                  - code [ref=e1748]: spring.data.repository.invocations
+                  - text: . You can customize the name by setting the
+                  - code [ref=e1749]: management.metrics.data.repository.metric-name
+                  - text: property.
+                - paragraph [ref=e1751]:
+                  - text: The
+                  - link [ref=e1752] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/annotation/Timed.html
+                    - code [ref=e1753]: "@Timed"
+                  - text: annotation from the
+                  - code [ref=e1754]: io.micrometer.core.annotation
+                  - text: package is supported on
+                  - link [ref=e1755] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-data/commons/docs/4.1.x/api/org/springframework/data/repository/Repository.html
+                    - code [ref=e1756]: Repository
+                  - text: interfaces and methods. If you do not want to record metrics for all
+                  - link [ref=e1757] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-data/commons/docs/4.1.x/api/org/springframework/data/repository/Repository.html
+                    - code [ref=e1758]: Repository
+                  - text: invocations, you can set
+                  - code [ref=e1759]: management.metrics.data.repository.autotime.enabled
+                  - text: to
+                  - code [ref=e1760]: "false"
+                  - text: and exclusively use
+                  - link [ref=e1761] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/annotation/Timed.html
+                    - code [ref=e1762]: "@Timed"
+                  - text: annotations instead.
+                - table [ref=e1764]:
+                  - rowgroup [ref=e1765]:
+                    - row [ref=e1766]:
+                      - cell "Note" [ref=e1767]
+                      - cell [ref=e1769]:
+                        - text: A
+                        - link [ref=e1770] [cursor=pointer]:
+                          - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/annotation/Timed.html
+                          - code [ref=e1771]: "@Timed"
+                        - text: annotation with
+                        - code [ref=e1772]: longTask = true
+                        - text: enables a long task timer for the method. Long task timers require a separate metric name and can be stacked with a short task timer.
+                - paragraph [ref=e1774]: "By default, repository invocation related metrics are tagged with the following information:"
+                - table [ref=e1775]:
+                  - rowgroup [ref=e1779]:
+                    - row [ref=e1780]:
+                      - columnheader "Tag" [ref=e1781]
+                      - columnheader "Description" [ref=e1782]
+                  - rowgroup [ref=e1783]:
+                    - row [ref=e1784]:
+                      - cell [ref=e1785]:
+                        - paragraph [ref=e1786]:
+                          - code [ref=e1787]: repository
+                      - cell [ref=e1788]:
+                        - paragraph [ref=e1789]:
+                          - text: The simple class name of the source
+                          - link [ref=e1790] [cursor=pointer]:
+                            - /url: https://docs.spring.io/spring-data/commons/docs/4.1.x/api/org/springframework/data/repository/Repository.html
+                            - code [ref=e1791]: Repository
+                          - text: .
+                    - row [ref=e1792]:
+                      - cell [ref=e1793]:
+                        - paragraph [ref=e1794]:
+                          - code [ref=e1795]: method
+                      - cell [ref=e1796]:
+                        - paragraph [ref=e1797]:
+                          - text: The name of the
+                          - link [ref=e1798] [cursor=pointer]:
+                            - /url: https://docs.spring.io/spring-data/commons/docs/4.1.x/api/org/springframework/data/repository/Repository.html
+                            - code [ref=e1799]: Repository
+                          - text: method that was invoked.
+                    - row [ref=e1800]:
+                      - cell [ref=e1801]:
+                        - paragraph [ref=e1802]:
+                          - code [ref=e1803]: state
+                      - cell [ref=e1804]:
+                        - paragraph [ref=e1805]:
+                          - text: The result state (
+                          - code [ref=e1806]: SUCCESS
+                          - text: ","
+                          - code [ref=e1807]: ERROR
+                          - text: ","
+                          - code [ref=e1808]: CANCELED
+                          - text: ", or"
+                          - code [ref=e1809]: RUNNING
+                          - text: ).
+                    - row [ref=e1810]:
+                      - cell [ref=e1811]:
+                        - paragraph [ref=e1812]:
+                          - code [ref=e1813]: exception
+                      - cell [ref=e1814]:
+                        - paragraph [ref=e1815]: The simple class name of any exception that was thrown from the invocation.
+                - paragraph [ref=e1817]:
+                  - text: To replace the default tags, provide a
+                  - link [ref=e1818] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/context/annotation/Bean.html
+                    - code [ref=e1819]: "@Bean"
+                  - text: that implements
+                  - link [ref=e1820] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/data/metrics/RepositoryTagsProvider.html
+                    - code [ref=e1821]: RepositoryTagsProvider
+                  - text: .
+              - generic [ref=e1822]:
+                - heading "RabbitMQ Metrics" [level=3] [ref=e1823]
+                - paragraph [ref=e1825]:
+                  - text: Auto-configuration enables the instrumentation of all available RabbitMQ connection factories with a metric named
+                  - code [ref=e1826]: rabbitmq
+                  - text: .
+              - generic [ref=e1827]:
+                - heading "Spring Integration Metrics" [level=3] [ref=e1828]
+                - paragraph [ref=e1830]:
+                  - text: Spring Integration automatically provides
+                  - link "Micrometer support" [ref=e1831] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-integration/reference/7.1/metrics.html#micrometer-integration
+                  - text: whenever a
+                  - link [ref=e1832] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/MeterRegistry.html
+                    - code [ref=e1833]: MeterRegistry
+                  - text: bean is available. Metrics are published under the
+                  - code [ref=e1834]: spring.integration.
+                  - text: meter name.
+              - generic [ref=e1835]:
+                - heading "Kafka Metrics" [level=3] [ref=e1836]
+                - paragraph [ref=e1838]:
+                  - text: Auto-configuration registers a
+                  - link [ref=e1839] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-kafka/docs/4.1.x/api/org/springframework/kafka/core/MicrometerConsumerListener.html
+                    - code [ref=e1840]: MicrometerConsumerListener
+                  - text: and
+                  - link [ref=e1841] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-kafka/docs/4.1.x/api/org/springframework/kafka/core/MicrometerProducerListener.html
+                    - code [ref=e1842]: MicrometerProducerListener
+                  - text: for the auto-configured consumer factory and producer factory, respectively. It also registers a
+                  - link [ref=e1843] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-kafka/docs/4.1.x/api/org/springframework/kafka/streams/KafkaStreamsMicrometerListener.html
+                    - code [ref=e1844]: KafkaStreamsMicrometerListener
+                  - text: for
+                  - link [ref=e1845] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-kafka/docs/4.1.x/api/org/springframework/kafka/config/StreamsBuilderFactoryBean.html
+                    - code [ref=e1846]: StreamsBuilderFactoryBean
+                  - text: . For more detail, see the
+                  - link "Micrometer Native Metrics" [ref=e1847] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-kafka/reference/4.1/kafka/micrometer.html#micrometer-native
+                  - text: section of the Spring Kafka documentation.
+              - generic [ref=e1848]:
+                - heading "MongoDB Metrics" [level=3] [ref=e1849]
+                - paragraph [ref=e1851]: This section briefly describes the available metrics for MongoDB.
+                - generic [ref=e1852]:
+                  - heading "MongoDB Command Metrics" [level=4] [ref=e1853]
+                  - paragraph [ref=e1855]:
+                    - text: Auto-configuration registers a
+                    - link [ref=e1856] [cursor=pointer]:
+                      - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/mongodb/MongoMetricsCommandListener.html
+                      - code [ref=e1857]: MongoMetricsCommandListener
+                    - text: with the auto-configured
+                    - link [ref=e1858] [cursor=pointer]:
+                      - /url: https://mongodb.github.io/mongo-java-driver/5.8/apidocs/mongodb-driver-sync/com/mongodb/client/MongoClient.html
+                      - code [ref=e1859]: MongoClient
+                    - text: .
+                  - paragraph [ref=e1861]:
+                    - text: A timer metric named
+                    - code [ref=e1862]: mongodb.driver.commands
+                    - text: "is created for each command issued to the underlying MongoDB driver. Each metric is tagged with the following information by default:"
+                  - table [ref=e1863]:
+                    - rowgroup [ref=e1867]:
+                      - row [ref=e1868]:
+                        - columnheader "Tag" [ref=e1869]
+                        - columnheader "Description" [ref=e1870]
+                    - rowgroup [ref=e1871]:
+                      - row [ref=e1872]:
+                        - cell [ref=e1873]:
+                          - paragraph [ref=e1874]:
+                            - code [ref=e1875]: command
+                        - cell [ref=e1876]:
+                          - paragraph [ref=e1877]: The name of the command issued.
+                      - row [ref=e1878]:
+                        - cell [ref=e1879]:
+                          - paragraph [ref=e1880]:
+                            - code [ref=e1881]: cluster.id
+                        - cell [ref=e1882]:
+                          - paragraph [ref=e1883]: The identifier of the cluster to which the command was sent.
+                      - row [ref=e1884]:
+                        - cell [ref=e1885]:
+                          - paragraph [ref=e1886]:
+                            - code [ref=e1887]: server.address
+                        - cell [ref=e1888]:
+                          - paragraph [ref=e1889]: The address of the server to which the command was sent.
+                      - row [ref=e1890]:
+                        - cell [ref=e1891]:
+                          - paragraph [ref=e1892]:
+                            - code [ref=e1893]: status
+                        - cell [ref=e1894]:
+                          - paragraph [ref=e1895]:
+                            - text: The outcome of the command (
+                            - code [ref=e1896]: SUCCESS
+                            - text: or
+                            - code [ref=e1897]: FAILED
+                            - text: ).
+                  - paragraph [ref=e1899]:
+                    - text: To replace the default metric tags, define a
+                    - link [ref=e1900] [cursor=pointer]:
+                      - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/mongodb/MongoCommandTagsProvider.html
+                      - code [ref=e1901]: MongoCommandTagsProvider
+                    - text: "bean, as the following example shows:"
+                  - generic [ref=e1903]:
+                    - tablist [ref=e1905]:
+                      - tab [selected] [ref=e1906] [cursor=pointer]:
+                        - paragraph [ref=e1907]: Java
+                      - tab [ref=e1908] [cursor=pointer]:
+                        - paragraph [ref=e1909]: Kotlin
+                    - tabpanel "Java" [ref=e1910]:
+                      - generic [ref=e1913]:
+                        - code [ref=e1914]:
+                          - text: java
+                          - generic: import io.micrometer.core.instrument.binder.mongodb.MongoCommandTagsProvider; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                          - generic [ref=e1915]:
+                            - text: "@Configuration(proxyBeanMethods = false) public"
+                            - generic [ref=e1916]: class MyCommandTagsProviderConfiguration
+                            - text: "{ @Bean"
+                            - generic [ref=e1917]: public MongoCommandTagsProvider customCommandTagsProvider()
+                            - text: "{ return new CustomCommandTagsProvider(); } }"
+                        - generic [ref=e1918]:
+                          - button "Expand foldable text" [ref=e1919] [cursor=pointer]
+                          - button "Copied!" [ref=e1920] [cursor=pointer]
+                    - text: kotlin
+                  - paragraph [ref=e1923]: "To disable the auto-configured command metrics, set the following property:"
+                  - generic [ref=e1925]:
+                    - tablist [ref=e1927]:
+                      - tab [selected] [ref=e1928] [cursor=pointer]:
+                        - paragraph [ref=e1929]: Properties
+                      - tab [ref=e1930] [cursor=pointer]:
+                        - paragraph [ref=e1931]: YAML
+                    - tabpanel "Properties" [ref=e1932]:
+                      - generic [ref=e1935]:
+                        - code [ref=e1936]: properties management.metrics.mongodb.command.enabled=false
+                        - button "Copied!" [ref=e1938] [cursor=pointer]
+                    - text: yaml
+                - generic [ref=e1940]:
+                  - heading "MongoDB Connection Pool Metrics" [level=4] [ref=e1941]
+                  - paragraph [ref=e1943]:
+                    - text: Auto-configuration registers a
+                    - link [ref=e1944] [cursor=pointer]:
+                      - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/mongodb/MongoMetricsConnectionPoolListener.html
+                      - code [ref=e1945]: MongoMetricsConnectionPoolListener
+                    - text: with the auto-configured
+                    - link [ref=e1946] [cursor=pointer]:
+                      - /url: https://mongodb.github.io/mongo-java-driver/5.8/apidocs/mongodb-driver-sync/com/mongodb/client/MongoClient.html
+                      - code [ref=e1947]: MongoClient
+                    - text: .
+                  - paragraph [ref=e1949]: "The following gauge metrics are created for the connection pool:"
+                  - list [ref=e1951]:
+                    - listitem [ref=e1952]:
+                      - paragraph [ref=e1953]:
+                        - code [ref=e1954]: mongodb.driver.pool.size
+                        - text: reports the current size of the connection pool, including idle and in-use members.
+                    - listitem [ref=e1955]:
+                      - paragraph [ref=e1956]:
+                        - code [ref=e1957]: mongodb.driver.pool.checkedout
+                        - text: reports the count of connections that are currently in use.
+                    - listitem [ref=e1958]:
+                      - paragraph [ref=e1959]:
+                        - code [ref=e1960]: mongodb.driver.pool.waitqueuesize
+                        - text: reports the current size of the wait queue for a connection from the pool.
+                  - paragraph [ref=e1962]: "Each metric is tagged with the following information by default:"
+                  - table [ref=e1963]:
+                    - rowgroup [ref=e1967]:
+                      - row [ref=e1968]:
+                        - columnheader "Tag" [ref=e1969]
+                        - columnheader "Description" [ref=e1970]
+                    - rowgroup [ref=e1971]:
+                      - row [ref=e1972]:
+                        - cell [ref=e1973]:
+                          - paragraph [ref=e1974]:
+                            - code [ref=e1975]: cluster.id
+                        - cell [ref=e1976]:
+                          - paragraph [ref=e1977]: The identifier of the cluster to which the connection pool corresponds.
+                      - row [ref=e1978]:
+                        - cell [ref=e1979]:
+                          - paragraph [ref=e1980]:
+                            - code [ref=e1981]: server.address
+                        - cell [ref=e1982]:
+                          - paragraph [ref=e1983]: The address of the server to which the connection pool corresponds.
+                  - paragraph [ref=e1985]:
+                    - text: To replace the default metric tags, define a
+                    - link [ref=e1986] [cursor=pointer]:
+                      - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/mongodb/MongoConnectionPoolTagsProvider.html
+                      - code [ref=e1987]: MongoConnectionPoolTagsProvider
+                    - text: "bean:"
+                  - generic [ref=e1989]:
+                    - tablist [ref=e1991]:
+                      - tab [selected] [ref=e1992] [cursor=pointer]:
+                        - paragraph [ref=e1993]: Java
+                      - tab [ref=e1994] [cursor=pointer]:
+                        - paragraph [ref=e1995]: Kotlin
+                    - tabpanel "Java" [ref=e1996]:
+                      - generic [ref=e1999]:
+                        - code [ref=e2000]:
+                          - text: java
+                          - generic: import io.micrometer.core.instrument.binder.mongodb.MongoConnectionPoolTagsProvider; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                          - generic [ref=e2001]:
+                            - text: "@Configuration(proxyBeanMethods = false) public"
+                            - generic [ref=e2002]: class MyConnectionPoolTagsProviderConfiguration
+                            - text: "{ @Bean"
+                            - generic [ref=e2003]: public MongoConnectionPoolTagsProvider customConnectionPoolTagsProvider()
+                            - text: "{ return new CustomConnectionPoolTagsProvider(); } }"
+                        - generic [ref=e2004]:
+                          - button "Expand foldable text" [ref=e2005] [cursor=pointer]
+                          - button "Copied!" [ref=e2006] [cursor=pointer]
+                    - text: kotlin
+                  - paragraph [ref=e2009]: "To disable the auto-configured connection pool metrics, set the following property:"
+                  - generic [ref=e2011]:
+                    - tablist [ref=e2013]:
+                      - tab [selected] [ref=e2014] [cursor=pointer]:
+                        - paragraph [ref=e2015]: Properties
+                      - tab [ref=e2016] [cursor=pointer]:
+                        - paragraph [ref=e2017]: YAML
+                    - tabpanel "Properties" [ref=e2018]:
+                      - generic [ref=e2021]:
+                        - code [ref=e2022]: properties management.metrics.mongodb.connectionpool.enabled=false
+                        - button "Copied!" [ref=e2024] [cursor=pointer]
+                    - text: yaml
+              - generic [ref=e2026]:
+                - heading "Neo4j Metrics" [level=3] [ref=e2027]
+                - paragraph [ref=e2029]:
+                  - text: Auto-configuration registers a
+                  - link [ref=e2030] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/org.neo4j.driver/neo4j-java-driver/6.1.0/org/neo4j/driver/observation/micrometer/MicrometerObservationProvider.html
+                    - code [ref=e2031]: MicrometerObservationProvider
+                  - text: for the auto-configured
+                  - link [ref=e2032] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/org.neo4j.driver/neo4j-java-driver/6.1.0/org/neo4j/driver/Driver.html
+                    - code [ref=e2033]: Driver
+                  - text: .
+                - paragraph [ref=e2035]:
+                  - text: To override this behavior, you can register a
+                  - link [ref=e2036] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/neo4j/autoconfigure/ConfigBuilderCustomizer.html
+                    - code [ref=e2037]: ConfigBuilderCustomizer
+                  - text: bean with an order higher than zero.
+              - generic [ref=e2038]:
+                - heading "Jetty Metrics" [level=3] [ref=e2039]
+                - paragraph [ref=e2041]:
+                  - text: Auto-configuration binds metrics for Jetty’s
+                  - link [ref=e2042] [cursor=pointer]:
+                    - /url: https://javadoc.jetty.org/jetty-12/org/eclipse/jetty/util/thread/ThreadPool.html
+                    - code [ref=e2043]: ThreadPool
+                  - text: by using Micrometer’s
+                  - link [ref=e2044] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/jetty/JettyServerThreadPoolMetrics.html
+                    - code [ref=e2045]: JettyServerThreadPoolMetrics
+                  - text: . Metrics for Jetty’s
+                  - link [ref=e2046] [cursor=pointer]:
+                    - /url: https://javadoc.jetty.org/jetty-12/org/eclipse/jetty/server/Connector.html
+                    - code [ref=e2047]: Connector
+                  - text: instances are bound by using Micrometer’s
+                  - link [ref=e2048] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/jetty/JettyConnectionMetrics.html
+                    - code [ref=e2049]: JettyConnectionMetrics
+                  - text: and, when
+                  - code [ref=e2050]: server.ssl.enabled
+                  - text: is set to
+                  - code [ref=e2051]: "true"
+                  - text: ", Micrometer’s"
+                  - link [ref=e2052] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/jetty/JettySslHandshakeMetrics.html
+                    - code [ref=e2053]: JettySslHandshakeMetrics
+                  - text: .
+              - generic [ref=e2054]:
+                - heading "Redis Metrics" [level=3] [ref=e2055]
+                - paragraph [ref=e2057]:
+                  - text: Auto-configuration registers a
+                  - link [ref=e2058] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.lettuce/lettuce-core/7.5.2.RELEASE/io/lettuce/core/tracing/MicrometerTracing.html
+                    - code [ref=e2059]: MicrometerTracing
+                  - text: for the auto-configured
+                  - link [ref=e2060] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-data/redis/docs/4.1.x/api/org/springframework/data/redis/connection/lettuce/LettuceConnectionFactory.html
+                    - code [ref=e2061]: LettuceConnectionFactory
+                  - text: . For more detail, see the
+                  - link "Observability section" [ref=e2062] [cursor=pointer]:
+                    - /url: https://redis.github.io/lettuce/advanced-usage/observability
+                  - text: of the Lettuce documentation.
+          - generic [ref=e2063]:
+            - heading "Registering Custom Metrics" [level=2] [ref=e2064]
+            - generic [ref=e2065]:
+              - paragraph [ref=e2067]:
+                - text: To register custom metrics, inject
+                - link [ref=e2068] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/MeterRegistry.html
+                  - code [ref=e2069]: MeterRegistry
+                - text: "into your component:"
+              - generic [ref=e2071]:
+                - tablist [ref=e2073]:
+                  - tab [selected] [ref=e2074] [cursor=pointer]:
+                    - paragraph [ref=e2075]: Java
+                  - tab [ref=e2076] [cursor=pointer]:
+                    - paragraph [ref=e2077]: Kotlin
+                - tabpanel "Java" [ref=e2078]:
+                  - generic [ref=e2081]:
+                    - code [ref=e2082]:
+                      - text: java
+                      - generic: import io.micrometer.core.instrument.MeterRegistry; import io.micrometer.core.instrument.Tags; import org.springframework.stereotype.Component;
+                      - generic [ref=e2083]:
+                        - text: "@Component public"
+                        - generic [ref=e2084]: class MyBean
+                        - text: "{ private final Dictionary dictionary;"
+                        - generic [ref=e2085]: public MyBean(MeterRegistry registry)
+                        - text: "{ this.dictionary = Dictionary.load(); registry.gauge(\"dictionary.size\", Tags.empty(), this.dictionary.getWords().size()); } }"
+                    - generic [ref=e2086]:
+                      - button "Expand foldable text" [ref=e2087] [cursor=pointer]
+                      - button "Copied!" [ref=e2088] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e2091]:
+                - text: If your metrics depend on other beans, we recommend that you use a
+                - link [ref=e2092] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/MeterBinder.html
+                  - code [ref=e2093]: MeterBinder
+                - text: "to register them:"
+              - generic [ref=e2095]:
+                - tablist [ref=e2097]:
+                  - tab [selected] [ref=e2098] [cursor=pointer]:
+                    - paragraph [ref=e2099]: Java
+                  - tab [ref=e2100] [cursor=pointer]:
+                    - paragraph [ref=e2101]: Kotlin
+                - tabpanel "Java" [ref=e2102]:
+                  - generic [ref=e2105]:
+                    - code [ref=e2106]:
+                      - text: java
+                      - generic: import io.micrometer.core.instrument.Gauge; import io.micrometer.core.instrument.binder.MeterBinder; import org.springframework.context.annotation.Bean;
+                      - generic [ref=e2107]:
+                        - text: public
+                        - generic [ref=e2108]: class MyMeterBinderConfiguration
+                        - text: "{ @Bean"
+                        - generic [ref=e2109]: public MeterBinder queueSize(Queue queue)
+                        - text: "{ return (registry) -> Gauge.builder(\"queueSize\", queue::size).register(registry); } }"
+                    - generic [ref=e2110]:
+                      - button "Expand foldable text" [ref=e2111] [cursor=pointer]
+                      - button "Copied!" [ref=e2112] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e2115]:
+                - text: Using a
+                - link [ref=e2116] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/MeterBinder.html
+                  - code [ref=e2117]: MeterBinder
+                - text: ensures that the correct dependency relationships are set up and that the bean is available when the metric’s value is retrieved. A
+                - link [ref=e2118] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/MeterBinder.html
+                  - code [ref=e2119]: MeterBinder
+                - text: implementation can also be useful if you find that you repeatedly instrument a suite of metrics across components or applications.
+              - table [ref=e2121]:
+                - rowgroup [ref=e2122]:
+                  - row [ref=e2123]:
+                    - cell "Note" [ref=e2124]
+                    - cell [ref=e2126]:
+                      - text: By default, metrics from all
+                      - link [ref=e2127] [cursor=pointer]:
+                        - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/binder/MeterBinder.html
+                        - code [ref=e2128]: MeterBinder
+                      - text: beans are automatically bound to the Spring-managed
+                      - link [ref=e2129] [cursor=pointer]:
+                        - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/MeterRegistry.html
+                        - code [ref=e2130]: MeterRegistry
+                      - text: .
+          - generic [ref=e2131]:
+            - heading "Customizing Individual Metrics" [level=2] [ref=e2132]
+            - generic [ref=e2133]:
+              - paragraph [ref=e2135]:
+                - text: If you need to apply customizations to specific
+                - link [ref=e2136] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/Meter.html
+                  - code [ref=e2137]: Meter
+                - text: instances, you can use the
+                - link [ref=e2138] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/config/MeterFilter.html
+                  - code [ref=e2139]: MeterFilter
+                - text: interface.
+              - paragraph [ref=e2141]:
+                - text: For example, if you want to rename the
+                - code [ref=e2142]: mytag.region
+                - text: tag to
+                - code [ref=e2143]: mytag.area
+                - text: for all meter IDs beginning with
+                - code [ref=e2144]: com.example
+                - text: ", you can do the following:"
+              - generic [ref=e2146]:
+                - tablist [ref=e2148]:
+                  - tab [selected] [ref=e2149] [cursor=pointer]:
+                    - paragraph [ref=e2150]: Java
+                  - tab [ref=e2151] [cursor=pointer]:
+                    - paragraph [ref=e2152]: Kotlin
+                - tabpanel "Java" [ref=e2153]:
+                  - generic [ref=e2156]:
+                    - code [ref=e2157]:
+                      - text: java
+                      - generic: import io.micrometer.core.instrument.config.MeterFilter; import org.springframework.context.annotation.Bean; import org.springframework.context.annotation.Configuration;
+                      - generic [ref=e2158]:
+                        - text: "@Configuration(proxyBeanMethods = false) public"
+                        - generic [ref=e2159]: class MyMetricsFilterConfiguration
+                        - text: "{ @Bean"
+                        - generic [ref=e2160]: public MeterFilter renameRegionTagMeterFilter()
+                        - text: "{ return MeterFilter.renameTag(\"com.example\", \"mytag.region\", \"mytag.area\"); } }"
+                    - generic [ref=e2161]:
+                      - button "Expand foldable text" [ref=e2162] [cursor=pointer]
+                      - button "Copied!" [ref=e2163] [cursor=pointer]
+                - text: kotlin
+              - table [ref=e2166]:
+                - rowgroup [ref=e2167]:
+                  - row [ref=e2168]:
+                    - cell "Note" [ref=e2169]
+                    - cell [ref=e2171]:
+                      - text: By default, all
+                      - link [ref=e2172] [cursor=pointer]:
+                        - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/config/MeterFilter.html
+                        - code [ref=e2173]: MeterFilter
+                      - text: beans are automatically bound to the Spring-managed
+                      - link [ref=e2174] [cursor=pointer]:
+                        - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/MeterRegistry.html
+                        - code [ref=e2175]: MeterRegistry
+                      - text: . Make sure to register your metrics by using the Spring-managed
+                      - link [ref=e2176] [cursor=pointer]:
+                        - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/MeterRegistry.html
+                        - code [ref=e2177]: MeterRegistry
+                      - text: and not any of the static methods on
+                      - link [ref=e2178] [cursor=pointer]:
+                        - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/Metrics.html
+                        - code [ref=e2179]: Metrics
+                      - text: . These use the global registry that is not Spring-managed.
+              - generic [ref=e2180]:
+                - heading "Common Tags" [level=3] [ref=e2181]
+                - paragraph [ref=e2183]: "Common tags are generally used for dimensional drill-down on the operating environment, such as host, instance, region, stack, and others. Commons tags are applied to all meters and can be configured, as the following example shows:"
+                - generic [ref=e2185]:
+                  - tablist [ref=e2187]:
+                    - tab [selected] [ref=e2188] [cursor=pointer]:
+                      - paragraph [ref=e2189]: Properties
+                    - tab [ref=e2190] [cursor=pointer]:
+                      - paragraph [ref=e2191]: YAML
+                  - tabpanel "Properties" [ref=e2192]:
+                    - generic [ref=e2195]:
+                      - code [ref=e2196]: properties management.metrics.tags.region=us-east-1 management.metrics.tags.stack=prod
+                      - button "Copied!" [ref=e2198] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e2201]:
+                  - text: The preceding example adds
+                  - code [ref=e2202]: region
+                  - text: and
+                  - code [ref=e2203]: stack
+                  - text: tags to all meters with a value of
+                  - code [ref=e2204]: us-east-1
+                  - text: and
+                  - code [ref=e2205]: prod
+                  - text: ", respectively."
+                - table [ref=e2207]:
+                  - rowgroup [ref=e2208]:
+                    - row [ref=e2209]:
+                      - cell "Note" [ref=e2210]
+                      - cell [ref=e2212]:
+                        - text: The order of common tags is important if you use Graphite. As the order of common tags cannot be guaranteed by using this approach, Graphite users are advised to define a custom
+                        - link [ref=e2213] [cursor=pointer]:
+                          - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/config/MeterFilter.html
+                          - code [ref=e2214]: MeterFilter
+                        - text: instead.
+              - generic [ref=e2215]:
+                - heading "Per-meter Properties" [level=3] [ref=e2216]
+                - paragraph [ref=e2218]:
+                  - text: In addition to
+                  - link [ref=e2219] [cursor=pointer]:
+                    - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/config/MeterFilter.html
+                    - code [ref=e2220]: MeterFilter
+                  - text: beans, you can apply a limited set of customization on a per-meter basis using properties. Per-meter customizations are applied, using Spring Boot’s
+                  - link [ref=e2221] [cursor=pointer]:
+                    - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/metrics/autoconfigure/PropertiesMeterFilter.html
+                    - code [ref=e2222]: PropertiesMeterFilter
+                  - text: ", to any meter IDs that start with the given name. The following example filters out any meters that have an ID starting with"
+                  - code [ref=e2223]: example.remote
+                  - text: .
+                - generic [ref=e2225]:
+                  - tablist [ref=e2227]:
+                    - tab [selected] [ref=e2228] [cursor=pointer]:
+                      - paragraph [ref=e2229]: Properties
+                    - tab [ref=e2230] [cursor=pointer]:
+                      - paragraph [ref=e2231]: YAML
+                  - tabpanel "Properties" [ref=e2232]:
+                    - generic [ref=e2235]:
+                      - code [ref=e2236]: properties management.metrics.enable.example.remote=false
+                      - button "Copied!" [ref=e2238] [cursor=pointer]
+                  - text: yaml
+                - paragraph [ref=e2241]: "The following properties allow per-meter customization:"
+                - table [ref=e2242]:
+                  - caption [ref=e2243]: Table 1. Per-meter customizations
+                  - rowgroup [ref=e2247]:
+                    - row [ref=e2248]:
+                      - columnheader "Property" [ref=e2249]
+                      - columnheader "Description" [ref=e2250]
+                  - rowgroup [ref=e2251]:
+                    - row [ref=e2252]:
+                      - cell [ref=e2253]:
+                        - paragraph [ref=e2254]:
+                          - code [ref=e2255]: management.metrics.enable
+                      - cell [ref=e2256]:
+                        - paragraph [ref=e2257]:
+                          - text: Whether to accept meters with certain IDs. Meters that are not accepted are filtered from the
+                          - link [ref=e2258] [cursor=pointer]:
+                            - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/MeterRegistry.html
+                            - code [ref=e2259]: MeterRegistry
+                          - text: .
+                    - row [ref=e2260]:
+                      - cell [ref=e2261]:
+                        - paragraph [ref=e2262]:
+                          - code [ref=e2263]: management.metrics.distribution.percentiles-histogram
+                      - cell [ref=e2264]:
+                        - paragraph [ref=e2265]: Whether to publish a histogram suitable for computing aggregable (across dimension) percentile approximations.
+                    - row [ref=e2266]:
+                      - cell [ref=e2267]:
+                        - paragraph [ref=e2268]:
+                          - code [ref=e2269]: management.metrics.distribution.minimum-expected-value
+                          - text: ","
+                          - code [ref=e2270]: management.metrics.distribution.maximum-expected-value
+                      - cell [ref=e2271]:
+                        - paragraph [ref=e2272]: Publish fewer histogram buckets by clamping the range of expected values.
+                    - row [ref=e2273]:
+                      - cell [ref=e2274]:
+                        - paragraph [ref=e2275]:
+                          - code [ref=e2276]: management.metrics.distribution.percentiles
+                      - cell [ref=e2277]:
+                        - paragraph [ref=e2278]: Publish percentile values computed in your application
+                    - row [ref=e2279]:
+                      - cell [ref=e2280]:
+                        - paragraph [ref=e2281]:
+                          - code [ref=e2282]: management.metrics.distribution.expiry
+                          - text: ","
+                          - code [ref=e2283]: management.metrics.distribution.buffer-length
+                      - cell [ref=e2284]:
+                        - paragraph [ref=e2285]: Give greater weight to recent samples by accumulating them in ring buffers which rotate after a configurable expiry, with a configurable buffer length.
+                    - row [ref=e2286]:
+                      - cell [ref=e2287]:
+                        - paragraph [ref=e2288]:
+                          - code [ref=e2289]: management.metrics.distribution.slo
+                      - cell [ref=e2290]:
+                        - paragraph [ref=e2291]: Publish a cumulative histogram with buckets defined by your service-level objectives.
+                - paragraph [ref=e2293]:
+                  - text: For more details on the concepts behind
+                  - code [ref=e2294]: percentiles-histogram
+                  - text: ","
+                  - code [ref=e2295]: percentiles
+                  - text: ", and"
+                  - code [ref=e2296]: slo
+                  - text: ", see the"
+                  - link "Histograms and percentiles" [ref=e2297] [cursor=pointer]:
+                    - /url: https://docs.micrometer.io/micrometer/reference/1.17/concepts/histogram-quantiles.html
+                  - text: section of the Micrometer documentation.
+          - generic [ref=e2298]:
+            - heading "Metrics Endpoint" [level=2] [ref=e2299]
+            - generic [ref=e2300]:
+              - paragraph [ref=e2302]:
+                - text: Spring Boot provides a
+                - code [ref=e2303]: metrics
+                - text: endpoint that you can use diagnostically to examine the metrics collected by an application. The endpoint is not available by default and must be exposed. See
+                - link "exposing endpoints" [ref=e2304] [cursor=pointer]:
+                  - /url: endpoints.html#actuator.endpoints.exposing
+                - text: for more details.
+              - paragraph [ref=e2306]:
+                - text: Navigating to
+                - code [ref=e2307]: /actuator/metrics
+                - text: displays a list of available meter names. You can drill down to view information about a particular meter by providing its name as a selector — for example,
+                - code [ref=e2308]: /actuator/metrics/jvm.memory.max
+                - text: .
+              - table [ref=e2310]:
+                - rowgroup [ref=e2311]:
+                  - row [ref=e2312]:
+                    - cell "Tip" [ref=e2313]
+                    - cell [ref=e2315]:
+                      - paragraph [ref=e2317]:
+                        - text: The name you use here should match the name used in the code, not the name after it has been naming-convention normalized for a monitoring system to which it is shipped. In other words, if
+                        - code [ref=e2318]: jvm.memory.max
+                        - text: appears as
+                        - code [ref=e2319]: jvm_memory_max
+                        - text: in Prometheus because of its snake case naming convention, you should still use
+                        - code [ref=e2320]: jvm.memory.max
+                        - text: as the selector when inspecting the meter in the
+                        - code [ref=e2321]: metrics
+                        - text: endpoint.
+              - paragraph [ref=e2323]:
+                - text: You can also add any number of
+                - code [ref=e2324]: tag=KEY:VALUE
+                - text: query parameters to the end of the URL to dimensionally drill down on a meter — for example,
+                - code [ref=e2325]: /actuator/metrics/jvm.memory.max?tag=area:nonheap
+                - text: .
+              - table [ref=e2327]:
+                - rowgroup [ref=e2328]:
+                  - row [ref=e2329]:
+                    - cell "Tip" [ref=e2330]
+                    - cell [ref=e2332]:
+                      - paragraph [ref=e2334]:
+                        - text: The reported measurements are the
+                        - emphasis [ref=e2335]: sum
+                        - text: of the statistics of all meters that match the meter name and any tags that have been applied. In the preceding example, the returned
+                        - code [ref=e2336]: Value
+                        - text: statistic is the sum of the maximum memory footprints of the “Code Cache”, “Compressed Class Space”, and “Metaspace” areas of the heap. If you wanted to see only the maximum size for the “Metaspace”, you could add an additional
+                        - code [ref=e2337]: tag=id:Metaspace
+                        - text: — that is,
+                        - code [ref=e2338]: /actuator/metrics/jvm.memory.max?tag=area:nonheap&tag=id:Metaspace
+                        - text: .
+          - generic [ref=e2339]:
+            - heading "Integration with Micrometer Observation" [level=2] [ref=e2340]
+            - paragraph [ref=e2343]:
+              - text: A
+              - link [ref=e2344] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-core/1.17.0/io/micrometer/core/instrument/observation/DefaultMeterObservationHandler.html
+                - code [ref=e2345]: DefaultMeterObservationHandler
+              - text: is automatically registered on the
+              - link [ref=e2346] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationRegistry.html
+                - code [ref=e2347]: ObservationRegistry
+              - text: ", which creates metrics for every completed observation."
+          - navigation [ref=e2348]:
+            - generic [ref=e2349]:
+              - text: Prev
+              - link "‹ Loggers" [ref=e2350] [cursor=pointer]:
+                - /url: loggers.html
+            - generic [ref=e2351]:
+              - text: Next
+              - link "Tracing ›" [ref=e2352] [cursor=pointer]:
+                - /url: tracing.html
+    - text:   
+  - contentinfo [ref=e2353]:
+    - generic [ref=e2354]:
+      - img "Spring" [ref=e2355]
+      - paragraph [ref=e2356]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e2357] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e2358] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e2359] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e2360]:
+          - text: •
+          - link "Thank you" [ref=e2361] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e2362] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e2363]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e2364]:
+      - link "Youtube" [ref=e2365] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e2369] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e2373] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e2378]:
+      - generic [ref=e2379]:
+        - button "Close" [ref=e2381] [cursor=pointer]
+        - generic [ref=e2382]:
+          - generic [ref=e2384]:
+            - heading "Cookies" [level=2] [ref=e2385]
+            - generic [ref=e2386]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e2387] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e2391] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

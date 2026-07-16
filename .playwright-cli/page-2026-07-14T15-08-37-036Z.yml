@@ -1,0 +1,276 @@
+- generic [ref=f1e2]:
+  - generic [ref=f1e3]:
+    - link "Skip to content" [ref=f1e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=f1e6]:
+      - heading "Navigation Menu" [level=2] [ref=f1e7]
+      - generic [ref=f1e8]:
+        - link "Homepage" [ref=f1e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f1e13]:
+          - navigation "Global" [ref=f1e16]:
+            - list [ref=f1e17]:
+              - listitem [ref=f1e18]:
+                - button "Platform" [ref=f1e20] [cursor=pointer]
+              - listitem [ref=f1e23]:
+                - button "Solutions" [ref=f1e25] [cursor=pointer]
+              - listitem [ref=f1e28]:
+                - button "Resources" [ref=f1e30] [cursor=pointer]
+              - listitem [ref=f1e33]:
+                - button "Open Source" [ref=f1e35] [cursor=pointer]
+              - listitem [ref=f1e38]:
+                - button "Enterprise" [ref=f1e40] [cursor=pointer]
+              - listitem [ref=f1e43]:
+                - link "Pricing" [ref=f1e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=f1e46]:
+            - button "Search or jump to…" [ref=f1e49] [cursor=pointer]
+            - link "Sign in" [ref=f1e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FQuantumNous%2Fnew-api%2Fissues%3Fq%3Dis%253Aissue%2520%2522reasoning.context%2522
+            - link "Sign up" [ref=f1e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fissues%2Findex&source=header-repo&source_repo=QuantumNous%2Fnew-api
+            - button "Appearance settings" [ref=f1e58] [cursor=pointer]
+  - main [ref=f1e62]:
+    - generic [ref=f1e63]:
+      - generic [ref=f1e64]:
+        - generic [ref=f1e66]:
+          - link "QuantumNous" [ref=f1e70] [cursor=pointer]:
+            - /url: /QuantumNous
+          - generic [ref=f1e71]: /
+          - strong [ref=f1e72]:
+            - link "new-api" [ref=f1e73] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - generic [ref=f1e74]: Public
+        - generic [ref=f1e75]:
+          - list:
+            - listitem [ref=f1e76]:
+              - link "You must be signed in to change notification settings" [ref=f1e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Notifications
+            - listitem [ref=f1e80]:
+              - link "Fork 9.8k" [ref=f1e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Fork
+                - generic "9,781" [ref=f1e84]: 9.8k
+            - listitem [ref=f1e85]:
+              - link "You must be signed in to star a repository" [ref=f1e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Star
+                - generic "42211 users starred this repository" [ref=f1e90]: 42.2k
+      - navigation "Repository" [ref=f1e91]:
+        - list [ref=f1e92]:
+          - listitem [ref=f1e93]:
+            - link "Code" [ref=f1e94] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - listitem [ref=f1e98]:
+            - link "Issues 605" [ref=f1e99] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/issues
+              - generic [ref=f1e103]: Issues
+              - generic "605" [ref=f1e104]
+          - listitem [ref=f1e105]:
+            - link "Pull requests 412" [ref=f1e106] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulls
+              - generic [ref=f1e109]: Pull requests
+              - generic "412" [ref=f1e110]
+          - listitem [ref=f1e111]:
+            - link "Discussions" [ref=f1e112] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/discussions
+          - listitem [ref=f1e116]:
+            - link "Actions" [ref=f1e117] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/actions
+          - listitem [ref=f1e121]:
+            - link "Security and quality 14" [ref=f1e122] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/security
+              - generic [ref=f1e125]: Security and quality
+              - generic "14" [ref=f1e126]
+          - listitem [ref=f1e127]:
+            - link "Insights" [ref=f1e128] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulse
+    - generic [ref=f1e139]:
+      - generic [ref=f1e140]:
+        - generic [ref=f1e141]:
+          - navigation "Issue filters" [ref=f1e142]:
+            - list [ref=f1e143]:
+              - listitem [ref=f1e144]:
+                - link "Issues" [ref=f1e145] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/issues?q=is%3Aissue+state%3Aopen
+                  - generic "Issues" [ref=f1e148]
+              - listitem [ref=f1e149]:
+                - link "Assigned to me" [ref=f1e150] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/issues?q=is%3Aissue+state%3Aopen+assignee%3A%40me
+                  - generic "Assigned to me" [ref=f1e153]
+              - listitem [ref=f1e154]:
+                - link "Created by me" [ref=f1e155] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/issues?q=is%3Aissue+state%3Aopen+author%3A%40me
+                  - generic "Created by me" [ref=f1e158]
+              - listitem [ref=f1e159]:
+                - link "Mentioned" [ref=f1e160] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/issues?q=is%3Aissue+state%3Aopen+mentions%3A%40me
+                  - generic "Mentioned" [ref=f1e163]
+              - listitem [ref=f1e164]:
+                - link "Recent activity" [ref=f1e165] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/issues?q=is%3Aissue+updated%3A%3E%40today-1w+sort%3Aupdated-desc
+                  - generic "Recent activity" [ref=f1e168]
+          - separator [ref=f1e169]
+          - navigation "Pages" [ref=f1e170]:
+            - list [ref=f1e171]:
+              - listitem [ref=f1e172]:
+                - link "Views" [ref=f1e173] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/issues/views
+              - listitem [ref=f1e176]:
+                - link "Milestones" [ref=f1e177] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/milestones
+              - listitem [ref=f1e180]:
+                - link "Labels" [ref=f1e181] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/labels
+        - generic [ref=f1e184]:
+          - navigation "Feedback" [ref=f1e185]:
+            - list [ref=f1e186]:
+              - listitem [ref=f1e187]:
+                - link "Feedback Preview" [ref=f1e188] [cursor=pointer]:
+                  - /url: https://gh.io/issues-sidebar-feedback
+                  - generic [ref=f1e189]:
+                    - generic [ref=f1e190]: Feedback
+                    - generic: Preview
+          - list [ref=f1e191]:
+            - listitem [ref=f1e192]:
+              - button "Collapse sidebar" [expanded] [ref=f1e193] [cursor=pointer]
+      - generic [ref=f1e199]:
+        - generic [ref=f1e200]:
+          - list "Drag and drop pinned issues list." [ref=f1e201]:
+            - listitem [ref=f1e202]:
+              - generic [ref=f1e205]:
+                - link "View v1版本界面问题请在此处集中反馈 Please provide centralized feedback on V1 interface issues here" [ref=f1e207] [cursor=pointer]:
+                  - /url: https://github.com/QuantumNous/new-api/issues/4687
+                  - 'img "Status: Not planned (skipped)." [ref=f1e209]'
+                  - text: v1版本界面问题请在此处集中反馈 Please provide centralized feedback on V1 interface issues here
+                - generic [ref=f1e211]:
+                  - generic [ref=f1e212]:
+                    - text: "#4687 ·"
+                    - link "View t0ng7u profile" [ref=f1e213] [cursor=pointer]:
+                      - /url: https://github.com/t0ng7u
+                      - text: t0ng7u
+                    - text: opened on May 7, 2026on May 8
+                  - generic [ref=f1e214]:
+                    - img "39 comments" [ref=f1e215]
+                    - generic [ref=f1e217]: "39"
+            - listitem [ref=f1e218]:
+              - generic [ref=f1e221]:
+                - link "View issues评论区被机器人轰炸，不要点击任何链接 Don't click on any links in the issue comments." [ref=f1e223] [cursor=pointer]:
+                  - /url: https://github.com/QuantumNous/new-api/issues/973
+                  - 'img "Status: Open." [ref=f1e225]'
+                  - text: issues评论区被机器人轰炸，不要点击任何链接 Don't click on any links in the issue comments.
+                - generic [ref=f1e229]:
+                  - text: "#973 ·"
+                  - link "View Calcium-Ion profile" [ref=f1e230] [cursor=pointer]:
+                    - /url: https://github.com/Calcium-Ion
+                    - text: Calcium-Ion
+                  - text: opened on Apr 15, 2025on Apr 15, 2025
+          - status [ref=f1e231]
+        - generic [ref=f1e232]:
+          - heading "Issues" [level=1] [ref=f1e233]
+          - generic [ref=f1e234]:
+            - generic [ref=f1e236]:
+              - form "Search Issues" [ref=f1e238]:
+                - generic [ref=f1e241]:
+                  - generic [ref=f1e242]:
+                    - generic [ref=f1e243]:
+                      - generic [ref=f1e244]:
+                        - generic [ref=f1e245]:
+                          - text: "is:"
+                          - generic [ref=f1e246]: issue
+                        - generic [ref=f1e248]: "\"reasoning.context\""
+                      - combobox "Search Issues" [ref=f1e250]: is:issue "reasoning.context"
+                    - button "Clear filter" [ref=f1e251] [cursor=pointer]
+                  - button "Search" [ref=f1e254] [cursor=pointer]
+              - button "New issue" [ref=f1e258]
+            - generic [ref=f1e264]:
+              - heading "Search results" [level=2] [ref=f1e265]
+              - generic [ref=f1e266]:
+                - list [ref=f1e268]:
+                  - listitem [ref=f1e269]:
+                    - link "Open (0)" [ref=f1e270] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/issues?q=is%3Aissue%20%22reasoning.context%22%20state%3Aopen
+                      - generic [ref=f1e271]: Open
+                      - generic [ref=f1e272]: "0"
+                      - generic [ref=f1e273]: (0)
+                  - listitem [ref=f1e274]:
+                    - link "Closed (1)" [ref=f1e275] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/issues?q=is%3Aissue%20%22reasoning.context%22%20state%3Aclosed
+                      - generic [ref=f1e276]: Closed
+                      - generic [ref=f1e277]: "1"
+                      - generic [ref=f1e278]: (1)
+                - toolbar "Actions" [ref=f1e279]:
+                  - generic [ref=f1e280]:
+                    - button "Filter by author" [ref=f1e282] [cursor=pointer]:
+                      - generic [ref=f1e283]: Author
+                    - button "Filter by label" [ref=f1e286] [cursor=pointer]:
+                      - generic [ref=f1e287]: Labels
+                    - button "Filter by project" [ref=f1e290] [cursor=pointer]:
+                      - generic [ref=f1e291]: Projects
+                    - button "Filter by milestone" [ref=f1e294] [cursor=pointer]:
+                      - generic [ref=f1e295]: Milestones
+                    - button "Filter by assignees" [ref=f1e298] [cursor=pointer]:
+                      - generic [ref=f1e299]: Assignees
+                    - button "Filter by issue type" [ref=f1e302] [cursor=pointer]:
+                      - generic [ref=f1e303]: Types
+                  - button "More Actions" [ref=f1e305] [cursor=pointer]
+              - list "Search results" [ref=f1e308]:
+                - 'listitem "[Bug] Codex type 57 未适配 GPT-5.6 Responses Lite，返回 Model not found: Status: Not planned (skipped). #6087 In QuantumNous/new-api;· by wbb12 was closed on Jul 11, 2026. More information available below." [ref=f1e311]':
+                  - generic [ref=f1e312]:
+                    - heading [level=3] [ref=f1e313]:
+                      - link "[Bug] Codex type 57 未适配 GPT-5.6 Responses Lite，返回 Model not found" [ref=f1e314] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/issues/6087
+                    - link "bug Something isn't working" [ref=f1e319] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/issues?q=is%3Aissue%20%22reasoning.context%22%20label%3Abug
+                      - generic [ref=f1e320]: bug
+                      - generic [ref=f1e322]: Something isn't working
+                  - generic [ref=f1e323]: "Status: Not planned (skipped)."
+                  - generic [ref=f1e334]:
+                    - generic [ref=f1e335]:
+                      - generic [ref=f1e336]: "#6087"
+                      - generic [ref=f1e337]: In QuantumNous/new-api;
+                    - generic [ref=f1e338]:
+                      - text: · by
+                      - link "wbb12" [ref=f1e339] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/issues?q=is%3Aissue%20%22reasoning.context%22%20author%3Awbb12
+                      - text: was closed on Jul 11, 20264d ago
+                  - generic "5 comments;" [ref=f1e342]:
+                    - generic [ref=f1e343]:
+                      - generic [ref=f1e346]: "5"
+                      - generic [ref=f1e347]: comments
+  - contentinfo [ref=f1e349]:
+    - heading "Footer" [level=2] [ref=f1e350]
+    - generic [ref=f1e351]:
+      - generic [ref=f1e352]:
+        - link "GitHub Homepage" [ref=f1e353] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f1e356]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f1e357]:
+        - heading "Footer navigation" [level=3] [ref=f1e358]
+        - list "Footer navigation" [ref=f1e359]:
+          - listitem [ref=f1e360]:
+            - link "Terms" [ref=f1e361] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f1e362]:
+            - link "Privacy" [ref=f1e363] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f1e364]:
+            - link "Security" [ref=f1e365] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f1e366]:
+            - link "Status" [ref=f1e367] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f1e368]:
+            - link "Community" [ref=f1e369] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f1e370]:
+            - link "Docs" [ref=f1e371] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f1e372]:
+            - link "Contact" [ref=f1e373] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f1e374]:
+            - button "Manage cookies" [ref=f1e376] [cursor=pointer]
+          - listitem [ref=f1e377]:
+            - button "Do not share my personal information" [ref=f1e379] [cursor=pointer]

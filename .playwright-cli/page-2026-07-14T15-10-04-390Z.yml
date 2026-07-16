@@ -1,0 +1,488 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - tooltip "This user has been invited to collaborate on the new-api repository."
+    - generic:
+      - tooltip "This user is the author of this issue"
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FQuantumNous%2Fnew-api%2Fissues%2F6080
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fvoltron%2Fissues_fragments%2Fissue_layout&source=header-repo&source_repo=QuantumNous%2Fnew-api
+            - button "Appearance settings" [disabled] [ref=e58]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - link "QuantumNous" [ref=e70] [cursor=pointer]:
+            - /url: /QuantumNous
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "new-api" [ref=e73] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 9.8k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Fork
+                - generic "9,781" [ref=e84]: 9.8k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Star
+                - generic "42211 users starred this repository" [ref=e90]: 42.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - listitem [ref=e98]:
+            - link "Issues 605" [ref=e99] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/issues
+              - generic [ref=e103]: Issues
+              - generic "605" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 412" [ref=e106] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulls
+              - generic [ref=e109]: Pull requests
+              - generic "412" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/actions
+          - listitem [ref=e121]:
+            - link "Security and quality 14" [ref=e122] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/security
+              - generic [ref=e125]: Security and quality
+              - generic "14" [ref=e126]
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulse
+    - generic [ref=e139]:
+      - region "Header" [ref=e141]:
+        - generic [ref=e142]:
+          - 'heading "完整支持 GPT-5.6 Responses reasoning：max、mode=pro、context=all_turns #6080" [level=1] [ref=e144]':
+            - text: 完整支持 GPT-5.6 Responses reasoning：max、mode=pro、context=all_turns
+            - generic [ref=e145]: "#6080"
+          - generic [ref=e148]:
+            - link "New issue" [ref=e150] [cursor=pointer]:
+              - /url: /login?return_to=https://github.com/QuantumNous/new-api/issues/6080
+            - button "Copy link" [ref=e153] [cursor=pointer]
+      - generic [ref=e162]:
+        - img "Issue" [ref=e163]
+        - text: Closed
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - generic [ref=e171]:
+            - heading "Description" [level=2] [ref=e172]
+            - generic [ref=e174]:
+              - generic [ref=e176]:
+                - link "@sucr233's profile" [ref=e178] [cursor=pointer]:
+                  - /url: https://github.com/sucr233
+                  - img "@sucr233" [ref=e179]
+                - generic [ref=e180]:
+                  - link "sucr233" [ref=e182] [cursor=pointer]:
+                    - /url: https://github.com/sucr233
+                  - generic [ref=e183]:
+                    - text: opened
+                    - link "on Jul 10, 20264d ago" [ref=e184] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/issues/6080#issue-4854348651
+                - button "Issue body actions" [ref=e188] [cursor=pointer]
+              - generic [ref=e191]:
+                - generic [ref=e193]:
+                  - heading "提交前必读（请勿删除本节）" [level=2] [ref=e194]
+                  - list [ref=e195]:
+                    - listitem [ref=e196]:
+                      - text: 文档：
+                      - link "https://docs.newapi.ai/" [ref=e197] [cursor=pointer]:
+                        - /url: https://docs.newapi.ai/
+                    - listitem [ref=e198]:
+                      - text: 使用问题先看或先问：
+                      - link "https://deepwiki.com/QuantumNous/new-api" [ref=e199] [cursor=pointer]:
+                        - /url: https://deepwiki.com/QuantumNous/new-api
+                    - listitem [ref=e200]: 开启透传后的转发相关反馈不接受 issue；透传模式会直接转发请求，请自行确认上游行为。
+                    - listitem [ref=e201]: 不接受 coding plan、逆向渠道等技术支持类 issue。
+                    - listitem [ref=e202]: 警告：删除本模板、删除小节标题或随意清空内容的 issue，可能会被直接关闭；重复恶意提交者可能会被 block。
+                  - paragraph [ref=e203]:
+                    - strong [ref=e204]: 您当前的 newapi 版本
+                  - paragraph [ref=e205]: v1.0.0-rc.14；同时检查了 v1.0.0-rc.20 和 2026-07-10 的 main。
+                  - paragraph [ref=e206]:
+                    - strong [ref=e207]: 提交确认
+                  - list [ref=e208]:
+                    - listitem [ref=e209]:
+                      - generic [ref=e211]:
+                        - generic [ref=e217]:
+                          - 'checkbox "非重复 issue: 我已搜索现有 Issues，确认目前没有类似 issue。 checklist item" [checked] [disabled] [ref=e218]'
+                          - generic [ref=e219]:
+                            - strong [ref=e220]: "非重复 issue:"
+                            - text: 我已搜索现有
+                            - link "Issues" [ref=e221] [cursor=pointer]:
+                              - /url: https://github.com/QuantumNous/new-api/issues?q=is%3Aissue
+                            - text: ，确认目前没有类似 issue。
+                        - generic [ref=e228]:
+                          - 'checkbox "提交前必读: 我已完整阅读上方“提交前必读”，并已查看文档 https://docs.newapi.ai/、项目 README 且向 AI 提问，确认这不是使用、配置或接入类问题，且现有版本无法满足需求。 checklist item" [checked] [disabled] [ref=e229]'
+                          - generic [ref=e230]:
+                            - strong [ref=e231]: "提交前必读:"
+                            - text: 我已完整阅读上方“提交前必读”，并已查看文档
+                            - link "https://docs.newapi.ai/、项目" [ref=e232] [cursor=pointer]:
+                              - /url: https://docs.newapi.ai/%E3%80%81%E9%A1%B9%E7%9B%AE
+                            - text: README 且向 AI 提问，确认这不是使用、配置或接入类问题，且现有版本无法满足需求。
+                        - generic [ref=e239]:
+                          - 'checkbox "模板完整: 我未删除此模板中的任何引导内容或小节标题，并会按要求完整填写。 checklist item" [checked] [disabled] [ref=e240]'
+                          - generic [ref=e241]:
+                            - strong [ref=e242]: "模板完整:"
+                            - text: 我未删除此模板中的任何引导内容或小节标题，并会按要求完整填写。
+                        - generic [ref=e249]:
+                          - 'checkbox "维护成本: 我理解项目维护者精力有限，不遵循模板要求的 issue 可能会被无视或直接关闭。 checklist item" [checked] [disabled] [ref=e250]'
+                          - generic [ref=e251]:
+                            - strong [ref=e252]: "维护成本:"
+                            - text: 我理解项目维护者精力有限，不遵循模板要求的 issue 可能会被无视或直接关闭。
+                      - status [ref=e254]
+                  - paragraph [ref=e255]:
+                    - strong [ref=e256]: 功能描述
+                  - paragraph [ref=e257]: 希望补充 GPT-5.6 Responses API 的完整 reasoning 参数支持。
+                  - paragraph [ref=e258]:
+                    - text: 当前
+                    - code [ref=e259]: dto.Reasoning
+                    - text: 只有
+                    - code [ref=e260]: Effort
+                    - text: 和
+                    - code [ref=e261]: Summary
+                    - text: 。默认关闭请求体透传时，下面请求经过 New API 解析和重新序列化后，
+                    - code [ref=e262]: mode
+                    - text: 与
+                    - code [ref=e263]: context
+                    - text: 会丢失：
+                  - generic [ref=e264]:
+                    - generic [ref=e265]:
+                      - text: "{ \"model\":"
+                      - generic [ref=e266]: "\"gpt-5.6-sol\""
+                      - text: ", \"input\":"
+                      - generic [ref=e267]: "\"检查这个迁移方案\""
+                      - text: ", \"reasoning\": { \"effort\":"
+                      - generic [ref=e268]: "\"max\""
+                      - text: ", \"mode\":"
+                      - generic [ref=e269]: "\"pro\""
+                      - text: ", \"context\":"
+                      - generic [ref=e270]: "\"all_turns\""
+                      - text: "}, \"previous_response_id\":"
+                      - generic [ref=e271]: "\"resp_xxx\""
+                      - text: "}"
+                    - button "Copy code to clipboard" [ref=e273] [cursor=pointer]
+                  - paragraph [ref=e277]: 期望转发到 OpenAI 上游时完整保留：
+                  - generic [ref=e278]:
+                    - generic [ref=e279]:
+                      - text: "\"reasoning\": { \"effort\":"
+                      - generic [ref=e280]: "\"max\""
+                      - text: ", \"mode\":"
+                      - generic [ref=e281]: "\"pro\""
+                      - text: ", \"context\":"
+                      - generic [ref=e282]: "\"all_turns\""
+                      - text: "}"
+                    - button "Copy code to clipboard" [ref=e284] [cursor=pointer]
+                  - paragraph [ref=e288]: 建议：
+                  - list [ref=e289]:
+                    - listitem [ref=e290]:
+                      - text: 为
+                      - code [ref=e291]: dto.Reasoning
+                      - text: 增加
+                      - code [ref=e292]: Mode
+                      - text: 和
+                      - code [ref=e293]: Context
+                      - text: 字段。
+                    - listitem [ref=e294]: 为 Responses 请求增加对应的序列化和测试。
+                    - listitem [ref=e295]:
+                      - text: 将
+                      - code [ref=e296]: "-max"
+                      - text: 加入 OpenAI 推理力度后缀解析，支持
+                      - code [ref=e297]: gpt-5.6-sol-max -> gpt-5.6-sol + effort=max
+                      - text: 。
+                    - listitem [ref=e298]: Chat→Responses 模式如果暂不支持 Pro/context，建议明确说明；也可以提供转换完成后的参数覆盖能力。
+                  - paragraph [ref=e299]:
+                    - text: 已检查
+                    - link "#6049" [ref=e300] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/pull/6049
+                    - text: 和
+                    - link "#6063" [ref=e301] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/pull/6063
+                    - text: ，前者主要处理提示缓存，后者处理计费倍率，均未覆盖这些字段。
+                  - paragraph [ref=e302]: 官方文档：
+                  - list [ref=e303]:
+                    - listitem [ref=e304]:
+                      - link "https://developers.openai.com/api/docs/guides/latest-model" [ref=e305] [cursor=pointer]:
+                        - /url: https://developers.openai.com/api/docs/guides/latest-model
+                    - listitem [ref=e306]:
+                      - link "https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode" [ref=e307] [cursor=pointer]:
+                        - /url: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode
+                    - listitem [ref=e308]:
+                      - link "https://developers.openai.com/api/docs/guides/reasoning#preserve-reasoning-across-calls" [ref=e309] [cursor=pointer]:
+                        - /url: https://developers.openai.com/api/docs/guides/reasoning#preserve-reasoning-across-calls
+                  - paragraph [ref=e310]:
+                    - strong [ref=e311]: 应用场景
+                  - paragraph [ref=e312]: 通过 New API 接入 GPT-5.6，并使用 Responses API 的 max 推理预算、Pro 模式和跨轮持续推理。
+                  - paragraph [ref=e313]:
+                    - text: 该需求针对默认结构化转发流程，
+                    - code [ref=e314]: pass_through_body_enabled=false
+                    - text: 。
+                - generic:
+                  - toolbar "Reactions"
+          - generic [ref=e316]:
+            - generic [ref=e317]:
+              - heading "Activity" [level=2] [ref=e318]
+              - generic [ref=e319]:
+                - region "Events" [ref=e320]:
+                  - generic [ref=e335]:
+                    - link "sucr233" [ref=e337] [cursor=pointer]:
+                      - /url: /sucr233
+                    - text: added
+                    - link "enhancement New feature or request" [ref=e340] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/issues?q=state%3Aopen%20label%3A%22enhancement%22
+                      - generic [ref=e341]: enhancement
+                      - generic [ref=e343]: New feature or request
+                    - link "on Jul 10, 20264d ago" [ref=e344] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/issues/6080#event-27809668657
+                - generic [ref=e352]:
+                  - generic [ref=e354]:
+                    - heading "new-api-reviewer-bot commented on Jul 10, 2026 4 days ago" [level=3] [ref=e355]:
+                      - text: new-api-reviewer-bot commented
+                      - generic "Jul 10, 2026, 18:52 GMT+8" [ref=e356]: on Jul 10, 2026 4 days ago
+                    - link "@new-api-reviewer-bot's profile" [ref=e358] [cursor=pointer]:
+                      - /url: /apps/new-api-reviewer-bot
+                      - img "@new-api-reviewer-bot" [ref=e359]
+                    - generic [ref=e360]:
+                      - generic [ref=e361]:
+                        - link "new-api-reviewer-bot" [ref=e362] [cursor=pointer]:
+                          - /url: /apps/new-api-reviewer-bot
+                        - generic [ref=e363]: bot
+                      - link "on Jul 10, 20264d ago" [ref=e366] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6080#issuecomment-4934566915
+                    - button "Actions for new-api-reviewer-bot's comment, 6:52 PM on July 10" [ref=e370] [cursor=pointer]
+                  - generic [ref=e373]:
+                    - generic [ref=e375]:
+                      - paragraph [ref=e376]:
+                        - strong [ref=e377]: "[Bot Review]"
+                      - paragraph [ref=e378]:
+                        - text: 感谢提交，模板信息填写完整，版本、提交确认、功能描述和应用场景都有有效内容。未发现与当前开放 issue 列表中的条目明显重复；
+                        - link "#5922" [ref=e379] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/issues/5922
+                        - text: 看起来只是 reasoning 参数相关方向的议题，不属于同一重复项。
+                    - toolbar "Reactions"
+                - region "Events" [ref=e380]:
+                  - generic [ref=e393]:
+                    - generic [ref=e395]:
+                      - link "new-api-reviewer-bot" [ref=e397] [cursor=pointer]:
+                        - /url: /apps/new-api-reviewer-bot
+                      - text: mentioned this
+                      - link "on Jul 10, 20264d ago" [ref=e399] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6080#event-8203488013
+                    - region "Issues mentioned" [ref=e402]:
+                      - list [ref=e403]:
+                        - listitem [ref=e404]:
+                          - generic [ref=e405]:
+                            - img "Not planned" [ref=e406]
+                            - 'link "[Bug] Codex type 57 未适配 GPT-5.6 Responses Lite，返回 Model not found #6087" [ref=e408] [cursor=pointer]':
+                              - /url: https://github.com/QuantumNous/new-api/issues/6087
+                              - text: "[Bug] Codex type 57 未适配 GPT-5.6 Responses Lite，返回 Model not found"
+                              - generic [ref=e409]: "#6087"
+                  - generic [ref=e419]:
+                    - generic [ref=e421]:
+                      - link "G-TTYg" [ref=e423] [cursor=pointer]:
+                        - /url: /G-TTYg
+                      - text: mentioned this
+                      - link "on Jul 11, 20264d ago" [ref=e425] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6080#event-8223423937
+                    - region "Issues mentioned" [ref=e428]:
+                      - list [ref=e429]:
+                        - listitem [ref=e430]:
+                          - generic [ref=e431]:
+                            - img "Merged" [ref=e432]
+                            - 'link "fix: preserve GPT-5.6 Responses reasoning options G-TTYg/new-api#2" [ref=e434] [cursor=pointer]':
+                              - /url: https://github.com/G-TTYg/new-api/pull/2
+                              - text: "fix: preserve GPT-5.6 Responses reasoning options"
+                              - generic [ref=e435]: G-TTYg/new-api#2
+                - generic [ref=e443]:
+                  - generic [ref=e445]:
+                    - heading "seefs001 commented on Jul 11, 2026 3 days ago" [level=3] [ref=e446]:
+                      - text: seefs001 commented
+                      - generic "Jul 11, 2026, 11:15 GMT+8" [ref=e447]: on Jul 11, 2026 3 days ago
+                    - link "@seefs001's profile" [ref=e449] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e450]
+                    - generic [ref=e451]:
+                      - link "seefs001" [ref=e453] [cursor=pointer]:
+                        - /url: /seefs001
+                      - link "on Jul 11, 20263d ago" [ref=e456] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6080#issuecomment-4942008286
+                    - generic [ref=e458]:
+                      - generic "This user has been invited to collaborate on the new-api repository." [ref=e460]: Collaborator
+                      - button "Actions for seefs001's comment, 11:15 AM on July 11" [ref=e462] [cursor=pointer]
+                  - generic [ref=e465]:
+                    - paragraph [ref=e468]: done
+                    - toolbar "Reactions"
+                - region "Events" [ref=e469]:
+                  - generic [ref=e484]:
+                    - link "seefs001" [ref=e486] [cursor=pointer]:
+                      - /url: /seefs001
+                    - text: closed this as
+                    - link "completed" [ref=e488] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Acompleted
+                    - link "on Jul 11, 20263d ago" [ref=e489] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/issues/6080#event-27842024929
+                - generic [ref=e497]:
+                  - generic [ref=e499]:
+                    - heading "sucr233 commented on Jul 12, 2026 3 days ago" [level=3] [ref=e500]:
+                      - text: sucr233 commented
+                      - generic "Jul 12, 2026, 00:38 GMT+8" [ref=e501]: on Jul 12, 2026 3 days ago
+                    - link "@sucr233's profile" [ref=e503] [cursor=pointer]:
+                      - /url: /sucr233
+                      - img "@sucr233" [ref=e504]
+                    - generic [ref=e505]:
+                      - link "sucr233" [ref=e507] [cursor=pointer]:
+                        - /url: /sucr233
+                      - link "on Jul 12, 20263d ago" [ref=e510] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6080#issuecomment-4947768878
+                    - generic [ref=e512]:
+                      - generic "This user is the author of this issue" [ref=e514]: Author
+                      - button "Actions for sucr233's comment, 12:38 AM on July 12" [ref=e516] [cursor=pointer]
+                  - generic [ref=e519]:
+                    - generic [ref=e521]:
+                      - blockquote [ref=e522]:
+                        - paragraph [ref=e523]: done
+                      - paragraph [ref=e524]:
+                        - text: 辛苦。不过当前 OpenAI 后缀解析仍漏了 -max：
+                        - link "OpenAIEffortSuffixes" [ref=e525] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/blob/main/setting/reasoning/suffix.go#L9-L12
+                        - text: 没有该值，导致 gpt-5.6-sol-max 默认原样发给上游并返回 Model not found。GPT‑5.6
+                        - link "官方已支持 reasoning.effort=max" [ref=e526] [cursor=pointer]:
+                          - /url: https://developers.openai.com/api/docs/guides/latest-model#update-api-and-model-parameters
+                        - text: ，麻烦补上 -max。
+                    - toolbar "Reactions"
+            - generic [ref=e527]:
+              - link "Sign up for free" [ref=e528] [cursor=pointer]:
+                - /url: /signup?return_to=https://github.com/QuantumNous/new-api/issues/6080
+              - generic [ref=e531]:
+                - strong [ref=e532]: to join this conversation on GitHub.
+                - text: Already have an account?
+              - link "Sign in to comment" [ref=e533] [cursor=pointer]:
+                - /url: /login?return_to=https://github.com/QuantumNous/new-api/issues/6080
+        - generic [ref=e535]:
+          - heading "Metadata" [level=2] [ref=e536]
+          - generic [ref=e538]:
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - heading "Assignees" [level=3]
+              - generic [ref=e542]: No one assigned
+            - generic [ref=e543]:
+              - generic [ref=e545]:
+                - heading "Labels" [level=3]
+              - link "enhancement New feature or request" [ref=e548] [cursor=pointer]:
+                - /url: https://github.com/QuantumNous/new-api/issues?q=state%3Aopen%20label%3A%22enhancement%22
+                - generic [ref=e549]: enhancement
+                - generic [ref=e551]: New feature or request
+            - generic [ref=e553]:
+              - generic [ref=e554]:
+                - heading "Type" [level=3]
+              - generic [ref=e555]: No type
+            - generic [ref=e556]:
+              - heading "Fields" [level=3] [ref=e559]
+              - generic [ref=e560]: No fields configured for issues without a type.
+            - generic [ref=e563]:
+              - generic [ref=e564]:
+                - heading "Projects" [level=3]
+              - generic [ref=e565]: No projects
+            - generic [ref=e567]:
+              - generic [ref=e568]:
+                - heading "Milestone" [level=3]
+              - generic [ref=e569]: No milestone
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - heading "Relationships" [level=3]
+              - generic [ref=e573]: None yet
+            - generic [ref=e574]:
+              - generic [ref=e576]:
+                - heading "Development" [level=3]
+              - generic [ref=e577]:
+                - generic [ref=e578]: No branches or pull requests
+                - list
+            - generic [ref=e579]:
+              - generic [ref=e581]:
+                - heading "Participants" [level=3]
+              - generic [ref=e584]:
+                - link [ref=e585] [cursor=pointer]:
+                  - /url: /seefs001
+                  - img "@seefs001" [ref=e586]
+                - link [ref=e587] [cursor=pointer]:
+                  - /url: /sucr233
+                  - img "@sucr233" [ref=e588]
+            - heading "Issue actions" [level=2] [ref=e589]
+            - list [ref=e590]:
+              - listitem [ref=e591]:
+                - button "Open in GitHub Copilot app" [ref=e592] [cursor=pointer]
+  - contentinfo [ref=e596]:
+    - heading "Footer" [level=2] [ref=e597]
+    - generic [ref=e598]:
+      - generic [ref=e599]:
+        - link "GitHub Homepage" [ref=e600] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e603]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e604]:
+        - heading "Footer navigation" [level=3] [ref=e605]
+        - list "Footer navigation" [ref=e606]:
+          - listitem [ref=e607]:
+            - link "Terms" [ref=e608] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e609]:
+            - link "Privacy" [ref=e610] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e611]:
+            - link "Security" [ref=e612] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e613]:
+            - link "Status" [ref=e614] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e615]:
+            - link "Community" [ref=e616] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e617]:
+            - link "Docs" [ref=e618] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e619]:
+            - link "Contact" [ref=e620] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e621]:
+            - button "Manage cookies" [ref=e623] [cursor=pointer]
+          - listitem [ref=e624]:
+            - button "Do not share my personal information" [ref=e626] [cursor=pointer]

@@ -1,0 +1,22 @@
+server:
+  port: ${PROVIDER_STUB_PORT:8081}
+
+spring:
+  application:
+    name: notifyflow-provider-stub
+
+notifyflow:
+  provider-stub:
+    default-commit-delay: ${PROVIDER_STUB_COMMIT_DELAY:2s}
+    maximum-commit-delay: ${PROVIDER_STUB_MAX_COMMIT_DELAY:30s}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: never

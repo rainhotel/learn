@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://micrometer.io
+        - img "Micrometer" [ref=e5]
+      - generic [ref=e6] [cursor=pointer]:
+        - checkbox "light" [ref=e7]
+        - generic [ref=e11]: light
+  - generic [ref=e12]:
+    - complementary [ref=e14]:
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Micrometer
+            - generic [ref=e20]: 1.17.0
+            - button [ref=e21] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e28] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e31]: CTRL + k
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - list [ref=e34]:
+                - listitem [ref=e35]:
+                  - link "Overview" [ref=e36] [cursor=pointer]:
+                    - /url: overview.html
+                - listitem [ref=e37]:
+                  - link "Installing" [ref=e38] [cursor=pointer]:
+                    - /url: installing.html
+                - listitem [ref=e39]:
+                  - button [ref=e40] [cursor=pointer]
+                  - link "Concepts" [ref=e41] [cursor=pointer]:
+                    - /url: concepts.html
+                  - list [ref=e42]:
+                    - listitem [ref=e43]:
+                      - link "Supported Monitoring Systems" [ref=e44] [cursor=pointer]:
+                        - /url: concepts/implementations.html
+                    - listitem [ref=e45]:
+                      - link "Meters" [ref=e46] [cursor=pointer]:
+                        - /url: concepts/meters.html
+                    - listitem [ref=e47]:
+                      - link "Registry" [ref=e48] [cursor=pointer]:
+                        - /url: concepts/registry.html
+                    - listitem [ref=e49]:
+                      - link "Naming Meters" [ref=e50] [cursor=pointer]:
+                        - /url: concepts/naming.html
+                    - listitem [ref=e51]:
+                      - link "Meter Filters" [ref=e52] [cursor=pointer]:
+                        - /url: concepts/meter-filters.html
+                    - listitem [ref=e53]:
+                      - link "Rate Aggregation" [ref=e54] [cursor=pointer]:
+                        - /url: concepts/rate-aggregation.html
+                    - listitem [ref=e55]:
+                      - link "Counters" [ref=e56] [cursor=pointer]:
+                        - /url: concepts/counters.html
+                    - listitem [ref=e57]:
+                      - link "Gauges" [ref=e58] [cursor=pointer]:
+                        - /url: concepts/gauges.html
+                    - listitem [ref=e59]:
+                      - link "Timers" [ref=e60] [cursor=pointer]:
+                        - /url: concepts/timers.html
+                    - listitem [ref=e61]:
+                      - link "Distribution Summaries" [ref=e62] [cursor=pointer]:
+                        - /url: concepts/distribution-summaries.html
+                    - listitem [ref=e63]:
+                      - link "Long Task Timers" [ref=e64] [cursor=pointer]:
+                        - /url: concepts/long-task-timers.html
+                    - listitem [ref=e65]:
+                      - link "Histograms and Percentiles" [ref=e66] [cursor=pointer]:
+                        - /url: concepts/histogram-quantiles.html
+                    - listitem [ref=e67]:
+                      - link "Meter Provider" [ref=e68] [cursor=pointer]:
+                        - /url: concepts/meter-provider.html
+                    - listitem [ref=e69]:
+                      - link "Meter Convention" [ref=e70] [cursor=pointer]:
+                        - /url: concepts/meter-convention.html
+                    - listitem [ref=e71]:
+                      - link "High Cardinality Tags Detector" [ref=e72] [cursor=pointer]:
+                        - /url: concepts/high-cardinality-tags-detector.html
+                - listitem [ref=e73]:
+                  - button [ref=e74] [cursor=pointer]
+                  - link "Implementations" [ref=e75] [cursor=pointer]:
+                    - /url: implementations.html
+                - listitem [ref=e76]:
+                  - button [ref=e77] [cursor=pointer]
+                  - link "Reference Instrumentations" [ref=e78] [cursor=pointer]:
+                    - /url: reference.html
+                - listitem [ref=e79]:
+                  - button [ref=e80] [cursor=pointer]
+                  - link "Guides" [ref=e81] [cursor=pointer]:
+                    - /url: guides.html
+                - listitem [ref=e82]:
+                  - button [ref=e83] [cursor=pointer]
+                  - link "Micrometer Observation" [ref=e84] [cursor=pointer]:
+                    - /url: observation.html
+        - button [ref=e86] [cursor=pointer]
+    - main [ref=e89]:
+      - generic [ref=e90]:
+        - complementary [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - heading "Concepts" [level=3] [ref=e95]
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "Purpose" [ref=e98] [cursor=pointer]:
+                    - /url: "#concepts-purpose"
+                - listitem [ref=e99]:
+                  - link "Dependencies" [ref=e100] [cursor=pointer]:
+                    - /url: "#concepts-dependencies"
+            - generic [ref=e101]:
+              - link "Edit this Page" [ref=e102] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer/blob/v1.17.0/docs/modules/ROOT/pages/concepts.adoc
+              - link "GitHub Project" [ref=e105] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer
+              - link "Stack Overflow" [ref=e109] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/micrometer
+        - article [ref=e112]:
+          - navigation "breadcrumbs" [ref=e114]:
+            - list [ref=e115]:
+              - listitem [ref=e116]:
+                - link "Micrometer" [ref=e117] [cursor=pointer]:
+                  - /url: index.html
+                - text: /
+              - listitem [ref=e118]:
+                - link "Concepts" [ref=e119] [cursor=pointer]:
+                  - /url: concepts.html
+          - heading "Concepts" [level=1] [ref=e120]
+          - generic [ref=e121]:
+            - heading "Purpose" [level=2] [ref=e122]
+            - generic [ref=e123]:
+              - paragraph [ref=e125]: Micrometer is a metrics instrumentation library for JVM-based applications. It provides a simple facade over the instrumentation clients for the most popular monitoring systems, letting you instrument your JVM-based application code without vendor lock-in. It is designed to add little to no overhead to your metrics collection activity while maximizing the portability of your metrics effort.
+              - paragraph [ref=e127]:
+                - text: Starting from Micrometer 1.10, Micrometer provides the
+                - link "Observation API" [ref=e128] [cursor=pointer]:
+                  - /url: observation.html
+                - text: and a plugin mechanism that lets you add capabilities, including the tracing features. You can read more about tracing in the
+                - link "Micrometer Tracing documentation" [ref=e129] [cursor=pointer]:
+                  - /url: https://docs.micrometer.io/tracing/reference/
+                - text: .
+              - paragraph [ref=e131]:
+                - text: For better understanding of the differences among these different types of systems (Metrics, Distributed Tracing, and Logging) we recommend Adrian Cole’s talk, titled
+                - link "Observability 3 Ways" [ref=e132] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=juP9VApKy_I
+                - text: . To learn more about Micrometer Observation API, we recommend Tommy Ludwig’s and Marcin Grzejszczak’s talk, titled
+                - link "Observability of Your Application" [ref=e133] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=fh3VbrPvAjg
+                - text: and Tommy Ludwig’s and Jonatan Ivanov’s talk, titled
+                - link "Micrometer Mastery" [ref=e134] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=Qyku6cR6ADY
+                - text: .
+          - generic [ref=e135]:
+            - heading "Dependencies" [level=2] [ref=e136]
+            - generic [ref=e137]:
+              - paragraph [ref=e139]:
+                - text: The
+                - code [ref=e140]: micrometer-core
+                - text: module aims to have minimal dependencies. It does not require any third-party (non-Micrometer) dependencies on the classpath at compile time for applications that use Micrometer, except for
+                - link "JSpecify" [ref=e141] [cursor=pointer]:
+                  - /url: https://jspecify.dev/
+                - text: .
+              - paragraph [ref=e143]:
+                - text: Use of the
+                - link "pause detection" [ref=e144] [cursor=pointer]:
+                  - /url: concepts/timers.html#_pause_detection
+                - text: feature requires the
+                - link "LatencyUtils" [ref=e145] [cursor=pointer]:
+                  - /url: https://github.com/LatencyUtils/LatencyUtils
+                - text: dependency (
+                - code [ref=e146]: org.latencyutils:LatencyUtils
+                - text: ) to be available on the classpath at runtime. Micrometer does not include LatencyUtils on the runtime classpath by default because pause detection is turned off by default.
+              - paragraph [ref=e148]:
+                - text: If you use
+                - link "client-side percentiles" [ref=e149] [cursor=pointer]:
+                  - /url: concepts/histogram-quantiles.html
+                - text: ", you need"
+                - link "HdrHistogram" [ref=e150] [cursor=pointer]:
+                  - /url: https://github.com/HdrHistogram/HdrHistogram
+                - text: on the classpath at runtime. If you do not use client-side percentiles, you may exclude HdrHistogram from your application’s runtime classpath.
+          - navigation [ref=e151]:
+            - generic [ref=e152]:
+              - text: Prev
+              - link "‹ Installing" [ref=e153] [cursor=pointer]:
+                - /url: installing.html
+            - generic [ref=e154]:
+              - text: Next
+              - link "Supported Monitoring Systems ›" [ref=e155] [cursor=pointer]:
+                - /url: concepts/implementations.html
+  - contentinfo [ref=e156]:
+    - generic [ref=e157]:
+      - img "Micrometer" [ref=e158]
+      - paragraph [ref=e159]:
+        - text: © 2026
+        - link "VMware" [ref=e160] [cursor=pointer]:
+          - /url: https://www.vmware.com/
+        - text: ", Inc. or its affiliates."
+        - link "Terms of Use" [ref=e161] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e162] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+    - generic [ref=e163]:
+      - link "GitHub" [ref=e164] [cursor=pointer]:
+        - /url: https://github.com/micrometer-metrics
+      - link "Twitter" [ref=e168] [cursor=pointer]:
+        - /url: https://twitter.com/micrometerio

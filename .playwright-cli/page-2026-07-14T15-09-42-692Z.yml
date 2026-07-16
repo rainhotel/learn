@@ -1,0 +1,245 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://micrometer.io
+        - img "Micrometer" [ref=e5]
+      - generic [ref=e6] [cursor=pointer]:
+        - checkbox "light" [ref=e7]
+        - generic [ref=e11]: light
+  - generic [ref=e12]:
+    - complementary [ref=e14]:
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Micrometer
+            - generic [ref=e20]: 1.17.0
+            - button [ref=e21] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e28] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e31]: CTRL + k
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - list [ref=e34]:
+                - listitem [ref=e35]:
+                  - link "Overview" [ref=e36] [cursor=pointer]:
+                    - /url: ../overview.html
+                - listitem [ref=e37]:
+                  - link "Installing" [ref=e38] [cursor=pointer]:
+                    - /url: ../installing.html
+                - listitem [ref=e39]:
+                  - button [ref=e40] [cursor=pointer]
+                  - link "Concepts" [ref=e41] [cursor=pointer]:
+                    - /url: ../concepts.html
+                  - list [ref=e42]:
+                    - listitem [ref=e43]:
+                      - link "Supported Monitoring Systems" [ref=e44] [cursor=pointer]:
+                        - /url: implementations.html
+                    - listitem [ref=e45]:
+                      - link "Meters" [ref=e46] [cursor=pointer]:
+                        - /url: meters.html
+                    - listitem [ref=e47]:
+                      - link "Registry" [ref=e48] [cursor=pointer]:
+                        - /url: registry.html
+                    - listitem [ref=e49]:
+                      - link "Naming Meters" [ref=e50] [cursor=pointer]:
+                        - /url: naming.html
+                    - listitem [ref=e51]:
+                      - link "Meter Filters" [ref=e52] [cursor=pointer]:
+                        - /url: meter-filters.html
+                    - listitem [ref=e53]:
+                      - link "Rate Aggregation" [ref=e54] [cursor=pointer]:
+                        - /url: rate-aggregation.html
+                    - listitem [ref=e55]:
+                      - link "Counters" [ref=e56] [cursor=pointer]:
+                        - /url: counters.html
+                    - listitem [ref=e57]:
+                      - link "Gauges" [ref=e58] [cursor=pointer]:
+                        - /url: gauges.html
+                    - listitem [ref=e59]:
+                      - link "Timers" [ref=e60] [cursor=pointer]:
+                        - /url: timers.html
+                    - listitem [ref=e61]:
+                      - link "Distribution Summaries" [ref=e62] [cursor=pointer]:
+                        - /url: distribution-summaries.html
+                    - listitem [ref=e63]:
+                      - link "Long Task Timers" [ref=e64] [cursor=pointer]:
+                        - /url: long-task-timers.html
+                    - listitem [ref=e65]:
+                      - link "Histograms and Percentiles" [ref=e66] [cursor=pointer]:
+                        - /url: histogram-quantiles.html
+                    - listitem [ref=e67]:
+                      - link "Meter Provider" [ref=e68] [cursor=pointer]:
+                        - /url: meter-provider.html
+                    - listitem [ref=e69]:
+                      - link "Meter Convention" [ref=e70] [cursor=pointer]:
+                        - /url: meter-convention.html
+                    - listitem [ref=e71]:
+                      - link "High Cardinality Tags Detector" [ref=e72] [cursor=pointer]:
+                        - /url: high-cardinality-tags-detector.html
+                - listitem [ref=e73]:
+                  - button [ref=e74] [cursor=pointer]
+                  - link "Implementations" [ref=e75] [cursor=pointer]:
+                    - /url: ../implementations.html
+                - listitem [ref=e76]:
+                  - button [ref=e77] [cursor=pointer]
+                  - link "Reference Instrumentations" [ref=e78] [cursor=pointer]:
+                    - /url: ../reference.html
+                - listitem [ref=e79]:
+                  - button [ref=e80] [cursor=pointer]
+                  - link "Guides" [ref=e81] [cursor=pointer]:
+                    - /url: ../guides.html
+                - listitem [ref=e82]:
+                  - button [ref=e83] [cursor=pointer]
+                  - link "Micrometer Observation" [ref=e84] [cursor=pointer]:
+                    - /url: ../observation.html
+        - button [ref=e86] [cursor=pointer]
+    - main [ref=e89]:
+      - generic [ref=e90]:
+        - complementary [ref=e91]:
+          - generic [ref=e93]:
+            - link "Edit this Page" [ref=e94] [cursor=pointer]:
+              - /url: https://github.com/micrometer-metrics/micrometer/blob/v1.17.0/docs/modules/ROOT/pages/concepts/histogram-quantiles.adoc
+            - link "GitHub Project" [ref=e97] [cursor=pointer]:
+              - /url: https://github.com/micrometer-metrics/micrometer
+            - link "Stack Overflow" [ref=e101] [cursor=pointer]:
+              - /url: https://stackoverflow.com/tags/micrometer
+        - article [ref=e104]:
+          - navigation "breadcrumbs" [ref=e106]:
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - link "Micrometer" [ref=e109] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e110]:
+                - link "Concepts" [ref=e111] [cursor=pointer]:
+                  - /url: ../concepts.html
+                - text: /
+              - listitem [ref=e112]:
+                - link "Histograms and Percentiles" [ref=e113] [cursor=pointer]:
+                  - /url: histogram-quantiles.html
+          - heading "Histograms and Percentiles" [level=1] [ref=e114]
+          - paragraph [ref=e116]: "Timers and distribution summaries support collecting data to observe their percentile distributions. There are two main approaches to viewing percentiles:"
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - paragraph [ref=e120]:
+                - strong [ref=e121]: Percentile histograms
+                - text: ": Micrometer accumulates values to an underlying histogram and ships a predetermined set of buckets to the monitoring system. The monitoring system’s query language is responsible for calculating percentiles off of this histogram. Currently, only Prometheus, Atlas, and Wavefront support histogram-based percentile approximations, through"
+                - code [ref=e122]: histogram_quantile
+                - text: ","
+                - code [ref=e123]: :percentile
+                - text: ", and"
+                - code [ref=e124]: hs()
+                - text: ", respectively. If you target Prometheus, Atlas, or Wavefront, prefer this approach, since you can aggregate the histograms across dimensions (by summing the values of the buckets across a set of dimensions) and derive an aggregable percentile from the histogram."
+            - listitem [ref=e125]:
+              - paragraph [ref=e126]:
+                - strong [ref=e127]: Client-side percentiles
+                - text: ": Micrometer computes a percentile approximation for each meter ID (set of name and tags) and ships the percentile value to the monitoring system. This is not as flexible as a percentile histogram because it is not possible to aggregate percentile approximations across tags. Nevertheless, it provides some level of insight into percentile distributions for monitoring systems that do not support server-side percentile calculation based on a histogram."
+          - paragraph [ref=e129]: "The following example builds a timer with a histogram:"
+          - generic [ref=e132]:
+            - code [ref=e133]:
+              - text: java Timer.builder("my.timer") .publishPercentiles(0.5, 0.95) // median and 95th percentile
+              - generic [ref=e134]: "1"
+              - text: .publishPercentileHistogram()
+              - generic [ref=e135]: "2"
+              - text: .serviceLevelObjectives(Duration.ofMillis(100))
+              - generic [ref=e136]: "3"
+              - text: .minimumExpectedValue(Duration.ofMillis(1))
+              - generic [ref=e137]: "4"
+              - text: .maximumExpectedValue(Duration.ofSeconds(10))
+            - button "Copied!" [ref=e139] [cursor=pointer]
+          - table [ref=e142]:
+            - rowgroup [ref=e143]:
+              - row [ref=e144]:
+                - cell "1" [ref=e145]
+                - cell [ref=e147]:
+                  - code [ref=e148]: publishPercentiles
+                  - text: ": Used to publish percentile values computed in your application. These values are non-aggregable across dimensions."
+              - row [ref=e149]:
+                - cell "2" [ref=e150]
+                - cell [ref=e152]:
+                  - code [ref=e153]: publishPercentileHistogram
+                  - text: ": Used to publish a histogram suitable for computing aggregable (across dimensions) percentile approximations in Prometheus (by using"
+                  - code [ref=e154]: histogram_quantile
+                  - text: ), Atlas (by using
+                  - code [ref=e155]: :percentile
+                  - text: ), and Wavefront (by using
+                  - code [ref=e156]: hs()
+                  - text: ). For Prometheus and Atlas, the buckets in the resulting histogram are preset by Micrometer based on a generator that has been determined empirically by Netflix to yield a reasonable error bound on most real world timers and distribution summaries. By default, the generator yields 276 buckets, but Micrometer includes only those that are within the range set by
+                  - code [ref=e157]: minimumExpectedValue
+                  - text: and
+                  - code [ref=e158]: maximumExpectedValue
+                  - text: ", inclusive. Micrometer clamps timers by default to a range of 1 millisecond to 1 minute, yielding 73 histogram buckets per timer dimension."
+                  - code [ref=e159]: publishPercentileHistogram
+                  - text: has no effect on systems that do not support aggregable percentile approximations. No histogram is shipped for these systems.
+              - row [ref=e160]:
+                - cell "3" [ref=e161]
+                - cell [ref=e163]:
+                  - code [ref=e164]: serviceLevelObjectives
+                  - text: ": Used to publish a cumulative histogram with buckets defined by your SLOs. When used in concert with"
+                  - code [ref=e165]: publishPercentileHistogram
+                  - text: on a monitoring system that supports aggregable percentiles, this setting adds additional buckets to the published histogram. When used on a system that does not support aggregable percentiles, this setting causes a histogram to be published with only these buckets.
+              - row [ref=e166]:
+                - cell "4" [ref=e167]
+                - cell [ref=e169]:
+                  - code [ref=e170]: minimumExpectedValue
+                  - text: /
+                  - code [ref=e171]: maximumExpectedValue
+                  - text: ": Controls the number of buckets shipped by"
+                  - code [ref=e172]: publishPercentileHistogram
+                  - text: and controls the accuracy and memory footprint of the underlying HdrHistogram structure.
+          - table [ref=e174]:
+            - rowgroup [ref=e175]:
+              - row [ref=e176]:
+                - cell "Note" [ref=e177]
+                - cell [ref=e179]:
+                  - text: For those monitoring systems, where percentiles can be approximated using the histogram (see
+                  - code [ref=e180]: publishPercentileHistogram
+                  - text: above), it is usually unnecessary to also publish client-side percentiles (
+                  - code [ref=e181]: publishPercentiles
+                  - text: ) since in those scenarios client-side percentiles are redundant and also non-aggregable across dimensions (unlike histograms). Prometheus Java Client (1.x) does not support having both under the same metric name.
+          - paragraph [ref=e183]:
+            - text: Since shipping percentiles to the monitoring system generates additional time series, it is generally preferable to
+            - strong [ref=e184]: not
+            - text: configure them in core libraries that are included as dependencies in applications. Instead, applications can turn on this behavior for some set of timers and distribution summaries by using a meter filter.
+          - paragraph [ref=e186]:
+            - text: For example, suppose we have a handful of timers in a common library. We have prefixed these timer names with
+            - code [ref=e187]: myservice
+            - text: ":"
+          - generic [ref=e190]:
+            - code [ref=e191]: java registry.timer("myservice.http.requests").record(..); registry.timer("myservice.db.requests").record(..);
+            - button "Copied!" [ref=e193] [cursor=pointer]
+          - paragraph [ref=e196]: "We can turn on client-side percentiles for both timers by using a meter filter:"
+          - generic [ref=e199]:
+            - code [ref=e200]:
+              - text: "java registry.config().meterFilter( new MeterFilter() { @Override"
+              - generic [ref=e201]: public DistributionStatisticConfig configure(Meter.Id id, DistributionStatisticConfig config)
+              - text: "{ if(id.getName().startsWith(\"myservice\")) { return DistributionStatisticConfig.builder() .percentiles(0.95) .build() .merge(config); } return config; } });"
+            - button "Copied!" [ref=e203] [cursor=pointer]
+          - navigation [ref=e205]:
+            - generic [ref=e206]:
+              - text: Prev
+              - link "‹ Long Task Timers" [ref=e207] [cursor=pointer]:
+                - /url: long-task-timers.html
+            - generic [ref=e208]:
+              - text: Next
+              - link "Meter Provider ›" [ref=e209] [cursor=pointer]:
+                - /url: meter-provider.html
+  - contentinfo [ref=e210]:
+    - generic [ref=e211]:
+      - img "Micrometer" [ref=e212]
+      - paragraph [ref=e213]:
+        - text: © 2026
+        - link "VMware" [ref=e214] [cursor=pointer]:
+          - /url: https://www.vmware.com/
+        - text: ", Inc. or its affiliates."
+        - link "Terms of Use" [ref=e215] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e216] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+    - generic [ref=e217]:
+      - link "GitHub" [ref=e218] [cursor=pointer]:
+        - /url: https://github.com/micrometer-metrics
+      - link "Twitter" [ref=e222] [cursor=pointer]:
+        - /url: https://twitter.com/micrometerio

@@ -1,0 +1,792 @@
+- generic [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://spring.io
+        - img "Spring" [ref=e5]
+      - generic [ref=e7]:
+        - link "Why Spring" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - link "Learn" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+        - link "Projects" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+        - link "Resources" [ref=e15] [cursor=pointer]:
+          - /url: "#"
+        - link "Community" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - link "Enterprise" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e20] [cursor=pointer]:
+        - checkbox "light" [ref=e21]
+        - generic [ref=e25]: light
+  - generic [ref=e26]:
+    - complementary [ref=e28]:
+      - generic [ref=e29]:
+        - navigation [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Spring Boot
+            - generic [ref=e34]: 4.1.0
+            - button [ref=e35] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e42] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e45]: CTRL + k
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - list [ref=e48]:
+                - listitem [ref=e49]:
+                  - link "Overview" [ref=e50] [cursor=pointer]:
+                    - /url: ../../index.html
+                - listitem [ref=e51]:
+                  - link "Documentation" [ref=e52] [cursor=pointer]:
+                    - /url: ../../documentation.html
+                - listitem [ref=e53]:
+                  - link "Community" [ref=e54] [cursor=pointer]:
+                    - /url: ../../community.html
+                - listitem [ref=e55]:
+                  - link "System Requirements" [ref=e56] [cursor=pointer]:
+                    - /url: ../../system-requirements.html
+                - listitem [ref=e57]:
+                  - link "Installing Spring Boot" [ref=e58] [cursor=pointer]:
+                    - /url: ../../installing.html
+                - listitem [ref=e59]:
+                  - link "Upgrading Spring Boot" [ref=e60] [cursor=pointer]:
+                    - /url: ../../upgrading.html
+                - listitem [ref=e61]:
+                  - button [ref=e62] [cursor=pointer]
+                  - link "Tutorials" [ref=e63] [cursor=pointer]:
+                    - /url: ../../tutorial/index.html
+                - listitem [ref=e64]:
+                  - button [ref=e65] [cursor=pointer]
+                  - link "Reference" [ref=e66] [cursor=pointer]:
+                    - /url: ../index.html
+                  - list [ref=e67]:
+                    - listitem [ref=e68]:
+                      - button [ref=e69] [cursor=pointer]
+                      - link "Developing with Spring Boot" [ref=e70] [cursor=pointer]:
+                        - /url: ../using/index.html
+                    - listitem [ref=e71]:
+                      - button [ref=e72] [cursor=pointer]
+                      - link "Core Features" [ref=e73] [cursor=pointer]:
+                        - /url: ../features/index.html
+                    - listitem [ref=e74]:
+                      - button [ref=e75] [cursor=pointer]
+                      - link "Web" [ref=e76] [cursor=pointer]:
+                        - /url: ../web/index.html
+                    - listitem [ref=e77]:
+                      - button [ref=e78] [cursor=pointer]
+                      - link "Data" [ref=e79] [cursor=pointer]:
+                        - /url: ../data/index.html
+                    - listitem [ref=e80]:
+                      - button [ref=e81] [cursor=pointer]
+                      - link "IO" [ref=e82] [cursor=pointer]:
+                        - /url: ../io/index.html
+                    - listitem [ref=e83]:
+                      - button [ref=e84] [cursor=pointer]
+                      - link "Messaging" [ref=e85] [cursor=pointer]:
+                        - /url: ../messaging/index.html
+                    - listitem [ref=e86]:
+                      - button [ref=e87] [cursor=pointer]
+                      - link "Security" [ref=e88] [cursor=pointer]:
+                        - /url: ../security/index.html
+                    - listitem [ref=e89]:
+                      - button [ref=e90] [cursor=pointer]
+                      - link "Testing" [ref=e91] [cursor=pointer]:
+                        - /url: ../testing/index.html
+                    - listitem [ref=e92]:
+                      - button [ref=e93] [cursor=pointer]
+                      - link "Packaging Spring Boot Applications" [ref=e94] [cursor=pointer]:
+                        - /url: ../packaging/index.html
+                    - listitem [ref=e95]:
+                      - button [ref=e96] [cursor=pointer]
+                      - link "Production-ready Features" [ref=e97] [cursor=pointer]:
+                        - /url: index.html
+                      - list [ref=e98]:
+                        - listitem [ref=e99]:
+                          - link "Enabling Production-ready Features" [ref=e100] [cursor=pointer]:
+                            - /url: enabling.html
+                        - listitem [ref=e101]:
+                          - link "Endpoints" [ref=e102] [cursor=pointer]:
+                            - /url: endpoints.html
+                        - listitem [ref=e103]:
+                          - link "Monitoring and Management Over HTTP" [ref=e104] [cursor=pointer]:
+                            - /url: monitoring.html
+                        - listitem [ref=e105]:
+                          - link "Monitoring and Management over JMX" [ref=e106] [cursor=pointer]:
+                            - /url: jmx.html
+                        - listitem [ref=e107]:
+                          - link "Observability" [ref=e108] [cursor=pointer]:
+                            - /url: observability.html
+                        - listitem [ref=e109]:
+                          - link "Loggers" [ref=e110] [cursor=pointer]:
+                            - /url: loggers.html
+                        - listitem [ref=e111]:
+                          - link "Metrics" [ref=e112] [cursor=pointer]:
+                            - /url: metrics.html
+                        - listitem [ref=e113]:
+                          - link "Tracing" [ref=e114] [cursor=pointer]:
+                            - /url: tracing.html
+                        - listitem [ref=e115]:
+                          - link "Auditing" [ref=e116] [cursor=pointer]:
+                            - /url: auditing.html
+                        - listitem [ref=e117]:
+                          - link "Recording HTTP Exchanges" [ref=e118] [cursor=pointer]:
+                            - /url: http-exchanges.html
+                        - listitem [ref=e119]:
+                          - link "Process Monitoring" [ref=e120] [cursor=pointer]:
+                            - /url: process-monitoring.html
+                        - listitem [ref=e121]:
+                          - link "Cloud Foundry Support" [ref=e122] [cursor=pointer]:
+                            - /url: cloud-foundry.html
+                - listitem [ref=e123]:
+                  - button [ref=e124] [cursor=pointer]
+                  - link "How-to Guides" [ref=e125] [cursor=pointer]:
+                    - /url: ../../how-to/index.html
+                - listitem [ref=e126]:
+                  - button [ref=e127] [cursor=pointer]
+                  - link "Build Tool Plugins" [ref=e128] [cursor=pointer]:
+                    - /url: ../../build-tool-plugin/index.html
+                - listitem [ref=e129]:
+                  - button [ref=e130] [cursor=pointer]
+                  - link "Spring Boot CLI" [ref=e131] [cursor=pointer]:
+                    - /url: ../../cli/index.html
+                - listitem [ref=e132]:
+                  - button [ref=e133] [cursor=pointer]
+                  - generic [ref=e134] [cursor=pointer]: Rest APIs
+                - listitem [ref=e135]:
+                  - button [ref=e136] [cursor=pointer]
+                  - generic [ref=e137] [cursor=pointer]: Java APIs
+                - listitem [ref=e138]:
+                  - button [ref=e139] [cursor=pointer]
+                  - generic [ref=e140] [cursor=pointer]: Kotlin APIs
+                - listitem [ref=e141]:
+                  - button [ref=e142] [cursor=pointer]
+                  - generic [ref=e143] [cursor=pointer]: Specifications
+                - listitem [ref=e144]:
+                  - button [ref=e145] [cursor=pointer]
+                  - generic [ref=e146] [cursor=pointer]: Appendix
+        - button [ref=e148] [cursor=pointer]
+    - main [ref=e151]:
+      - generic [ref=e152]:
+        - complementary [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e156]:
+              - heading "Tracing" [level=3] [ref=e157]
+              - list [ref=e158]:
+                - listitem [ref=e159]:
+                  - link "Supported Tracers" [ref=e160] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.tracers"
+                - listitem [ref=e161]:
+                  - link "Getting Started" [ref=e162] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.getting-started"
+                - listitem [ref=e163]:
+                  - link "Logging Correlation IDs" [ref=e164] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.logging"
+                - listitem [ref=e165]:
+                  - link "Propagating Traces" [ref=e166] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.propagating-traces"
+                - listitem [ref=e167]:
+                  - link "Tracer Implementations" [ref=e168] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.tracer-implementations"
+                - listitem [ref=e169]:
+                  - link "OpenTelemetry With OTLP" [ref=e170] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.tracer-implementations.otel-otlp"
+                - listitem [ref=e171]:
+                  - link "OpenTelemetry With Zipkin" [ref=e172] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.tracer-implementations.otel-zipkin"
+                - listitem [ref=e173]:
+                  - link "OpenZipkin Brave With Zipkin" [ref=e174] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.tracer-implementations.brave-zipkin"
+                - listitem [ref=e175]:
+                  - link "Sampling" [ref=e176] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.sampling"
+                - listitem [ref=e177]:
+                  - link "Span Limits" [ref=e178] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.span-limits"
+                - listitem [ref=e179]:
+                  - link "Integration with Micrometer Observation" [ref=e180] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.micrometer-observation"
+                - listitem [ref=e181]:
+                  - link "Creating Custom Spans" [ref=e182] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.creating-spans"
+                - listitem [ref=e183]:
+                  - link "Baggage" [ref=e184] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.baggage"
+                - listitem [ref=e185]:
+                  - link "Tests" [ref=e186] [cursor=pointer]:
+                    - /url: "#actuator.micrometer-tracing.tests"
+            - generic [ref=e187]:
+              - link "Edit this Page" [ref=e188] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-boot/blob/v4.1.0/documentation/spring-boot-docs/src/docs/antora/modules/reference/pages/actuator/tracing.adoc
+              - link "GitHub Project" [ref=e191] [cursor=pointer]:
+                - /url: https://github.com/spring-projects/spring-boot
+              - link "Stack Overflow" [ref=e195] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/spring-boot
+        - article [ref=e198]:
+          - navigation "breadcrumbs" [ref=e200]:
+            - list [ref=e201]:
+              - listitem "Copy versioned URL" [ref=e202]
+              - listitem [ref=e203]:
+                - link "Spring Boot" [ref=e204] [cursor=pointer]:
+                  - /url: ../../index.html
+                - text: /
+              - listitem [ref=e205]:
+                - link "Reference" [ref=e206] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e207]:
+                - link "Production-ready Features" [ref=e208] [cursor=pointer]:
+                  - /url: index.html
+                - text: /
+              - listitem [ref=e209]:
+                - link "Tracing" [ref=e210] [cursor=pointer]:
+                  - /url: tracing.html
+          - heading "Tracing" [level=1] [ref=e211]
+          - generic [ref=e213]:
+            - paragraph [ref=e215]:
+              - text: Spring Boot Actuator provides dependency management and auto-configuration for
+              - link "Micrometer Tracing" [ref=e216] [cursor=pointer]:
+                - /url: https://docs.micrometer.io/tracing/reference/1.7
+              - text: ", a facade for popular tracer libraries."
+            - table [ref=e218]:
+              - rowgroup [ref=e219]:
+                - row [ref=e220]:
+                  - cell "Tip" [ref=e221]
+                  - cell [ref=e223]:
+                    - text: To learn more about Micrometer Tracing capabilities, see its
+                    - link "reference documentation" [ref=e224] [cursor=pointer]:
+                      - /url: https://docs.micrometer.io/tracing/reference/1.7
+                    - text: .
+          - generic [ref=e225]:
+            - heading "Supported Tracers" [level=2] [ref=e226]
+            - generic [ref=e227]:
+              - paragraph [ref=e229]: "Spring Boot ships auto-configuration for the following tracers:"
+              - list [ref=e231]:
+                - listitem [ref=e232]:
+                  - paragraph [ref=e233]:
+                    - link "OpenTelemetry" [ref=e234] [cursor=pointer]:
+                      - /url: https://opentelemetry.io/
+                    - text: with
+                    - link "OTLP" [ref=e235] [cursor=pointer]:
+                      - /url: https://opentelemetry.io/docs/reference/specification/protocol/
+                    - text: .
+                - listitem [ref=e236]:
+                  - paragraph [ref=e237]:
+                    - link "OpenZipkin Brave" [ref=e238] [cursor=pointer]:
+                      - /url: https://github.com/openzipkin/brave
+                    - text: with
+                    - link "Zipkin" [ref=e239] [cursor=pointer]:
+                      - /url: https://zipkin.io/
+                    - text: .
+          - generic [ref=e240]:
+            - heading "Getting Started" [level=2] [ref=e241]
+            - generic [ref=e242]:
+              - paragraph [ref=e244]:
+                - text: We need an example application that we can use to get started with tracing. For our purposes, the simple “Hello World!” web application that’s covered in the
+                - link "Developing Your First Spring Boot Application" [ref=e245] [cursor=pointer]:
+                  - /url: ../../tutorial/first-application/index.html
+                - text: section will suffice. We’re going to use the Brave tracer with Zipkin as trace backend.
+              - paragraph [ref=e247]: "To recap, our main application code looks like this:"
+              - generic [ref=e249]:
+                - tablist [ref=e251]:
+                  - tab [selected] [ref=e252] [cursor=pointer]:
+                    - paragraph [ref=e253]: Java
+                  - tab [ref=e254] [cursor=pointer]:
+                    - paragraph [ref=e255]: Kotlin
+                - tabpanel "Java" [ref=e256]:
+                  - generic [ref=e259]:
+                    - code [ref=e260]:
+                      - text: java
+                      - generic: import org.apache.commons.logging.Log; import org.apache.commons.logging.LogFactory; import org.springframework.boot.SpringApplication; import org.springframework.boot.autoconfigure.SpringBootApplication; import org.springframework.web.bind.annotation.RequestMapping; import org.springframework.web.bind.annotation.RestController;
+                      - generic [ref=e261]:
+                        - text: "@RestController @SpringBootApplication public"
+                        - generic [ref=e262]: class MyApplication
+                        - text: "{ private static final Log logger = LogFactory.getLog(MyApplication"
+                        - generic [ref=e263]: .class)
+                        - text: ; @RequestMapping("/")
+                        - generic [ref=e264]: String home()
+                        - text: "{ logger.info(\"home() has been called\"); return \"Hello World!\"; }"
+                        - generic [ref=e265]: public static void main(String[] args)
+                        - text: "{ SpringApplication.run(MyApplication"
+                        - generic [ref=e266]: .class, args)
+                        - text: "; } }"
+                    - generic [ref=e267]:
+                      - button "Expand foldable text" [ref=e268] [cursor=pointer]
+                      - button "Copied!" [ref=e269] [cursor=pointer]
+                - text: kotlin
+              - table [ref=e272]:
+                - rowgroup [ref=e273]:
+                  - row [ref=e274]:
+                    - cell "Note" [ref=e275]
+                    - cell [ref=e277]:
+                      - text: There’s an added logger statement in the
+                      - code [ref=e278]: home()
+                      - text: method, which will be important later.
+              - paragraph [ref=e280]:
+                - text: Now we have to add the
+                - code [ref=e281]: org.springframework.boot:spring-boot-starter-zipkin
+                - text: dependency.
+              - paragraph [ref=e283]: "Then add the following application properties:"
+              - generic [ref=e285]:
+                - tablist [ref=e287]:
+                  - tab [selected] [ref=e288] [cursor=pointer]:
+                    - paragraph [ref=e289]: Properties
+                  - tab [ref=e290] [cursor=pointer]:
+                    - paragraph [ref=e291]: YAML
+                - tabpanel "Properties" [ref=e292]:
+                  - generic [ref=e295]:
+                    - code [ref=e296]: properties management.tracing.sampling.probability=1
+                    - button "Copied!" [ref=e298] [cursor=pointer]
+                - text: yaml
+              - paragraph [ref=e301]: By default, Spring Boot samples only 10% of requests to prevent overwhelming the trace backend. This property switches it to 100% so that every request is sent to the trace backend.
+              - paragraph [ref=e303]:
+                - text: To collect and visualize the traces, we need a running trace backend. We use Zipkin as our trace backend here. The
+                - link "Zipkin Quickstart guide" [ref=e304] [cursor=pointer]:
+                  - /url: https://zipkin.io/pages/quickstart
+                - text: provides instructions how to start Zipkin locally.
+              - paragraph [ref=e306]: After Zipkin is running, you can start your application.
+              - paragraph [ref=e308]:
+                - text: If you open a web browser to
+                - code [ref=e309]:
+                  - link "localhost:8080" [ref=e310] [cursor=pointer]:
+                    - /url: http://localhost:8080
+                - text: ", you should see the following output:"
+              - generic [ref=e313]:
+                - code [ref=e314]: Hello World!
+                - button "Copied!" [ref=e316] [cursor=pointer]
+              - paragraph [ref=e319]: Behind the scenes, an observation has been created for the HTTP request, which in turn gets bridged to Brave, which reports a new trace to Zipkin.
+              - paragraph [ref=e321]:
+                - text: Now open the Zipkin UI at
+                - code [ref=e322]:
+                  - link "localhost:9411" [ref=e323] [cursor=pointer]:
+                    - /url: http://localhost:9411
+                - text: and press the "Run Query" button to list all collected traces. You should see one trace. Press the "Show" button to see the details of that trace.
+          - generic [ref=e324]:
+            - heading "Logging Correlation IDs" [level=2] [ref=e325]
+            - generic [ref=e326]:
+              - paragraph [ref=e328]: Correlation IDs provide a helpful way to link lines in your log files to spans/traces. If you are using Micrometer Tracing, Spring Boot will include correlation IDs in your logs by default.
+              - paragraph [ref=e330]:
+                - text: The default correlation ID is built from
+                - code [ref=e331]: traceId
+                - text: and
+                - code [ref=e332]: spanId
+                - link "MDC" [ref=e333] [cursor=pointer]:
+                  - /url: https://logback.qos.ch/manual/mdc.html
+                - text: values. For example, if Micrometer Tracing has added an MDC
+                - code [ref=e334]: traceId
+                - text: of
+                - code [ref=e335]: 803B448A0489F84084905D3093480352
+                - text: and an MDC
+                - code [ref=e336]: spanId
+                - text: of
+                - code [ref=e337]: 3425F23BB2432450
+                - text: the log output will include the correlation ID
+                - code [ref=e338]: "[803B448A0489F84084905D3093480352-3425F23BB2432450]"
+                - text: .
+              - paragraph [ref=e340]:
+                - text: If you prefer to use a different format for your correlation ID, you can use the
+                - code [ref=e341]: logging.pattern.correlation
+                - text: "property to define one. For example, the following will provide a correlation ID for Logback in format previously used by Spring Cloud Sleuth:"
+              - generic [ref=e343]:
+                - tablist [ref=e345]:
+                  - tab [selected] [ref=e346] [cursor=pointer]:
+                    - paragraph [ref=e347]: Properties
+                  - tab [ref=e348] [cursor=pointer]:
+                    - paragraph [ref=e349]: YAML
+                - tabpanel "Properties" [ref=e350]:
+                  - generic [ref=e353]:
+                    - code [ref=e354]: "properties logging.pattern.correlation=[${spring.application.name:},%X{traceId:-},%X{spanId:-}] logging.include-application-name=false"
+                    - button "Copied!" [ref=e356] [cursor=pointer]
+                - text: yaml
+              - table [ref=e359]:
+                - rowgroup [ref=e360]:
+                  - row [ref=e361]:
+                    - cell "Note" [ref=e362]
+                    - cell [ref=e364]:
+                      - text: In the example above,
+                      - code [ref=e365]: logging.include-application-name
+                      - text: is set to
+                      - code [ref=e366]: "false"
+                      - text: to avoid the application name being duplicated in the log messages (
+                      - code [ref=e367]: logging.pattern.correlation
+                      - text: already contains it). It’s also worth mentioning that
+                      - code [ref=e368]: logging.pattern.correlation
+                      - text: contains a trailing space so that it is separated from the logger name that comes right after it by default.
+              - table [ref=e370]:
+                - rowgroup [ref=e371]:
+                  - row [ref=e372]:
+                    - cell "Tip" [ref=e373]
+                    - cell [ref=e375]:
+                      - text: Correlation IDs rely on context propagation. Please read
+                      - link "this documentation for more details" [ref=e376] [cursor=pointer]:
+                        - /url: observability.html#actuator.observability.context-propagation
+                      - text: .
+          - generic [ref=e377]:
+            - heading "Propagating Traces" [level=2] [ref=e378]
+            - generic [ref=e379]:
+              - paragraph [ref=e381]:
+                - text: To automatically propagate traces over the network, use the auto-configured
+                - link [ref=e382] [cursor=pointer]:
+                  - /url: ../io/rest-client.html#io.rest-client.resttemplate
+                  - code [ref=e383]: RestTemplateBuilder
+                - text: ","
+                - link [ref=e384] [cursor=pointer]:
+                  - /url: ../io/rest-client.html#io.rest-client.restclient
+                  - code [ref=e385]: RestClient.Builder
+                - text: or
+                - link [ref=e386] [cursor=pointer]:
+                  - /url: ../io/rest-client.html#io.rest-client.webclient
+                  - code [ref=e387]: WebClient.Builder
+                - text: to construct the client.
+              - table [ref=e389]:
+                - rowgroup [ref=e390]:
+                  - row [ref=e391]:
+                    - cell "Warning" [ref=e392]
+                    - cell [ref=e394]:
+                      - text: If you create the
+                      - link [ref=e395] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestTemplate.html
+                        - code [ref=e396]: RestTemplate
+                      - text: ", the"
+                      - link [ref=e397] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/client/RestClient.html
+                        - code [ref=e398]: RestClient
+                      - text: or the
+                      - link [ref=e399] [cursor=pointer]:
+                        - /url: https://docs.spring.io/spring-framework/docs/7.0.x/javadoc-api/org/springframework/web/reactive/function/client/WebClient.html
+                        - code [ref=e400]: WebClient
+                      - text: without using the auto-configured builders, automatic trace propagation won’t work!
+          - generic [ref=e401]:
+            - heading "Tracer Implementations" [level=2] [ref=e402]
+            - generic [ref=e403]:
+              - paragraph [ref=e405]: As Micrometer Tracer supports multiple tracer implementations, there are multiple dependency combinations possible with Spring Boot. The combinations OpenTelemetry with OTLP and Brave with Zipkin are common and have dedicated starters.
+              - generic [ref=e406]:
+                - heading "OpenTelemetry With OTLP" [level=3] [ref=e407]
+                - paragraph [ref=e409]: "Tracing with OpenTelemetry and reporting using OTLP requires the following dependencies:"
+                - list [ref=e411]:
+                  - listitem [ref=e412]:
+                    - paragraph [ref=e413]:
+                      - code [ref=e414]: org.springframework.boot:spring-boot-starter-opentelemetry
+                - paragraph [ref=e416]:
+                  - text: Use the
+                  - code [ref=e417]: management.opentelemetry.tracing.export.otlp.*
+                  - text: configuration properties to configure reporting using OTLP.
+                - table [ref=e419]:
+                  - rowgroup [ref=e420]:
+                    - row [ref=e421]:
+                      - cell "Note" [ref=e422]
+                      - cell [ref=e424]:
+                        - text: If you need to apply advanced customizations to OTLP span exporters, consider registering
+                        - link [ref=e425] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/tracing/opentelemetry/autoconfigure/otlp/OtlpHttpSpanExporterBuilderCustomizer.html
+                          - code [ref=e426]: OtlpHttpSpanExporterBuilderCustomizer
+                        - text: or
+                        - link [ref=e427] [cursor=pointer]:
+                          - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/micrometer/tracing/opentelemetry/autoconfigure/otlp/OtlpGrpcSpanExporterBuilderCustomizer.html
+                          - code [ref=e428]: OtlpGrpcSpanExporterBuilderCustomizer
+                        - text: beans. These will be invoked before the creation of the
+                        - code [ref=e429]: OtlpHttpSpanExporter
+                        - text: or
+                        - code [ref=e430]: OtlpGrpcSpanExporter
+                        - text: . The customizers take precedence over anything applied by the auto-configuration.
+              - generic [ref=e431]:
+                - heading "OpenTelemetry With Zipkin" [level=3] [ref=e432]
+                - table [ref=e434]:
+                  - rowgroup [ref=e435]:
+                    - row [ref=e436]:
+                      - cell "Warning" [ref=e437]
+                      - cell [ref=e439]:
+                        - text: OpenTelemetry has
+                        - link "deprecated their Zipkin support" [ref=e440] [cursor=pointer]:
+                          - /url: https://opentelemetry.io/docs/specs/otel/trace/sdk_exporters/zipkin/
+                        - text: . The auto-configuration for it will be removed in Spring Boot 4.2. Either switch to Brave or consider using
+                        - link "the Zipkin OTel module" [ref=e441] [cursor=pointer]:
+                          - /url: https://github.com/openzipkin-contrib/zipkin-otel
+                        - text: for ingesting OTLP directly.
+                - paragraph [ref=e443]: "Tracing with OpenTelemetry and reporting to Zipkin requires the following dependencies:"
+                - list [ref=e445]:
+                  - listitem [ref=e446]:
+                    - paragraph [ref=e447]:
+                      - code [ref=e448]: org.springframework.boot:spring-boot-micrometer-tracing-opentelemetry
+                      - text: "- Spring Boot’s support for Micrometer Tracing over OpenTelemetry."
+                  - listitem [ref=e449]:
+                    - paragraph [ref=e450]:
+                      - code [ref=e451]: io.micrometer:micrometer-tracing-bridge-otel
+                      - text: "- bridges the Micrometer Observation API to OpenTelemetry."
+                  - listitem [ref=e452]:
+                    - paragraph [ref=e453]:
+                      - code [ref=e454]: org.springframework.boot:spring-boot-zipkin
+                      - text: "- Spring Boot’s support for Zipkin."
+                  - listitem [ref=e455]:
+                    - paragraph [ref=e456]:
+                      - code [ref=e457]: io.opentelemetry:opentelemetry-exporter-zipkin
+                      - text: "- OpenTelemetry exporter that reports traces to Zipkin."
+                - paragraph [ref=e459]:
+                  - text: Use the
+                  - code [ref=e460]: management.tracing.export.zipkin.*
+                  - text: configuration properties to configure reporting to Zipkin.
+              - generic [ref=e461]:
+                - heading "OpenZipkin Brave With Zipkin" [level=3] [ref=e462]
+                - paragraph [ref=e464]: "Tracing with OpenZipkin Brave and reporting to Zipkin requires the following dependencies:"
+                - list [ref=e466]:
+                  - listitem [ref=e467]:
+                    - paragraph [ref=e468]:
+                      - code [ref=e469]: org.springframework.boot:spring-boot-starter-zipkin
+                - paragraph [ref=e471]:
+                  - text: Use the
+                  - code [ref=e472]: management.tracing.export.zipkin.*
+                  - text: configuration properties to configure reporting to Zipkin.
+          - generic [ref=e473]:
+            - heading "Sampling" [level=2] [ref=e474]
+            - generic [ref=e475]:
+              - paragraph [ref=e477]:
+                - text: By default, Spring Boot samples only 10% of requests to prevent overwhelming the trace backend. The
+                - code [ref=e478]: management.tracing.sampling.probability
+                - text: property can be used to configure this.
+              - paragraph [ref=e480]:
+                - text: When using OpenTelemetry, you can also configure which sampler is used via the
+                - code [ref=e481]: management.opentelemetry.tracing.sampler
+                - text: "property. The following samplers are supported:"
+              - table [ref=e482]:
+                - rowgroup [ref=e486]:
+                  - row [ref=e487]:
+                    - columnheader "Sampler" [ref=e488]
+                    - columnheader "Description" [ref=e489]
+                - rowgroup [ref=e490]:
+                  - row [ref=e491]:
+                    - cell [ref=e492]:
+                      - paragraph [ref=e493]:
+                        - code [ref=e494]: always-on
+                    - cell [ref=e495]:
+                      - paragraph [ref=e496]: Samples every trace.
+                  - row [ref=e497]:
+                    - cell [ref=e498]:
+                      - paragraph [ref=e499]:
+                        - code [ref=e500]: always-off
+                    - cell [ref=e501]:
+                      - paragraph [ref=e502]: Discards every trace.
+                  - row [ref=e503]:
+                    - cell [ref=e504]:
+                      - paragraph [ref=e505]:
+                        - code [ref=e506]: trace-id-ratio
+                    - cell [ref=e507]:
+                      - paragraph [ref=e508]:
+                        - text: Samples a fraction of traces based on
+                        - code [ref=e509]: management.tracing.sampling.probability
+                        - text: .
+                  - row [ref=e510]:
+                    - cell [ref=e511]:
+                      - paragraph [ref=e512]:
+                        - code [ref=e513]: parent-based-always-on
+                    - cell [ref=e514]:
+                      - paragraph [ref=e515]: If the parent span is sampled, samples the child span. If there is no parent, samples every trace.
+                  - row [ref=e516]:
+                    - cell [ref=e517]:
+                      - paragraph [ref=e518]:
+                        - code [ref=e519]: parent-based-always-off
+                    - cell [ref=e520]:
+                      - paragraph [ref=e521]: If the parent span is sampled, samples the child span. If there is no parent, discards every trace.
+                  - row [ref=e522]:
+                    - cell [ref=e523]:
+                      - paragraph [ref=e524]:
+                        - code [ref=e525]: parent-based-trace-id-ratio
+                        - text: (default)
+                    - cell [ref=e526]:
+                      - paragraph [ref=e527]:
+                        - text: If the parent span is sampled, samples the child span. If there is no parent, samples a fraction of traces based on
+                        - code [ref=e528]: management.tracing.sampling.probability
+                        - text: .
+          - generic [ref=e529]:
+            - heading "Span Limits" [level=2] [ref=e530]
+            - generic [ref=e531]:
+              - paragraph [ref=e533]:
+                - text: When using OpenTelemetry, you can configure span limits via the
+                - code [ref=e534]: management.opentelemetry.tracing.limits.*
+                - text: configuration properties. These allow you to control the maximum number of attributes, events, and links per span, as well as the maximum length of string attribute values.
+              - paragraph [ref=e536]: "For example, to limit the number of attributes per span to 64 and the maximum attribute value length to 256 characters:"
+              - generic [ref=e538]:
+                - tablist [ref=e540]:
+                  - tab [selected] [ref=e541] [cursor=pointer]:
+                    - paragraph [ref=e542]: Properties
+                  - tab [ref=e543] [cursor=pointer]:
+                    - paragraph [ref=e544]: YAML
+                - tabpanel "Properties" [ref=e545]:
+                  - generic [ref=e548]:
+                    - code [ref=e549]: properties management.opentelemetry.tracing.limits.max-attributes=64 management.opentelemetry.tracing.limits.max-attribute-value-length=256
+                    - button "Copied!" [ref=e551] [cursor=pointer]
+                - text: yaml
+              - paragraph [ref=e554]:
+                - text: If you need full control, you can register a custom
+                - link [ref=e555] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.opentelemetry/opentelemetry-sdk-trace/1.62.0/io/opentelemetry/sdk/trace/SpanLimits.html
+                  - code [ref=e556]: SpanLimits
+                - text: bean.
+          - generic [ref=e557]:
+            - heading "Integration with Micrometer Observation" [level=2] [ref=e558]
+            - paragraph [ref=e561]:
+              - text: A
+              - link [ref=e562] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-tracing/1.7.0/io/micrometer/tracing/handler/TracingAwareMeterObservationHandler.html
+                - code [ref=e563]: TracingAwareMeterObservationHandler
+              - text: is automatically registered on the
+              - link [ref=e564] [cursor=pointer]:
+                - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationRegistry.html
+                - code [ref=e565]: ObservationRegistry
+              - text: ", which creates spans for every completed observation."
+          - generic [ref=e566]:
+            - heading "Creating Custom Spans" [level=2] [ref=e567]
+            - generic [ref=e568]:
+              - paragraph [ref=e570]:
+                - text: You can create your own spans by starting an observation. For this, inject
+                - link [ref=e571] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-observation/1.17.0/io/micrometer/observation/ObservationRegistry.html
+                  - code [ref=e572]: ObservationRegistry
+                - text: "into your component:"
+              - generic [ref=e574]:
+                - tablist [ref=e576]:
+                  - tab [selected] [ref=e577] [cursor=pointer]:
+                    - paragraph [ref=e578]: Java
+                  - tab [ref=e579] [cursor=pointer]:
+                    - paragraph [ref=e580]: Kotlin
+                - tabpanel "Java" [ref=e581]:
+                  - generic [ref=e584]:
+                    - code [ref=e585]:
+                      - text: java
+                      - generic: import io.micrometer.observation.Observation; import io.micrometer.observation.ObservationRegistry; import org.springframework.stereotype.Component;
+                      - generic [ref=e586]:
+                        - text: "@Component"
+                        - generic [ref=e587]: class CustomObservation
+                        - text: "{ private final ObservationRegistry observationRegistry; CustomObservation(ObservationRegistry observationRegistry) { this.observationRegistry = observationRegistry; }"
+                        - generic [ref=e588]: void someOperation()
+                        - text: "{ Observation observation = Observation.createNotStarted(\"some-operation\", this.observationRegistry); observation.lowCardinalityKeyValue(\"some-tag\", \"some-value\"); observation.observe(() -> { // Business logic ... }); } }"
+                    - generic [ref=e589]:
+                      - button "Expand foldable text" [ref=e590] [cursor=pointer]
+                      - button "Copied!" [ref=e591] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e594]: This will create an observation named "some-operation" with the tag "some-tag=some-value".
+              - table [ref=e596]:
+                - rowgroup [ref=e597]:
+                  - row [ref=e598]:
+                    - cell "Tip" [ref=e599]
+                    - cell [ref=e601]:
+                      - text: If you want to create a span without creating a metric, you need to use the
+                      - link [ref=e602] [cursor=pointer]:
+                        - /url: https://docs.micrometer.io/tracing/reference/1.7/api
+                        - text: lower-level
+                        - code [ref=e603]: Tracer
+                        - text: API
+                      - text: from Micrometer.
+          - generic [ref=e604]:
+            - heading "Baggage" [level=2] [ref=e605]
+            - generic [ref=e606]:
+              - paragraph [ref=e608]:
+                - text: You can create baggage with the
+                - link [ref=e609] [cursor=pointer]:
+                  - /url: https://javadoc.io/doc/io.micrometer/micrometer-tracing/1.7.0/io/micrometer/tracing/Tracer.html
+                  - code [ref=e610]: Tracer
+                - text: "API:"
+              - generic [ref=e612]:
+                - tablist [ref=e614]:
+                  - tab [selected] [ref=e615] [cursor=pointer]:
+                    - paragraph [ref=e616]: Java
+                  - tab [ref=e617] [cursor=pointer]:
+                    - paragraph [ref=e618]: Kotlin
+                - tabpanel "Java" [ref=e619]:
+                  - generic [ref=e622]:
+                    - code [ref=e623]:
+                      - text: java
+                      - generic: import io.micrometer.tracing.BaggageInScope; import io.micrometer.tracing.Tracer; import org.springframework.stereotype.Component;
+                      - generic [ref=e624]:
+                        - text: "@Component"
+                        - generic [ref=e625]: class CreatingBaggage
+                        - text: "{ private final Tracer tracer; CreatingBaggage(Tracer tracer) { this.tracer = tracer; }"
+                        - generic [ref=e626]: void doSomething()
+                        - text: "{ try (BaggageInScope scope = this.tracer.createBaggageInScope(\"baggage1\", \"value1\")) { // Business logic } } }"
+                    - generic [ref=e627]:
+                      - button "Expand foldable text" [ref=e628] [cursor=pointer]
+                      - button "Copied!" [ref=e629] [cursor=pointer]
+                - text: kotlin
+              - paragraph [ref=e632]:
+                - text: This example creates baggage named
+                - code [ref=e633]: baggage1
+                - text: with the value
+                - code [ref=e634]: value1
+                - text: . The baggage is automatically propagated over the network if you’re using W3C propagation. If you’re using B3 propagation, baggage is not automatically propagated. To manually propagate baggage over the network, use the
+                - code [ref=e635]: management.tracing.baggage.remote-fields
+                - text: configuration property (this works for W3C, too). For the example above, setting this property to
+                - code [ref=e636]: baggage1
+                - text: results in an HTTP header
+                - code [ref=e637]: "baggage1: value1"
+                - text: .
+              - paragraph [ref=e639]:
+                - text: If you want to propagate the baggage to the MDC, use the
+                - code [ref=e640]: management.tracing.baggage.correlation.fields
+                - text: configuration property. For the example above, setting this property to
+                - code [ref=e641]: baggage1
+                - text: results in an MDC entry named
+                - code [ref=e642]: baggage1
+                - text: .
+          - generic [ref=e643]:
+            - heading "Tests" [level=2] [ref=e644]
+            - paragraph [ref=e647]:
+              - text: Tracing components which are reporting data are not auto-configured when using
+              - link [ref=e648] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-boot/4.1.0/api/java/org/springframework/boot/test/context/SpringBootTest.html
+                - code [ref=e649]: "@SpringBootTest"
+              - text: . See
+              - link "Using Tracing" [ref=e650] [cursor=pointer]:
+                - /url: ../testing/spring-boot-applications.html#testing.spring-boot-applications.tracing
+              - text: for more details.
+          - navigation [ref=e651]:
+            - generic [ref=e652]:
+              - text: Prev
+              - link "‹ Metrics" [ref=e653] [cursor=pointer]:
+                - /url: metrics.html
+            - generic [ref=e654]:
+              - text: Next
+              - link "Auditing ›" [ref=e655] [cursor=pointer]:
+                - /url: auditing.html
+    - text:   
+  - contentinfo [ref=e656]:
+    - generic [ref=e657]:
+      - img "Spring" [ref=e658]
+      - paragraph [ref=e659]:
+        - text: Copyright © 2005 - 2026 Broadcom. All Rights Reserved. The term "Broadcom" refers to Broadcom Inc. and/or its subsidiaries.
+        - link "Terms of Use" [ref=e660] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e661] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+        - text: •
+        - link "Trademark Guidelines" [ref=e662] [cursor=pointer]:
+          - /url: https://spring.io/trademarks
+        - generic [ref=e663]:
+          - text: •
+          - link "Thank you" [ref=e664] [cursor=pointer]:
+            - /url: https://spring.io/thank-you
+        - text: •
+        - link "Your California Privacy Rights" [ref=e665] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy/california-privacy-rights.html
+        - text: • Cookies Settings
+      - paragraph [ref=e666]: Apache®, Apache Tomcat®, Apache Kafka®, Apache Cassandra™, and Apache Geode™ are trademarks or registered trademarks of the Apache Software Foundation in the United States and/or other countries. Java™, Java™ SE, Java™ EE, and OpenJDK™ are trademarks of Oracle and/or its affiliates. Kubernetes® is a registered trademark of the Linux Foundation in the United States and other countries. Linux® is the registered trademark of Linus Torvalds in the United States and other countries. Windows® and Microsoft® Azure are registered trademarks of Microsoft Corporation. “AWS” and “Amazon Web Services” are trademarks or registered trademarks of Amazon.com Inc. or its affiliates. All other trademarks and copyrights are property of their respective owners and are only mentioned for informative purposes. Other names may be trademarks of their respective owners.
+    - generic [ref=e667]:
+      - link "Youtube" [ref=e668] [cursor=pointer]:
+        - /url: https://www.youtube.com/user/SpringSourceDev
+      - link "GitHub" [ref=e672] [cursor=pointer]:
+        - /url: https://github.com/spring-projects
+      - link "Twitter" [ref=e676] [cursor=pointer]:
+        - /url: https://twitter.com/springcentral
+  - generic:
+    - dialog "Cookies" [ref=e681]:
+      - generic [ref=e682]:
+        - button "Close" [ref=e684] [cursor=pointer]
+        - generic [ref=e685]:
+          - generic [ref=e687]:
+            - heading "Cookies" [level=2] [ref=e688]
+            - generic [ref=e689]:
+              - text: Broadcom and our partners use technology, including cookies to, among other things, operate the site, analyze site usage, view and retain your site interactions, improve your experience and help us advertise. Click “Cookie Settings” to manage your privacy choices. By continuing to use our site, you agree to these data practices as described in our
+              - link "More information about your privacy, opens in a new tab" [active] [ref=e690] [cursor=pointer]:
+                - /url: https://www.broadcom.com/company/legal/cookie-policy
+                - text: Cookie Notice
+          - button "Cookies Settings, Opens the preference center dialog" [ref=e694] [cursor=pointer]: Cookies Settings
+    - text: Cookies Settings

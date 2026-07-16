@@ -1,0 +1,1477 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffarion1231%2Fcc-switch
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=farion1231%2Fcc-switch
+            - button "Appearance settings" [ref=e58] [cursor=pointer]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - link "farion1231" [ref=e70] [cursor=pointer]:
+            - /url: /farion1231
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "cc-switch" [ref=e73] [cursor=pointer]:
+              - /url: /farion1231/cc-switch
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - button "Sponsor farion1231/cc-switch" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: Sponsor
+            - listitem [ref=e83]:
+              - link "You must be signed in to change notification settings" [ref=e84] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffarion1231%2Fcc-switch
+                - text: Notifications
+            - listitem [ref=e87]:
+              - link "Fork 7.8k" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffarion1231%2Fcc-switch
+                - text: Fork
+                - generic "7,839" [ref=e91]: 7.8k
+            - listitem [ref=e92]:
+              - link "You must be signed in to star a repository" [ref=e94] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffarion1231%2Fcc-switch
+                - text: Star
+                - generic "117148 users starred this repository" [ref=e97]: 117k
+      - navigation "Repository" [ref=e98]:
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "Code" [ref=e101] [cursor=pointer]:
+              - /url: /farion1231/cc-switch
+          - listitem [ref=e105]:
+            - link "Issues 1.3k" [ref=e106] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/issues
+              - generic [ref=e110]: Issues
+              - generic "1,343" [ref=e111]: 1.3k
+          - listitem [ref=e112]:
+            - link "Pull requests 519" [ref=e113] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/pulls
+              - generic [ref=e116]: Pull requests
+              - generic "519" [ref=e117]
+          - listitem [ref=e118]:
+            - link "Discussions" [ref=e119] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/discussions
+          - listitem [ref=e123]:
+            - link "Actions" [ref=e124] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/actions
+          - listitem [ref=e128]:
+            - link "Projects" [ref=e129] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/projects
+          - listitem [ref=e133]:
+            - link "Security and quality" [ref=e134] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/security
+          - listitem [ref=e138]:
+            - link "Insights" [ref=e139] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/pulse
+    - generic [ref=e155]:
+      - heading "farion1231/cc-switch" [level=1] [ref=e157]
+      - generic [ref=e158]:
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - button "main branch" [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]: main
+              - generic [ref=e174]:
+                - link [ref=e175] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/branches
+                  - generic [ref=e178]:
+                    - strong [ref=e179]: "110"
+                    - text: Branches
+                - link [ref=e180] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/tags
+                  - generic [ref=e183]:
+                    - strong [ref=e184]: "47"
+                    - text: Tags
+            - generic [ref=e185]:
+              - combobox "Go to file" [ref=e193]
+              - button "Code" [ref=e194] [cursor=pointer]
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - heading "Folders and files" [level=2] [ref=e199]
+              - table "Folders and files" [ref=e200]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message"
+                    - columnheader "Last commit date"
+                - rowgroup [ref=e201]:
+                  - row [ref=e202]:
+                    - 'cell "Latest commit farion1231 commits by farion1231 docs(readme): add SubRouter sponsor entry across four locales success Commit 1cc52c7 · Jul 14, 202620 minutes ago History 2,125 Commits" [ref=e203]':
+                      - generic [ref=e204]:
+                        - heading "Latest commit" [level=2] [ref=e205]
+                        - generic [ref=e206]:
+                          - generic [ref=e208]:
+                            - link [ref=e209] [cursor=pointer]:
+                              - /url: /farion1231
+                              - img "farion1231" [ref=e210]
+                            - link "commits by farion1231" [ref=e211] [cursor=pointer]:
+                              - /url: /farion1231/cc-switch/commits?author=farion1231
+                              - text: farion1231
+                          - generic [ref=e212]:
+                            - 'link "docs(readme): add SubRouter sponsor entry across four locales" [ref=e215] [cursor=pointer]':
+                              - /url: /farion1231/cc-switch/commit/1cc52c7e736105b2765f7d51c38c67f909454912
+                            - button "success" [ref=e216] [cursor=pointer]
+                        - generic [ref=e219]:
+                          - generic [ref=e221]:
+                            - link "Commit 1cc52c7" [ref=e222] [cursor=pointer]:
+                              - /url: /farion1231/cc-switch/commit/1cc52c7e736105b2765f7d51c38c67f909454912
+                              - text: 1cc52c7
+                            - text: ·
+                            - generic "Jul 14, 2026, 22:46 GMT+8" [ref=e223]: Jul 14, 202620 minutes ago
+                          - generic [ref=e224]:
+                            - heading "History" [level=2] [ref=e225]
+                            - link "2,125 Commits" [ref=e226] [cursor=pointer]:
+                              - /url: /farion1231/cc-switch/commits/main/
+                  - row [ref=e229]:
+                    - cell [ref=e230]:
+                      - link ".github, (Directory)" [ref=e237] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/.github
+                        - text: .github
+                    - cell [ref=e238]:
+                      - 'link "ci: harden release supply chain" [ref=e241] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/468c93d4090502ecaf713e040734f88322f42e01
+                    - cell "Jul 7, 2026last week" [ref=e242]
+                  - row [ref=e244]:
+                    - cell [ref=e245]:
+                      - link "assets, (Directory)" [ref=e252] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/assets
+                        - text: assets
+                    - cell [ref=e253]:
+                      - 'link "docs(readme): add SubRouter sponsor entry across four locales" [ref=e256] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/1cc52c7e736105b2765f7d51c38c67f909454912
+                    - cell "Jul 14, 202620 minutes ago" [ref=e257]
+                  - row [ref=e259]:
+                    - cell [ref=e260]:
+                      - link "docs, (Directory)" [ref=e267] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/docs
+                        - text: docs
+                    - cell [ref=e268]:
+                      - 'link "docs(guides): add Codex + Claude local routing guide in three languages" [ref=e271] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/c8b0d60c2d796c214ed76a2461494d3bac06094c
+                    - cell "Jul 14, 202611 hours ago" [ref=e272]
+                  - row [ref=e274]:
+                    - cell [ref=e275]:
+                      - link "flatpak, (Directory)" [ref=e282] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/flatpak
+                        - text: flatpak
+                    - cell [ref=e283]:
+                      - 'link "docs: fix outdated README content and sync across languages" [ref=e286] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/2b9b5b0bc3d343882b70c38fdaad610eea750e99
+                    - cell "Apr 2, 20263 months ago" [ref=e287]
+                  - row [ref=e289]:
+                    - cell [ref=e290]:
+                      - link "scripts, (Directory)" [ref=e297] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/scripts
+                        - text: scripts
+                    - cell [ref=e298]:
+                      - 'link "chore: remove generate-icon-index.js to prevent accidental regeneration" [ref=e301] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/7526a031a7ba02a79e511a106edda9d0f597fc06
+                    - cell "Apr 10, 20263 months ago" [ref=e302]
+                  - row [ref=e304]:
+                    - cell [ref=e305]:
+                      - link "src-tauri, (Directory)" [ref=e312] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/src-tauri
+                        - text: src-tauri
+                    - cell [ref=e313]:
+                      - generic [ref=e315]:
+                        - 'link "fix(codex): preserve streamed tool call identity and order (" [ref=e316] [cursor=pointer]':
+                          - /url: /farion1231/cc-switch/commit/6d316c0bdae11d46b30f8b5b95f7d1aaa8dbbe32
+                        - link "#5310" [ref=e317] [cursor=pointer]:
+                          - /url: https://github.com/farion1231/cc-switch/pull/5310
+                        - link ")" [ref=e318] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/commit/6d316c0bdae11d46b30f8b5b95f7d1aaa8dbbe32
+                    - cell "Jul 14, 20263 hours ago" [ref=e319]
+                  - row [ref=e321]:
+                    - cell [ref=e322]:
+                      - link "src, (Directory)" [ref=e329] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/src
+                        - text: src
+                    - cell [ref=e330]:
+                      - 'link "fix(i18n): add missing proxyReasonAnthropicMessages key across locales" [ref=e333] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/7e73a1ffb2d89c56543dd981b63b64aabb2035a4
+                    - cell "Jul 14, 202611 hours ago" [ref=e334]
+                  - row [ref=e336]:
+                    - cell [ref=e337]:
+                      - link "tests, (Directory)" [ref=e344] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/tree/main/tests
+                        - text: tests
+                    - cell [ref=e345]:
+                      - 'link "refactor(presets): pin context window values instead of form fields" [ref=e348] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/99573d2242108d9b188ea8ee71affed9e0809023
+                    - cell "Jul 13, 2026yesterday" [ref=e349]
+                  - row [ref=e351]:
+                    - cell [ref=e352]:
+                      - link ".gitattributes, (File)" [ref=e359] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/.gitattributes
+                        - text: .gitattributes
+                    - cell [ref=e360]:
+                      - 'link "fix: add .gitattributes to resolve line ending inconsistencies" [ref=e363] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/07b870488d49447be8f0fb5775af401a5a008d6f
+                    - cell "Sep 6, 202510 months ago" [ref=e364]
+                  - row [ref=e366]:
+                    - cell [ref=e367]:
+                      - link ".gitignore, (File)" [ref=e374] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/.gitignore
+                        - text: .gitignore
+                    - cell [ref=e375]:
+                      - 'link "ci: harden release supply chain" [ref=e378] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/468c93d4090502ecaf713e040734f88322f42e01
+                    - cell "Jul 7, 2026last week" [ref=e379]
+                  - row [ref=e381]:
+                    - cell [ref=e382]:
+                      - link ".node-version, (File)" [ref=e389] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/.node-version
+                        - text: .node-version
+                    - cell [ref=e390]:
+                      - 'link "chore: touch config files to normalize commit messages" [ref=e393] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/f1cad257770207dbb6da5b1eb7a47a3217aad4c5
+                    - cell "Mar 15, 20264 months ago" [ref=e394]
+                  - row [ref=e396]:
+                    - cell [ref=e397]:
+                      - link "CHANGELOG.md, (File)" [ref=e404] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/CHANGELOG.md
+                        - text: CHANGELOG.md
+                    - cell [ref=e405]:
+                      - 'link "chore(release): v3.17.0" [ref=e408] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/c154d30b7a7ff3de379eec5d4c723b3200ce116d
+                    - cell "Jul 13, 2026yesterday" [ref=e409]
+                  - row [ref=e411]:
+                    - cell [ref=e412]:
+                      - link "CODE_OF_CONDUCT.md, (File)" [ref=e419] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/CODE_OF_CONDUCT.md
+                        - text: CODE_OF_CONDUCT.md
+                    - cell [ref=e420]:
+                      - 'link "docs: add CONTRIBUTING.md, SECURITY.md, and CODE_OF_CONDUCT.md" [ref=e423] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/6e2baaefa689b2a69b340e504d9cc73aa231817c
+                    - cell "Apr 2, 20263 months ago" [ref=e424]
+                  - row [ref=e426]:
+                    - cell [ref=e427]:
+                      - link "CONTRIBUTING.md, (File)" [ref=e434] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/CONTRIBUTING.md
+                        - text: CONTRIBUTING.md
+                    - cell [ref=e435]:
+                      - 'link "docs: add CONTRIBUTING.md, SECURITY.md, and CODE_OF_CONDUCT.md" [ref=e438] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/6e2baaefa689b2a69b340e504d9cc73aa231817c
+                    - cell "Apr 2, 20263 months ago" [ref=e439]
+                  - row [ref=e441]:
+                    - cell [ref=e442]:
+                      - link "LICENSE, (File)" [ref=e449] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/LICENSE
+                        - text: LICENSE
+                    - cell [ref=e450]:
+                      - 'link "feat: add prettier formatter and MIT license" [ref=e453] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/2cf116280f403e9fc2c04d10e1864b06617d2608
+                    - cell "Aug 29, 202511 months ago" [ref=e454]
+                  - row [ref=e456]:
+                    - cell [ref=e457]:
+                      - link "README.md, (File)" [ref=e464] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/README.md
+                        - text: README.md
+                    - cell [ref=e465]:
+                      - 'link "docs(readme): add SubRouter sponsor entry across four locales" [ref=e468] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/1cc52c7e736105b2765f7d51c38c67f909454912
+                    - cell "Jul 14, 202620 minutes ago" [ref=e469]
+                  - row [ref=e471]:
+                    - cell [ref=e472]:
+                      - link "README_DE.md, (File)" [ref=e479] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/README_DE.md
+                        - text: README_DE.md
+                    - cell [ref=e480]:
+                      - 'link "docs(readme): add SubRouter sponsor entry across four locales" [ref=e483] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/1cc52c7e736105b2765f7d51c38c67f909454912
+                    - cell "Jul 14, 202620 minutes ago" [ref=e484]
+                  - row [ref=e486]:
+                    - cell [ref=e487]:
+                      - link "README_JA.md, (File)" [ref=e494] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/README_JA.md
+                        - text: README_JA.md
+                    - cell [ref=e495]:
+                      - 'link "docs(readme): add SubRouter sponsor entry across four locales" [ref=e498] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/1cc52c7e736105b2765f7d51c38c67f909454912
+                    - cell "Jul 14, 202620 minutes ago" [ref=e499]
+                  - row [ref=e501]:
+                    - cell [ref=e502]:
+                      - link "README_ZH.md, (File)" [ref=e509] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/README_ZH.md
+                        - text: README_ZH.md
+                    - cell [ref=e510]:
+                      - 'link "docs(readme): add SubRouter sponsor entry across four locales" [ref=e513] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/1cc52c7e736105b2765f7d51c38c67f909454912
+                    - cell "Jul 14, 202620 minutes ago" [ref=e514]
+                  - row [ref=e516]:
+                    - cell [ref=e517]:
+                      - link "SECURITY.md, (File)" [ref=e524] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/SECURITY.md
+                        - text: SECURITY.md
+                    - cell [ref=e525]:
+                      - 'link "docs: add CONTRIBUTING.md, SECURITY.md, and CODE_OF_CONDUCT.md" [ref=e528] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/6e2baaefa689b2a69b340e504d9cc73aa231817c
+                    - cell "Apr 2, 20263 months ago" [ref=e529]
+                  - row [ref=e531]:
+                    - cell [ref=e532]:
+                      - link "SUPPORT.md, (File)" [ref=e539] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/SUPPORT.md
+                        - text: SUPPORT.md
+                    - cell [ref=e540]:
+                      - 'link "docs: add SUPPORT.md and FUNDING.yml" [ref=e543] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/bae369b0dc199a16553b6f94c0e5800fad7bba91
+                    - cell "Apr 2, 20263 months ago" [ref=e544]
+                  - row [ref=e546]:
+                    - cell [ref=e547]:
+                      - link "components.json, (File)" [ref=e554] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/components.json
+                        - text: components.json
+                    - cell [ref=e555]:
+                      - 'link "chore: touch config files to normalize commit messages" [ref=e558] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/f1cad257770207dbb6da5b1eb7a47a3217aad4c5
+                    - cell "Mar 15, 20264 months ago" [ref=e559]
+                  - row [ref=e561]:
+                    - cell [ref=e562]:
+                      - link "deplink.html, (File)" [ref=e569] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/deplink.html
+                        - text: deplink.html
+                    - cell [ref=e570]:
+                      - generic [ref=e572]:
+                        - link "Feat/deeplink multi endpoints (" [ref=e573] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/commit/8f7423f011a980043f8e1124c1ebff87fa5e857e
+                        - link "#597" [ref=e574] [cursor=pointer]:
+                          - /url: https://github.com/farion1231/cc-switch/pull/597
+                        - link ")" [ref=e575] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/commit/8f7423f011a980043f8e1124c1ebff87fa5e857e
+                    - cell "Jan 12, 20266 months ago" [ref=e576]
+                  - row [ref=e578]:
+                    - cell [ref=e579]:
+                      - link "package.json, (File)" [ref=e586] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/package.json
+                        - text: package.json
+                    - cell [ref=e587]:
+                      - 'link "chore(release): v3.17.0" [ref=e590] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/c154d30b7a7ff3de379eec5d4c723b3200ce116d
+                    - cell "Jul 13, 2026yesterday" [ref=e591]
+                  - row [ref=e593]:
+                    - cell [ref=e594]:
+                      - link "pnpm-lock.yaml, (File)" [ref=e601] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/pnpm-lock.yaml
+                        - text: pnpm-lock.yaml
+                    - cell [ref=e602]:
+                      - 'link "perf: virtualize session message list for long conversations" [ref=e605] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/7ae89e9106ae2f038869c3fc88e1cf8a2a5ffb9f
+                    - cell "Apr 14, 20263 months ago" [ref=e606]
+                  - row [ref=e608]:
+                    - cell [ref=e609]:
+                      - link "pnpm-workspace.yaml, (File)" [ref=e616] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/pnpm-workspace.yaml
+                        - text: pnpm-workspace.yaml
+                    - cell [ref=e617]:
+                      - 'link "chore(pnpm): settle build-script approvals for esbuild and msw" [ref=e620] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/358bf1e2b777b40606c9e2a198ee270b9ec9f664
+                    - cell "Jul 7, 2026last week" [ref=e621]
+                  - row [ref=e623]:
+                    - cell [ref=e624]:
+                      - link "postcss.config.cjs, (File)" [ref=e631] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/postcss.config.cjs
+                        - text: postcss.config.cjs
+                    - cell [ref=e632]:
+                      - 'link "chore: touch config files to normalize commit messages" [ref=e635] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/f1cad257770207dbb6da5b1eb7a47a3217aad4c5
+                    - cell "Mar 15, 20264 months ago" [ref=e636]
+                  - row [ref=e638]:
+                    - cell [ref=e639]:
+                      - link "rust-toolchain.toml, (File)" [ref=e646] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/rust-toolchain.toml
+                        - text: rust-toolchain.toml
+                    - cell [ref=e647]:
+                      - 'link "chore(lint): pin Rust toolchain to 1.95 and adopt clippy 1.95 suggest…" [ref=e650] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/d03e6f9951f4af0e8410cceb40e6d8f5c3a9b372
+                    - cell "Apr 21, 20263 months ago" [ref=e651]
+                  - row [ref=e653]:
+                    - cell [ref=e654]:
+                      - link "session-manager.md, (File)" [ref=e661] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/session-manager.md
+                        - text: session-manager.md
+                    - cell [ref=e662]:
+                      - generic [ref=e664]:
+                        - 'link "feat: session manger (" [ref=e665] [cursor=pointer]':
+                          - /url: /farion1231/cc-switch/commit/f0e8ba1d8fe30b0085a053fdfbda8b522faf7b7f
+                        - link "#867" [ref=e666] [cursor=pointer]:
+                          - /url: https://github.com/farion1231/cc-switch/pull/867
+                        - link ")" [ref=e667] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/commit/f0e8ba1d8fe30b0085a053fdfbda8b522faf7b7f
+                    - cell "Feb 2, 20265 months ago" [ref=e668]
+                  - row [ref=e670]:
+                    - cell [ref=e671]:
+                      - link "tailwind.config.cjs, (File)" [ref=e678] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/tailwind.config.cjs
+                        - text: tailwind.config.cjs
+                    - cell [ref=e679]:
+                      - generic [ref=e681]:
+                        - 'link "fix: change darkMode selector to use .dark class (" [ref=e682] [cursor=pointer]':
+                          - /url: /farion1231/cc-switch/commit/72f570b99e46b5437bc0e0d2052fe4e556b1b2ca
+                        - link "#1596" [ref=e683] [cursor=pointer]:
+                          - /url: https://github.com/farion1231/cc-switch/pull/1596
+                        - link ")" [ref=e684] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/commit/72f570b99e46b5437bc0e0d2052fe4e556b1b2ca
+                    - cell "Mar 21, 20264 months ago" [ref=e685]
+                  - row [ref=e687]:
+                    - cell [ref=e688]:
+                      - link "tsconfig.json, (File)" [ref=e695] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/tsconfig.json
+                        - text: tsconfig.json
+                    - cell [ref=e696]:
+                      - 'link "fix: resolve TypeScript type errors in test files" [ref=e699] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/bfab1d0ccb5df7cb6c7b3e957cdf123947f12b29
+                    - cell "Oct 27, 20259 months ago" [ref=e700]
+                  - row [ref=e702]:
+                    - cell [ref=e703]:
+                      - link "tsconfig.node.json, (File)" [ref=e710] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/tsconfig.node.json
+                        - text: tsconfig.node.json
+                    - cell [ref=e711]:
+                      - 'link "chore: touch config files to normalize commit messages" [ref=e714] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/f1cad257770207dbb6da5b1eb7a47a3217aad4c5
+                    - cell "Mar 15, 20264 months ago" [ref=e715]
+                  - row [ref=e717]:
+                    - cell [ref=e718]:
+                      - link "vite.config.ts, (File)" [ref=e725] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/vite.config.ts
+                        - text: vite.config.ts
+                    - cell [ref=e726]:
+                      - 'link "chore: touch config files to normalize commit messages" [ref=e729] [cursor=pointer]':
+                        - /url: /farion1231/cc-switch/commit/f1cad257770207dbb6da5b1eb7a47a3217aad4c5
+                    - cell "Mar 15, 20264 months ago" [ref=e730]
+                  - row [ref=e732]:
+                    - cell [ref=e733]:
+                      - link "vitest.config.ts, (File)" [ref=e740] [cursor=pointer]:
+                        - /url: /farion1231/cc-switch/blob/main/vitest.config.ts
+                        - text: vitest.config.ts
+                    - cell [ref=e741]:
+                      - generic [ref=e743]:
+                        - link "Feat/pricing config enhancement (" [ref=e744] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/commit/785e1b5add5ed0f7c26445c11e1f38a76cd42fb0
+                        - link "#781" [ref=e745] [cursor=pointer]:
+                          - /url: https://github.com/farion1231/cc-switch/pull/781
+                        - link ")" [ref=e746] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/commit/785e1b5add5ed0f7c26445c11e1f38a76cd42fb0
+                    - cell "Jan 27, 20266 months ago" [ref=e747]
+            - generic [ref=e750]:
+              - generic [ref=e751]:
+                - heading "Repository files navigation" [level=2] [ref=e752]
+                - navigation "Repository files" [ref=e753]:
+                  - list [ref=e754]:
+                    - listitem [ref=e755]:
+                      - link "README" [ref=e756] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e761]:
+                      - link "Code of conduct" [ref=e762] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e767]:
+                      - link "Contributing" [ref=e768] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e773]:
+                      - link "MIT license" [ref=e774] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e779]:
+                      - link "Security" [ref=e780] [cursor=pointer]:
+                        - /url: "#"
+                - button "Outline" [ref=e785] [cursor=pointer]
+              - article [ref=e789]:
+                - generic [ref=e790]:
+                  - generic [ref=e791]:
+                    - heading "CC Switch" [level=1] [ref=e792]
+                    - 'link "Permalink: CC Switch" [ref=e793] [cursor=pointer]':
+                      - /url: "#cc-switch"
+                  - generic [ref=e796]:
+                    - heading "The All-in-One Manager for Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw & Hermes Agent" [level=3] [ref=e797]
+                    - 'link "Permalink: The All-in-One Manager for Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw & Hermes Agent" [ref=e798] [cursor=pointer]':
+                      - /url: "#the-all-in-one-manager-for-claude-code-claude-desktop-codex-gemini-cli-opencode-openclaw--hermes-agent"
+                  - paragraph [ref=e801]:
+                    - link [ref=e802] [cursor=pointer]:
+                      - /url: https://github.com/farion1231/cc-switch/releases
+                      - img "Version" [ref=e803]
+                    - link [ref=e804] [cursor=pointer]:
+                      - /url: https://github.com/farion1231/cc-switch/releases
+                      - img "Platform" [ref=e805]
+                    - link [ref=e806] [cursor=pointer]:
+                      - /url: https://tauri.app/
+                      - img "Built with Tauri" [ref=e807]
+                    - link [ref=e808] [cursor=pointer]:
+                      - /url: https://github.com/farion1231/cc-switch/releases/latest
+                      - img "Downloads" [ref=e809]
+                  - paragraph [ref=e810]:
+                    - link [ref=e811] [cursor=pointer]:
+                      - /url: https://trendshift.io/repositories/15372
+                      - img "farion1231%2Fcc-switch | Trendshift" [ref=e812]
+                    - link [ref=e813] [cursor=pointer]:
+                      - /url: https://www.star-history.com/#farion1231/cc-switch&Date
+                      - img "Star History Rank" [ref=e816]
+                  - generic [ref=e817]:
+                    - heading [level=3] [ref=e818]:
+                      - text: "🌐 The Only Official Website:"
+                      - strong [ref=e819]:
+                        - link "ccswitch.io" [ref=e820] [cursor=pointer]:
+                          - /url: https://ccswitch.io
+                    - 'link "Permalink: 🌐 The Only Official Website: ccswitch.io" [ref=e821] [cursor=pointer]':
+                      - /url: "#-the-only-official-website-ccswitchio"
+                  - paragraph [ref=e824]:
+                    - text: English |
+                    - link "中文" [ref=e825] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/blob/main/README_ZH.md
+                    - text: "|"
+                    - link "日本語" [ref=e826] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/blob/main/README_JA.md
+                    - text: "|"
+                    - link "Deutsch" [ref=e827] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/blob/main/README_DE.md
+                    - text: "|"
+                    - link "Changelog" [ref=e828] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/blob/main/CHANGELOG.md
+                - generic [ref=e829]:
+                  - heading "❤️Sponsor" [level=2] [ref=e830]
+                  - 'link "Permalink: ❤️Sponsor" [ref=e831] [cursor=pointer]':
+                    - /url: "#️sponsor"
+                - blockquote [ref=e834]:
+                  - paragraph [ref=e835]:
+                    - link "Want to appear here?" [ref=e836] [cursor=pointer]:
+                      - /url: mailto:farion1231@gmail.com
+                - group [ref=e837]:
+                  - generic "Click to collapse" [ref=e838] [cursor=pointer]
+                  - paragraph [ref=e839]:
+                    - link [ref=e840] [cursor=pointer]:
+                      - /url: https://platform.kimi.ai?aff=cc-switch
+                      - img "Kimi K2.7 Code" [ref=e841]
+                  - paragraph [ref=e842]:
+                    - text: Kimi K2.7 Code is an open-source, coding-focused agentic model developed by Moonshot AI. It delivers stronger coding and agent performance, with substantial improvements in real-world long-horizon coding tasks. These gains translate into higher end-to-end task success rates across complex software engineering workflows. K2.7 Code also improves reasoning efficiency, reducing thinking-token usage by approximately 30% compared with K2.6.
+                    - strong [ref=e843]:
+                      - link "Click here to start using Kimi" [ref=e844] [cursor=pointer]:
+                        - /url: https://platform.kimi.ai?aff=cc-switch
+                  - paragraph [ref=e845]:
+                    - text: Doing mostly coding work? Try the
+                    - strong [ref=e846]:
+                      - link "Kimi For Coding plan" [ref=e847] [cursor=pointer]:
+                        - /url: https://www.kimi.com/code/?aff=cc-switch
+                    - text: — a subscription service built for coding!
+                  - separator [ref=e848]
+                  - table [ref=e850]:
+                    - rowgroup [ref=e851]:
+                      - row [ref=e852]:
+                        - cell [ref=e853]:
+                          - link [ref=e854] [cursor=pointer]:
+                            - /url: https://www.packyapi.com/register?aff=cc-switch
+                            - img "PackyCode" [ref=e855]
+                        - cell [ref=e856]:
+                          - text: "Thanks to PackyCode for sponsoring this project! PackyCode is a reliable and efficient API relay service provider, offering relay services for Claude Code, Codex, Gemini, and more. PackyCode provides special discounts for our software users: register using"
+                          - link "this link" [ref=e857] [cursor=pointer]:
+                            - /url: https://www.packyapi.com/register?aff=cc-switch
+                          - text: and enter the "cc-switch" promo code during first recharge to get 10% off.
+                      - row [ref=e858]:
+                        - cell [ref=e859]:
+                          - link [ref=e860] [cursor=pointer]:
+                            - /url: https://aigocode.com/invite/CC-SWITCH
+                            - img "AIGoCode" [ref=e861]
+                        - cell [ref=e862]:
+                          - text: "Thanks to AIGoCode for sponsoring this project! AIGoCode is an all-in-one platform that integrates Claude Code, Codex, and the latest Gemini models, providing you with stable, efficient, and highly cost-effective AI coding services. The platform offers flexible subscription plans, zero risk of account suspension, direct access with no VPN required, and lightning-fast responses. AIGoCode has prepared a special benefit for CC Switch users: if you register via"
+                          - link "this link" [ref=e863] [cursor=pointer]:
+                            - /url: https://aigocode.com/invite/CC-SWITCH
+                          - text: ", you'll receive an extra 10% bonus credit on your first top-up!"
+                      - row [ref=e864]:
+                        - cell [ref=e865]:
+                          - link [ref=e866] [cursor=pointer]:
+                            - /url: https://www.aicodemirror.com/register?invitecode=9915W3
+                            - img "AICodeMirror" [ref=e867]
+                        - cell [ref=e868]:
+                          - text: "Thanks to AICodeMirror for sponsoring this project! AICodeMirror provides official high-stability relay services for Claude Code / Codex / Gemini CLI, with enterprise-grade concurrency, fast invoicing, and 24/7 dedicated technical support. Claude Code / Codex / Gemini official channels at 38% / 2% / 9% of original price, with extra discounts on top-ups! AICodeMirror offers special benefits for CC Switch users: register via"
+                          - link "this link" [ref=e869] [cursor=pointer]:
+                            - /url: https://www.aicodemirror.com/register?invitecode=9915W3
+                          - text: to enjoy 20% off your first top-up, and enterprise customers can get up to 25% off!
+                      - row [ref=e870]:
+                        - cell [ref=e871]:
+                          - link [ref=e872] [cursor=pointer]:
+                            - /url: https://www.shengsuanyun.com/?from=CH_4HHXMRYF
+                            - img "Shengsuanyun" [ref=e873]
+                        - cell [ref=e874]:
+                          - text: Thanks to Shengsuanyun for sponsoring this project! Shengsuanyun is a super factory serving AI Native Teams — an industrial-grade AI task parallel execution platform. Its model marketplace aggregates Claude, ChatGPT, Gemini, and other domestic and international LLM and multimedia model capabilities with direct supply. Absolutely no reverse engineering or dilution — platform-wide model SLA availability reaches 99.7%, with
+                          - link "monitoring dashboards" [ref=e875] [cursor=pointer]:
+                            - /url: https://watch.shengsuanyun.com/status/shengsuanyun
+                          - text: showing green across the board. It also offers enterprise-grade custom gateways for fine-grained team cost and permission management, smart routing, security protection, and BYOK (Bring Your Own Key) hosting. The platform charges on a pay-per-use and tokens plan (coming soon) basis, with invoicing available. Register via
+                          - link "this link" [ref=e876] [cursor=pointer]:
+                            - /url: https://www.shengsuanyun.com/?from=CH_4HHXMRYF
+                          - text: as a new user to receive ¥10 in credits plus a 10% bonus on your first top-up.
+                      - row [ref=e877]:
+                        - cell [ref=e878]:
+                          - link [ref=e879] [cursor=pointer]:
+                            - /url: https://pateway.ai/?ch=etzpm8&aff=WB6M6F67#/
+                            - img "PatewayAI" [ref=e880]
+                        - cell [ref=e881]:
+                          - text: Thanks to PatewayAI for sponsoring this project! PatewayAI is an API relay service provider built for heavy AI developers, focused on directly relaying official high-quality model APIs. It offers the full Claude lineup and the Codex series, 100% sourced from official channels — no dilution, no fakes, verification welcome. Billing is transparent and every token-level invoice can be audited line by line. It also supports enterprise-grade concurrency and provides a dedicated management platform for enterprise customers — formal contracts and invoicing are available; visit the official website for contact details. Register now via
+                          - link "this link" [ref=e882] [cursor=pointer]:
+                            - /url: https://pateway.ai/?ch=etzpm8&aff=WB6M6F67#/
+                          - text: to receive $3 in trial credit. Top-ups go as low as 60% of the original price, with a two-way referral bonus of up to $150!
+                      - row [ref=e883]:
+                        - cell [ref=e884]:
+                          - link [ref=e885] [cursor=pointer]:
+                            - /url: https://teamorouter.com/?utm_source=cc_switch&utm_medium=referral&utm_campaign=ai_directory
+                            - img "TeamoRouter" [ref=e886]
+                        - cell [ref=e887]:
+                          - text: Thanks to TeamoRouter for sponsoring this project! TeamoRouter is an enterprise-grade Agentic LLM gateway built for developers, AI teams, and businesses. Without requiring any subscriptions, it lets you access Claude Code, Codex, Gemini CLI, OpenAI Codex, and other popular AI agents through a single unified API, while offering API pricing at discounts of up to 90%. Unlike typical API relay services, TeamoRouter aggregates hundreds of official model providers and trusted infrastructure partners, including OpenAI, Anthropic, Vertex, Azure, and AWS bedrock. Every provider is verified for 100% Agent protocol compatibility, cache performance, and request traceability, ensuring stable quality instead of reverse-engineered or diluted endpoints. The platform delivers near-official TTFT, 99.6% SLA, enterprise-scale throughput up to 5,000 QPM, and industry-leading cache hit rates that dramatically reduce token costs for long-running agent workflows. TeamoRouter also offers enterprise features including centralized billing, team management, BYOK, smart routing, usage analytics, dynamic provider optimization, and dedicated support. For an even simpler experience, Teamo Desktop lets you use Claude Code, Codex, Gemini CLI, and other popular AI agents with one-click setup—no API key management or manual gateway configuration required. Register via
+                          - link "this link" [ref=e888] [cursor=pointer]:
+                            - /url: https://teamorouter.com/?utm_source=cc_switch&utm_medium=referral&utm_campaign=ai_directory
+                          - text: as a new user to receive 10% off your first top-up.
+                      - row [ref=e889]:
+                        - cell [ref=e890]:
+                          - link [ref=e891] [cursor=pointer]:
+                            - /url: https://zetaapi.ai/go/ccs
+                            - img "ZetaAPI" [ref=e892]
+                        - cell [ref=e893]:
+                          - text: Thanks to ZetaAPI for sponsoring this project! ZetaAPI focuses on real model fidelity, no watered-down responses, no quality degradation, and pricing as low as 35% of official rates. The platform does not mix traffic, secretly replace models with lower-quality alternatives, or use fake model routing. It supports Claude Code, Codex, Gemini, ChatGPT, and other mainstream AI models, helping users significantly reduce API costs while maintaining reliable model quality. At the same time, ZetaAPI provides enterprise-grade SLA-backed stability, standard API compatibility, one API key for multiple models, fast integration, and pay-as-you-go billing, making it suitable for AI products, coding agents, internal business tools, customer service systems, content generation, and automation workflows. If any model is verified to be inconsistent with its stated quality, ZetaAPI backs it with a 10x compensation guarantee, giving users a more stable, transparent, and trustworthy experience. Register via
+                          - link "this link" [ref=e894] [cursor=pointer]:
+                            - /url: https://zetaapi.ai/go/ccs
+                          - text: and use the promo code CC-SWITCH during your first recharge to enjoy an exclusive 10% discount on your first top-up, just for CC Switch users!
+                      - row [ref=e895]:
+                        - cell [ref=e896]:
+                          - link [ref=e897] [cursor=pointer]:
+                            - /url: https://www.byteplus.com/en/product/modelark?utm_campaign=hw&utm_content=ccswitch&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=ccswitch
+                            - img "BytePlus" [ref=e898]
+                        - cell [ref=e899]:
+                          - text: Thanks to Dola seed for sponsoring this project! Dola Seed 2.0 is a full‑modal general large model independently developed by ByteDance for the global market. Built on a unified multimodal architecture, it supports joint understanding and generation of text, images, audio, and video. It natively enables agent collaboration, with strong reasoning, long‑task execution, tool integration, and coding capabilities. It is widely applicable to smart cockpits, personal assistants, education, customer support, marketing, retail, and other scenarios. It excels in multimodal perception, end‑to‑end complex task delivery, stable interaction, and data security, and is readily accessible and deployable via the ModelArk platform.Register via
+                          - link "this link" [ref=e900] [cursor=pointer]:
+                            - /url: https://www.byteplus.com/en/product/modelark?utm_campaign=hw&utm_content=ccswitch&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=ccswitch
+                          - text: to get 500,000 tokens of free inference quota per model.
+                          - link ">>中国大陆地区的开发者请点击这里" [ref=e901] [cursor=pointer]:
+                            - /url: https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=ccswitch
+                      - row [ref=e902]:
+                        - cell [ref=e903]:
+                          - link [ref=e904] [cursor=pointer]:
+                            - /url: https://cloud.siliconflow.cn/i/YflgU2Ve
+                            - img "SiliconFlow" [ref=e905]
+                        - cell [ref=e906]:
+                          - text: Thanks to SiliconFlow for sponsoring this project! SiliconFlow is a high-performance AI infrastructure and model API platform, providing fast and reliable access to language, speech, image, and video models in one place. With pay-as-you-go billing, broad multimodal model support, high-speed inference, and enterprise-grade stability, SiliconFlow helps developers and teams build and scale AI applications more efficiently. Register via
+                          - link "this link" [ref=e907] [cursor=pointer]:
+                            - /url: https://cloud.siliconflow.cn/i/YflgU2Ve
+                          - text: and complete real-name verification to receive ¥16 in bonus credit, usable across models on the platform. SiliconFlow is also now compatible with OpenClaw, allowing users to connect a SiliconFlow API key and call major AI models for free.
+                      - row [ref=e908]:
+                        - cell [ref=e909]:
+                          - link [ref=e910] [cursor=pointer]:
+                            - /url: https://cubence.com/signup?code=CCSWITCH&source=ccs
+                            - img "Cubence" [ref=e911]
+                        - cell [ref=e912]:
+                          - text: "Thanks to Cubence for sponsoring this project! Cubence is a reliable and efficient API relay service provider, offering relay services for Claude Code, Codex, Gemini, and more with flexible billing options including pay-as-you-go and monthly plans. Cubence provides special discounts for CC Switch users: register using"
+                          - link "this link" [ref=e913] [cursor=pointer]:
+                            - /url: https://cubence.com/signup?code=CCSWITCH&source=ccs
+                          - text: and enter the "CCSWITCH" promo code during recharge to get 10% off every top-up!
+                      - row [ref=e914]:
+                        - cell [ref=e915]:
+                          - link [ref=e916] [cursor=pointer]:
+                            - /url: https://www.dmxapi.cn/register?aff=bUHu
+                            - img "DMXAPI" [ref=e917]
+                        - cell [ref=e918]:
+                          - text: "Thanks to DMXAPI for sponsoring this project! DMXAPI provides global large model API services to 200+ enterprise users. One API key for all global models. Features include: instant invoicing, unlimited concurrency, starting from $0.15, 24/7 technical support. GPT/Claude/Gemini all at 32% off, domestic models 20-50% off, Claude Code exclusive models at 66% off!"
+                          - link "Register here" [ref=e919] [cursor=pointer]:
+                            - /url: https://www.dmxapi.cn/register?aff=bUHu
+                      - row [ref=e920]:
+                        - cell [ref=e921]:
+                          - link [ref=e922] [cursor=pointer]:
+                            - /url: https://www.compshare.cn/coding-plan?ytag=GPU_YY_YX_git_cc-switch
+                            - img "Compshare" [ref=e923]
+                        - cell [ref=e924]:
+                          - text: Thanks to Compshare for sponsoring this project! Compshare is UCloud's AI cloud platform, providing stable and comprehensive domestic and international model APIs with just one key. Featuring cost-effective monthly and per-use domestic-model Coding Plan packages, alongside stable officially-relayed overseas models. Supports Claude Code, Codex, and API access. Enterprise-grade high concurrency, 24/7 technical support, and self-service invoicing. Users who register via
+                          - link "this link" [ref=e925] [cursor=pointer]:
+                            - /url: https://www.compshare.cn/coding-plan?ytag=GPU_YY_YX_git_cc-switch
+                          - text: will receive a free 5 CNY platform trial credit!
+                      - row [ref=e926]:
+                        - cell [ref=e927]:
+                          - link [ref=e928] [cursor=pointer]:
+                            - /url: https://crazyrouter.com/register?aff=OZcm&ref=cc-switch
+                            - img "Crazyrouter" [ref=e929]
+                        - cell [ref=e930]:
+                          - text: "Thanks to Crazyrouter for sponsoring this project! Crazyrouter is a high-performance AI API aggregation platform — one API key for 300+ models including Claude Code, Codex, Gemini CLI, and more. All models at 55% of official pricing with auto-failover, smart routing, and unlimited concurrency. Crazyrouter offers an exclusive deal for CC Switch users: register via"
+                          - link "this link" [ref=e931] [cursor=pointer]:
+                            - /url: https://crazyrouter.com/register?aff=OZcm&ref=cc-switch
+                          - text: and contact customer support to claim
+                          - strong [ref=e932]: $2 free credit
+                          - text: ", plus enter promo code `CCSWITCH` on your first top-up for an extra"
+                          - strong [ref=e933]: 30% bonus credit
+                          - text: "!"
+                      - row [ref=e934]:
+                        - cell [ref=e935]:
+                          - link [ref=e936] [cursor=pointer]:
+                            - /url: https://www.right.codes/register?aff=CCSWITCH
+                            - img "RightCode" [ref=e937]
+                        - cell [ref=e938]:
+                          - text: "Thank you to Right Code for sponsoring this project! Right Code reliably provides routing services for models such as Claude Code, Codex, and Gemini, with both pay-as-you-go and monthly subscription billing options available. Invoices are available upon top-up, and enterprise and team users can receive dedicated one-on-one support. Right Code also offers an exclusive discount for CC Switch users: register via"
+                          - link "this link" [ref=e939] [cursor=pointer]:
+                            - /url: https://www.right.codes/register?aff=CCSWITCH
+                          - text: ", and with every top-up you will receive pay-as-you-go credit equivalent to 5% of the amount paid."
+                      - row [ref=e940]:
+                        - cell [ref=e941]:
+                          - link [ref=e942] [cursor=pointer]:
+                            - /url: https://www.sssaicode.com/register?ref=DCP0SM
+                            - img "SSSAiCode" [ref=e943]
+                        - cell [ref=e944]:
+                          - text: "Thanks to SSSAiCode for sponsoring this project! SSSAiCode is a stable and reliable API relay service, dedicated to providing stable, reliable, and affordable Claude and Codex model services, with same-day fast invoicing. SSSAiCode offers a special deal for CC Switch users: register via"
+                          - link "this link" [ref=e945] [cursor=pointer]:
+                            - /url: https://www.sssaicode.com/register?ref=DCP0SM
+                          - text: to enjoy $10 extra credit on every top-up!
+                      - row [ref=e946]:
+                        - cell [ref=e947]:
+                          - link [ref=e948] [cursor=pointer]:
+                            - /url: https://www.micuapi.ai/register?aff=aOYQ
+                            - img "Micu" [ref=e949]
+                        - cell [ref=e950]:
+                          - text: "Thanks to Micu API for sponsoring this project! Micu API is a global LLM relay service provider dedicated to delivering the best cost-performance ratio with high stability. Backed by a registered enterprise for core assurance, eliminating any risk of service discontinuation, with fast official invoicing support! We champion \"zero cost to try\": top up from as low as ¥1 with no minimum, and get fee-free refunds anytime! Micu API offers an exclusive deal for CC Switch users: register via"
+                          - link "this link" [ref=e951] [cursor=pointer]:
+                            - /url: https://www.micuapi.ai/register?aff=aOYQ
+                          - text: and enter promo code "ccswitch" when topping up to enjoy a
+                          - strong [ref=e952]: 10% discount
+                          - text: "!"
+                      - row [ref=e953]:
+                        - cell [ref=e954]:
+                          - link [ref=e955] [cursor=pointer]:
+                            - /url: https://etok.ai
+                            - img "ETok" [ref=e956]
+                        - cell [ref=e957]:
+                          - text: Thanks to ETok.ai for sponsoring this project! ETok.ai is dedicated to building a one-stop AI programming tool service platform. We offer professional Claude Code packages and technical community services, with support for Google Gemini and OpenAI Codex. Through carefully designed plans and a professional tech community, we provide developers with reliable service guarantees and continuous technical support, making AI-assisted programming a true productivity tool. Click
+                          - link "here" [ref=e958] [cursor=pointer]:
+                            - /url: https://etok.ai
+                          - text: to register!
+                      - row [ref=e959]:
+                        - cell [ref=e960]:
+                          - link [ref=e961] [cursor=pointer]:
+                            - /url: https://console.claudeapi.com/register?aff=pCLD
+                            - img "ClaudeAPI" [ref=e962]
+                        - cell [ref=e963]:
+                          - text: This project is sponsored by
+                          - link "Claude API" [ref=e964] [cursor=pointer]:
+                            - /url: https://console.claudeapi.com/register?aff=pCLD
+                          - text: . Direct Claude API access — connect Claude Code and Agent apps in 3 minutes. New users can claim a free trial credit.Powered by official Anthropic API keys + AWS Bedrock official channels. No reverse engineering, no model degradation. Full support for Opus / Sonnet / Haiku model lineup, with official capabilities preserved including Tool Use, 1M context window, and more. Built for Claude Code power users, Agent engineers, and enterprise engineering teams. Invoicing and dedicated team support available. Click
+                          - link "here" [ref=e965] [cursor=pointer]:
+                            - /url: https://console.claudeapi.com/register?aff=pCLD
+                          - text: to register!
+                      - row [ref=e966]:
+                        - cell [ref=e967]:
+                          - link [ref=e968] [cursor=pointer]:
+                            - /url: https://code0.ai/agent/register/B2XHxGjGmRvqgznY
+                            - img "code0.ai" [ref=e969]
+                        - cell [ref=e970]:
+                          - text: Thanks to
+                          - link "code0.ai" [ref=e971] [cursor=pointer]:
+                            - /url: https://code0.ai/agent/register/B2XHxGjGmRvqgznY
+                          - text: for sponsoring this project! code0.ai is an AI coding service platform built for developers, supporting Claude Code, Codex, Gemini, and other mainstream AI coding capabilities. It helps individual developers and teams use AI Agents more stably and efficiently for coding, debugging, refactoring, and automation workflows. ccswitch users can contact customer support via the
+                          - link "code0.ai website" [ref=e972] [cursor=pointer]:
+                            - /url: https://code0.ai/agent/register/B2XHxGjGmRvqgznY
+                          - text: to claim test credits and experience a reliable AI coding service.
+                      - row [ref=e973]:
+                        - cell [ref=e974]:
+                          - link [ref=e975] [cursor=pointer]:
+                            - /url: https://claudecn.top
+                            - img "ClaudeCN" [ref=e976]
+                        - cell [ref=e977]:
+                          - text: Thanks to ClaudeCN for sponsoring this project! ClaudeCN is an enterprise-grade AI gateway platform operated by a registered company. It delivers high-availability commercial API access to popular models including Claude, GPT, and DeepSeek, and is built around formal enterprise procurement workflows — corporate bank transfers, signed contracts, and full compliance. Register via
+                          - link "this link" [ref=e978] [cursor=pointer]:
+                            - /url: https://claudecn.top
+                          - text: "!"
+                      - row [ref=e979]:
+                        - cell [ref=e980]:
+                          - link [ref=e981] [cursor=pointer]:
+                            - /url: https://runapi.co
+                            - img "RunAPI" [ref=e982]
+                        - cell [ref=e983]:
+                          - text: "Thanks to RunAPI for sponsoring this project! RunAPI is a high-performance and reliable AI model API gateway — one API key gives you access to 150+ mainstream models including OpenAI, Claude, Gemini, DeepSeek, and Grok, with prices as low as 10% of the official rate and excellent stability. It works seamlessly with Claude Code, OpenClaw, and other tools. Exclusive benefit for CC Switch users: register and contact customer support to claim a free ¥14 credit. Register via"
+                          - link "this link" [ref=e984] [cursor=pointer]:
+                            - /url: https://runapi.co
+                          - text: "!"
+                      - row [ref=e985]:
+                        - cell [ref=e986]:
+                          - link [ref=e987] [cursor=pointer]:
+                            - /url: https://apikey.fun/register?aff=CCSwitch
+                            - img "APIKEY.FUN" [ref=e988]
+                        - cell [ref=e989]:
+                          - text: Thanks to APIKEY.FUN for sponsoring this project! APIKEY.FUN is a professional enterprise-grade AI relay platform dedicated to providing stable, efficient, and low-cost AI model API access for enterprises and individual developers. The platform supports popular mainstream models such as Claude, OpenAI, and Gemini, with prices as low as 7% of official rates. Register through this project's
+                          - link "exclusive link" [ref=e990] [cursor=pointer]:
+                            - /url: https://apikey.fun/register?aff=CCSwitch
+                          - text: to enjoy an exclusive offer of up to
+                          - strong [ref=e991]: permanent 5% off top-ups
+                          - text: .
+                      - row [ref=e992]:
+                        - cell [ref=e993]:
+                          - link [ref=e994] [cursor=pointer]:
+                            - /url: https://apinebula.com/02rw5X
+                            - img "APINebula" [ref=e995]
+                        - cell [ref=e996]:
+                          - text: "Thanks to APINEBULA for sponsoring this project! APINEBULA, an enterprise-grade AI aggregation platform under Galaxy Video Bureau, leverages extensive platform resources to provide developers, teams, and enterprises with stable, cost-effective access to large language model APIs. The platform integrates leading, full-powered models like Claude, GPT, and Gemini, allowing you to connect to the world's top AI models through a single API, with prices starting as low as 10% of the original cost. Designed for AI programming, Agent development, and business system integration, APINEBULA supports enterprise-grade high concurrency, formal contracts, corporate bank transfers, and invoicing services. APINEBULA provides special discounts for our software users: register using"
+                          - link "this link" [ref=e997] [cursor=pointer]:
+                            - /url: https://apinebula.com/02rw5X
+                          - text: and enter the
+                          - strong [ref=e998]: "\"ccswitch\""
+                          - text: promo code during your first recharge to get
+                          - strong [ref=e999]: 10% off
+                          - text: .
+                      - row [ref=e1000]:
+                        - cell [ref=e1001]:
+                          - link [ref=e1002] [cursor=pointer]:
+                            - /url: https://www.atlascloud.ai/coding-plan?utm_source=github&utm_campaign=cc-switch
+                            - img "Atlas Cloud" [ref=e1003]
+                        - cell [ref=e1004]:
+                          - text: Atlas Cloud is a full-modal AI inference platform that gives developers a single AI API to access video generation, image generation, and LLM APIs. Instead of managing multiple vendor integrations, you connect once and get unified access to 300+ curated models across all modalities. Check out Atlas Cloud's new
+                          - link "coding plan" [ref=e1005] [cursor=pointer]:
+                            - /url: https://www.atlascloud.ai/coding-plan?utm_source=github&utm_campaign=cc-switch
+                          - text: promotion for more budget-friendly API access!
+                      - row [ref=e1006]:
+                        - cell [ref=e1007]:
+                          - link [ref=e1008] [cursor=pointer]:
+                            - /url: https://www.ccsub.net/register?ref=Y6Z8DXEA
+                            - img "CCSub" [ref=e1009]
+                        - cell [ref=e1010]:
+                          - text: Thanks to CCSub for sponsoring this project! CCSub is a stable, affordable AI API relay platform — your drop-in replacement for a Claude.ai subscription. One API key gives you access to Claude Opus 4.8, Sonnet, Haiku, GPT-5, Gemini, and DeepSeek at roughly 30% of direct API cost, with no VPN required from anywhere in the world. Compatible with Claude Code, Codex, Cursor, Cline, Continue, Windsurf, and all major AI coding tools. Register via
+                          - link "this link" [ref=e1011] [cursor=pointer]:
+                            - /url: https://www.ccsub.net/register?ref=Y6Z8DXEA
+                          - text: and get $5 free credit on sign-up.
+                      - row [ref=e1012]:
+                        - cell [ref=e1013]:
+                          - link [ref=e1014] [cursor=pointer]:
+                            - /url: https://unity2.ai/register?source=ccs
+                            - img "Unity2.ai" [ref=e1015]
+                        - cell [ref=e1016]:
+                          - text: Thanks to Unity2.ai for sponsoring this project! Unity2.ai is a high-performance AI model API relay platform for individual developers, teams, and enterprises. Long trusted by leading companies in China, it serves over 30 billion tokens per day and supports high concurrency at the 5,000 RPM level. It offers balance-based billing, first top-up bonuses, bundle subscriptions, corporate invoicing, and dedicated support. Register via
+                          - link "this link" [ref=e1017] [cursor=pointer]:
+                            - /url: https://unity2.ai/register?source=ccs
+                          - text: to get $2 in credits, plus another $10 for joining the official group — up to $12 in free credits!
+                      - row [ref=e1018]:
+                        - cell [ref=e1019]:
+                          - link [ref=e1020] [cursor=pointer]:
+                            - /url: https://api.fenno.ai/register?redirect=/purchase?tab=subscription%26group=16&aff=P9MR3D3PLCNL
+                            - img "Fenno.ai" [ref=e1021]
+                        - cell [ref=e1022]:
+                          - text: "Thanks to Fenno.ai for sponsoring this project! Fenno.ai is a stable and efficient API relay service provider, currently focused on Codex relay. It is compatible with the OpenAI and Anthropic protocols and can be flexibly used from Codex, Claude Code, OpenCode, and other mainstream coding tools. It reliably supports enterprise-grade workloads of hundreds of billions of tokens per day, with corporate (B2B) settlement and invoicing for both domestic and overseas entities. Fenno.ai offers an exclusive benefit for CC Switch users: subscribe via"
+                          - link "this link" [ref=e1023] [cursor=pointer]:
+                            - /url: https://api.fenno.ai/register?redirect=/purchase?tab=subscription%26group=16&aff=P9MR3D3PLCNL
+                          - text: to the incredible ¥9.9 Coding Plan worth $150 in credits, and earn up to 20% in referral rewards — invite more, earn more!
+                      - row [ref=e1024]:
+                        - cell [ref=e1025]:
+                          - link [ref=e1026] [cursor=pointer]:
+                            - /url: https://nekocode.ai?aff=CCSWITCH
+                            - img "NekoCode" [ref=e1027]
+                        - cell [ref=e1028]:
+                          - text: Thanks to
+                          - link "NekoCode" [ref=e1029] [cursor=pointer]:
+                            - /url: https://nekocode.ai?aff=CCSWITCH
+                          - text: "for sponsoring this project! NekoCode provides developers with a stable, efficient, and reliable API relay service for Claude, Codex, and other AI models. With transparent pricing and flexible pay-as-you-go billing, it offers a simple and cost-effective way to access AI models. CC Switch users can enjoy an exclusive 10% discount: register via"
+                          - link "this link" [ref=e1030] [cursor=pointer]:
+                            - /url: https://nekocode.ai?aff=CCSWITCH
+                          - text: and enter promo code
+                          - code [ref=e1031]: cc-switch
+                          - text: during recharge to receive 10% off your top-up!
+                      - row [ref=e1032]:
+                        - cell [ref=e1033]:
+                          - link [ref=e1034] [cursor=pointer]:
+                            - /url: https://www.newapi.ai/
+                            - img "new-api" [ref=e1035]
+                        - cell [ref=e1036]:
+                          - text: Thanks to the open-source AI infrastructure project
+                          - link "new-api" [ref=e1037] [cursor=pointer]:
+                            - /url: https://www.newapi.ai/
+                          - text: "for its strong support of this project! new-api is an open-source AI infrastructure project from QuantumNous and one of the leading unified LLM access-and-distribution projects by activity and adoption, focused on helping developers, teams, and enterprises build manageable, scalable AI service platforms at lower cost. As a fellow project rooted in the open-source ecosystem, new-api hopes to sponsor and support the continued growth of more outstanding open-source projects. 🌟 Star new-api to show your support:"
+                          - link "https://github.com/QuantumNous/new-api" [ref=e1038] [cursor=pointer]:
+                            - /url: https://github.com/QuantumNous/new-api
+                          - text: ". Website:"
+                          - link "https://www.newapi.ai/" [ref=e1039] [cursor=pointer]:
+                            - /url: https://www.newapi.ai/
+                          - text: .
+                      - row [ref=e1040]:
+                        - cell [ref=e1041]:
+                          - link [ref=e1042] [cursor=pointer]:
+                            - /url: https://subrouter.ai/register?aff=l3ri
+                            - img "SubRouter" [ref=e1043]
+                        - cell [ref=e1044]:
+                          - text: Thanks to SubRouter for sponsoring this project! SubRouter is a marketplace and smart routing platform for AI service operators. Merchants can launch operating sites, publish packages, manage users, models, and pricing, while users discover services and access reliable AI models through one unified API. Register via
+                          - link "this link" [ref=e1045] [cursor=pointer]:
+                            - /url: https://subrouter.ai/register?aff=l3ri
+                          - text: "!"
+                - generic [ref=e1046]:
+                  - heading "Why CC Switch?" [level=2] [ref=e1047]
+                  - 'link "Permalink: Why CC Switch?" [ref=e1048] [cursor=pointer]':
+                    - /url: "#why-cc-switch"
+                - paragraph [ref=e1051]:
+                  - text: Modern AI-powered coding relies on tools like Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw, and Hermes — but each has its own configuration format. Switching API providers means manually editing JSON, TOML, or
+                  - code [ref=e1052]: .env
+                  - text: files, and there is no unified way to manage MCP and Skills across multiple tools.
+                - paragraph [ref=e1053]:
+                  - strong [ref=e1054]: CC Switch
+                  - text: gives you a single desktop app to manage all supported AI tools. Instead of editing config files by hand, you get a visual interface to import providers with one click, switch between them instantly, with 50+ built-in provider presets, unified MCP and Skills management, and system tray quick switching — all backed by a reliable SQLite database with atomic writes that protect your configs from corruption.
+                - list [ref=e1055]:
+                  - listitem [ref=e1056]:
+                    - strong [ref=e1057]: One App, Seven Tools
+                    - text: — Manage Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw, and Hermes from a single interface
+                  - listitem [ref=e1058]:
+                    - strong [ref=e1059]: No More Manual Editing
+                    - text: — 50+ provider presets including AWS Bedrock, NVIDIA NIM, and community relays; just pick and switch
+                  - listitem [ref=e1060]:
+                    - strong [ref=e1061]: Unified MCP & Skills Management
+                    - text: — One panel to manage MCP servers and Skills across Claude, Codex, Gemini, OpenCode, and Hermes with bidirectional sync
+                  - listitem [ref=e1062]:
+                    - strong [ref=e1063]: System Tray Quick Switch
+                    - text: — Switch providers instantly from the tray menu, no need to open the full app
+                  - listitem [ref=e1064]:
+                    - strong [ref=e1065]: Cloud Sync
+                    - text: — Sync provider data across devices via Dropbox, OneDrive, iCloud, or WebDAV servers
+                  - listitem [ref=e1066]:
+                    - strong [ref=e1067]: Cross-Platform
+                    - text: — Native desktop app for Windows, macOS, and Linux, built with Tauri 2
+                  - listitem [ref=e1068]:
+                    - strong [ref=e1069]: Built-in Utilities
+                    - text: — Includes various utilities for first-launch login confirmation, signature bypass, plugin extension sync, and more
+                - generic [ref=e1070]:
+                  - heading "Screenshots" [level=2] [ref=e1071]
+                  - 'link "Permalink: Screenshots" [ref=e1072] [cursor=pointer]':
+                    - /url: "#screenshots"
+                - table [ref=e1076]:
+                  - rowgroup [ref=e1077]:
+                    - row [ref=e1078]:
+                      - columnheader "Main Interface" [ref=e1079]
+                      - columnheader "Add Provider" [ref=e1080]
+                  - rowgroup [ref=e1081]:
+                    - row [ref=e1082]:
+                      - cell [ref=e1083]:
+                        - link [ref=e1084] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/blob/main/assets/screenshots/main-en.png
+                          - img "Main Interface" [ref=e1085]
+                      - cell [ref=e1086]:
+                        - link [ref=e1087] [cursor=pointer]:
+                          - /url: /farion1231/cc-switch/blob/main/assets/screenshots/add-en.png
+                          - img "Add Provider" [ref=e1088]
+                - generic [ref=e1089]:
+                  - heading "Features" [level=2] [ref=e1090]
+                  - 'link "Permalink: Features" [ref=e1091] [cursor=pointer]':
+                    - /url: "#features"
+                - paragraph [ref=e1094]:
+                  - link "Full Changelog" [ref=e1095] [cursor=pointer]:
+                    - /url: /farion1231/cc-switch/blob/main/CHANGELOG.md
+                  - text: "|"
+                  - link "Release Notes" [ref=e1096] [cursor=pointer]:
+                    - /url: /farion1231/cc-switch/blob/main/docs/release-notes/v3.16.1-en.md
+                - generic [ref=e1097]:
+                  - heading "Provider Management" [level=3] [ref=e1098]
+                  - 'link "Permalink: Provider Management" [ref=e1099] [cursor=pointer]':
+                    - /url: "#provider-management"
+                - list [ref=e1102]:
+                  - listitem [ref=e1103]:
+                    - strong [ref=e1104]: 7 supported tools, 50+ presets
+                    - text: — Claude Code, Claude Desktop, Codex, Gemini CLI, OpenCode, OpenClaw, Hermes; copy your key and import with one click
+                  - listitem [ref=e1105]:
+                    - strong [ref=e1106]: Universal providers
+                    - text: — One config syncs to Claude Code, Codex, and Gemini CLI
+                  - listitem [ref=e1107]: One-click switching, system tray quick access, drag-and-drop sorting, import/export
+                - generic [ref=e1108]:
+                  - heading "Proxy & Failover" [level=3] [ref=e1109]
+                  - 'link "Permalink: Proxy & Failover" [ref=e1110] [cursor=pointer]':
+                    - /url: "#proxy--failover"
+                - list [ref=e1113]:
+                  - listitem [ref=e1114]:
+                    - strong [ref=e1115]: Local proxy with hot-switching
+                    - text: — Format conversion, auto-failover, circuit breaker, provider health monitoring, and request rectifier
+                  - listitem [ref=e1116]:
+                    - strong [ref=e1117]: App-level takeover
+                    - text: — Independently proxy Claude, Codex, or Gemini, down to individual providers
+                - generic [ref=e1118]:
+                  - heading "MCP, Prompts & Skills" [level=3] [ref=e1119]
+                  - 'link "Permalink: MCP, Prompts & Skills" [ref=e1120] [cursor=pointer]':
+                    - /url: "#mcp-prompts--skills"
+                - list [ref=e1123]:
+                  - listitem [ref=e1124]:
+                    - strong [ref=e1125]: Unified MCP panel
+                    - text: — Manage MCP servers across Claude, Codex, Gemini, OpenCode, and Hermes with bidirectional sync and Deep Link import
+                  - listitem [ref=e1126]:
+                    - strong [ref=e1127]: Prompts
+                    - text: — Markdown editor with cross-app sync (CLAUDE.md / AGENTS.md / GEMINI.md) and backfill protection
+                  - listitem [ref=e1128]:
+                    - strong [ref=e1129]: Skills
+                    - text: — One-click install from GitHub repos or ZIP files, custom repository management, with symlink and file copy support
+                - generic [ref=e1130]:
+                  - heading "Usage & Cost Tracking" [level=3] [ref=e1131]
+                  - 'link "Permalink: Usage & Cost Tracking" [ref=e1132] [cursor=pointer]':
+                    - /url: "#usage--cost-tracking"
+                - list [ref=e1135]:
+                  - listitem [ref=e1136]:
+                    - strong [ref=e1137]: Usage dashboard
+                    - text: — Track spending, requests, and tokens with trend charts, detailed request logs, and custom per-model pricing
+                - generic [ref=e1138]:
+                  - heading "Session Manager & Workspace" [level=3] [ref=e1139]
+                  - 'link "Permalink: Session Manager & Workspace" [ref=e1140] [cursor=pointer]':
+                    - /url: "#session-manager--workspace"
+                - list [ref=e1143]:
+                  - listitem [ref=e1144]: Browse, search, and restore conversation history across supported session sources
+                  - listitem [ref=e1145]:
+                    - strong [ref=e1146]: Workspace editor
+                    - text: (OpenClaw) — Edit agent files (AGENTS.md, SOUL.md, etc.) with Markdown preview
+                - generic [ref=e1147]:
+                  - heading "System & Platform" [level=3] [ref=e1148]
+                  - 'link "Permalink: System & Platform" [ref=e1149] [cursor=pointer]':
+                    - /url: "#system--platform"
+                - list [ref=e1152]:
+                  - listitem [ref=e1153]:
+                    - strong [ref=e1154]: Cloud sync
+                    - text: — Custom config directory (Dropbox, OneDrive, iCloud, NAS) and WebDAV server sync
+                  - listitem [ref=e1155]:
+                    - strong [ref=e1156]: Deep Link
+                    - text: (
+                    - code [ref=e1157]: ccswitch://
+                    - text: ) — Import providers, MCP servers, prompts, and skills via URL
+                  - listitem [ref=e1158]: Dark / Light / System theme, auto-launch, auto-updater, atomic writes, auto-backups, i18n (zh/zh-TW/en/ja)
+                - generic [ref=e1159]:
+                  - heading "FAQ" [level=2] [ref=e1160]
+                  - 'link "Permalink: FAQ" [ref=e1161] [cursor=pointer]':
+                    - /url: "#faq"
+                - group [ref=e1164]:
+                  - strong [ref=e1166] [cursor=pointer]: Which AI tools does CC Switch support?
+                - group [ref=e1167]:
+                  - strong [ref=e1169] [cursor=pointer]: Do I need to restart the terminal after switching providers?
+                - group [ref=e1170]:
+                  - strong [ref=e1172] [cursor=pointer]: My plugin configuration disappeared after switching providers — what happened?
+                - group [ref=e1173]:
+                  - strong [ref=e1175] [cursor=pointer]: macOS installation
+                - group [ref=e1176]:
+                  - strong [ref=e1178] [cursor=pointer]: Why can't I delete the currently active provider?
+                - group [ref=e1179]:
+                  - strong [ref=e1181] [cursor=pointer]: How do I switch back to official login?
+                - group [ref=e1182]:
+                  - strong [ref=e1184] [cursor=pointer]: Where is my data stored?
+                - group [ref=e1185]:
+                  - strong [ref=e1187] [cursor=pointer]: "Linux (Wayland + NVIDIA): clicks don't register and the window black-screens on resize"
+                - generic [ref=e1188]:
+                  - heading "Documentation" [level=2] [ref=e1189]
+                  - 'link "Permalink: Documentation" [ref=e1190] [cursor=pointer]':
+                    - /url: "#documentation"
+                - paragraph [ref=e1193]:
+                  - text: For detailed guides on every feature, check out the
+                  - strong [ref=e1194]:
+                    - link "User Manual" [ref=e1195] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/blob/main/docs/user-manual/en/README.md
+                  - text: — covering provider management, MCP/Prompts/Skills, proxy & failover, and more.
+                - generic [ref=e1196]:
+                  - heading "Quick Start" [level=2] [ref=e1197]
+                  - 'link "Permalink: Quick Start" [ref=e1198] [cursor=pointer]':
+                    - /url: "#quick-start"
+                - generic [ref=e1201]:
+                  - heading "Basic Usage" [level=3] [ref=e1202]
+                  - 'link "Permalink: Basic Usage" [ref=e1203] [cursor=pointer]':
+                    - /url: "#basic-usage"
+                - list [ref=e1206]:
+                  - listitem [ref=e1207]:
+                    - strong [ref=e1208]: Add Provider
+                    - text: ": Click \"Add Provider\" → Choose a preset or create custom configuration"
+                  - listitem [ref=e1209]:
+                    - strong [ref=e1210]: Switch Provider
+                    - text: ":"
+                    - list [ref=e1211]:
+                      - listitem [ref=e1212]: "Main UI: Select provider → Click \"Enable\""
+                      - listitem [ref=e1213]: "System Tray: Click provider name directly (instant effect)"
+                  - listitem [ref=e1214]:
+                    - strong [ref=e1215]: Takes Effect
+                    - text: ": Restart your terminal or the corresponding CLI tool to apply changes (Claude Code does not require a restart)"
+                  - listitem [ref=e1216]:
+                    - strong [ref=e1217]: Back to Official
+                    - text: ": Add an \"Official Login\" preset, restart the CLI tool, then follow its login/OAuth flow"
+                - generic [ref=e1218]:
+                  - heading "MCP, Prompts, Skills & Sessions" [level=3] [ref=e1219]
+                  - 'link "Permalink: MCP, Prompts, Skills & Sessions" [ref=e1220] [cursor=pointer]':
+                    - /url: "#mcp-prompts-skills--sessions"
+                - list [ref=e1223]:
+                  - listitem [ref=e1224]:
+                    - strong [ref=e1225]: MCP
+                    - text: ": Click the \"MCP\" button → Add servers via templates or custom config → Toggle per-app sync"
+                  - listitem [ref=e1226]:
+                    - strong [ref=e1227]: Prompts
+                    - text: ": Click \"Prompts\" → Create presets with Markdown editor → Activate to sync to live files"
+                  - listitem [ref=e1228]:
+                    - strong [ref=e1229]: Skills
+                    - text: ": Click \"Skills\" → Browse GitHub repos → One-click install to supported apps"
+                  - listitem [ref=e1230]:
+                    - strong [ref=e1231]: Sessions
+                    - text: ": Click \"Sessions\" → Browse, search, and restore conversation history across supported session sources"
+                - blockquote [ref=e1232]:
+                  - paragraph [ref=e1233]:
+                    - strong [ref=e1234]: Note
+                    - text: ": On first launch, you can manually import existing CLI tool configs as the default provider."
+                - generic [ref=e1235]:
+                  - heading "Download & Installation" [level=2] [ref=e1236]
+                  - 'link "Permalink: Download & Installation" [ref=e1237] [cursor=pointer]':
+                    - /url: "#download--installation"
+                - generic [ref=e1240]:
+                  - heading "System Requirements" [level=3] [ref=e1241]
+                  - 'link "Permalink: System Requirements" [ref=e1242] [cursor=pointer]':
+                    - /url: "#system-requirements"
+                - list [ref=e1245]:
+                  - listitem [ref=e1246]:
+                    - strong [ref=e1247]: Windows
+                    - text: ": Windows 10 and above"
+                  - listitem [ref=e1248]:
+                    - strong [ref=e1249]: macOS
+                    - text: ": macOS 12 (Monterey) and above"
+                  - listitem [ref=e1250]:
+                    - strong [ref=e1251]: Linux
+                    - text: ": Ubuntu 22.04+ / Debian 11+ / Fedora 34+ and other mainstream distributions"
+                - generic [ref=e1252]:
+                  - heading "Windows Users" [level=3] [ref=e1253]
+                  - 'link "Permalink: Windows Users" [ref=e1254] [cursor=pointer]':
+                    - /url: "#windows-users"
+                - paragraph [ref=e1257]:
+                  - text: Download the latest
+                  - code [ref=e1258]: "CC-Switch-v{version}-Windows.msi"
+                  - text: installer or
+                  - code [ref=e1259]: "CC-Switch-v{version}-Windows-Portable.zip"
+                  - text: portable version from the
+                  - link "Releases" [ref=e1260] [cursor=pointer]:
+                    - /url: /farion1231/cc-switch/releases
+                  - text: page.
+                - generic [ref=e1261]:
+                  - heading "macOS Users" [level=3] [ref=e1262]
+                  - 'link "Permalink: macOS Users" [ref=e1263] [cursor=pointer]':
+                    - /url: "#macos-users"
+                - paragraph [ref=e1266]:
+                  - strong [ref=e1267]: "Method 1: Install via Homebrew (Recommended)"
+                - generic [ref=e1268]:
+                  - generic [ref=e1269]: brew install --cask cc-switch
+                  - button "Copy code to clipboard" [ref=e1271] [cursor=pointer]
+                - paragraph [ref=e1275]: "Update:"
+                - generic [ref=e1276]:
+                  - generic [ref=e1277]: brew upgrade --cask cc-switch
+                  - button "Copy code to clipboard" [ref=e1279] [cursor=pointer]
+                - paragraph [ref=e1283]:
+                  - strong [ref=e1284]: "Method 2: Manual Download"
+                - paragraph [ref=e1285]:
+                  - text: Download
+                  - code [ref=e1286]: "CC-Switch-v{version}-macOS.dmg"
+                  - text: (recommended) or
+                  - code [ref=e1287]: .zip
+                  - text: from the
+                  - link "Releases" [ref=e1288] [cursor=pointer]:
+                    - /url: /farion1231/cc-switch/releases
+                  - text: page.
+                - blockquote [ref=e1289]:
+                  - paragraph [ref=e1290]:
+                    - strong [ref=e1291]: Note
+                    - text: ": CC Switch for macOS is code-signed and notarized by Apple. You can install and open it directly."
+                - generic [ref=e1292]:
+                  - heading "Arch Linux Users" [level=3] [ref=e1293]
+                  - 'link "Permalink: Arch Linux Users" [ref=e1294] [cursor=pointer]':
+                    - /url: "#arch-linux-users"
+                - paragraph [ref=e1297]:
+                  - strong [ref=e1298]: Install via paru (Recommended)
+                - generic [ref=e1299]:
+                  - generic [ref=e1300]: paru -S cc-switch-bin
+                  - button "Copy code to clipboard" [ref=e1302] [cursor=pointer]
+                - generic [ref=e1306]:
+                  - heading "Linux Users" [level=3] [ref=e1307]
+                  - 'link "Permalink: Linux Users" [ref=e1308] [cursor=pointer]':
+                    - /url: "#linux-users"
+                - paragraph [ref=e1311]:
+                  - text: Download the latest Linux build from the
+                  - link "Releases" [ref=e1312] [cursor=pointer]:
+                    - /url: /farion1231/cc-switch/releases
+                  - text: "page:"
+                - list [ref=e1313]:
+                  - listitem [ref=e1314]:
+                    - code [ref=e1315]: "CC-Switch-v{version}-Linux.deb"
+                    - text: (Debian/Ubuntu)
+                  - listitem [ref=e1316]:
+                    - code [ref=e1317]: "CC-Switch-v{version}-Linux.rpm"
+                    - text: (Fedora/RHEL/openSUSE)
+                  - listitem [ref=e1318]:
+                    - code [ref=e1319]: "CC-Switch-v{version}-Linux.AppImage"
+                    - text: (Universal)
+                - blockquote [ref=e1320]:
+                  - paragraph [ref=e1321]:
+                    - strong [ref=e1322]: Flatpak
+                    - text: ": Not included in official releases. You can build it yourself from the"
+                    - code [ref=e1323]: .deb
+                    - text: — see
+                    - link [ref=e1324] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/blob/main/flatpak/README.md
+                      - code [ref=e1325]: flatpak/README.md
+                    - text: for instructions.
+                - group [ref=e1326]:
+                  - strong [ref=e1328] [cursor=pointer]: Architecture Overview
+                - group [ref=e1329]:
+                  - strong [ref=e1331] [cursor=pointer]: Development Guide
+                - group [ref=e1332]:
+                  - strong [ref=e1334] [cursor=pointer]: Project Structure
+                - generic [ref=e1335]:
+                  - heading "Contributing" [level=2] [ref=e1336]
+                  - 'link "Permalink: Contributing" [ref=e1337] [cursor=pointer]':
+                    - /url: "#contributing"
+                - paragraph [ref=e1340]: Issues and suggestions are welcome!
+                - paragraph [ref=e1341]: "Before submitting PRs, please ensure:"
+                - list [ref=e1342]:
+                  - listitem [ref=e1343]:
+                    - text: "Pass type check:"
+                    - code [ref=e1344]: pnpm typecheck
+                  - listitem [ref=e1345]:
+                    - text: "Pass format check:"
+                    - code [ref=e1346]: pnpm format:check
+                  - listitem [ref=e1347]:
+                    - text: "Pass unit tests:"
+                    - code [ref=e1348]: pnpm test:unit
+                - paragraph [ref=e1349]: For new features, please open an issue for discussion before submitting a PR. PRs for features that are not a good fit for the project may be closed.
+                - generic [ref=e1350]:
+                  - heading "Star History" [level=2] [ref=e1351]
+                  - 'link "Permalink: Star History" [ref=e1352] [cursor=pointer]':
+                    - /url: "#star-history"
+                - paragraph [ref=e1355]:
+                  - link [ref=e1356] [cursor=pointer]:
+                    - /url: https://www.star-history.com/#farion1231/cc-switch&Date
+                    - img "Star History Chart" [ref=e1357]
+                - generic [ref=e1358]:
+                  - heading "License" [level=2] [ref=e1359]
+                  - 'link "Permalink: License" [ref=e1360] [cursor=pointer]':
+                    - /url: "#license"
+                - paragraph [ref=e1363]: MIT © Jason Young
+        - generic [ref=e1367]:
+          - generic [ref=e1370]:
+            - heading "About" [level=2] [ref=e1371]
+            - paragraph [ref=e1372]: "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io"
+            - link "ccswitch.io" [ref=e1377] [cursor=pointer]:
+              - /url: https://ccswitch.io
+            - heading "Topics" [level=3] [ref=e1378]
+            - generic [ref=e1380]:
+              - link "desktop-app" [ref=e1381] [cursor=pointer]:
+                - /url: /topics/desktop-app
+              - link "rust" [ref=e1382] [cursor=pointer]:
+                - /url: /topics/rust
+              - link "open-source" [ref=e1383] [cursor=pointer]:
+                - /url: /topics/open-source
+              - link "typescript" [ref=e1384] [cursor=pointer]:
+                - /url: /topics/typescript
+              - link "skills" [ref=e1385] [cursor=pointer]:
+                - /url: /topics/skills
+              - link "mcp" [ref=e1386] [cursor=pointer]:
+                - /url: /topics/mcp
+              - link "opencode" [ref=e1387] [cursor=pointer]:
+                - /url: /topics/opencode
+              - link "hermes" [ref=e1388] [cursor=pointer]:
+                - /url: /topics/hermes
+              - link "minimax" [ref=e1389] [cursor=pointer]:
+                - /url: /topics/minimax
+              - link "codex" [ref=e1390] [cursor=pointer]:
+                - /url: /topics/codex
+              - link "tauri" [ref=e1391] [cursor=pointer]:
+                - /url: /topics/tauri
+              - link "omo" [ref=e1392] [cursor=pointer]:
+                - /url: /topics/omo
+              - link "wsl-support" [ref=e1393] [cursor=pointer]:
+                - /url: /topics/wsl-support
+              - link "skills-management" [ref=e1394] [cursor=pointer]:
+                - /url: /topics/skills-management
+              - link "ai-tools" [ref=e1395] [cursor=pointer]:
+                - /url: /topics/ai-tools
+              - link "provider-management" [ref=e1396] [cursor=pointer]:
+                - /url: /topics/provider-management
+              - link "claude-code" [ref=e1397] [cursor=pointer]:
+                - /url: /topics/claude-code
+              - link "openclaw" [ref=e1398] [cursor=pointer]:
+                - /url: /topics/openclaw
+              - link "openclaw-ui" [ref=e1399] [cursor=pointer]:
+                - /url: /topics/openclaw-ui
+              - link "hermes-agent" [ref=e1400] [cursor=pointer]:
+                - /url: /topics/hermes-agent
+            - heading "Resources" [level=3] [ref=e1401]
+            - link "Readme" [ref=e1403] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+            - heading "License" [level=3] [ref=e1406]
+            - link "MIT license" [ref=e1408] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+            - heading "Code of conduct" [level=3] [ref=e1411]
+            - link "Code of conduct" [ref=e1413] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+            - heading "Contributing" [level=3] [ref=e1416]
+            - link "Contributing" [ref=e1418] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+            - heading "Security policy" [level=3] [ref=e1421]
+            - link "Security policy" [ref=e1423] [cursor=pointer]:
+              - /url: "#security-ov-file"
+            - link "Activity" [ref=e1427] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/activity
+            - heading "Stars" [level=3] [ref=e1430]
+            - generic [ref=e1432]:
+              - strong [ref=e1435]: 117k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1436]
+            - generic [ref=e1438]:
+              - strong [ref=e1441]: "204"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1442]
+            - link [ref=e1444] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/forks
+              - strong [ref=e1447]: 7.8k
+              - text: forks
+            - link "Report repository" [ref=e1449] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Ffarion1231%2Fcc-switch&report=farion1231+%28user%29
+          - generic [ref=e1451]:
+            - heading [level=2] [ref=e1452]:
+              - link "Releases 46" [ref=e1453] [cursor=pointer]:
+                - /url: /farion1231/cc-switch/releases
+                - text: Releases
+                - generic "46" [ref=e1454]
+            - link "CC Switch v3.17.0 Latest Jul 13, 2026yesterday" [ref=e1455] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/releases/tag/v3.17.0
+              - generic [ref=e1458]:
+                - generic [ref=e1459]:
+                  - generic [ref=e1460]: CC Switch v3.17.0
+                  - 'generic "Label: Latest" [ref=e1461]': Latest
+                - generic [ref=e1462]: Jul 13, 2026yesterday
+            - link "+ 45 releases" [ref=e1464] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/releases
+          - generic [ref=e1466]:
+            - heading "Sponsor this project" [level=2] [ref=e1467]
+            - list
+            - list [ref=e1468]:
+              - listitem [ref=e1469]:
+                - link "https://github.com/farion1231/cc-switch/blob/main/README_ZH.md#%E2%9D%A4%EF%B8%8F%E8%B5%9E%E5%8A%A9%E5%95%86" [ref=e1474] [cursor=pointer]:
+                  - /url: https://github.com/farion1231/cc-switch/blob/main/README_ZH.md#%E2%9D%A4%EF%B8%8F%E8%B5%9E%E5%8A%A9%E5%95%86
+          - generic [ref=e1476]:
+            - heading [level=2] [ref=e1477]:
+              - link "Contributors 206" [ref=e1478] [cursor=pointer]:
+                - /url: /farion1231/cc-switch/graphs/contributors
+                - text: Contributors
+                - generic "206" [ref=e1479]
+            - list [ref=e1480]:
+              - listitem [ref=e1481]:
+                - link [ref=e1482] [cursor=pointer]:
+                  - /url: https://github.com/farion1231
+                  - img "@farion1231" [ref=e1483]
+              - listitem [ref=e1484]:
+                - link [ref=e1485] [cursor=pointer]:
+                  - /url: https://github.com/yovinchen
+                  - img "@yovinchen" [ref=e1486]
+              - listitem [ref=e1487]:
+                - link [ref=e1488] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e1489]
+              - listitem [ref=e1490]:
+                - link [ref=e1491] [cursor=pointer]:
+                  - /url: https://github.com/makoMakoGo
+                  - img "@makoMakoGo" [ref=e1492]
+              - listitem [ref=e1493]:
+                - link [ref=e1494] [cursor=pointer]:
+                  - /url: https://github.com/TinsFox
+                  - img "@TinsFox" [ref=e1495]
+              - listitem [ref=e1496]:
+                - link [ref=e1497] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1498]
+              - listitem [ref=e1499]:
+                - link [ref=e1500] [cursor=pointer]:
+                  - /url: https://github.com/SaladDay
+                  - img "@SaladDay" [ref=e1501]
+              - listitem [ref=e1502]:
+                - link [ref=e1503] [cursor=pointer]:
+                  - /url: https://github.com/tianrking
+                  - img "@tianrking" [ref=e1504]
+              - listitem [ref=e1505]:
+                - link [ref=e1506] [cursor=pointer]:
+                  - /url: https://github.com/tisonkun
+                  - img "@tisonkun" [ref=e1507]
+              - listitem [ref=e1508]:
+                - link [ref=e1509] [cursor=pointer]:
+                  - /url: https://github.com/funnytime75
+                  - img "@funnytime75" [ref=e1510]
+              - listitem [ref=e1511]:
+                - link [ref=e1512] [cursor=pointer]:
+                  - /url: https://github.com/thisTom
+                  - img "@thisTom" [ref=e1513]
+              - listitem [ref=e1514]:
+                - link [ref=e1515] [cursor=pointer]:
+                  - /url: https://github.com/majiayu000
+                  - img "@majiayu000" [ref=e1516]
+              - listitem [ref=e1517]:
+                - link [ref=e1518] [cursor=pointer]:
+                  - /url: https://github.com/Mason-mengze
+                  - img "@Mason-mengze" [ref=e1519]
+              - listitem [ref=e1520]:
+                - link [ref=e1521] [cursor=pointer]:
+                  - /url: https://github.com/arichyx
+                  - img "@arichyx" [ref=e1522]
+            - link "+ 192 contributors" [ref=e1524] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/graphs/contributors
+          - generic [ref=e1526]:
+            - heading "Languages" [level=2] [ref=e1527]
+            - list [ref=e1534]:
+              - listitem [ref=e1535]:
+                - link "Rust 63.4%" [ref=e1536] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/search?l=rust
+                  - generic [ref=e1539]: Rust
+                  - generic [ref=e1540]: 63.4%
+              - listitem [ref=e1541]:
+                - link "TypeScript 35.1%" [ref=e1542] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/search?l=typescript
+                  - generic [ref=e1545]: TypeScript
+                  - generic [ref=e1546]: 35.1%
+              - listitem [ref=e1547]:
+                - link "HTML 1.2%" [ref=e1548] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/search?l=html
+                  - generic [ref=e1551]: HTML
+                  - generic [ref=e1552]: 1.2%
+              - listitem [ref=e1553]:
+                - generic [ref=e1554]:
+                  - generic [ref=e1557]: Other
+                  - generic [ref=e1558]: 0.3%
+  - contentinfo [ref=e1560]:
+    - heading "Footer" [level=2] [ref=e1561]
+    - generic [ref=e1562]:
+      - generic [ref=e1563]:
+        - link "GitHub Homepage" [ref=e1564] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e1567]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1568]:
+        - heading "Footer navigation" [level=3] [ref=e1569]
+        - list "Footer navigation" [ref=e1570]:
+          - listitem [ref=e1571]:
+            - link "Terms" [ref=e1572] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1573]:
+            - link "Privacy" [ref=e1574] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1575]:
+            - link "Security" [ref=e1576] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1577]:
+            - link "Status" [ref=e1578] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1579]:
+            - link "Community" [ref=e1580] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1581]:
+            - link "Docs" [ref=e1582] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1583]:
+            - link "Contact" [ref=e1584] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1585]:
+            - button "Manage cookies" [ref=e1587] [cursor=pointer]
+          - listitem [ref=e1588]:
+            - button "Do not share my personal information" [ref=e1590] [cursor=pointer]

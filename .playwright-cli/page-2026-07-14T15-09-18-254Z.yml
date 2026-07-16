@@ -1,0 +1,599 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - tooltip "This user has been invited to collaborate on the new-api repository."
+    - generic:
+      - tooltip "This user is the author of this issue"
+    - generic:
+      - tooltip "This user is the author of this issue"
+    - generic:
+      - tooltip "This user has been invited to collaborate on the new-api repository."
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FQuantumNous%2Fnew-api%2Fissues%2F6087
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fvoltron%2Fissues_fragments%2Fissue_layout&source=header-repo&source_repo=QuantumNous%2Fnew-api
+            - button "Appearance settings" [disabled] [ref=e58]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - link "QuantumNous" [ref=e70] [cursor=pointer]:
+            - /url: /QuantumNous
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "new-api" [ref=e73] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 9.8k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Fork
+                - generic "9,781" [ref=e84]: 9.8k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Star
+                - generic "42211 users starred this repository" [ref=e90]: 42.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - listitem [ref=e98]:
+            - link "Issues 605" [ref=e99] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/issues
+              - generic [ref=e103]: Issues
+              - generic "605" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 412" [ref=e106] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulls
+              - generic [ref=e109]: Pull requests
+              - generic "412" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/actions
+          - listitem [ref=e121]:
+            - link "Security and quality 14" [ref=e122] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/security
+              - generic [ref=e125]: Security and quality
+              - generic "14" [ref=e126]
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulse
+    - generic [ref=e139]:
+      - region "Header" [ref=e141]:
+        - generic [ref=e142]:
+          - 'heading "[Bug] Codex type 57 未适配 GPT-5.6 Responses Lite，返回 Model not found #6087" [level=1] [ref=e144]':
+            - text: "[Bug] Codex type 57 未适配 GPT-5.6 Responses Lite，返回 Model not found"
+            - generic [ref=e145]: "#6087"
+          - generic [ref=e148]:
+            - button "New issue" [ref=e150] [cursor=pointer]
+            - button "Copy link" [ref=e153] [cursor=pointer]
+      - generic [ref=e162]:
+        - img "Issue, not planned" [ref=e163]
+        - text: Closed as not planned
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - generic [ref=e170]:
+            - heading "Description" [level=2] [ref=e171]
+            - generic [ref=e173]:
+              - generic [ref=e175]:
+                - link "@wbb12's profile" [ref=e177] [cursor=pointer]:
+                  - /url: https://github.com/wbb12
+                  - img "@wbb12" [ref=e178]
+                - generic [ref=e179]:
+                  - link "wbb12" [ref=e181] [cursor=pointer]:
+                    - /url: https://github.com/wbb12
+                  - generic [ref=e182]:
+                    - text: opened
+                    - link "on Jul 10, 20264d ago" [ref=e183] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/issues/6087#issue-4856326012
+                - button "Issue body actions" [ref=e187] [cursor=pointer]
+              - generic [ref=e190]:
+                - generic [ref=e192]:
+                  - heading "提交前必读（请勿删除本节）" [level=2] [ref=e193]
+                  - list [ref=e194]:
+                    - listitem [ref=e195]:
+                      - text: 文档：
+                      - link "https://docs.newapi.ai/" [ref=e196] [cursor=pointer]:
+                        - /url: https://docs.newapi.ai/
+                    - listitem [ref=e197]:
+                      - text: 使用问题先看或先问：
+                      - link "https://deepwiki.com/QuantumNous/new-api" [ref=e198] [cursor=pointer]:
+                        - /url: https://deepwiki.com/QuantumNous/new-api
+                    - listitem [ref=e199]: 开启透传后的转发相关反馈不接受 issue；透传模式会直接转发请求，请自行确认上游行为。
+                    - listitem [ref=e200]: 不接受 coding plan、逆向渠道等技术支持类 issue。
+                    - listitem [ref=e201]: 警告：删除本模板、删除小节标题或随意清空内容的 issue，可能会被直接关闭；重复恶意提交者可能会被 block。
+                  - paragraph [ref=e202]:
+                    - strong [ref=e203]: 您当前的 newapi 版本
+                  - paragraph [ref=e204]:
+                    - text: 请填写，例如：
+                    - code [ref=e205]: v1.0.0
+                  - paragraph [ref=e206]:
+                    - code [ref=e207]: v1.0.0-rc.20
+                  - paragraph [ref=e208]:
+                    - strong [ref=e209]: 提交确认
+                  - list [ref=e210]:
+                    - listitem [ref=e211]:
+                      - generic [ref=e213]:
+                        - generic [ref=e219]:
+                          - 'checkbox "非重复 issue: 我已搜索现有 Issues，确认目前没有类似 issue。 checklist item" [checked] [disabled] [ref=e220]'
+                          - generic [ref=e221]:
+                            - strong [ref=e222]: "非重复 issue:"
+                            - text: 我已搜索现有
+                            - link "Issues" [ref=e223] [cursor=pointer]:
+                              - /url: https://github.com/QuantumNous/new-api/issues?q=is%3Aissue
+                            - text: ，确认目前没有类似 issue。
+                        - generic [ref=e230]:
+                          - 'checkbox "提交前必读: 我已完整阅读上方“提交前必读”，并已查看文档 https://docs.newapi.ai/、项目 README 且向 AI 提问，确认这不是使用、配置或接入类问题。 checklist item" [checked] [disabled] [ref=e231]'
+                          - generic [ref=e232]:
+                            - strong [ref=e233]: "提交前必读:"
+                            - text: 我已完整阅读上方“提交前必读”，并已查看文档
+                            - link "https://docs.newapi.ai/、项目" [ref=e234] [cursor=pointer]:
+                              - /url: https://docs.newapi.ai/%E3%80%81%E9%A1%B9%E7%9B%AE
+                            - text: README 且向 AI 提问，确认这不是使用、配置或接入类问题。
+                        - generic [ref=e241]:
+                          - 'checkbox "模板完整: 我未删除此模板中的任何引导内容或小节标题，并会按要求完整填写。 checklist item" [checked] [disabled] [ref=e242]'
+                          - generic [ref=e243]:
+                            - strong [ref=e244]: "模板完整:"
+                            - text: 我未删除此模板中的任何引导内容或小节标题，并会按要求完整填写。
+                        - generic [ref=e251]:
+                          - 'checkbox "维护成本: 我理解项目维护者精力有限，不遵循模板要求的 issue 可能会被无视或直接关闭。 checklist item" [checked] [disabled] [ref=e252]'
+                          - generic [ref=e253]:
+                            - strong [ref=e254]: "维护成本:"
+                            - text: 我理解项目维护者精力有限，不遵循模板要求的 issue 可能会被无视或直接关闭。
+                      - status [ref=e256]
+                  - paragraph [ref=e257]:
+                    - strong [ref=e258]: 问题描述
+                  - paragraph [ref=e259]: 请尽可能说明问题现象、影响范围，以及你判断它是程序问题而不是上游行为或使用问题的依据。
+                  - list [ref=e260]:
+                    - listitem [ref=e261]: 转发问题请尽可能说明渠道类型、转换格式、上游原生支持依据和服务端日志。
+                    - listitem [ref=e262]:
+                      - text: 计费问题请尽可能附请求返回的
+                      - code [ref=e263]: usage
+                      - text: 示例。
+                  - paragraph [ref=e264]: 内置“ChatGPT Subscription (Codex)”渠道（type 57）调用 GPT-5.6 模型时，上游返回：
+                  - generic [ref=e265]:
+                    - generic [ref=e266]:
+                      - text: "{ \"error\": { \"message\":"
+                      - generic [ref=e267]: "\"Model not found gpt-5.6-luna\""
+                      - text: ", \"type\":"
+                      - generic [ref=e268]: "\"invalid_request_error\""
+                      - text: ", \"param\":"
+                      - generic [ref=e269]: "\"model\""
+                      - text: ", \"code\": null } }"
+                    - button "Copy code to clipboard" [ref=e271] [cursor=pointer]
+                  - paragraph [ref=e275]: 该渠道未开启“透传请求体”。
+                  - paragraph [ref=e276]: 这不是账号权限或上游不支持：
+                  - list [ref=e277]:
+                    - listitem [ref=e278]:
+                      - text: 使用同一 OAuth
+                      - code [ref=e279]: access_token + account_id
+                      - text: 请求官方
+                      - code [ref=e280]: /backend-api/codex/models?client_version=0.144.1
+                      - text: ，目录中包含
+                      - code [ref=e281]: gpt-5.6-sol
+                      - text: 、
+                      - code [ref=e282]: gpt-5.6-terra
+                      - text: 、
+                      - code [ref=e283]: gpt-5.6-luna
+                      - text: 。
+                    - listitem [ref=e284]:
+                      - text: Luna 的模型元数据包含：
+                      - list [ref=e285]:
+                        - listitem [ref=e286]:
+                          - code [ref=e287]: "minimal_client_version: 0.144.0"
+                        - listitem [ref=e288]:
+                          - code [ref=e289]: "supported_in_api: true"
+                        - listitem [ref=e290]:
+                          - code [ref=e291]: "use_responses_lite: true"
+                        - listitem [ref=e292]:
+                          - code [ref=e293]: "service_tiers: [{\"id\":\"priority\", ...}]"
+                    - listitem [ref=e294]:
+                      - text: 使用同一 OAuth 凭据直连官方
+                      - code [ref=e295]: /backend-api/codex/responses
+                      - text: ，按 Responses Lite 格式请求可以返回 HTTP 200。
+                    - listitem [ref=e296]: 本机官方 Codex CLI 0.144.1 使用同一模型 ID 也可以正常返回。
+                  - paragraph [ref=e297]:
+                    - text: OpenAI 官方说明：
+                    - link "https://help.openai.com/en/articles/20001325-a-preview-of-gpt-5-6-sol-terra-and-luna" [ref=e298] [cursor=pointer]:
+                      - /url: https://help.openai.com/en/articles/20001325-a-preview-of-gpt-5-6-sol-terra-and-luna
+                  - paragraph [ref=e299]:
+                    - text: Codex 官方客户端在
+                    - code [ref=e300]: use_responses_lite=true
+                    - text: 时会增加 Header：
+                  - generic [ref=e301]:
+                    - code [ref=e303]: "x-openai-internal-codex-responses-lite: true"
+                    - button "Copy code to clipboard" [ref=e305] [cursor=pointer]
+                  - paragraph [ref=e309]: 同时请求体需要至少满足：
+                  - generic [ref=e310]:
+                    - generic [ref=e311]:
+                      - text: "{ \"service_tier\":"
+                      - generic [ref=e312]: "\"priority\""
+                      - text: ", \"reasoning\": { \"context\":"
+                      - generic [ref=e313]: "\"all_turns\""
+                      - text: "}, \"parallel_tool_calls\": false }"
+                    - button "Copy code to clipboard" [ref=e315] [cursor=pointer]
+                  - paragraph [ref=e319]:
+                    - text: 对照源码：
+                    - link "https://github.com/openai/codex/blob/main/codex-rs/core/src/client.rs" [ref=e320] [cursor=pointer]:
+                      - /url: https://github.com/openai/codex/blob/main/codex-rs/core/src/client.rs
+                  - paragraph [ref=e321]:
+                    - text: 当前 rc.20 的 Codex adapter 未根据模型启用 Responses Lite Header/参数：
+                    - link "https://github.com/QuantumNous/new-api/blob/v1.0.0-rc.20/relay/channel/codex/adaptor.go" [ref=e322] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/blob/v1.0.0-rc.20/relay/channel/codex/adaptor.go
+                  - paragraph [ref=e323]:
+                    - text: 其内置 Codex 模型列表也只到 GPT-5.4：
+                    - link "https://github.com/QuantumNous/new-api/blob/v1.0.0-rc.20/relay/channel/codex/constants.go" [ref=e324] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/blob/v1.0.0-rc.20/relay/channel/codex/constants.go
+                  - paragraph [ref=e325]:
+                    - strong [ref=e326]: 复现步骤
+                  - list [ref=e327]:
+                    - listitem [ref=e328]: 创建“ChatGPT Subscription (Codex)”渠道并完成 OAuth 登录。
+                    - listitem [ref=e329]:
+                      - text: 将
+                      - code [ref=e330]: gpt-5.6-luna
+                      - text: 加入渠道模型列表和对应分组。
+                    - listitem [ref=e331]: 通过 new-api 调用：
+                  - generic [ref=e332]:
+                    - generic [ref=e333]:
+                      - text: curl https://example.com/v1/responses \ -H
+                      - generic [ref=e334]: "\"Authorization: Bearer <NEW_API_TOKEN>\""
+                      - text: \ -H
+                      - generic [ref=e335]: "\"Content-Type: application/json\""
+                      - text: \ -d
+                      - generic [ref=e336]: "'{"
+                      - text: "\"model\": \"gpt-5.6-luna\", \"instructions\": \"\", \"input\": [{ \"role\": \"user\", \"content\": [{ \"type\": \"input_text\", \"text\": \"Reply with exactly OK.\" }] }], \"stream\": true, \"store\": false"
+                      - generic [ref=e337]: "}'"
+                    - button "Copy code to clipboard" [ref=e339] [cursor=pointer]
+                  - list [ref=e343]:
+                    - listitem [ref=e344]:
+                      - text: 返回 HTTP 404：
+                      - code [ref=e345]: Model not found gpt-5.6-luna
+                      - text: 。
+                    - listitem [ref=e346]:
+                      - text: 使用同一渠道 OAuth 凭据直连官方 Codex Responses 接口，补充 Responses Lite Header、
+                      - code [ref=e347]: service_tier=priority
+                      - text: 、
+                      - code [ref=e348]: reasoning.context=all_turns
+                      - text: 、
+                      - code [ref=e349]: parallel_tool_calls=false
+                      - text: ，返回 HTTP 200。
+                  - paragraph [ref=e350]: 逐项对照时，上游还会明确提示：
+                  - generic [ref=e351]:
+                    - code [ref=e353]: X-OpenAI-Internal-Codex-Responses-Lite requires reasoning.context to be all_turns. X-OpenAI-Internal-Codex-Responses-Lite requires parallel_tool_calls to be false.
+                    - button "Copy code to clipboard" [ref=e355] [cursor=pointer]
+                  - paragraph [ref=e359]:
+                    - strong [ref=e360]: 预期结果
+                  - paragraph [ref=e361]:
+                    - text: 当 type 57 渠道调用模型元数据标记为
+                    - code [ref=e362]: use_responses_lite=true
+                    - text: 的 GPT-5.6 模型时，new-api 能按 Codex Responses Lite 协议补充必要 Header 和请求参数，并正常转发请求。
+                  - paragraph [ref=e363]: 至少应支持：
+                  - list [ref=e364]:
+                    - listitem [ref=e365]:
+                      - code [ref=e366]: gpt-5.6-sol
+                    - listitem [ref=e367]:
+                      - code [ref=e368]: gpt-5.6-terra
+                    - listitem [ref=e369]:
+                      - code [ref=e370]: gpt-5.6-luna
+                  - paragraph [ref=e371]:
+                    - strong [ref=e372]: 相关截图
+                  - paragraph [ref=e373]: 暂无截图。上方已附完整的脱敏请求、错误响应、官方模型目录字段及直连对照结果。
+                - generic:
+                  - toolbar "Reactions"
+          - generic [ref=e375]:
+            - generic [ref=e376]:
+              - heading "Activity" [level=2] [ref=e377]
+              - generic [ref=e378]:
+                - generic [ref=e386]:
+                  - generic [ref=e388]:
+                    - heading "new-api-reviewer-bot commented on Jul 10, 2026 4 days ago" [level=3] [ref=e389]:
+                      - text: new-api-reviewer-bot commented
+                      - generic "Jul 10, 2026, 23:23 GMT+8" [ref=e390]: on Jul 10, 2026 4 days ago
+                    - link "@new-api-reviewer-bot's profile" [ref=e392] [cursor=pointer]:
+                      - /url: /apps/new-api-reviewer-bot
+                      - img "@new-api-reviewer-bot" [ref=e393]
+                    - generic [ref=e394]:
+                      - generic [ref=e395]:
+                        - link "new-api-reviewer-bot" [ref=e396] [cursor=pointer]:
+                          - /url: /apps/new-api-reviewer-bot
+                        - generic [ref=e397]: bot
+                      - link "on Jul 10, 20264d ago" [ref=e400] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6087#issuecomment-4936837368
+                    - button "Actions for new-api-reviewer-bot's comment, 11:23 PM on July 10" [ref=e404] [cursor=pointer]
+                  - generic [ref=e407]:
+                    - generic [ref=e409]:
+                      - paragraph [ref=e410]:
+                        - strong [ref=e411]: "[Bot Review]"
+                      - paragraph [ref=e412]:
+                        - text: 感谢提交，模板信息完整：版本、提交确认、问题描述和复现步骤都有填写。现有 open issue 里
+                        - link "#6080" [ref=e413] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/issues/6080
+                        - text: 也提到 GPT-5.6 Responses 相关内容，但从标题看关注点不完全相同，这里先不按重复处理；如果后续有更多日志或版本变化，可以继续补充在本 issue 中。
+                    - toolbar "Reactions"
+                - region "Events" [ref=e414]:
+                  - generic [ref=e429]:
+                    - link "new-api-reviewer-bot" [ref=e431] [cursor=pointer]:
+                      - /url: /apps/new-api-reviewer-bot
+                    - text: added
+                    - link "bug Something isn't working" [ref=e434] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/issues?q=state%3Aopen%20label%3A%22bug%22
+                      - generic [ref=e435]: bug
+                      - generic [ref=e437]: Something isn't working
+                    - link "on Jul 10, 20264d ago" [ref=e438] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/issues/6087#event-27820769281
+                - generic [ref=e446]:
+                  - generic [ref=e448]:
+                    - heading "seefs001 commented on Jul 10, 2026 4 days ago" [level=3] [ref=e449]:
+                      - text: seefs001 commented
+                      - generic "Jul 10, 2026, 23:42 GMT+8" [ref=e450]: on Jul 10, 2026 4 days ago
+                    - link "@seefs001's profile" [ref=e452] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e453]
+                    - generic [ref=e454]:
+                      - link "seefs001" [ref=e456] [cursor=pointer]:
+                        - /url: /seefs001
+                      - link "on Jul 10, 20264d ago" [ref=e459] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6087#issuecomment-4937006667
+                    - generic [ref=e460]:
+                      - button "Last edited by seefs001" [ref=e463] [cursor=pointer]
+                      - generic [ref=e467]:
+                        - generic "This user has been invited to collaborate on the new-api repository." [ref=e469]: Collaborator
+                        - button "Actions for seefs001's comment, 11:42 PM on July 10" [ref=e471] [cursor=pointer]
+                  - generic [ref=e474]:
+                    - generic [ref=e476]:
+                      - paragraph [ref=e477]: 你直接用codex对接站点不通过curl能用luna吗？ 如果这个模型可以使用不报错找不到，那不会去处理，此渠道标注过仅能用于codex cli
+                      - paragraph [ref=e478]:
+                        - text: 请求头透传和响应sse header的回传会在这个pr处理
+                        - link "#6018" [ref=e479] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6018
+                    - toolbar "Reactions"
+                - region "Events" [ref=e480]:
+                  - generic [ref=e495]:
+                    - link "seefs001" [ref=e497] [cursor=pointer]:
+                      - /url: /seefs001
+                    - generic [ref=e499]:
+                      - text: pinned and unpinned a
+                      - link "comment" [ref=e500] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6087#issuecomment-4937006667
+                    - link "on Jul 10, 20264d ago" [ref=e501] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/issues/6087#event-27821862082
+                - generic [ref=e509]:
+                  - generic [ref=e511]:
+                    - heading "wbb12 commented on Jul 11, 2026 4 days ago" [level=3] [ref=e512]:
+                      - text: wbb12 commented
+                      - generic "Jul 11, 2026, 01:02 GMT+8" [ref=e513]: on Jul 11, 2026 4 days ago
+                    - link "@wbb12's profile" [ref=e515] [cursor=pointer]:
+                      - /url: /wbb12
+                      - img "@wbb12" [ref=e516]
+                    - generic [ref=e517]:
+                      - link "wbb12" [ref=e519] [cursor=pointer]:
+                        - /url: /wbb12
+                      - link "on Jul 11, 20264d ago" [ref=e522] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6087#issuecomment-4937660851
+                    - generic [ref=e523]:
+                      - button "Last edited by wbb12" [ref=e526] [cursor=pointer]
+                      - generic [ref=e530]:
+                        - generic "This user is the author of this issue" [ref=e532]: Author
+                        - button "Actions for wbb12's comment, 1:02 AM on July 11" [ref=e534] [cursor=pointer]
+                  - generic [ref=e537]:
+                    - generic [ref=e539]:
+                      - paragraph [ref=e540]: 可以，刚刚重新按你说的方式测试了，不通过手写 curl：
+                      - list [ref=e541]:
+                        - listitem [ref=e542]:
+                          - text: Codex CLI：
+                          - code [ref=e543]: 0.144.1
+                        - listitem [ref=e544]:
+                          - text: provider：直接指向 new-api 站点的
+                          - code [ref=e545]: /v1
+                        - listitem [ref=e546]:
+                          - text: model：
+                          - code [ref=e547]: gpt-5.6-luna
+                        - listitem [ref=e548]:
+                          - text: 结果：正常返回
+                          - code [ref=e549]: OK
+                          - text: ，进程退出码为 0
+                      - generic [ref=e550]:
+                        - code [ref=e552]: "OpenAI Codex v0.144.1 model: gpt-5.6-luna provider: newapi_test ... codex OK"
+                        - button "Copy code to clipboard" [ref=e554] [cursor=pointer]
+                      - paragraph [ref=e558]: 这说明 Codex CLI 通过 new-api 实际调用 Luna 是正常的。
+                      - paragraph [ref=e559]: 但本 issue 要反馈的不是“Codex CLI 无法使用”，而是 new-api 管理网页中的“模型测试/模型探测”会对同一个渠道和模型返回：
+                      - generic [ref=e560]:
+                        - code [ref=e562]: "bad response status code 404, message: Model not found gpt-5.6-luna"
+                        - button "Copy code to clipboard" [ref=e564] [cursor=pointer]
+                      - paragraph [ref=e568]: 也就是渠道实际可用，但网页探测显示失败，属于假阴性。之前的 curl 只是用于复现网页探测所使用的非 Responses Lite 请求，并不是最终使用方式。
+                      - paragraph [ref=e569]: 期望网页模型探测在 type 57 + GPT-5.6 时按 Codex CLI 的 Responses Lite 请求进行测试，或者明确提示该模型只能通过 Codex CLI 验证。这个 issue 仍希望保留处理。
+                    - toolbar "Reactions"
+                - generic [ref=e577]:
+                  - generic [ref=e579]:
+                    - heading "wbb12 commented on Jul 11, 2026 4 days ago" [level=3] [ref=e580]:
+                      - text: wbb12 commented
+                      - generic "Jul 11, 2026, 01:05 GMT+8" [ref=e581]: on Jul 11, 2026 4 days ago
+                    - link "@wbb12's profile" [ref=e583] [cursor=pointer]:
+                      - /url: /wbb12
+                      - img "@wbb12" [ref=e584]
+                    - generic [ref=e585]:
+                      - link "wbb12" [ref=e587] [cursor=pointer]:
+                        - /url: /wbb12
+                      - link "on Jul 11, 20264d ago" [ref=e590] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6087#issuecomment-4937689106
+                    - generic [ref=e592]:
+                      - generic "This user is the author of this issue" [ref=e594]: Author
+                      - button "Actions for wbb12's comment, 1:05 AM on July 11" [ref=e596] [cursor=pointer]
+                  - generic [ref=e599]:
+                    - generic [ref=e601]:
+                      - paragraph [ref=e602]:
+                        - text: 更正一下上一条回复：
+                        - strong [ref=e603]: 不是同意关闭 issue
+                        - text: 。
+                      - paragraph [ref=e604]:
+                        - text: Codex CLI 直接通过 new-api 调用
+                        - code [ref=e605]: gpt-5.6-luna
+                        - text: 确实成功；但 new-api 管理网页中的“模型测试/模型探测”对同一渠道、同一模型仍固定返回
+                        - code [ref=e606]: 404 Model not found gpt-5.6-luna
+                        - text: 。
+                      - paragraph [ref=e607]:
+                        - text: 所以问题是：
+                        - strong [ref=e608]: 渠道实际可用，但网页模型探测显示失败
+                        - text: 。这是 new-api 内置探测逻辑的假阴性，不是用户用 curl 调用失败。希望保留 issue，处理 type 57 渠道对 GPT-5.6 的网页探测兼容。
+                    - toolbar "Reactions"
+                - region "Events" [ref=e609]:
+                  - generic [ref=e624]:
+                    - link "seefs001" [ref=e626] [cursor=pointer]:
+                      - /url: /seefs001
+                    - text: closed this as
+                    - link "not planned" [ref=e628] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Anot-planned
+                    - link "on Jul 11, 20264d ago" [ref=e629] [cursor=pointer]:
+                      - /url: https://github.com/QuantumNous/new-api/issues/6087#event-27839447750
+                - generic [ref=e637]:
+                  - generic [ref=e639]:
+                    - heading "seefs001 commented on Jul 11, 2026 4 days ago" [level=3] [ref=e640]:
+                      - text: seefs001 commented
+                      - generic "Jul 11, 2026, 09:03 GMT+8" [ref=e641]: on Jul 11, 2026 4 days ago
+                    - link "@seefs001's profile" [ref=e643] [cursor=pointer]:
+                      - /url: /seefs001
+                      - img "@seefs001" [ref=e644]
+                    - generic [ref=e645]:
+                      - link "seefs001" [ref=e647] [cursor=pointer]:
+                        - /url: /seefs001
+                      - link "on Jul 11, 20264d ago" [ref=e650] [cursor=pointer]:
+                        - /url: https://github.com/QuantumNous/new-api/issues/6087#issuecomment-4940959695
+                    - generic [ref=e652]:
+                      - generic "This user has been invited to collaborate on the new-api repository." [ref=e654]: Collaborator
+                      - button "Actions for seefs001's comment, 9:03 AM on July 11" [ref=e656] [cursor=pointer]
+                  - generic [ref=e659]:
+                    - paragraph [ref=e662]: 不会考虑做增强，仅保障codex客户端能直接使用渠道
+                    - toolbar "Reactions"
+            - generic [ref=e663]:
+              - link "Sign up for free" [ref=e664] [cursor=pointer]:
+                - /url: /signup?return_to=https://github.com/QuantumNous/new-api/issues/6087
+              - generic [ref=e667]:
+                - strong [ref=e668]: to join this conversation on GitHub.
+                - text: Already have an account?
+              - link "Sign in to comment" [ref=e669] [cursor=pointer]:
+                - /url: /login?return_to=https://github.com/QuantumNous/new-api/issues/6087
+        - generic [ref=e671]:
+          - heading "Metadata" [level=2] [ref=e672]
+          - generic [ref=e674]:
+            - generic [ref=e676]:
+              - generic [ref=e677]:
+                - heading "Assignees" [level=3]
+              - generic [ref=e678]: No one assigned
+            - generic [ref=e679]:
+              - generic [ref=e681]:
+                - heading "Labels" [level=3]
+              - link "bug Something isn't working" [ref=e684] [cursor=pointer]:
+                - /url: https://github.com/QuantumNous/new-api/issues?q=state%3Aopen%20label%3A%22bug%22
+                - generic [ref=e685]: bug
+                - generic [ref=e687]: Something isn't working
+            - generic [ref=e689]:
+              - generic [ref=e690]:
+                - heading "Type" [level=3]
+              - generic [ref=e691]: No type
+            - generic [ref=e692]:
+              - heading "Fields" [level=3] [ref=e695]
+              - generic [ref=e696]: No fields configured for issues without a type.
+            - generic [ref=e699]:
+              - generic [ref=e700]:
+                - heading "Projects" [level=3]
+              - generic [ref=e701]: No projects
+            - generic [ref=e703]:
+              - generic [ref=e704]:
+                - heading "Milestone" [level=3]
+              - generic [ref=e705]: No milestone
+            - generic [ref=e707]:
+              - generic [ref=e708]:
+                - heading "Relationships" [level=3]
+              - generic [ref=e709]: None yet
+            - generic [ref=e710]:
+              - generic [ref=e712]:
+                - heading "Development" [level=3]
+              - generic [ref=e713]:
+                - generic [ref=e714]: No branches or pull requests
+                - list
+            - generic [ref=e715]:
+              - generic [ref=e717]:
+                - heading "Participants" [level=3]
+              - generic [ref=e720]:
+                - link [ref=e721] [cursor=pointer]:
+                  - /url: /wbb12
+                  - img "@wbb12" [ref=e722]
+                - link [ref=e723] [cursor=pointer]:
+                  - /url: /seefs001
+                  - img "@seefs001" [ref=e724]
+            - heading "Issue actions" [level=2] [ref=e725]
+            - list [ref=e726]:
+              - listitem [ref=e727]:
+                - button "Open in GitHub Copilot app" [ref=e728] [cursor=pointer]
+  - contentinfo [ref=e732]:
+    - heading "Footer" [level=2] [ref=e733]
+    - generic [ref=e734]:
+      - generic [ref=e735]:
+        - link "GitHub Homepage" [ref=e736] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e739]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e740]:
+        - heading "Footer navigation" [level=3] [ref=e741]
+        - list "Footer navigation" [ref=e742]:
+          - listitem [ref=e743]:
+            - link "Terms" [ref=e744] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e745]:
+            - link "Privacy" [ref=e746] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e747]:
+            - link "Security" [ref=e748] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e749]:
+            - link "Status" [ref=e750] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e751]:
+            - link "Community" [ref=e752] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e753]:
+            - link "Docs" [ref=e754] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e755]:
+            - link "Contact" [ref=e756] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e757]:
+            - button "Manage cookies" [ref=e759] [cursor=pointer]
+          - listitem [ref=e760]:
+            - button "Do not share my personal information" [ref=e762] [cursor=pointer]

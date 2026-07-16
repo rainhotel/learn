@@ -1,0 +1,603 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "The OpenTelemetry Logo" [ref=e6]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /docs/
+          - listitem [ref=e12]:
+            - link "Ecosystem" [ref=e13] [cursor=pointer]:
+              - /url: /ecosystem/
+          - listitem [ref=e14]:
+            - link "Status" [ref=e15] [cursor=pointer]:
+              - /url: /status/
+          - listitem [ref=e16]:
+            - link "Community" [ref=e17] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e18]:
+            - link "Training" [ref=e19] [cursor=pointer]:
+              - /url: /training/
+          - listitem [ref=e20]:
+            - link "Blog" [ref=e21] [cursor=pointer]:
+              - /url: /blog/
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - button "English" [ref=e24] [cursor=pointer]
+              - text: 
+          - listitem [ref=e25]:
+            - button "Toggle theme (auto)" [ref=e27] [cursor=pointer]
+        - generic [ref=e31]:
+          - generic: 
+          - searchbox "Ask AI or search…" [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e35]:
+      - complementary [ref=e36]:
+        - generic [ref=e37]:
+          - text:  
+          - navigation [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - link "Docs" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/
+                - list [ref=e42]:
+                  - listitem [ref=e43]:
+                    - link "What is OpenTelemetry?" [ref=e45] [cursor=pointer]:
+                      - /url: /docs/what-is-opentelemetry/
+                  - listitem [ref=e46]:
+                    - generic [ref=e47]:
+                      - text: 
+                      - link "Getting Started" [ref=e48] [cursor=pointer]:
+                        - /url: /docs/getting-started/
+                  - listitem [ref=e49]:
+                    - generic [ref=e50]:
+                      - text: 
+                      - link "Concepts" [ref=e51] [cursor=pointer]:
+                        - /url: /docs/concepts/
+                    - list [ref=e52]:
+                      - listitem [ref=e53]:
+                        - link "Observability primer" [ref=e55] [cursor=pointer]:
+                          - /url: /docs/concepts/observability-primer/
+                      - listitem [ref=e56]:
+                        - link "Context propagation" [ref=e58] [cursor=pointer]:
+                          - /url: /docs/concepts/context-propagation/
+                      - listitem [ref=e59]:
+                        - generic [ref=e60]:
+                          - text: 
+                          - link "Signals" [ref=e61] [cursor=pointer]:
+                            - /url: /docs/concepts/signals/
+                        - list [ref=e62]:
+                          - listitem [ref=e63]:
+                            - link "Traces" [ref=e65] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/traces/
+                          - listitem [ref=e66]:
+                            - link "Metrics" [ref=e68] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/metrics/
+                          - listitem [ref=e69]:
+                            - link "Logs" [ref=e71] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/logs/
+                          - listitem [ref=e72]:
+                            - link "Baggage" [ref=e74] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/baggage/
+                          - listitem [ref=e75]:
+                            - link "Profiles" [ref=e77] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/profiles/
+                      - listitem [ref=e78]:
+                        - generic [ref=e79]:
+                          - text: 
+                          - link "Instrumentation" [ref=e80] [cursor=pointer]:
+                            - /url: /docs/concepts/instrumentation/
+                      - listitem [ref=e81]:
+                        - link "Components" [ref=e83] [cursor=pointer]:
+                          - /url: /docs/concepts/components/
+                      - listitem [ref=e84]:
+                        - link "Semantic Conventions" [ref=e86] [cursor=pointer]:
+                          - /url: /docs/concepts/semantic-conventions/
+                      - listitem [ref=e87]:
+                        - link "Resources" [ref=e89] [cursor=pointer]:
+                          - /url: /docs/concepts/resources/
+                      - listitem [ref=e90]:
+                        - link "Instrumentation scope" [ref=e92] [cursor=pointer]:
+                          - /url: /docs/concepts/instrumentation-scope/
+                      - listitem [ref=e93]:
+                        - link "Sampling" [ref=e95] [cursor=pointer]:
+                          - /url: /docs/concepts/sampling/
+                      - listitem [ref=e96]:
+                        - link "Distributions" [ref=e98] [cursor=pointer]:
+                          - /url: /docs/concepts/distributions/
+                      - listitem [ref=e99]:
+                        - link "Glossary" [ref=e101] [cursor=pointer]:
+                          - /url: /docs/concepts/glossary/
+                  - listitem [ref=e102]:
+                    - generic [ref=e103]:
+                      - text: 
+                      - link "Demo" [ref=e104] [cursor=pointer]:
+                        - /url: /docs/demo/
+                    - text:     
+                  - listitem [ref=e105]:
+                    - generic [ref=e106]:
+                      - text: 
+                      - link "Language APIs & SDKs" [ref=e107] [cursor=pointer]:
+                        - /url: /docs/languages/
+                    - text:                                       
+                  - listitem [ref=e108]:
+                    - generic [ref=e109]:
+                      - text: 
+                      - link "Platforms" [ref=e110] [cursor=pointer]:
+                        - /url: /docs/platforms/
+                    - text:       
+                  - listitem [ref=e111]:
+                    - generic [ref=e112]:
+                      - text: 
+                      - link "Zero-code Instrumentation" [ref=e113] [cursor=pointer]:
+                        - /url: /docs/zero-code/
+                    - text:             
+                  - listitem [ref=e114]:
+                    - generic [ref=e115]:
+                      - text: 
+                      - link "Collector" [ref=e116] [cursor=pointer]:
+                        - /url: /docs/collector/
+                    - text:        
+                  - listitem [ref=e117]:
+                    - generic [ref=e118]:
+                      - text: 
+                      - link "Blueprints and reference implementations" [ref=e119] [cursor=pointer]:
+                        - /url: /docs/guidance/
+                    - text:  
+                  - listitem [ref=e120]:
+                    - generic [ref=e121]:
+                      - text: 
+                      - link "Compatibility" [ref=e122] [cursor=pointer]:
+                        - /url: /docs/compatibility/
+                    - text:  
+                  - listitem [ref=e123]:
+                    - generic [ref=e124]:
+                      - text: 
+                      - link "Specs" [ref=e125] [cursor=pointer]:
+                        - /url: /docs/specs/
+                    - text:                                                          
+                  - listitem [ref=e126]:
+                    - generic [ref=e127]:
+                      - text: 
+                      - link "Security" [ref=e128] [cursor=pointer]:
+                        - /url: /docs/security/
+                  - listitem [ref=e129]:
+                    - generic [ref=e130]:
+                      - text: 
+                      - link "Contributing" [ref=e131] [cursor=pointer]:
+                        - /url: /docs/contributing/
+      - complementary [ref=e132]:
+        - generic [ref=e133]:
+          - link " View Markdown" [ref=e134] [cursor=pointer]:
+            - /url: /docs/concepts/signals/logs/index.md
+            - generic [ref=e135]: 
+            - text: View Markdown
+          - link " View page source" [ref=e136] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/tree/main/content/en/docs/concepts/signals/logs.md
+            - generic [ref=e137]: 
+            - text: View page source
+          - link " Edit this page" [ref=e138] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/edit/main/content/en/docs/concepts/signals/logs.md
+            - generic [ref=e139]: 
+            - text: Edit this page
+          - text: 
+          - link " Create documentation issue" [ref=e140] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/issues/new?title=Logs
+            - generic [ref=e141]: 
+            - text: Create documentation issue
+        - generic [ref=e142]:
+          - generic [ref=e143]: On this page
+          - navigation [ref=e144]:
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "OpenTelemetry logs" [ref=e147] [cursor=pointer]:
+                  - /url: "#opentelemetry-logs"
+                - list [ref=e148]:
+                  - listitem [ref=e149]:
+                    - link "OpenTelemetry logs in the OpenTelemetry Collector" [ref=e150] [cursor=pointer]:
+                      - /url: "#opentelemetry-logs-in-the-opentelemetry-collector"
+                  - listitem [ref=e151]:
+                    - link "OpenTelemetry logs for applications" [ref=e152] [cursor=pointer]:
+                      - /url: "#opentelemetry-logs-for-applications"
+                  - listitem [ref=e153]:
+                    - link "Language support" [ref=e154] [cursor=pointer]:
+                      - /url: "#language-support"
+              - listitem [ref=e155]:
+                - link "Structured, unstructured, and semistructured logs" [ref=e156] [cursor=pointer]:
+                  - /url: "#structured-unstructured-and-semistructured-logs"
+                - list [ref=e157]:
+                  - listitem [ref=e158]:
+                    - link "Structured logs" [ref=e159] [cursor=pointer]:
+                      - /url: "#structured-logs"
+                  - listitem [ref=e160]:
+                    - link "Unstructured logs" [ref=e161] [cursor=pointer]:
+                      - /url: "#unstructured-logs"
+                  - listitem [ref=e162]:
+                    - link "Semistructured logs" [ref=e163] [cursor=pointer]:
+                      - /url: "#semistructured-logs"
+              - listitem [ref=e164]:
+                - link "OpenTelemetry logging components" [ref=e165] [cursor=pointer]:
+                  - /url: "#opentelemetry-logging-components"
+                - list [ref=e166]:
+                  - listitem [ref=e167]:
+                    - link "Log Appender / Bridge" [ref=e168] [cursor=pointer]:
+                      - /url: "#log-appender--bridge"
+                  - listitem [ref=e169]:
+                    - link "Logger Provider" [ref=e170] [cursor=pointer]:
+                      - /url: "#logger-provider"
+                  - listitem [ref=e171]:
+                    - link "Logger" [ref=e172] [cursor=pointer]:
+                      - /url: "#logger"
+                  - listitem [ref=e173]:
+                    - link "Log Record Exporter" [ref=e174] [cursor=pointer]:
+                      - /url: "#log-record-exporter"
+                  - listitem [ref=e175]:
+                    - link "Log Record" [ref=e176] [cursor=pointer]:
+                      - /url: "#log-record"
+                  - listitem [ref=e177]:
+                    - link "Specification" [ref=e178] [cursor=pointer]:
+                      - /url: "#specification"
+      - main [ref=e179]:
+        - navigation "breadcrumb" [ref=e180]:
+          - list [ref=e181]:
+            - listitem [ref=e182]:
+              - link "Docs" [ref=e183] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e184]:
+              - text: /
+              - link "Concepts" [ref=e185] [cursor=pointer]:
+                - /url: /docs/concepts/
+            - listitem [ref=e186]:
+              - text: /
+              - link "Signals" [ref=e187] [cursor=pointer]:
+                - /url: /docs/concepts/signals/
+            - listitem [ref=e188]: / Logs
+        - generic [ref=e189]:
+          - heading "Logs" [level=1] [ref=e190]
+          - generic [ref=e191]: A recording of an event.
+          - paragraph [ref=e192]:
+            - text: A
+            - strong [ref=e193]: log
+            - text: is a timestamped text record, either structured (recommended) or unstructured, with optional metadata. Of all telemetry signals, logs have the biggest legacy. Most programming languages have built-in logging capabilities or well-known, widely used logging libraries.
+          - heading "OpenTelemetry logs" [level=2] [ref=e194]
+          - paragraph [ref=e195]: OpenTelemetry provides a Logs API and SDK for producing log records, and language SDKs and logging bridges to integrate with existing logging frameworks. Logs are anything you send through a Logging Provider, and events are a special type of logs. Not all logs are events, but all events are logs. The Logs API is public and can be used directly by application code or indirectly via existing logging libraries and bridges.
+          - paragraph [ref=e196]: OpenTelemetry is designed to work with the logs you already produce, offering tools to correlate logs with other signals, add contextual attributes, and normalize different sources into a common representation for processing and export.
+          - heading "OpenTelemetry logs in the OpenTelemetry Collector" [level=3] [ref=e197]
+          - paragraph [ref=e198]:
+            - text: The
+            - link "OpenTelemetry Collector" [ref=e199] [cursor=pointer]:
+              - /url: /docs/collector/
+            - text: "provides several tools to work with logs:"
+          - list [ref=e200]:
+            - listitem [ref=e201]: Several receivers which parse logs from specific, known sources of log data.
+            - listitem [ref=e202]:
+              - text: The
+              - code [ref=e203]: filelogreceiver
+              - text: ", which reads logs from any file and provides features to parse them from different formats or use a regular expression."
+            - listitem [ref=e204]:
+              - text: Processors like the
+              - code [ref=e205]: transformprocessor
+              - text: which lets you parse nested data, flatten nested structures, add/remove/update values, and more.
+            - listitem [ref=e206]: Exporters that let you emit log data in a non-OpenTelemetry format.
+          - paragraph [ref=e207]: The first step in adopting OpenTelemetry frequently involves deploying a Collector as a general-purposes logging agent.
+          - heading "OpenTelemetry logs for applications" [level=3] [ref=e208]
+          - paragraph [ref=e209]: In applications, OpenTelemetry logs are created with any logging library or built-in logging capabilities. When you add autoinstrumentation or activate an SDK, OpenTelemetry will automatically correlate your existing logs with any active trace and span, wrapping the log body with their IDs. In other words, OpenTelemetry automatically correlates your logs and traces.
+          - heading "Language support" [level=3] [ref=e210]
+          - paragraph [ref=e211]:
+            - text: Logs are a
+            - link "stable" [ref=e212] [cursor=pointer]:
+              - /url: /docs/specs/otel/versioning-and-stability/#stable
+            - text: "signal in the OpenTelemetry specification. For the individual language specific implementations of the Logs API & SDK, the status is as follows:"
+          - table [ref=e213]:
+            - rowgroup [ref=e214]:
+              - row [ref=e215]:
+                - columnheader "Language" [ref=e216]
+                - columnheader "Logs" [ref=e217]
+            - rowgroup [ref=e218]:
+              - row [ref=e219]:
+                - cell [ref=e220]:
+                  - link "C++" [ref=e221] [cursor=pointer]:
+                    - /url: /docs/languages/cpp/
+                - cell "Stable" [ref=e222]
+              - row [ref=e223]:
+                - cell [ref=e224]:
+                  - link "C#/.NET" [ref=e225] [cursor=pointer]:
+                    - /url: /docs/languages/dotnet/
+                - cell "Stable" [ref=e226]
+              - row [ref=e227]:
+                - cell [ref=e228]:
+                  - link "Erlang/Elixir" [ref=e229] [cursor=pointer]:
+                    - /url: /docs/languages/erlang/
+                - cell "Development" [ref=e230]
+              - row [ref=e231]:
+                - cell [ref=e232]:
+                  - link "Go" [ref=e233] [cursor=pointer]:
+                    - /url: /docs/languages/go/
+                - cell "Beta" [ref=e234]
+              - row [ref=e235]:
+                - cell [ref=e236]:
+                  - link "Java" [ref=e237] [cursor=pointer]:
+                    - /url: /docs/languages/java/
+                - cell "Stable" [ref=e238]
+              - row [ref=e239]:
+                - cell [ref=e240]:
+                  - link "JavaScript" [ref=e241] [cursor=pointer]:
+                    - /url: /docs/languages/js/
+                - cell "Development" [ref=e242]
+              - row [ref=e243]:
+                - cell [ref=e244]:
+                  - link "PHP" [ref=e245] [cursor=pointer]:
+                    - /url: /docs/languages/php/
+                - cell "Stable" [ref=e246]
+              - row [ref=e247]:
+                - cell [ref=e248]:
+                  - link "Python" [ref=e249] [cursor=pointer]:
+                    - /url: /docs/languages/python/
+                - cell "Development" [ref=e250]
+              - row [ref=e251]:
+                - cell [ref=e252]:
+                  - link "Ruby" [ref=e253] [cursor=pointer]:
+                    - /url: /docs/languages/ruby/
+                - cell "Development" [ref=e254]
+              - row [ref=e255]:
+                - cell [ref=e256]:
+                  - link "Rust" [ref=e257] [cursor=pointer]:
+                    - /url: /docs/languages/rust/
+                - cell "Beta" [ref=e258]
+              - row [ref=e259]:
+                - cell [ref=e260]:
+                  - link "Swift" [ref=e261] [cursor=pointer]:
+                    - /url: /docs/languages/swift/
+                - cell "Development" [ref=e262]
+          - heading "Structured, unstructured, and semistructured logs" [level=2] [ref=e263]
+          - paragraph [ref=e264]: "OpenTelemetry accepts any log format, but not all formats are equally useful for analysis. The following section explains the differences between structured, semistructured, and unstructured logs. Important: a log encoded as JSON is not automatically “structured” in the sense of having a stable schema —it may be semistructured. Structured logs imply a consistent schema or well-defined typed fields that downstream processing can reliably depend on."
+          - heading "Structured logs" [level=3] [ref=e265]
+          - paragraph [ref=e266]: "A structured log is a log with a defined, consistent schema or typed fields that downstream systems can reliably parse and interpret. The textual encoding can be JSON, protobuf, or another format, but what makes a log structured is the presence of a stable schema (field names, types, and semantics), not merely that it is valid JSON. For example, a structured JSON log might look like:"
+          - generic [ref=e268]:
+            - button "Copy to clipboard" [ref=e269] [cursor=pointer]: 
+            - code [ref=e270]:
+              - generic [ref=e271]: "{"
+              - generic [ref=e273]: "\"timestamp\": \"2024-08-04T12:34:56.789Z\","
+              - generic [ref=e275]: "\"level\": \"INFO\","
+              - generic [ref=e277]: "\"service\": \"user-authentication\","
+              - generic [ref=e279]: "\"environment\": \"production\","
+              - generic [ref=e281]: "\"message\": \"User login successful\","
+              - generic [ref=e283]: "\"context\": {"
+              - generic [ref=e285]: "\"userId\": \"12345\","
+              - generic [ref=e287]: "\"username\": \"johndoe\","
+              - generic [ref=e289]: "\"ipAddress\": \"192.168.1.1\","
+              - generic [ref=e291]: "\"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\""
+              - generic [ref=e293]: "},"
+              - generic [ref=e295]: "\"transactionId\": \"abcd-efgh-ijkl-mnop\","
+              - generic [ref=e297]: "\"duration\": 200,"
+              - generic [ref=e299]: "\"request\": {"
+              - generic [ref=e301]: "\"method\": \"POST\","
+              - generic [ref=e303]: "\"url\": \"/api/v1/login\","
+              - generic [ref=e305]: "\"headers\": {"
+              - generic [ref=e307]: "\"Content-Type\": \"application/json\","
+              - generic [ref=e309]: "\"Accept\": \"application/json\""
+              - generic [ref=e311]: "},"
+              - generic [ref=e313]: "\"body\": {"
+              - generic [ref=e315]: "\"username\": \"johndoe\","
+              - generic [ref=e317]: "\"password\": \"******\""
+              - generic [ref=e319]: "}"
+              - generic [ref=e321]: "},"
+              - generic [ref=e323]: "\"response\": {"
+              - generic [ref=e325]: "\"statusCode\": 200,"
+              - generic [ref=e327]: "\"body\": {"
+              - generic [ref=e329]: "\"success\": true,"
+              - generic [ref=e331]: "\"token\": \"jwt-token-here\""
+              - generic [ref=e333]: "}"
+              - generic [ref=e335]: "}"
+              - generic [ref=e337]: "}"
+          - paragraph [ref=e339]: "and for infrastructure components, Common Log Format (CLF) is commonly used:"
+          - generic [ref=e341]:
+            - button "Copy to clipboard" [ref=e342] [cursor=pointer]: 
+            - code [ref=e343]:
+              - generic [ref=e344]: 127.0.0.1 - johndoe [04/Aug/2024:12:34:56 -0400] "POST /api/v1/login HTTP/1.1" 200 1234
+          - paragraph [ref=e346]: It is also common to encounter hybrid or extended formats (for example, CLF fields combined with a trailing JSON blob).
+          - generic [ref=e348]:
+            - button "Copy to clipboard" [ref=e349] [cursor=pointer]: 
+            - code [ref=e350]:
+              - generic [ref=e351]: "192.168.1.1 - johndoe [04/Aug/2024:12:34:56 -0400] \"POST /api/v1/login HTTP/1.1\" 200 1234 \"http://example.com\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36\" {\"transactionId\": \"abcd-efgh-ijkl-mnop\", \"responseTime\": 150, \"requestBody\": {\"username\": \"johndoe\"}, \"responseHeaders\": {\"Content-Type\": \"application/json\"}}"
+          - paragraph [ref=e353]:
+            - text: In those cases, parse or extract the parts you need into a normalized record so downstream tooling can analyze them consistently. The
+            - code [ref=e354]: filelogreceiver
+            - text: in the
+            - link "OpenTelemetry Collector" [ref=e355] [cursor=pointer]:
+              - /url: /docs/collector/
+            - text: provides helpers to parse mixed formats.
+          - paragraph [ref=e356]: Structured logs are preferred in production because their stable schema makes them straightforward to validate, parse, correlate with traces and metrics, and analyze at scale.
+          - heading "Unstructured logs" [level=3] [ref=e357]
+          - paragraph [ref=e358]: Unstructured logs are logs that don’t follow a consistent structure. They may be more human-readable, and are often used in development. However, it is not preferred to use unstructured logs for production observability purposes, since they are much more difficult to parse and analyze at scale.
+          - paragraph [ref=e359]: "Examples of unstructured logs:"
+          - generic [ref=e361]:
+            - button "Copy to clipboard" [ref=e362] [cursor=pointer]: 
+            - code [ref=e363]:
+              - generic [ref=e364]: "[ERROR] 2024-08-04 12:45:23 - Failed to connect to database. Exception: java.sql.SQLException: Timeout expired. Attempted reconnect 3 times. Server: db.example.com, Port: 5432"
+              - generic [ref=e367]: "System reboot initiated at 2024-08-04 03:00:00 by user: admin. Reason: Scheduled maintenance. Services stopped: web-server, database, cache. Estimated downtime: 15 minutes."
+              - generic [ref=e370]: "DEBUG - 2024-08-04 09:30:15 - User johndoe performed action: file_upload. Filename: report_Q3_2024.pdf, Size: 2.3 MB, Duration: 5.2 seconds. Result: Success"
+          - paragraph [ref=e372]: It is possible to store and analyze Unstructured logs in production, although you may need to do substantial work to parse or otherwise pre-process them to be machine-readable. For example, the above three logs will require a regular expression to parse their timestamps and custom parsers to consistently extract the bodies of the log message. This will typically be necessary for a logging backend to know how to sort and organize the logs by timestamp. Although it’s possible to parse unstructured logs for analysis purposes, doing this may be more work than switching to structured logging, such as via a standard logging framework in your applications.
+          - heading "Semistructured logs" [level=3] [ref=e373]
+          - paragraph [ref=e374]: Semistructured logs include machine-readable key/value pairs or delimited fields but do not guarantee a stable schema across emitters. Examples include key=value logging (shown below) or JSON blobs where field names and types vary between messages. Semistructured logs are often easier to parse than unstructured logs but may still require processing and normalization before analysis.
+          - paragraph [ref=e375]: "Example of a semistructured log:"
+          - generic [ref=e377]:
+            - button "Copy to clipboard" [ref=e378] [cursor=pointer]: 
+            - code [ref=e379]:
+              - generic [ref=e380]: 2024-08-04T12:45:23Z level=ERROR service=user-authentication userId=12345 action=login message="Failed login attempt" error="Invalid password" ipAddress=192.168.1.1 userAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+          - paragraph [ref=e382]: Semistructured logs may require mapping and type coercion during ingestion to be fully useful for downstream analysis.
+          - heading "OpenTelemetry logging components" [level=2] [ref=e383]
+          - paragraph [ref=e384]: The following lists of concepts and components power OpenTelemetry’s logging support.
+          - heading "Log Appender / Bridge" [level=3] [ref=e385]
+          - paragraph [ref=e386]:
+            - text: As an application developer, the
+            - strong [ref=e387]: Logs Bridge API
+            - text: should not be called by you directly, as it is provided for logging library authors to build log appenders / bridges. Instead, you just use your preferred logging library and configure it to use a log appender (or log bridge) that is able to emit logs into an OpenTelemetry LogRecordExporter.
+          - paragraph [ref=e388]: OpenTelemetry language SDKs offer this functionality.
+          - heading "Logger Provider" [level=3] [ref=e389]
+          - blockquote [ref=e390]:
+            - paragraph [ref=e391]:
+              - text: Part of the
+              - strong [ref=e392]: Logs Bridge API
+              - text: and should only be used if you are the author of a logging library.
+          - paragraph [ref=e393]:
+            - text: A Logger Provider (sometimes called
+            - code [ref=e394]: LoggerProvider
+            - text: ) is a factory for
+            - code [ref=e395]: Logger
+            - text: s. In most cases, the Logger Provider is initialized once and its lifecycle matches the application’s lifecycle. Logger Provider initialization also includes Resource and Exporter initialization.
+          - heading "Logger" [level=3] [ref=e396]
+          - blockquote [ref=e397]:
+            - paragraph [ref=e398]:
+              - text: Part of the
+              - strong [ref=e399]: Logs Bridge API
+              - text: and should only be used if you are the author of a logging library.
+          - paragraph [ref=e400]: A Logger creates log records. Loggers are created from Log Providers.
+          - heading "Log Record Exporter" [level=3] [ref=e401]
+          - paragraph [ref=e402]: Log Record Exporters send log records to a consumer. This consumer can be standard output for debugging and development-time, the OpenTelemetry Collector, or any open source or vendor backend of your choice.
+          - heading "Log Record" [level=3] [ref=e403]
+          - paragraph [ref=e404]: "A log record represents the recording of an event. In OpenTelemetry a log record contains two kinds of fields:"
+          - list [ref=e405]:
+            - listitem [ref=e406]: Named top-level fields of specific type and meaning
+            - listitem [ref=e407]: Resource and attributes fields of arbitrary value and type
+          - paragraph [ref=e408]: "The top-level fields are:"
+          - table [ref=e409]:
+            - rowgroup [ref=e410]:
+              - row [ref=e411]:
+                - columnheader "Field Name" [ref=e412]
+                - columnheader "Description" [ref=e413]
+            - rowgroup [ref=e414]:
+              - row [ref=e415]:
+                - cell "Timestamp" [ref=e416]
+                - cell "Time when the event occurred." [ref=e417]
+              - row [ref=e418]:
+                - cell "ObservedTimestamp" [ref=e419]
+                - cell "Time when the event was observed." [ref=e420]
+              - row [ref=e421]:
+                - cell "TraceId" [ref=e422]
+                - cell "Request trace ID." [ref=e423]
+              - row [ref=e424]:
+                - cell "SpanId" [ref=e425]
+                - cell "Request span ID." [ref=e426]
+              - row [ref=e427]:
+                - cell "TraceFlags" [ref=e428]
+                - cell "W3C trace flag." [ref=e429]
+              - row [ref=e430]:
+                - cell "SeverityText" [ref=e431]
+                - cell "The severity text (also known as log level)." [ref=e432]
+              - row [ref=e433]:
+                - cell "SeverityNumber" [ref=e434]
+                - cell "Numerical value of the severity." [ref=e435]
+              - row [ref=e436]:
+                - cell "Body" [ref=e437]
+                - cell "The body of the log record." [ref=e438]
+              - row [ref=e439]:
+                - cell "Resource" [ref=e440]
+                - cell "Describes the source of the log." [ref=e441]
+              - row [ref=e442]:
+                - cell "InstrumentationScope" [ref=e443]
+                - cell "Describes the scope that emitted the log." [ref=e444]
+              - row [ref=e445]:
+                - cell "Attributes" [ref=e446]
+                - cell "Additional information about the event." [ref=e447]
+              - row [ref=e448]:
+                - cell "EventName" [ref=e449]
+                - cell "Name that identifies the class or type of the event." [ref=e450]
+          - paragraph [ref=e451]:
+            - text: For more details on log records and log fields, see
+            - link "Logs Data Model" [ref=e452] [cursor=pointer]:
+              - /url: /docs/specs/otel/logs/data-model/
+            - text: .
+          - heading "Specification" [level=3] [ref=e453]
+          - paragraph [ref=e454]:
+            - text: To learn more about logs in OpenTelemetry, see the
+            - link "logs specification" [ref=e455] [cursor=pointer]:
+              - /url: /docs/specs/otel/overview/#log-signal
+            - text: .
+          - generic [ref=e456]:
+            - heading "Feedback" [level=2] [ref=e457]
+            - paragraph [ref=e458]: Was this page helpful?
+            - button "Yes" [ref=e459] [cursor=pointer]
+            - button "No" [ref=e460] [cursor=pointer]
+            - text: 
+          - generic [ref=e461]:
+            - text: "Last modified July 1, 2026:"
+            - link "Add EventName to log record top-level fields (#10637) (cdbb33de)" [ref=e462] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/opentelemetry.io/commit/cdbb33debc83e66329757c6897c97ebde88bd60d
+    - contentinfo [ref=e463]:
+      - generic [ref=e465]:
+        - list [ref=e467]:
+          - listitem "Mailing Lists" [ref=e468]:
+            - link "Mailing Lists" [ref=e469] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/community#mailing-lists
+              - generic [ref=e470]: 
+          - listitem "Bluesky" [ref=e471]:
+            - link "Bluesky" [ref=e472] [cursor=pointer]:
+              - /url: https://bsky.app/profile/opentelemetry.io
+              - generic [ref=e473]: 
+          - listitem "Mastodon" [ref=e474]:
+            - link "Mastodon" [ref=e475] [cursor=pointer]:
+              - /url: https://fosstodon.org/@opentelemetry
+              - generic [ref=e476]: 
+          - listitem "Stack Overflow" [ref=e477]:
+            - link "Stack Overflow" [ref=e478] [cursor=pointer]:
+              - /url: https://stackoverflow.com/questions/tagged/open-telemetry
+              - generic [ref=e479]: 
+          - listitem "OTel logos" [ref=e480]:
+            - link "OTel logos" [ref=e481] [cursor=pointer]:
+              - /url: https://github.com/cncf/artwork/tree/master/projects/opentelemetry
+              - generic [ref=e482]: 
+          - listitem "Meeting Recordings" [ref=e483]:
+            - link "Meeting Recordings" [ref=e484] [cursor=pointer]:
+              - /url: https://docs.google.com/spreadsheets/d/1SYKfjYhZdm2Wh2Cl6KVQalKg_m4NhTPZqq-8SzEVO6s
+              - generic [ref=e485]: 
+          - listitem "Site analytics" [ref=e486]:
+            - link "Site analytics" [ref=e487] [cursor=pointer]:
+              - /url: https://lookerstudio.google.com/s/tSTKxK1ECeU
+              - generic [ref=e488]: 
+        - list [ref=e490]:
+          - listitem "GitHub" [ref=e491]:
+            - link "GitHub" [ref=e492] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry
+              - generic [ref=e493]: 
+          - 'listitem "Slack #opentelemetry-new-contributors" [ref=e494]':
+            - 'link "Slack #opentelemetry-new-contributors" [ref=e495] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/C09H3MNMBQV
+              - generic [ref=e496]: 
+          - 'listitem "Slack #opentelemetry" [ref=e497]':
+            - 'link "Slack #opentelemetry" [ref=e498] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/CJFCJHG4Q
+              - generic [ref=e499]: 
+          - listitem "CNCF DevStats" [ref=e500]:
+            - link "CNCF DevStats" [ref=e501] [cursor=pointer]:
+              - /url: https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m
+              - generic [ref=e502]: 
+          - listitem "Privacy Policy" [ref=e503]:
+            - link "Privacy Policy" [ref=e504] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/privacy-policy
+              - generic [ref=e505]: 
+          - listitem "Trademark Usage" [ref=e506]:
+            - link "Trademark Usage" [ref=e507] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/trademark-usage
+              - generic [ref=e508]: 
+          - listitem "Marketing Guidelines" [ref=e509]:
+            - link "Marketing Guidelines" [ref=e510] [cursor=pointer]:
+              - /url: /community/marketing-guidelines/
+              - generic [ref=e511]: 
+          - listitem "Site-build info" [ref=e512]:
+            - link "Site-build info" [ref=e513] [cursor=pointer]:
+              - /url: /site/
+              - generic [ref=e514]: 
+        - generic [ref=e516]:
+          - text: © 2019–present
+          - generic [ref=e517]:
+            - text: OpenTelemetry Authors | Docs
+            - link "CC BY 4.0" [ref=e518] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+  - button [ref=e519] [cursor=pointer]:
+    - generic [ref=e522]:
+      - img "Project Logo" [ref=e523]
+      - paragraph [ref=e524]: Ask AI

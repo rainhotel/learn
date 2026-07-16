@@ -1,0 +1,589 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "The OpenTelemetry Logo" [ref=e6]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /docs/
+          - listitem [ref=e12]:
+            - link "Ecosystem" [ref=e13] [cursor=pointer]:
+              - /url: /ecosystem/
+          - listitem [ref=e14]:
+            - link "Status" [ref=e15] [cursor=pointer]:
+              - /url: /status/
+          - listitem [ref=e16]:
+            - link "Community" [ref=e17] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e18]:
+            - link "Training" [ref=e19] [cursor=pointer]:
+              - /url: /training/
+          - listitem [ref=e20]:
+            - link "Blog" [ref=e21] [cursor=pointer]:
+              - /url: /blog/
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - button "English" [ref=e24] [cursor=pointer]
+              - text: 
+          - listitem [ref=e25]:
+            - button "Toggle theme (auto)" [ref=e27] [cursor=pointer]
+        - generic [ref=e31]:
+          - generic: 
+          - searchbox "Ask AI or search…" [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e35]:
+      - complementary [ref=e36]:
+        - generic [ref=e37]:
+          - text:  
+          - navigation [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - link "Docs" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/
+                - list [ref=e42]:
+                  - listitem [ref=e43]:
+                    - link "What is OpenTelemetry?" [ref=e45] [cursor=pointer]:
+                      - /url: /docs/what-is-opentelemetry/
+                  - listitem [ref=e46]:
+                    - generic [ref=e47]:
+                      - text: 
+                      - link "Getting Started" [ref=e48] [cursor=pointer]:
+                        - /url: /docs/getting-started/
+                  - listitem [ref=e49]:
+                    - generic [ref=e50]:
+                      - text: 
+                      - link "Concepts" [ref=e51] [cursor=pointer]:
+                        - /url: /docs/concepts/
+                    - list [ref=e52]:
+                      - listitem [ref=e53]:
+                        - link "Observability primer" [ref=e55] [cursor=pointer]:
+                          - /url: /docs/concepts/observability-primer/
+                      - listitem [ref=e56]:
+                        - link "Context propagation" [ref=e58] [cursor=pointer]:
+                          - /url: /docs/concepts/context-propagation/
+                      - listitem [ref=e59]:
+                        - generic [ref=e60]:
+                          - text: 
+                          - link "Signals" [ref=e61] [cursor=pointer]:
+                            - /url: /docs/concepts/signals/
+                        - list [ref=e62]:
+                          - listitem [ref=e63]:
+                            - link "Traces" [ref=e65] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/traces/
+                          - listitem [ref=e66]:
+                            - link "Metrics" [ref=e68] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/metrics/
+                          - listitem [ref=e69]:
+                            - link "Logs" [ref=e71] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/logs/
+                          - listitem [ref=e72]:
+                            - link "Baggage" [ref=e74] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/baggage/
+                          - listitem [ref=e75]:
+                            - link "Profiles" [ref=e77] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/profiles/
+                      - listitem [ref=e78]:
+                        - generic [ref=e79]:
+                          - text: 
+                          - link "Instrumentation" [ref=e80] [cursor=pointer]:
+                            - /url: /docs/concepts/instrumentation/
+                      - listitem [ref=e81]:
+                        - link "Components" [ref=e83] [cursor=pointer]:
+                          - /url: /docs/concepts/components/
+                      - listitem [ref=e84]:
+                        - link "Semantic Conventions" [ref=e86] [cursor=pointer]:
+                          - /url: /docs/concepts/semantic-conventions/
+                      - listitem [ref=e87]:
+                        - link "Resources" [ref=e89] [cursor=pointer]:
+                          - /url: /docs/concepts/resources/
+                      - listitem [ref=e90]:
+                        - link "Instrumentation scope" [ref=e92] [cursor=pointer]:
+                          - /url: /docs/concepts/instrumentation-scope/
+                      - listitem [ref=e93]:
+                        - link "Sampling" [ref=e95] [cursor=pointer]:
+                          - /url: /docs/concepts/sampling/
+                      - listitem [ref=e96]:
+                        - link "Distributions" [ref=e98] [cursor=pointer]:
+                          - /url: /docs/concepts/distributions/
+                      - listitem [ref=e99]:
+                        - link "Glossary" [ref=e101] [cursor=pointer]:
+                          - /url: /docs/concepts/glossary/
+                  - listitem [ref=e102]:
+                    - generic [ref=e103]:
+                      - text: 
+                      - link "Demo" [ref=e104] [cursor=pointer]:
+                        - /url: /docs/demo/
+                    - text:     
+                  - listitem [ref=e105]:
+                    - generic [ref=e106]:
+                      - text: 
+                      - link "Language APIs & SDKs" [ref=e107] [cursor=pointer]:
+                        - /url: /docs/languages/
+                    - text:                                       
+                  - listitem [ref=e108]:
+                    - generic [ref=e109]:
+                      - text: 
+                      - link "Platforms" [ref=e110] [cursor=pointer]:
+                        - /url: /docs/platforms/
+                    - text:       
+                  - listitem [ref=e111]:
+                    - generic [ref=e112]:
+                      - text: 
+                      - link "Zero-code Instrumentation" [ref=e113] [cursor=pointer]:
+                        - /url: /docs/zero-code/
+                    - text:             
+                  - listitem [ref=e114]:
+                    - generic [ref=e115]:
+                      - text: 
+                      - link "Collector" [ref=e116] [cursor=pointer]:
+                        - /url: /docs/collector/
+                    - text:        
+                  - listitem [ref=e117]:
+                    - generic [ref=e118]:
+                      - text: 
+                      - link "Blueprints and reference implementations" [ref=e119] [cursor=pointer]:
+                        - /url: /docs/guidance/
+                    - text:  
+                  - listitem [ref=e120]:
+                    - generic [ref=e121]:
+                      - text: 
+                      - link "Compatibility" [ref=e122] [cursor=pointer]:
+                        - /url: /docs/compatibility/
+                    - text:  
+                  - listitem [ref=e123]:
+                    - generic [ref=e124]:
+                      - text: 
+                      - link "Specs" [ref=e125] [cursor=pointer]:
+                        - /url: /docs/specs/
+                    - text:                                                          
+                  - listitem [ref=e126]:
+                    - generic [ref=e127]:
+                      - text: 
+                      - link "Security" [ref=e128] [cursor=pointer]:
+                        - /url: /docs/security/
+                  - listitem [ref=e129]:
+                    - generic [ref=e130]:
+                      - text: 
+                      - link "Contributing" [ref=e131] [cursor=pointer]:
+                        - /url: /docs/contributing/
+      - complementary [ref=e132]:
+        - generic [ref=e133]:
+          - link " View Markdown" [ref=e134] [cursor=pointer]:
+            - /url: /docs/concepts/signals/metrics/index.md
+            - generic [ref=e135]: 
+            - text: View Markdown
+          - link " View page source" [ref=e136] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/tree/main/content/en/docs/concepts/signals/metrics.md
+            - generic [ref=e137]: 
+            - text: View page source
+          - link " Edit this page" [ref=e138] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/edit/main/content/en/docs/concepts/signals/metrics.md
+            - generic [ref=e139]: 
+            - text: Edit this page
+          - text: 
+          - link " Create documentation issue" [ref=e140] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/issues/new?title=Metrics
+            - generic [ref=e141]: 
+            - text: Create documentation issue
+        - generic [ref=e142]:
+          - generic [ref=e143]: On this page
+          - navigation [ref=e144]:
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Meter Provider" [ref=e147] [cursor=pointer]:
+                  - /url: "#meter-provider"
+              - listitem [ref=e148]:
+                - link "Meter" [ref=e149] [cursor=pointer]:
+                  - /url: "#meter"
+              - listitem [ref=e150]:
+                - link "Metric Exporter" [ref=e151] [cursor=pointer]:
+                  - /url: "#metric-exporter"
+              - listitem [ref=e152]:
+                - link "Metric Instruments" [ref=e153] [cursor=pointer]:
+                  - /url: "#metric-instruments"
+              - listitem [ref=e154]:
+                - link "Aggregation" [ref=e155] [cursor=pointer]:
+                  - /url: "#aggregation"
+              - listitem [ref=e156]:
+                - link "Views" [ref=e157] [cursor=pointer]:
+                  - /url: "#views"
+              - listitem [ref=e158]:
+                - link "Cardinality limits" [ref=e159] [cursor=pointer]:
+                  - /url: "#cardinality-limits"
+                - list [ref=e160]:
+                  - listitem [ref=e161]:
+                    - link "What the limit does not apply to" [ref=e162] [cursor=pointer]:
+                      - /url: "#what-the-limit-does-not-apply-to"
+                  - listitem [ref=e163]:
+                    - link "Temporality and cardinality limits" [ref=e164] [cursor=pointer]:
+                      - /url: "#temporality-and-cardinality-limits"
+              - listitem [ref=e165]:
+                - link "Language Support" [ref=e166] [cursor=pointer]:
+                  - /url: "#language-support"
+              - listitem [ref=e167]:
+                - link "Specification" [ref=e168] [cursor=pointer]:
+                  - /url: "#specification"
+      - main [ref=e169]:
+        - navigation "breadcrumb" [ref=e170]:
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Docs" [ref=e173] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e174]:
+              - text: /
+              - link "Concepts" [ref=e175] [cursor=pointer]:
+                - /url: /docs/concepts/
+            - listitem [ref=e176]:
+              - text: /
+              - link "Signals" [ref=e177] [cursor=pointer]:
+                - /url: /docs/concepts/signals/
+            - listitem [ref=e178]: / Metrics
+        - generic [ref=e179]:
+          - heading "Metrics" [level=1] [ref=e180]
+          - generic [ref=e181]: A measurement captured at runtime.
+          - paragraph [ref=e182]:
+            - text: A
+            - strong [ref=e183]: metric
+            - text: is a
+            - strong [ref=e184]: measurement
+            - text: of a service captured at runtime. The moment of capturing a measurement is known as a
+            - strong [ref=e185]: metric event
+            - text: ", which consists not only of the measurement itself, but also the time at which it was captured and associated metadata."
+          - paragraph [ref=e186]: Application and request metrics are important indicators of availability and performance. Custom metrics can provide insights into how availability indicators impact user experience or the business. Collected data can be used to alert of an outage or trigger scheduling decisions to scale up a deployment automatically upon high demand.
+          - paragraph [ref=e187]: To understand how metrics in OpenTelemetry works, let’s look at a list of components that will play a part in instrumenting our code.
+          - heading "Meter Provider" [level=2] [ref=e188]
+          - paragraph [ref=e189]:
+            - text: A Meter Provider (sometimes called
+            - code [ref=e190]: MeterProvider
+            - text: ) is a factory for
+            - code [ref=e191]: Meter
+            - text: s. In most applications, a Meter Provider is initialized once and its lifecycle matches the application’s lifecycle. Meter Provider initialization also includes Resource and Exporter initialization. It is typically the first step in metering with OpenTelemetry. In some language SDKs, a global Meter Provider is already initialized for you.
+          - heading "Meter" [level=2] [ref=e192]
+          - paragraph [ref=e193]:
+            - text: A Meter creates
+            - link "metric instruments" [ref=e194] [cursor=pointer]:
+              - /url: "#metric-instruments"
+            - text: ", capturing measurements about a service at runtime. Meters are created from Meter Providers."
+          - heading "Metric Exporter" [level=2] [ref=e195]
+          - paragraph [ref=e196]: Metric Exporters send metric data to a consumer. This consumer can be standard output for debugging during development, the OpenTelemetry Collector, or any open source or vendor backend of your choice.
+          - heading "Metric Instruments" [level=2] [ref=e197]
+          - paragraph [ref=e198]:
+            - text: In OpenTelemetry measurements are captured by
+            - strong [ref=e199]: metric instruments
+            - text: ". A metric instrument is defined by:"
+          - list [ref=e200]:
+            - listitem [ref=e201]: Name
+            - listitem [ref=e202]: Kind
+            - listitem [ref=e203]: Unit (optional)
+            - listitem [ref=e204]: Description (optional)
+          - paragraph [ref=e205]:
+            - text: The name, unit, and description are chosen by the developer or defined via
+            - link "semantic conventions" [ref=e206] [cursor=pointer]:
+              - /url: /docs/specs/semconv/general/metrics/
+            - text: for common ones like request and process metrics.
+          - paragraph [ref=e207]: "The instrument kind is one of the following:"
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - strong [ref=e210]: Counter
+              - text: ": A value that accumulates over time – you can think of this like an odometer on a car; it only ever goes up."
+            - listitem [ref=e211]:
+              - strong [ref=e212]: Asynchronous Counter
+              - text: ": Same as the"
+              - strong [ref=e213]: Counter
+              - text: ", but is collected once for each export. Could be used if you don’t have access to the continuous increments, but only to the aggregated value."
+            - listitem [ref=e214]:
+              - strong [ref=e215]: UpDownCounter
+              - text: ": A value that accumulates over time, but can also go down again. An example could be a queue length, it will increase and decrease with the number of work items in the queue."
+            - listitem [ref=e216]:
+              - strong [ref=e217]: Asynchronous UpDownCounter
+              - text: ": Same as the"
+              - strong [ref=e218]: UpDownCounter
+              - text: ", but is collected once for each export. Could be used if you don’t have access to the continuous changes, but only to the aggregated value (e.g., current queue size)."
+            - listitem [ref=e219]:
+              - strong [ref=e220]: Gauge
+              - text: ": Measures a current value at the time it is read. An example would be the fuel gauge in a vehicle. Gauges are synchronous."
+            - listitem [ref=e221]:
+              - strong [ref=e222]: Asynchronous Gauge
+              - text: ": Same as the"
+              - strong [ref=e223]: Gauge
+              - text: ", but is collected once for each export. Could be used if you don’t have access to the continuous changes, but only to the aggregated value."
+            - listitem [ref=e224]:
+              - strong [ref=e225]: Histogram
+              - text: ": A client-side aggregation of values, such as request latencies. A histogram is a good choice if you are interested in value statistics. For example: How many requests take fewer than 1s?"
+          - paragraph [ref=e226]:
+            - text: For more on synchronous and asynchronous instruments, and which kind is best suited for your use case, see
+            - link "Supplementary Guidelines" [ref=e227] [cursor=pointer]:
+              - /url: /docs/specs/otel/metrics/supplementary-guidelines/
+            - text: .
+          - heading "Aggregation" [level=2] [ref=e228]
+          - paragraph [ref=e229]:
+            - text: In addition to the metric instruments, the concept of
+            - strong [ref=e230]: aggregations
+            - text: is an important one to understand. An aggregation is a technique whereby a large number of measurements are combined into either exact or estimated statistics about metric events that took place during a time window. The OTLP protocol transports such aggregated metrics. The OpenTelemetry API provides a default aggregation for each instrument which can be overridden using the Views. The OpenTelemetry project aims to provide default aggregations that are supported by visualizers and telemetry backends.
+          - paragraph [ref=e231]:
+            - text: Unlike
+            - link "request tracing" [ref=e232] [cursor=pointer]:
+              - /url: ../traces/
+            - text: ", which is intended to capture request lifecycles and provide context to the individual pieces of a request, metrics are intended to provide statistical information in aggregate. Some examples of use cases for metrics include:"
+          - list [ref=e233]:
+            - listitem [ref=e234]: Reporting the total number of bytes read by a service, per protocol type.
+            - listitem [ref=e235]: Reporting the total number of bytes read and the bytes per request.
+            - listitem [ref=e236]: Reporting the duration of a system call.
+            - listitem [ref=e237]: Reporting request sizes in order to determine a trend.
+            - listitem [ref=e238]: Reporting CPU or memory usage of a process.
+            - listitem [ref=e239]: Reporting average balance values from an account.
+            - listitem [ref=e240]: Reporting current active requests being handled.
+          - heading "Views" [level=2] [ref=e241]
+          - paragraph [ref=e242]: A view provides SDK users with the flexibility to customize the metrics output by the SDK. You can customize which metric instruments are to be processed or ignored. You can also customize aggregation and what attributes you want to report on metrics.
+          - heading "Cardinality limits" [level=2] [ref=e243]
+          - paragraph [ref=e244]:
+            - text: The
+            - strong [ref=e245]: cardinality
+            - text: of a metric is the number of unique attribute combinations reported for it. Because the SDK keeps a separate aggregation state (a data point) in memory for each unique combination, cardinality drives the memory cost of metrics. Unlike logs, this cost scales with the number of distinct attribute combinations rather than with request volume, so high-cardinality attributes, such as user IDs or raw URL paths, can cause unbounded memory growth.
+          - paragraph [ref=e246]:
+            - text: To protect applications from this, the OpenTelemetry metrics SDK enforces a
+            - strong [ref=e247]: cardinality limit
+            - text: ": a maximum number of unique attribute combinations tracked per metric stream. The default is 2000 and can be overridden with a"
+            - link "View" [ref=e248] [cursor=pointer]:
+              - /url: "#views"
+            - text: .
+          - paragraph [ref=e249]:
+            - text: When the limit is reached, additional attribute combinations are not dropped outright. Instead, their measurements are aggregated into a single
+            - strong [ref=e250]: overflow data point
+            - text: identified by the attribute
+            - code [ref=e251]: otel.metric.overflow=true
+            - text: ". This design has three important properties:"
+          - list [ref=e252]:
+            - listitem [ref=e253]:
+              - strong [ref=e254]: No measurements are lost.
+              - text: Only the attributes are dropped; the recorded values are folded into the overflow data point, so the metric’s overall total stays correct.
+            - listitem [ref=e255]:
+              - strong [ref=e256]: Memory is bounded.
+              - text: The SDK never tracks more than the configured number of combinations.
+            - listitem [ref=e257]:
+              - strong [ref=e258]: Overflow is observable.
+              - text: Every SDK uses the same
+              - code [ref=e259]: otel.metric.overflow=true
+              - text: marker, so a single query can detect overflow across services, languages, and backends.
+          - paragraph [ref=e260]:
+            - text: The trade-off is that any query that
+            - strong [ref=e261]: filters or groups by an attribute
+            - text: on an overflowed metric undercounts, because the measurements folded into overflow no longer carry that attribute.
+          - paragraph [ref=e262]:
+            - text: This is easy to underestimate, because overflow replaces the
+            - strong [ref=e263]: entire
+            - text: attribute combination, not just its high-cardinality part. Suppose a request counter records
+            - code [ref=e264]: url.path
+            - text: (high cardinality) together with
+            - code [ref=e265]: success
+            - text: (a boolean). Once the stream overflows, a measurement for
+            - code [ref=e266]: "{url.path=/checkout, success=false}"
+            - text: is folded into the single overflow data point
+            - code [ref=e267]: "{otel.metric.overflow=true}"
+            - text: ", dropping"
+            - code [ref=e268]: success
+            - text: along with
+            - code [ref=e269]: url.path
+            - text: . A query for
+            - code [ref=e270]: success=false
+            - text: then misses that measurement, even though
+            - code [ref=e271]: success
+            - text: on its own is as low-cardinality as an attribute can be. An error-rate alert built on
+            - code [ref=e272]: success=false
+            - text: can therefore stop firing, while the metric’s overall total stays correct.
+          - heading "What the limit does not apply to" [level=3] [ref=e273]
+          - paragraph [ref=e274]:
+            - text: The cardinality limit applies only to attributes supplied when recording measurements through the metrics API. It does
+            - strong [ref=e275]: not
+            - text: "apply to:"
+          - list [ref=e276]:
+            - listitem [ref=e277]:
+              - link "Resource" [ref=e278] [cursor=pointer]:
+                - /url: /docs/concepts/resources/
+              - text: attributes, such as
+              - code [ref=e279]: service.name
+              - text: or
+              - code [ref=e280]: service.instance.id
+              - text: .
+            - listitem [ref=e281]:
+              - text: Instrumentation scope attributes set when a
+              - link "Meter" [ref=e282] [cursor=pointer]:
+                - /url: "#meter"
+              - text: is created.
+          - paragraph [ref=e283]: "Values in Resource and instrumentation scope attributes are recorded on every data point, including the overflow one, so they remain reliably queryable even during overflow. This is not a reason to relocate measurement attributes to work around the limit. Attributes should be placed according to what they describe: a Resource describes the entity producing telemetry, instrumentation scope describes the instrumenting library, and measurement attributes describe an individual measurement. When attributes are modeled this way, context that is constant for the lifetime of the process, such as service name, environment, or region, naturally belongs in the Resource, where it also stays queryable under overflow."
+          - heading "Temporality and cardinality limits" [level=3] [ref=e284]
+          - paragraph [ref=e285]:
+            - text: For synchronous instruments,
+            - link "aggregation temporality" [ref=e286] [cursor=pointer]:
+              - /url: /docs/specs/otel/metrics/data-model/#temporality
+            - text: "determines how quickly the SDK can reclaim aggregation state, and therefore how quickly the limit is reached:"
+          - list [ref=e287]:
+            - listitem [ref=e288]:
+              - text: With
+              - strong [ref=e289]: delta
+              - text: temporality, the SDK resets state after each cycle, so the limit bounds only the combinations active within a single cycle.
+            - listitem [ref=e290]:
+              - text: With
+              - strong [ref=e291]: cumulative
+              - text: temporality, the SDK retains state across cycles, so once the limit is reached, new combinations keep overflowing until the process restarts.
+          - paragraph [ref=e292]: Asynchronous instruments follow different rules that are beyond the scope of this overview.
+          - heading "Language Support" [level=2] [ref=e293]
+          - paragraph [ref=e294]:
+            - text: Metrics are a
+            - link "stable" [ref=e295] [cursor=pointer]:
+              - /url: /docs/specs/otel/versioning-and-stability/#stable
+            - text: "signal in the OpenTelemetry specification. For the individual language specific implementations of the Metrics API & SDK, the status is as follows:"
+          - table [ref=e296]:
+            - rowgroup [ref=e297]:
+              - row [ref=e298]:
+                - columnheader "Language" [ref=e299]
+                - columnheader "Metrics" [ref=e300]
+            - rowgroup [ref=e301]:
+              - row [ref=e302]:
+                - cell [ref=e303]:
+                  - link "C++" [ref=e304] [cursor=pointer]:
+                    - /url: /docs/languages/cpp/
+                - cell "Stable" [ref=e305]
+              - row [ref=e306]:
+                - cell [ref=e307]:
+                  - link "C#/.NET" [ref=e308] [cursor=pointer]:
+                    - /url: /docs/languages/dotnet/
+                - cell "Stable" [ref=e309]
+              - row [ref=e310]:
+                - cell [ref=e311]:
+                  - link "Erlang/Elixir" [ref=e312] [cursor=pointer]:
+                    - /url: /docs/languages/erlang/
+                - cell "Development" [ref=e313]
+              - row [ref=e314]:
+                - cell [ref=e315]:
+                  - link "Go" [ref=e316] [cursor=pointer]:
+                    - /url: /docs/languages/go/
+                - cell "Stable" [ref=e317]
+              - row [ref=e318]:
+                - cell [ref=e319]:
+                  - link "Java" [ref=e320] [cursor=pointer]:
+                    - /url: /docs/languages/java/
+                - cell "Stable" [ref=e321]
+              - row [ref=e322]:
+                - cell [ref=e323]:
+                  - link "JavaScript" [ref=e324] [cursor=pointer]:
+                    - /url: /docs/languages/js/
+                - cell "Stable" [ref=e325]
+              - row [ref=e326]:
+                - cell [ref=e327]:
+                  - link "PHP" [ref=e328] [cursor=pointer]:
+                    - /url: /docs/languages/php/
+                - cell "Stable" [ref=e329]
+              - row [ref=e330]:
+                - cell [ref=e331]:
+                  - link "Python" [ref=e332] [cursor=pointer]:
+                    - /url: /docs/languages/python/
+                - cell "Stable" [ref=e333]
+              - row [ref=e334]:
+                - cell [ref=e335]:
+                  - link "Ruby" [ref=e336] [cursor=pointer]:
+                    - /url: /docs/languages/ruby/
+                - cell "Development" [ref=e337]
+              - row [ref=e338]:
+                - cell [ref=e339]:
+                  - link "Rust" [ref=e340] [cursor=pointer]:
+                    - /url: /docs/languages/rust/
+                - cell "Beta" [ref=e341]
+              - row [ref=e342]:
+                - cell [ref=e343]:
+                  - link "Swift" [ref=e344] [cursor=pointer]:
+                    - /url: /docs/languages/swift/
+                - cell "Development" [ref=e345]
+          - heading "Specification" [level=2] [ref=e346]
+          - paragraph [ref=e347]:
+            - text: To learn more about metrics in OpenTelemetry, see the
+            - link "metrics specification" [ref=e348] [cursor=pointer]:
+              - /url: /docs/specs/otel/overview/#metric-signal
+            - text: .
+          - generic [ref=e349]:
+            - heading "Feedback" [level=2] [ref=e350]
+            - paragraph [ref=e351]: Was this page helpful?
+            - button "Yes" [ref=e352] [cursor=pointer]
+            - button "No" [ref=e353] [cursor=pointer]
+            - text: 
+          - generic [ref=e354]:
+            - text: "Last modified July 2, 2026:"
+            - link "[concepts] Document metric cardinality limits and overflow (#10630) (6524d480)" [ref=e355] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/opentelemetry.io/commit/6524d48015ecb576ef4cb4540493b9c7be51e60f
+    - contentinfo [ref=e356]:
+      - generic [ref=e358]:
+        - list [ref=e360]:
+          - listitem "Mailing Lists" [ref=e361]:
+            - link "Mailing Lists" [ref=e362] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/community#mailing-lists
+              - generic [ref=e363]: 
+          - listitem "Bluesky" [ref=e364]:
+            - link "Bluesky" [ref=e365] [cursor=pointer]:
+              - /url: https://bsky.app/profile/opentelemetry.io
+              - generic [ref=e366]: 
+          - listitem "Mastodon" [ref=e367]:
+            - link "Mastodon" [ref=e368] [cursor=pointer]:
+              - /url: https://fosstodon.org/@opentelemetry
+              - generic [ref=e369]: 
+          - listitem "Stack Overflow" [ref=e370]:
+            - link "Stack Overflow" [ref=e371] [cursor=pointer]:
+              - /url: https://stackoverflow.com/questions/tagged/open-telemetry
+              - generic [ref=e372]: 
+          - listitem "OTel logos" [ref=e373]:
+            - link "OTel logos" [ref=e374] [cursor=pointer]:
+              - /url: https://github.com/cncf/artwork/tree/master/projects/opentelemetry
+              - generic [ref=e375]: 
+          - listitem "Meeting Recordings" [ref=e376]:
+            - link "Meeting Recordings" [ref=e377] [cursor=pointer]:
+              - /url: https://docs.google.com/spreadsheets/d/1SYKfjYhZdm2Wh2Cl6KVQalKg_m4NhTPZqq-8SzEVO6s
+              - generic [ref=e378]: 
+          - listitem "Site analytics" [ref=e379]:
+            - link "Site analytics" [ref=e380] [cursor=pointer]:
+              - /url: https://lookerstudio.google.com/s/tSTKxK1ECeU
+              - generic [ref=e381]: 
+        - list [ref=e383]:
+          - listitem "GitHub" [ref=e384]:
+            - link "GitHub" [ref=e385] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry
+              - generic [ref=e386]: 
+          - 'listitem "Slack #opentelemetry-new-contributors" [ref=e387]':
+            - 'link "Slack #opentelemetry-new-contributors" [ref=e388] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/C09H3MNMBQV
+              - generic [ref=e389]: 
+          - 'listitem "Slack #opentelemetry" [ref=e390]':
+            - 'link "Slack #opentelemetry" [ref=e391] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/CJFCJHG4Q
+              - generic [ref=e392]: 
+          - listitem "CNCF DevStats" [ref=e393]:
+            - link "CNCF DevStats" [ref=e394] [cursor=pointer]:
+              - /url: https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m
+              - generic [ref=e395]: 
+          - listitem "Privacy Policy" [ref=e396]:
+            - link "Privacy Policy" [ref=e397] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/privacy-policy
+              - generic [ref=e398]: 
+          - listitem "Trademark Usage" [ref=e399]:
+            - link "Trademark Usage" [ref=e400] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/trademark-usage
+              - generic [ref=e401]: 
+          - listitem "Marketing Guidelines" [ref=e402]:
+            - link "Marketing Guidelines" [ref=e403] [cursor=pointer]:
+              - /url: /community/marketing-guidelines/
+              - generic [ref=e404]: 
+          - listitem "Site-build info" [ref=e405]:
+            - link "Site-build info" [ref=e406] [cursor=pointer]:
+              - /url: /site/
+              - generic [ref=e407]: 
+        - generic [ref=e409]:
+          - text: © 2019–present
+          - generic [ref=e410]:
+            - text: OpenTelemetry Authors | Docs
+            - link "CC BY 4.0" [ref=e411] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+  - button [ref=e412] [cursor=pointer]:
+    - generic [ref=e415]:
+      - img "Project Logo" [ref=e416]
+      - paragraph [ref=e417]: Ask AI

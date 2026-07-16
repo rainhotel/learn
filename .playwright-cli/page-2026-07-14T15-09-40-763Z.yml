@@ -1,0 +1,703 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - generic [ref=e3]:
+        - link [ref=e4] [cursor=pointer]:
+          - /url: /
+          - img "The OpenTelemetry Logo" [ref=e6]
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Docs" [ref=e11] [cursor=pointer]:
+              - /url: /docs/
+          - listitem [ref=e12]:
+            - link "Ecosystem" [ref=e13] [cursor=pointer]:
+              - /url: /ecosystem/
+          - listitem [ref=e14]:
+            - link "Status" [ref=e15] [cursor=pointer]:
+              - /url: /status/
+          - listitem [ref=e16]:
+            - link "Community" [ref=e17] [cursor=pointer]:
+              - /url: /community/
+          - listitem [ref=e18]:
+            - link "Training" [ref=e19] [cursor=pointer]:
+              - /url: /training/
+          - listitem [ref=e20]:
+            - link "Blog" [ref=e21] [cursor=pointer]:
+              - /url: /blog/
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - button "English" [ref=e24] [cursor=pointer]
+              - text: 
+          - listitem [ref=e25]:
+            - button "Toggle theme (auto)" [ref=e27] [cursor=pointer]
+        - generic [ref=e31]:
+          - generic: 
+          - searchbox "Ask AI or search…" [ref=e32]
+  - generic [ref=e33]:
+    - generic [ref=e35]:
+      - complementary [ref=e36]:
+        - generic [ref=e37]:
+          - text:  
+          - navigation [ref=e38]:
+            - list [ref=e39]:
+              - listitem [ref=e40]:
+                - link "Docs" [ref=e41] [cursor=pointer]:
+                  - /url: /docs/
+                - list [ref=e42]:
+                  - listitem [ref=e43]:
+                    - link "What is OpenTelemetry?" [ref=e45] [cursor=pointer]:
+                      - /url: /docs/what-is-opentelemetry/
+                  - listitem [ref=e46]:
+                    - generic [ref=e47]:
+                      - text: 
+                      - link "Getting Started" [ref=e48] [cursor=pointer]:
+                        - /url: /docs/getting-started/
+                  - listitem [ref=e49]:
+                    - generic [ref=e50]:
+                      - text: 
+                      - link "Concepts" [ref=e51] [cursor=pointer]:
+                        - /url: /docs/concepts/
+                    - list [ref=e52]:
+                      - listitem [ref=e53]:
+                        - link "Observability primer" [ref=e55] [cursor=pointer]:
+                          - /url: /docs/concepts/observability-primer/
+                      - listitem [ref=e56]:
+                        - link "Context propagation" [ref=e58] [cursor=pointer]:
+                          - /url: /docs/concepts/context-propagation/
+                      - listitem [ref=e59]:
+                        - generic [ref=e60]:
+                          - text: 
+                          - link "Signals" [ref=e61] [cursor=pointer]:
+                            - /url: /docs/concepts/signals/
+                        - list [ref=e62]:
+                          - listitem [ref=e63]:
+                            - link "Traces" [ref=e65] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/traces/
+                          - listitem [ref=e66]:
+                            - link "Metrics" [ref=e68] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/metrics/
+                          - listitem [ref=e69]:
+                            - link "Logs" [ref=e71] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/logs/
+                          - listitem [ref=e72]:
+                            - link "Baggage" [ref=e74] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/baggage/
+                          - listitem [ref=e75]:
+                            - link "Profiles" [ref=e77] [cursor=pointer]:
+                              - /url: /docs/concepts/signals/profiles/
+                      - listitem [ref=e78]:
+                        - generic [ref=e79]:
+                          - text: 
+                          - link "Instrumentation" [ref=e80] [cursor=pointer]:
+                            - /url: /docs/concepts/instrumentation/
+                      - listitem [ref=e81]:
+                        - link "Components" [ref=e83] [cursor=pointer]:
+                          - /url: /docs/concepts/components/
+                      - listitem [ref=e84]:
+                        - link "Semantic Conventions" [ref=e86] [cursor=pointer]:
+                          - /url: /docs/concepts/semantic-conventions/
+                      - listitem [ref=e87]:
+                        - link "Resources" [ref=e89] [cursor=pointer]:
+                          - /url: /docs/concepts/resources/
+                      - listitem [ref=e90]:
+                        - link "Instrumentation scope" [ref=e92] [cursor=pointer]:
+                          - /url: /docs/concepts/instrumentation-scope/
+                      - listitem [ref=e93]:
+                        - link "Sampling" [ref=e95] [cursor=pointer]:
+                          - /url: /docs/concepts/sampling/
+                      - listitem [ref=e96]:
+                        - link "Distributions" [ref=e98] [cursor=pointer]:
+                          - /url: /docs/concepts/distributions/
+                      - listitem [ref=e99]:
+                        - link "Glossary" [ref=e101] [cursor=pointer]:
+                          - /url: /docs/concepts/glossary/
+                  - listitem [ref=e102]:
+                    - generic [ref=e103]:
+                      - text: 
+                      - link "Demo" [ref=e104] [cursor=pointer]:
+                        - /url: /docs/demo/
+                    - text:     
+                  - listitem [ref=e105]:
+                    - generic [ref=e106]:
+                      - text: 
+                      - link "Language APIs & SDKs" [ref=e107] [cursor=pointer]:
+                        - /url: /docs/languages/
+                    - text:                                       
+                  - listitem [ref=e108]:
+                    - generic [ref=e109]:
+                      - text: 
+                      - link "Platforms" [ref=e110] [cursor=pointer]:
+                        - /url: /docs/platforms/
+                    - text:       
+                  - listitem [ref=e111]:
+                    - generic [ref=e112]:
+                      - text: 
+                      - link "Zero-code Instrumentation" [ref=e113] [cursor=pointer]:
+                        - /url: /docs/zero-code/
+                    - text:             
+                  - listitem [ref=e114]:
+                    - generic [ref=e115]:
+                      - text: 
+                      - link "Collector" [ref=e116] [cursor=pointer]:
+                        - /url: /docs/collector/
+                    - text:        
+                  - listitem [ref=e117]:
+                    - generic [ref=e118]:
+                      - text: 
+                      - link "Blueprints and reference implementations" [ref=e119] [cursor=pointer]:
+                        - /url: /docs/guidance/
+                    - text:  
+                  - listitem [ref=e120]:
+                    - generic [ref=e121]:
+                      - text: 
+                      - link "Compatibility" [ref=e122] [cursor=pointer]:
+                        - /url: /docs/compatibility/
+                    - text:  
+                  - listitem [ref=e123]:
+                    - generic [ref=e124]:
+                      - text: 
+                      - link "Specs" [ref=e125] [cursor=pointer]:
+                        - /url: /docs/specs/
+                    - text:                                                          
+                  - listitem [ref=e126]:
+                    - generic [ref=e127]:
+                      - text: 
+                      - link "Security" [ref=e128] [cursor=pointer]:
+                        - /url: /docs/security/
+                  - listitem [ref=e129]:
+                    - generic [ref=e130]:
+                      - text: 
+                      - link "Contributing" [ref=e131] [cursor=pointer]:
+                        - /url: /docs/contributing/
+      - complementary [ref=e132]:
+        - generic [ref=e133]:
+          - link " View Markdown" [ref=e134] [cursor=pointer]:
+            - /url: /docs/concepts/signals/traces/index.md
+            - generic [ref=e135]: 
+            - text: View Markdown
+          - link " View page source" [ref=e136] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/tree/main/content/en/docs/concepts/signals/traces.md
+            - generic [ref=e137]: 
+            - text: View page source
+          - link " Edit this page" [ref=e138] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/edit/main/content/en/docs/concepts/signals/traces.md
+            - generic [ref=e139]: 
+            - text: Edit this page
+          - text: 
+          - link " Create documentation issue" [ref=e140] [cursor=pointer]:
+            - /url: https://github.com/open-telemetry/opentelemetry.io/issues/new?title=Traces
+            - generic [ref=e141]: 
+            - text: Create documentation issue
+        - generic [ref=e142]:
+          - generic [ref=e143]: On this page
+          - navigation [ref=e144]:
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "Tracer Provider" [ref=e147] [cursor=pointer]:
+                  - /url: "#tracer-provider"
+              - listitem [ref=e148]:
+                - link "Tracer" [ref=e149] [cursor=pointer]:
+                  - /url: "#tracer"
+              - listitem [ref=e150]:
+                - link "Trace Exporters" [ref=e151] [cursor=pointer]:
+                  - /url: "#trace-exporters"
+              - listitem [ref=e152]:
+                - link "Context Propagation" [ref=e153] [cursor=pointer]:
+                  - /url: "#context-propagation"
+              - listitem [ref=e154]:
+                - link "Spans" [ref=e155] [cursor=pointer]:
+                  - /url: "#spans"
+                - list [ref=e156]:
+                  - listitem [ref=e157]:
+                    - link "Span Context" [ref=e158] [cursor=pointer]:
+                      - /url: "#span-context"
+                  - listitem [ref=e159]:
+                    - link "Attributes" [ref=e160] [cursor=pointer]:
+                      - /url: "#attributes"
+                  - listitem [ref=e161]:
+                    - link "Span Events" [ref=e162] [cursor=pointer]:
+                      - /url: "#span-events"
+                    - list [ref=e163]:
+                      - listitem [ref=e164]:
+                        - link "When to use span events versus span attributes" [ref=e165] [cursor=pointer]:
+                          - /url: "#when-to-use-span-events-versus-span-attributes"
+                  - listitem [ref=e166]:
+                    - link "Span Links" [ref=e167] [cursor=pointer]:
+                      - /url: "#span-links"
+                  - listitem [ref=e168]:
+                    - link "Span Status" [ref=e169] [cursor=pointer]:
+                      - /url: "#span-status"
+                  - listitem [ref=e170]:
+                    - link "Span Kind" [ref=e171] [cursor=pointer]:
+                      - /url: "#span-kind"
+                    - list [ref=e172]:
+                      - listitem [ref=e173]:
+                        - link "Client" [ref=e174] [cursor=pointer]:
+                          - /url: "#client"
+                      - listitem [ref=e175]:
+                        - link "Server" [ref=e176] [cursor=pointer]:
+                          - /url: "#server"
+                      - listitem [ref=e177]:
+                        - link "Internal" [ref=e178] [cursor=pointer]:
+                          - /url: "#internal"
+                      - listitem [ref=e179]:
+                        - link "Producer" [ref=e180] [cursor=pointer]:
+                          - /url: "#producer"
+                      - listitem [ref=e181]:
+                        - link "Consumer" [ref=e182] [cursor=pointer]:
+                          - /url: "#consumer"
+              - listitem [ref=e183]:
+                - link "Specification" [ref=e184] [cursor=pointer]:
+                  - /url: "#specification"
+      - main [ref=e185]:
+        - navigation "breadcrumb" [ref=e186]:
+          - list [ref=e187]:
+            - listitem [ref=e188]:
+              - link "Docs" [ref=e189] [cursor=pointer]:
+                - /url: /docs/
+            - listitem [ref=e190]:
+              - text: /
+              - link "Concepts" [ref=e191] [cursor=pointer]:
+                - /url: /docs/concepts/
+            - listitem [ref=e192]:
+              - text: /
+              - link "Signals" [ref=e193] [cursor=pointer]:
+                - /url: /docs/concepts/signals/
+            - listitem [ref=e194]: / Traces
+        - generic [ref=e195]:
+          - heading "Traces" [level=1] [ref=e196]
+          - generic [ref=e197]: The path of a request through your application.
+          - paragraph [ref=e198]:
+            - strong [ref=e199]: Traces
+            - text: give us the big picture of what happens when a request is made to an application. Whether your application is a monolith with a single database or a sophisticated mesh of services, traces are essential to understanding the full “path” a request takes in your application.
+          - paragraph [ref=e200]:
+            - text: Let’s explore this with three units of work, represented as
+            - link "Spans" [ref=e201] [cursor=pointer]:
+              - /url: "#spans"
+            - text: ":"
+          - alert [ref=e202]:
+            - heading "Note" [ref=e203]
+            - paragraph [ref=e205]:
+              - text: The following JSON examples do not represent a specific format, and especially not
+              - link "OTLP/JSON" [ref=e206] [cursor=pointer]:
+                - /url: /docs/specs/otlp/#json-protobuf-encoding
+              - text: ", which is more verbose."
+          - paragraph [ref=e207]:
+            - code [ref=e208]: hello
+            - text: "span:"
+          - generic [ref=e210]:
+            - button "Copy to clipboard" [ref=e211] [cursor=pointer]: 
+            - code [ref=e212]:
+              - generic [ref=e213]: "{"
+              - generic [ref=e215]: "\"name\": \"hello\","
+              - generic [ref=e217]: "\"context\": {"
+              - generic [ref=e219]: "\"trace_id\": \"5b8aa5a2d2c872e8321cf37308d69df2\","
+              - generic [ref=e221]: "\"span_id\": \"051581bf3cb55c13\""
+              - generic [ref=e223]: "},"
+              - generic [ref=e225]: "\"parent_id\": null,"
+              - generic [ref=e227]: "\"start_time\": \"2022-04-29T18:52:58.114201Z\","
+              - generic [ref=e229]: "\"end_time\": \"2022-04-29T18:52:58.114687Z\","
+              - generic [ref=e231]: "\"attributes\": {"
+              - generic [ref=e233]: "\"http.route\": \"some_route1\""
+              - generic [ref=e235]: "},"
+              - generic [ref=e237]: "\"events\": ["
+              - generic [ref=e239]: "{"
+              - generic [ref=e241]: "\"name\": \"Guten Tag!\","
+              - generic [ref=e243]: "\"timestamp\": \"2022-04-29T18:52:58.114561Z\","
+              - generic [ref=e245]: "\"attributes\": {"
+              - generic [ref=e247]: "\"event_attributes\": 1"
+              - generic [ref=e249]: "}"
+              - generic [ref=e251]: "}"
+              - generic [ref=e253]: "]"
+              - generic [ref=e255]: "}"
+          - paragraph [ref=e257]:
+            - text: This is the root span, denoting the beginning and end of the entire operation. Note that it has a
+            - code [ref=e258]: trace_id
+            - text: field indicating the trace, but has no
+            - code [ref=e259]: parent_id
+            - text: . That’s how you know it’s the root span.
+          - paragraph [ref=e260]:
+            - code [ref=e261]: hello-greetings
+            - text: "span:"
+          - generic [ref=e263]:
+            - button "Copy to clipboard" [ref=e264] [cursor=pointer]: 
+            - code [ref=e265]:
+              - generic [ref=e266]: "{"
+              - generic [ref=e268]: "\"name\": \"hello-greetings\","
+              - generic [ref=e270]: "\"context\": {"
+              - generic [ref=e272]: "\"trace_id\": \"5b8aa5a2d2c872e8321cf37308d69df2\","
+              - generic [ref=e274]: "\"span_id\": \"5fb397be34d26b51\""
+              - generic [ref=e276]: "},"
+              - generic [ref=e278]: "\"parent_id\": \"051581bf3cb55c13\","
+              - generic [ref=e280]: "\"start_time\": \"2022-04-29T18:52:58.114304Z\","
+              - generic [ref=e282]: "\"end_time\": \"2022-04-29T22:52:58.114561Z\","
+              - generic [ref=e284]: "\"attributes\": {"
+              - generic [ref=e286]: "\"http.route\": \"some_route2\""
+              - generic [ref=e288]: "},"
+              - generic [ref=e290]: "\"events\": ["
+              - generic [ref=e292]: "{"
+              - generic [ref=e294]: "\"name\": \"hey there!\","
+              - generic [ref=e296]: "\"timestamp\": \"2022-04-29T18:52:58.114561Z\","
+              - generic [ref=e298]: "\"attributes\": {"
+              - generic [ref=e300]: "\"event_attributes\": 1"
+              - generic [ref=e302]: "}"
+              - generic [ref=e304]: "},"
+              - generic [ref=e306]: "{"
+              - generic [ref=e308]: "\"name\": \"bye now!\","
+              - generic [ref=e310]: "\"timestamp\": \"2022-04-29T18:52:58.114585Z\","
+              - generic [ref=e312]: "\"attributes\": {"
+              - generic [ref=e314]: "\"event_attributes\": 1"
+              - generic [ref=e316]: "}"
+              - generic [ref=e318]: "}"
+              - generic [ref=e320]: "]"
+              - generic [ref=e322]: "}"
+          - paragraph [ref=e324]:
+            - text: This span encapsulates specific tasks, like saying greetings, and its parent is the
+            - code [ref=e325]: hello
+            - text: span. Note that it shares the same
+            - code [ref=e326]: trace_id
+            - text: as the root span, indicating it’s a part of the same trace. Additionally, it has a
+            - code [ref=e327]: parent_id
+            - text: that matches the
+            - code [ref=e328]: span_id
+            - text: of the
+            - code [ref=e329]: hello
+            - text: span.
+          - paragraph [ref=e330]:
+            - code [ref=e331]: hello-salutations
+            - text: "span:"
+          - generic [ref=e333]:
+            - button "Copy to clipboard" [ref=e334] [cursor=pointer]: 
+            - code [ref=e335]:
+              - generic [ref=e336]: "{"
+              - generic [ref=e338]: "\"name\": \"hello-salutations\","
+              - generic [ref=e340]: "\"context\": {"
+              - generic [ref=e342]: "\"trace_id\": \"5b8aa5a2d2c872e8321cf37308d69df2\","
+              - generic [ref=e344]: "\"span_id\": \"93564f51e1abe1c2\""
+              - generic [ref=e346]: "},"
+              - generic [ref=e348]: "\"parent_id\": \"051581bf3cb55c13\","
+              - generic [ref=e350]: "\"start_time\": \"2022-04-29T18:52:58.114492Z\","
+              - generic [ref=e352]: "\"end_time\": \"2022-04-29T18:52:58.114631Z\","
+              - generic [ref=e354]: "\"attributes\": {"
+              - generic [ref=e356]: "\"http.route\": \"some_route3\""
+              - generic [ref=e358]: "},"
+              - generic [ref=e360]: "\"events\": ["
+              - generic [ref=e362]: "{"
+              - generic [ref=e364]: "\"name\": \"hey there!\","
+              - generic [ref=e366]: "\"timestamp\": \"2022-04-29T18:52:58.114561Z\","
+              - generic [ref=e368]: "\"attributes\": {"
+              - generic [ref=e370]: "\"event_attributes\": 1"
+              - generic [ref=e372]: "}"
+              - generic [ref=e374]: "}"
+              - generic [ref=e376]: "]"
+              - generic [ref=e378]: "}"
+          - paragraph [ref=e380]:
+            - text: This span represents the third operation in this trace and, like the previous one, it’s a child of the
+            - code [ref=e381]: hello
+            - text: span. That also makes it a sibling of the
+            - code [ref=e382]: hello-greetings
+            - text: span.
+          - paragraph [ref=e383]:
+            - text: These three blocks of JSON all share the same
+            - code [ref=e384]: trace_id
+            - text: ", and the"
+            - code [ref=e385]: parent_id
+            - text: field represents a hierarchy. That makes it a Trace!
+          - paragraph [ref=e386]: Another thing you’ll note is that each Span looks like a structured log. That’s because it kind of is! One way to think of Traces is that they’re a collection of structured logs with context, correlation, hierarchy, and more baked in. However, these “structured logs” can come from different processes, services, VMs, data centers, and so on. This is what allows tracing to represent an end-to-end view of any system.
+          - paragraph [ref=e387]: To understand how tracing in OpenTelemetry works, let’s look at a list of components that will play a part in instrumenting our code.
+          - heading "Tracer Provider" [level=2] [ref=e388]
+          - paragraph [ref=e389]:
+            - text: A Tracer Provider (sometimes called
+            - code [ref=e390]: TracerProvider
+            - text: ) is a factory for
+            - code [ref=e391]: Tracer
+            - text: s. In most applications, a Tracer Provider is initialized once and its lifecycle matches the application’s lifecycle. Tracer Provider initialization also includes Resource and Exporter initialization. It is typically the first step in tracing with OpenTelemetry. In some language SDKs, a global Tracer Provider is already initialized for you.
+          - heading "Tracer" [level=2] [ref=e392]
+          - paragraph [ref=e393]: A Tracer creates spans containing more information about what is happening for a given operation, such as a request in a service. Tracers are created from Tracer Providers.
+          - heading "Trace Exporters" [level=2] [ref=e394]
+          - paragraph [ref=e395]: Trace Exporters send traces to a consumer. This consumer can be standard output for debugging and development-time, the OpenTelemetry Collector, or any open source or vendor backend of your choice.
+          - heading "Context Propagation" [level=2] [ref=e396]
+          - paragraph [ref=e397]:
+            - text: Context Propagation is the core concept that enables Distributed Tracing. With Context Propagation, Spans can be correlated with each other and assembled into a trace, regardless of where Spans are generated. To learn more about this topic, see the concept page on
+            - link "Context Propagation" [ref=e398] [cursor=pointer]:
+              - /url: ../../context-propagation
+            - text: .
+          - heading "Spans" [level=2] [ref=e399]
+          - paragraph [ref=e400]:
+            - text: A
+            - strong [ref=e401]: span
+            - text: "represents a unit of work or operation. Spans are the building blocks of Traces. In OpenTelemetry, they include the following information:"
+          - list [ref=e402]:
+            - listitem [ref=e403]: Name
+            - listitem [ref=e404]: Parent span ID (empty for root spans)
+            - listitem [ref=e405]: Start and End Timestamps
+            - listitem [ref=e406]:
+              - link "Span Context" [ref=e407] [cursor=pointer]:
+                - /url: "#span-context"
+            - listitem [ref=e408]:
+              - link "Attributes" [ref=e409] [cursor=pointer]:
+                - /url: "#attributes"
+            - listitem [ref=e410]:
+              - link "Span Events" [ref=e411] [cursor=pointer]:
+                - /url: "#span-events"
+            - listitem [ref=e412]:
+              - link "Span Links" [ref=e413] [cursor=pointer]:
+                - /url: "#span-links"
+            - listitem [ref=e414]:
+              - link "Span Status" [ref=e415] [cursor=pointer]:
+                - /url: "#span-status"
+          - paragraph [ref=e416]: "Sample span:"
+          - generic [ref=e418]:
+            - button "Copy to clipboard" [ref=e419] [cursor=pointer]: 
+            - code [ref=e420]:
+              - generic [ref=e421]: "{"
+              - generic [ref=e423]: "\"name\": \"/v1/sys/health\","
+              - generic [ref=e425]: "\"context\": {"
+              - generic [ref=e427]: "\"trace_id\": \"7bba9f33312b3dbb8b2c2c62bb7abe2d\","
+              - generic [ref=e429]: "\"span_id\": \"086e83747d0e381e\""
+              - generic [ref=e431]: "},"
+              - generic [ref=e433]: "\"parent_id\": \"\","
+              - generic [ref=e435]: "\"start_time\": \"2021-10-22 16:04:01.209458162 +0000 UTC\","
+              - generic [ref=e437]: "\"end_time\": \"2021-10-22 16:04:01.209514132 +0000 UTC\","
+              - generic [ref=e439]: "\"status_code\": \"STATUS_CODE_OK\","
+              - generic [ref=e441]: "\"status_message\": \"\","
+              - generic [ref=e443]: "\"attributes\": {"
+              - generic [ref=e445]: "\"net.transport\": \"IP.TCP\","
+              - generic [ref=e447]: "\"net.peer.ip\": \"172.17.0.1\","
+              - generic [ref=e449]: "\"net.peer.port\": \"51820\","
+              - generic [ref=e451]: "\"net.host.ip\": \"10.177.2.152\","
+              - generic [ref=e453]: "\"net.host.port\": \"26040\","
+              - generic [ref=e455]: "\"http.method\": \"GET\","
+              - generic [ref=e457]: "\"http.target\": \"/v1/sys/health\","
+              - generic [ref=e459]: "\"http.server_name\": \"mortar-gateway\","
+              - generic [ref=e461]: "\"http.route\": \"/v1/sys/health\","
+              - generic [ref=e463]: "\"http.user_agent\": \"Consul Health Check\","
+              - generic [ref=e465]: "\"http.scheme\": \"http\","
+              - generic [ref=e467]: "\"http.host\": \"10.177.2.152:26040\","
+              - generic [ref=e469]: "\"http.flavor\": \"1.1\""
+              - generic [ref=e471]: "},"
+              - generic [ref=e473]: "\"events\": ["
+              - generic [ref=e475]: "{"
+              - generic [ref=e477]: "\"name\": \"\","
+              - generic [ref=e479]: "\"message\": \"OK\","
+              - generic [ref=e481]: "\"timestamp\": \"2021-10-22 16:04:01.209512872 +0000 UTC\""
+              - generic [ref=e483]: "}"
+              - generic [ref=e485]: "]"
+              - generic [ref=e487]: "}"
+          - paragraph [ref=e489]: "Spans can be nested, as is implied by the presence of a parent span ID: child spans represent sub-operations. This allows spans to more accurately capture the work done in an application."
+          - heading "Span Context" [level=3] [ref=e490]
+          - paragraph [ref=e491]: "Span context is an immutable object on every span that contains the following:"
+          - list [ref=e492]:
+            - listitem [ref=e493]: The Trace ID representing the trace that the span is a part of
+            - listitem [ref=e494]: The span’s Span ID
+            - listitem [ref=e495]: Trace Flags, a binary encoding containing information about the trace
+            - listitem [ref=e496]: Trace State, a list of key-value pairs that can carry vendor-specific trace information
+          - paragraph [ref=e497]:
+            - text: Span context is the part of a span that is serialized and propagated alongside
+            - link "Distributed Context" [ref=e498] [cursor=pointer]:
+              - /url: "#context-propagation"
+            - text: and
+            - link "Baggage" [ref=e499] [cursor=pointer]:
+              - /url: ../baggage
+            - text: .
+          - paragraph [ref=e500]:
+            - text: Because Span Context contains the Trace ID, it is used when creating
+            - link "Span Links" [ref=e501] [cursor=pointer]:
+              - /url: "#span-links"
+            - text: .
+          - heading "Attributes" [level=3] [ref=e502]
+          - paragraph [ref=e503]: Attributes are key-value pairs that contain metadata that you can use to annotate a Span to carry information about the operation it is tracking.
+          - paragraph [ref=e504]: For example, if a span tracks an operation that adds an item to a user’s shopping cart in an eCommerce system, you can capture the user’s ID, the ID of the item to add to the cart, and the cart ID.
+          - paragraph [ref=e505]: You can add attributes to spans during or after span creation. Prefer adding attributes at span creation to make the attributes available to SDK sampling. If you have to add a value after span creation, update the span with the value.
+          - paragraph [ref=e506]: "Attributes have the following rules that each language SDK implements:"
+          - list [ref=e507]:
+            - listitem [ref=e508]: Keys must be non-null string values
+            - listitem [ref=e509]: Values must be a non-null string, boolean, floating point value, integer, or an array of these values
+          - paragraph [ref=e510]:
+            - text: Additionally, there are
+            - link "Semantic Attributes" [ref=e511] [cursor=pointer]:
+              - /url: /docs/specs/semconv/general/trace/
+            - text: ", which are known naming conventions for metadata that is typically present in common operations. It’s helpful to use semantic attribute naming wherever possible so that common kinds of metadata are standardized across systems."
+          - heading "Span Events" [level=3] [ref=e512]
+          - paragraph [ref=e513]: A Span Event can be thought of as a structured log message (or annotation) on a Span, typically used to denote a meaningful, singular point in time during the Span’s duration.
+          - paragraph [ref=e514]: "For example, consider two scenarios in a web browser:"
+          - list [ref=e515]:
+            - listitem [ref=e516]: Tracking a page load
+            - listitem [ref=e517]: Denoting when a page becomes interactive
+          - paragraph [ref=e518]: A Span is best used to track the first scenario because it’s an operation with a start and an end.
+          - paragraph [ref=e519]: A Span Event is best used to track the second scenario because it represents a meaningful, singular point in time.
+          - heading "When to use span events versus span attributes" [level=4] [ref=e520]
+          - paragraph [ref=e521]: Since span events also contain attributes, the question of when to use events instead of attributes might not always have an obvious answer. To inform your decision, consider whether a specific timestamp is meaningful.
+          - paragraph [ref=e522]: For example, when you’re tracking an operation with a span and the operation completes, you might want to add data from the operation to your telemetry.
+          - list [ref=e523]:
+            - listitem [ref=e524]: If the timestamp in which the operation completes is meaningful or relevant, attach the data to a span event.
+            - listitem [ref=e525]: If the timestamp isn’t meaningful, attach the data as span attributes.
+          - heading "Span Links" [level=3] [ref=e526]
+          - paragraph [ref=e527]: Links exist so that you can associate one span with one or more spans, implying a causal relationship. For example, let’s say we have a distributed system where some operations are tracked by a trace.
+          - paragraph [ref=e528]: In response to some of these operations, an additional operation is queued to be executed, but its execution is asynchronous. We can track this subsequent operation with a trace as well.
+          - paragraph [ref=e529]: We would like to associate the trace for the subsequent operations with the first trace, but we cannot predict when the subsequent operations will start. We need to associate these two traces, so we will use a span link.
+          - paragraph [ref=e530]: You can link the last span from the first trace to the first span in the second trace. Now, they are causally associated with one another.
+          - paragraph [ref=e531]: Links are optional but serve as a good way to associate trace spans with one another.
+          - paragraph [ref=e532]:
+            - text: For more information see
+            - link "Span Links" [ref=e533] [cursor=pointer]:
+              - /url: /docs/specs/otel/trace/api/#link
+            - text: .
+          - heading "Span Status" [level=3] [ref=e534]
+          - paragraph [ref=e535]: "Each span has a status. The three possible values are:"
+          - list [ref=e536]:
+            - listitem [ref=e537]:
+              - code [ref=e538]: Unset
+            - listitem [ref=e539]:
+              - code [ref=e540]: Error
+            - listitem [ref=e541]:
+              - code [ref=e542]: Ok
+          - paragraph [ref=e543]:
+            - text: The default value is
+            - code [ref=e544]: Unset
+            - text: . A span status that is
+            - code [ref=e545]: Unset
+            - text: means that the operation it tracked successfully completed without an error.
+          - paragraph [ref=e546]:
+            - text: When a span status is
+            - code [ref=e547]: Error
+            - text: ", then that means some error occurred in the operation it tracks. For example, this could be due to an HTTP 500 error on a server handling a request."
+          - paragraph [ref=e548]:
+            - text: When a span status is
+            - code [ref=e549]: Ok
+            - text: ", then that means the span was explicitly marked as error-free by the developer of an application. Although this is unintuitive, it’s not required to set a span status as"
+            - code [ref=e550]: Ok
+            - text: when a span is known to have completed without error, as this is covered by
+            - code [ref=e551]: Unset
+            - text: . What
+            - code [ref=e552]: Ok
+            - text: does is represent an unambiguous “final call” on the status of a span that has been explicitly set by a user. This is helpful in any situation where a developer wishes for there to be no other interpretation of a span other than “successful”.
+          - paragraph [ref=e553]:
+            - text: "To reiterate:"
+            - code [ref=e554]: Unset
+            - text: represents a span that completed without an error.
+            - code [ref=e555]: Ok
+            - text: represents when a developer explicitly marks a span as successful. In most cases, it is not necessary to explicitly mark a span as
+            - code [ref=e556]: Ok
+            - text: .
+          - heading "Span Kind" [level=3] [ref=e557]
+          - paragraph [ref=e558]:
+            - text: When a span is created, it is one of
+            - code [ref=e559]: Client
+            - text: ","
+            - code [ref=e560]: Server
+            - text: ","
+            - code [ref=e561]: Internal
+            - text: ","
+            - code [ref=e562]: Producer
+            - text: ", or"
+            - code [ref=e563]: Consumer
+            - text: . This span kind provides a hint to the tracing backend as to how the trace should be assembled. According to the OpenTelemetry specification, the parent of a server span is often a remote client span, and the child of a client span is usually a server span. Similarly, the parent of a consumer span is always a producer and the child of a producer span is always a consumer. If not provided, the span kind is assumed to be internal.
+          - paragraph [ref=e564]:
+            - text: For more information regarding SpanKind, see
+            - link "SpanKind" [ref=e565] [cursor=pointer]:
+              - /url: /docs/specs/otel/trace/api/#spankind
+            - text: .
+          - heading "Client" [level=4] [ref=e566]
+          - paragraph [ref=e567]:
+            - text: A client span represents a synchronous outgoing remote call such as an outgoing HTTP request or database call. Note that in this context, “synchronous” does not refer to
+            - code [ref=e568]: async/await
+            - text: ", but to the fact that it is not queued for later processing."
+          - heading "Server" [level=4] [ref=e569]
+          - paragraph [ref=e570]: A server span represents a synchronous incoming remote call such as an incoming HTTP request or remote procedure call.
+          - heading "Internal" [level=4] [ref=e571]
+          - paragraph [ref=e572]: Internal spans represent operations which do not cross a process boundary. Things like instrumenting a function call or an Express middleware may use internal spans.
+          - heading "Producer" [level=4] [ref=e573]
+          - paragraph [ref=e574]: Producer spans represent the creation of a job which may be asynchronously processed later. It may be a remote job such as one inserted into a job queue or a local job handled by an event listener.
+          - heading "Consumer" [level=4] [ref=e575]
+          - paragraph [ref=e576]: Consumer spans represent the processing of a job created by a producer and may start long after the producer span has already ended.
+          - heading "Specification" [level=2] [ref=e577]
+          - paragraph [ref=e578]:
+            - text: For more information, see the
+            - link "traces specification" [ref=e579] [cursor=pointer]:
+              - /url: /docs/specs/otel/overview/#tracing-signal
+            - text: .
+          - generic [ref=e580]:
+            - heading "Feedback" [level=2] [ref=e581]
+            - paragraph [ref=e582]: Was this page helpful?
+            - button "Yes" [ref=e583] [cursor=pointer]
+            - button "No" [ref=e584] [cursor=pointer]
+            - text: 
+          - generic [ref=e585]:
+            - text: "Last modified January 14, 2026:"
+            - 'link "Convert all `en` page Note alerts to markdown syntax (#8894) (6bf06ddb)" [ref=e586] [cursor=pointer]':
+              - /url: https://github.com/open-telemetry/opentelemetry.io/commit/6bf06ddb9fc057dd6e8092f26d988ffe7b1af5ed
+    - contentinfo [ref=e587]:
+      - generic [ref=e589]:
+        - list [ref=e591]:
+          - listitem "Mailing Lists" [ref=e592]:
+            - link "Mailing Lists" [ref=e593] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry/community#mailing-lists
+              - generic [ref=e594]: 
+          - listitem "Bluesky" [ref=e595]:
+            - link "Bluesky" [ref=e596] [cursor=pointer]:
+              - /url: https://bsky.app/profile/opentelemetry.io
+              - generic [ref=e597]: 
+          - listitem "Mastodon" [ref=e598]:
+            - link "Mastodon" [ref=e599] [cursor=pointer]:
+              - /url: https://fosstodon.org/@opentelemetry
+              - generic [ref=e600]: 
+          - listitem "Stack Overflow" [ref=e601]:
+            - link "Stack Overflow" [ref=e602] [cursor=pointer]:
+              - /url: https://stackoverflow.com/questions/tagged/open-telemetry
+              - generic [ref=e603]: 
+          - listitem "OTel logos" [ref=e604]:
+            - link "OTel logos" [ref=e605] [cursor=pointer]:
+              - /url: https://github.com/cncf/artwork/tree/master/projects/opentelemetry
+              - generic [ref=e606]: 
+          - listitem "Meeting Recordings" [ref=e607]:
+            - link "Meeting Recordings" [ref=e608] [cursor=pointer]:
+              - /url: https://docs.google.com/spreadsheets/d/1SYKfjYhZdm2Wh2Cl6KVQalKg_m4NhTPZqq-8SzEVO6s
+              - generic [ref=e609]: 
+          - listitem "Site analytics" [ref=e610]:
+            - link "Site analytics" [ref=e611] [cursor=pointer]:
+              - /url: https://lookerstudio.google.com/s/tSTKxK1ECeU
+              - generic [ref=e612]: 
+        - list [ref=e614]:
+          - listitem "GitHub" [ref=e615]:
+            - link "GitHub" [ref=e616] [cursor=pointer]:
+              - /url: https://github.com/open-telemetry
+              - generic [ref=e617]: 
+          - 'listitem "Slack #opentelemetry-new-contributors" [ref=e618]':
+            - 'link "Slack #opentelemetry-new-contributors" [ref=e619] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/C09H3MNMBQV
+              - generic [ref=e620]: 
+          - 'listitem "Slack #opentelemetry" [ref=e621]':
+            - 'link "Slack #opentelemetry" [ref=e622] [cursor=pointer]':
+              - /url: https://cloud-native.slack.com/archives/CJFCJHG4Q
+              - generic [ref=e623]: 
+          - listitem "CNCF DevStats" [ref=e624]:
+            - link "CNCF DevStats" [ref=e625] [cursor=pointer]:
+              - /url: https://opentelemetry.devstats.cncf.io/d/8/dashboards?orgId=1&refresh=15m
+              - generic [ref=e626]: 
+          - listitem "Privacy Policy" [ref=e627]:
+            - link "Privacy Policy" [ref=e628] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/privacy-policy
+              - generic [ref=e629]: 
+          - listitem "Trademark Usage" [ref=e630]:
+            - link "Trademark Usage" [ref=e631] [cursor=pointer]:
+              - /url: https://www.linuxfoundation.org/legal/trademark-usage
+              - generic [ref=e632]: 
+          - listitem "Marketing Guidelines" [ref=e633]:
+            - link "Marketing Guidelines" [ref=e634] [cursor=pointer]:
+              - /url: /community/marketing-guidelines/
+              - generic [ref=e635]: 
+          - listitem "Site-build info" [ref=e636]:
+            - link "Site-build info" [ref=e637] [cursor=pointer]:
+              - /url: /site/
+              - generic [ref=e638]: 
+        - generic [ref=e640]:
+          - text: © 2019–present
+          - generic [ref=e641]:
+            - text: OpenTelemetry Authors | Docs
+            - link "CC BY 4.0" [ref=e642] [cursor=pointer]:
+              - /url: https://creativecommons.org/licenses/by/4.0
+  - button [ref=e643] [cursor=pointer]:
+    - generic [ref=e646]:
+      - img "Project Logo" [ref=e647]
+      - paragraph [ref=e648]: Ask AI

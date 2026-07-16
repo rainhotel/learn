@@ -1,0 +1,281 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffarion1231%2Fcc-switch%2Fissues%3Fq%3D%2522reasoning.context%2522
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fissues%2Findex&source=header-repo&source_repo=farion1231%2Fcc-switch
+            - button "Appearance settings" [ref=e58] [cursor=pointer]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - link "farion1231" [ref=e70] [cursor=pointer]:
+            - /url: /farion1231
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "cc-switch" [ref=e73] [cursor=pointer]:
+              - /url: /farion1231/cc-switch
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - button "Sponsor farion1231/cc-switch" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: Sponsor
+            - listitem [ref=e83]:
+              - link "You must be signed in to change notification settings" [ref=e84] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffarion1231%2Fcc-switch
+                - text: Notifications
+            - listitem [ref=e87]:
+              - link "Fork 7.8k" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffarion1231%2Fcc-switch
+                - text: Fork
+                - generic "7,839" [ref=e91]: 7.8k
+            - listitem [ref=e92]:
+              - link "You must be signed in to star a repository" [ref=e94] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffarion1231%2Fcc-switch
+                - text: Star
+                - generic "117148 users starred this repository" [ref=e97]: 117k
+      - navigation "Repository" [ref=e98]:
+        - list [ref=e99]:
+          - listitem [ref=e100]:
+            - link "Code" [ref=e101] [cursor=pointer]:
+              - /url: /farion1231/cc-switch
+          - listitem [ref=e105]:
+            - link "Issues 1.3k" [ref=e106] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/issues
+              - generic [ref=e110]: Issues
+              - generic "1,343" [ref=e111]: 1.3k
+          - listitem [ref=e112]:
+            - link "Pull requests 519" [ref=e113] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/pulls
+              - generic [ref=e116]: Pull requests
+              - generic "519" [ref=e117]
+          - listitem [ref=e118]:
+            - link "Discussions" [ref=e119] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/discussions
+          - listitem [ref=e123]:
+            - link "Actions" [ref=e124] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/actions
+          - listitem [ref=e128]:
+            - link "Projects" [ref=e129] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/projects
+          - listitem [ref=e133]:
+            - link "Security and quality" [ref=e134] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/security
+          - listitem [ref=e138]:
+            - link "Insights" [ref=e139] [cursor=pointer]:
+              - /url: /farion1231/cc-switch/pulse
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - navigation "Issue filters" [ref=e153]:
+            - list [ref=e154]:
+              - listitem [ref=e155]:
+                - link "Issues" [ref=e156] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/issues?q=is%3Aissue+state%3Aopen
+                  - generic "Issues" [ref=e159]
+              - listitem [ref=e160]:
+                - link "Assigned to me" [ref=e161] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/issues?q=is%3Aissue+state%3Aopen+assignee%3A%40me
+                  - generic "Assigned to me" [ref=e164]
+              - listitem [ref=e165]:
+                - link "Created by me" [ref=e166] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/issues?q=is%3Aissue+state%3Aopen+author%3A%40me
+                  - generic "Created by me" [ref=e169]
+              - listitem [ref=e170]:
+                - link "Mentioned" [ref=e171] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/issues?q=is%3Aissue+state%3Aopen+mentions%3A%40me
+                  - generic "Mentioned" [ref=e174]
+              - listitem [ref=e175]:
+                - link "Recent activity" [ref=e176] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/issues?q=is%3Aissue+updated%3A%3E%40today-1w+sort%3Aupdated-desc
+                  - generic "Recent activity" [ref=e179]
+          - separator [ref=e180]
+          - navigation "Pages" [ref=e181]:
+            - list [ref=e182]:
+              - listitem [ref=e183]:
+                - link "Views" [ref=e184] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/issues/views
+              - listitem [ref=e187]:
+                - link "Projects" [ref=e188] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/projects
+              - listitem [ref=e191]:
+                - link "Milestones" [ref=e192] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/milestones
+              - listitem [ref=e195]:
+                - link "Labels" [ref=e196] [cursor=pointer]:
+                  - /url: /farion1231/cc-switch/labels
+        - generic [ref=e199]:
+          - navigation "Feedback" [ref=e200]:
+            - list [ref=e201]:
+              - listitem [ref=e202]:
+                - link "Feedback Preview" [ref=e203] [cursor=pointer]:
+                  - /url: https://gh.io/issues-sidebar-feedback
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: Feedback
+                    - generic: Preview
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - button "Collapse sidebar" [expanded] [ref=e208] [cursor=pointer]
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - list "Drag and drop pinned issues list." [ref=e216]:
+            - listitem [ref=e217]:
+              - generic [ref=e220]:
+                - link "View 提醒：DeepSeek 1M 上下文在 CCS 本地路由模式下不要填写 [1m] 后缀" [ref=e222] [cursor=pointer]:
+                  - /url: https://github.com/farion1231/cc-switch/issues/2337
+                  - 'img "Status: Closed (completed)." [ref=e224]'
+                  - text: 提醒：DeepSeek 1M 上下文在 CCS 本地路由模式下不要填写 [1m] 后缀
+                - generic [ref=e227]:
+                  - generic [ref=e228]:
+                    - text: "#2337 ·"
+                    - link "View makoMakoGo profile" [ref=e229] [cursor=pointer]:
+                      - /url: https://github.com/makoMakoGo
+                      - text: makoMakoGo
+                    - text: opened on Apr 25, 2026on Apr 26
+                  - generic [ref=e230]:
+                    - img "32 comments" [ref=e231]
+                    - generic [ref=e233]: "32"
+            - listitem [ref=e234]:
+              - generic [ref=e237]:
+                - link "View 配置好 setting.json 文件之后，Claude任然要求登录？怎么办？" [ref=e239] [cursor=pointer]:
+                  - /url: https://github.com/farion1231/cc-switch/issues/404
+                  - 'img "Status: Closed (completed)." [ref=e241]'
+                  - text: 配置好 setting.json 文件之后，Claude任然要求登录？怎么办？
+                - generic [ref=e244]:
+                  - generic [ref=e245]:
+                    - text: "#404 ·"
+                    - link "View zlyuan99 profile" [ref=e246] [cursor=pointer]:
+                      - /url: https://github.com/zlyuan99
+                      - text: zlyuan99
+                    - text: opened on Dec 15, 2025on Dec 15, 2025
+                  - generic [ref=e247]:
+                    - img "69 comments" [ref=e248]
+                    - generic [ref=e250]: "69"
+            - listitem [ref=e251]:
+              - generic [ref=e254]:
+                - link "View 在codex桌面端无法看到自定义模型列表" [ref=e256] [cursor=pointer]:
+                  - /url: https://github.com/farion1231/cc-switch/issues/4420
+                  - 'img "Status: Closed (completed)." [ref=e258]'
+                  - text: 在codex桌面端无法看到自定义模型列表
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - text: "#4420 ·"
+                    - link "View Zayia profile" [ref=e263] [cursor=pointer]:
+                      - /url: https://github.com/Zayia
+                      - text: Zayia
+                    - text: opened on Jun 19, 20261mo ago
+                  - generic [ref=e264]:
+                    - img "19 comments" [ref=e265]
+                    - generic [ref=e267]: "19"
+          - status [ref=e268]
+        - generic [ref=e269]:
+          - heading "Issues" [level=1] [ref=e270]
+          - generic [ref=e271]:
+            - generic [ref=e273]:
+              - form "Search Issues" [ref=e275]:
+                - generic [ref=e278]:
+                  - generic [ref=e279]:
+                    - generic [ref=e280]:
+                      - generic [ref=e281]: "\"reasoning.context\""
+                      - combobox "Search Issues" [ref=e284]: "\"reasoning.context\""
+                    - button "Clear filter" [ref=e285] [cursor=pointer]
+                  - button "Search" [ref=e288] [cursor=pointer]
+              - button "New issue" [ref=e292]
+            - generic [ref=e298]:
+              - heading "Search results" [level=2] [ref=e299]
+              - generic [ref=e300]:
+                - list [ref=e302]:
+                  - listitem [ref=e303]:
+                    - link "Open (0)" [ref=e304] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/issues?q=%22reasoning.context%22%20state%3Aopen
+                      - generic [ref=e305]: Open
+                      - generic [ref=e306]: "0"
+                      - generic [ref=e307]: (0)
+                  - listitem [ref=e308]:
+                    - link "Closed (0)" [ref=e309] [cursor=pointer]:
+                      - /url: /farion1231/cc-switch/issues?q=%22reasoning.context%22%20state%3Aclosed
+                      - generic [ref=e310]: Closed
+                      - generic [ref=e311]: "0"
+                      - generic [ref=e312]: (0)
+                - toolbar "Actions" [ref=e313]:
+                  - generic [ref=e314]:
+                    - button "Filter by author" [ref=e316] [cursor=pointer]:
+                      - generic [ref=e317]: Author
+                    - button "Filter by label" [ref=e320] [cursor=pointer]:
+                      - generic [ref=e321]: Labels
+                    - button "Filter by project" [ref=e324] [cursor=pointer]:
+                      - generic [ref=e325]: Projects
+                    - button "Filter by milestone" [ref=e328] [cursor=pointer]:
+                      - generic [ref=e329]: Milestones
+                    - button "Filter by assignees" [ref=e332] [cursor=pointer]:
+                      - generic [ref=e333]: Assignees
+                    - button "Sort by Newest , descending" [ref=e336] [cursor=pointer]:
+                      - generic [ref=e338]:
+                        - generic [ref=e339]: Sort by
+                        - text: Newest
+                        - generic [ref=e340]: ", descending"
+              - list "Search results" [ref=e341]:
+                - region [ref=e342]:
+                  - heading "No results" [level=3] [ref=e343]
+                  - paragraph [ref=e344]: Try adjusting your search filters.
+  - contentinfo [ref=e345]:
+    - heading "Footer" [level=2] [ref=e346]
+    - generic [ref=e347]:
+      - generic [ref=e348]:
+        - link "GitHub Homepage" [ref=e349] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e352]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e353]:
+        - heading "Footer navigation" [level=3] [ref=e354]
+        - list "Footer navigation" [ref=e355]:
+          - listitem [ref=e356]:
+            - link "Terms" [ref=e357] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e358]:
+            - link "Privacy" [ref=e359] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e360]:
+            - link "Security" [ref=e361] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e362]:
+            - link "Status" [ref=e363] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e364]:
+            - link "Community" [ref=e365] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e366]:
+            - link "Docs" [ref=e367] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e368]:
+            - link "Contact" [ref=e369] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e370]:
+            - button "Manage cookies" [ref=e372] [cursor=pointer]
+          - listitem [ref=e373]:
+            - button "Do not share my personal information" [ref=e375] [cursor=pointer]

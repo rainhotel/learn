@@ -1,0 +1,319 @@
+- generic [active] [ref=e1]:
+  - banner:
+    - navigation [ref=e2]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: https://micrometer.io
+        - img "Micrometer" [ref=e5]
+      - generic [ref=e6] [cursor=pointer]:
+        - checkbox "light" [ref=e7]
+        - generic [ref=e11]: light
+  - generic [ref=e12]:
+    - complementary [ref=e14]:
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - generic [ref=e18]:
+            - generic [ref=e19]: Micrometer
+            - generic [ref=e20]: 1.17.0
+            - button [ref=e21] [cursor=pointer]
+            - button "Search CTRL + k" [ref=e28] [cursor=pointer]:
+              - text: Search
+              - generic [ref=e31]: CTRL + k
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - list [ref=e34]:
+                - listitem [ref=e35]:
+                  - link "Overview" [ref=e36] [cursor=pointer]:
+                    - /url: ../overview.html
+                - listitem [ref=e37]:
+                  - link "Installing" [ref=e38] [cursor=pointer]:
+                    - /url: ../installing.html
+                - listitem [ref=e39]:
+                  - button [ref=e40] [cursor=pointer]
+                  - link "Concepts" [ref=e41] [cursor=pointer]:
+                    - /url: ../concepts.html
+                  - list [ref=e42]:
+                    - listitem [ref=e43]:
+                      - link "Supported Monitoring Systems" [ref=e44] [cursor=pointer]:
+                        - /url: implementations.html
+                    - listitem [ref=e45]:
+                      - link "Meters" [ref=e46] [cursor=pointer]:
+                        - /url: meters.html
+                    - listitem [ref=e47]:
+                      - link "Registry" [ref=e48] [cursor=pointer]:
+                        - /url: registry.html
+                    - listitem [ref=e49]:
+                      - link "Naming Meters" [ref=e50] [cursor=pointer]:
+                        - /url: naming.html
+                    - listitem [ref=e51]:
+                      - link "Meter Filters" [ref=e52] [cursor=pointer]:
+                        - /url: meter-filters.html
+                    - listitem [ref=e53]:
+                      - link "Rate Aggregation" [ref=e54] [cursor=pointer]:
+                        - /url: rate-aggregation.html
+                    - listitem [ref=e55]:
+                      - link "Counters" [ref=e56] [cursor=pointer]:
+                        - /url: counters.html
+                    - listitem [ref=e57]:
+                      - link "Gauges" [ref=e58] [cursor=pointer]:
+                        - /url: gauges.html
+                    - listitem [ref=e59]:
+                      - link "Timers" [ref=e60] [cursor=pointer]:
+                        - /url: timers.html
+                    - listitem [ref=e61]:
+                      - link "Distribution Summaries" [ref=e62] [cursor=pointer]:
+                        - /url: distribution-summaries.html
+                    - listitem [ref=e63]:
+                      - link "Long Task Timers" [ref=e64] [cursor=pointer]:
+                        - /url: long-task-timers.html
+                    - listitem [ref=e65]:
+                      - link "Histograms and Percentiles" [ref=e66] [cursor=pointer]:
+                        - /url: histogram-quantiles.html
+                    - listitem [ref=e67]:
+                      - link "Meter Provider" [ref=e68] [cursor=pointer]:
+                        - /url: meter-provider.html
+                    - listitem [ref=e69]:
+                      - link "Meter Convention" [ref=e70] [cursor=pointer]:
+                        - /url: meter-convention.html
+                    - listitem [ref=e71]:
+                      - link "High Cardinality Tags Detector" [ref=e72] [cursor=pointer]:
+                        - /url: high-cardinality-tags-detector.html
+                - listitem [ref=e73]:
+                  - button [ref=e74] [cursor=pointer]
+                  - link "Implementations" [ref=e75] [cursor=pointer]:
+                    - /url: ../implementations.html
+                - listitem [ref=e76]:
+                  - button [ref=e77] [cursor=pointer]
+                  - link "Reference Instrumentations" [ref=e78] [cursor=pointer]:
+                    - /url: ../reference.html
+                - listitem [ref=e79]:
+                  - button [ref=e80] [cursor=pointer]
+                  - link "Guides" [ref=e81] [cursor=pointer]:
+                    - /url: ../guides.html
+                - listitem [ref=e82]:
+                  - button [ref=e83] [cursor=pointer]
+                  - link "Micrometer Observation" [ref=e84] [cursor=pointer]:
+                    - /url: ../observation.html
+        - button [ref=e86] [cursor=pointer]
+    - main [ref=e89]:
+      - generic [ref=e90]:
+        - complementary [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e94]:
+              - heading "Gauges" [level=3] [ref=e95]
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "Manually Incrementing or Decrementing a Gauge" [ref=e98] [cursor=pointer]:
+                    - /url: "#_manually_incrementing_or_decrementing_a_gauge"
+                - listitem [ref=e99]:
+                  - link "Gauge Fluent Builder" [ref=e100] [cursor=pointer]:
+                    - /url: "#_gauge_fluent_builder"
+                - listitem [ref=e101]:
+                  - link "Why is My Gauge Reporting NaN or Disappearing?" [ref=e102] [cursor=pointer]:
+                    - /url: "#_why_is_my_gauge_reporting_nan_or_disappearing"
+                - listitem [ref=e103]:
+                  - link "TimeGauge" [ref=e104] [cursor=pointer]:
+                    - /url: "#_timegauge"
+                - listitem [ref=e105]:
+                  - link "Multi-gauge" [ref=e106] [cursor=pointer]:
+                    - /url: "#_multi_gauge"
+            - generic [ref=e107]:
+              - link "Edit this Page" [ref=e108] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer/blob/v1.17.0/docs/modules/ROOT/pages/concepts/gauges.adoc
+              - link "GitHub Project" [ref=e111] [cursor=pointer]:
+                - /url: https://github.com/micrometer-metrics/micrometer
+              - link "Stack Overflow" [ref=e115] [cursor=pointer]:
+                - /url: https://stackoverflow.com/tags/micrometer
+        - article [ref=e118]:
+          - navigation "breadcrumbs" [ref=e120]:
+            - list [ref=e121]:
+              - listitem [ref=e122]:
+                - link "Micrometer" [ref=e123] [cursor=pointer]:
+                  - /url: ../index.html
+                - text: /
+              - listitem [ref=e124]:
+                - link "Concepts" [ref=e125] [cursor=pointer]:
+                  - /url: ../concepts.html
+                - text: /
+              - listitem [ref=e126]:
+                - link "Gauges" [ref=e127] [cursor=pointer]:
+                  - /url: gauges.html
+          - heading "Gauges" [level=1] [ref=e128]
+          - generic [ref=e130]:
+            - paragraph [ref=e132]: A gauge is a handle to get the current value. Typical examples for gauges would be the size of a collection or map or the number of threads in a running state.
+            - table [ref=e134]:
+              - rowgroup [ref=e135]:
+                - row [ref=e136]:
+                  - cell "Tip" [ref=e137]
+                  - cell "Gauges are useful for monitoring things with natural upper bounds. We do not recommend using a gauge to monitor things like request count, as they can grow without bound for the duration of an application instance’s life." [ref=e139]
+            - table [ref=e141]:
+              - rowgroup [ref=e142]:
+                - row [ref=e143]:
+                  - cell "Tip" [ref=e144]
+                  - cell [ref=e146]:
+                    - text: Never gauge something you can count with a
+                    - code [ref=e147]: Counter
+                    - text: "!"
+            - paragraph [ref=e149]: Micrometer takes the stance that gauges should be sampled and not be set, so there is no information about what might have occurred between samples. Any intermediate values set on a gauge are lost by the time the gauge value is reported to a metrics backend, so there is little value in setting those intermediate values in the first place.
+            - paragraph [ref=e151]:
+              - text: Think of a
+              - code [ref=e152]: Gauge
+              - text: "as a “heisen-gauge”: a meter that changes only when it is observed. Every other meter type accumulates intermediate counts toward the point where the data is sent to the metrics backend."
+            - paragraph [ref=e154]:
+              - text: The
+              - code [ref=e155]: MeterRegistry
+              - text: "interface contains methods for building gauges to observe numeric values, functions, collections, and maps:"
+            - generic [ref=e158]:
+              - code [ref=e159]:
+                - text: java List<String> list = registry.gauge("listGauge", Collections.emptyList(), new ArrayList<>(), List::size);
+                - generic [ref=e160]: "1"
+                - text: List<String> list2 = registry.gaugeCollectionSize("listSize2", Tags.empty(), new ArrayList<>());
+                - generic [ref=e161]: "2"
+                - text: Map<String, Integer> map = registry.gaugeMapSize("mapGauge", Tags.empty(), new HashMap<>());
+              - button "Copied!" [ref=e163] [cursor=pointer]
+            - table [ref=e166]:
+              - rowgroup [ref=e167]:
+                - row [ref=e168]:
+                  - cell "1" [ref=e169]
+                  - cell "A slightly more common form of gauge is one that monitors some non-numeric object. The last argument establishes the function that is used to determine the value of the gauge when the gauge is observed." [ref=e171]
+                - row [ref=e172]:
+                  - cell "2" [ref=e173]
+                  - cell "A more convenient form of (1) for when you want to monitor collection size." [ref=e175]
+            - paragraph [ref=e177]:
+              - text: All of the different forms of creating a gauge maintain only a
+              - emphasis [ref=e178]: weak reference
+              - text: to the object being observed, so as not to prevent garbage collection of the object.
+          - generic [ref=e179]:
+            - heading "Manually Incrementing or Decrementing a Gauge" [level=2] [ref=e180]
+            - generic [ref=e181]:
+              - paragraph [ref=e183]:
+                - text: A gauge can be made to track any
+                - code [ref=e184]: java.lang.Number
+                - text: subtype that is settable, such as
+                - code [ref=e185]: AtomicInteger
+                - text: and
+                - code [ref=e186]: AtomicLong
+                - text: found in
+                - code [ref=e187]: java.util.concurrent.atomic
+                - text: and similar types, such as Guava’s
+                - code [ref=e188]: AtomicDouble
+                - text: ":"
+              - generic [ref=e191]:
+                - code [ref=e192]: java // maintain a reference to myGauge AtomicInteger myGauge = registry.gauge("numberGauge", new AtomicInteger(0)); // ... elsewhere you can update the value it holds using the object reference myGauge.set(27); myGauge.set(11);
+                - button "Copied!" [ref=e194] [cursor=pointer]
+              - paragraph [ref=e197]:
+                - text: Note that, in this form, unlike other meter types, you do not get a reference to the
+                - code [ref=e198]: Gauge
+                - text: "when creating one. Rather, you get a reference to the thing being observed. This is because of the “heisen-gauge” principal: The gauge is self-sufficient once created, so you should never need to interact with it. This lets us give you back only the instrumented object, which allows for quick one-liners that both create the object to be observed and set up metrics around it."
+              - paragraph [ref=e200]:
+                - text: This pattern should be less common than the
+                - code [ref=e201]: DoubleFunction
+                - text: form. Remember that frequent setting of the observed
+                - code [ref=e202]: Number
+                - text: results in a lot of intermediate values that never get published. Only the
+                - emphasis [ref=e203]: instantaneous value
+                - text: of the gauge at publish time is ever sent to the monitoring system.
+              - table [ref=e205]:
+                - rowgroup [ref=e206]:
+                  - row [ref=e207]:
+                    - cell "Warning" [ref=e208]
+                    - cell [ref=e210]:
+                      - text: Attempting to construct a gauge with a primitive number or one of its
+                      - code [ref=e211]: java.lang
+                      - text: object forms is always incorrect. These numbers are immutable. Thus, the gauge cannot ever be changed. Attempting to "re-register" the gauge with a different number does not work, as the registry maintains only one meter for each unique combination of name and tags. "Re-registering" a gauge can happen indirectly for example as the result of a
+                      - code [ref=e212]: MeterFilter
+                      - text: modifying the name and/or the tags of two different gauges so that they will be the same after the filter is applied.
+              - paragraph [ref=e214]: "Attempting to \"re-register\" a gauge will result in a warning like this:"
+              - generic [ref=e217]:
+                - code [ref=e218]: "WARNING: This Gauge has been already registered (MeterId{name='my.gauge', tags=[]}), the registration will be ignored. Note that subsequent logs will be logged at debug level."
+                - button "Copied!" [ref=e220] [cursor=pointer]
+          - generic [ref=e222]:
+            - heading "Gauge Fluent Builder" [level=2] [ref=e223]
+            - generic [ref=e224]:
+              - paragraph [ref=e226]: "The interface contains a fluent builder for gauges:"
+              - generic [ref=e229]:
+                - code [ref=e230]: java Gauge gauge = Gauge .builder("gauge", myObj, myObj::gaugeValue) .description("a description of what this gauge does") // optional .tags("region", "test") // optional .register(registry);
+                - button "Copied!" [ref=e232] [cursor=pointer]
+              - paragraph [ref=e235]:
+                - text: Generally the returned
+                - code [ref=e236]: Gauge
+                - text: instance is not useful except in testing, as the gauge is already set up to track a value automatically upon registration.
+          - generic [ref=e237]:
+            - heading "Why is My Gauge Reporting NaN or Disappearing?" [level=2] [ref=e238]
+            - generic [ref=e239]:
+              - paragraph [ref=e241]:
+                - text: It is your responsibility to hold a strong reference to the state object that you are measuring with a
+                - code [ref=e242]: Gauge
+                - text: . Micrometer is careful to not create strong references to objects that would otherwise be garbage collected. Once the object being gauged is de-referenced and is garbage collected, Micrometer starts reporting a NaN or nothing for a gauge, depending on the registry implementation.
+              - paragraph [ref=e244]: If you see your gauge reporting for a few minutes and then disappearing or reporting NaN, it almost certainly suggests that the underlying object being gauged has been garbage collected.
+          - generic [ref=e245]:
+            - heading [level=2] [ref=e246]:
+              - code [ref=e247]: TimeGauge
+            - generic [ref=e248]:
+              - paragraph [ref=e250]:
+                - code [ref=e251]: TimeGauge
+                - text: is a specialized gauge that tracks a time value, to be scaled to the base unit of time expected by each registry implementation.
+              - paragraph [ref=e253]:
+                - code [ref=e254]: TimeGauge
+                - text: can be registered with
+                - code [ref=e255]: TimeUnit
+                - text: "as follows:"
+              - generic [ref=e258]:
+                - code [ref=e259]: java AtomicInteger msTimeGauge = new AtomicInteger(4000); AtomicInteger usTimeGauge = new AtomicInteger(4000); TimeGauge.builder("my.gauge", msTimeGauge, TimeUnit.MILLISECONDS, AtomicInteger::get).register(registry); TimeGauge.builder("my.other.gauge", usTimeGauge, TimeUnit.MICROSECONDS, AtomicInteger::get).register(registry);
+                - button "Copied!" [ref=e261] [cursor=pointer]
+              - paragraph [ref=e264]: "And for example, if the registry is Prometheus, they will be converted in seconds as follows:"
+              - generic [ref=e267]:
+                - code [ref=e268]: "# HELP my_gauge_seconds # TYPE my_gauge_seconds gauge my_gauge_seconds 4.0 # HELP my_other_gauge_seconds # TYPE my_other_gauge_seconds gauge my_other_gauge_seconds 0.004"
+                - button "Copied!" [ref=e270] [cursor=pointer]
+          - generic [ref=e272]:
+            - heading "Multi-gauge" [level=2] [ref=e273]
+            - generic [ref=e274]:
+              - paragraph [ref=e276]:
+                - text: Micrometer supports one last special type of
+                - code [ref=e277]: Gauge
+                - text: ", called a"
+                - code [ref=e278]: MultiGauge
+                - text: ", to help manage gauging a growing or shrinking list of criteria. This feature lets you select a set of well-bounded but slightly changing set of criteria from something like an SQL query and report each"
+                - code [ref=e279]: Row
+                - text: (see the example below) as a
+                - code [ref=e280]: Gauge
+                - text: . The following example creates a
+                - code [ref=e281]: MultiGauge
+                - text: ":"
+              - generic [ref=e284]:
+                - code [ref=e285]: java // SELECT count(*) from job group by status WHERE job = 'dirty' MultiGauge statuses = MultiGauge.builder("statuses") .tag("job", "dirty") .description("The number of widgets in various statuses") .baseUnit("widgets") .register(registry); ... // run this whenever you re-run your query statuses.register( resultSet.stream() .map(result -> Row.of(Tags.of("status", result.getAsString("status")), result.getAsInt("count"))) .collect(toList()), true // whether to overwrite the previous value or only record it once );
+                - button "Copied!" [ref=e287] [cursor=pointer]
+              - paragraph [ref=e290]:
+                - text: The
+                - code [ref=e291]: overwrite
+                - text: argument controls how rows with the same set of tags are handled on subsequent registrations. Use
+                - code [ref=e292]: overwrite=true
+                - text: when each registration represents a new snapshot and previously registered rows should be replaced with the latest values. Use
+                - code [ref=e293]: overwrite=false
+                - text: when existing rows should remain unchanged on later registrations with the same tags. Rows that are no longer present in the new registration are removed.
+          - navigation [ref=e294]:
+            - generic [ref=e295]:
+              - text: Prev
+              - link "‹ Counters" [ref=e296] [cursor=pointer]:
+                - /url: counters.html
+            - generic [ref=e297]:
+              - text: Next
+              - link "Timers ›" [ref=e298] [cursor=pointer]:
+                - /url: timers.html
+  - contentinfo [ref=e299]:
+    - generic [ref=e300]:
+      - img "Micrometer" [ref=e301]
+      - paragraph [ref=e302]:
+        - text: © 2026
+        - link "VMware" [ref=e303] [cursor=pointer]:
+          - /url: https://www.vmware.com/
+        - text: ", Inc. or its affiliates."
+        - link "Terms of Use" [ref=e304] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/legal.html
+        - text: •
+        - link "Privacy" [ref=e305] [cursor=pointer]:
+          - /url: https://www.vmware.com/help/privacy.html
+    - generic [ref=e306]:
+      - link "GitHub" [ref=e307] [cursor=pointer]:
+        - /url: https://github.com/micrometer-metrics
+      - link "Twitter" [ref=e311] [cursor=pointer]:
+        - /url: https://twitter.com/micrometerio

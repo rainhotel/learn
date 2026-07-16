@@ -1,0 +1,1484 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FQuantumNous%2Fnew-api
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=QuantumNous%2Fnew-api
+            - button "Appearance settings" [ref=e58] [cursor=pointer]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - link "QuantumNous" [ref=e70] [cursor=pointer]:
+            - /url: /QuantumNous
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "new-api" [ref=e73] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 9.8k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Fork
+                - generic "9,781" [ref=e84]: 9.8k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FQuantumNous%2Fnew-api
+                - text: Star
+                - generic "42211 users starred this repository" [ref=e90]: 42.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+          - listitem [ref=e98]:
+            - link "Issues 605" [ref=e99] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/issues
+              - generic [ref=e103]: Issues
+              - generic "605" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 412" [ref=e106] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulls
+              - generic [ref=e109]: Pull requests
+              - generic "412" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/actions
+          - listitem [ref=e121]:
+            - link "Security and quality 14" [ref=e122] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/security
+              - generic [ref=e125]: Security and quality
+              - generic "14" [ref=e126]
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/pulse
+    - generic [ref=e144]:
+      - heading "QuantumNous/new-api" [level=1] [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - button "main branch" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]: main
+              - generic [ref=e163]:
+                - link [ref=e164] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/branches
+                  - generic [ref=e167]:
+                    - strong [ref=e168]: "15"
+                    - text: Branches
+                - link [ref=e169] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/tags
+                  - generic [ref=e172]:
+                    - strong [ref=e173]: "675"
+                    - text: Tags
+            - generic [ref=e174]:
+              - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message"
+                    - columnheader "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row [ref=e191]:
+                    - 'cell "Latest commit fux-dev duanxufu commits by fux-dev and duanxufu fix: infer MiniMax vendor for MiniMax models (#6164) Open commit details Commit a63364d · Jul 14, 20262 hours ago History 6,127 Commits" [ref=e192]':
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e195]:
+                          - generic [ref=e196]:
+                            - generic [ref=e198]:
+                              - img "fux-dev" [ref=e199]
+                              - img "duanxufu" [ref=e200]
+                            - link "commits by fux-dev" [ref=e202] [cursor=pointer]:
+                              - /url: /QuantumNous/new-api/commits?author=fux-dev
+                              - text: fux-dev
+                            - generic [ref=e203]: and
+                            - generic "duanxufu" [ref=e205]
+                          - generic [ref=e206]:
+                            - generic [ref=e208]:
+                              - 'link "fix: infer MiniMax vendor for MiniMax models (" [ref=e209] [cursor=pointer]':
+                                - /url: /QuantumNous/new-api/commit/a63364d156cf2a64f1c3d1ee4923d73d5f3222a1
+                              - link "#6164" [ref=e210] [cursor=pointer]:
+                                - /url: https://github.com/QuantumNous/new-api/pull/6164
+                              - link ")" [ref=e211] [cursor=pointer]:
+                                - /url: /QuantumNous/new-api/commit/a63364d156cf2a64f1c3d1ee4923d73d5f3222a1
+                            - button "Open commit details" [ref=e212] [cursor=pointer]
+                        - generic [ref=e215]:
+                          - generic [ref=e217]:
+                            - link "Commit a63364d" [ref=e218] [cursor=pointer]:
+                              - /url: /QuantumNous/new-api/commit/a63364d156cf2a64f1c3d1ee4923d73d5f3222a1
+                              - text: a63364d
+                            - text: ·
+                            - generic "Jul 14, 2026, 20:32 GMT+8" [ref=e219]: Jul 14, 20262 hours ago
+                          - generic [ref=e220]:
+                            - heading "History" [level=2] [ref=e221]
+                            - link "6,127 Commits" [ref=e222] [cursor=pointer]:
+                              - /url: /QuantumNous/new-api/commits/main/
+                  - row [ref=e225]:
+                    - cell [ref=e226]:
+                      - link ".agents/skills, (Directory)" [ref=e233] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/.agents/skills
+                        - text: .agents/skills
+                    - cell [ref=e234]:
+                      - 'link "chore: update i18n skill" [ref=e237] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/6c35e1ef2671be8bd3c230882e4ff5a885e89c57
+                    - cell "Jun 27, 20262 weeks ago" [ref=e238]
+                  - row [ref=e240]:
+                    - cell [ref=e241]:
+                      - link ".github, (Directory)" [ref=e248] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/.github
+                        - text: .github
+                    - cell [ref=e249]:
+                      - generic [ref=e251]:
+                        - 'link "feat: enhance text protocol conversion and advanced custom routing (" [ref=e252] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/c36418c8632912377010a903bdcc9672dde1c22d
+                        - link "#…" [ref=e253] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/5825
+                    - cell "Jul 11, 20263 days ago" [ref=e254]
+                  - row [ref=e256]:
+                    - cell [ref=e257]:
+                      - link "bin, (Directory)" [ref=e264] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/bin
+                        - text: bin
+                    - cell [ref=e265]:
+                      - generic [ref=e267]:
+                        - 'link "chore: add model parameter to the time_test script (" [ref=e268] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/6a34813bead53a1442705a6c5fde8e8cce951498
+                        - link "#245" [ref=e269] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/245
+                        - link ")" [ref=e270] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/6a34813bead53a1442705a6c5fde8e8cce951498
+                    - cell "Jul 4, 20233 years ago" [ref=e271]
+                  - row [ref=e273]:
+                    - cell [ref=e274]:
+                      - link "common, (Directory)" [ref=e281] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/common
+                        - text: common
+                    - cell [ref=e282]:
+                      - 'link "revert: undo t0ng7u UI design-system refactor" [ref=e285] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/337169e0a456ac3943a9ded079fda14786008f83
+                    - cell "Jul 11, 20263 days ago" [ref=e286]
+                  - row [ref=e288]:
+                    - cell [ref=e289]:
+                      - link "constant, (Directory)" [ref=e296] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/constant
+                        - text: constant
+                    - cell [ref=e297]:
+                      - generic [ref=e299]:
+                        - 'link "feat: advanced custom channel (" [ref=e300] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/3f2c0aeda73c08b144c6c901e78959cfa24ff690
+                        - link "#5590" [ref=e301] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/5590
+                        - link ")" [ref=e302] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/3f2c0aeda73c08b144c6c901e78959cfa24ff690
+                    - cell "Jun 18, 2026last month" [ref=e303]
+                  - row [ref=e305]:
+                    - cell [ref=e306]:
+                      - link "controller, (Directory)" [ref=e313] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/controller
+                        - text: controller
+                    - cell [ref=e314]:
+                      - generic [ref=e316]:
+                        - 'link "fix: purge authentication data on hard user deletion (" [ref=e317] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/b6b97a66e39cfe45aab8cfb01ed96bba77cb279e
+                        - link "#6168" [ref=e318] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6168
+                        - link ")" [ref=e319] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/b6b97a66e39cfe45aab8cfb01ed96bba77cb279e
+                    - cell "Jul 14, 20268 hours ago" [ref=e320]
+                  - row [ref=e322]:
+                    - cell [ref=e323]:
+                      - link "docs, (Directory)" [ref=e330] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/docs
+                        - text: docs
+                    - cell [ref=e331]:
+                      - generic [ref=e333]:
+                        - 'link "feat(claude): add cache_control and speed passthrough controls (" [ref=e334] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/f7adf02eb4b4afcae3af7d581e4b88fa9e32420c
+                        - link "#4247" [ref=e335] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/4247
+                        - link ")" [ref=e336] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/f7adf02eb4b4afcae3af7d581e4b88fa9e32420c
+                    - cell "Apr 15, 20263 months ago" [ref=e337]
+                  - row [ref=e339]:
+                    - cell [ref=e340]:
+                      - link "dto, (Directory)" [ref=e347] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/dto
+                        - text: dto
+                    - cell [ref=e348]:
+                      - 'link "fix: bound uncached remainder by prompt-max(cached,write) and forward…" [ref=e351] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/92d3c9d18fc609cdfa916e7a8380876ebe471463
+                    - cell "Jul 11, 20263 days ago" [ref=e352]
+                  - row [ref=e354]:
+                    - cell [ref=e355]:
+                      - link "electron, (Directory)" [ref=e362] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/electron
+                        - text: electron
+                    - cell [ref=e363]:
+                      - link "Bump Electron lockfile dependencies" [ref=e366] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/commit/12fc010060232e9cf03e947dace7dc521c61c1d9
+                    - cell "Jun 30, 20262 weeks ago" [ref=e367]
+                  - row [ref=e369]:
+                    - cell [ref=e370]:
+                      - link "i18n, (Directory)" [ref=e377] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/i18n
+                        - text: i18n
+                    - cell [ref=e378]:
+                      - 'link "fix(user): harden account email and password handling" [ref=e381] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/5fc35e28a253bd5a5656c177aea1bd121231398f
+                    - cell "Jul 5, 2026last week" [ref=e382]
+                  - row [ref=e384]:
+                    - cell [ref=e385]:
+                      - link "logger, (Directory)" [ref=e392] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/logger
+                        - text: logger
+                    - cell [ref=e393]:
+                      - generic [ref=e395]:
+                        - 'link "perf: avoid eager formatting in debug log calls (" [ref=e396] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/0936e2504655a5cbf7bc3c388f6d3e2bb24916d3
+                        - link "#4929" [ref=e397] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/4929
+                        - link ")" [ref=e398] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/0936e2504655a5cbf7bc3c388f6d3e2bb24916d3
+                    - cell "May 19, 20262 months ago" [ref=e399]
+                  - row [ref=e401]:
+                    - cell [ref=e402]:
+                      - link "middleware, (Directory)" [ref=e409] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/middleware
+                        - text: middleware
+                    - cell [ref=e410]:
+                      - generic [ref=e412]:
+                        - 'link "feat: enhance text protocol conversion and advanced custom routing (" [ref=e413] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/c36418c8632912377010a903bdcc9672dde1c22d
+                        - link "#…" [ref=e414] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/5825
+                    - cell "Jul 11, 20263 days ago" [ref=e415]
+                  - row [ref=e417]:
+                    - cell [ref=e418]:
+                      - link "model, (Directory)" [ref=e425] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/model
+                        - text: model
+                    - cell [ref=e426]:
+                      - generic [ref=e428]:
+                        - 'link "fix: infer MiniMax vendor for MiniMax models (" [ref=e429] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/a63364d156cf2a64f1c3d1ee4923d73d5f3222a1
+                        - link "#6164" [ref=e430] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6164
+                        - link ")" [ref=e431] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/a63364d156cf2a64f1c3d1ee4923d73d5f3222a1
+                    - cell "Jul 14, 20262 hours ago" [ref=e432]
+                  - row [ref=e434]:
+                    - cell [ref=e435]:
+                      - link "oauth, (Directory)" [ref=e442] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/oauth
+                        - text: oauth
+                    - cell [ref=e443]:
+                      - 'link "fix: normalize generic oauth bearer token type" [ref=e446] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/1911520eba78a9e3d109209b43ca6e805644b94e
+                    - cell "Mar 20, 20264 months ago" [ref=e447]
+                  - row [ref=e449]:
+                    - cell [ref=e450]:
+                      - link "pkg, (Directory)" [ref=e457] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/pkg
+                        - text: pkg
+                    - cell [ref=e458]:
+                      - 'link "fix(billing): improve quota handling and error reporting for pre-cons…" [ref=e461] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/d9595831bf05b59198742dca7e779bbea3165141
+                    - cell "Jul 11, 20263 days ago" [ref=e462]
+                  - row [ref=e464]:
+                    - cell [ref=e465]:
+                      - link "relay, (Directory)" [ref=e472] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/relay
+                        - text: relay
+                    - cell [ref=e473]:
+                      - 'link "fix: bound uncached remainder by prompt-max(cached,write) and forward…" [ref=e476] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/92d3c9d18fc609cdfa916e7a8380876ebe471463
+                    - cell "Jul 11, 20263 days ago" [ref=e477]
+                  - row [ref=e479]:
+                    - cell [ref=e480]:
+                      - link "router, (Directory)" [ref=e487] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/router
+                        - text: router
+                    - cell [ref=e488]:
+                      - generic [ref=e490]:
+                        - 'link "feat(system-info): add stale instance cleanup actions (" [ref=e491] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/a72e5082e9f35cdcc9a6a10fd43b70b15346ed60
+                        - link "#5953" [ref=e492] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/5953
+                        - link ")" [ref=e493] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/a72e5082e9f35cdcc9a6a10fd43b70b15346ed60
+                    - cell "Jul 7, 2026last week" [ref=e494]
+                  - row [ref=e496]:
+                    - cell [ref=e497]:
+                      - link "service, (Directory)" [ref=e504] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/service
+                        - text: service
+                    - cell [ref=e505]:
+                      - 'link "fix: bound uncached remainder by prompt-max(cached,write) and forward…" [ref=e508] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/92d3c9d18fc609cdfa916e7a8380876ebe471463
+                    - cell "Jul 11, 20263 days ago" [ref=e509]
+                  - row [ref=e511]:
+                    - cell [ref=e512]:
+                      - link "setting, (Directory)" [ref=e519] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/setting
+                        - text: setting
+                    - cell [ref=e520]:
+                      - 'link "feat: bill OpenAI cache_write_tokens at cache-creation price with zer…" [ref=e523] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/48068ce9236e7bfcf923f8d20ca39fb8e611ef86
+                    - cell "Jul 11, 20263 days ago" [ref=e524]
+                  - row [ref=e526]:
+                    - cell [ref=e527]:
+                      - link "types, (Directory)" [ref=e534] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/types
+                        - text: types
+                    - cell [ref=e535]:
+                      - 'link "fix(billing): improve quota handling and error reporting for pre-cons…" [ref=e538] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/d9595831bf05b59198742dca7e779bbea3165141
+                    - cell "Jul 11, 20263 days ago" [ref=e539]
+                  - row [ref=e541]:
+                    - cell [ref=e542]:
+                      - link "web, (Directory)" [ref=e549] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/tree/main/web
+                        - text: web
+                    - cell [ref=e550]:
+                      - generic [ref=e552]:
+                        - 'link "fix(users): prevent large quota values from overflowing (" [ref=e553] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/9a2d66031677d3f5ab8e3f57006f0d7ff6c94b61
+                        - link "#6134" [ref=e554] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6134
+                        - link ")" [ref=e555] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/9a2d66031677d3f5ab8e3f57006f0d7ff6c94b61
+                    - cell "Jul 14, 20262 hours ago" [ref=e556]
+                  - row [ref=e558]:
+                    - cell [ref=e559]:
+                      - link ".dockerignore, (File)" [ref=e566] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/.dockerignore
+                        - text: .dockerignore
+                    - cell [ref=e567]:
+                      - generic [ref=e569]:
+                        - 'link "fix(default): support DropdownMenuItem onSelect (" [ref=e570] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/2b89989f6251f560759a80a216bd665e111b59a3
+                        - link "#4787" [ref=e571] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/4787
+                        - link ")" [ref=e572] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/2b89989f6251f560759a80a216bd665e111b59a3
+                    - cell "May 12, 20262 months ago" [ref=e573]
+                  - row [ref=e575]:
+                    - cell [ref=e576]:
+                      - link ".env.example, (File)" [ref=e583] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/.env.example
+                        - text: .env.example
+                    - cell [ref=e584]:
+                      - 'link "feat(session): support opt-in Secure session cookies" [ref=e587] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/56dbaab1d47974016289646a59b3a34276935ff5
+                    - cell "Jul 5, 2026last week" [ref=e588]
+                  - row [ref=e590]:
+                    - cell [ref=e591]:
+                      - link ".gitattributes, (File)" [ref=e598] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/.gitattributes
+                        - text: .gitattributes
+                    - cell [ref=e599]:
+                      - 'link "chore: update .gitattributes" [ref=e602] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/986aa02bf242cac520eb643cc99dd8bc3c44d52e
+                    - cell "Feb 25, 20265 months ago" [ref=e603]
+                  - row [ref=e605]:
+                    - cell [ref=e606]:
+                      - link ".gitignore, (File)" [ref=e613] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/.gitignore
+                        - text: .gitignore
+                    - cell [ref=e614]:
+                      - generic [ref=e616]:
+                        - 'link "feat: support Responses to Chat (" [ref=e617] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/2d5a041639e56316a45e8a2a11e5b5fb50c7a6ac
+                        - link "#5787" [ref=e618] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/5787
+                        - link ")" [ref=e619] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/2d5a041639e56316a45e8a2a11e5b5fb50c7a6ac
+                    - cell "Jun 28, 20262 weeks ago" [ref=e620]
+                  - row [ref=e622]:
+                    - cell [ref=e623]:
+                      - link "AGENTS.md, (File)" [ref=e630] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/AGENTS.md
+                        - text: AGENTS.md
+                    - cell [ref=e631]:
+                      - generic [ref=e633]:
+                        - 'link "fix: use GORM v2 row locking for subscription resets (" [ref=e634] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/4e570389dd433a717373ce9c9b822b59f5ed3d5d
+                        - link "#6057" [ref=e635] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6057
+                        - link ")" [ref=e636] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/4e570389dd433a717373ce9c9b822b59f5ed3d5d
+                    - cell "Jul 10, 20265 days ago" [ref=e637]
+                  - row [ref=e639]:
+                    - cell [ref=e640]:
+                      - link "CLAUDE.md, (File)" [ref=e647] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/CLAUDE.md
+                        - text: CLAUDE.md
+                    - cell [ref=e648]:
+                      - 'link "chore: update agent skills and project config" [ref=e651] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/72b3f34576dd0b4339889e3eaa2d9519912ff1bd
+                    - cell "Jun 24, 20263 weeks ago" [ref=e652]
+                  - row [ref=e654]:
+                    - cell [ref=e655]:
+                      - link "Dockerfile, (File)" [ref=e662] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/Dockerfile
+                        - text: Dockerfile
+                    - cell [ref=e663]:
+                      - generic [ref=e665]:
+                        - 'link "fix: date-fns-tz classic theme build error (" [ref=e666] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/64eafc9414986bb9c331c44d6b34c63fde3ba892
+                        - link "#5676" [ref=e667] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/5676
+                        - link ")" [ref=e668] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/64eafc9414986bb9c331c44d6b34c63fde3ba892
+                    - cell "Jun 24, 20263 weeks ago" [ref=e669]
+                  - row [ref=e671]:
+                    - cell [ref=e672]:
+                      - link "Dockerfile.dev, (File)" [ref=e679] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/Dockerfile.dev
+                        - text: Dockerfile.dev
+                    - cell [ref=e680]:
+                      - 'link "feat(licenses): add LICENSE, NOTICE, and THIRD-PARTY-LICENSES files t…" [ref=e683] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/543cc64ea3805a3f2291b86525ad83771cb61423
+                    - cell "May 9, 20262 months ago" [ref=e684]
+                  - row [ref=e686]:
+                    - cell [ref=e687]:
+                      - link "LICENSE, (File)" [ref=e694] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/LICENSE
+                        - text: LICENSE
+                    - cell [ref=e695]:
+                      - link "Update LICENSE file" [ref=e698] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/commit/f2108a7debb50e32192e8abf5abd256e5096f474
+                    - cell "Jan 26, 20266 months ago" [ref=e699]
+                  - row [ref=e701]:
+                    - cell [ref=e702]:
+                      - link "NOTICE, (File)" [ref=e709] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/NOTICE
+                        - text: NOTICE
+                    - cell [ref=e710]:
+                      - 'link "feat(licenses): add LICENSE, NOTICE, and THIRD-PARTY-LICENSES files t…" [ref=e713] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/543cc64ea3805a3f2291b86525ad83771cb61423
+                    - cell "May 9, 20262 months ago" [ref=e714]
+                  - row [ref=e716]:
+                    - cell [ref=e717]:
+                      - link "README.en.md, (File)" [ref=e724] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/README.en.md
+                        - text: README.en.md
+                    - cell [ref=e725]:
+                      - 'link "docs: update system architecture requirements" [ref=e728] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/5cbb7b0be17c7258def3ec835e0fee26076caac0
+                    - cell "Jul 7, 2026last week" [ref=e729]
+                  - row [ref=e731]:
+                    - cell [ref=e732]:
+                      - link "README.fr.md, (File)" [ref=e739] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/README.fr.md
+                        - text: README.fr.md
+                    - cell [ref=e740]:
+                      - 'link "docs: update system architecture requirements" [ref=e743] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/5cbb7b0be17c7258def3ec835e0fee26076caac0
+                    - cell "Jul 7, 2026last week" [ref=e744]
+                  - row [ref=e746]:
+                    - cell [ref=e747]:
+                      - link "README.ja.md, (File)" [ref=e754] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/README.ja.md
+                        - text: README.ja.md
+                    - cell [ref=e755]:
+                      - 'link "docs: update system architecture requirements" [ref=e758] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/5cbb7b0be17c7258def3ec835e0fee26076caac0
+                    - cell "Jul 7, 2026last week" [ref=e759]
+                  - row [ref=e761]:
+                    - cell [ref=e762]:
+                      - link "README.md, (File)" [ref=e769] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/README.md
+                        - text: README.md
+                    - cell [ref=e770]:
+                      - 'link "docs: update system architecture requirements" [ref=e773] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/5cbb7b0be17c7258def3ec835e0fee26076caac0
+                    - cell "Jul 7, 2026last week" [ref=e774]
+                  - row [ref=e776]:
+                    - cell [ref=e777]:
+                      - link "README.zh_CN.md, (File)" [ref=e784] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/README.zh_CN.md
+                        - text: README.zh_CN.md
+                    - cell [ref=e785]:
+                      - 'link "docs: update system architecture requirements" [ref=e788] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/5cbb7b0be17c7258def3ec835e0fee26076caac0
+                    - cell "Jul 7, 2026last week" [ref=e789]
+                  - row [ref=e791]:
+                    - cell [ref=e792]:
+                      - link "README.zh_TW.md, (File)" [ref=e799] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/README.zh_TW.md
+                        - text: README.zh_TW.md
+                    - cell [ref=e800]:
+                      - 'link "docs: update system architecture requirements" [ref=e803] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/5cbb7b0be17c7258def3ec835e0fee26076caac0
+                    - cell "Jul 7, 2026last week" [ref=e804]
+                  - row [ref=e806]:
+                    - cell [ref=e807]:
+                      - link "THIRD-PARTY-LICENSES.md, (File)" [ref=e814] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/THIRD-PARTY-LICENSES.md
+                        - text: THIRD-PARTY-LICENSES.md
+                    - cell [ref=e815]:
+                      - 'link "feat(licenses): add LICENSE, NOTICE, and THIRD-PARTY-LICENSES files t…" [ref=e818] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/543cc64ea3805a3f2291b86525ad83771cb61423
+                    - cell "May 9, 20262 months ago" [ref=e819]
+                  - row [ref=e821]:
+                    - cell [ref=e822]:
+                      - link "VERSION, (File)" [ref=e829] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/VERSION
+                        - text: VERSION
+                    - cell [ref=e830]:
+                      - generic [ref=e832]:
+                        - 'link "fix: add a blank VERSION file (" [ref=e833] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/f4450040b988a050ccd678379cc7cd5116c76b35
+                        - link "#135" [ref=e834] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/issues/135
+                        - link ")" [ref=e835] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/f4450040b988a050ccd678379cc7cd5116c76b35
+                    - cell "Jun 2, 20233 years ago" [ref=e836]
+                  - row [ref=e838]:
+                    - cell [ref=e839]:
+                      - link "docker-compose.dev.yml, (File)" [ref=e846] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/docker-compose.dev.yml
+                        - text: docker-compose.dev.yml
+                    - cell [ref=e847]:
+                      - 'link "feat(session): support opt-in Secure session cookies" [ref=e850] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/56dbaab1d47974016289646a59b3a34276935ff5
+                    - cell "Jul 5, 2026last week" [ref=e851]
+                  - row [ref=e853]:
+                    - cell [ref=e854]:
+                      - link "docker-compose.yml, (File)" [ref=e861] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/docker-compose.yml
+                        - text: docker-compose.yml
+                    - cell [ref=e862]:
+                      - 'link "feat(session): support opt-in Secure session cookies" [ref=e865] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/56dbaab1d47974016289646a59b3a34276935ff5
+                    - cell "Jul 5, 2026last week" [ref=e866]
+                  - row [ref=e868]:
+                    - cell [ref=e869]:
+                      - link "go.mod, (File)" [ref=e876] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/go.mod
+                        - text: go.mod
+                    - cell [ref=e877]:
+                      - generic [ref=e879]:
+                        - 'link "chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 (" [ref=e880] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/00f1cbb6df2c5441f0b3684f60d2436682acb359
+                        - link "#6096" [ref=e881] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6096
+                        - link ")" [ref=e882] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/00f1cbb6df2c5441f0b3684f60d2436682acb359
+                    - cell "Jul 11, 20264 days ago" [ref=e883]
+                  - row [ref=e885]:
+                    - cell [ref=e886]:
+                      - link "go.sum, (File)" [ref=e893] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/go.sum
+                        - text: go.sum
+                    - cell [ref=e894]:
+                      - generic [ref=e896]:
+                        - 'link "chore(deps): bump golang.org/x/crypto from 0.51.0 to 0.52.0 (" [ref=e897] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/00f1cbb6df2c5441f0b3684f60d2436682acb359
+                        - link "#6096" [ref=e898] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/6096
+                        - link ")" [ref=e899] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/00f1cbb6df2c5441f0b3684f60d2436682acb359
+                    - cell "Jul 11, 20264 days ago" [ref=e900]
+                  - row [ref=e902]:
+                    - cell [ref=e903]:
+                      - link "main.go, (File)" [ref=e910] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/main.go
+                        - text: main.go
+                    - cell [ref=e911]:
+                      - generic [ref=e913]:
+                        - 'link "feat: enhance text protocol conversion and advanced custom routing (" [ref=e914] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/c36418c8632912377010a903bdcc9672dde1c22d
+                        - link "#…" [ref=e915] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/5825
+                    - cell "Jul 11, 20263 days ago" [ref=e916]
+                  - row [ref=e918]:
+                    - cell [ref=e919]:
+                      - link "makefile, (File)" [ref=e926] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/makefile
+                        - text: makefile
+                    - cell [ref=e927]:
+                      - 'link "chore(makefile): rename backend targets to api" [ref=e930] [cursor=pointer]':
+                        - /url: /QuantumNous/new-api/commit/a1301039481065c56265130584d39b6787bc3cdf
+                    - cell "Jul 4, 20262 weeks ago" [ref=e931]
+                  - row [ref=e933]:
+                    - cell [ref=e934]:
+                      - link "new-api.service, (File)" [ref=e941] [cursor=pointer]:
+                        - /url: /QuantumNous/new-api/blob/main/new-api.service
+                        - text: new-api.service
+                    - cell [ref=e942]:
+                      - generic [ref=e944]:
+                        - 'link "format: package name -> github.com/QuantumNous/new-api (" [ref=e945] [cursor=pointer]':
+                          - /url: /QuantumNous/new-api/commit/5010f2d004bf62b82d80f0ce22edc8f611d1dfbf
+                        - link "#2017" [ref=e946] [cursor=pointer]:
+                          - /url: https://github.com/QuantumNous/new-api/pull/2017
+                        - link ")" [ref=e947] [cursor=pointer]:
+                          - /url: /QuantumNous/new-api/commit/5010f2d004bf62b82d80f0ce22edc8f611d1dfbf
+                    - cell "Oct 11, 20259 months ago" [ref=e948]
+            - generic [ref=e951]:
+              - generic [ref=e952]:
+                - heading "Repository files navigation" [level=2] [ref=e953]
+                - navigation "Repository files" [ref=e954]:
+                  - list [ref=e955]:
+                    - listitem [ref=e956]:
+                      - link "README" [ref=e957] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e962]:
+                      - link "Code of conduct" [ref=e963] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e968]:
+                      - link "AGPL-3.0 license" [ref=e969] [cursor=pointer]:
+                        - /url: "#"
+                    - listitem [ref=e974]:
+                      - link "Security" [ref=e975] [cursor=pointer]:
+                        - /url: "#"
+                - button "Outline" [ref=e980] [cursor=pointer]
+              - article [ref=e984]:
+                - generic [ref=e985]:
+                  - paragraph [ref=e986]:
+                    - link [ref=e987] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/blob/main/web/default/public/logo.png
+                      - img "new-api" [ref=e988]
+                  - generic [ref=e989]:
+                    - heading "New API" [level=1] [ref=e990]
+                    - 'link "Permalink: New API" [ref=e991] [cursor=pointer]':
+                      - /url: "#new-api"
+                  - paragraph [ref=e994]:
+                    - text: 🍥
+                    - strong [ref=e995]: Next-Generation LLM Gateway and AI Asset Management System
+                  - paragraph [ref=e996]:
+                    - link "简体中文" [ref=e997] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/blob/main/README.zh_CN.md
+                    - text: "|"
+                    - link "繁體中文" [ref=e998] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/blob/main/README.zh_TW.md
+                    - text: "|"
+                    - strong [ref=e999]: English
+                    - text: "|"
+                    - link "Français" [ref=e1000] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/blob/main/README.fr.md
+                    - text: "|"
+                    - link "日本語" [ref=e1001] [cursor=pointer]:
+                      - /url: /QuantumNous/new-api/blob/main/README.ja.md
+                  - paragraph [ref=e1002]:
+                    - link [ref=e1003] [cursor=pointer]:
+                      - /url: https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE
+                      - img "license" [ref=e1004]
+                    - link [ref=e1005] [cursor=pointer]:
+                      - /url: https://github.com/Calcium-Ion/new-api/releases/latest
+                      - img "release" [ref=e1006]
+                    - link [ref=e1007] [cursor=pointer]:
+                      - /url: https://hub.docker.com/r/CalciumIon/new-api
+                      - img "docker" [ref=e1008]
+                    - link [ref=e1009] [cursor=pointer]:
+                      - /url: https://goreportcard.com/report/github.com/Calcium-Ion/new-api
+                      - img "GoReportCard" [ref=e1010]
+                  - paragraph [ref=e1011]:
+                    - link [ref=e1012] [cursor=pointer]:
+                      - /url: https://trendshift.io/repositories/20180
+                      - img "QuantumNous%2Fnew-api | Trendshift" [ref=e1013]
+                    - link [ref=e1014] [cursor=pointer]:
+                      - /url: https://hellogithub.com/repository/QuantumNous/new-api
+                      - img "Featured｜HelloGitHub" [ref=e1015]
+                    - link [ref=e1016] [cursor=pointer]:
+                      - /url: https://www.producthunt.com/products/new-api/launches/new-api?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-new-api
+                      - img "New API - All-in-one AI asset management gateway. | Product Hunt" [ref=e1017]
+                  - paragraph [ref=e1018]:
+                    - link "Quick Start" [ref=e1019] [cursor=pointer]:
+                      - /url: "#-quick-start"
+                    - text: •
+                    - link "Key Features" [ref=e1020] [cursor=pointer]:
+                      - /url: "#-key-features"
+                    - text: •
+                    - link "Deployment" [ref=e1021] [cursor=pointer]:
+                      - /url: "#-deployment"
+                    - text: •
+                    - link "Documentation" [ref=e1022] [cursor=pointer]:
+                      - /url: "#-documentation"
+                    - text: •
+                    - link "Help" [ref=e1023] [cursor=pointer]:
+                      - /url: "#-help-support"
+                - generic [ref=e1024]:
+                  - heading "📝 Project Description" [level=2] [ref=e1025]
+                  - 'link "Permalink: 📝 Project Description" [ref=e1026] [cursor=pointer]':
+                    - /url: "#-project-description"
+                - generic [ref=e1029]:
+                  - paragraph [ref=e1030]: Important
+                  - list [ref=e1033]:
+                    - listitem [ref=e1034]: This project is intended solely for lawful and authorized AI API gateway, organization-level authentication, multi-model management, usage analytics, cost accounting, and private deployment scenarios.
+                    - listitem [ref=e1035]: Users must lawfully obtain upstream API keys, accounts, model services, and interface permissions, and must comply with upstream terms of service and applicable laws and regulations.
+                    - listitem [ref=e1036]: Users should ensure their use complies with upstream terms of service and applicable laws and regulations.
+                    - listitem [ref=e1037]: When providing generative AI services to the public, users should comply with applicable regulatory requirements and fulfill all filing, licensing, content safety, real-name verification, log retention, tax, and upstream authorization obligations required by their jurisdiction.
+                - separator [ref=e1038]
+                - generic [ref=e1039]:
+                  - heading "🤝 Trusted Partners" [level=2] [ref=e1040]
+                  - 'link "Permalink: 🤝 Trusted Partners" [ref=e1041] [cursor=pointer]':
+                    - /url: "#-trusted-partners"
+                - paragraph [ref=e1044]:
+                  - emphasis [ref=e1045]: No particular order
+                - paragraph [ref=e1046]:
+                  - link [ref=e1047] [cursor=pointer]:
+                    - /url: https://www.cherry-ai.com/
+                    - img "Cherry Studio" [ref=e1048]
+                  - link [ref=e1049] [cursor=pointer]:
+                    - /url: https://github.com/iOfficeAI/AionUi/
+                    - img "Aion UI" [ref=e1050]
+                  - link [ref=e1051] [cursor=pointer]:
+                    - /url: https://bda.pku.edu.cn/
+                    - img "Peking University" [ref=e1052]
+                  - link [ref=e1053] [cursor=pointer]:
+                    - /url: https://www.compshare.cn/?ytag=GPU_yy_gh_newapi
+                    - img "UCloud" [ref=e1054]
+                  - link [ref=e1055] [cursor=pointer]:
+                    - /url: https://www.aliyun.com/
+                    - img "Alibaba Cloud" [ref=e1056]
+                  - link [ref=e1057] [cursor=pointer]:
+                    - /url: https://io.net/
+                    - img "IO.NET" [ref=e1058]
+                - separator [ref=e1059]
+                - generic [ref=e1060]:
+                  - heading "🙏 Special Thanks" [level=2] [ref=e1061]
+                  - 'link "Permalink: 🙏 Special Thanks" [ref=e1062] [cursor=pointer]':
+                    - /url: "#-special-thanks"
+                - paragraph [ref=e1065]:
+                  - link [ref=e1066] [cursor=pointer]:
+                    - /url: https://www.jetbrains.com/?from=new-api
+                    - img "JetBrains Logo" [ref=e1067]
+                - paragraph [ref=e1068]:
+                  - strong [ref=e1069]:
+                    - text: Thanks to
+                    - link "JetBrains" [ref=e1070] [cursor=pointer]:
+                      - /url: https://www.jetbrains.com/?from=new-api
+                    - text: for providing free open-source development license for this project
+                - separator [ref=e1071]
+                - generic [ref=e1072]:
+                  - heading "🚀 Quick Start" [level=2] [ref=e1073]
+                  - 'link "Permalink: 🚀 Quick Start" [ref=e1074] [cursor=pointer]':
+                    - /url: "#-quick-start"
+                - generic [ref=e1077]:
+                  - heading "Using Docker Compose (Recommended)" [level=3] [ref=e1078]
+                  - 'link "Permalink: Using Docker Compose (Recommended)" [ref=e1079] [cursor=pointer]':
+                    - /url: "#using-docker-compose-recommended"
+                - generic [ref=e1082]:
+                  - generic [ref=e1083]:
+                    - generic [ref=e1084]: "# Clone the project"
+                    - text: git clone https://github.com/QuantumNous/new-api.git cd new-api
+                    - generic [ref=e1085]: "# Edit docker-compose.yml configuration"
+                    - text: nano docker-compose.yml
+                    - generic [ref=e1086]: "# Start the service"
+                    - text: docker-compose up -d
+                  - button "Copy code to clipboard" [ref=e1088] [cursor=pointer]
+                - group [ref=e1092]:
+                  - strong [ref=e1094] [cursor=pointer]: Using Docker Commands
+                - separator [ref=e1095]
+                - paragraph [ref=e1096]:
+                  - text: 🎉 After deployment is complete, visit
+                  - code [ref=e1097]: http://localhost:3000
+                  - text: to start using!
+                - generic [ref=e1098]:
+                  - paragraph [ref=e1099]: Warning
+                  - paragraph [ref=e1102]: When operating this project as a public generative AI service or API resale service, users should first complete all required filing, licensing, content safety, real-name verification, log retention, tax, payment, and upstream authorization obligations.
+                - paragraph [ref=e1103]:
+                  - text: 📖 For more deployment methods, please refer to
+                  - link "Deployment Guide" [ref=e1104] [cursor=pointer]:
+                    - /url: https://docs.newapi.pro/en/docs/installation
+                - separator [ref=e1105]
+                - generic [ref=e1106]:
+                  - heading "📚 Documentation" [level=2] [ref=e1107]
+                  - 'link "Permalink: 📚 Documentation" [ref=e1108] [cursor=pointer]':
+                    - /url: "#-documentation"
+                - generic [ref=e1112]:
+                  - heading [level=3] [ref=e1113]:
+                    - text: 📖
+                    - link "Official Documentation" [ref=e1114] [cursor=pointer]:
+                      - /url: https://docs.newapi.pro/en/docs
+                    - text: "|"
+                    - link [ref=e1115] [cursor=pointer]:
+                      - /url: https://deepwiki.com/QuantumNous/new-api
+                      - img "Ask DeepWiki" [ref=e1116]
+                  - 'link "Permalink: 📖 Official Documentation |" [ref=e1117] [cursor=pointer]':
+                    - /url: "#-official-documentation--"
+                - paragraph [ref=e1120]:
+                  - strong [ref=e1121]: "Quick Navigation:"
+                - table [ref=e1123]:
+                  - rowgroup [ref=e1124]:
+                    - row [ref=e1125]:
+                      - columnheader "Category" [ref=e1126]
+                      - columnheader "Link" [ref=e1127]
+                  - rowgroup [ref=e1128]:
+                    - row [ref=e1129]:
+                      - cell "🚀 Deployment Guide" [ref=e1130]
+                      - cell [ref=e1131]:
+                        - link "Installation Documentation" [ref=e1132] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/installation
+                    - row [ref=e1133]:
+                      - cell "⚙️ Environment Configuration" [ref=e1134]
+                      - cell [ref=e1135]:
+                        - link "Environment Variables" [ref=e1136] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/installation/config-maintenance/environment-variables
+                    - row [ref=e1137]:
+                      - cell "📡 API Documentation" [ref=e1138]
+                      - cell [ref=e1139]:
+                        - link "API Documentation" [ref=e1140] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/api
+                    - row [ref=e1141]:
+                      - cell "❓ FAQ" [ref=e1142]
+                      - cell [ref=e1143]:
+                        - link "FAQ" [ref=e1144] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/support/faq
+                    - row [ref=e1145]:
+                      - cell "💬 Community Interaction" [ref=e1146]
+                      - cell [ref=e1147]:
+                        - link "Communication Channels" [ref=e1148] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/support/community-interaction
+                - separator [ref=e1149]
+                - generic [ref=e1150]:
+                  - heading "✨ Key Features" [level=2] [ref=e1151]
+                  - 'link "Permalink: ✨ Key Features" [ref=e1152] [cursor=pointer]':
+                    - /url: "#-key-features"
+                - blockquote [ref=e1155]:
+                  - paragraph [ref=e1156]:
+                    - text: For detailed features, please refer to
+                    - link "Features Introduction" [ref=e1157] [cursor=pointer]:
+                      - /url: https://docs.newapi.pro/en/docs/guide/wiki/basic-concepts/features-introduction
+                - generic [ref=e1158]:
+                  - heading "🎨 Core Functions" [level=3] [ref=e1159]
+                  - 'link "Permalink: 🎨 Core Functions" [ref=e1160] [cursor=pointer]':
+                    - /url: "#-core-functions"
+                - table [ref=e1164]:
+                  - rowgroup [ref=e1165]:
+                    - row [ref=e1166]:
+                      - columnheader "Feature" [ref=e1167]
+                      - columnheader "Description" [ref=e1168]
+                  - rowgroup [ref=e1169]:
+                    - row [ref=e1170]:
+                      - cell "🎨 New UI" [ref=e1171]
+                      - cell "Modern user interface design" [ref=e1172]
+                    - row [ref=e1173]:
+                      - cell "🌍 Multi-language" [ref=e1174]
+                      - cell "Supports Simplified Chinese, Traditional Chinese, English, French, Japanese" [ref=e1175]
+                    - row [ref=e1176]:
+                      - cell "🔄 Data Compatibility" [ref=e1177]
+                      - cell "Fully compatible with the original One API database" [ref=e1178]
+                    - row [ref=e1179]:
+                      - cell "📈 Data Dashboard" [ref=e1180]
+                      - cell "Visual console and statistical analysis" [ref=e1181]
+                    - row [ref=e1182]:
+                      - cell "🔒 Permission Management" [ref=e1183]
+                      - cell "Token grouping, model restrictions, user management" [ref=e1184]
+                - generic [ref=e1185]:
+                  - heading "💰 Authorized Usage Accounting and Billing" [level=3] [ref=e1186]
+                  - 'link "Permalink: 💰 Authorized Usage Accounting and Billing" [ref=e1187] [cursor=pointer]':
+                    - /url: "#-authorized-usage-accounting-and-billing"
+                - list [ref=e1190]:
+                  - listitem [ref=e1191]: ✅ Internal top-up and quota allocation for lawful authorized scenarios (EPay, Stripe)
+                  - listitem [ref=e1192]: ✅ Organization-level per-request, usage-based, and cache-hit cost accounting
+                  - listitem [ref=e1193]: ✅ Cache billing statistics for OpenAI, Azure, DeepSeek, Claude, Qwen, and supported models
+                  - listitem [ref=e1194]: ✅ Flexible billing policies for internal management or authorized enterprise customers
+                - generic [ref=e1195]:
+                  - heading "🔐 Authorization and Security" [level=3] [ref=e1196]
+                  - 'link "Permalink: 🔐 Authorization and Security" [ref=e1197] [cursor=pointer]':
+                    - /url: "#-authorization-and-security"
+                - list [ref=e1200]:
+                  - listitem [ref=e1201]: 😈 Discord authorization login
+                  - listitem [ref=e1202]: 🤖 LinuxDO authorization login
+                  - listitem [ref=e1203]: 📱 Telegram authorization login
+                  - listitem [ref=e1204]: 🔑 OIDC unified authentication
+                  - listitem [ref=e1205]:
+                    - text: 🔍 Key quota query usage (with
+                    - link "new-api-key-tool" [ref=e1206] [cursor=pointer]:
+                      - /url: https://github.com/Calcium-Ion/new-api-key-tool
+                    - text: )
+                - generic [ref=e1207]:
+                  - heading "🚀 Advanced Features" [level=3] [ref=e1208]
+                  - 'link "Permalink: 🚀 Advanced Features" [ref=e1209] [cursor=pointer]':
+                    - /url: "#-advanced-features"
+                - paragraph [ref=e1212]:
+                  - strong [ref=e1213]: "API Format Support:"
+                - list [ref=e1214]:
+                  - listitem [ref=e1215]:
+                    - text: ⚡
+                    - link "OpenAI Responses" [ref=e1216] [cursor=pointer]:
+                      - /url: https://docs.newapi.pro/en/docs/api/ai-model/chat/openai/create-response
+                  - listitem [ref=e1217]:
+                    - text: ⚡
+                    - link "OpenAI Realtime API" [ref=e1218] [cursor=pointer]:
+                      - /url: https://docs.newapi.pro/en/docs/api/ai-model/realtime/create-realtime-session
+                    - text: (including Azure)
+                  - listitem [ref=e1219]:
+                    - text: ⚡
+                    - link "Claude Messages" [ref=e1220] [cursor=pointer]:
+                      - /url: https://docs.newapi.pro/en/docs/api/ai-model/chat/create-message
+                  - listitem [ref=e1221]:
+                    - text: ⚡
+                    - link "Google Gemini" [ref=e1222] [cursor=pointer]:
+                      - /url: https://doc.newapi.pro/en/api/google-gemini-chat
+                  - listitem [ref=e1223]:
+                    - text: 🔄
+                    - link "Rerank Models" [ref=e1224] [cursor=pointer]:
+                      - /url: https://docs.newapi.pro/en/docs/api/ai-model/rerank/create-rerank
+                    - text: (Cohere, Jina)
+                - paragraph [ref=e1225]:
+                  - strong [ref=e1226]: "Intelligent Routing:"
+                - list [ref=e1227]:
+                  - listitem [ref=e1228]: ⚖️ Channel weighted random
+                  - listitem [ref=e1229]: 🔄 Automatic retry on failure
+                  - listitem [ref=e1230]: 🚦 User-level model rate limiting
+                - paragraph [ref=e1231]:
+                  - strong [ref=e1232]: "Format Conversion:"
+                - list [ref=e1233]:
+                  - listitem [ref=e1234]:
+                    - text: 🔄
+                    - strong [ref=e1235]: OpenAI Compatible ⇄ Claude Messages
+                  - listitem [ref=e1236]:
+                    - text: 🔄
+                    - strong [ref=e1237]: OpenAI Compatible → Google Gemini
+                  - listitem [ref=e1238]:
+                    - text: 🔄
+                    - strong [ref=e1239]: Google Gemini → OpenAI Compatible
+                    - text: "- Text only, function calling not supported yet"
+                  - listitem [ref=e1240]:
+                    - text: 🚧
+                    - strong [ref=e1241]: OpenAI Compatible ⇄ OpenAI Responses
+                    - text: "- In development"
+                  - listitem [ref=e1242]:
+                    - text: 🔄
+                    - strong [ref=e1243]: Thinking-to-content functionality
+                - paragraph [ref=e1244]:
+                  - strong [ref=e1245]: "Reasoning Effort Support:"
+                - group [ref=e1246]:
+                  - generic "View detailed configuration" [ref=e1247] [cursor=pointer]
+                - separator [ref=e1248]
+                - generic [ref=e1249]:
+                  - heading "🤖 Model Support" [level=2] [ref=e1250]
+                  - 'link "Permalink: 🤖 Model Support" [ref=e1251] [cursor=pointer]':
+                    - /url: "#-model-support"
+                - blockquote [ref=e1254]:
+                  - paragraph [ref=e1255]:
+                    - text: For details, please refer to
+                    - link "API Documentation - Gateway Interface" [ref=e1256] [cursor=pointer]:
+                      - /url: https://docs.newapi.pro/en/docs/api
+                - table [ref=e1258]:
+                  - rowgroup [ref=e1259]:
+                    - row [ref=e1260]:
+                      - columnheader "Model Type" [ref=e1261]
+                      - columnheader "Description" [ref=e1262]
+                      - columnheader "Documentation" [ref=e1263]
+                  - rowgroup [ref=e1264]:
+                    - row [ref=e1265]:
+                      - cell "🤖 OpenAI-Compatible" [ref=e1266]
+                      - cell "OpenAI compatible models" [ref=e1267]
+                      - cell [ref=e1268]:
+                        - link "Documentation" [ref=e1269] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/api/ai-model/chat/openai/createchatcompletion
+                    - row [ref=e1270]:
+                      - cell "🤖 OpenAI Responses" [ref=e1271]
+                      - cell "OpenAI Responses format" [ref=e1272]
+                      - cell [ref=e1273]:
+                        - link "Documentation" [ref=e1274] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/api/ai-model/chat/openai/createresponse
+                    - row [ref=e1275]:
+                      - cell "🎨 Midjourney-Proxy" [ref=e1276]
+                      - cell [ref=e1277]:
+                        - link "Midjourney-Proxy(Plus)" [ref=e1278] [cursor=pointer]:
+                          - /url: https://github.com/novicezk/midjourney-proxy
+                      - cell [ref=e1279]:
+                        - link "Documentation" [ref=e1280] [cursor=pointer]:
+                          - /url: https://doc.newapi.pro/api/midjourney-proxy-image
+                    - row [ref=e1281]:
+                      - cell "🎵 Suno-API" [ref=e1282]
+                      - cell [ref=e1283]:
+                        - link "Suno API" [ref=e1284] [cursor=pointer]:
+                          - /url: https://github.com/Suno-API/Suno-API
+                      - cell [ref=e1285]:
+                        - link "Documentation" [ref=e1286] [cursor=pointer]:
+                          - /url: https://doc.newapi.pro/api/suno-music
+                    - row [ref=e1287]:
+                      - cell "🔄 Rerank" [ref=e1288]
+                      - cell "Cohere, Jina" [ref=e1289]
+                      - cell [ref=e1290]:
+                        - link "Documentation" [ref=e1291] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/api/ai-model/rerank/creatererank
+                    - row [ref=e1292]:
+                      - cell "💬 Claude" [ref=e1293]
+                      - cell "Messages format" [ref=e1294]
+                      - cell [ref=e1295]:
+                        - link "Documentation" [ref=e1296] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/api/ai-model/chat/createmessage
+                    - row [ref=e1297]:
+                      - cell "🌐 Gemini" [ref=e1298]
+                      - cell "Google Gemini format" [ref=e1299]
+                      - cell [ref=e1300]:
+                        - link "Documentation" [ref=e1301] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/api/ai-model/chat/gemini/geminirelayv1beta
+                    - row [ref=e1302]:
+                      - cell "🔧 Dify" [ref=e1303]
+                      - cell "ChatFlow mode" [ref=e1304]
+                      - cell "-" [ref=e1305]
+                    - row [ref=e1306]:
+                      - cell "🎯 Custom upstream" [ref=e1307]
+                      - cell "Supports configuring legally authorized upstream endpoints" [ref=e1308]
+                      - cell "-" [ref=e1309]
+                - generic [ref=e1310]:
+                  - heading "📡 Supported Interfaces" [level=3] [ref=e1311]
+                  - 'link "Permalink: 📡 Supported Interfaces" [ref=e1312] [cursor=pointer]':
+                    - /url: "#-supported-interfaces"
+                - group [ref=e1315]:
+                  - generic "View complete interface list" [ref=e1316] [cursor=pointer]
+                - separator [ref=e1317]
+                - generic [ref=e1318]:
+                  - heading "🚢 Deployment" [level=2] [ref=e1319]
+                  - 'link "Permalink: 🚢 Deployment" [ref=e1320] [cursor=pointer]':
+                    - /url: "#-deployment"
+                - generic [ref=e1323]:
+                  - paragraph [ref=e1324]: Tip
+                  - paragraph [ref=e1327]:
+                    - strong [ref=e1328]: "Latest Docker image:"
+                    - code [ref=e1329]: calciumion/new-api:latest
+                - generic [ref=e1330]:
+                  - heading "📋 Deployment Requirements" [level=3] [ref=e1331]
+                  - 'link "Permalink: 📋 Deployment Requirements" [ref=e1332] [cursor=pointer]':
+                    - /url: "#-deployment-requirements"
+                - table [ref=e1336]:
+                  - rowgroup [ref=e1337]:
+                    - row [ref=e1338]:
+                      - columnheader "Component" [ref=e1339]
+                      - columnheader "Requirement" [ref=e1340]
+                  - rowgroup [ref=e1341]:
+                    - row [ref=e1342]:
+                      - cell [ref=e1343]:
+                        - strong [ref=e1344]: Local database
+                      - cell [ref=e1345]:
+                        - text: SQLite (Docker must mount
+                        - code [ref=e1346]: /data
+                        - text: directory)
+                    - row [ref=e1347]:
+                      - cell [ref=e1348]:
+                        - strong [ref=e1349]: Remote database
+                      - cell "MySQL ≥ 5.7.8 or PostgreSQL ≥ 9.6" [ref=e1350]
+                    - row [ref=e1351]:
+                      - cell [ref=e1352]:
+                        - strong [ref=e1353]: Container engine
+                      - cell "Docker / Docker Compose" [ref=e1354]
+                    - row [ref=e1355]:
+                      - cell [ref=e1356]:
+                        - strong [ref=e1357]: System architecture
+                      - cell "64-bit only (amd64 / arm64); 32-bit systems are not supported" [ref=e1358]
+                - generic [ref=e1359]:
+                  - heading "⚙️ Environment Variable Configuration" [level=3] [ref=e1360]
+                  - 'link "Permalink: ⚙️ Environment Variable Configuration" [ref=e1361] [cursor=pointer]':
+                    - /url: "#️-environment-variable-configuration"
+                - group [ref=e1364]:
+                  - generic "Common environment variable configuration" [ref=e1365] [cursor=pointer]
+                - generic [ref=e1366]:
+                  - heading "🔧 Deployment Methods" [level=3] [ref=e1367]
+                  - 'link "Permalink: 🔧 Deployment Methods" [ref=e1368] [cursor=pointer]':
+                    - /url: "#-deployment-methods"
+                - group [ref=e1371]:
+                  - strong [ref=e1373] [cursor=pointer]: "Method 1: Docker Compose (Recommended)"
+                - group [ref=e1374]:
+                  - strong [ref=e1376] [cursor=pointer]: "Method 2: Docker Commands"
+                - group [ref=e1377]:
+                  - strong [ref=e1379] [cursor=pointer]: "Method 3: BaoTa Panel"
+                - generic [ref=e1380]:
+                  - heading "⚠️ Multi-machine Deployment Considerations" [level=3] [ref=e1381]:
+                    - generic [ref=e1382]: ⚠️
+                    - text: Multi-machine Deployment Considerations
+                  - 'link "Permalink: ⚠️ Multi-machine Deployment Considerations" [ref=e1383] [cursor=pointer]':
+                    - /url: "#️-multi-machine-deployment-considerations"
+                - generic [ref=e1386]:
+                  - paragraph [ref=e1387]: Warning
+                  - list [ref=e1390]:
+                    - listitem [ref=e1391]:
+                      - strong [ref=e1392]: Must set
+                      - code [ref=e1393]: SESSION_SECRET
+                      - text: "- Otherwise login status inconsistent"
+                    - listitem [ref=e1394]:
+                      - strong [ref=e1395]: Shared Redis must set
+                      - code [ref=e1396]: CRYPTO_SECRET
+                      - text: "- Otherwise data cannot be decrypted"
+                - generic [ref=e1397]:
+                  - heading "🔄 Channel Retry and Cache" [level=3] [ref=e1398]
+                  - 'link "Permalink: 🔄 Channel Retry and Cache" [ref=e1399] [cursor=pointer]':
+                    - /url: "#-channel-retry-and-cache"
+                - paragraph [ref=e1402]:
+                  - strong [ref=e1403]: "Retry configuration:"
+                  - code [ref=e1404]: Settings → Operation Settings → General Settings → Failure Retry Count
+                - paragraph [ref=e1405]:
+                  - strong [ref=e1406]: "Cache configuration:"
+                - list [ref=e1407]:
+                  - listitem [ref=e1408]:
+                    - code [ref=e1409]: REDIS_CONN_STRING
+                    - text: ": Redis cache (recommended)"
+                  - listitem [ref=e1410]:
+                    - code [ref=e1411]: MEMORY_CACHE_ENABLED
+                    - text: ": Memory cache"
+                - separator [ref=e1412]
+                - generic [ref=e1413]:
+                  - heading "🔗 Related Projects" [level=2] [ref=e1414]
+                  - 'link "Permalink: 🔗 Related Projects" [ref=e1415] [cursor=pointer]':
+                    - /url: "#-related-projects"
+                - generic [ref=e1418]:
+                  - heading "Upstream Projects" [level=3] [ref=e1419]
+                  - 'link "Permalink: Upstream Projects" [ref=e1420] [cursor=pointer]':
+                    - /url: "#upstream-projects"
+                - table [ref=e1424]:
+                  - rowgroup [ref=e1425]:
+                    - row [ref=e1426]:
+                      - columnheader "Project" [ref=e1427]
+                      - columnheader "Description" [ref=e1428]
+                  - rowgroup [ref=e1429]:
+                    - row [ref=e1430]:
+                      - cell [ref=e1431]:
+                        - link "One API" [ref=e1432] [cursor=pointer]:
+                          - /url: https://github.com/songquanpeng/one-api
+                      - cell "Original project base" [ref=e1433]
+                    - row [ref=e1434]:
+                      - cell [ref=e1435]:
+                        - link "Midjourney-Proxy" [ref=e1436] [cursor=pointer]:
+                          - /url: https://github.com/novicezk/midjourney-proxy
+                      - cell "Midjourney interface support" [ref=e1437]
+                - generic [ref=e1438]:
+                  - heading "Supporting Tools" [level=3] [ref=e1439]
+                  - 'link "Permalink: Supporting Tools" [ref=e1440] [cursor=pointer]':
+                    - /url: "#supporting-tools"
+                - table [ref=e1444]:
+                  - rowgroup [ref=e1445]:
+                    - row [ref=e1446]:
+                      - columnheader "Project" [ref=e1447]
+                      - columnheader "Description" [ref=e1448]
+                  - rowgroup [ref=e1449]:
+                    - row [ref=e1450]:
+                      - cell [ref=e1451]:
+                        - link "new-api-key-tool" [ref=e1452] [cursor=pointer]:
+                          - /url: https://github.com/Calcium-Ion/new-api-key-tool
+                      - cell "Key quota query tool" [ref=e1453]
+                    - row [ref=e1454]:
+                      - cell [ref=e1455]:
+                        - link "new-api-horizon" [ref=e1456] [cursor=pointer]:
+                          - /url: https://github.com/Calcium-Ion/new-api-horizon
+                      - cell "New API high-performance optimized version" [ref=e1457]
+                - separator [ref=e1458]
+                - generic [ref=e1459]:
+                  - heading "💬 Help Support" [level=2] [ref=e1460]
+                  - 'link "Permalink: 💬 Help Support" [ref=e1461] [cursor=pointer]':
+                    - /url: "#-help-support"
+                - generic [ref=e1464]:
+                  - heading "📖 Documentation Resources" [level=3] [ref=e1465]
+                  - 'link "Permalink: 📖 Documentation Resources" [ref=e1466] [cursor=pointer]':
+                    - /url: "#-documentation-resources"
+                - table [ref=e1470]:
+                  - rowgroup [ref=e1471]:
+                    - row [ref=e1472]:
+                      - columnheader "Resource" [ref=e1473]
+                      - columnheader "Link" [ref=e1474]
+                  - rowgroup [ref=e1475]:
+                    - row [ref=e1476]:
+                      - cell "📘 FAQ" [ref=e1477]
+                      - cell [ref=e1478]:
+                        - link "FAQ" [ref=e1479] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/support/faq
+                    - row [ref=e1480]:
+                      - cell "💬 Community Interaction" [ref=e1481]
+                      - cell [ref=e1482]:
+                        - link "Communication Channels" [ref=e1483] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/support/community-interaction
+                    - row [ref=e1484]:
+                      - cell "🐛 Issue Feedback" [ref=e1485]
+                      - cell [ref=e1486]:
+                        - link "Issue Feedback" [ref=e1487] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs/support/feedback-issues
+                    - row [ref=e1488]:
+                      - cell "📚 Complete Documentation" [ref=e1489]
+                      - cell [ref=e1490]:
+                        - link "Official Documentation" [ref=e1491] [cursor=pointer]:
+                          - /url: https://docs.newapi.pro/en/docs
+                - generic [ref=e1492]:
+                  - heading "🤝 Contribution Guide" [level=3] [ref=e1493]
+                  - 'link "Permalink: 🤝 Contribution Guide" [ref=e1494] [cursor=pointer]':
+                    - /url: "#-contribution-guide"
+                - paragraph [ref=e1497]: Welcome all forms of contribution!
+                - list [ref=e1498]:
+                  - listitem [ref=e1499]: 🐛 Report Bugs
+                  - listitem [ref=e1500]: 💡 Propose New Features
+                  - listitem [ref=e1501]: 📝 Improve Documentation
+                  - listitem [ref=e1502]: 🔧 Submit Code
+                - separator [ref=e1503]
+                - generic [ref=e1504]:
+                  - heading "📜 License" [level=2] [ref=e1505]
+                  - 'link "Permalink: 📜 License" [ref=e1506] [cursor=pointer]':
+                    - /url: "#-license"
+                - paragraph [ref=e1509]:
+                  - text: This project is licensed under the
+                  - link "GNU Affero General Public License v3.0 (AGPLv3)" [ref=e1510] [cursor=pointer]:
+                    - /url: /QuantumNous/new-api/blob/main/LICENSE
+                  - text: .
+                - paragraph [ref=e1511]:
+                  - text: Additional terms under AGPLv3 Section 7 apply. Modified versions must preserve the author attribution notice
+                  - code [ref=e1512]: Frontend design and development by New API contributors.
+                  - text: in the appropriate legal notices and in any prominent about, legal, footer, or attribution location presented by the user interface.
+                - paragraph [ref=e1513]:
+                  - text: "Modified versions that present a user interface must also preserve a visible link to the original project:"
+                  - link "https://github.com/QuantumNous/new-api" [ref=e1514] [cursor=pointer]:
+                    - /url: https://github.com/QuantumNous/new-api
+                  - text: .
+                - paragraph [ref=e1515]:
+                  - text: This is an open-source project developed based on
+                  - link "One API" [ref=e1516] [cursor=pointer]:
+                    - /url: https://github.com/songquanpeng/one-api
+                  - text: (MIT License).
+                - paragraph [ref=e1517]:
+                  - text: "If your organization's policies do not permit the use of AGPLv3-licensed software, or if you wish to avoid the open-source obligations of AGPLv3, please contact us at:"
+                  - link "support@quantumnous.com" [ref=e1518] [cursor=pointer]:
+                    - /url: mailto:support@quantumnous.com
+                - separator [ref=e1519]
+                - generic [ref=e1520]:
+                  - heading "🌟 Star History" [level=2] [ref=e1521]
+                  - 'link "Permalink: 🌟 Star History" [ref=e1522] [cursor=pointer]':
+                    - /url: "#-star-history"
+                - paragraph [ref=e1526]:
+                  - link [ref=e1527] [cursor=pointer]:
+                    - /url: https://star-history.com/#Calcium-Ion/new-api&Date
+                    - img "Star History Chart" [ref=e1528]
+                - separator [ref=e1529]
+                - generic [ref=e1530]:
+                  - generic [ref=e1531]:
+                    - heading "💖 Thank you for using New API" [level=3] [ref=e1532]
+                    - 'link "Permalink: 💖 Thank you for using New API" [ref=e1533] [cursor=pointer]':
+                      - /url: "#-thank-you-for-using-new-api"
+                  - paragraph [ref=e1536]: If this project is helpful to you, welcome to give us a ⭐️ Star！
+                  - paragraph [ref=e1537]:
+                    - strong [ref=e1538]:
+                      - link "Official Documentation" [ref=e1539] [cursor=pointer]:
+                        - /url: https://docs.newapi.pro/en/docs
+                    - text: •
+                    - strong [ref=e1540]:
+                      - link "Issue Feedback" [ref=e1541] [cursor=pointer]:
+                        - /url: https://github.com/Calcium-Ion/new-api/issues
+                    - text: •
+                    - strong [ref=e1542]:
+                      - link "Latest Release" [ref=e1543] [cursor=pointer]:
+                        - /url: https://github.com/Calcium-Ion/new-api/releases
+                  - paragraph [ref=e1544]:
+                    - subscript [ref=e1545]: Built with ❤️ by QuantumNous
+        - generic [ref=e1549]:
+          - generic [ref=e1552]:
+            - heading "About" [level=2] [ref=e1553]
+            - paragraph [ref=e1554]: A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥
+            - link "www.newapi.ai" [ref=e1559] [cursor=pointer]:
+              - /url: https://www.newapi.ai
+            - heading "Topics" [level=3] [ref=e1560]
+            - generic [ref=e1562]:
+              - link "gemini" [ref=e1563] [cursor=pointer]:
+                - /url: /topics/gemini
+              - link "openai" [ref=e1564] [cursor=pointer]:
+                - /url: /topics/openai
+              - link "claude" [ref=e1565] [cursor=pointer]:
+                - /url: /topics/claude
+              - link "newapi" [ref=e1566] [cursor=pointer]:
+                - /url: /topics/newapi
+              - link "ai-gateway" [ref=e1567] [cursor=pointer]:
+                - /url: /topics/ai-gateway
+              - link "deepseek" [ref=e1568] [cursor=pointer]:
+                - /url: /topics/deepseek
+              - link "rerank" [ref=e1569] [cursor=pointer]:
+                - /url: /topics/rerank
+            - heading "Resources" [level=3] [ref=e1570]
+            - link "Readme" [ref=e1572] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+            - heading "License" [level=3] [ref=e1575]
+            - link "AGPL-3.0 license" [ref=e1577] [cursor=pointer]:
+              - /url: "#AGPL-3.0-1-ov-file"
+            - heading "Code of conduct" [level=3] [ref=e1580]
+            - link "Code of conduct" [ref=e1582] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+            - heading "Security policy" [level=3] [ref=e1585]
+            - link "Security policy" [ref=e1587] [cursor=pointer]:
+              - /url: "#security-ov-file"
+            - link "Activity" [ref=e1591] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/activity
+            - link "Custom properties" [ref=e1595] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/custom-properties
+            - heading "Stars" [level=3] [ref=e1598]
+            - generic [ref=e1600]:
+              - strong [ref=e1603]: 42.2k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1604]
+            - generic [ref=e1606]:
+              - strong [ref=e1609]: "131"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1610]
+            - link [ref=e1612] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/forks
+              - strong [ref=e1615]: 9.8k
+              - text: forks
+            - link "Report repository" [ref=e1617] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FQuantumNous%2Fnew-api&report=QuantumNous+%28user%29
+          - generic [ref=e1619]:
+            - heading [level=2] [ref=e1620]:
+              - link "Releases 508" [ref=e1621] [cursor=pointer]:
+                - /url: /QuantumNous/new-api/releases
+                - text: Releases
+                - generic "508" [ref=e1622]
+            - link "v1.0.0-rc.21 Latest Jul 11, 20263 days ago" [ref=e1623] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/releases/tag/v1.0.0-rc.21
+              - generic [ref=e1626]:
+                - generic [ref=e1627]:
+                  - generic [ref=e1628]: v1.0.0-rc.21
+                  - 'generic "Label: Latest" [ref=e1629]': Latest
+                - generic [ref=e1630]: Jul 11, 20263 days ago
+            - link "+ 507 releases" [ref=e1632] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/releases
+          - generic [ref=e1634]:
+            - heading [level=2] [ref=e1635]:
+              - link "Packages" [ref=e1636] [cursor=pointer]:
+                - /url: /orgs/QuantumNous/packages?repo_name=new-api
+            - generic [ref=e1637]: No packages published
+          - generic [ref=e1639]:
+            - heading [level=2] [ref=e1640]:
+              - link "Contributors 275" [ref=e1641] [cursor=pointer]:
+                - /url: /QuantumNous/new-api/graphs/contributors
+                - text: Contributors
+                - generic "275" [ref=e1642]
+            - list [ref=e1643]:
+              - listitem [ref=e1644]:
+                - link [ref=e1645] [cursor=pointer]:
+                  - /url: https://github.com/Calcium-Ion
+                  - img "@Calcium-Ion" [ref=e1646]
+              - listitem [ref=e1647]:
+                - link [ref=e1648] [cursor=pointer]:
+                  - /url: https://github.com/seefs001
+                  - img "@seefs001" [ref=e1649]
+              - listitem [ref=e1650]:
+                - link [ref=e1651] [cursor=pointer]:
+                  - /url: https://github.com/t0ng7u
+                  - img "@t0ng7u" [ref=e1652]
+              - listitem [ref=e1653]:
+                - link [ref=e1654] [cursor=pointer]:
+                  - /url: https://github.com/songquanpeng
+                  - img "@songquanpeng" [ref=e1655]
+              - listitem [ref=e1656]:
+                - link [ref=e1657] [cursor=pointer]:
+                  - /url: https://github.com/feitianbubu
+                  - img "@feitianbubu" [ref=e1658]
+              - listitem [ref=e1659]:
+                - link [ref=e1660] [cursor=pointer]:
+                  - /url: https://github.com/creamlike1024
+                  - img "@creamlike1024" [ref=e1661]
+              - listitem [ref=e1662]:
+                - link [ref=e1663] [cursor=pointer]:
+                  - /url: https://github.com/RedwindA
+                  - img "@RedwindA" [ref=e1664]
+              - listitem [ref=e1665]:
+                - link [ref=e1666] [cursor=pointer]:
+                  - /url: https://github.com/QuentinHsu
+                  - img "@QuentinHsu" [ref=e1667]
+              - listitem [ref=e1668]:
+                - link [ref=e1669] [cursor=pointer]:
+                  - /url: https://github.com/xyfacai
+                  - img "@xyfacai" [ref=e1670]
+              - listitem [ref=e1671]:
+                - link [ref=e1672] [cursor=pointer]:
+                  - /url: https://github.com/HynoR
+                  - img "@HynoR" [ref=e1673]
+              - listitem [ref=e1674]:
+                - link [ref=e1675] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1676]
+              - listitem [ref=e1677]:
+                - link [ref=e1678] [cursor=pointer]:
+                  - /url: https://github.com/yyhhyyyyyy
+                  - img "@yyhhyyyyyy" [ref=e1679]
+              - listitem [ref=e1680]:
+                - link [ref=e1681] [cursor=pointer]:
+                  - /url: https://github.com/prnake
+                  - img "@prnake" [ref=e1682]
+            - link "+ 261 contributors" [ref=e1684] [cursor=pointer]:
+              - /url: /QuantumNous/new-api/graphs/contributors
+          - generic [ref=e1686]:
+            - heading "Languages" [level=2] [ref=e1687]
+            - list [ref=e1692]:
+              - listitem [ref=e1693]:
+                - link "Go 99.9%" [ref=e1694] [cursor=pointer]:
+                  - /url: /QuantumNous/new-api/search?l=go
+                  - generic [ref=e1697]: Go
+                  - generic [ref=e1698]: 99.9%
+              - listitem [ref=e1699]:
+                - generic [ref=e1700]:
+                  - generic [ref=e1703]: Other
+                  - generic [ref=e1704]: 0.1%
+  - contentinfo [ref=e1706]:
+    - heading "Footer" [level=2] [ref=e1707]
+    - generic [ref=e1708]:
+      - generic [ref=e1709]:
+        - link "GitHub Homepage" [ref=e1710] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e1713]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1714]:
+        - heading "Footer navigation" [level=3] [ref=e1715]
+        - list "Footer navigation" [ref=e1716]:
+          - listitem [ref=e1717]:
+            - link "Terms" [ref=e1718] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1719]:
+            - link "Privacy" [ref=e1720] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1721]:
+            - link "Security" [ref=e1722] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1723]:
+            - link "Status" [ref=e1724] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1725]:
+            - link "Community" [ref=e1726] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1727]:
+            - link "Docs" [ref=e1728] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1729]:
+            - link "Contact" [ref=e1730] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1731]:
+            - button "Manage cookies" [ref=e1733] [cursor=pointer]
+          - listitem [ref=e1734]:
+            - button "Do not share my personal information" [ref=e1736] [cursor=pointer]

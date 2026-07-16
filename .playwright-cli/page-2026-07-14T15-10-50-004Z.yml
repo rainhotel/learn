@@ -1,0 +1,727 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FG-TTYg%2Fnew-api%2Fpull%2F2%2Ffiles
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fpull_requests%2Fshow%2Ffiles&source=header-repo&source_repo=G-TTYg%2Fnew-api
+            - button "Appearance settings" [ref=e58] [cursor=pointer]
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - link "G-TTYg" [ref=e70] [cursor=pointer]:
+              - /url: /G-TTYg
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "new-api" [ref=e73] [cursor=pointer]:
+                - /url: /G-TTYg/new-api
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - text: forked from
+            - link "QuantumNous/new-api" [ref=e76] [cursor=pointer]:
+              - /url: /QuantumNous/new-api
+        - generic [ref=e77]:
+          - list:
+            - listitem [ref=e78]:
+              - link "You must be signed in to change notification settings" [ref=e79] [cursor=pointer]:
+                - /url: /login?return_to=%2FG-TTYg%2Fnew-api
+                - text: Notifications
+            - listitem [ref=e82]:
+              - link "Fork 0" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2FG-TTYg%2Fnew-api
+                - text: Fork
+                - generic "0" [ref=e86]
+            - listitem [ref=e87]:
+              - link "You must be signed in to star a repository" [ref=e89] [cursor=pointer]:
+                - /url: /login?return_to=%2FG-TTYg%2Fnew-api
+                - text: Star
+                - generic "0 users starred this repository" [ref=e92]: "0"
+      - navigation "Repository" [ref=e93]:
+        - list [ref=e94]:
+          - listitem [ref=e95]:
+            - link "Code" [ref=e96] [cursor=pointer]:
+              - /url: /G-TTYg/new-api
+          - listitem [ref=e100]:
+            - link "Pull requests" [ref=e101] [cursor=pointer]:
+              - /url: /G-TTYg/new-api/pulls
+          - listitem [ref=e105]:
+            - link "Actions" [ref=e106] [cursor=pointer]:
+              - /url: /G-TTYg/new-api/actions
+          - listitem [ref=e110]:
+            - link "Projects" [ref=e111] [cursor=pointer]:
+              - /url: /G-TTYg/new-api/projects
+          - listitem [ref=e115]:
+            - link "Security and quality" [ref=e116] [cursor=pointer]:
+              - /url: /G-TTYg/new-api/security
+          - listitem [ref=e120]:
+            - link "Insights" [ref=e121] [cursor=pointer]:
+              - /url: /G-TTYg/new-api/pulse
+    - generic [ref=e130]:
+      - generic [ref=e132]:
+        - generic [ref=e134]:
+          - 'heading "fix: preserve GPT-5.6 Responses reasoning options #2" [level=1] [ref=e135]'
+          - group [ref=e137]:
+            - button "New issue" [ref=e138] [cursor=pointer]
+        - generic [ref=e139]:
+          - 'generic "Status: Merged" [ref=e141]': Merged
+          - generic [ref=e144]:
+            - link "G-TTYg" [ref=e145] [cursor=pointer]:
+              - /url: /G-TTYg
+            - text: merged 1 commit into
+            - generic "G-TTYg/new-api:main" [ref=e146]:
+              - link "main" [ref=e147] [cursor=pointer]:
+                - /url: /G-TTYg/new-api/tree/main
+            - text: from
+            - generic "G-TTYg/new-api:codex/gpt56-responses-reasoning" [ref=e149]:
+              - link "codex/gpt56-responses-reasoning" [ref=e150] [cursor=pointer]:
+                - /url: /G-TTYg/new-api/tree/codex/gpt56-responses-reasoning
+            - button "Copy" [ref=e154]
+            - text: Jul 11, 20264 days ago
+      - generic [ref=e159]:
+        - generic [ref=e160]: +74 −1
+        - navigation "Pull request tabs" [ref=e168]:
+          - link "Conversation 0" [ref=e169] [cursor=pointer]:
+            - /url: /G-TTYg/new-api/pull/2
+            - text: Conversation
+            - generic "0" [ref=e172]
+          - link "Commits 1" [ref=e173] [cursor=pointer]:
+            - /url: /G-TTYg/new-api/pull/2/commits
+            - text: Commits
+            - generic "1" [ref=e176]
+          - link "Checks 0" [ref=e177] [cursor=pointer]:
+            - /url: /G-TTYg/new-api/pull/2/checks
+            - text: Checks
+            - generic "0" [ref=e180]
+          - link "Files changed 5" [ref=e181] [cursor=pointer]:
+            - /url: /G-TTYg/new-api/pull/2/files
+            - text: Files changed
+            - generic "5" [ref=e184]
+      - generic [ref=e185]:
+        - generic [ref=e189]:
+          - button "Hide file tree" [ref=e192] [cursor=pointer]
+          - group [ref=e196]:
+            - button [ref=e197] [cursor=pointer]:
+              - text: Changes from
+              - strong [ref=e198]: all commits
+          - group [ref=e200]:
+            - button [ref=e201] [cursor=pointer]:
+              - strong [ref=e202]: File filter
+          - group [ref=e204]:
+            - button [ref=e205] [cursor=pointer]:
+              - strong [ref=e206]: Conversations
+          - group [ref=e208]:
+            - button [ref=e209] [cursor=pointer]:
+              - img "Diff settings" [ref=e210]
+        - generic [ref=e213]:
+          - generic [ref=e215]:
+            - textbox "Filter changed files" [ref=e217]
+            - navigation "File Tree Navigation" [ref=e220]:
+              - tree "File Tree" [ref=e221]:
+                - treeitem [level=1] [ref=e222]:
+                  - button "dto" [expanded] [ref=e223] [cursor=pointer]
+                  - group [ref=e225]:
+                    - treeitem [level=2] [ref=e226]:
+                      - link "openai_request.go" [ref=e227] [cursor=pointer]:
+                        - /url: "#diff-9938f2501b16278807c16b126aa960f6a77f4a966c539c7e475f87cc05299039"
+                    - treeitem [level=2] [ref=e228]:
+                      - link "openai_request_zero_value_test.go" [ref=e229] [cursor=pointer]:
+                        - /url: "#diff-a2473b9fd3826e16ea04888f88da551e95c71884f46bbc4e6426af498e547420"
+                - treeitem [level=1] [ref=e230]:
+                  - button "relay/channel/openai" [expanded] [ref=e231] [cursor=pointer]
+                  - group [ref=e233]:
+                    - treeitem [level=2] [ref=e234]:
+                      - link "adaptor_responses_test.go" [ref=e235] [cursor=pointer]:
+                        - /url: "#diff-b1f242b43e1767ce4a34f8e843b8b8b9429d0b7defd152a92f52929a73c8b875"
+                - treeitem [level=1] [ref=e236]:
+                  - button "setting/reasoning" [expanded] [ref=e237] [cursor=pointer]
+                  - group [ref=e239]:
+                    - treeitem [level=2] [ref=e240]:
+                      - link "suffix.go" [ref=e241] [cursor=pointer]:
+                        - /url: "#diff-d569ad5cb78ddb004bdd5d45961db52504590e24794a725403cc22851b43713c"
+                    - treeitem [level=2] [ref=e242]:
+                      - link "suffix_test.go" [ref=e243] [cursor=pointer]:
+                        - /url: "#diff-bbd8a7160088bea30f947b64fd6b943053990c6d6251a9f2812cbe510b38f710"
+          - generic [ref=e246]:
+            - generic [ref=e248]:
+              - generic [ref=e249]:
+                - generic [ref=e250]:
+                  - button "Toggle diff contents" [expanded] [ref=e251] [cursor=pointer]
+                  - button "Expand all" [ref=e255] [cursor=pointer]:
+                    - img "Expand all" [ref=e256]
+                  - generic [ref=e258]: "2 changes: 2 additions & 0 deletions"
+                  - generic [ref=e259]: "2"
+                  - generic [ref=e265]:
+                    - link "dto/openai_request.go" [ref=e266] [cursor=pointer]:
+                      - /url: "#diff-9938f2501b16278807c16b126aa960f6a77f4a966c539c7e475f87cc05299039"
+                    - button "Copy" [ref=e268]
+                - group [ref=e275]:
+                  - button [ref=e276] [cursor=pointer]:
+                    - img "Show options" [ref=e278]
+              - table [ref=e283]:
+                - rowgroup [ref=e284]:
+                  - row [ref=e285]:
+                    - columnheader "Original file line number" [ref=e286]
+                    - columnheader "Diff line number" [ref=e287]
+                    - columnheader "Diff line change" [ref=e288]
+                - rowgroup [ref=e289]:
+                  - row [ref=e290]:
+                    - cell "Expand Up" [ref=e291] [cursor=pointer]:
+                      - link "Expand Up" [ref=e292]:
+                        - /url: "#diff-9938f2501b16278807c16b126aa960f6a77f4a966c539c7e475f87cc05299039"
+                    - 'cell "@@ -959,6 +959,8 @@ func (r *OpenAIResponsesRequest) GetToolsMap() []map[string]any {" [ref=e295]'
+                  - row [ref=e296]:
+                    - cell "959" [ref=e297] [cursor=pointer]
+                    - cell "959" [ref=e298] [cursor=pointer]
+                    - cell [ref=e299]
+                  - row [ref=e300]:
+                    - cell "960" [ref=e301] [cursor=pointer]
+                    - cell "960" [ref=e302] [cursor=pointer]
+                    - 'cell "type Reasoning struct {" [ref=e303]'
+                  - row [ref=e305]:
+                    - cell "961" [ref=e306] [cursor=pointer]
+                    - cell "961" [ref=e307] [cursor=pointer]
+                    - 'cell "Effort string `json:\"effort,omitempty\"`" [ref=e308]'
+                  - row [ref=e310]:
+                    - cell [ref=e311] [cursor=pointer]
+                    - cell "962" [ref=e312] [cursor=pointer]
+                    - 'cell "+ Mode string `json:\"mode,omitempty\"`" [ref=e313]'
+                  - row [ref=e315]:
+                    - cell [ref=e316] [cursor=pointer]
+                    - cell "963" [ref=e317] [cursor=pointer]
+                    - 'cell "+ Context string `json:\"context,omitempty\"`" [ref=e318]'
+                  - row [ref=e320]:
+                    - cell "962" [ref=e321] [cursor=pointer]
+                    - cell "964" [ref=e322] [cursor=pointer]
+                    - 'cell "Summary string `json:\"summary,omitempty\"`" [ref=e323]'
+                  - row [ref=e325]:
+                    - cell "963" [ref=e326] [cursor=pointer]
+                    - cell "965" [ref=e327] [cursor=pointer]
+                    - 'cell "}" [ref=e328]'
+                  - row [ref=e330]:
+                    - cell "964" [ref=e331] [cursor=pointer]
+                    - cell "966" [ref=e332] [cursor=pointer]
+                    - cell [ref=e333]
+                  - row [ref=e334]:
+                    - cell "Expand Down" [ref=e335] [cursor=pointer]:
+                      - link "Expand Down" [ref=e336]:
+                        - /url: "#diff-9938f2501b16278807c16b126aa960f6a77f4a966c539c7e475f87cc05299039"
+                    - cell [ref=e339]
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - generic [ref=e343]:
+                  - button "Toggle diff contents" [expanded] [ref=e344] [cursor=pointer]
+                  - button "Expand all" [ref=e348] [cursor=pointer]:
+                    - img "Expand all" [ref=e349]
+                  - generic [ref=e351]: "24 changes: 24 additions & 0 deletions"
+                  - generic [ref=e352]: "24"
+                  - generic [ref=e358]:
+                    - link "dto/openai_request_zero_value_test.go" [ref=e359] [cursor=pointer]:
+                      - /url: "#diff-a2473b9fd3826e16ea04888f88da551e95c71884f46bbc4e6426af498e547420"
+                    - button "Copy" [ref=e361]
+                - group [ref=e368]:
+                  - button [ref=e369] [cursor=pointer]:
+                    - img "Show options" [ref=e371]
+              - table [ref=e376]:
+                - rowgroup [ref=e377]:
+                  - row [ref=e378]:
+                    - columnheader "Original file line number" [ref=e379]
+                    - columnheader "Diff line number" [ref=e380]
+                    - columnheader "Diff line change" [ref=e381]
+                - rowgroup [ref=e382]:
+                  - row [ref=e383]:
+                    - cell "Expand Up" [ref=e384] [cursor=pointer]:
+                      - link "Expand Up" [ref=e385]:
+                        - /url: "#diff-a2473b9fd3826e16ea04888f88da551e95c71884f46bbc4e6426af498e547420"
+                    - 'cell "@@ -72,6 +72,30 @@ func TestOpenAIResponsesRequestPreserveExplicitZeroValues(t *testing.T) {" [ref=e388]'
+                  - row [ref=e389]:
+                    - cell "72" [ref=e390] [cursor=pointer]
+                    - cell "72" [ref=e391] [cursor=pointer]
+                    - cell "require.True(t, gjson.GetBytes(encoded, \"top_p\").Exists())" [ref=e392]
+                  - row [ref=e394]:
+                    - cell "73" [ref=e395] [cursor=pointer]
+                    - cell "73" [ref=e396] [cursor=pointer]
+                    - 'cell "}" [ref=e397]'
+                  - row [ref=e399]:
+                    - cell "74" [ref=e400] [cursor=pointer]
+                    - cell "74" [ref=e401] [cursor=pointer]
+                    - cell [ref=e402]
+                  - row [ref=e403]:
+                    - cell [ref=e404] [cursor=pointer]
+                    - cell "75" [ref=e405] [cursor=pointer]
+                    - 'cell "+ func TestOpenAIResponsesRequestPreservesReasoningModeAndContext(t *testing.T) {" [ref=e406]'
+                  - row [ref=e408]:
+                    - cell [ref=e409] [cursor=pointer]
+                    - cell "76" [ref=e410] [cursor=pointer]
+                    - 'cell "+ raw := []byte(`{" [ref=e411]'
+                  - row [ref=e413]:
+                    - cell [ref=e414] [cursor=pointer]
+                    - cell "77" [ref=e415] [cursor=pointer]
+                    - cell "+ \"model\":\"gpt-5.6-sol\"," [ref=e416]
+                  - row [ref=e418]:
+                    - cell [ref=e419] [cursor=pointer]
+                    - cell "78" [ref=e420] [cursor=pointer]
+                    - cell "+ \"input\":\"check this migration plan\"," [ref=e421]
+                  - row [ref=e423]:
+                    - cell [ref=e424] [cursor=pointer]
+                    - cell "79" [ref=e425] [cursor=pointer]
+                    - 'cell "+ \"reasoning\":{" [ref=e426]'
+                  - row [ref=e428]:
+                    - cell [ref=e429] [cursor=pointer]
+                    - cell "80" [ref=e430] [cursor=pointer]
+                    - cell "+ \"effort\":\"max\"," [ref=e431]
+                  - row [ref=e433]:
+                    - cell [ref=e434] [cursor=pointer]
+                    - cell "81" [ref=e435] [cursor=pointer]
+                    - cell "+ \"mode\":\"pro\"," [ref=e436]
+                  - row [ref=e438]:
+                    - cell [ref=e439] [cursor=pointer]
+                    - cell "82" [ref=e440] [cursor=pointer]
+                    - cell "+ \"context\":\"all_turns\"" [ref=e441]
+                  - row [ref=e443]:
+                    - cell [ref=e444] [cursor=pointer]
+                    - cell "83" [ref=e445] [cursor=pointer]
+                    - 'cell "+ }," [ref=e446]'
+                  - row [ref=e448]:
+                    - cell [ref=e449] [cursor=pointer]
+                    - cell "84" [ref=e450] [cursor=pointer]
+                    - cell "+ \"previous_response_id\":\"resp_xxx\"" [ref=e451]
+                  - row [ref=e453]:
+                    - cell [ref=e454] [cursor=pointer]
+                    - cell "85" [ref=e455] [cursor=pointer]
+                    - 'cell "+ }`)" [ref=e456]'
+                  - row [ref=e458]:
+                    - cell [ref=e459] [cursor=pointer]
+                    - cell "86" [ref=e460] [cursor=pointer]
+                    - cell "+" [ref=e461]
+                  - row [ref=e462]:
+                    - cell [ref=e463] [cursor=pointer]
+                    - cell "87" [ref=e464] [cursor=pointer]
+                    - cell "+ var req OpenAIResponsesRequest" [ref=e465]
+                  - row [ref=e467]:
+                    - cell [ref=e468] [cursor=pointer]
+                    - cell "88" [ref=e469] [cursor=pointer]
+                    - cell "+ err := common.Unmarshal(raw, &req)" [ref=e470]
+                  - row [ref=e472]:
+                    - cell [ref=e473] [cursor=pointer]
+                    - cell "89" [ref=e474] [cursor=pointer]
+                    - cell "+ require.NoError(t, err)" [ref=e475]
+                  - row [ref=e477]:
+                    - cell [ref=e478] [cursor=pointer]
+                    - cell "90" [ref=e479] [cursor=pointer]
+                    - cell "+" [ref=e480]
+                  - row [ref=e481]:
+                    - cell [ref=e482] [cursor=pointer]
+                    - cell "91" [ref=e483] [cursor=pointer]
+                    - cell "+ encoded, err := common.Marshal(req)" [ref=e484]
+                  - row [ref=e486]:
+                    - cell [ref=e487] [cursor=pointer]
+                    - cell "92" [ref=e488] [cursor=pointer]
+                    - cell "+ require.NoError(t, err)" [ref=e489]
+                  - row [ref=e491]:
+                    - cell [ref=e492] [cursor=pointer]
+                    - cell "93" [ref=e493] [cursor=pointer]
+                    - cell "+" [ref=e494]
+                  - row [ref=e495]:
+                    - cell [ref=e496] [cursor=pointer]
+                    - cell "94" [ref=e497] [cursor=pointer]
+                    - cell "+ require.Equal(t, \"max\", gjson.GetBytes(encoded, \"reasoning.effort\").String())" [ref=e498]
+                  - row [ref=e500]:
+                    - cell [ref=e501] [cursor=pointer]
+                    - cell "95" [ref=e502] [cursor=pointer]
+                    - cell "+ require.Equal(t, \"pro\", gjson.GetBytes(encoded, \"reasoning.mode\").String())" [ref=e503]
+                  - row [ref=e505]:
+                    - cell [ref=e506] [cursor=pointer]
+                    - cell "96" [ref=e507] [cursor=pointer]
+                    - cell "+ require.Equal(t, \"all_turns\", gjson.GetBytes(encoded, \"reasoning.context\").String())" [ref=e508]
+                  - row [ref=e510]:
+                    - cell [ref=e511] [cursor=pointer]
+                    - cell "97" [ref=e512] [cursor=pointer]
+                    - 'cell "+ }" [ref=e513]'
+                  - row [ref=e515]:
+                    - cell [ref=e516] [cursor=pointer]
+                    - cell "98" [ref=e517] [cursor=pointer]
+                    - cell "+" [ref=e518]
+                  - row [ref=e519]:
+                    - cell "75" [ref=e520] [cursor=pointer]
+                    - cell "99" [ref=e521] [cursor=pointer]
+                    - 'cell "func TestGeneralOpenAIRequestGetSystemRoleName(t *testing.T) {" [ref=e522]'
+                  - row [ref=e524]:
+                    - cell "76" [ref=e525] [cursor=pointer]
+                    - cell "100" [ref=e526] [cursor=pointer]
+                    - 'cell "tests := []struct {" [ref=e527]'
+                  - row [ref=e529]:
+                    - cell "77" [ref=e530] [cursor=pointer]
+                    - cell "101" [ref=e531] [cursor=pointer]
+                    - cell "name string" [ref=e532]
+                  - row [ref=e534]:
+                    - cell "Expand Down" [ref=e535] [cursor=pointer]:
+                      - link "Expand Down" [ref=e536]:
+                        - /url: "#diff-a2473b9fd3826e16ea04888f88da551e95c71884f46bbc4e6426af498e547420"
+                    - cell [ref=e539]
+            - generic [ref=e541]:
+              - generic [ref=e542]:
+                - generic [ref=e543]:
+                  - button "Toggle diff contents" [expanded] [ref=e544] [cursor=pointer]
+                  - generic [ref=e547]: "33 changes: 33 additions & 0 deletions"
+                  - generic [ref=e548]: "33"
+                  - generic [ref=e554]:
+                    - link "relay/channel/openai/adaptor_responses_test.go" [ref=e555] [cursor=pointer]:
+                      - /url: "#diff-b1f242b43e1767ce4a34f8e843b8b8b9429d0b7defd152a92f52929a73c8b875"
+                    - button "Copy" [ref=e557]
+                - group [ref=e564]:
+                  - button [ref=e565] [cursor=pointer]:
+                    - img "Show options" [ref=e567]
+              - table [ref=e572]:
+                - rowgroup [ref=e573]:
+                  - row [ref=e574]:
+                    - columnheader "Original file line number" [ref=e575]
+                    - columnheader "Diff line number" [ref=e576]
+                    - columnheader "Diff line change" [ref=e577]
+                - rowgroup [ref=e578]:
+                  - row [ref=e579]:
+                    - cell "..." [ref=e580]
+                    - cell "..." [ref=e581]
+                    - cell "@@ -0,0 +1,33 @@" [ref=e582]
+                  - row [ref=e583]:
+                    - cell [ref=e584] [cursor=pointer]
+                    - cell "1" [ref=e585] [cursor=pointer]
+                    - cell "+ package openai" [ref=e586]
+                  - row [ref=e588]:
+                    - cell [ref=e589] [cursor=pointer]
+                    - cell "2" [ref=e590] [cursor=pointer]
+                    - cell "+" [ref=e591]
+                  - row [ref=e592]:
+                    - cell [ref=e593] [cursor=pointer]
+                    - cell "3" [ref=e594] [cursor=pointer]
+                    - cell "+ import (" [ref=e595]
+                  - row [ref=e597]:
+                    - cell [ref=e598] [cursor=pointer]
+                    - cell "4" [ref=e599] [cursor=pointer]
+                    - cell "+ \"testing\"" [ref=e600]
+                  - row [ref=e602]:
+                    - cell [ref=e603] [cursor=pointer]
+                    - cell "5" [ref=e604] [cursor=pointer]
+                    - cell "+" [ref=e605]
+                  - row [ref=e606]:
+                    - cell [ref=e607] [cursor=pointer]
+                    - cell "6" [ref=e608] [cursor=pointer]
+                    - cell "+ \"github.com/QuantumNous/new-api/dto\"" [ref=e609]
+                  - row [ref=e611]:
+                    - cell [ref=e612] [cursor=pointer]
+                    - cell "7" [ref=e613] [cursor=pointer]
+                    - cell "+ relaycommon \"github.com/QuantumNous/new-api/relay/common\"" [ref=e614]
+                  - row [ref=e616]:
+                    - cell [ref=e617] [cursor=pointer]
+                    - cell "8" [ref=e618] [cursor=pointer]
+                    - cell "+ \"github.com/stretchr/testify/assert\"" [ref=e619]
+                  - row [ref=e621]:
+                    - cell [ref=e622] [cursor=pointer]
+                    - cell "9" [ref=e623] [cursor=pointer]
+                    - cell "+ \"github.com/stretchr/testify/require\"" [ref=e624]
+                  - row [ref=e626]:
+                    - cell [ref=e627] [cursor=pointer]
+                    - cell "10" [ref=e628] [cursor=pointer]
+                    - cell "+ )" [ref=e629]
+                  - row [ref=e631]:
+                    - cell [ref=e632] [cursor=pointer]
+                    - cell "11" [ref=e633] [cursor=pointer]
+                    - cell "+" [ref=e634]
+                  - row [ref=e635]:
+                    - cell [ref=e636] [cursor=pointer]
+                    - cell "12" [ref=e637] [cursor=pointer]
+                    - 'cell "+ func TestConvertOpenAIResponsesRequestPreservesReasoningModeContextAndParsesMaxSuffix(t *testing.T) {" [ref=e638]'
+                  - row [ref=e640]:
+                    - cell [ref=e641] [cursor=pointer]
+                    - cell "13" [ref=e642] [cursor=pointer]
+                    - cell "+ t.Parallel()" [ref=e643]
+                  - row [ref=e645]:
+                    - cell [ref=e646] [cursor=pointer]
+                    - cell "14" [ref=e647] [cursor=pointer]
+                    - cell "+" [ref=e648]
+                  - row [ref=e649]:
+                    - cell [ref=e650] [cursor=pointer]
+                    - cell "15" [ref=e651] [cursor=pointer]
+                    - 'cell "+ info := &relaycommon.RelayInfo{}" [ref=e652]'
+                  - row [ref=e654]:
+                    - cell [ref=e655] [cursor=pointer]
+                    - cell "16" [ref=e656] [cursor=pointer]
+                    - 'cell "+ got, err := (&Adaptor{}).ConvertOpenAIResponsesRequest(nil, info, dto.OpenAIResponsesRequest{" [ref=e657]'
+                  - row [ref=e659]:
+                    - cell [ref=e660] [cursor=pointer]
+                    - cell "17" [ref=e661] [cursor=pointer]
+                    - 'cell "+ Model: \"gpt-5.6-sol-max\"," [ref=e662]'
+                  - row [ref=e664]:
+                    - cell [ref=e665] [cursor=pointer]
+                    - cell "18" [ref=e666] [cursor=pointer]
+                    - 'cell "+ Reasoning: &dto.Reasoning{" [ref=e667]'
+                  - row [ref=e669]:
+                    - cell [ref=e670] [cursor=pointer]
+                    - cell "19" [ref=e671] [cursor=pointer]
+                    - 'cell "+ Mode: \"pro\"," [ref=e672]'
+                  - row [ref=e674]:
+                    - cell [ref=e675] [cursor=pointer]
+                    - cell "20" [ref=e676] [cursor=pointer]
+                    - 'cell "+ Context: \"all_turns\"," [ref=e677]'
+                  - row [ref=e679]:
+                    - cell [ref=e680] [cursor=pointer]
+                    - cell "21" [ref=e681] [cursor=pointer]
+                    - 'cell "+ }," [ref=e682]'
+                  - row [ref=e684]:
+                    - cell [ref=e685] [cursor=pointer]
+                    - cell "22" [ref=e686] [cursor=pointer]
+                    - 'cell "+ })" [ref=e687]'
+                  - row [ref=e689]:
+                    - cell [ref=e690] [cursor=pointer]
+                    - cell "23" [ref=e691] [cursor=pointer]
+                    - cell "+ require.NoError(t, err)" [ref=e692]
+                  - row [ref=e694]:
+                    - cell [ref=e695] [cursor=pointer]
+                    - cell "24" [ref=e696] [cursor=pointer]
+                    - cell "+" [ref=e697]
+                  - row [ref=e698]:
+                    - cell [ref=e699] [cursor=pointer]
+                    - cell "25" [ref=e700] [cursor=pointer]
+                    - cell "+ req, ok := got.(dto.OpenAIResponsesRequest)" [ref=e701]
+                  - row [ref=e703]:
+                    - cell [ref=e704] [cursor=pointer]
+                    - cell "26" [ref=e705] [cursor=pointer]
+                    - cell "+ require.True(t, ok)" [ref=e706]
+                  - row [ref=e708]:
+                    - cell [ref=e709] [cursor=pointer]
+                    - cell "27" [ref=e710] [cursor=pointer]
+                    - cell "+ assert.Equal(t, \"gpt-5.6-sol\", req.Model)" [ref=e711]
+                  - row [ref=e713]:
+                    - cell [ref=e714] [cursor=pointer]
+                    - cell "28" [ref=e715] [cursor=pointer]
+                    - cell "+ require.NotNil(t, req.Reasoning)" [ref=e716]
+                  - row [ref=e718]:
+                    - cell [ref=e719] [cursor=pointer]
+                    - cell "29" [ref=e720] [cursor=pointer]
+                    - cell "+ assert.Equal(t, \"max\", req.Reasoning.Effort)" [ref=e721]
+                  - row [ref=e723]:
+                    - cell [ref=e724] [cursor=pointer]
+                    - cell "30" [ref=e725] [cursor=pointer]
+                    - cell "+ assert.Equal(t, \"pro\", req.Reasoning.Mode)" [ref=e726]
+                  - row [ref=e728]:
+                    - cell [ref=e729] [cursor=pointer]
+                    - cell "31" [ref=e730] [cursor=pointer]
+                    - cell "+ assert.Equal(t, \"all_turns\", req.Reasoning.Context)" [ref=e731]
+                  - row [ref=e733]:
+                    - cell [ref=e734] [cursor=pointer]
+                    - cell "32" [ref=e735] [cursor=pointer]
+                    - cell "+ assert.Equal(t, \"max\", info.ReasoningEffort)" [ref=e736]
+                  - row [ref=e738]:
+                    - cell [ref=e739] [cursor=pointer]
+                    - cell "33" [ref=e740] [cursor=pointer]
+                    - 'cell "+ }" [ref=e741]'
+            - generic [ref=e744]:
+              - generic [ref=e745]:
+                - generic [ref=e746]:
+                  - button "Toggle diff contents" [expanded] [ref=e747] [cursor=pointer]
+                  - button "Expand all" [ref=e751] [cursor=pointer]:
+                    - img "Expand all" [ref=e752]
+                  - generic [ref=e754]: "2 changes: 1 addition & 1 deletion"
+                  - generic [ref=e755]: "2"
+                  - generic [ref=e761]:
+                    - link "setting/reasoning/suffix.go" [ref=e762] [cursor=pointer]:
+                      - /url: "#diff-d569ad5cb78ddb004bdd5d45961db52504590e24794a725403cc22851b43713c"
+                    - button "Copy" [ref=e764]
+                - group [ref=e771]:
+                  - button [ref=e772] [cursor=pointer]:
+                    - img "Show options" [ref=e774]
+              - table [ref=e779]:
+                - rowgroup [ref=e780]:
+                  - row [ref=e781]:
+                    - columnheader "Original file line number" [ref=e782]
+                    - columnheader "Diff line number" [ref=e783]
+                    - columnheader "Diff line change" [ref=e784]
+                - rowgroup [ref=e785]:
+                  - row [ref=e786]:
+                    - cell "Expand Up" [ref=e787] [cursor=pointer]:
+                      - link "Expand Up" [ref=e788]:
+                        - /url: "#diff-d569ad5cb78ddb004bdd5d45961db52504590e24794a725403cc22851b43713c"
+                    - cell "@@ -8,7 +8,7 @@ import (" [ref=e791]
+                  - row [ref=e792]:
+                    - cell "8" [ref=e793] [cursor=pointer]
+                    - cell "8" [ref=e794] [cursor=pointer]
+                    - cell [ref=e795]
+                  - row [ref=e796]:
+                    - cell "9" [ref=e797] [cursor=pointer]
+                    - cell "9" [ref=e798] [cursor=pointer]
+                    - 'cell "var EffortSuffixes = []string{\"-max\", \"-xhigh\", \"-high\", \"-medium\", \"-low\", \"-minimal\"}" [ref=e799]'
+                  - row [ref=e801]:
+                    - cell "10" [ref=e802] [cursor=pointer]
+                    - cell "10" [ref=e803] [cursor=pointer]
+                    - cell [ref=e804]
+                  - row [ref=e805]:
+                    - cell "11" [ref=e806] [cursor=pointer]
+                    - cell [ref=e807] [cursor=pointer]
+                    - 'cell "- var OpenAIEffortSuffixes = []string{\"-high\", \"-minimal\", \"-low\", \"-medium\", \"-none\", \"-xhigh\"}" [ref=e808]'
+                  - row [ref=e810]:
+                    - cell [ref=e811] [cursor=pointer]
+                    - cell "11" [ref=e812] [cursor=pointer]
+                    - 'cell "+ var OpenAIEffortSuffixes = []string{\"-max\", \"-high\", \"-minimal\", \"-low\", \"-medium\", \"-none\", \"-xhigh\"}" [ref=e813]':
+                      - generic [ref=e814]:
+                        - text: "+ var OpenAIEffortSuffixes = []string{"
+                        - generic [ref=e815]: "\"-max\""
+                        - text: ","
+                        - generic [ref=e816]: "\"-high\""
+                        - text: ", \"-minimal\", \"-low\", \"-medium\", \"-none\", \"-xhigh\"}"
+                  - row [ref=e817]:
+                    - cell "12" [ref=e818] [cursor=pointer]
+                    - cell "12" [ref=e819] [cursor=pointer]
+                    - cell [ref=e820]
+                  - row [ref=e821]:
+                    - cell "13" [ref=e822] [cursor=pointer]
+                    - cell "13" [ref=e823] [cursor=pointer]
+                    - 'cell "var DeepSeekV4EffortSuffixes = []string{\"-none\", \"-max\"}" [ref=e824]'
+                  - row [ref=e826]:
+                    - cell "14" [ref=e827] [cursor=pointer]
+                    - cell "14" [ref=e828] [cursor=pointer]
+                    - cell [ref=e829]
+                  - row [ref=e830]:
+                    - cell "Expand Down" [ref=e831] [cursor=pointer]:
+                      - link "Expand Down" [ref=e832]:
+                        - /url: "#diff-d569ad5cb78ddb004bdd5d45961db52504590e24794a725403cc22851b43713c"
+                    - cell [ref=e835]
+            - generic [ref=e837]:
+              - generic [ref=e838]:
+                - generic [ref=e839]:
+                  - button "Toggle diff contents" [expanded] [ref=e840] [cursor=pointer]
+                  - generic [ref=e843]: "14 changes: 14 additions & 0 deletions"
+                  - generic [ref=e844]: "14"
+                  - generic [ref=e850]:
+                    - link "setting/reasoning/suffix_test.go" [ref=e851] [cursor=pointer]:
+                      - /url: "#diff-bbd8a7160088bea30f947b64fd6b943053990c6d6251a9f2812cbe510b38f710"
+                    - button "Copy" [ref=e853]
+                - group [ref=e860]:
+                  - button [ref=e861] [cursor=pointer]:
+                    - img "Show options" [ref=e863]
+              - table [ref=e868]:
+                - rowgroup [ref=e869]:
+                  - row [ref=e870]:
+                    - columnheader "Original file line number" [ref=e871]
+                    - columnheader "Diff line number" [ref=e872]
+                    - columnheader "Diff line change" [ref=e873]
+                - rowgroup [ref=e874]:
+                  - row [ref=e875]:
+                    - cell "..." [ref=e876]
+                    - cell "..." [ref=e877]
+                    - cell "@@ -0,0 +1,14 @@" [ref=e878]
+                  - row [ref=e879]:
+                    - cell [ref=e880] [cursor=pointer]
+                    - cell "1" [ref=e881] [cursor=pointer]
+                    - cell "+ package reasoning" [ref=e882]
+                  - row [ref=e884]:
+                    - cell [ref=e885] [cursor=pointer]
+                    - cell "2" [ref=e886] [cursor=pointer]
+                    - cell "+" [ref=e887]
+                  - row [ref=e888]:
+                    - cell [ref=e889] [cursor=pointer]
+                    - cell "3" [ref=e890] [cursor=pointer]
+                    - cell "+ import (" [ref=e891]
+                  - row [ref=e893]:
+                    - cell [ref=e894] [cursor=pointer]
+                    - cell "4" [ref=e895] [cursor=pointer]
+                    - cell "+ \"testing\"" [ref=e896]
+                  - row [ref=e898]:
+                    - cell [ref=e899] [cursor=pointer]
+                    - cell "5" [ref=e900] [cursor=pointer]
+                    - cell "+" [ref=e901]
+                  - row [ref=e902]:
+                    - cell [ref=e903] [cursor=pointer]
+                    - cell "6" [ref=e904] [cursor=pointer]
+                    - cell "+ \"github.com/stretchr/testify/require\"" [ref=e905]
+                  - row [ref=e907]:
+                    - cell [ref=e908] [cursor=pointer]
+                    - cell "7" [ref=e909] [cursor=pointer]
+                    - cell "+ )" [ref=e910]
+                  - row [ref=e912]:
+                    - cell [ref=e913] [cursor=pointer]
+                    - cell "8" [ref=e914] [cursor=pointer]
+                    - cell "+" [ref=e915]
+                  - row [ref=e916]:
+                    - cell [ref=e917] [cursor=pointer]
+                    - cell "9" [ref=e918] [cursor=pointer]
+                    - 'cell "+ func TestParseOpenAIReasoningEffortFromModelSuffixSupportsMax(t *testing.T) {" [ref=e919]'
+                  - row [ref=e921]:
+                    - cell [ref=e922] [cursor=pointer]
+                    - cell "10" [ref=e923] [cursor=pointer]
+                    - cell "+ effort, model := ParseOpenAIReasoningEffortFromModelSuffix(\"gpt-5.6-sol-max\")" [ref=e924]
+                  - row [ref=e926]:
+                    - cell [ref=e927] [cursor=pointer]
+                    - cell "11" [ref=e928] [cursor=pointer]
+                    - cell "+" [ref=e929]
+                  - row [ref=e930]:
+                    - cell [ref=e931] [cursor=pointer]
+                    - cell "12" [ref=e932] [cursor=pointer]
+                    - cell "+ require.Equal(t, \"max\", effort)" [ref=e933]
+                  - row [ref=e935]:
+                    - cell [ref=e936] [cursor=pointer]
+                    - cell "13" [ref=e937] [cursor=pointer]
+                    - cell "+ require.Equal(t, \"gpt-5.6-sol\", model)" [ref=e938]
+                  - row [ref=e940]:
+                    - cell [ref=e941] [cursor=pointer]
+                    - cell "14" [ref=e942] [cursor=pointer]
+                    - 'cell "+ }" [ref=e943]'
+  - contentinfo [ref=e946]:
+    - heading "Footer" [level=2] [ref=e947]
+    - generic [ref=e948]:
+      - generic [ref=e949]:
+        - link "GitHub Homepage" [ref=e950] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=e953]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e954]:
+        - heading "Footer navigation" [level=3] [ref=e955]
+        - list "Footer navigation" [ref=e956]:
+          - listitem [ref=e957]:
+            - link "Terms" [ref=e958] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e959]:
+            - link "Privacy" [ref=e960] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e961]:
+            - link "Security" [ref=e962] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e963]:
+            - link "Status" [ref=e964] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e965]:
+            - link "Community" [ref=e966] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e967]:
+            - link "Docs" [ref=e968] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e969]:
+            - link "Contact" [ref=e970] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e971]:
+            - button "Manage cookies" [ref=e973] [cursor=pointer]
+          - listitem [ref=e974]:
+            - button "Do not share my personal information" [ref=e976] [cursor=pointer]

@@ -1,0 +1,972 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - link [ref=e10] [cursor=pointer]:
+          - /url: /blog/grafanacon-2026-announcements/
+          - paragraph [ref=e14]: "What’s new: Grafana 13 release, the latest in AI, OSS project updates, and more from GrafanaCON2026"
+        - link "Learn more" [ref=e15] [cursor=pointer]:
+          - /url: /blog/grafanacon-2026-announcements/
+      - generic [ref=e16]:
+        - link "Downloads" [ref=e17] [cursor=pointer]:
+          - /url: /get/
+        - link "Contact Us" [ref=e18] [cursor=pointer]:
+          - /url: /contact/
+    - navigation "Main navigation" [ref=e22]:
+      - generic [ref=e23]:
+        - link [ref=e24] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=e25]
+        - list [ref=e28]:
+          - listitem [ref=e29]:
+            - button "Grafana Cloud" [ref=e30] [cursor=pointer]
+          - listitem [ref=e33]:
+            - button "Solutions" [ref=e34] [cursor=pointer]
+          - listitem [ref=e37]:
+            - link "Pricing" [ref=e38] [cursor=pointer]:
+              - /url: /pricing/
+          - listitem [ref=e39]:
+            - button "Open Source" [ref=e40] [cursor=pointer]
+          - listitem [ref=e43]:
+            - button "Learn" [ref=e44] [cursor=pointer]
+          - listitem [ref=e47]:
+            - link "Docs" [ref=e48] [cursor=pointer]:
+              - /url: /docs/
+          - listitem [ref=e49]:
+            - navigation "Company" [ref=e50]:
+              - list [ref=e52]:
+                - listitem [ref=e53]:
+                  - button "Company" [ref=e54] [cursor=pointer]
+        - generic [ref=e57]:
+          - button [ref=e58] [cursor=pointer]
+          - link "Sign in" [ref=e61] [cursor=pointer]:
+            - /url: /auth/sign-in/
+          - link "Sign up" [ref=e62] [cursor=pointer]:
+            - /url: /auth/sign-up/create-user/
+  - generic [ref=e65]:
+    - generic [ref=e67]:
+      - generic [ref=e68]: Thresholds
+      - button [ref=e69] [cursor=pointer]
+    - main [ref=e73]:
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - generic "breadcrumb" [ref=e76]:
+            - generic [ref=e77]:
+              - link "Documentation" [ref=e78] [cursor=pointer]:
+                - /url: /docs/
+              - img "breadcrumb arrow" [ref=e79]
+            - generic [ref=e80]:
+              - link "Grafana k6" [ref=e81] [cursor=pointer]:
+                - /url: /docs/k6/latest/
+              - img "breadcrumb arrow" [ref=e82]
+            - generic [ref=e83]:
+              - link "Using k6" [ref=e84] [cursor=pointer]:
+                - /url: /docs/k6/latest/using-k6/
+              - img "breadcrumb arrow" [ref=e85]
+            - text: Thresholds
+          - generic [ref=e86]: Open source
+          - heading "Thresholds" [level=1] [ref=e93]
+          - paragraph [ref=e94]:
+            - text: Thresholds are the pass/fail criteria that you define for your test metrics. If the performance of the system under test (SUT) does not meet the conditions of your threshold,
+            - strong [ref=e95]: the test finishes with a failed status.
+          - paragraph [ref=e96]: "Often, testers use thresholds to codify their SLOs. For example, you can create thresholds for any combination of the following expectations:"
+          - list [ref=e97]:
+            - listitem [ref=e98]: Less than 1% of requests return an error.
+            - listitem [ref=e99]: 95% of requests have a response time below 200ms.
+            - listitem [ref=e100]: 99% of requests have a response time below 400ms.
+            - listitem [ref=e101]: A specific endpoint always responds within 300ms.
+            - listitem [ref=e102]:
+              - text: Any conditions for a
+              - link "custom metric" [ref=e103] [cursor=pointer]:
+                - /url: /docs/k6/latest/using-k6/metrics/create-custom-metrics/
+              - text: .
+          - paragraph [ref=e104]:
+            - text: Thresholds are also essential for
+            - link "load-testing automation" [ref=e105] [cursor=pointer]:
+              - /url: /docs/k6/latest/testing-guides/automated-performance-testing/
+            - text: ":"
+          - list [ref=e106]:
+            - listitem [ref=e107]: Give your test a threshold.
+            - listitem [ref=e108]: Automate your execution
+            - listitem [ref=e109]: Set up alerts for test failures.
+          - paragraph [ref=e110]: After that, you need to worry about the test only after your SUT fails to meet its performance expectations.
+          - heading "Thresholds example for HTTP errors and response duration" [level=2] [ref=e111]
+          - paragraph [ref=e112]:
+            - text: This sample script specifies two thresholds. One threshold evaluates the rate of HTTP errors (
+            - code [ref=e113]: http_req_failed
+            - text: metric). The other evaluates whether 95 percent of responses happen within a certain duration (the
+            - code [ref=e114]: http_req_duration
+            - text: metric).
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e119] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e120]
+                - generic [ref=e121]: Copy
+            - code [ref=e125]: "import http from 'k6/http'; export const options = { thresholds: { http_req_failed: ['rate<0.01'], // http errors should be less than 1% http_req_duration: ['p(95)<200'], // 95% of requests should be below 200ms }, }; export default function () { http.get('https://quickpizza.grafana.com'); }"
+          - paragraph [ref=e126]:
+            - text: In other words, when you define your threshold, specify an expression for a
+            - code [ref=e127]: pass
+            - text: criteria. If that expression evaluates to
+            - code [ref=e128]: "false"
+            - text: at the end of the test, k6 considers the whole test a
+            - code [ref=e129]: fail
+            - text: .
+          - paragraph [ref=e130]: "After executing that script, k6 outputs something similar to this:"
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Bash
+              - button "Copy code to clipboard Copy" [ref=e135] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e136]
+                - generic [ref=e137]: Copy
+            - code [ref=e141]: "█ THRESHOLDS http_req_duration ✓ 'p(95)<200' p(95)=148.21ms http_req_failed ✓ 'rate<0.01' rate=0.05% █ TOTAL RESULTS HTTP http_req_duration..............: avg=151.06ms min=151.06ms med=151.06ms max=151.06ms p(90)=151.06ms p(95)=151.06ms { expected_response:true }..: avg=151.06ms min=151.06ms med=151.06ms max=151.06ms p(90)=151.06ms p(95)=151.06ms http_req_failed................: 0.00% ✓ 0 ✗ 1"
+          - paragraph [ref=e142]:
+            - text: In this case, the test met the criteria for both thresholds. k6 considers this test a
+            - code [ref=e143]: pass
+            - text: and exits with an exit code
+            - code [ref=e144]: "0"
+            - text: .
+          - paragraph [ref=e145]:
+            - text: If any of the thresholds had failed, the little green checkmark ✓ next to the threshold name (
+            - code [ref=e146]: http_req_failed
+            - text: ","
+            - code [ref=e147]: http_req_duration
+            - text: ) would be a red cross ✗ and k6 would exit with a non-zero exit code.
+          - heading "Threshold Syntax" [level=2] [ref=e148]
+          - paragraph [ref=e149]: "To use a threshold, follow these steps:"
+          - list [ref=e150]:
+            - listitem [ref=e151]:
+              - paragraph [ref=e152]:
+                - text: In the
+                - code [ref=e153]: thresholds
+                - text: property of the
+                - code [ref=e154]: options
+                - text: "object, set a key using the name of the metric you want the threshold for:"
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]: JavaScript
+                  - button "Copy code to clipboard Copy" [ref=e159] [cursor=pointer]:
+                    - img "Copy code to clipboard" [ref=e160]
+                    - generic [ref=e161]: Copy
+                - code [ref=e165]: "export const options = { thresholds: { /* ... */ }, };"
+            - listitem [ref=e166]:
+              - paragraph [ref=e167]: "Define at least one threshold expression. You can do this in two ways:"
+              - list [ref=e168]:
+                - listitem [ref=e169]: • The short format puts all threshold expressions as strings in an array.
+                - listitem [ref=e170]:
+                  - text: • The long format puts each threshold in an object, with extra properties to
+                  - link "abort on failure" [ref=e171] [cursor=pointer]:
+                    - /url: "#abort-a-test-when-a-threshold-is-crossed"
+                  - text: .
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]: JavaScript
+                  - button "Copy code to clipboard Copy" [ref=e176] [cursor=pointer]:
+                    - img "Copy code to clipboard" [ref=e177]
+                    - generic [ref=e178]: Copy
+                - code [ref=e182]:
+                  - text: "export const options = { thresholds: { //short format METRIC_NAME1: ['THRESHOLD_EXPRESSION',"
+                  - generic [ref=e183]: "`...`"
+                  - text: "], //long format METRIC_NAME2: [ { threshold: 'THRESHOLD_EXPRESSION', abortOnFail: true, // boolean delayAbortEval: '10s', // string }, ], // full format }, };"
+              - paragraph [ref=e184]:
+                - text: Note that
+                - code [ref=e185]: METRIC_NAME1
+                - text: and
+                - code [ref=e186]: THRESHOLD_EXPRESSION
+                - text: are placeholders. The real text must be the name of the metric and the threshold expression.
+          - paragraph [ref=e187]:
+            - text: This declaration configures thresholds for the metrics
+            - code [ref=e188]: metric_name1
+            - text: and
+            - code [ref=e189]: metric_name2
+            - text: . To determine whether the threshold passes or fails, the script evaluates the
+            - code [ref=e190]: "'threshold_expression'."
+          - heading "Threshold expression syntax" [level=3] [ref=e191]
+          - paragraph [ref=e192]:
+            - text: A threshold expression evaluates to
+            - code [ref=e193]: "true"
+            - text: or
+            - code [ref=e194]: "false"
+            - text: ". The threshold expression must be in the following format:"
+          - generic [ref=e195]:
+            - button "Copy code to clipboard Copy" [ref=e198] [cursor=pointer]:
+              - img "Copy code to clipboard" [ref=e199]
+              - generic [ref=e200]: Copy
+            - code [ref=e203]: <aggregation_method> <operator> <value>
+          - paragraph [ref=e204]: "Some examples of threshold expressions are as follows:"
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - code [ref=e207]: avg < 200
+              - text: // average duration must be less than 200ms
+            - listitem [ref=e208]:
+              - code [ref=e209]: count >= 500
+              - text: // count must be larger than or equal to 500
+            - listitem [ref=e210]:
+              - code [ref=e211]: p(90) < 300
+              - text: // 90% of samples must be below 300
+          - heading "Aggregation methods by type" [level=3] [ref=e212]
+          - paragraph [ref=e213]:
+            - text: k6 aggregates metrics according to
+            - link "their type" [ref=e214] [cursor=pointer]:
+              - /url: /docs/k6/latest/using-k6/metrics/
+            - text: . These aggregation methods form part of the threshold expressions.
+          - generic [ref=e215]:
+            - button "Expand table" [ref=e217] [cursor=pointer]
+            - table [ref=e219]:
+              - rowgroup [ref=e220]:
+                - row [ref=e221]:
+                  - columnheader "Metric type" [ref=e222]
+                  - columnheader "Aggregation methods" [ref=e223]
+              - rowgroup [ref=e224]:
+                - row [ref=e225]:
+                  - cell "Counter" [ref=e226]
+                  - cell [ref=e227]:
+                    - code [ref=e228]: count
+                    - text: and
+                    - code [ref=e229]: rate
+                - row [ref=e230]:
+                  - cell "Gauge" [ref=e231]
+                  - cell [ref=e232]:
+                    - code [ref=e233]: value
+                - row [ref=e234]:
+                  - cell "Rate" [ref=e235]
+                  - cell [ref=e236]:
+                    - code [ref=e237]: rate
+                - row [ref=e238]:
+                  - cell "Trend" [ref=e239]
+                  - cell [ref=e240]:
+                    - code [ref=e241]: avg
+                    - text: ","
+                    - code [ref=e242]: min
+                    - text: ","
+                    - code [ref=e243]: max
+                    - text: ","
+                    - code [ref=e244]: med
+                    - text: and
+                    - code [ref=e245]: p(N)
+                    - text: where
+                    - code [ref=e246]: "N"
+                    - text: specifies the threshold percentile value, expressed as a number between 0.0 and 100. E.g.
+                    - code [ref=e247]: p(99.99)
+                    - text: means the 99.99th percentile. The values are in milliseconds.
+          - paragraph [ref=e248]:
+            - text: A percentile value outside the
+            - code [ref=e249]: "0"
+            - text: to
+            - code [ref=e250]: "100"
+            - text: range (or
+            - code [ref=e251]: NaN
+            - text: ) fails parsing with an error, so the test stops before running.
+          - paragraph [ref=e252]: "This (slightly contrived) sample script uses all different types of metrics, setting different types of thresholds for each:"
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - generic [ref=e255]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e257] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e258]
+                - generic [ref=e259]: Copy
+            - generic [ref=e262]:
+              - button "Expand code" [ref=e263] [cursor=pointer]
+              - code [ref=e265]: "import http from 'k6/http'; import { Trend, Rate, Counter, Gauge } from 'k6/metrics'; import { sleep } from 'k6'; export const TrendRTT = new Trend('RTT'); export const RateContentOK = new Rate('ContentOK'); export const GaugeContentSize = new Gauge('ContentSize'); export const CounterErrors = new Counter('Errors'); export const options = { thresholds: { // Count: Incorrect content cannot be returned more than 99 times. Errors: ['count<100'], // Gauge: returned content must be smaller than 4000 bytes ContentSize: ['value<4000'], // Rate: content must be OK more than 95 times ContentOK: ['rate>0.95'], // Trend: Percentiles, averages, medians, and minimums // must be within specified milliseconds. RTT: ['p(99)<300', 'p(70)<250', 'avg<200', 'med<150', 'min<100'], }, }; export default function () { const res = http.get('https://quickpizza.grafana.com/api/json?name=Bert'); const contentOK = res.json('name') === 'Bert'; TrendRTT.add(res.timings.duration); RateContentOK.add(contentOK); GaugeContentSize.add(res.body.length); CounterErrors.add(!contentOK); sleep(1); }"
+          - blockquote [ref=e267]:
+            - paragraph [ref=e268]: Caution
+            - paragraph [ref=e269]: Do not specify multiple thresholds for the same metric by repeating the same object key.
+          - paragraph [ref=e270]: Since thresholds are defined as the properties of a JavaScript object, you can’t specify multiple ones with the same property name.
+          - generic [ref=e271]:
+            - generic [ref=e272]:
+              - generic [ref=e273]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e275] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e276]
+                - generic [ref=e277]: Copy
+            - code [ref=e281]: "export const options = { thresholds: { // don't use the same metric more than once here metric_name: ['count<100'], metric_name: ['rate<50'], }, };"
+          - paragraph [ref=e282]:
+            - text: The rest will be
+            - strong [ref=e283]: silently
+            - text: ignored. If you want to set multiple thresholds for a metric, specify them with an
+            - link "array for the same key" [ref=e284] [cursor=pointer]:
+              - /url: /docs/k6/latest/using-k6/thresholds/#multiple-thresholds-on-a-single-metric
+            - text: .
+          - heading "Threshold examples to copy and paste" [level=2] [ref=e285]
+          - paragraph [ref=e286]:
+            - text: The quickest way to start with thresholds is to use the
+            - link "built-in metrics" [ref=e287] [cursor=pointer]:
+              - /url: /docs/k6/latest/using-k6/metrics/reference/
+            - text: . Here are a few copy-paste examples that you can start using right away.
+          - paragraph [ref=e288]:
+            - text: For more specific threshold examples, refer to the
+            - link "Counter" [ref=e289] [cursor=pointer]:
+              - /url: /docs/k6/latest/javascript-api/k6-metrics/counter/#counter-usage-in-thresholds
+            - text: ","
+            - link "Gauge" [ref=e290] [cursor=pointer]:
+              - /url: /docs/k6/latest/javascript-api/k6-metrics/gauge/#gauge-usage-in-thresholds
+            - text: ","
+            - link "Trend" [ref=e291] [cursor=pointer]:
+              - /url: /docs/k6/latest/javascript-api/k6-metrics/trend/#trend-usage-in-thresholds
+            - text: and
+            - link "Rate" [ref=e292] [cursor=pointer]:
+              - /url: /docs/k6/latest/javascript-api/k6-metrics/rate/#rate-usage-in-thresholds
+            - text: pages.
+          - heading "A percentile of requests finishes in a specified duration" [level=3] [ref=e293]
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - generic [ref=e296]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e298] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e299]
+                - generic [ref=e300]: Copy
+            - code [ref=e304]: "import http from 'k6/http'; import { sleep } from 'k6'; export const options = { thresholds: { // 90% of requests must finish within 400ms. http_req_duration: ['p(90) < 400'], }, }; export default function () { http.get('https://quickpizza.grafana.com'); sleep(1); }"
+          - heading "Error rate is lower than 1 percent" [level=3] [ref=e305]
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e310] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e311]
+                - generic [ref=e312]: Copy
+            - code [ref=e316]: "import http from 'k6/http'; import { sleep } from 'k6'; export const options = { thresholds: { // During the whole test execution, the error rate must be lower than 1%. http_req_failed: ['rate<0.01'], }, }; export default function () { http.get('https://quickpizza.grafana.com'); sleep(1); }"
+          - heading "Multiple thresholds on a single metric" [level=3] [ref=e317]
+          - paragraph [ref=e318]: You can also apply multiple thresholds for one metric. This threshold has different duration requirements for different request percentiles.
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - generic [ref=e321]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e323] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e324]
+                - generic [ref=e325]: Copy
+            - code [ref=e329]: "import http from 'k6/http'; import { sleep } from 'k6'; export const options = { thresholds: { // 90% of requests must finish within 400ms, 95% within 800, and 99.9% within 2s. http_req_duration: ['p(90) < 400', 'p(95) < 800', 'p(99.9) < 2000'], }, }; export default function () { const res1 = http.get('https://quickpizza.grafana.com'); sleep(1); }"
+          - heading "Threshold on group duration" [level=3] [ref=e330]
+          - paragraph [ref=e331]:
+            - text: You can set thresholds per
+            - link "Group" [ref=e332] [cursor=pointer]:
+              - /url: /docs/k6/latest/using-k6/tags-and-groups/#groups
+            - text: . This code has groups for individual requests and batch requests. For each group, there are different thresholds.
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - generic [ref=e335]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e337] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e338]
+                - generic [ref=e339]: Copy
+            - generic [ref=e342]:
+              - button "Expand code" [ref=e343] [cursor=pointer]
+              - code [ref=e345]: "import http from 'k6/http'; import { group, sleep } from 'k6'; export const options = { thresholds: { 'group_duration{group:::individualRequests}': ['avg < 400'], 'group_duration{group:::batchRequests}': ['avg < 200'], }, vus: 1, duration: '10s', }; export default function () { group('individualRequests', function () { http.get('https://quickpizza.grafana.com/api/json?letter=a'); http.get('https://quickpizza.grafana.com/api/json?letter=b'); http.get('https://quickpizza.grafana.com/api/json?letter=c'); }); group('batchRequests', function () { http.batch([ ['GET', 'https://quickpizza.grafana.com/api/json?letter=a'], ['GET', 'https://quickpizza.grafana.com/api/json?letter=b'], ['GET', 'https://quickpizza.grafana.com/api/json?letter=c'], ]); }); sleep(1); }"
+          - heading "Set thresholds for specific tags" [level=2] [ref=e346]
+          - paragraph [ref=e347]: "It’s often useful to specify thresholds on a single URL or specific tag. In k6, tagged requests create sub-metrics that you can use in thresholds:"
+          - generic [ref=e348]:
+            - generic [ref=e349]:
+              - generic [ref=e350]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e352] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e353]
+                - generic [ref=e354]: Copy
+            - code [ref=e358]: "export const options = { thresholds: { 'metric_name{tag_name:tag_value}': ['threshold_expression'], }, };"
+          - paragraph [ref=e359]: And here’s a full example.
+          - generic [ref=e360]:
+            - generic [ref=e361]:
+              - generic [ref=e362]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e364] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e365]
+                - generic [ref=e366]: Copy
+            - generic [ref=e369]:
+              - button "Expand code" [ref=e370] [cursor=pointer]
+              - code [ref=e372]: "import http from 'k6/http'; import { sleep } from 'k6'; import { Rate } from 'k6/metrics'; export const options = { thresholds: { 'http_req_duration{type:API}': ['p(95)<500'], // threshold on API requests only 'http_req_duration{type:staticContent}': ['p(95)<200'], // threshold on static content only }, }; export default function () { const res1 = http.get('https://quickpizza.grafana.com/api/headers', { tags: { type: 'API' }, }); const res2 = http.get('https://quickpizza.grafana.com/api/json', { tags: { type: 'API' }, }); const responses = http.batch([ [ 'GET', 'https://quickpizza.grafana.com/favicon.ico', null, { tags: { type: 'staticContent' } }, ], ['GET', 'https://quickpizza.grafana.com/admin', null, { tags: { type: 'staticContent' } }], ]); sleep(1); }"
+          - heading "Abort a test when a threshold is crossed" [level=2] [ref=e373]
+          - paragraph [ref=e374]:
+            - text: If you want to abort a test as soon as a threshold is crossed, set the
+            - code [ref=e375]: abortOnFail
+            - text: property to
+            - code [ref=e376]: "true"
+            - text: . When you set
+            - code [ref=e377]: abortOnFail
+            - text: ", the test run stops"
+            - emphasis [ref=e378]: as soon as the threshold fails
+            - text: .
+          - paragraph [ref=e379]:
+            - text: Sometimes, though, a test might fail a threshold early and abort before the test generates significant data. To prevent these cases, you can delay
+            - code [ref=e380]: abortOnFail
+            - text: with
+            - code [ref=e381]: delayAbortEval
+            - text: . In this script,
+            - code [ref=e382]: abortOnFail
+            - text: is delayed ten seconds. After ten seconds, the test aborts if it fails the
+            - code [ref=e383]: p(99) < 10
+            - text: threshold.
+          - generic [ref=e384]:
+            - generic [ref=e385]:
+              - generic [ref=e386]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e388] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e389]
+                - generic [ref=e390]: Copy
+            - code [ref=e394]: "export const options = { thresholds: { metric_name: [ { threshold: 'p(99) < 10', // string abortOnFail: true, // boolean delayAbortEval: '10s', // string /*...*/ }, ], }, };"
+          - paragraph [ref=e395]: "The fields are as follows:"
+          - generic [ref=e396]:
+            - button "Expand table" [ref=e398] [cursor=pointer]
+            - table [ref=e400]:
+              - rowgroup [ref=e401]:
+                - row [ref=e402]:
+                  - columnheader "Name" [ref=e403]
+                  - columnheader "Type" [ref=e404]
+                  - columnheader "Description" [ref=e405]
+              - rowgroup [ref=e406]:
+                - row [ref=e407]:
+                  - cell "threshold" [ref=e408]
+                  - cell "string" [ref=e409]
+                  - cell "This is the threshold expression string specifying the threshold condition to evaluate." [ref=e410]
+                - row [ref=e411]:
+                  - cell "abortOnFail" [ref=e412]
+                  - cell "boolean" [ref=e413]
+                  - cell "Whether to abort the test if the threshold is evaluated to false before the test has completed." [ref=e414]
+                - row [ref=e415]:
+                  - cell "delayAbortEval" [ref=e416]
+                  - cell "string" [ref=e417]
+                  - cell [ref=e418]:
+                    - text: If you want to delay the evaluation of the threshold to let some metric samples to be collected, you can specify the amount of time to delay using relative time strings like
+                    - code [ref=e419]: 10s
+                    - text: ","
+                    - code [ref=e420]: 1m
+                    - text: and so on.
+          - paragraph [ref=e421]: "Here is an example:"
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - generic [ref=e424]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e426] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e427]
+                - generic [ref=e428]: Copy
+            - code [ref=e432]: "import http from 'k6/http'; export const options = { vus: 30, duration: '2m', thresholds: { http_req_duration: [{ threshold: 'p(99) < 10', abortOnFail: true }], }, }; export default function () { http.get('https://quickpizza.grafana.com'); }"
+          - blockquote [ref=e434]:
+            - paragraph [ref=e435]: Caution
+            - paragraph [ref=e436]:
+              - text: When k6 runs in the cloud, thresholds are evaluated every 60 seconds. Therefore, the
+              - code [ref=e437]: abortOnFail
+              - text: feature may be delayed by up to 60 seconds.
+          - heading "Fail a load test using checks" [level=2] [ref=e438]
+          - paragraph [ref=e439]:
+            - link "Checks" [ref=e440] [cursor=pointer]:
+              - /url: /docs/k6/latest/using-k6/checks/
+            - text: are nice for codifying assertions, but unlike
+            - code [ref=e441]: thresholds
+            - text: ","
+            - code [ref=e442]: checks
+            - text: do not affect the exit status of k6.
+          - paragraph [ref=e443]:
+            - text: If you use only
+            - code [ref=e444]: checks
+            - text: to verify that things work as expected, you can’t fail the whole test run based on the
+            - code [ref=e445]: check
+            - text: results.
+          - paragraph [ref=e446]:
+            - text: It’s often useful to combine
+            - code [ref=e447]: checks
+            - text: and
+            - code [ref=e448]: thresholds
+            - text: ", to get the best of both:"
+          - generic [ref=e449]:
+            - generic [ref=e450]:
+              - generic [ref=e451]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e453] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e454]
+                - generic [ref=e455]: Copy
+            - generic [ref=e458]:
+              - button "Expand code" [ref=e459] [cursor=pointer]
+              - code [ref=e461]: "import http from 'k6/http'; import { check, sleep } from 'k6'; export const options = { vus: 50, duration: '10s', thresholds: { // the rate of successful checks should be higher than 90% checks: ['rate>0.9'], }, }; export default function () { const res = http.get('https://quickpizza.grafana.com/api/status/500'); check(res, { 'status is 500': (r) => r.status == 500, }); sleep(1); }"
+          - paragraph [ref=e462]:
+            - text: In this example, the
+            - code [ref=e463]: threshold
+            - text: is configured on the
+            - link "checks metric" [ref=e464] [cursor=pointer]:
+              - /url: /docs/k6/latest/using-k6/metrics/reference/
+            - text: ", establishing that the rate of successful checks is higher than 90%."
+          - paragraph [ref=e465]:
+            - text: Additionally, you can use
+            - code [ref=e466]: tags
+            - text: "on checks if you want to define a threshold based on a particular check or group of checks. For example:"
+          - generic [ref=e467]:
+            - generic [ref=e468]:
+              - generic [ref=e469]: JavaScript
+              - button "Copy code to clipboard Copy" [ref=e471] [cursor=pointer]:
+                - img "Copy code to clipboard" [ref=e472]
+                - generic [ref=e473]: Copy
+            - generic [ref=e476]:
+              - button "Expand code" [ref=e477] [cursor=pointer]
+              - code [ref=e479]: "import http from 'k6/http'; import { check, sleep } from 'k6'; export const options = { vus: 50, duration: '10s', thresholds: { 'checks{myTag:hola}': ['rate>0.9'], }, }; export default function () { let res; res = http.get('https://quickpizza.grafana.com/api/status/500'); check(res, { 'status is 500': (r) => r.status == 500, }); res = http.get('https://quickpizza.grafana.com/api/status/200'); check( res, { 'status is 200': (r) => r.status == 200, }, { myTag: 'hola' } ); sleep(1); }"
+        - generic [ref=e481]:
+          - generic [ref=e482]:
+            - heading "Was this page helpful?" [level=2] [ref=e483]
+            - generic [ref=e484]:
+              - button [ref=e485] [cursor=pointer]:
+                - generic [ref=e486]:
+                  - img "👍" [ref=e487]
+                  - text: "Yes"
+              - button [ref=e488] [cursor=pointer]:
+                - generic [ref=e489]:
+                  - img "👎" [ref=e490]
+                  - text: "No"
+          - generic [ref=e492]:
+            - link "Suggest an edit in GitHub" [ref=e493] [cursor=pointer]:
+              - /url: https://github.com/grafana/k6-docs/edit/main/docs/sources/k6/v2.1.x/using-k6/thresholds.md
+            - link "Create a GitHub issue" [ref=e500] [cursor=pointer]:
+              - /url: https://github.com/grafana/k6-docs/issues/new?title=Documentation%20feedback:%20/docs/sources/k6/latest/using-k6/thresholds.md
+            - link "Email docs@grafana.com" [ref=e506] [cursor=pointer]:
+              - /url: mailto:docs@grafana.com
+            - link "Help and support" [ref=e514] [cursor=pointer]:
+              - /url: /help/
+            - link "Community" [ref=e520] [cursor=pointer]:
+              - /url: /community/
+          - generic [ref=e532]:
+            - heading "Related resources from Grafana Labs" [level=2] [ref=e533]
+            - generic [ref=e534]: "Additional helpful documentation, links, and articles:"
+            - generic [ref=e535]:
+              - link "video icon Video Performance testing and observability in Grafana Cloud Optimize user experiences with Grafana Cloud. Learn real-time insights, performance testing with k6, and continuous validation with Synthetic Monitoring." [ref=e536] [cursor=pointer]:
+                - /url: https://grafana.com/go/webinar/performance-testing-and-observability-in-grafana-cloud/?pg=docs-k6-latest-using-k6-thresholds&plcmt=related
+                - generic [ref=e538]:
+                  - generic [ref=e540]:
+                    - img "video icon" [ref=e543]
+                    - generic [ref=e544]: Video
+                  - generic [ref=e547]:
+                    - generic [ref=e548]: Performance testing and observability in Grafana Cloud
+                    - generic [ref=e549]: Optimize user experiences with Grafana Cloud. Learn real-time insights, performance testing with k6, and continuous validation with Synthetic Monitoring.
+              - 'link "video icon Events User-centered observability: load testing, real user monitoring, and synthetics Learn how to use load testing, synthetic monitoring, and real user monitoring (RUM) to understand end users'' experience of your apps. Watch on demand." [ref=e550] [cursor=pointer]':
+                - /url: https://grafana.com/events/observabilitycon/2023/user-centered-observability/?pg=docs-k6-latest-using-k6-thresholds&plcmt=related-2
+                - generic [ref=e552]:
+                  - generic [ref=e554]:
+                    - img "video icon" [ref=e557]
+                    - generic [ref=e558]: Events
+                  - generic [ref=e561]:
+                    - generic [ref=e562]: "User-centered observability: load testing, real user monitoring, and synthetics"
+                    - generic [ref=e563]: Learn how to use load testing, synthetic monitoring, and real user monitoring (RUM) to understand end users' experience of your apps. Watch on demand.
+    - navigation [ref=e564]:
+      - generic [ref=e566]:
+        - textbox "Search docs (⌘K to open)" [ref=e570]
+        - generic [ref=e574]:
+          - link "Technical documentation" [ref=e575] [cursor=pointer]:
+            - /url: /docs/
+          - link "Plugin catalog" [ref=e576] [cursor=pointer]:
+            - /url: /grafana/plugins/
+        - generic [ref=e577]:
+          - generic [ref=e578]:
+            - generic [ref=e579]: Choose a product
+            - combobox [ref=e582]:
+              - option "Cloud"
+              - option "Adaptive Telemetry"
+              - option "AI and Machine Learning"
+              - option "Alerting"
+              - option "Application Observability"
+              - option "Knowledge graph"
+              - option "Cloud Provider Observability"
+              - option "Database Observability"
+              - option "Drilldown apps"
+              - option "Fleet Management"
+              - option "Frontend Observability"
+              - option "IRM"
+              - option "k6 Performance Testing"
+              - option "Kubernetes Monitoring"
+              - option "Logs"
+              - option "Metrics"
+              - option "Profiles"
+              - option "Service Center"
+              - option "SLO"
+              - option "Synthetic Monitoring"
+              - option "Traces"
+              - option "Grafana Enterprise"
+              - option "Alerting"
+              - option "Drilldown apps"
+              - option "Helm Charts"
+              - option "Logs"
+              - option "Metrics"
+              - option "Traces"
+              - option "Alerting"
+              - option "Alloy"
+              - option "Beyla"
+              - option "Drilldown apps"
+              - option "Faro"
+              - option "Grafana"
+              - option "Helm Charts"
+              - option "k6" [selected]
+              - option "k6 Studio"
+              - option "Loki"
+              - option "Mimir"
+              - option "OpenTelemetry"
+              - option "Pyroscope"
+              - option "Tempo"
+              - option "Federal Cloud"
+          - generic [ref=e583]:
+            - generic [ref=e584]: "Viewing: v2.1.x (latest)"
+            - link "Find another version" [ref=e585] [cursor=pointer]:
+              - /url: /docs/versions/?project=/docs/k6/
+          - list [ref=e586]:
+            - listitem [ref=e588]:
+              - link "Grafana k6" [ref=e589] [cursor=pointer]:
+                - /url: /docs/k6/latest/
+            - listitem [ref=e591]:
+              - button [ref=e592] [cursor=pointer]
+              - link "Release notes" [ref=e593] [cursor=pointer]:
+                - /url: /docs/k6/latest/release-notes/
+            - listitem [ref=e595]:
+              - button [ref=e596] [cursor=pointer]
+              - link "Set up" [ref=e597] [cursor=pointer]:
+                - /url: /docs/k6/latest/set-up/
+            - listitem [ref=e599]:
+              - button [ref=e600] [cursor=pointer]
+              - link "Get started" [ref=e601] [cursor=pointer]:
+                - /url: /docs/k6/latest/get-started/
+            - generic [ref=e602]:
+              - listitem [ref=e603]:
+                - button [ref=e604] [cursor=pointer]
+                - link "Using k6" [ref=e605] [cursor=pointer]:
+                  - /url: /docs/k6/latest/using-k6/
+              - list [ref=e607]:
+                - listitem [ref=e609]:
+                  - link "Analyze script dependencies" [ref=e610] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/k6-deps-command/
+                - listitem [ref=e612]:
+                  - link "Run a k6 test script" [ref=e613] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/run-k6-test-script/
+                - listitem [ref=e615]:
+                  - link "Feature flags" [ref=e616] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/feature-flags/
+                - listitem [ref=e618]:
+                  - link "HTTP Requests" [ref=e619] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/http-requests/
+                - listitem [ref=e621]:
+                  - button [ref=e622] [cursor=pointer]
+                  - link "Metrics" [ref=e623] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/metrics/
+                - listitem [ref=e625]:
+                  - link "Checks" [ref=e626] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/checks/
+                - listitem [ref=e628]:
+                  - link "Assertions" [ref=e629] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/assertions/
+                - listitem [ref=e631]:
+                  - link "Thresholds" [ref=e632] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/thresholds/
+                - listitem [ref=e634]:
+                  - button [ref=e635] [cursor=pointer]
+                  - link "Options" [ref=e636] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/k6-options/
+                - listitem [ref=e638]:
+                  - link "Test lifecycle" [ref=e639] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/test-lifecycle/
+                - listitem [ref=e641]:
+                  - link "Modules" [ref=e642] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/modules/
+                - listitem [ref=e644]:
+                  - link "Tags and Groups" [ref=e645] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/tags-and-groups/
+                - listitem [ref=e647]:
+                  - link "Cookies" [ref=e648] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/cookies/
+                - listitem [ref=e650]:
+                  - button [ref=e651] [cursor=pointer]
+                  - link "Protocols" [ref=e652] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/protocols/
+                - listitem [ref=e654]:
+                  - link "Environment variables" [ref=e655] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/environment-variables/
+                - listitem [ref=e657]:
+                  - link "Execution context variables" [ref=e658] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/execution-context-variables/
+                - listitem [ref=e660]:
+                  - button [ref=e661] [cursor=pointer]
+                  - link "Scenarios" [ref=e662] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/scenarios/
+                - listitem [ref=e664]:
+                  - button [ref=e665] [cursor=pointer]
+                  - link "Secret source" [ref=e666] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/secret-source/
+                - listitem [ref=e668]:
+                  - button [ref=e669] [cursor=pointer]
+                  - link "Test authoring" [ref=e670] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/test-authoring/
+                - listitem [ref=e672]:
+                  - link "JavaScript and TypeScript mode" [ref=e673] [cursor=pointer]:
+                    - /url: /docs/k6/latest/using-k6/javascript-typescript-compatibility-mode/
+            - listitem [ref=e675]:
+              - button [ref=e676] [cursor=pointer]
+              - link "Using k6 browser" [ref=e677] [cursor=pointer]:
+                - /url: /docs/k6/latest/using-k6-browser/
+            - listitem [ref=e679]:
+              - button [ref=e680] [cursor=pointer]
+              - link "Results output" [ref=e681] [cursor=pointer]:
+                - /url: /docs/k6/latest/results-output/
+            - listitem [ref=e683]:
+              - button [ref=e684] [cursor=pointer]
+              - link "Testing guides" [ref=e685] [cursor=pointer]:
+                - /url: /docs/k6/latest/testing-guides/
+            - listitem [ref=e687]:
+              - button [ref=e688] [cursor=pointer]
+              - link "JavaScript API" [ref=e689] [cursor=pointer]:
+                - /url: /docs/k6/latest/javascript-api/
+            - listitem [ref=e691]:
+              - button [ref=e692] [cursor=pointer]
+              - link "Extensions" [ref=e693] [cursor=pointer]:
+                - /url: /docs/k6/latest/extensions/
+            - listitem [ref=e695]:
+              - button [ref=e696] [cursor=pointer]
+              - link "Examples" [ref=e697] [cursor=pointer]:
+                - /url: /docs/k6/latest/examples/
+            - listitem [ref=e699]:
+              - button [ref=e700] [cursor=pointer]
+              - link "Reference" [ref=e701] [cursor=pointer]:
+                - /url: /docs/k6/latest/reference/
+            - listitem [ref=e703]:
+              - button [ref=e704] [cursor=pointer]
+              - link "Grafana k6 Studio" [ref=e705] [cursor=pointer]:
+                - /url: /docs/k6/latest/k6-studio/
+            - listitem [ref=e707]:
+              - link "Grafana Cloud k6" [ref=e708] [cursor=pointer]:
+                - /url: /docs/k6/latest/grafana-cloud-k6/
+            - listitem [ref=e710]:
+              - link "Copyright notice" [ref=e711] [cursor=pointer]:
+                - /url: /docs/copyright-notice/
+    - text: →
+  - contentinfo [ref=e712]:
+    - contentinfo "Site footer" [ref=e714]:
+      - generic [ref=e715]:
+        - generic [ref=e717]:
+          - generic [ref=e719]:
+            - generic [ref=e720]:
+              - heading "Still have questions?" [level=3] [ref=e721]
+              - paragraph [ref=e722]: Ask your questions. Let AI do the heavy lifting.
+            - generic [ref=e723]:
+              - img "Ask AI icon" [ref=e724]
+              - textbox "How do I get started with Grafana?" [ref=e725]
+              - button [ref=e726] [cursor=pointer]:
+                - img "Submit" [ref=e727]
+          - generic [ref=e729]:
+            - generic [ref=e730]:
+              - img "Newsletter icon" [ref=e731]
+              - generic [ref=e732]:
+                - heading "Get every update" [level=3] [ref=e733]
+                - paragraph [ref=e734]: Subscribe to our newsletter
+            - generic [ref=e736]:
+              - textbox "Email" [ref=e737]
+              - button "Subscribe" [ref=e738] [cursor=pointer]
+            - paragraph [ref=e740]:
+              - text: By submitting, you agree to our
+              - link "Privacy policy" [ref=e742] [cursor=pointer]:
+                - /url: /legal/privacy-policy/
+        - generic [ref=e744]:
+          - generic [ref=e745]:
+            - heading "Grafana Cloud" [level=3] [ref=e746]
+            - list [ref=e747]:
+              - listitem [ref=e748]:
+                - link "Overview" [ref=e749] [cursor=pointer]:
+                  - /url: /products/cloud/
+              - listitem [ref=e750]:
+                - link "Pricing" [ref=e751] [cursor=pointer]:
+                  - /url: /pricing/
+              - listitem [ref=e752]:
+                - link "What's in the free tier?" [ref=e753] [cursor=pointer]:
+                  - /url: /products/cloud/free-tier/
+              - listitem [ref=e754]:
+                - link "AI Assistant" [ref=e755] [cursor=pointer]:
+                  - /url: /products/cloud/ai-assistant/
+              - listitem [ref=e756]:
+                - link "Application Observability" [ref=e757] [cursor=pointer]:
+                  - /url: /products/cloud/application-observability/
+              - listitem [ref=e758]:
+                - link "Kubernetes Monitoring" [ref=e759] [cursor=pointer]:
+                  - /url: /products/cloud/kubernetes/
+              - listitem [ref=e760]:
+                - link "Dashboards & Visualization" [ref=e761] [cursor=pointer]:
+                  - /url: /products/cloud/grafana/
+              - listitem [ref=e762]:
+                - link "Database Observability" [ref=e763] [cursor=pointer]:
+                  - /url: /products/cloud/database-observability/
+              - listitem [ref=e764]:
+                - link "Frontend Observability" [ref=e765] [cursor=pointer]:
+                  - /url: /products/cloud/frontend-observability/
+              - listitem [ref=e766]:
+                - link "Synthetic Monitoring" [ref=e767] [cursor=pointer]:
+                  - /url: /products/cloud/synthetic-monitoring/
+              - listitem [ref=e768]:
+                - link "Performance & Load Testing" [ref=e769] [cursor=pointer]:
+                  - /url: /products/cloud/performance-load-testing-k6/
+              - listitem [ref=e770]:
+                - link "Incident Response & Management" [ref=e771] [cursor=pointer]:
+                  - /url: /products/cloud/irm/
+              - listitem [ref=e772]:
+                - link "What’s New" [ref=e773] [cursor=pointer]:
+                  - /url: /whats-new/
+              - listitem [ref=e774]:
+                - link "Grafana Cloud Status" [ref=e775] [cursor=pointer]:
+                  - /url: https://status.grafana.com/
+          - generic [ref=e776]:
+            - heading "Solutions" [level=3] [ref=e777]
+            - list [ref=e778]:
+              - listitem [ref=e779]:
+                - link "AI Observability" [ref=e780] [cursor=pointer]:
+                  - /url: /products/cloud/ai-tools-for-observability/#ai-observability-for-llms-and-beyond
+              - listitem [ref=e781]:
+                - link "Full-Stack Observability" [ref=e782] [cursor=pointer]:
+                  - /url: /solutions/full-stack-observability/
+              - listitem [ref=e783]:
+                - link "Infrastructure & Cloud Observability" [ref=e784] [cursor=pointer]:
+                  - /url: /solutions/cloud-infrastructure-observability/
+              - listitem [ref=e785]:
+                - link "Digital Experience Monitoring" [ref=e786] [cursor=pointer]:
+                  - /url: /solutions/digital-experience-monitoring/
+              - listitem [ref=e787]:
+                - link "Scaled Prometheus" [ref=e788] [cursor=pointer]:
+                  - /url: /products/cloud/metrics/#why-scale-metrics-with-grafana-cloud
+              - listitem [ref=e789]:
+                - link "Cost Management & Optimization" [ref=e790] [cursor=pointer]:
+                  - /url: /products/cloud/cost-management-optimization/
+              - listitem [ref=e791]:
+                - link "Site Reliability" [ref=e792] [cursor=pointer]:
+                  - /url: /solutions/site-reliability/
+              - listitem [ref=e793]:
+                - link "Log Management" [ref=e794] [cursor=pointer]:
+                  - /url: /products/cloud/logs/
+              - listitem [ref=e795]:
+                - link "Migrate to OpenTelemetry" [ref=e796] [cursor=pointer]:
+                  - /url: /solutions/opentelemetry/#migrate-to-open-telemetry
+          - generic [ref=e797]:
+            - heading "Integrations" [level=3] [ref=e798]
+            - list [ref=e799]:
+              - listitem [ref=e800]:
+                - link "All Integrations" [ref=e801] [cursor=pointer]:
+                  - /url: /integrations/
+              - listitem [ref=e802]:
+                - link "All Plugins" [ref=e803] [cursor=pointer]:
+                  - /url: /plugins/
+              - listitem [ref=e804]:
+                - link "AWS" [ref=e805] [cursor=pointer]:
+                  - /url: /integrations/cloud-monitoring-aws/
+              - listitem [ref=e806]:
+                - link "Google Cloud" [ref=e807] [cursor=pointer]:
+                  - /url: /integrations/cloud-monitoring-google-cloud/
+              - listitem [ref=e808]:
+                - link "Microsoft Azure" [ref=e809] [cursor=pointer]:
+                  - /url: /integrations/cloud-monitoring-microsoft-azure/
+              - listitem [ref=e810]:
+                - link "Kubernetes" [ref=e811] [cursor=pointer]:
+                  - /url: /products/cloud/kubernetes/
+              - listitem [ref=e812]:
+                - link "Datadog" [ref=e813] [cursor=pointer]:
+                  - /url: /integrations/datadog/visualize/
+              - listitem [ref=e814]:
+                - link "New Relic" [ref=e815] [cursor=pointer]:
+                  - /url: /integrations/new-relic/visualize/
+          - generic [ref=e816]:
+            - heading "Open Source" [level=3] [ref=e817]
+            - list [ref=e818]:
+              - listitem [ref=e819]:
+                - link "Our Projects" [ref=e820] [cursor=pointer]:
+                  - /url: /oss/
+              - listitem [ref=e821]:
+                - link "GitHub" [ref=e822] [cursor=pointer]:
+                  - /url: https://github.com/grafana/
+              - listitem [ref=e823]:
+                - link "Downloads" [ref=e824] [cursor=pointer]:
+                  - /url: /get/
+              - listitem [ref=e825]:
+                - link "Dashboard Templates" [ref=e826] [cursor=pointer]:
+                  - /url: /grafana/dashboards/
+          - generic [ref=e827]:
+            - heading "Learn" [level=3] [ref=e828]
+            - list [ref=e829]:
+              - listitem [ref=e830]:
+                - link "Documentation" [ref=e831] [cursor=pointer]:
+                  - /url: /docs/
+              - listitem [ref=e832]:
+                - link "Blog" [ref=e833] [cursor=pointer]:
+                  - /url: /blog/
+              - listitem [ref=e834]:
+                - link "Community" [ref=e835] [cursor=pointer]:
+                  - /url: /community/
+              - listitem [ref=e836]:
+                - link "Events" [ref=e837] [cursor=pointer]:
+                  - /url: /events/
+              - listitem [ref=e838]:
+                - link "Observability Survey & Reports" [ref=e839] [cursor=pointer]:
+                  - /url: /observability-benefits-for-business/
+          - generic [ref=e840]:
+            - generic [ref=e841]:
+              - heading "Company" [level=3] [ref=e842]
+              - list [ref=e843]:
+                - listitem [ref=e844]:
+                  - link "About Grafana Labs" [ref=e845] [cursor=pointer]:
+                    - /url: /about/grafana-labs/
+                - listitem [ref=e846]:
+                  - link "Careers" [ref=e847] [cursor=pointer]:
+                    - /url: /careers/
+                - listitem [ref=e848]:
+                  - link "Partnerships" [ref=e849] [cursor=pointer]:
+                    - /url: /partnerships/
+                - listitem [ref=e850]:
+                  - link "Newsroom" [ref=e851] [cursor=pointer]:
+                    - /url: /press/
+                - listitem [ref=e852]:
+                  - link "Success Stories" [ref=e853] [cursor=pointer]:
+                    - /url: /success/
+                - listitem [ref=e854]:
+                  - link "Contact Us" [ref=e855] [cursor=pointer]:
+                    - /url: /contact/
+                - listitem [ref=e856]:
+                  - link "Getting Help" [ref=e857] [cursor=pointer]:
+                    - /url: /help/
+                - listitem [ref=e858]:
+                  - link "Professional Services" [ref=e859] [cursor=pointer]:
+                    - /url: /professional-services/
+                - listitem [ref=e860]:
+                  - link "Hey AI" [ref=e861] [cursor=pointer]:
+                    - /url: /ai-info/
+            - generic [ref=e862]:
+              - heading "Compare" [level=3] [ref=e863]
+              - list [ref=e864]:
+                - listitem [ref=e865]:
+                  - link "Datadog vs. Grafana Cloud" [ref=e866] [cursor=pointer]:
+                    - /url: /compare/grafana-vs-datadog/
+                - listitem [ref=e867]:
+                  - link "Dynatrace vs. Grafana Cloud" [ref=e868] [cursor=pointer]:
+                    - /url: /compare/grafana-vs-dynatrace/
+                - listitem [ref=e869]:
+                  - link "Elasticsearch vs. Grafana Cloud" [ref=e870] [cursor=pointer]:
+                    - /url: /compare/grafana-vs-elastic/
+                - listitem [ref=e871]:
+                  - link "New Relic vs. Grafana Cloud" [ref=e872] [cursor=pointer]:
+                    - /url: /compare/grafana-vs-new-relic/
+                - listitem [ref=e873]:
+                  - link "PagerDuty vs. Grafana Cloud" [ref=e874] [cursor=pointer]:
+                    - /url: /compare/grafana-vs-pagerduty/
+                - listitem [ref=e875]:
+                  - link "Splunk vs. Grafana Cloud" [ref=e876] [cursor=pointer]:
+                    - /url: /compare/grafana-vs-splunk/
+        - generic [ref=e877]:
+          - generic [ref=e878]:
+            - generic:
+              - img "Grafana Labs x unique logomark"
+            - paragraph [ref=e880]:
+              - text: Donut take our word for it. Try
+              - link "Grafana Cloud" [ref=e882] [cursor=pointer]:
+                - /url: /products/cloud/
+              - text: today.
+          - generic [ref=e883]:
+            - generic [ref=e884]:
+              - navigation "Footer navigation" [ref=e885]:
+                - link "Grafana Cloud Status" [ref=e886] [cursor=pointer]:
+                  - /url: https://status.grafana.com/
+                - link "Legal & Security" [ref=e887] [cursor=pointer]:
+                  - /url: /legal/
+                - link "Terms of Service" [ref=e888] [cursor=pointer]:
+                  - /url: /legal/terms/
+                - link "Privacy Policy" [ref=e889] [cursor=pointer]:
+                  - /url: /legal/privacy-policy/
+                - link "Trademark Policy" [ref=e890] [cursor=pointer]:
+                  - /url: /trademark-policy/
+              - paragraph [ref=e892]: Copyright 2026 © Grafana Labs
+            - generic [ref=e893]:
+              - link "Facebook" [ref=e894] [cursor=pointer]:
+                - /url: https://www.facebook.com/grafana/
+                - img "Facebook" [ref=e895]
+              - link "X" [ref=e896] [cursor=pointer]:
+                - /url: https://twitter.com/grafana/
+                - img "X" [ref=e897]
+              - link "Linkedin" [ref=e898] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/grafana-labs/
+                - img "Linkedin" [ref=e899]
+              - link "Github" [ref=e900] [cursor=pointer]:
+                - /url: https://github.com/grafana/
+                - img "Github" [ref=e901]
+              - link "Youtube" [ref=e902] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCYCwgQAMm9sTJv0rgwQLCxw/
+                - img "Youtube" [ref=e903]
+              - link "Reddit" [ref=e904] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/grafana/
+                - img "Reddit" [ref=e905]

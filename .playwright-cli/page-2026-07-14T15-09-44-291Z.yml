@@ -1,0 +1,129 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - list:
+          - listitem [ref=e8]:
+            - link "Skip to Content" [ref=e9] [cursor=pointer]:
+              - /url: "#maincontent"
+          - listitem [ref=e10]:
+            - link "Skip to Search" [ref=e11] [cursor=pointer]:
+              - /url: "#skip_to_search_form"
+          - listitem [ref=e12]:
+            - link "Help Center Home" [ref=e13] [cursor=pointer]:
+              - /url: /
+              - text: Home
+      - generic [ref=e14]:
+        - navigation "site" [ref=e15]:
+          - generic "Oracle logo" [ref=e17]:
+            - link "Oracle.com Home" [ref=e18] [cursor=pointer]:
+              - /url: https://www.oracle.com
+          - button "Site Navigation" [ref=e22] [cursor=pointer]
+          - link "Help Center Home" [ref=e26] [cursor=pointer]:
+            - /url: /
+            - text: Help Center
+        - search [ref=e27]:
+          - group "Search Scope" [ref=e29] [cursor=pointer]:
+            - generic [ref=e31]: Flight Recorder API Programmer's Guide
+            - button "Remove" [ref=e32]
+          - searchbox "Search input text area" [ref=e35]
+        - alert
+        - dialog "account" [ref=e36]:
+          - navigation "Account" [ref=e37]:
+            - button "Account" [ref=e38] [cursor=pointer]
+  - generic [ref=e40]:
+    - generic [ref=e42]:
+      - navigation "Breadcrumb" [ref=e43]:
+        - list [ref=e44]:
+          - listitem [ref=e45]:
+            - link "Java" [ref=e46] [cursor=pointer]:
+              - /url: /en/java/index.html
+            - text: /
+          - listitem [ref=e47]:
+            - link "Java SE" [ref=e48] [cursor=pointer]:
+              - /url: /en/java/javase/index.html
+            - text: /
+          - listitem [ref=e49]:
+            - link "21" [ref=e50] [cursor=pointer]:
+              - /url: /en/java/javase/21/index.html
+      - heading "Flight Recorder API Programmer’s Guide" [level=1] [ref=e51]
+    - generic [ref=e54]:
+      - complementary "Table of Contents" [ref=e55]:
+        - toolbar [ref=e56]:
+          - button "Table of Contents" [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: 
+          - button "Flight Recorder API Programmer’s Guide" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: 
+          - generic "Share on Social Media" [ref=e67]:
+            - button "Share on Social Media" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]: 
+        - generic [ref=e74]:
+          - heading "Table of Contents" [level=2]
+      - main [ref=e76]:
+        - generic [ref=e78]:
+          - heading "Part II Create Events" [level=2] [ref=e79]
+          - generic [ref=e81]:
+            - paragraph [ref=e82]: "This section shows you how to create and record events. It contains the following topics:"
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - link "Creating and Recording Your First Event" [ref=e85] [cursor=pointer]:
+                  - /url: creating-and-recording-your-first-event.html#GUID-FDB5C21C-6B20-49A8-81C3-AC5606ECBDEC
+              - listitem [ref=e86]:
+                - link "Event Metadata" [ref=e87] [cursor=pointer]:
+                  - /url: event-metadata.html#GUID-E140C366-E196-4008-9D74-1C1F8550CA7E
+              - listitem [ref=e88]:
+                - link "Guidelines for Naming and Labeling Events" [ref=e89] [cursor=pointer]:
+                  - /url: guidelines-naming-and-labeling-events.html#GUID-3D9A59E1-E4E9-4017-B216-EE8550E730FF
+              - listitem [ref=e90]:
+                - link "Categories" [ref=e91] [cursor=pointer]:
+                  - /url: categories.html#GUID-A5FEB56C-D3B8-4E40-B9A0-926C264B8694
+              - listitem [ref=e92]:
+                - link "Measuring Time" [ref=e93] [cursor=pointer]:
+                  - /url: measuring-time.html#GUID-2D9F075F-8055-4F32-ABC7-0D057AF02367
+              - listitem [ref=e94]:
+                - link "Data Types" [ref=e95] [cursor=pointer]:
+                  - /url: data-types.html#GUID-E5BBB808-300F-4605-A836-37F35EABB5C3
+              - listitem [ref=e96]:
+                - link "Dynamic Events" [ref=e97] [cursor=pointer]:
+                  - /url: dynamic-events.html#GUID-36FB49A2-8551-4068-8B8C-A581DA769C61
+              - listitem [ref=e98]:
+                - link "Custom Annotations" [ref=e99] [cursor=pointer]:
+                  - /url: custom-annotations.html#GUID-63710D59-274D-4B0B-A47D-1E6948A9142E
+              - listitem [ref=e100]:
+                - link "Inheritance of Annotations, Settings, and Fields" [ref=e101] [cursor=pointer]:
+                  - /url: inheritance-annotations-settings-and-fields.html#GUID-95FD2B40-C082-4535-8156-0EEEC59B3903
+        - navigation "Book" [ref=e105]:
+          - button "Previous Page" [ref=e107] [cursor=pointer]:
+            - generic [ref=e108]:
+              - generic [ref=e109]: 
+              - generic [ref=e111]: Previous Page
+          - button "Next Page" [ref=e113] [cursor=pointer]:
+            - generic [ref=e114]:
+              - generic [ref=e115]: Next Page
+              - generic [ref=e116]: 
+      - text: 
+  - contentinfo [ref=e118]:
+    - generic [ref=e119]:
+      - region "Feedback" [ref=e121] [cursor=pointer]:
+        - button "Feedback" [ref=e122]
+      - list [ref=e123]:
+        - listitem [ref=e124]:
+          - link "© Oracle" [ref=e125] [cursor=pointer]:
+            - /url: https://docs.oracle.com/pls/topic/lookup?ctx=en/legal&id=cpyr
+        - listitem [ref=e126]:
+          - link "About Oracle" [ref=e127] [cursor=pointer]:
+            - /url: https://www.oracle.com/corporate/
+        - listitem [ref=e128]:
+          - link "Contact Us" [ref=e129] [cursor=pointer]:
+            - /url: https://www.oracle.com/corporate/contact/
+        - listitem [ref=e130]:
+          - link "Products & Services" [ref=e131] [cursor=pointer]:
+            - /url: https://docs.oracle.com/pls/topic/lookup?ctx=en&id=a-z
+        - listitem [ref=e132]:
+          - link "Terms of Use & Privacy" [ref=e133] [cursor=pointer]:
+            - /url: https://www.oracle.com/legal/privacy/
+        - listitem:
+          - region "Cookie Preferences"
+        - listitem [ref=e134]:
+          - link "Ad Choices" [ref=e135] [cursor=pointer]:
+            - /url: https://www.oracle.com/legal/privacy/advertising-privacy-policy.html
