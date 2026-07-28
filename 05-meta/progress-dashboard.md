@@ -5,6 +5,7 @@
 | Topic | Phase | Strength | Weak Spot | Next Milestone |
 | --- | --- | --- | --- | --- |
 | Example: typescript | Foundations | Basic syntax | Advanced types | Solve 10 representative problems |
+| cross-layer-system-design | Phase 0 | 完整知识地图与项目路线 | 尚无实验和性能数据 | 完成 V0 基准与一页复盘 |
 
 ## Research Progress
 
