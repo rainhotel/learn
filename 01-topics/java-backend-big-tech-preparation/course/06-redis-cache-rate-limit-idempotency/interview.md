@@ -92,7 +92,7 @@
 
 ### 19. Cluster 为什么是 16384 slots？
 
-key 通过 CRC16 映射到槽，槽是分片与迁移单位。客户端缓存槽映射，hash tag 支持多 key 同槽。
+哈希槽是 Redis Cluster 的逻辑分片单位，不是 Redis Hash。集群固定有 16384 个槽，key 通过 `CRC16(key) % 16384` 映射到槽，再由槽位映射到主节点。槽既是路由单位，也是扩缩容时的迁移单位；客户端缓存槽映射，路由错误时根据 `MOVED` 刷新，迁移期间根据 `ASK` 临时转发。多 key 操作要求同槽，可用 `user:{1001}:profile` 和 `user:{1001}:quota` 这类 hash tag 实现，但要警惕热槽。
 
 ### 20. Cluster 会丢写吗？
 
